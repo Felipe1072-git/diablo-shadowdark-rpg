@@ -22,8 +22,8 @@ Sem conceito de raças: todos os personagens são humanos/nephalem. O Cap. 4 exp
 |---|---|---|
 | Capa | ✅ Pronto | linha 1 |
 | Introdução | ✅ Pronto | linha 7 |
-| **Cap. 1: Jogando o Jogo** | ⚠️ Parcial | Combate/PA l.149, Mana l.238, Tempo l.489, Viagem l.550, Encontros l.649, Matriz de Resistência l.1862 — *faltam: dados, atributos, testes de d20, salvaguardas* |
-| **Cap. 2: Criando um Personagem** | ⚠️ Parcial | Títulos e Renome l.89 — *faltam: passo a passo de criação, avanço de nível* |
+| **Cap. 1: Jogando o Jogo** | ✅ Pronto | Regras base adicionadas (dados, atributos, testes, salvaguardas, PV). Combate/PA, Mana, Tempo, Viagem, Encontros, Matriz de Resistência já existiam |
+| **Cap. 2: Criando um Personagem** | ✅ Pronto | Passo a passo, kits iniciais das 18 classes, avanço de nível 1–10 (marcos ou XP) |
 | **Cap. 3: Classes** | ✅ Pronto | `01-classes.md` |
 | **Cap. 4: Origens** | ❌ Faltando | — |
 | **Cap. 5: Talentos** | ❌ Faltando | Só existe dentro das classes |
@@ -47,8 +47,8 @@ Sem conceito de raças: todos os personagens são humanos/nephalem. O Cap. 4 exp
 - `Ideias` l.1714 — rascunhos internos
 
 ### Prioridade de trabalho
-1. Regras básicas do Cap. 1 (dados, atributos, testes de d20, salvaguardas)
-2. Passo a passo de criação e avanço de nível (Cap. 2)
+1. ~~Regras básicas do Cap. 1~~ ✅
+2. ~~Passo a passo de criação e avanço de nível (Cap. 2)~~ ✅
 3. Cap. 4: Origens (antecedentes temáticos do universo Diablo)
 4. Cap. 5: Talentos (capítulo separado)
 5. Mover cenários para arquivos individuais em `cenarios/`
