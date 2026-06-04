@@ -1212,6 +1212,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Carisma. |
+
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de lacaios. |
 | **5** | **Maestria Demoníaca (Passivo):** Seus demônios conjurados e aprisionados ficam mais fortes. Eles somam o dobro da sua inteligência no HP, andam o dobro e causam 1d6 de dano extra. |
 | **6 (1)** | **Marca da Morte (Feitiço) (◈ \+ 1 Mana por demônio):** Teleporta seus demônios para um inimigo perto e os permite fazer um ataque. |
@@ -1229,6 +1230,15 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **18** | **Lâminas Espelhadas (◈ \+ 3 Mana por duplicata):** Com apenas uma ação, você ataca com duplicatas da sua arma flutuante. |
 | **19** | **Forma Demoníaca** **(◈ \+ 5 Mana por HP e dado):** Você se transforma em um demônio, Sua For é \+5 e ganhe 20 HP temporários. Com uma ação ◈ você pode fazer 2 ataques de garra ou 1 ataque laser a distância. Ambos causam 3d6 de fogo. A transformação dura 1d4 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
+
+---
+
+### **Dicas**
+
+1. **O Sangue é a Moeda:** Quando o Warlock usar o **Pacto de Sangue**, o jogador tira fisicamente HP da ficha dele. Crie um marcador visual diferente para "HP perdido por Pacto" — pedras vermelhas, por exemplo. Isso reforça que o poder tem um custo real.
+2. **A Horda no Tabuleiro:** Para cada demônio conjurado, coloque uma miniatura de cor diferente na mesa. Quando o Warlock age com todos de uma vez, o jogador move todas ao mesmo tempo. O impacto visual de um exército pessoal é o charme da classe.
+3. **A Arma Flutuante:** Se possível, use um fio transparente ou palito de dente para "suspender" a miniatura da arma sobre a mesa. Se não tiver, coloque um marcador ao lado da miniatura do Warlock para indicar que a arma está levitando — isso diferencia visualmente o ataque de arma do ataque de feitiço.
+4. **A Maldição como Aviso:** Quando o **Mestre das Maldições** estiver ativo, coloque um anel de cor escura (roxo ou preto) ao redor da miniatura do inimigo maldito. Todos na mesa sabem: "esse daqui, a gente ataca com vantagem".
 
 ### Objetivos & Recompensas
 
