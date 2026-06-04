@@ -3,7 +3,6 @@
 | Versão: 1.0 (Playtest) Sistema: Diablo RPG Autor: Paulo Souza |
 | :---- |
 
-## 
 
 # Introdução
 
@@ -286,11 +285,8 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 2. **Visualizando os Combos:** Use dados de cores diferentes para as Cargas de Combo. Quando a Assassina atingir 3 cargas, o jogador pode trocar por um dado maior (um d20 gigante, por exemplo) para representar o **Finalizador**. Isso cria um "clímax" visual no turno dela.  
 3. **A "Sombra" Tátil:** Se ela usar o *Guerreiro das Sombras*, use uma miniatura igual à dela, mas pintada de preto ou roxo transparente. Ela não tem vida própria; se a Assassina for atingida, a sombra pode desaparecer.
 
-   ### 
 
-   ### 
 
-### 
 
 ### **Objetivos & Recompensas**
 
@@ -350,9 +346,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 2. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se ele quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em fúrias, ele sempre tem **Vantagem**. Isso torna o combate tátil e dinâmico.  
 3. **Marcador de Fúria:** Use um dado vermelho grande ou um anel de status para marcar quando o Bárbaro está em Fúria. Isso serve de aviso visual para os outros jogadores: "Ele está causando muito dano, mas também está vulnerável".
 
-   ### 
 
-### 
 
 ### **Objetivos & Recompensas**
 
@@ -531,11 +525,8 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 2. **Uso de Auras (Leis):** Como no Paladino, use anéis de cores diferentes na base da miniatura para representar qual "Lei" está ativa. Isso evita que o mestre e os jogadores esqueçam os bônus constantes.  
 3. **Sacrifício de Escudo:** No Shadowdark, escudos podem quebrar para evitar um dano fatal (Aparar). É um momento heroico e dramático na mesa.
 
-   ### 
 
-   ### 
 
-   ### 
 
 ### **Objetivos & Recompensas**
 
@@ -660,9 +651,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 2. **Combate Acrobático:** O Natispirito deve se mover muito. Se o jogador descrever uma acrobacia (usar o cajado para saltar sobre um inimigo, por exemplo), ele ganha \+1 no dano. Isso incentiva o "estilo" de Nahantu.  
 3. **Visualizando o Veneno:** Use marcadores verdes (como pecinhas de plástico ou dados verdes) para os inimigos atingidos pela Centopeia. "O dano contínuo só é divertido se você vê ele acontecendo". Retirar o HP do monstro no início do turno dele cria expectativa.
 
-   ### 
 
-### 
 
 ### **Objetivos & Recompensas**
 
@@ -782,7 +771,6 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 3. **Mecânica de Reparo Tátil:** Se alguém tirar "1" num dado de ataque, a arma fica "cega" ou danificada (-1 no dano). O Guerreiro então brilha ao usar a habilidade de **Reparar** durante o acampamento, consertando as miniaturas/fichas dos amigos. Isso faz o guerreiro se sentir útil fora do combate.  
 4. **Tática de Empurrão:** Como usamos miniaturas, o Guerreiro deve usar o cenário. Ele pode chutar um monstro num buraco ou empurrá-lo contra uma parede de espinhos. O Mestre sempre recompensa jogadores que usam a física do mundo.
 
-   ### 
 
 ### **Objetivos & Recompensas**
 
@@ -1335,7 +1323,6 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 | **Preparar** | **◈ ou \+◈** | Ação | Define um gatilho para realizar uma ação fora do seu turno. |
 | **Troca Rápida** | ◇ | Livre | Trocar uma arma leve ou soltar algo no chão (1x por turno). |
 
-## 
 
 ---
 
@@ -1435,7 +1422,6 @@ Se o seu Mana chegar a **0**, você entra em um estado de fadiga profunda:
 
 ![][image1]
 
-### 
 
 ### **Resumo de Interação (AP vs. Mana)**
 
@@ -1482,7 +1468,6 @@ Canalizar o poder arcano drena a mente e o corpo. No calor da batalha, cada suce
 
 ### 3\. A Falha: O Alívio da Mente
 
-### 
 
 ### Diferente de outros sistemas, **falhar não significa perder o feitiço**. Significa que a energia não foi canalizada, permitindo que a mente do conjurador descanse e se restabeleça.
 
@@ -1585,7 +1570,6 @@ Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a C
 | **Escudo de Madeira** | \+2 | Pesado (Requer Força 13), Quebrável (Ignore um golpe, destrua o escudo). | 15 po |
 | **Escudo de Torre (Tower)** | \+3 | Pesado (Requer Força 15), Quebrável, Desvantagem em testes de destreza e movimento \-1.  | 60 po |
 
-### 
 
 ### **Catalisadores**
 
@@ -1685,7 +1669,6 @@ Cada **Personagem** tem uma **Vida,** que tem 3 **Eras**:
 | **2-3** | **Deterioração:** A situação piora significativamente. |
 | **4-6** | **Alívio:** A situação melhora ou se resolve favoravelmente. |
 
-### 
 
 # Viagem
 
@@ -1749,7 +1732,6 @@ Cada **Mito** possui 6 **Augúrios**, listados na ordem em que são encontrados.
 
 **Lembre-se da Primazia da Ação:** Se os jogadores quiserem caçar Diablo, eles não precisam esperar que o Augúrio apareça se tomarem a iniciativa por conta própria.
 
-### 
 
 ### HEXÁGONOS DE MITO (MYTH HEXES)
 
@@ -1898,7 +1880,6 @@ Viajantes que se encontrarem vagando sem senso de direção, ou cercados por esc
 | **4** | **Ruína Estável** – Estrutura segura com um tesouro escondido no sótão ou porão. |
 | **5-6**  | **Acampamento de Refugiados ou Posto Avançado** – Local seguro o suficiente para um **Descanso Longo**. |
 
-## 
 
 # Tesouros
 
@@ -2240,7 +2221,6 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 | **99** | Cham	Gelo Eterno | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. |  |
 | **100** | Zod	Eternidade | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. |  |
 
-## 
 
 # Senhor da Mentira
 
@@ -2618,7 +2598,6 @@ O Sarcófago Escarlate reage à presença de intrusos e à violência derramada 
 **Ataque (Distância):** Raio Sombrio (+4 para acertar, alcance 18m, dano 1d8 necrótico).  
 **Habilidade \- Sacrifício (Recarga 5-6 no d6):** Como uma Ação, destrói um Fanático aliado a até 1,5m para recuperar 2d8 PV.
 
-### 
 
 #### **Capanga: Bandido de Tristram**
 
@@ -3033,7 +3012,6 @@ Um Xamã Caído lança uma Bola de Fogo que causa 18 de dano.
 
 ---
 
-## 
 
 ## **2\. Os Tipos de Dano**
 
@@ -3120,29 +3098,17 @@ Aqui estão as tabelas que sumarizam a Matriz de Resistência para o Mestre e o 
 
 ---
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
-## 
 
 ## **TABELA 1: MATRIZ DE RESISTÊNCIA DO PERSONAGEM (RD Por Tipo)**
 
