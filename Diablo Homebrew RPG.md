@@ -253,6 +253,41 @@ Estes títulos não são dados na criação; são tomados à força durante o jo
 | **Mestre das Chaves** | Abrir 20 baús ou portas trancadas. | Destrancar fechaduras torna-se uma **Ação Livre** para você (uma vez por turno). |
 | **O Horadrim** | Identificar 10 itens mágicos ou lendários. | **Saber Ancestral:** Você identifica itens instantaneamente ao tocar e ganha \+1d20 em testes de Misticismo. |
 
+# Cap. 4: Origens
+
+A origem de um personagem é definida por duas escolhas: **de onde ele veio** e **o que ele fazia antes de ser herói**.
+
+Todos os habitantes de Santuário são humanos ou nephalem — descendentes mortais dos anjos e demônios que se uniram no início dos tempos. Não há raças distintas neste sistema: o que diferencia os personagens é sua história, não sua natureza.
+
+---
+
+## Título de Origem
+
+O Título de Origem representa a região onde você cresceu. Ele já está definido no **Sistema de Títulos e Renome** — escolha um dos 12 títulos regionais durante a criação do personagem. Esse título é seu **Título Ativo inicial** e concede um talento passivo imediato.
+
+---
+
+## Antecedente
+
+O Antecedente representa o que você fazia antes de se tornar um herói. Escolha um dos 12 antecedentes abaixo e anote a habilidade correspondente — ela é permanente e não ocupa o slot de Título Ativo.
+
+| # | Antecedente | Quem você era | Habilidade |
+| :---- | :---- | :---- | :---- |
+| 1 | **Soldado** | Serviu nas forças militares de algum reino de Santuário | *Disciplina de Combate:* Uma vez por combate, gaste ◇ para ganhar +2 na CA até o início do seu próximo turno. |
+| 2 | **Sobrevivente** | Viveu em território devastado por demônios e saiu andando | *Instinto de Sobrevivência:* Quando seus PV caem à metade ou menos, você ganha Vantagem em testes de DES e movimento até o fim do combate. |
+| 3 | **Alquimista** | Passou anos preparando poções, venenos e reagentes | *Mestre de Poções:* Ao usar uma poção, recupere +1d4 adicional de PV ou Mana (escolha no momento). |
+| 4 | **Ferreiro** | Forjava e reparava armas e armaduras pelos vilarejos de Santuário | *Trabalho em Metal:* Você identifica propriedades de armas e armaduras ao tocá-las. Itens que você usa demoram o dobro do tempo para se desgastar ou quebrar. |
+| 5 | **Eremita** | Anos em isolamento meditando ou sobrevivendo na natureza | *Autossuficiência:* Nunca precisa rolar para encontrar alimento ou abrigo em ambientes naturais. Vantagem em testes de SAB para perceber perigos ou emboscadas. |
+| 6 | **Mercador** | Vendia mercadorias pelas estradas perigosas de Santuário | *Olho de Negociante:* Sabe o valor real de qualquer item ao examiná-lo. Uma vez por sessão, compre ou venda um item por 20% fora do preço normal. |
+| 7 | **Devoto** | Seguia uma ordem religiosa ou espiritual antes de partir para o mundo | *Fé Inabalável:* Uma vez por descanso longo, toque um aliado (◈) para restaurar 1d8 PV. Se o alvo estiver a 0 PV, restaura 2d8. |
+| 8 | **Criminoso** | Sobrevivia às margens da lei — ladrão, contrabandista ou mercenário | *Mãos Ágeis:* Vantagem em testes para esconder objetos, abrir fechaduras ou agir furtivamente. Nunca é surpreendido em ambientes urbanos. |
+| 9 | **Estudioso** | Pesquisou artefatos, criaturas e os segredos ocultos de Santuário | *Conhecimento Proibido:* Vantagem em testes de INT para identificar demônios, criaturas ou artefatos. Uma vez por sessão, o Mestre revela uma informação extra sobre uma criatura ou item que você examinar. |
+| 10 | **Caçador** | Rastreava animais e criaturas pelas terras selvagens de Santuário | *Rastejador:* Vantagem em testes de rastreamento e em testes de DES para se mover silenciosamente. Nunca é surpreendido em ambientes naturais. |
+| 11 | **Guarda** | Protegia uma cidade, caravana ou nobre antes do caos chegar | *Postura de Guarda:* Quando um aliado adjacente sofre um ataque, use ⟁ para reduzir o dano por 1d6 (sem custo de Mana). |
+| 12 | **Renegado** | Serviu forças sombrias antes de se arrepender e partir | *Conhecimento do Inimigo:* Uma vez por combate, revele a fraqueza de um demônio como ◇ — todos os aliados ganham Vantagem em um ataque contra ele. |
+
+---
+
 # Cap. 1: Jogando o Jogo
 
 ## Os Dados
