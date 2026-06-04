@@ -13,14 +13,19 @@ RPG de mesa homebrew inspirado na franquia **Diablo**. Criado por Paulo Souza (G
 
 ## Fluxo de Trabalho
 
-O documento é editado no **Google Docs** e versionado no **GitHub** como Markdown:
+O documento é editado no **Google Docs** e versionado no **GitHub** como Markdown.
 
-1. Paulo edita o documento no **Google Docs**
-2. Quando quiser salvar: `Arquivo → Fazer download → Markdown (.md)` e salvar na pasta do Drive
-3. O arquivo fica disponível em: `G:\Meu Drive\Cool Side of RPG\Diablo RPG\Diablo Homebrew RPG.md`
-4. Claude lê direto dessa pasta, copia para o repo local e commita no GitHub
+**Duas pastas distintas — nunca misturar:**
+- `G:\Meu Drive\Cool Side of RPG\Diablo RPG\` → pasta do **Google Drive** (somente arquivos de conteúdo, sem git)
+- `C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\` → **repositório git** local (aqui rodam todos os commits e pushes)
 
-**Repo local clonado em:** `C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\`
+**Passo a passo para salvar uma versão:**
+1. Paulo edita no **Google Docs**
+2. `Arquivo → Fazer download → Markdown (.md)` → salvar em `G:\Meu Drive\Cool Side of RPG\Diablo RPG\`
+3. Claude copia o `.md` do Drive para o repo: `C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\`
+4. Claude commita e faz push a partir do repo (nunca da pasta do Drive)
+
+**Para compartilhar com os jogadores:** o documento final fica em https://github.com/Felipe1072-git/diablo-shadowdark-rpg — basta enviar o link do arquivo `.md` ou usar o GitHub para gerar um PDF/visualização.
 
 ## Convenções de Commit
 
