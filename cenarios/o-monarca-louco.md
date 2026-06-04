@@ -17,20 +17,20 @@
 **Elenco (Cast)**
 
 **Guarda Real Desperto (Awakened Royal Guard)**   
-CA 13 (Cota de Malha Enferrujada), HP 6, MV Perto   
-**Alabarda Lascada (Ataque Corpo a Corpo/Perto)**: \+2 (1d6 de dano).  
+CA 13 (Cota de Malha Enferrujada), HP 6, MV Próximo   
+**Alabarda Lascada (Ataque Corpo a Corpo/Próximo)**: \+2 (1d6 de dano).  
 Soldados mortos que ainda obedecem. Têm Vantagem em testes de moral e nunca recuam. Se sofrerem um Acerto Crítico, perdem um braço ou a cabeça, mas continuam lutando às cegas.
 
 **Mago da Corte Esquelético (Skeletal Court Mage)**   
-CA 11, HP 9, MV Perto   
-**Raio Gélido (Ataque à Distância, Longe)**: \+3 (1d6 de dano de frio e o alvo tem o movimento reduzido pela metade no próximo turno).   
+CA 11, HP 9, MV Próximo   
+**Raio Gélido (Ataque à Distância, Distante)**: \+3 (1d6 de dano de frio e o alvo tem o movimento reduzido pela metade no próximo turno).   
 Conselheiros que foram enterrados vivos com o rei. Eles levitam a poucos centímetros do chão e murmuram feitiços de rancor.
 
 **O Rei Esqueleto (The Skeleton King)**   
-CA 15 (Placas Reais Antigas), HP 65, MV Perto   
+CA 15 (Placas Reais Antigas), HP 65, MV Próximo   
 FOR \+4 | DES \-1 | CON \+3 | INT \+1 | SAB \+0 | CAR \+3   
 **Maça do Rei Louco (Ataque Corpo a Corpo)**: \+6 (1d10+3 de dano). Em um Acerto Crítico, o alvo tem ossos esmagados (Desvantagem em testes de FOR/DES até ser curado magicamente).   
-**Golpe Varredor:** Uma vez a cada 1d4 rodadas, o Rei gira sua maça colossal. Todos os personagens a uma distância "Perto" devem fazer um Teste de DES DC 13\. Falha resulta em 2d6 de dano contundente e são arremessados para trás.   
+**Golpe Varredor:** Uma vez a cada 1d4 rodadas, o Rei gira sua maça colossal. Todos os personagens a uma distância "Próximo" devem fazer um Teste de DES DC 13\. Falha resulta em 2d6 de dano contundente e são arremessados para trás.   
 **"Ergam-se, meus súditos\!":** Como uma ação, ele invoca a lealdade dos mortos. 1d4 Guardas Reais Despertos emergem do chão ou caem do teto.
 
 ---
@@ -52,8 +52,8 @@ Quando o Monarca Louco finalmente desmorona, seus ossos se transformam em pó br
 | 1d6 | Relíquia da Coroa | Efeito (Regras Shadowdark) |
 | :---- | :---- | :---- |
 | **1** | **A Coroa do Monarca Louco** | Um elmo de ouro negro (+1 na CA). Mortos-vivos menores hesitam em atacar o usuário (Vantagem em testes de Carisma contra eles). O custo: a coroa sussurra traições. O usuário nunca pode aceitar ordens de outro membro do grupo sem rolar um Teste de SAB (DC 13). |
-| **2** | **Maça Esmaga-Ossos** | Arma Corpo a Corpo (+1). Causa 1d10 de dano. Se o usuário rolar o dano máximo, o alvo perde seu próximo turno contorcendo-se de dor. A maldição: a arma é incrivelmente pesada, reduzindo o movimento do portador em "Perto" (não pode usar a ação de movimento extra). |
+| **2** | **Maça Esmaga-Ossos** | Arma Corpo a Corpo (+1). Causa 1d10 de dano. Se o usuário rolar o dano máximo, o alvo perde seu próximo turno contorcendo-se de dor. A maldição: a arma é incrivelmente pesada, reduzindo o movimento do portador em "Próximo" (não pode usar a ação de movimento extra). |
 | **3** | **Selo de Khanduras** | Um anel de sinete gélido. Concede imunidade a dano de Frio e a magias de paralisação. No entanto, o calor da vida foge do portador; magias de cura lançadas sobre ele recuperam apenas metade do HP rolado. |
 | **4** | **Placas Reais Enferrujadas** | Armadura de Placas (+2 na CA). Concede \+1 permanente em Constituição (CON). O problema: a armadura carrega o orgulho do rei. O usuário sofre Desvantagem em testes de moral e recusa-se a fugir de qualquer combate, mesmo quando a morte é certa. |
 | **5** | **Tomo dos Decretos Póstumos** | Um livro de leis escrito em sangue seco. O leitor pode conjurar a magia *Comando* 1x/dia com Vantagem. Mas ler as leis enlouquece a mente; a cada uso, o conjurador sofre 1d4 de dano psíquico/mental (CLA/SPI). |
-| **6** | **Runa do Despertar (Nef)** | Pedra rúnica cor de marfim. Engastada em uma arma, seus ataques empurram o alvo para "Perto" em um acerto. Engastada em armadura, concede \+1 de CA contra projéteis. A maldição: dormir com a runa próxima atrai os espíritos de soldados mortos que perturbam o descanso (50% de chance de não recuperar HP no descanso longo). |
+| **6** | **Runa do Despertar (Nef)** | Pedra rúnica cor de marfim. Engastada em uma arma, seus ataques empurram o alvo para "Próximo" em um acerto. Engastada em armadura, concede \+1 de CA contra projéteis. A maldição: dormir com a runa próxima atrai os espíritos de soldados mortos que perturbam o descanso (50% de chance de não recuperar HP no descanso longo). |

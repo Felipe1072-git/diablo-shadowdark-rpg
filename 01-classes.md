@@ -65,7 +65,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **10** | **Flecha de Fogo (◈ \+ 2 Mana por dado):** Adicione \+1d6 de dano de fogo a um ataque de arco. |
 | **11** | **Flecha de Gelo (◈ \+ 2 Mana por dado):** Adicione \+1d6 de dano de gelo a um ataque de arco.  **Extra (◇ \+ 2 Mana):** Um alvo atingido por seu arco fica congelado (não se move no próximo turno). |
 | **12** | **Flecha Guia (⟁ \+ 4 Mana):** Como uma reação, você pode transformar um erro em um acerto automático (causa dano normal). |
-| **13** | **Flechas Múltiplas (◈ \+ 1 Mana por alvo):** Como uma ação, ataque múltiplos alvos "Perto" entre si com uma única rolagem de ataque. |
+| **13** | **Flechas Múltiplas (◈ \+ 1 Mana por alvo):** Como uma ação, ataque múltiplos alvos "Próximo" entre si com uma única rolagem de ataque. |
 | **14** | **Jab (◈ \+ 3 Mana):** Se usar uma lança, você pode fazer 3 ataques rápidos em um único alvo, cada um causando 1d4 de dano extra em cada ataque. |
 | **15** | **Azagaia de Veneno (◈ \+ 1 Mana por dado):** Sua azagaia arremessada deixa uma nuvem. Alvos na área sofrem 1d4 de dano por 3 rodadas. |
 | **16** | **Fúria dos Raios (◈◈ \+ 1 Mana por dado):** Sua lança arremessada explode em raios, causando 2d6 de dano em área (perto do alvo). |
@@ -118,8 +118,8 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Destreza. |
 | **3-4** | \+1 em testes de conjuração ou \+1 na AC. |
-| **5** | **Explosão de Energia (⟁ \+ 1 Mana por dado):** Quando sofrer dano, cause 1d6 de força e empurre o inimigo para um local "Perto". |
-| **6** | **Teleporte (◈ \+ 1 Mana ou ◈ \+ 2 Mana por Aliado):** Como movimento, você pode se teleportar para um lugar "Perto". Alternativamente, você pode teleportar a você e um aliado perto. |
+| **5** | **Explosão de Energia (⟁ \+ 1 Mana por dado):** Quando sofrer dano, cause 1d6 de força e empurre o inimigo para um local "Próximo". |
+| **6** | **Teleporte (◈ \+ 1 Mana ou ◈ \+ 2 Mana por Aliado):** Como movimento, você pode se teleportar para um lugar "Próximo". Alternativamente, você pode teleportar a você e um aliado perto. |
 | **7** | **Lente Arcana (Passiva):** Suas magias têm o dobro de alcance. |
 | **8** | **Torrente Arcana (Passiva):** Seus projéteis mágicos causam \+1d4 de dano extra se você não se moveu nessa rodada. |
 | **9 (1)** | **Slow Time (Feitiço) (◈◈ \+ 1 Mana por rodada):** Crie uma zona de lentidão por 1 rodada. Os projéteis param no ar, todas as criaturas têm metade da movimentação e só é possível fazer 1 ação **◈** por rodada. |
@@ -127,7 +127,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | **11** | **Escudo de Diamante (⟁ \+ 3 Mana):** Como uma reação, mitigue todo o dano recebido em um ataque. |
 | **12 (3)** | **Desintegrar (Feitiço) (◈ por rodada \+ 1 Mana):** Canalize um raio que causa 1d10 de dano de força por turno enquanto mantiver concentração. A cada rodada que a concentração é mantida o dano aumenta em \+1d10. Criaturas mortas por esse feitiço viram pó. |
 | **13** | **Ilusionismo (⟁ \+ 2 Mana):** Quando sofrer dano, cria 2 duplicatas (inimigos têm 50% de chance de errar e acertar uma das duplicatas). As duplicatas duram 1d4 rodadas. |
-| **14 (4)** | **Buraco Negro (Feitiço) (◈◈ \+ 2 Mana por dado):** Puxe todas as miniaturas "Perto" de um ponto para o centro e cause 2d8 de dano necrótico. |
+| **14 (4)** | **Buraco Negro (Feitiço) (◈◈ \+ 2 Mana por dado):** Puxe todas as miniaturas "Próximo" de um ponto para o centro e cause 2d8 de dano necrótico. |
 | **15** | **Anomalia Instável (⟁ \+ 2 Mana por dado):** Se cair para 0 HP, explode em energia (2d6 dano de força adjacente) e fica com 1 HP. |
 | **16 (5)** | **Espada Espectral (Feitiço) (◈◈ \+ 1 Mana por dado):** Uma Lâmina Espectral que atinge um arco curto à frente do Arcanista, todos os inimigos adjacentes a um ponto perto sofrem 1d6 dano de força, fogo, gelo ou elétrico. |
 | **17** | **Arconte (◈◈ \+ 5 Mana):** Transforme-se em energia pura (Vantagem em todos testes de feitiços e \+5 de dano em todos os feitiços) por 1d4 rodadas. |
@@ -181,11 +181,11 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **5 (1)** | **Punhos de Fogo (◇ Finalizador):** Gaste cargas para causar \+1d6 de fogo por carga no ataque. |
 | **6 (2)** | **Garras de Gelo (◇ Finalizador):** Gaste 1 carga para congelar o alvo por 1 rodada no ataque. 1 Carga por rodada |
 | **7 (3)** | **Golpe do Tigre (◇ Finalizador):** Gaste 3 cargas para causar dano máximo automático no ataque. |
-| **8 (4)** | **Chute do Dragão (Finalizador) (◈◈ \+ 1 Mana por chute) :** Gaste 1 carga, faça um chute (ou mais) que arremessa inimigos adjacentes para "Longe". |
+| **8 (4)** | **Chute do Dragão (Finalizador) (◈◈ \+ 1 Mana por chute) :** Gaste 1 carga, faça um chute (ou mais) que arremessa inimigos adjacentes para "Distante". |
 | **9** | **Vôo do Dragão (Finalizador) (◈◈◈ \+ 2 Mana por dado) :** Gaste 1 carga, teleporte para um inimigo perto e faça chute com Vantagem que causa 3d6 de dano físico. |
 | **10** | **Burst of Speed (◈◈◈):** Uma vez por dia, você recupera toda sua mana. |
-| **11** | **Manto de Sombras (◈ \+ 2 Mana):** Escuridão mágica te envolve. Inimigos "Perto" têm Desvantagem para atacar até o início do seu próximo turno. |
-| **12** | **Sentinela de Fogo (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele cospe fogo dano 1d6 em quem passar "Perto". |
+| **11** | **Manto de Sombras (◈ \+ 2 Mana):** Escuridão mágica te envolve. Inimigos "Próximo" têm Desvantagem para atacar até o início do seu próximo turno. |
+| **12** | **Sentinela de Fogo (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele cospe fogo dano 1d6 em quem passar "Próximo". |
 | **13** | **Sentinela de Raios (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele atira um raio no inimigo mais próximo todo turno (dano 1d6). |
 | **14** | **Sentinela da Morte (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Quando alguém morre perto dela, ela explode o cadáver (1d8 dano). |
 | **15** | **Mestra das Armadilhas (Passiva):** Você pode ter duas armadilhas ativas ao mesmo tempo na mesa. |
@@ -238,8 +238,8 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | :---- | :---- |
 | **1-2** | \+2 de Força ou \+2 de Constituição. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+2 de HP. |
-| **5** | **Salto (◈ \+ 1 Mana):** Como movimento, salte para qualquer lugar "Perto", ignorando obstáculos e faça um ataque. |
-| **6** | **Pancada (◇ \+ 2 Mana):** Se acertar um ataque, empurre o inimigo para "Perto". O inimigo deve rolar um teste de Constituição ou Força. Se falhar, ele precisará usar duas ações **◈◈** para movimentar até o início do seu próximo turno. |
+| **5** | **Salto (◈ \+ 1 Mana):** Como movimento, salte para qualquer lugar "Próximo", ignorando obstáculos e faça um ataque. |
+| **6** | **Pancada (◇ \+ 2 Mana):** Se acertar um ataque, empurre o inimigo para "Próximo". O inimigo deve rolar um teste de Constituição ou Força. Se falhar, ele precisará usar duas ações **◈◈** para movimentar até o início do seu próximo turno. |
 | **7** | **Turbilhão (◈ \+ 3 Mana):** Ataque todos os inimigos ao seu alcance com uma única rolagem. |
 | **8** | **Grito de Guerra (◇  \+ 2 Mana):** O Bárbaro grita e recebe (ou concede a aliados próximos) \+1d6 de PV Temporário. |
 | **9** | **Resistência Natural (Passiva):** Você ganha RD 2 contra venenos e magia. |
@@ -252,7 +252,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | **16** | **Ordens de Batalha (◈+ 2 Mana):** Você grita ordens e até 2 aliados em alcance de audição podem imediatamente se mover até o deslocamento máximo deles como uma reação, sem provocar ataques de oportunidade. |
 | **17** | **Desprezo à Dor (⟁ \+ 2 Mana):** Como uma reação, se cair para 0 HP, você ignora o dano e continua de pé com 1 HP. |
 | **18** | **Dupla Empunhadura (◈ \+ 1 Mana):** Se usar duas armas, você pode gastar 1 Ação e 1 Mana para realizar um ataque extra com a arma secundária. |
-| **19** | **Chamado dos Antigos (◈◈◈ \+ 6 Mana por Ancestral):** Invoca o espíritos ancestrais para lutar ao seu lado, máximo de 3\. Até o fim do combate, cada Ancestral replica seus ataques corpo a corpo **◈** em um alvo adicional em alcance “Perto”. Resolva todos os ataques e o dano de você e dos Ancestrais em uma única rolagem. |
+| **19** | **Chamado dos Antigos (◈◈◈ \+ 6 Mana por Ancestral):** Invoca o espíritos ancestrais para lutar ao seu lado, máximo de 3\. Até o fim do combate, cada Ancestral replica seus ataques corpo a corpo **◈** em um alvo adicional em alcance “Próximo”. Resolva todos os ataques e o dano de você e dos Ancestrais em uma única rolagem. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
@@ -290,7 +290,7 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 
 * **Habilidades de Ódio (Ofensivas):** Ao reduzir um inimigo a 0 PV com uma habilidade de **Ódio**, recupere 1d4 de Mana.  
 * **Habilidades de Disciplina (Defensivas):** Após usar uma habilidade de **Disciplina**, habilidades de **Ódio** custam \-1 Mana (Mínimo de 1).  
-* **Flecha Faminta (Ódio) (◈◈ \+ 2 Mana)**: Dispara uma flecha magicamente imbuída que atravessa inimigos “Perto”.  
+* **Flecha Faminta (Ódio) (◈◈ \+ 2 Mana)**: Dispara uma flecha magicamente imbuída que atravessa inimigos “Próximo”.  
 * **Inimigo Jurado:** Você tem **Vantagem** em ataques contra Demônios e Mortos-vivos.  
   ---
 
@@ -300,21 +300,21 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Constituição. |
 | **3-4** | \+1 em ataques à distância ou \+1 na AC. |
-| **5** | **Salto Mortal (Disciplina) (◈ \+ 1 Mana):** Move-se para área "Perto", ignora ataques de oportunidade.  |
+| **5** | **Salto Mortal (Disciplina) (◈ \+ 1 Mana):** Move-se para área "Próximo", ignora ataques de oportunidade.  |
 | **6** | **Boleadeiras (Disciplina) (◈ \+ 1 Mana):** Faça um ataque. Se acertar, o alvo fica preso por 1d4 rodadas.  |
 | **7** | **Granada (Ódio) (◈◈ \+ 2 Mana/dado):** Arremessa uma granada em um ponto “perto” que explode e causa 2d6 de dano de fogo em inimigos "adjacentes".  |
 | **8** | **Cortina de Fumaça (Disciplina) (◈ \+ 1 Mana):** Invisível por 1 rodada ou até atacar. |
 | **9** | **Sentinela (Ódio) (◈ \+ 1 Mana/dado):** Coloque um sentinela. Ele atira automaticamente no inimigo mais próximo 1d6.  |
-| **10** | **Flecha de Fragmentação (Ódio) (◈◈ \+ 2 Mana/dado):** O projétil causa dano da arma \+ 1d8 explosão em área "Perto" .  |
+| **10** | **Flecha de Fragmentação (Ódio) (◈◈ \+ 2 Mana/dado):** O projétil causa dano da arma \+ 1d8 explosão em área "Próximo" .  |
 | **11** | **Companheiro Animal (Ódio) (◈ \+ 5 Mana/Companheiro):** Invoca um companheiro animal (HP 1d4+Nív, CA 12, Dano 1d6). Age no seu turno. |
 | **12** | **Poder das Sombras (Disciplina) (◈◈ \+ 2 Mana):** Por 3 rodadas, recupera 1 HP sempre que causar dano.  |
 | **13** | **Armadilha de Estacas (Disciplina) (◈◈ \+ 3 Mana/dado):** Criar uma armadilha em baixo do alvo, ele sofre 2d6 e para de andar até o início do seu próximo turno. |
 | **14** | **Tiro Rápido (Ódio) (◈ \+ 2 Mana):** Mova-se e faça dois ataques à distância.  |
-| **15** | **Fã de Facas (Ódio) (◈◈ \+ 2 Mana/dado):** Causa 2d6 físico em área (Perto) e reduz o movimento pela metade até o início do seu próximo turno.  |
+| **15** | **Fã de Facas (Ódio) (◈◈ \+ 2 Mana/dado):** Causa 2d6 físico em área (Próximo) e reduz o movimento pela metade até o início do seu próximo turno.  |
 | **16** | **Atirador de Elite (Ódio) (◇ \+ 1 Mana ):** Se você não se moveu neste turno, seu ataque tem Vantagem e causa dano máximo.  |
 | **17** | **Bestas de Mão (Ódio) (◇ \+ 1 Mana):** Se usar duas bestas, quando você gastar uma ação **◈** para realizar um ataque, faça uma ataque extra com a arma secundária usando uma ação livre **◇**. |
 | **18** | **Vingança (Ódio) (◈◈ \+ 5 Mana):** Transforme-se na personificação do Ódio por 1d4 rodadas. Move-se o dobro, ataques têm Vantagem e causam 1d6 de dano extra.  |
-| **19** | **Chuva de Vingança (◈◈◈ \+ 5 Mana/dado):** Dezenas de flechas caem do céu numa área "Perto". Causando 3d6 de dano Físico instantaneamente e por mais 1d4 rodadas a todos os inimigos na área.  |
+| **19** | **Chuva de Vingança (◈◈◈ \+ 5 Mana/dado):** Dezenas de flechas caem do céu numa área "Próximo". Causando 3d6 de dano Físico instantaneamente e por mais 1d4 rodadas a todos os inimigos na área.  |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
@@ -361,19 +361,19 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 | **1-2** | \+2 de Força ou \+2 de Constituição. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 em testes de conjuração. |
 | **5** | **Gume Sombrio (Feitiço) (◈ \+ 1 Mana por Adaga):** Você pode lançar adagas de sangue em inimigos perto, causa 1d6 necrótico. |
-| **6** | **Nuvem de Mefítica (Feitiço) (◈ \+ 5 Mana):** Libera uma nuvem tóxica ao seu redor que causa **Desvantagem** aos inimigos "Perto" de você por 1d4 rodadas. |
+| **6** | **Nuvem de Mefítica (Feitiço) (◈ \+ 5 Mana):** Libera uma nuvem tóxica ao seu redor que causa **Desvantagem** aos inimigos "Próximo" de você por 1d4 rodadas. |
 | **7** | **Lança Empaladora (◈ \+ 3 Mana):** Se acertar um ataque, você pode prender o inimigo no chão. Inimigo faz um Teste de Força **DC 10+Atributo** para escapar. |
-| **8** | **Sanguinar (◈◈ \+ 3 Mana por dado):** Avance em linha reta para "Perto" e cause 1d6 necrótico automático a todos no caminho. Você não gera ataques de oportunidade. |
-| **9** | **Sentidos Sobrenaturais (Passiva):** Você pode enxergar perfeitamente no escuro total (mesmo sem tochas) em alcance Perto. |
+| **8** | **Sanguinar (◈◈ \+ 3 Mana por dado):** Avance em linha reta para "Próximo" e cause 1d6 necrótico automático a todos no caminho. Você não gera ataques de oportunidade. |
+| **9** | **Sentidos Sobrenaturais (Passiva):** Você pode enxergar perfeitamente no escuro total (mesmo sem tochas) em alcance Curto. |
 | **10** | **Drenar Sangue (Feitiço) (◈ \+ 2 Mana) :** Drene 1d4 de HP de um inimigo perto e cure-se. |
 | **11** | **Esmagar o Fraco (◇ \+ 1 Mana por dado):** Você causa \+1d4 necrótico contra inimigos que não estejam com o HP cheio. |
 | **12** | **Sudário da Noite (Feitiço) (◈ \+ 5 Mana):** Envolva a si mesmo e a aliados “perto” em trevas até o início do seu próximo turno. **Aparições sombrias** de cada criatura afetada surgem em seus turnos para **desferir um Ataque Extra** uma vez por rodada como ação livre **◇**.  |
 | **13** | **Golpe Crítico (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **14** | **Transfusão (◈):** Você pode tocar um aliado e transferir seu próprio HP para ele (ponto por ponto) ou sugar o sangue de um aliado e transferir HP para si. |
 | **15** | **Espinhos de Sangue (⟁ \+ 1 Mana por dado):** Quando sofrer dano, espirre sangue de volta e cause 1d4 necrótico a uma criatura adjacente. |
-| **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 3 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Perto” e os move para qualquer distância “Perto”. |
+| **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 3 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Próximo” e os move para qualquer distância “Próximo”. |
 | **17** | **Vigor Maléfico (◈ \+ 3 Mana por dado):** Ganhe 1d4 HP Temporário até o próximo descanso longo. Você não precisa comer ou beber por uma semana após beber o sangue de um inimigo morto. |
-| **18** | **Onda de Sangue (Feitiço) (◈◈ \+ 2 Mana por dado):** Uma explosão circular. Todos os inimigos adjacentes sofrem 2d6 necrótico e são empurrados para uma distância “Perto”. |
+| **18** | **Onda de Sangue (Feitiço) (◈◈ \+ 2 Mana por dado):** Uma explosão circular. Todos os inimigos adjacentes sofrem 2d6 necrótico e são empurrados para uma distância “Próximo”. |
 | **19** | **Abominação (Transformação) (◈◈◈ \+ 10 Mana):** Torne-se um monstro por 3 rodadas. Com uma ação de ataque **◈** Você **ataca 2x com garras (2d10 necrótico \+ atributo)**. Com ação livre **◇,** **ganha \+10 HP temporários no início de cada rodada**. Você pode se transformar sem o custo de mana, mas deve fazer um teste de **SAB DC 20 \- Level Atual** ou sucumbir à maldição e se tornar uma abominação descontrolada para sempre. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -422,18 +422,18 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **1-2** | \+2 de Força ou \+2 de Sabedoria. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 em testes de conjuração. |
 | **5** | **Pele de Ferro (Feitiço)(◈ \+ 2 Mana):** Reduza todo o dano recebido à metade por 1 rodada. |
-| **6** | **Escudo Reluzente (Feitiço) (◈◈◈ \+ 2 Mana por Rodada):** Inimigos "Perto" ficam cegos por 1 rodada. (Desvantagem nos ataque enquanto estiverem na área). |
+| **6** | **Escudo Reluzente (Feitiço) (◈◈◈ \+ 2 Mana por Rodada):** Inimigos "Próximo" ficam cegos por 1 rodada. (Desvantagem nos ataque enquanto estiverem na área). |
 | **7** | **Punição (◇ \+ 2 Mana):** Após bloquear um ataque, seu próximo golpe tem Vantagem e causa \+1d6 de dano. |
 | **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana por dado):** Invoque um martelo de luz que gira ao seu redor, causando 1d4 de dano sagrado a quem se aproximar (dura 1d4 rodadas). |
 | **9** | **Investida de Corcel (◈ \+ 3 Mana):** Você pode se mover o triplo da distância e ignorar ataques de oportunidade. |
 | **10** | **Esmagar com Escudo (◈ \+ 1 Mana):** Faça ataque de escudo, se acertar, o alvo é derrubado (Prone) automaticamente. |
-| **11** | **Julgamento (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Longe" no lugar com correntes sagradas por 1d4 rodada (DC 10 \+ Sabedoria para soltar). |
-| **12** | **Leis da Esperança (◈ \+ 2 Mana por Rodada):** Você e aliados "Perto" recuperam 1d4 de HP no início de cada rodada. |
-| **13** | **Leis da Justiça (Passiva):** Você e aliados "Perto" ganham \+1 na AC enquanto você estiver consciente. |
-| **14** | **Espada Cadente (◈◈ \+ 2 Mana por dado):** Salte para "Longe" e caia causando 2d8 de dano sagrado em área (Perto do impacto). |
-| **15** | **Provocar (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Force inimigos "Perto" a atacarem apenas você no próximo turno. |
+| **11** | **Julgamento (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Distante" no lugar com correntes sagradas por 1d4 rodada (DC 10 \+ Sabedoria para soltar). |
+| **12** | **Leis da Esperança (◈ \+ 2 Mana por Rodada):** Você e aliados "Próximo" recuperam 1d4 de HP no início de cada rodada. |
+| **13** | **Leis da Justiça (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
+| **14** | **Espada Cadente (◈◈ \+ 2 Mana por dado):** Salte para "Distante" e caia causando 2d8 de dano sagrado em área (Próximo do impacto). |
+| **15** | **Provocar (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Force inimigos "Próximo" a atacarem apenas você no próximo turno. |
 | **16** | **Fúria Sagrada (◈ \+ 3 Mana por Rodada):** Seus ataques agora causam \+2d6 de dano sagrado por 1 rodada. |
-| **17** | **Consagração (Feitiço)(◈ \+ 4 Mana):** Santifique o chão "Perto". Aliados lá dentro têm Vantagem em testes e ataques. |
+| **17** | **Consagração (Feitiço)(◈ \+ 4 Mana):** Santifique o chão "Próximo". Aliados lá dentro têm Vantagem em testes e ataques. |
 | **18** | **Fervor (Passiva):** Você pode usar uma arma de duas mãos em uma mão se estiver usando um escudo na outra. |
 | **19** | **Campeão de Akarat (◈◈◈ \+ 10 Mana):** Cresça em tamanho e poder. Ganhe um bônus extra igual ao **Atributo Primário** em todos os ataques e danos. Você também regenera **2d10 HP** no início do turno por 1d4 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
@@ -484,18 +484,18 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **3-4** | \+1 em testes de conjuração/transmutação ou \+2 de HP. |
 | **5** | **Garras de Fogo (Passiva):** Enquanto transformado, seus ataques causam \+1d4 de fogo. |
 | **6** | **Impacto (Passiva):** Na forma de Urso, se acertar, o alvo fica atordoado por 1 rodada. |
-| **7** | **Raiva (Passiva):** Na forma de Lobo, sua mordida causa veneno (1d4 dano/turno) que se espalha para inimigos "Perto" no início do turno deles. o Veneno dura 1d4 rodadas. |
+| **7** | **Raiva (Passiva):** Na forma de Lobo, sua mordida causa veneno (1d4 dano/turno) que se espalha para inimigos "Próximo" no início do turno deles. o Veneno dura 1d4 rodadas. |
 | **8 (1)** | **Ciclone de Armadura (Feitiço) (◈ \+ 1 Mana por Rodada):** Você cria uma armadura de vento. Uma vez por rodada, ignore o dano de um ataque à distância. |
 | **9 (2)** | **Corvos Espirituais (Feitiço) (◈ \+ 2 Mana):** Invoque corvos que cegam um inimigo (Desvantagem no ataque) por 1d4 rodadas. |
-| **10 (3)** | **Sábio de Carvalho (Feitiço) (◈◈ \+ 2 Mana por dado):** Invoque um espírito que dá \+1d4 de HP temporário para todos os aliados "Perto". |
+| **10 (3)** | **Sábio de Carvalho (Feitiço) (◈◈ \+ 2 Mana por dado):** Invoque um espírito que dá \+1d4 de HP temporário para todos os aliados "Próximo". |
 | **11** | **Lobos Atrozes (Passiva):** Você pode ter um lobo espiritual extra. Isso aumenta o número de lobos ativos ao mesmo tempo. |
-| **12** | **Coração de Wolverine (Passiva):** Seu espírito animal garante \+1 em ataques e dano para aliados "Perto". |
+| **12** | **Coração de Wolverine (Passiva):** Seu espírito animal garante \+1 em ataques e dano para aliados "Próximo". |
 | **13 (4)** | **Rocha Rolante (Feitiço) (◈◈ \+ 2 Mana por dado):** Lança uma pedra em linha reta que causa 1d8 de dano físico e derruba inimigos perto. |
-| **14 (5)** | **Fissura (Feitiço)(◈ \+ 2 Mana por dado):** Abre uma fenda no chão "Perto". Inimigos na área sofrem 1d6 de fogo por turno. A fenda dura 1d4 rodadas. |
-| **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana por Dado):** Crie um Furacão poderoso em até um ponto “Longe”. Inimigos que começarem o turno "Perto" do Furacão sofre 2d6 de dano físico. |
+| **14 (5)** | **Fissura (Feitiço)(◈ \+ 2 Mana por dado):** Abre uma fenda no chão "Próximo". Inimigos na área sofrem 1d6 de fogo por turno. A fenda dura 1d4 rodadas. |
+| **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana por Dado):** Crie um Furacão poderoso em até um ponto “Distante”. Inimigos que começarem o turno "Próximo" do Furacão sofre 2d6 de dano físico. |
 | **16 (7)** | **Vinha Venenosa (Feitiço) (◈◈ \+ 2 Mana por inimigo):** Uma planta surge do chão e imobiliza um inimigo por 1d4 rodadas. |
 | **17** | **Chamado do Urso Pardo (◈◈ \+ 3 Mana):** Invoque um Urso Espiritual (10 HP, 1d10 de dano) em vez do Lobo e Corvo. |
-| **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana por dado):** O chão explode em lava. Dano 3d10 em toda área “Perto” de um ponto que você escolher. |
+| **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana por dado):** O chão explode em lava. Dano 3d10 em toda área “Próximo” de um ponto que você escolher. |
 | **19** | **Licantropia:** Você pode mudar de forma instantaneamente sem precisar rolar dados. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -549,16 +549,16 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 | **1-2** | \+2 de Destreza ou \+2 de Sabedoria. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 na AC. |
 | **5** | **Garras do Jaguar (◈ \+ 2 Mana):** Se acertar um ataque, pode fazer um segundo ataque. |
-| **6** | **Pancada do Gorila (◈ \+ 1 Mana):** Faça um ataque e empurre um inimigo "Perto" para "Longe". |
-| **7** | **Mergulho da Águia (◈ \+ 3 Mana):** Salte para um inimigo "Longe" e ataque com Vantagem. |
+| **6** | **Pancada do Gorila (◈ \+ 1 Mana):** Faça um ataque e empurre um inimigo "Próximo" para "Distante". |
+| **7** | **Mergulho da Águia (◈ \+ 3 Mana):** Salte para um inimigo "Distante" e ataque com Vantagem. |
 | **8** | **Toque da Centopeia (◈ \+ 1 Mana por Rodada):** Seu ataque causa 1d4 de dano veneno por 1 rodada. |
 | **9** | **Pele de Gorila (⟁ \+ 3 Mana):** Ignore o dano de um ataque físico. |
 | **10** | **Voo da Águia (◈ \+ 1 Mana):** Faça ataques à distância (lanças/glaives) que ignoram cobertura. |
 | **11** | **Frenesi de Fogo (Jaguar) (◈ \+ 1 Mana):** Ganhe uma ação extra **◈** por rodada durante 1d4 rodadas. |
-| **12** | **Nuvem de Esporos (Centopeia) (◈◈ \+ 4 Mana):** Inimigos "Perto" ficam atordoados por 1 rodada. |
+| **12** | **Nuvem de Esporos (Centopeia) (◈◈ \+ 4 Mana):** Inimigos "Próximo" ficam atordoados por 1 rodada. |
 | **13** | **Retaliação do Espírito (⟁ \+ 1 Mana):** Se um inimigo errar um ataque contra você, você pode contra-atacar imediatamente. |
 | **14** | **Pisotear (Gorila) (◈◈ \+ 3 Mana por dado):** Avance em linha reta. Inimigos no caminho sofrem 2d6 de dano físico e são derrubados. |
-| **15** | **Torvelinho de Penas (Águia) (◈ \+ 1 Mana por projétil):** Dispare projéteis de vento que causam 1d6 de dano físico em área (Perto) ao acertar o alvo. |
+| **15** | **Torvelinho de Penas (Águia) (◈ \+ 1 Mana por projétil):** Dispare projéteis de vento que causam 1d6 de dano físico em área (Próximo) ao acertar o alvo. |
 | **16** | **Devorar (Centopeia)(◇ \+ 1 Mana):** Se matar um inimigo envenenado, recupere 1d8 de HP. |
 | **17** | **Dança do Jaguar (Passiva):** Você não provoca ataques de oportunidade ao se mover. |
 | **18** | **Encarnação do Guardião (Passiva):** Escolha um segundo Guardião para ter o benefício passivo simultaneamente. |
@@ -609,18 +609,18 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Sabedoria. |
 | **3-4** | \+1 em testes de conjuração ou \+2 de HP. |
-| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana por dado):** Mãos saem do chão. Inimigos "Perto" sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodada. |
+| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana por dado):** Mãos saem do chão. Inimigos "Próximo" sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodada. |
 | **6 (2)** | **Nuvem de Gafanhotos (Feitiço)(◈ \+ 2 Mana por dado):** Uma nuvem de pragas que saltam de inimigo em inimigo, causando 1d4 dano automático em todos os inimigos perto. Dura 1d4 Rodadas. |
-| **7 (3)** | **Bomba de Fogo (Feitiço)(◈ \+ 1 Mana por dado):** Você lança um jarro de explosivos. Escolha um ponto “Perto”. Todas as criaturas adjacentes àquele ponto sofrem 2d6 de dano de fogo. |
+| **7 (3)** | **Bomba de Fogo (Feitiço)(◈ \+ 1 Mana por dado):** Você lança um jarro de explosivos. Escolha um ponto “Próximo”. Todas as criaturas adjacentes àquele ponto sofrem 2d6 de dano de fogo. |
 | **8 (4)** | **Caminhada do Espírito (Feitiço)(◈ \+ 3 Mana):** Fique invisível e etéreo por 1d4 rodadas. Você não sofre dano físico nessa forma. |
 | **9 (5)** | **Invasão de Sapos (Feitiço)(◈ \+ 1 Mana por dado):** Uma horda de sapos explosivos cobre o chão causando 1d6 de dano de veneno. A área é de terreno difícil e dura 1d4 Rodadas. |
 | **10** | **Sacrifício (◈ \+ 1 Mana por dado):** Você explode seus Cães Zumbis. Cada cão causa 1d8 de dano necrótico a criaturas adjacentes. |
 | **11** | **Gargântua (◈ \+ 5 Mana por Gargântua):** Invoque um zumbi gigante (20 HP, 2d8 dano) em de um dos cães. |
-| **12 (6)** | **Aterrorizar (Feitiço) (◈ \+ 1 Mana por inimigo):** Você usa sua máscara para gritar. Inimigos "Perto" fogem por 1d4 rodada. |
+| **12 (6)** | **Aterrorizar (Feitiço) (◈ \+ 1 Mana por inimigo):** Você usa sua máscara para gritar. Inimigos "Próximo" fogem por 1d4 rodada. |
 | **13 (7)** | **Zumbis Suicidas (Feitiço)(◈ \+ 1 Mana por dado):** Uma fila de zumbis corre e explode no primeiro alvo. Dano 2d6. |
 | **14 (8)** | **Piranhas (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria uma poça de água que causa 2d8 de dano de veneno durante 1d4 rodadas. Quem estiver na área sofre um dano extra de 1d4 de todas as fontes (ataques, feitiços, etc). |
 | **15** | **Exército de Fetiche (◈◈◈ \+ 1 Mana por pigmeu):** Invoque um pequeno pigmeu com adagas (1d4 HP, CA 13, 1d4 de dano cada). Dura um combate. |
-| **16 (9)** | **Vudu Maluco (Feitiço)(◈◈ \+ 1 Mana por Rodada):** Uma estátua que dá **Vantagem** em ataques para todos os aliados "Perto" dela. Dura 1 Rodada. |
+| **16 (9)** | **Vudu Maluco (Feitiço)(◈◈ \+ 1 Mana por Rodada):** Uma estátua que dá **Vantagem** em ataques para todos os aliados "Próximo" dela. Dura 1 Rodada. |
 | **17 (10)** | **Parede de Zumbis (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria uma barreira física de corpos na mesa por 1d4 rodadas. Inimigos perto da parede sofrem 1d8 de dano físico. **Extra:** Pode gastar \+1 Mana para mudar o tipo de dano para Fogo, Gelo ou Veneno. |
 | **18 (11)** | **Colheita de Almas (Feitiço)(◈ \+ 2 Mana por Inimigo):** Drene a inteligência de até 5 inimigos próximos. Ganhe \+2 para conjurar, por inimigo, durante 3 rodadas. |
 | **19 (12)** | **Assombração (Feitiço)(◈◈ \+ 5 Mana por dado):** Um espírito persegue um alvo, causando 2d8 de dano necrótico todo turno até o alvo morrer. Se o alvo morrer, o espírito vai para outro inimigo. O espírito dura 1d4+1 rodadas. |
@@ -670,7 +670,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **1-2** | \+2 de Força ou \+2 de Constituição. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+2 de HP. |
 | **5** | **Golpe de Escudo (◈ \+ 1 Mana):** Se estiver usando escudo, você pode tentar derrubar um alvo usando ação de atacar. |
-| **6** | **Trespassar (◈ \+ 1 Mana por ataque):** Se matar um inimigo, ganha um ataque imediato contra outro "Perto". |
+| **6** | **Trespassar (◈ \+ 1 Mana por ataque):** Se matar um inimigo, ganha um ataque imediato contra outro "Próximo". |
 | **7** | **Postura Defensiva(◈◈ \+ 1 Mana por Rodada) :** Adicione seu Modificador de Força na CA por 1 rodada. |
 | **8** | **Desarmar (◈ \+ 1 ou 5 Mana):** Faça um ataque, se acertar você faz a arma do inimigo voar para longe. Você pode gastar \+5 Mana para arrancar armas naturais ou partes de monstros (Braços, Asas, Olhos). |
 | **9** | **Golpe de Sangue (◇):** Gaste 2 HP para causar \+1d8 de dano em um ataque. |
@@ -678,12 +678,12 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **11** | **Mestre de Armadura (Passiva):** Enquanto usar armadura pesada, você tem RD 2 para dano físico e o peso das armaduras não reduz seu movimento. |
 | **12** | **Ataque Brutal (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **13** | **Segunda Chance (◇ \+ 2 Mana):** Role novamente um teste de ataque que errou. |
-| **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Perto" devem te atacar no próximo turno. |
+| **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Próximo" devem te atacar no próximo turno. |
 | **15** | **Mestre de Todas as Armas (Passiva):** Você pode trocar sua arma de Mestria após um descanso curto ou longo. |
 | **16** | **Fôlego Renovado (◈ \+ 1 Mana por Dado):** Recupere 1d10 \+ Nível de HP como uma ação. |
 | **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a AC do inimigo em 2 permanentemente (destrói o couro/metal). |
-| **18** | **Carga Heróica (◈◈ \+ 4 Mana):** Avance para "Longe" e ataque com Vantagem. Se acertar, causa dano máximo. |
-| **19** | **Líder de Batalha (Passiva):** Aliados "Perto" têm Vantagem em testes para não fugirem (Moral). |
+| **18** | **Carga Heróica (◈◈ \+ 4 Mana):** Avance para "Distante" e ataque com Vantagem. Se acertar, causa dano máximo. |
+| **19** | **Líder de Batalha (Passiva):** Aliados "Próximo" têm Vantagem em testes para não fugirem (Moral). |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
@@ -732,14 +732,14 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **1-2** | \+2 de Inteligência ou \+2 de Destreza. |
 | **3-4** | \+1 em testes de conjuração ou \+1 na AC. |
 | **5** | **Calor (◈◈):** Uma vez por dia, você recupera metade do seu Mana sem precisar de descanso. |
-| **6** | **Teleporte (◈ \+ 1 Mana):** Pisque para um lugar "Perto" que você possa ver. |
+| **6** | **Teleporte (◈ \+ 1 Mana):** Pisque para um lugar "Próximo" que você possa ver. |
 | **7 (1)** | **Armadura de Gelo (Feitiço)(◈ \+ 1 Mana por rodada):** Você conjura uma armadura de gelo por 1 rodada, inimigos que te acertarem corpo a corpo sofrem 1d8 de dano de gelo e ficam congelados por 1d4 rodadas. |
 | **8** | **Saque de Mana (Passivo):** Se matar um inimigo com magia, ganha \+2 no próximo teste de conjuração. |
-| **9 (2)** | **Nova de Gelo (Feitiço)(◈ \+ 2 Mana por dado):** Uma explosão circular que causa 1d10 de dano de gelo a todos "Perto" por 1d4 rodadas. Criaturas que ficarem com HP 0 são congeladas indefinidamente (O mago decide se estão mortas ou não). |
-| **10 (3)** | **Bola de Fogo (Feitiço)(◈ \+ 2 Mana por dado):** Um explosão que causa 1d8 de fogo em uma área "Perto". Deixa os alvos queimando (1d4 dano/turno). Queimando dura 1d4 rodadas ou até o alvo usar uma ação **◈** para apagar. |
+| **9 (2)** | **Nova de Gelo (Feitiço)(◈ \+ 2 Mana por dado):** Uma explosão circular que causa 1d10 de dano de gelo a todos "Próximo" por 1d4 rodadas. Criaturas que ficarem com HP 0 são congeladas indefinidamente (O mago decide se estão mortas ou não). |
+| **10 (3)** | **Bola de Fogo (Feitiço)(◈ \+ 2 Mana por dado):** Um explosão que causa 1d8 de fogo em uma área "Próximo". Deixa os alvos queimando (1d4 dano/turno). Queimando dura 1d4 rodadas ou até o alvo usar uma ação **◈** para apagar. |
 | **11 (4)** | **Seta Elétrica (Feitiço)(◈ \+ 2 Mana por seta extra):** Dispare 3 faíscas que causam 1d4+1 elétrico cada em alvos diferentes. |
 | **12 (5)** | **Encantar Arma (Feitiço)(◈ \+ 2 Mana por dado):** Uma arma sua ou de um aliado causa \+1d4 de dano elemental por 1d4 rodadas. |
-| **13 (6)** | **Nevasca (Feitiço)(◈ \+ 2 Mana por dado):** Cria uma zona "Perto" onde inimigos sofrem 1d6 gelo e movem metade por 1d4 rodadas. |
+| **13 (6)** | **Nevasca (Feitiço)(◈ \+ 2 Mana por dado):** Cria uma zona "Próximo" onde inimigos sofrem 1d6 gelo e movem metade por 1d4 rodadas. |
 | **14 (7)** | **Cadeia de Raios (Feitiço)(◈ \+ 2 Mana por dado):** Um raio que pula em até 3 inimigos perto, causando 1d10 de dano elétrico em cada. |
 | **15 (8)** | **Hidra (Feitiço)(◈ \+ 2 Mana por dado):** Invoca 1d4 cabeças de fogo que atiram bolas de fogo todo turno em inimigos perto. Cada cabeça causa 1d6 de fogo e duram 1d4 rodadas. Só é possível ter um conjunto de hidras ativa por vez. |
 | **16** | **Escudo de Energia (Passivo)(⟁ \+ 1 Mana por 5 Dano):** Se você sofrer dano, você pode criar uma barreira mágica para reduzir o dano em 5\. |
@@ -794,16 +794,16 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Sabedoria. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 na AC. |
-| **5** | **Ímpeto (◈◈):** Gaste 1 Espírito para se mover para "Perto" instantaneamente e atacar com Vantagem. |
-| **6** | **Palma Explosiva (◇ \+ 1 Mana por dado):** Se o seu ataque matar o alvo, ele explode causando 1d8 de dano em área (Perto). |
-| **7** | **Mantra da Cura (◈ \+ 1 Mana por dado ou Aliado):** Gaste 1 Espírito para curar 1d6 de HP (por espírito) a si mesmo e a um aliado "Perto". |
-| **8** | **Mantra de Evasão (Passiva):** Você e aliados "Perto" ganham \+1 na AC enquanto você estiver consciente. |
+| **5** | **Ímpeto (◈◈):** Gaste 1 Espírito para se mover para "Próximo" instantaneamente e atacar com Vantagem. |
+| **6** | **Palma Explosiva (◇ \+ 1 Mana por dado):** Se o seu ataque matar o alvo, ele explode causando 1d8 de dano em área (Próximo). |
+| **7** | **Mantra da Cura (◈ \+ 1 Mana por dado ou Aliado):** Gaste 1 Espírito para curar 1d6 de HP (por espírito) a si mesmo e a um aliado "Próximo". |
+| **8** | **Mantra de Evasão (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
 | **9** | **Mantra de Retribuição (⟁ \+ 1 Mana por dado):** Inimigos que te acertarem sofrem 1d4 de dano sagrado de volta. |
-| **10** | **Onda de Luz (O Sino) (◈◈):** Gaste 1 Espírito para esmagar inimigos numa área "Perto" com um sino de luz (2d6 dano por espírito). |
+| **10** | **Onda de Luz (O Sino) (◈◈):** Gaste 1 Espírito para esmagar inimigos numa área "Próximo" com um sino de luz (2d6 dano por espírito). |
 | **11** | **Serenidade (◈):** Gaste 3 Espírito, torna-se invulnerável a todo dano até o início da sua próxima rodada |
-| **12** | **Ciclone (◈ \+ 1 Mana por inimigo):** Faça um ataque desarmado que gera um ciclone de vento e puxa inimigos "Perto" para “Adjacentes” a você. |
-| **13** | **Sete Lados  (◈◈◈ \+ 2 Mana):** Gaste 3 Espírito para realizar 7 ataques  distribuídos entre inimigos "Perto" a sua escolha. Você não gera ataques de oportunidade. |
-| **14** | **Golpe de Chicotada (◈ \+ 1 Mana por inimigo):** Faça um ataque em chute circular que empurra inimigos “Adjacentes” para "Perto". |
+| **12** | **Ciclone (◈ \+ 1 Mana por inimigo):** Faça um ataque desarmado que gera um ciclone de vento e puxa inimigos "Próximo" para “Adjacentes” a você. |
+| **13** | **Sete Lados  (◈◈◈ \+ 2 Mana):** Gaste 3 Espírito para realizar 7 ataques  distribuídos entre inimigos "Próximo" a sua escolha. Você não gera ataques de oportunidade. |
+| **14** | **Golpe de Chicotada (◈ \+ 1 Mana por inimigo):** Faça um ataque em chute circular que empurra inimigos “Adjacentes” para "Próximo". |
 | **15** | **Pés Ligeiros (◈ \+ 1 Mana):** Seu movimento dobra e você pode andar sobre a água ou paredes nesta rodada. |
 | **16** | **Santuário Interior (◈ \+ 4 Mana):** Cria um círculo na mesa. Inimigos não podem entrar e aliados dentro dele ganham Vantagem em todos os testes. |
 | **17** | **Epifania (◈◈ \+ 5 Mana):** Você recupera 1d4 Espírito no início de cada turno e não precisa gastar uma ação **◈** para se mover durante seu turno. |
@@ -856,17 +856,17 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência, \+2 de Sabedoria ou \+2 de Constituição. |
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de esqueletos. |
-| **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana por dado):** Exploda um cadáver ou esqueleto. Dano 1d6 em área (Perto). |
+| **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana por dado):** Exploda um cadáver ou esqueleto. Dano 1d6 em área (Próximo). |
 | **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana por dado):** Um projétil que atravessa inimigos em linha reta (perto). Dano 1d8 físico. |
 | **7** | **Armadura de Ossos (Passivo):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
-| **8** | **Maldizer (Passivo):** Inimigos "Perto" sofrem \+2 de dano de todos os ataques. |
+| **8** | **Maldizer (Passivo):** Inimigos "Próximo" sofrem \+2 de dano de todos os ataques. |
 | **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana por dado):** Causa 1d4 de dano necrótico a um alvo e você recupera a mesma quantia em HP. |
 | **10** | **Golem de Argila (◈ \+ 3 Mana por Golem):** Em vez de 3 esqueletos, você invoca 1 Golem (15 HP, CA15, 1d8 dano). |
 | **11** | **Dama de Ferro (⟁ \+ 1 Mana por dado):** Inimigos que baterem nos seus esqueletos sofrem 1d4 de dano de volta. |
-| **12** | **Sifão de Sangue (⟁ \+ 1 Mana):** Quando um inimigo morre "Perto", você recupera 1d4 de HP. |
+| **12** | **Sifão de Sangue (⟁ \+ 1 Mana):** Quando um inimigo morre "Próximo", você recupera 1d4 de HP. |
 | **13 (4)** | **Espírito de Ossos (Feitiço)(◈ \+ 3 Mana por espírito):** Conjure espíritos que perseguem alvos causando 2d10 necrótico por espírito. |
 | **14 (5)** | **Parede de Ossos (Feitiço)(◈ \+ 2 Mana \+ 1 Mana por 10 HP):** Cria uma barreira de ossos na mesa que bloqueia o movimento por 1d4 rodadas. A Barreira tem CA 16 e 10 HP por **1 Mana**. |
-| **15 (6)** | **Terror (Feitiço)(◈ \+ 1 Mana por inimigo):** Inimigos "Perto" devem fugir de você por 1d4 rodadas. |
+| **15 (6)** | **Terror (Feitiço)(◈ \+ 1 Mana por inimigo):** Inimigos "Próximo" devem fugir de você por 1d4 rodadas. |
 | **16** | **Maestria de Esqueletos (Passivo):** Todos os seus lacaios agora tem \+5HP, \+1 de CA por nível de personagem e causam \+1 de dano por nível de personagem. |
 | **17 (7)** | **Escudo de Almas (Feitiço)(⟁ \+ 2 Mana):** Se você ficar com HP 0, você conjura um feitiço para um esqueleto morrer no seu lugar e você ficar com 1 HP. |
 | **18** | **Mago Esqueleto (◈ \+ 2 Mana por Esqueleto):** Em vez de 2 Esqueletos, você invoca 1 Esqueleto Mago (1 HP, CA 12, 1d8 dano fogo, gelo, elétrico ou necrótico perto). |
@@ -907,7 +907,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 
   ### **Habilidades de Classe**
 
-* **Auras de Zakarum:** No seu turno, escolha uma Aura ativa com uma ação (◈). O efeito afeta você e todos os aliados "Perto". Você só pode ter uma aura ativa por vez. A aura dura até ser trocada.  
+* **Auras de Zakarum:** No seu turno, escolha uma Aura ativa com uma ação (◈). O efeito afeta você e todos os aliados "Próximo". Você só pode ter uma aura ativa por vez. A aura dura até ser trocada.  
   * *Fanatismo:* \+1 em testes de ataque corpo a corpo.  
   * *Resistência:* \+1 na Classe de Armadura (AC).  
 * **Golpe Sagrado (Smite)(◇ \+ 1 Mana):** Ao acertar um ataque, adicione seu **Nível** como dano Radiante extra.  
@@ -920,21 +920,21 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | :---- | :---- |
 | **1-2** | \+2 de Força ou \+2 de Carisma. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 em testes de conjuração. |
-| **5** | **Vigor (Aura)(◈):** Você e aliados "Perto" podem se mover o dobro da distância. |
+| **5** | **Vigor (Aura)(◈):** Você e aliados "Próximo" podem se mover o dobro da distância. |
 | **6** | **Sacrifício (◈ \+ 2 Mana):** Gaste 1d4 HP para ganhar **Vantagem** e dano máximo no seu próximo ataque. |
 | **7** | **Zelo (◈◈ \+ 3 Mana):** Faça 3 ataques rápidos no mesmo alvo. |
-| **8** | **Carga (◈◈ \+ 1 Mana):** Avance em linha reta para "Longe" e ataque. Se acertar, o alvo cai (Prone). |
+| **8** | **Carga (◈◈ \+ 1 Mana):** Avance em linha reta para "Distante" e ataque. Se acertar, o alvo cai (Prone). |
 | **9** | **Seta Sagrada (Feitiço)(◈◈ \+ 2 Mana por dado):** Dispare um raio de luz. Cura 1d6 em aliado ou causa 1d8 em morto-vivo/demônio. |
 | **10** | **Escudo Sagrado (Feitiço)(◈ \+ 3 Mana):** Seu escudo brilha, dando \+3 na AC por um encontro. |
 | **11** | **Meditação (Aura)(◈):** Aliados na aura têm Vantagem para recuperar feitiços durante descansos curtos. |
 | **12** | **Punho dos Céus (Feitiço)(◈◈ \+ 4 Mana por dados):** Um raio cai do céu. Dano 2d10 em um alvo e solta Holy Bolts (1d10) em inimigos perto. |
-| **13** | **Arremesso Abençoado(◈ \+ 3 Mana):** Arremessa um martelo espiral até "Longe". O Martelo causa o dano da arma a cada inimigo que tocar na mesa e volta para sua mão . |
+| **13** | **Arremesso Abençoado(◈ \+ 3 Mana):** Arremessa um martelo espiral até "Distante". O Martelo causa o dano da arma a cada inimigo que tocar na mesa e volta para sua mão . |
 | **14** | **Salvação (Aura)(◈):** Você e aliados na aura ganham RD 2 a um tipo de dano Elemental (Fogo/Gelo/Raio). |
 | **15** | **Redenção (Aura)(◈):** Quando um inimigo morre na aura, você e aliados recuperam 1 de HP. |
 | **16** | **Limpeza (Aura)(◈):** Reduz pela metade a duração de venenos ou maldições em aliados na aura. |
 | **17** | **Mãos de Luz (Feitiço)(◈◈ \+ 5 Mana):** Toque um aliado para curar todo o HP dele. |
 | **18** | **Convicção (Aura)(◈):** Inimigos na aura perdem 2 de AC (sua fé quebra a proteção deles). |
-| **19** | **Avatar da Justiça (◈◈◈ \+ 8 Mana) :** Você canaliza a luz divina pura através de seu corpo, tornando-se um receptáculo de julgamento por 1d4 rodadas. Você torna-se **imune** a efeitos de controle. Todos os inimigos que começarem o turno "Perto" de você sofrem **1d10** de dano radiante automático. |
+| **19** | **Avatar da Justiça (◈◈◈ \+ 8 Mana) :** Você canaliza a luz divina pura através de seu corpo, tornando-se um receptáculo de julgamento por 1d4 rodadas. Você torna-se **imune** a efeitos de controle. Todos os inimigos que começarem o turno "Próximo" de você sofrem **1d10** de dano radiante automático. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
@@ -985,21 +985,21 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Constituição. |
 | **3-4** | \+1 em ataques (corpo a corpo ou distância) ou \+1 na AC. |
-| **5** | **Passo de Sombra (◈ \+ 3 Mana):** Teleporte-se para trás de um inimigo "Perto" e faça um ataque com Vantagem. |
+| **5** | **Passo de Sombra (◈ \+ 3 Mana):** Teleporte-se para trás de um inimigo "Próximo" e faça um ataque com Vantagem. |
 | **6** | **Disparo Penetrante (◈ \+ 3 Mana):** Sua flecha atravessa todos os inimigos perto em linha reta. Causa o dano da arma em cada um deles. |
 | **7** | **Lâminas Retorcidas (◈ \+ 3 Mana):** Arremesse 2 armas leves. Após atingir os alvos, as lâminas voltam para você, causando 1d4 dano às criaturas no caminho. |
 | **8** | **Abrojos (Armadilha)(◈ \+ 1 Mana por dano):** Jogue pregos no chão. Inimigos que passarem ficam lentos e sofrem 1d4 de dano. |
-| **9** | **Bomba de Fumaça (Armadilha)(◈ \+ 1 Mana por rodada):** Inimigos "Perto" não podem te ver ou te atacar por 1 rodada. |
+| **9** | **Bomba de Fumaça (Armadilha)(◈ \+ 1 Mana por rodada):** Inimigos "Próximo" não podem te ver ou te atacar por 1 rodada. |
 | **10** | **Imbuimento de Gelo (Armadilha)(◇ \+ 3 Mana):** Ao acertar uma criatura com um ataque, o alvo atingido fica congelado . Dura 1d4 Rodadas. (Alvo faz um teste de Força DC 10 \+ Des para se libertar) |
-| **11** | **Saraivada (◈ \+ 3 Mana):** Dispare 5 flechas em um arco, atingindo vários inimigos "Perto". |
+| **11** | **Saraivada (◈ \+ 3 Mana):** Dispare 5 flechas em um arco, atingindo vários inimigos "Próximo". |
 | **12** | **Ocultamento (◈ \+ 1 Mana):** Você pode fazer um teste para se esconder mesmo sem cobertura se ficar imóvel. |
 | **13** | **Mestra de Armadilhas (Passiva):** Suas armadilhas causam \+1d6 de dano extra além dos efeitos normais. |
 | **14** | **Clone das Sombras (◈◈ \+ 3 Mana):** Invoque uma sombra que copia seus ataques por 3 rodadas. |
 | **15** | **Exploração de Fraqueza (Passiva):** Seus ataques críticos agora acontecem com 18-20 natural. |
-| **16** | **Chuva de Flechas (◈ \+ 3 Mana \+ 1 Mana por dado):** Cubra uma área "Longe" com flechas mágicas 3d6 dano de força. |
+| **16** | **Chuva de Flechas (◈ \+ 3 Mana \+ 1 Mana por dado):** Cubra uma área "Distante" com flechas mágicas 3d6 dano de força. |
 | **17** | **Visão Interior (◈ \+ 3 Mana):** Marque um inimigo. Todos os ataques contra ele têm Vantagem por 1d4 rodadas. |
 | **18** | **Ímpeto (◈ \+ 1 Mana):** Mova-se o dobro da distância normal e atravesse inimigos sem sofrer ataques de oportunidade. |
-| **19** | **Mestra da Fuga (Armadilha)(⟁ \+ 5 Mana):** Se for cair para 0 HP, você usa uma bomba de fumaça e se move para "Longe" com 1 HP. |
+| **19** | **Mestra da Fuga (Armadilha)(⟁ \+ 5 Mana):** Se for cair para 0 HP, você usa uma bomba de fumaça e se move para "Distante" com 1 HP. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
   ---
@@ -1038,7 +1038,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 
 * **Pontos de Fé:** Você possui uma reserva de poder espiritual. Seu máximo é igual ao seu **Nível \+ Modificador de Sabedoria**. Você sempre começa encontros sem fé.  
   * Oração ◈◈ \- Você pode gastar duas ações para recuperar 1d4 pontos de fé no seu turno.  
-* **Oração Purificadora (◈):** Gaste 1 Ponto de Fé (sem rolar dados) para curar 1d6 de HP de um aliado "Perto" ou causar 1d6 de dano Radiante em inimigos.  
+* **Oração Purificadora (◈):** Gaste 1 Ponto de Fé (sem rolar dados) para curar 1d6 de HP de um aliado "Próximo" ou causar 1d6 de dano Radiante em inimigos.  
 * **Voto de Castidade (Passiva):** Se você não usar armas de metal ou armaduras, você ganha **Vantagem** em todos os testes de conjuração de magias sagradas.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
   ---
@@ -1049,20 +1049,20 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | :---- | :---- |
 | **1-2** | \+2 de Sabedoria ou \+2 de Constituição. |
 | **3-4** | \+1 em testes de conjuração ou \+2 Pontos de Fé. |
-| **5** | **Halo de Luz (Passivo):** Você emite uma luz constante (alcance Perto). Inimigos têm \-1 nos ataques contra você. |
+| **5** | **Halo de Luz (Passivo):** Você emite uma luz constante (alcance Curto). Inimigos têm \-1 nos ataques contra você. |
 | **6** | **Palavra de Poder (◈ \+  1 Mana):** Gaste 1 Ponto de Fé para dar \+3 de AC a um aliado por 1d4 rodadas. |
-| **7 (1)** | **Exorcismo (Feitiço) (◈ \+  2 Mana):** Inimigos Mortos-vivos ou demônios "Perto" sofrem 3d6 sagrado e fogem. |
-| **8 (2)** | **Bênção (Feitiço) (◈ \+  1 Mana por Aliado):** Aliados "Perto" ganham \+1 em todos os testes por 1d4 rodadas. |
+| **7 (1)** | **Exorcismo (Feitiço) (◈ \+  2 Mana):** Inimigos Mortos-vivos ou demônios "Próximo" sofrem 3d6 sagrado e fogem. |
+| **8 (2)** | **Bênção (Feitiço) (◈ \+  1 Mana por Aliado):** Aliados "Próximo" ganham \+1 em todos os testes por 1d4 rodadas. |
 | **9** | **Penitência (◈):** Você pode perder 1d4 de HP para recuperar 4 Pontos de Fé imediatamente. |
-| **10 (3)** | **Prece de Recomposição (Feitiço)(◈ \+ 2 Mana por Aliado):** Um aliado "Perto" recupera 1d4 de HP toda vez que sofrer dano (dura 3 rodadas). |
+| **10 (3)** | **Prece de Recomposição (Feitiço)(◈ \+ 2 Mana por Aliado):** Um aliado "Próximo" recupera 1d4 de HP toda vez que sofrer dano (dura 3 rodadas). |
 | **11** | **Chamas Sagradas (Passiva):** Sua arma causa \+1d6 de dano Radiante extra. |
 | **12 (4)** | **Purificação (Feitiço)(◈ \+ 2 Mana por efeito):** Remova instantaneamente um efeito de Veneno, Maldição ou Paralisia de um aliado. Se gastar \+6 Mana também cura 3d6 ao aliado. |
-| **13 (5)** | **Salmo de Proteção (Feitiço)(◈ \+ 2 Mana por aliado):** Você e aliados "Perto" ganham RD 5 a dano Mágico por 1d4 rodadas. |
-| **14 (6)** | **Salto de Fé (Feitiço)(◈ \+ 2 Mana por aliado):** Puxe um aliado de "Longe" para o seu lado instantaneamente. |
+| **13 (5)** | **Salmo de Proteção (Feitiço)(◈ \+ 2 Mana por aliado):** Você e aliados "Próximo" ganham RD 5 a dano Mágico por 1d4 rodadas. |
+| **14 (6)** | **Salto de Fé (Feitiço)(◈ \+ 2 Mana por aliado):** Puxe um aliado de "Distante" para o seu lado instantaneamente. |
 | **15** | **Intervenção Divina (⟁):** Gaste 5 Pontos de Fé. Se um aliado ficar com HP 0, ele fica com 1 HP em vez disso. |
-| **16 (7)** | **Anjo da Guarda (Feitiço)(◈ \+ 2 Mana por aliado):** Invoca um espírito de luz que protege o grupo. Ele concede vantagem em testes para aliados “Perto” por 1d4 rodadas. |
+| **16 (7)** | **Anjo da Guarda (Feitiço)(◈ \+ 2 Mana por aliado):** Invoca um espírito de luz que protege o grupo. Ele concede vantagem em testes para aliados “Próximo” por 1d4 rodadas. |
 | **17** | **Confissão (◈◈◈):** Gaste 3 Pontos de Fé, por inimigo, para que perca o próximo turno "contando seus pecados". |
-| **18 (8)** | **Nova Sagrada (Feitiço) (◈◈ \+ 2 Mana por Dados):** Uma explosão de luz. Cura aliados "Perto" em 1d8 e causa 1d8 de dano em inimigos. |
+| **18 (8)** | **Nova Sagrada (Feitiço) (◈◈ \+ 2 Mana por Dados):** Uma explosão de luz. Cura aliados "Próximo" em 1d8 e causa 1d8 de dano em inimigos. |
 | **19** | **Avatar da Luz (◈ \+ 5 Mana):** Torne-se um ser radiante por 3 rodadas. Suas orações não custam Pontos de Fé. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -1149,7 +1149,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **1** | **O Cálice do Sangue Vil:** Encontrar uma fonte de corrupção demoníaca pura e, em vez de destruí-la, canalizar uma parte dela para o seu próprio sangue. | **Pacto de Vitalidade:** Você aprende a manipular a própria Mana. Uma vez por dia, você pode entrar em um estado de *Fluxo Arcano* por 1 minuto: todas as suas habilidades custam **0 Mana**, mas você não pode recuperar PV durante esse tempo. |
 | **2** | **Tomos do Conhecimento Proibido:** Recuperar fragmentos de pergaminhos Horadrim que detalham anatomia demoníaca em uma biblioteca infestada. | **Eficiência Maldita:** Uma vez por rodada, quando você usar uma habilidade que custe Mana, você pode rolar 1d6. Em um resultado 5 ou 6, você não gasta os pontos de Mana daquela habilidade. |
 | **3** | **A Pedra da Alma Estilhaçada:** Localizar um fragmento de Pedra da Alma em uma masmorra e realizar um ritual para aprisionar uma essência menor dentro dela. | **Prisão de Essência:** Quando você desferir um **Golpe Fatal** em um inimigo, você armazena a alma dele. Você pode gastar essa alma para realizar uma ação de ◈ sem gastar seus Pontos de Ação (AP). Você pode armazenar até 3 almas. |
-| **4** | **O Ritual da Noite Eterna:** Bloquear permanentemente a influência da Luz em uma região inteira, criando um santuário para praticantes das artes sombrias. | **Passo do Vazio:** Ao gastar **◈** para se mover, você pode se teletransportar a uma distância **Perto** (ignorando obstáculos e ataques de oportunidade). Se terminar o movimento perto de um inimigo, ele fica **Surpreso**. |
+| **4** | **O Ritual da Noite Eterna:** Bloquear permanentemente a influência da Luz em uma região inteira, criando um santuário para praticantes das artes sombrias. | **Passo do Vazio:** Ao gastar **◈** para se mover, você pode se teletransportar a uma distância **Próximo** (ignorando obstáculos e ataques de oportunidade). Se terminar o movimento perto de um inimigo, ele fica **Surpreso**. |
 | **5** | **O Contrato de Sangue:** Caçar um demônio renegado que quebrou um pacto com o seu patrono e colher o coração dele como prova. | **Domínio Infernal:** Você ganha Vantagem em todos os testes para conjurar feitiços. |
 | **6** | **A Chave do Inferno:** Reunir os fragmentos de uma chave capaz de abrir um portal direto para os domínios de um dos Primeiros Males (Diablo, Baal ou Mephisto). | **Eco do Sofrimento:** Seus demônios ganham RD 5 a todos os danos. Quando um demônio seu é destruído, ele causa 1d6 de dano fogo a criaturas adjacentes. |
 

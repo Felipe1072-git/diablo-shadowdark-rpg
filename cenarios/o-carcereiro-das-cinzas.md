@@ -17,20 +17,20 @@
 **Elenco (Cast)**
 
 **Acólito da Escória**  
-CA 12, HP 7, MV Perto   
-**Corrente Cauterizante (Ataque Corpo a Corpo/Perto)**: \+3 (1d4 de dano de fogo). Se o alvo sofrer dano, os ferimentos são cauterizados de forma mística; ele não pode recuperar HP até o fim de seu próximo turno. Cultistas de pele pálida e olhos vazados, que veneram as chamas purificadoras do Carcereiro.
+CA 12, HP 7, MV Próximo   
+**Corrente Cauterizante (Ataque Corpo a Corpo/Próximo)**: \+3 (1d4 de dano de fogo). Se o alvo sofrer dano, os ferimentos são cauterizados de forma mística; ele não pode recuperar HP até o fim de seu próximo turno. Cultistas de pele pálida e olhos vazados, que veneram as chamas purificadoras do Carcereiro.
 
 **Gárgula de Ferro-Sangue**   
-CA 15 (Pele Metálica), HP 15, MV Perto (Voa Perto)   
+CA 15 (Pele Metálica), HP 15, MV Próximo (Voa Próximo)   
 **Garras em Brasa (Ataque Corpo a Corpo)**: \+4 (1d6+1 de dano).   
-Demônios menores aprisionados em armaduras derretidas. Eles caem do teto ou de lugares altos para emboscar. Quando morrem, explodem em fragmentos de metal quente (todos Perto sofrem 1d4 de dano de fogo).
+Demônios menores aprisionados em armaduras derretidas. Eles caem do teto ou de lugares altos para emboscar. Quando morrem, explodem em fragmentos de metal quente (todos Próximo sofrem 1d4 de dano de fogo).
 
 **O Carcereiro das Cinzas (The Ash Jailer)**  
-CA 16 (Placas do Abismo), HP 75, MV Perto (Pode voar para "Longe", mas é lento e pesado)   
+CA 16 (Placas do Abismo), HP 75, MV Próximo (Pode voar para "Distante", mas é lento e pesado)   
 FOR \+5 | DES \-1 | CON \+4 | INT \+2 | SAB \+1 | CAR \+3   
 **Cetro-Fornalha (Ataque Corpo a Corpo)**: \+7 (1d10+5 de dano contundente \+ 1d6 de dano de Fogo).   
-**Julgamento do Braseiro (Ação Ranged, Longe)**: O Carcereiro aponta seu cajado e dispara uma esfera de chamas brancas. \+5 para acertar. 2d8 de dano de Fogo e o alvo tem sua armadura/escudo derretido (perde 1 de CA permanentemente até ser consertado).   
-**Prisão de Fogo Pálido**: Uma vez por combate, ele bate seu cajado no chão. Correntes de fogo irrompem ao redor de 1d4 alvos Perto. Eles devem passar em um Teste de DES DC 14 ou ficam Imobilizados, sofrendo 1d4 de dano de fogo no início de seus turnos até usarem uma ação para quebrar as correntes (Teste de FOR DC 13).
+**Julgamento do Braseiro (Ação Ranged, Distante)**: O Carcereiro aponta seu cajado e dispara uma esfera de chamas brancas. \+5 para acertar. 2d8 de dano de Fogo e o alvo tem sua armadura/escudo derretido (perde 1 de CA permanentemente até ser consertado).   
+**Prisão de Fogo Pálido**: Uma vez por combate, ele bate seu cajado no chão. Correntes de fogo irrompem ao redor de 1d4 alvos Próximo. Eles devem passar em um Teste de DES DC 14 ou ficam Imobilizados, sofrendo 1d4 de dano de fogo no início de seus turnos até usarem uma ação para quebrar as correntes (Teste de FOR DC 13).
 
 ---
 
@@ -39,7 +39,7 @@ FOR \+5 | DES \-1 | CON \+4 | INT \+2 | SAB \+1 | CAR \+3
 | Dado | Risco Ambiental | Consequência |
 | :---- | :---- | :---- |
 | **1** | **Chão Superaquecido** | Pisos de metal ou pedra ardente. Quem usar armadura pesada ou média sofre Desvantagem em testes de Constituição pelo calor extremo. |
-| **2** | **Fumaça Tóxica** | Névoa espessa de enxofre. Visibilidade reduzida para "Perto". Teste de CON DC 12 ou sofre 1 de dano contínuo enquanto permanecer na área tossindo. |
+| **2** | **Fumaça Tóxica** | Névoa espessa de enxofre. Visibilidade reduzida para "Próximo". Teste de CON DC 12 ou sofre 1 de dano contínuo enquanto permanecer na área tossindo. |
 | **3** | **Chuva de Escória** | Gotas de metal derretido caem do teto. Cada membro do grupo perde imediatamente a proteção de seus escudos para esta rodada, ocupados se defendendo. |
 | **4** | **Ecos de Tormento** | Os gritos das almas forjadas causam dano mental. Teste de SAB DC 11 ou o personagem ganha alucinações (perde 1 Tocha ou 1 Ração no desespero). |
 | **5** | **Correntes Animadas** | Correntes penduradas tentam enforcar os heróis. Teste de DES DC 13 para esquivar, ou fica Imobilizado e silenciado por 1 rodada. |
@@ -51,7 +51,7 @@ Quando o Carcereiro é derrotado, sua fornalha interna colapsa, sugando as chama
 | 1d6 | Relíquia da Forja Abissal | Efeito (Regras Shadowdark) |
 | :---- | :---- | :---- |
 | **1** | **O Braseiro Profano** | Maça Pesada (+1). Causa 1d8 de dano \+ 1d6 de dano de Fogo. O braseiro ilumina como uma Tocha eternamente. A maldição: a luz não pode ser apagada ou coberta, tornando qualquer tentativa de Furtividade impossível enquanto a arma estiver com o grupo. |
-| **2** | **Correntes do Tormento** | Chicote Metálico (+1). Alcance "Perto". Causa 1d6 de dano. Em um Acerto Crítico, o alvo fica Imobilizado até o próximo turno. O custo: o portador ouve os gritos das almas forjadas na corrente. Há 50% de chance de rolar Desvantagem ao tentar recuperar Atributos/HP durante um Descanso Longo. |
+| **2** | **Correntes do Tormento** | Chicote Metálico (+1). Alcance "Próximo". Causa 1d6 de dano. Em um Acerto Crítico, o alvo fica Imobilizado até o próximo turno. O custo: o portador ouve os gritos das almas forjadas na corrente. Há 50% de chance de rolar Desvantagem ao tentar recuperar Atributos/HP durante um Descanso Longo. |
 | **3** | **Elmo de Ferro-Sangue** | Capacete pesado (+1 na CA). O usuário torna-se imune a dano de Fogo. O problema: o metal incandescente funde-se levemente à pele. Equipá-lo ou desequipá-lo causa 1d6 de dano letal e deixa cicatrizes horrendas (-1 em testes de Carisma com pessoas comuns). |
 | **4** | **Coração de Escória Fria** | Um núcleo demoníaco petrificado. Apertá-lo permite conjurar a magia *Prisão de Fogo Pálido* 1x/dia. O preço do poder: a cada uso, a mão e o braço do usuário tornam-se permanentemente enegrecidos e perdem a sensibilidade, ameaçando derrubar itens (Desvantagem em testes de Destreza envolvendo as mãos). |
 | **5** | **Manto de Cinzas Gélidas** | Uma capa tecida com a poeira de ossos. Permite planar sobre fossos ou cair de grandes alturas sem sofrer dano. A maldição: o manto escorrega continuamente uma trilha de cinzas brancas. Qualquer criatura hostil tem Vantagem máxima para rastrear o usuário. |

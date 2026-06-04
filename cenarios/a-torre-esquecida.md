@@ -17,15 +17,15 @@
 **Elenco (Cast)**
 
 **Servo Entorpecido (Enthralled Servant)**   
-CA 10, HP 5, MV Perto   
+CA 10, HP 5, MV Próximo   
 **Foice Enferrujada (Ataque Corpo a Corpo):** \+2 (1d6 de dano). Aldeões sob feitiço. Se sofrerem dano, gritam em desespero profundo, mas continuam atacando com um sorriso bizarro e estático no rosto.
 
 **Arqueira Furtiva (Rogue Corrompida)**   
-CA 13, HP 12, MV Longe   
+CA 13, HP 12, MV Distante   
 **Flecha Farpada (Ataque à Distância):** \+4 (1d6 de dano \+ 1 de sangramento no início do próximo turno do alvo). Antigas mercenárias que agora servem à Condessa. Movem-se pelas sombras dos escombros e têm Vantagem em testes para se esconder na penumbra.
 
 **A Condessa (The Countess)**   
-CA 14, HP 45, MV Perto (Pode flutuar sobre obstáculos)   
+CA 14, HP 45, MV Próximo (Pode flutuar sobre obstáculos)   
 FOR \+1 | DES \+3 | CON \+2 | INT \+4 | SAB \+2 | CAR \+5   
 **Toque Drenante (Ataque Corpo a Corpo):** \+5 (1d8 de dano, e a Condessa recupera HP igual ao dano causado).   
 **Muralha de Chamas:** Uma vez por combate, ela pode erguer uma parede de fogo que corta a sala ao meio. Cruzar a parede causa 2d6 de dano mágico de fogo. Ao ser reduzida a 0 HP, ela ri histericamente e explode em uma nuvem de cinzas e brasas.

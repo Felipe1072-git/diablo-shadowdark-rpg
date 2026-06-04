@@ -1,4 +1,4 @@
-﻿# Capa
+# Capa
 
 | Versão: 1.0 (Playtest) Sistema: Diablo RPG Autor: Paulo Souza |
 | :---- |
@@ -309,7 +309,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 7 | **Instinto de Predador** | Vantagem em ataques contra alvos que ainda não agiram no combate (primeiro turno do encontro). |
 | 8 | **Guerreiro Veterano** | Uma vez por combate, role novamente uma jogada de ataque e fique com o melhor resultado. |
 | 9 | **Sangue Frio** | Sem Desvantagem em ataques por estar adjacente a múltiplos inimigos. |
-| 10 | **Perseguidor** | Quando um inimigo usa Desengajar, você pode se mover Perto como ⟁ sem custo de AP. |
+| 10 | **Perseguidor** | Quando um inimigo usa Desengajar, você pode se mover Próximo como ⟁ sem custo de AP. |
 | 11 | **Marca de Morte** | Ao reduzir um inimigo a 0 PV, seu próximo ataque no mesmo turno tem Vantagem. |
 | 12 | **Agressor** | Ao se mover em direção a um inimigo e atacar no mesmo turno, adicione +1d4 ao dano. |
 | 13 | **Ataque Giratório** | Como ◈◈, ataque todos os inimigos adjacentes. Role um ataque para cada um. |
@@ -335,7 +335,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 6 | **Recuperação de Mana** | Durante um Descanso Curto, recupere Mana adicional igual ao seu Nível. |
 | 7 | **Contrafeitiço** | Como ⟁ + 4 Mana, interrompa um feitiço inimigo que você possa ver sendo conjurado. |
 | 8 | **Infusão de Mana** | Como ◈ + 2 Mana, conceda 3 Mana a um aliado adjacente. |
-| 9 | **Alcance Estendido** | Feitiços com alcance Perto passam a alcançar Longe. |
+| 9 | **Alcance Estendido** | Feitiços com alcance Curto passam a alcançar Distante. |
 | 10 | **Poder Bruto** | Uma vez por combate, dobre o dado de dano de um feitiço (gaste 4 Mana extra). |
 | 11 | **Catalisador Natural** | Você não precisa de um catalisador físico para conjurar — suas mãos servem como foco. Se sua arma já tiver a propriedade Foco Mágico, ganhe +1 adicional nos testes de conjuração. |
 | 12 | **Mente de Ferro** | Seu Mana máximo não pode ser reduzido por efeitos externos (ex: Drenagem Vital da Malfunção). |
@@ -361,7 +361,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 5 | **Corpo Forjado** | Ignore o primeiro nível de Exaustão em qualquer teste. |
 | 6 | **Resistência ao Frio** | Imune a penalidades de clima frio. RD 3 contra dano de gelo. |
 | 7 | **Resistência ao Calor** | Imune a penalidades de clima quente. RD 3 contra dano de fogo. |
-| 8 | **Caminhante das Sombras** | Você enxerga normalmente em escuridão total até uma distância Perto. |
+| 8 | **Caminhante das Sombras** | Você enxerga normalmente em escuridão total até uma distância Próximo. |
 | 9 | **Sono Leve** | Você recupera os benefícios de Descanso Longo em 4 horas em vez de 8. |
 | 10 | **Reflexo de Queda** | Sem dano em quedas de até 6 metros. Acima disso, o dano é reduzido à metade. |
 | 11 | **Força da Desesperança** | Enquanto com menos de 25% dos PV máximos, Vantagem em Salvaguardas. |
@@ -381,7 +381,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 
 | d20 | Talento | Efeito |
 | :---- | :---- | :---- |
-| 1 | **Voz de Comando** | Uma vez por combate, como ◇, dê uma ordem a um aliado — ele pode se mover Perto como ⟁ sem custo de AP. |
+| 1 | **Voz de Comando** | Uma vez por combate, como ◇, dê uma ordem a um aliado — ele pode se mover Próximo como ⟁ sem custo de AP. |
 | 2 | **Intimidação** | Como ◈, force um inimigo (que possa te ouvir) a rolar Salvaguarda de SAB ou CAR (DC 10 + Nível) ou ficar com Desvantagem nos ataques até o fim do turno dele. |
 | 3 | **Presença Imponente** | Vantagem em testes de CAR para intimidar, persuadir ou impressionar NPCs. |
 | 4 | **Grito de Guerra** | Como ◇, todos os aliados que puderem te ouvir ganham +1 em ataques no próximo turno. |
@@ -389,7 +389,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 6 | **Interrogação** | Vantagem em testes para extrair informação de prisioneiros, suspeitos ou testemunhas. |
 | 7 | **Liderança de Campo** | Aliados adjacentes têm +1 em Salvaguardas enquanto você estiver de pé e consciente. |
 | 8 | **Mentiroso Habilidoso** | Vantagem em testes para enganar ou disfarçar intenções. NPCs precisam de evidência concreta para desconfiar de você. |
-| 9 | **Fama e Medo** | Quando seu nome é mencionado em combate (como ◇), inimigos com inteligência média ou menor rolam Salvaguarda de SAB (DC 10 + Nível) ou recuam Perto. |
+| 9 | **Fama e Medo** | Quando seu nome é mencionado em combate (como ◇), inimigos com inteligência média ou menor rolam Salvaguarda de SAB (DC 10 + Nível) ou recuam Próximo. |
 | 10 | **Diplomata** | Você pode tentar encerrar um combate por negociação como ◈◈ — o Mestre decide se os inimigos aceitam escutar. Funciona apenas uma vez por encontro. |
 | 11 | **Inspiração** | Uma vez por descanso longo, como ◈, conceda a um aliado Vantagem em qualquer teste ou ataque à escolha dele, usado quando quiser durante a próxima hora. |
 | 12 | **Moral de Ferro** | Aliados que puderem te ouvir são imunes ao efeito Medo enquanto você estiver consciente. |
@@ -418,13 +418,13 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 8 | **Sentido de Armadilha** | Nunca é surpreendido por armadilhas mecânicas. Você percebe a presença de armadilhas mágicas automaticamente (sem localização exata). |
 | 9 | **Natação de Combate** | Sem penalidades em combate ou movimento subaquático. Você pode segurar a respiração o dobro do tempo normal. |
 | 10 | **Cartógrafo** | Ao final de cada sessão de exploração, o Mestre revela um detalhe oculto do mapa que o grupo ainda não descobriu. |
-| 11 | **Visão Mística** | Como ◈, detecte a presença de magia, demônios ou mortos-vivos num raio Perto. Não revela localização exata, só presença. |
+| 11 | **Visão Mística** | Como ◈, detecte a presença de magia, demônios ou mortos-vivos num raio Próximo. Não revela localização exata, só presença. |
 | 12 | **Caminhante Noturno** | Sem penalidades em terreno escuro ou de luz fraca. Vantagem em testes de exploração durante a noite. |
 | 13 | **Quebrador de Portas** | Portas, cadeados e barreiras físicas comuns cedem sem teste. Barreiras reforçadas concedem Vantagem no teste. |
 | 14 | **Conhecimento de Terreno** | Escolha um tipo de terreno (floresta, deserto, catacumba, cidade). Vantagem em todos os testes de exploração nesse ambiente. |
 | 15 | **Sobrevivente do Inferno** | Você ignora penalidades de ambientes sobrenaturais (calor demoníaco, escuridão mágica, névoa corrompida). |
 | 16 | **Intuição de Perigo** | No início de cada sessão, o Mestre avisa se o próximo encontro principal será de combate, social ou exploração. |
-| 17 | **Sentido de Morte** | Você percebe automaticamente a presença de mortos-vivos ou demônios num raio Longe, mesmo através de paredes. |
+| 17 | **Sentido de Morte** | Você percebe automaticamente a presença de mortos-vivos ou demônios num raio Distante, mesmo através de paredes. |
 | 18 | **Rastejador de Masmorras** | Ao entrar numa nova área, Vantagem na primeira ação que você tomar (ataque, teste ou Salvaguarda). |
 | 19 | **Escalar Paredes** | Como ◈, suba superfícies verticais de até 6 metros sem equipamento. |
 | 20 | **Explorador Lendário** | Escolha qualquer outro talento desta tabela. Você o ganha permanentemente. |
@@ -595,7 +595,7 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 | Ação / Manobra | Custo | Tipo | Descrição e Efeito |
 | :---- | :---- | :---- | :---- |
 | **Ataque Básico** | **◈** | Ação | Um ataque padrão com arma ou magia básica. |
-| **Movimento** | **◈** | Ação | Desloca-se uma distância Perto (aprox. 9m). |
+| **Movimento** | **◈** | Ação | Desloca-se uma distância Próximo (aprox. 9m). |
 | **Investida (Charge)** | **◈◈◈** | Ação | Move-se o dobro da distância e realiza um Ataque com \+2 no acerto. |
 | **Desengajar** | **◈** | Ação | Recua com segurança. Inimigos não podem usar Reações contra você. |
 | **Interagir** | **◈** | Ação | Abrir porta, pegar item, alavancas ou recarregar besta pesada. |
@@ -719,7 +719,7 @@ Toda habilidade especial listada em sua classe possui um custo de Mana.
 Algumas habilidades de classe permitem você infundir Mana em uma ação básica para torná-la superior. Você decide usar o Mana **após** rolar o dado de ataque, mas antes do mestre descrever o resultado.
 
 * *Ataque Brutal (Bárbaro)* **(2 Mana):** Adiciona \+1d6 de dano do tipo da arma.  
-* **Movimento Veloz (1 Mana):** Ao gastar **◈** para mover, você pode se mover uma distância **Longe** em vez de **Perto**.
+* **Movimento Veloz (1 Mana):** Ao gastar **◈** para mover, você pode se mover uma distância **Distante** em vez de **Próximo**.
 
 #### **C. Salvaguardas de Emergência**
 
@@ -839,12 +839,12 @@ Ideais para quem usa Escudo ou quer lutar com duas armas (Propriedade Leve).
 
 | Arma | Dano | Propriedades | Preço |
 | :---- | :---- | :---- | :---- |
-| **Adaga** | 1d4 | Leve, Finesse, Arremesso (Perto) | 1 po |
+| **Adaga** | 1d4 | Leve, Finesse, Arremesso (Próximo) | 1 po |
 | **Katar / Garra** | 1d4 | Leve, Finesse (Crítico causa \+1d4 sangramento) | 4 po |
 | **Varinha (Wand)** | 1d4 | Foco Mágico (+1 em testes de conjuração) | 10 po |
-| **Machado de Mão** | 1d6 | Leve, Arremesso (Perto) | 2 po |
+| **Machado de Mão** | 1d6 | Leve, Arremesso (Próximo) | 2 po |
 | **Espada Curta** | 1d6 | Leve, Finesse | 7 po |
-| **Maça** | 1d6 | Arremesso (Perto) | 5 po |
+| **Maça** | 1d6 | Arremesso (Próximo) | 5 po |
 | **Cestus / Punho** | 1d6 | Leve, Não pode ser desarmado | 3 po |
 | **Espada Longa** | 1d8 | Versátil (1d10) | 10 po |
 | **Machado de Guerra** | 1d8 | Versátil (1d10) | 8 po |
@@ -871,12 +871,12 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
 | Arma | Dano | Propriedades | Preço |
 | :---- | :---- | :---- | :---- |
-| **Azagaia (Javelin)** | 1d6 | Arremesso (Perto), Pilha (3 unidades por slot) | 1 po |
-| **Faca de Arremesso** | 1d4 | Leve, Arremesso (Perto), Pilha (5 por slot) | 1 po |
-| **Arco Curto** | 1d6 | Longe (Far), Duas Mãos | 8 po |
-| **Arco Longo** | 1d8 | Longe (Far), Duas Mãos | 15 po |
-| **Besta Leve** | 1d8 | Longe (Far), Carga | 10 po |
-| **Besta Pesada** | 1d10 | Longe (Far), Carga, Duas Mãos | 20 po |
+| **Azagaia (Javelin)** | 1d6 | Arremesso (Próximo), Pilha (3 unidades por slot) | 1 po |
+| **Faca de Arremesso** | 1d4 | Leve, Arremesso (Próximo), Pilha (5 por slot) | 1 po |
+| **Arco Curto** | 1d6 | Distante (Far), Duas Mãos | 8 po |
+| **Arco Longo** | 1d8 | Distante (Far), Duas Mãos | 15 po |
+| **Besta Leve** | 1d8 | Distante (Far), Carga | 10 po |
+| **Besta Pesada** | 1d10 | Distante (Far), Carga, Duas Mãos | 20 po |
 
 ### **Armaduras**
 
@@ -907,17 +907,17 @@ Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a C
 | **Pedra de Espírito** | Arcano & Divino | Um cristal bruto que vibra com a natureza. Dá **\+2** em testes quando transformado em alguma forma que não seja a original. | 15 po |
 | **Crânio Preservado** | Arcano | Um foco de energia negativa. Aumenta em **\+2** o seu limite máximo de Lacaios (Esqueletos, Cães Zumbi, Animais). | 20 po |
 | **Orbe de Essência** | Arcano | Um globo de vidro com energia elemental. Uma vez por combate, você pode **rolar novamente** um teste de conjuração falho. | 30 po |
-| **Escudo de Zakarum** | Divino | Um escudo com o glifo da luz. Aumenta o alcance de todas as suas **Auras** para "Perto (Near)". | 25 po |
+| **Escudo de Zakarum** | Divino | Um escudo com o glifo da luz. Aumenta o alcance de todas as suas **Auras** para "Próximo (Near)". | 25 po |
 | **Pena de Rapina** | Renegada | Presa ao arco ou besta. Ignora a penalidade de cobertura leve dos inimigos (esconder atrás de barris, etc). | 15 po |
 
 ### **Propriedades de Armas**
 
 * **Finesse (Agilidade):** Você pode usar seu modificador de **Destreza** em vez de Força para rolar o ataque e o dano. Ideal para Assassinas e Renegadas.  
-* **Arremesso (Perto):** A arma pode ser lançada contra um alvo que esteja no alcance **Perto** (até 9 metros/30 pés). Após o ataque, a arma fica no chão perto do alvo e precisa ser recuperada.  
+* **Arremesso (Próximo):** A arma pode ser lançada contra um alvo que esteja no alcance **Próximo** (até 9 metros/30 pés). Após o ataque, a arma fica no chão perto do alvo e precisa ser recuperada.  
 * **Duas Mãos:** Ocupa as duas mãos do personagem. Você não pode usar um escudo ou outra arma enquanto empunha esta.  
 * **Versátil:** A arma pode ser usada com uma ou duas mãos. O dano entre parênteses (1d10) é aplicado apenas quando você a empunha com as duas mãos.  
-* **Haste:** Permite atacar inimigos que não estão encostados na sua miniatura, mas que estão no alcance **Perto**. Isso permite, por exemplo, que um Cavaleiro de Sangue ataque por cima do ombro do Bárbaro.  
-* **Longe:** A arma pode atingir alvos que estejam na zona **Longe** (até onde a vista alcança ou o limite da sala).  
+* **Haste:** Permite atacar inimigos que não estão encostados na sua miniatura, mas que estão no alcance **Próximo**. Isso permite, por exemplo, que um Cavaleiro de Sangue ataque por cima do ombro do Bárbaro.  
+* **Distante:** A arma pode atingir alvos que estejam na zona **Distante** (até onde a vista alcança ou o limite da sala).  
 * **Carga:** Devido ao tempo de recarga, você só pode realizar um ataque por turno com esta arma, mesmo que tenha talentos que permitam múltiplos ataques.  
 * **Ignora Escudo (Mangual):** Inimigos que usam escudo não recebem o bônus de \+1 ou \+2 na AC contra ataques feitos com esta arma. O mangual contorna a defesa.  
 * **Trespassar:** Quando você realiza um ataque, escolha até 3 alvos adjacentes (que estejam encostados na base da sua miniatura). Faça uma única rolagem de ataque. Compare o resultado com a AC de cada um dos 3 alvos individualmente. Todos os alvos que você atingir sofrem o dano total da arma.  

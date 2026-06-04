@@ -39,7 +39,7 @@ Habilidade \- Familiaridade Alpina: Ignora penalidades de terreno difícil na ne
 **Evento 6: Xamã do Clã da Lua**   
 CA: 11 | PV: 56 | Deslocamento: 9m (6 quadrados)   
 Ataque (Corpo-a-corpo): Cajado Gélido (+2 para acertar, dano 1d4 concussivo).   
-Habilidade \- Magia Congelante (Ação): Cura 1d8 de um Khazra aliado OU lança Nevasca de Gelo (Alcance Longe), alvo faz teste de CON DC 13 para tomar apenas metade, 2d6 de dano de frio e reduz o deslocamento do alvo pela metade caso falhe.
+Habilidade \- Magia Congelante (Ação): Cura 1d8 de um Khazra aliado OU lança Nevasca de Gelo (Alcance Distante), alvo faz teste de CON DC 13 para tomar apenas metade, 2d6 de dano de frio e reduz o deslocamento do alvo pela metade caso falhe.
 
 ### **Cenário 2 (Setup e Regras)**
 
@@ -89,7 +89,7 @@ CA: 15 | PV: 90 | Deslocamento: 9m (6 quadrados)
 RDs: Todos 5, Fogo 10  
 Ataque (Corpo-a-corpo): Martelo de Hephaesto (+7 para acertar, dano 2d10+5 concussivo \+ 1d4 de fogo \+ 1d6 contra mortos-vivos).   
 Habilidade \- Trespassar: Se o Campeão reduzir um alvo a 0 PV com o Martelo, pode fazer um ataque extra imediatamente contra outro alvo adjacente.  
-Habilidade \- Pancada: Se o Campeão acertar um ataque, empurre o inimigo para "Perto".
+Habilidade \- Pancada: Se o Campeão acertar um ataque, empurre o inimigo para "Próximo".
 
 **Martelo de Hephaesto**  
 *Item Único*  

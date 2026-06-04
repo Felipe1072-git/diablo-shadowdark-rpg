@@ -16,17 +16,17 @@
 #### **Elenco (Cast)**
 
 **Cultista Velado (Veiled Cultist)**   
-CA 11, HP 4, MV Perto   
+CA 11, HP 4, MV Próximo   
 **Adaga Oculta:** \+2 para acertar, 1d4 de dano \+ Teste de CON ou sofre desvantagem por veneno.   
 Sempre parecem vítimas inofensivas até o momento do ataque.
 
 **Mago Serpente (Serpent Magus)**   
-CA 13, HP 15, MV Perto   
+CA 13, HP 15, MV Próximo   
 **Rajada Esmeralda (Ataque à Distância):** \+3 para acertar, 1d6 de dano.   
 Metamorfos cruéis. Quando mortos, seus corpos se dissolvem em uma poça de ácido que corrói o metal.
 
 **Guarda Ilusório (Illusionary Guard)**   
-CA 15, HP 10, MV Perto   
+CA 15, HP 10, MV Próximo   
 **Alabarda Dourada (Ataque Corpo a Corpo):** \+3 para acertar, 1d8 de dano.   
 Armaduras imponentes movidas por pura falsidade. Se um personagem usar uma rodada para provar em voz alta que eles não são reais (Teste de INT), eles desmancham em névoa verde.
 
@@ -50,7 +50,7 @@ Armaduras imponentes movidas por pura falsidade. Se um personagem usar uma rodad
 
 **CA:** 16 (Manto de Ilusões)   
 **PV:** 85   
-**MV:** Perto (Teleporte)   
+**MV:** Próximo (Teleporte)   
 **Alinhamento:** Caótico
 
 **FOR:** \+3 | **DES:** \+4 | **CON:** \+3 |   
@@ -59,13 +59,13 @@ Armaduras imponentes movidas por pura falsidade. Se um personagem usar uma rodad
 **Ataques:**
 
 * **2x Garras Traiçoeiras (Corpo a Corpo):** \+7 (1d8+3 de dano).  
-* **1x Rajada Esmeralda (Distância, Longe):** \+6 (2d8 de dano por veneno).
+* **1x Rajada Esmeralda (Distância, Distante):** \+6 (2d8 de dano por veneno).
 
 **Habilidades Especiais:**
 
 **Mestre das Miragens:** O campo de batalha está repleto de cópias perfeitas de Belial. Se um personagem rolar um ataque corpo a corpo e errar a CA de Belial, ele atinge uma ilusão. A ilusão explode em gás venenoso: o atacante deve passar em um Teste de CON (DC 14\) ou sofrer 1d6 de dano contínuo por veneno por 1d4 rodadas.
 
-**Sussurros de Paranoia:** No início de cada rodada, Belial sussurra na mente de um alvo aleatório a uma distância "Perto". O alvo deve fazer um Teste de SAB (DC 15). Em caso de falha, o personagem é convencido de que o aliado mais próximo é, na verdade, um lacaio de Belial disfarçado, e deve usar sua ação para atacá-lo com força total.
+**Sussurros de Paranoia:** No início de cada rodada, Belial sussurra na mente de um alvo aleatório a uma distância "Próximo". O alvo deve fazer um Teste de SAB (DC 15). Em caso de falha, o personagem é convencido de que o aliado mais próximo é, na verdade, um lacaio de Belial disfarçado, e deve usar sua ação para atacá-lo com força total.
 
 **Revelação Devastadora (Fase 2):** Ao ser reduzido a 0 PV pela primeira vez, o corpo humanoide de Belial é estraçalhado de dentro para fora. Sua verdadeira forma demoníaca colossal emerge, destruindo parte do cenário. Belial recupera 45 PV imediatamente. Sua CA cai para 14 (ele se torna um alvo enorme), mas ele ganha um novo ataque:   
 **Esmagamento Meteórico**, que atinge todos os personagens na área ao mesmo tempo (Teste de DES DC 15 para esquivar, ou sofrem 3d8 de dano contundente).
