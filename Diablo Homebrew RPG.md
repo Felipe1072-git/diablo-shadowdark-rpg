@@ -83,12 +83,7 @@ Crie uma tabela (geralmente **1D6**) para adicionar variedade e rejogabilidade. 
 3. \[Nome do Evento 3\]: \[Regra rápida\]  
 4. \[Nome do Evento 4\]: \[Regra rápida\]  
 5. \[Nome do Evento 5\]: \[Regra rápida\]  
-6. \[Nome do Evento 6\]: \[Regra rápida\]  
-   Crie uma tabela (geralmente **1D6**) para adicionar variedade e rejogabilidade. Isso transforma um único cenário em várias combinações possíveis.  
-* **Reviravolta 1-2 (Sutil):** Mudanças leves no ambiente ou recursos (ex: mais tesouros, chuva leve).  
-* **Reviravolta 3-4 (Mecânica):** Mudanças que afetam as regras de jogo (ex: visibilidade reduzida, cura em solo sagrado, bônus de ataque).  
-* **Reviravolta 5-6 (O Ponto de Virada):** Um momento de "promessa e recompensa" que vira o jogo de cabeça para baixo.  
-  * **O Ponto de Virada ("Lifting the Lid"):** Quando uma ação específica ocorre (ex: a primeira morte, abrir um sarcófago), algo imprevisível acontece (um inimigo NPC surge, o turno termina abruptamente, o prédio começa a queimar).
+6. \[Nome do Evento 6\]: \[Regra rápida\]
 
 # Classes
 
