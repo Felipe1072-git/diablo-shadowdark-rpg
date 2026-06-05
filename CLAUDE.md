@@ -83,6 +83,35 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 | Cap. 7: Magia | ✅ Pronto |
 | **Apêndice A: Criaturas** | ✅ Pronto |
 | **Apêndice B: Glossário** | ✅ Pronto |
+| **Livro do Mestre** | ✅ Revisado |
+
+## Decisões de Design Consolidadas
+
+### Sistema de Armaduras ✅
+
+**Tipo define CA** — nomes de armadura são estéticos dentro do mesmo tipo:
+- **Leve:** CA 14 (+Mod DES). Variantes: Couro (—) · Couro Reforçado (RD 1 físico)
+- **Média:** CA 16. Variantes: Brunea (—) · Cota de Malha (RD 2 físico)
+- **Pesada:** CA 18. Variantes: Meia-Placa (RD 2 físico) · Placa Completa (RD 3 físico)
+
+Propriedades de armadura (por tipo): Leve: +Mod DES à CA | Pesada: Ruído, Mov. Lento, Requer FOR 13.
+
+### Sistema de Escudos ✅
+
+**Acesso ao escudo acompanha o tipo de armadura da classe** — não está mais listado individualmente nas classes:
+- **Leve** → Broquel (+1 CA)
+- **Média** → Broquel e Escudo (+2 CA, Quebrável)
+- **Pesada** → todos os três + Escudo de Torre (+3 CA, Quebrável, -DES, Mov. -1)
+
+### Propriedade Trespassar ✅
+
+Ação ativa: gaste **◈◈** para realizar um golpe devastador. Uma rolagem de ataque contra **todos os inimigos adjacentes**. Cada acerto causa dano completo da arma.
+
+### Terminologia de Magia ✅
+
+A DC que sobe a cada conjuração bem-sucedida se chama **DC de Conjuração** (era "DC de Fadiga" / "DC de exaustão" em versões anteriores).
+
+---
 
 ## Prioridade de Trabalho
 
@@ -125,6 +154,16 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 🟢 Baixa
 - ~~Imagem quebrada `![][image1]` na seção de Mana~~ ✅ (commit e276132)
 - ~~**Ordenação dos capítulos no arquivo:** Cap. 1 vinha depois de Cap. 2, 4, 5~~ ✅ (commit 1e8e186)
+
+### Goal 3 — Revisão do Livro do Mestre ✅ (commit dbb0938 + f3e8a64 + 9419ada)
+
+- Template de Cenário reescrito para linguagem de RPG (era wargame de miniaturas)
+- Tabelas de Sufixos: coluna "Prefixo" corrigida para "Sufixo" em todas as seções
+- Tabela de Runas: runa e sufixo separados em colunas distintas
+- Texto fantasma de edição removido
+- Tabela de armaduras convertida para sistema Leve/Média/Pesada consistente com LdJ
+- Sistema de escudos por tier implementado (Broquel/Escudo/Torre)
+- "Escudos" removido das classes — agora é regra implícita pelo tipo de armadura
 
 ## Convenções de Commit
 
