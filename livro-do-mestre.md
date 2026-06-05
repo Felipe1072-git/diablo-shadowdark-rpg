@@ -199,9 +199,14 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 
 **Qual peça? (1d6)**
 
-| 1 | 2 | 3 | 4 | 5 | 6 |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Peitoral | Perneiras | Elmo | Luvas | Botas | Mestre escolhe |
+| 1d6 | Peça |
+| :---- | :---- |
+| **1** | Peitoral |
+| **2** | Perneiras |
+| **3** | Elmo |
+| **4** | Luvas |
+| **5** | Botas |
+| **6** | Mestre escolhe |
 
 ---
 
