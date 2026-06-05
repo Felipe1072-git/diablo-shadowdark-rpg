@@ -507,16 +507,6 @@ O acesso a escudos acompanha o tipo de armadura da classe: **Leve** → Broquel;
 | **Escudo de Torre** | Pesado | \+3 | Quebrável, Desvantagem em testes de DES, Mov. \-1 | 60 po |
 
 
-### **Catalisadores**
-
-| Catalisador | Tipo | Propriedade | Preço |
-| :---- | :---- | :---- | :---- |
-| **Pedra de Espírito** | Arcano & Divino | Um cristal bruto que vibra com a natureza. Dá **\+2** em testes quando transformado em alguma forma que não seja a original. | 15 po |
-| **Crânio Preservado** | Arcano | Um foco de energia negativa. Aumenta em **\+2** o seu limite máximo de Lacaios (Esqueletos, Cães Zumbi, Animais). | 20 po |
-| **Orbe de Essência** | Arcano | Um globo de vidro com energia elemental. Uma vez por combate, você pode **rolar novamente** um teste de conjuração falho. | 30 po |
-| **Escudo de Zakarum** | Divino | Um escudo com o glifo da luz. Aumenta o alcance de todas as suas **Auras** para "Próximo (Near)". | 25 po |
-| **Pena de Rapina** | Renegada | Presa ao arco ou besta. Ignora a penalidade de cobertura leve dos inimigos (esconder atrás de barris, etc). | 15 po |
-
 ### **Joias**
 
 Anéis e Amuletos não têm efeito em sua versão Normal — o valor vem inteiramente dos Prefixos e Sufixos quando o item for Mágico, Raro ou Lendário. Cada personagem possui dois slots de Anel e um slot de Amuleto na ficha.
@@ -536,11 +526,32 @@ O Cinto é um slot especial exclusivo para **Consumíveis**. Cabe até 3 itens c
 | Item | Propriedades | Preço (Normal) |
 | :---- | :---- | :---- |
 | **Cinto** | 3 slots de consumível | 5 po |
-| **Cinto de Couro Reforçado** | 3 slots de consumível | 20 po |
+| **Cinto de Couro Reforçado** | 4 slots de consumível | 20 po |
 
 ### **Slot Especial**
 
-O slot Especial é reservado para **itens exclusivos de classe** — objetos que amplificam o estilo de combate de uma classe específica. Cada classe define quais itens pode equipar nesse slot. O conteúdo de cada Especial de Classe é detalhado na descrição da classe no Capítulo 3.
+O slot Especial é reservado para **itens exclusivos de classe** — objetos que amplificam o estilo de combate de uma classe específica. Em versão Normal não têm efeito; o valor vem dos Prefixos e Sufixos. Os efeitos mecânicos de cada Especial são detalhados no Capítulo 3.
+
+| Classe | Item Especial |
+| :---- | :---- |
+| **Arcanista** | Orbe Arcano |
+| **Mago** | Tomo de Magias |
+| **Necromante** | Filogênio |
+| **Feiticeiro (Witch Doctor)** | Mojo |
+| **Renegada** | Aljava |
+| **Sacerdote** | Símbolo Sagrado |
+| **Warlock** | Grimório |
+| **Amazona** | Aljava |
+| **Assassina** | Kit de Armadilhas |
+| **Caçador de Demônios** | Aljava |
+| **Druida** | Totem Druídico |
+| **Natispirito** | Cristal de Espírito |
+| **Monge** | Faixa Sagrada |
+| **Paladino** | Relíquia |
+| **Cavaleiro de Sangue** | Cálice de Sangue |
+| **Cruzado** | Filogênio Sagrado |
+| **Guerreiro** | Pedra de Afiação |
+| **Bárbaro** | Totem Ancestral |
 
 # Tempo
 

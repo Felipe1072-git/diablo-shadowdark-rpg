@@ -295,7 +295,32 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 | :---- | :---- | :---- | :---- |
 | **89-93** | Anel | Anel 1 ou Anel 2 | 5 |
 | **94-97** | Amuleto | Amuleto | 10 |
-| **98-00** | Cinto | Cinto (3 slots consumível) | 5 |
+| **98-00** | Cinto | Cinto (3–4 slots consumível) | 5–20 |
+
+**Especiais de Classe** são distribuídos manualmente pelo Mestre — não entram no d100. Use a tabela abaixo para determinar o item correto para a classe do personagem.
+
+| Classe | Item Especial |
+| :---- | :---- |
+| **Arcanista** | Orbe Arcano |
+| **Mago** | Tomo de Magias |
+| **Necromante** | Filogênio |
+| **Feiticeiro (Witch Doctor)** | Mojo |
+| **Renegada** | Aljava |
+| **Sacerdote** | Símbolo Sagrado |
+| **Warlock** | Grimório |
+| **Amazona** | Aljava |
+| **Assassina** | Kit de Armadilhas |
+| **Caçador de Demônios** | Aljava |
+| **Druida** | Totem Druídico |
+| **Natispirito** | Cristal de Espírito |
+| **Monge** | Faixa Sagrada |
+| **Paladino** | Relíquia |
+| **Cavaleiro de Sangue** | Cálice de Sangue |
+| **Cruzado** | Filogênio Sagrado |
+| **Guerreiro** | Pedra de Afiação |
+| **Bárbaro** | Totem Ancestral |
+
+*Role na Sub-tabela de Qualidade para determinar raridade do Especial de Classe encontrado.*
 
 ---
 
