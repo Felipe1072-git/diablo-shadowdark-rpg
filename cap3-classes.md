@@ -1005,7 +1005,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | **13** | **Mestra de Armadilhas (Passiva):** Suas armadilhas causam \+1d6 de dano extra além dos efeitos normais. |
 | **14** | **Clone das Sombras (◈◈ \+ 3 Mana):** Invoque uma sombra que copia seus ataques por 3 rodadas. |
 | **15** | **Exploração de Fraqueza (Passiva):** Seus ataques críticos agora acontecem com 18-20 natural. |
-| **16** | **Chuva de Flechas (◈ \+ 3 Mana):** Cubra uma área "Distante" com flechas mágicas 3d6 de dano Físico. Gaste +1 Mana para cada dado extra. |
+| **16** | **Chuva de Flechas (◈ \+ 3 Mana):** Cubra uma área "Distante" com flechas mágicas 3d6 de dano Físico. Gaste +3 Mana para cada dado extra. |
 | **17** | **Visão Interior (◈ \+ 3 Mana):** Marque um inimigo. Todos os ataques contra ele têm Vantagem por 1d4 rodadas. |
 | **18** | **Ímpeto (◈ \+ 1 Mana):** Mova-se o dobro da distância normal e atravesse inimigos sem sofrer ataques de oportunidade. |
 | **19** | **Armadilha da Morte (◈◈◈ \+ 8 Mana):** Coloque uma armadilha de energia sombria. Quando ativada, causa **4d8 de dano Necrótico** em área "Próximo" e deixa o terreno maldito por 1d4 rodadas — inimigos que iniciarem o turno na área sofrem **1d6 Necrótico** automaticamente. |
