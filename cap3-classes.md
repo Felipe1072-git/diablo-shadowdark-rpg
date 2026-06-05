@@ -380,7 +380,7 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 | **15** | **Espinhos de Sangue (⟁ \+ 1 Mana):** Quando sofrer dano, espirre sangue de volta e cause 1d4 necrótico a uma criatura adjacente. |
 | **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 3 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Próximo” e os move para qualquer distância “Próximo” (Teste de FOR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
 | **17** | **Vigor Maléfico (◈ \+ 2 Mana):** Ganhe 1d4 HP Temporário até o próximo descanso longo. Gaste +2 Mana para cada dado extra. Você não precisa comer ou beber por uma semana após beber o sangue de um inimigo morto. |
-| **18** | **Onda de Sangue (Feitiço) (◈◈ \+ 2 Mana por dado):** Uma explosão circular. Todos os inimigos adjacentes sofrem 2d6 necrótico e são empurrados para uma distância “Próximo”. |
+| **18** | **Onda de Sangue (Feitiço) (◈◈ \+ 2 Mana):** Uma explosão circular. Todos os inimigos adjacentes sofrem 2d6 necrótico e são empurrados para uma distância “Próximo”. Gaste +2 Mana para cada dado extra. |
 | **19** | **Abominação (Transformação) (◈◈◈ \+ 10 Mana):** Torne-se um monstro por 3 rodadas. Com uma ação de ataque **◈** Você **ataca 2x com garras (2d10 necrótico \+ atributo)**. Com ação livre **◇,** **ganha \+5 HP temporários no início de cada rodada**. Você pode se transformar sem o custo de mana, mas deve fazer um teste de **SAB DC 20 \- Level Atual** ou sucumbir à maldição e se tornar uma abominação descontrolada para sempre. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -495,15 +495,15 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **7** | **Raiva (Passiva):** Na forma de Lobo, sua mordida causa veneno (1d4 dano/turno) que se espalha para inimigos "Próximo" no início do turno deles. o Veneno dura 1d4 rodadas. |
 | **8 (1)** | **Ciclone de Armadura (Feitiço) (◈ \+ 1 Mana por Rodada):** Você cria uma armadura de vento. Uma vez por rodada, ignore o dano de um ataque à distância. |
 | **9 (2)** | **Corvos Espirituais (Feitiço) (◈ \+ 2 Mana):** Invoque corvos que cegam um inimigo (Desvantagem no ataque) por 1d4 rodadas. |
-| **10 (3)** | **Sábio de Carvalho (Feitiço) (◈◈ \+ 2 Mana por dado):** Invoque um espírito que dá \+1d4 de HP temporário para todos os aliados "Próximo". |
+| **10 (3)** | **Sábio de Carvalho (Feitiço) (◈◈ \+ 2 Mana):** Invoque um espírito que dá \+1d4 de HP temporário para todos os aliados "Próximo". Gaste +2 Mana para cada dado extra. |
 | **11** | **Lobos Atrozes (Passiva):** Você pode ter um lobo espiritual extra. Isso aumenta o número de lobos ativos ao mesmo tempo. |
 | **12** | **Coração de Wolverine (Passiva):** Seu espírito animal garante \+1 em ataques e dano para aliados "Próximo". |
-| **13 (4)** | **Rocha Rolante (Feitiço) (◈◈ \+ 2 Mana por dado):** Lança uma pedra em linha reta que causa 1d8 de dano físico e derruba inimigos perto. |
-| **14 (5)** | **Fissura (Feitiço)(◈ \+ 2 Mana por dado):** Abre uma fenda no chão "Próximo". Inimigos na área sofrem 1d6 de fogo por turno. A fenda dura 1d4 rodadas. |
-| **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana por Dado):** Crie um Furacão poderoso em até um ponto “Distante”. Inimigos que começarem o turno "Próximo" do Furacão sofre 2d6 de dano físico. |
+| **13 (4)** | **Rocha Rolante (Feitiço) (◈◈ \+ 2 Mana):** Lança uma pedra em linha reta que causa 1d8 de dano físico e derruba inimigos perto. Gaste +2 Mana para cada dado extra. |
+| **14 (5)** | **Fissura (Feitiço)(◈ \+ 2 Mana):** Abre uma fenda no chão “Próximo”. Inimigos na área sofrem 1d6 de fogo por turno. Gaste +2 Mana para cada dado extra. A fenda dura 1d4 rodadas. |
+| **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana):** Crie um Furacão poderoso em até um ponto “Distante”. Inimigos que começarem o turno “Próximo” do Furacão sofrem 2d6 de dano físico. Gaste +2 Mana para cada dado extra. |
 | **16 (7)** | **Vinha Venenosa (Feitiço) (◈◈ \+ 2 Mana por inimigo):** Uma planta surge do chão e imobiliza um inimigo por 1d4 rodadas. |
 | **17** | **Chamado do Urso Pardo (◈◈ \+ 3 Mana):** Invoque um Urso Espiritual (10 HP, 1d10 de dano) em vez do Lobo e Corvo. |
-| **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana por dado):** O chão explode em lava. Dano 3d10 em toda área “Próximo” de um ponto que você escolher. |
+| **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana):** O chão explode em lava. Dano 3d10 em toda área “Próximo” de um ponto que você escolher. Gaste +3 Mana para cada dado extra. |
 | **19** | **Armagedão (◈◈◈ \+ 8 Mana):** Você chama os céus contra seus inimigos. Por 1d4 rodadas, meteoros de fogo caem sobre todos os inimigos em área "Próximo", causando **2d10 de dano Fogo** por rodada. Inimigos na área devem fazer um teste de CON (DC 10 \+ SAB) ou ficarem atordoados por 1 rodada. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -565,7 +565,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 | **11** | **Frenesi de Fogo (Jaguar) (◈ \+ 1 Mana):** Ganhe uma ação extra **◈** por rodada durante 1d4 rodadas. |
 | **12** | **Nuvem de Esporos (Centopeia) (◈◈ \+ 4 Mana):** Inimigos "Próximo" ficam atordoados por 1 rodada. |
 | **13** | **Retaliação do Espírito (⟁ \+ 1 Mana):** Se um inimigo errar um ataque contra você, você pode contra-atacar imediatamente. |
-| **14** | **Pisotear (Gorila) (◈◈ \+ 3 Mana por dado):** Avance em linha reta. Inimigos no caminho sofrem 2d6 de dano físico e são derrubados. |
+| **14** | **Pisotear (Gorila) (◈◈ \+ 3 Mana):** Avance em linha reta. Inimigos no caminho sofrem 2d6 de dano físico e são derrubados. Gaste +3 Mana para cada dado extra. |
 | **15** | **Torvelinho de Penas (Águia) (◈ \+ 1 Mana por projétil):** Dispare projéteis de vento que causam 1d6 de dano físico em área (Próximo) ao acertar o alvo. |
 | **16** | **Devorar (Centopeia)(◇ \+ 1 Mana):** Se matar um inimigo envenenado, recupere 1d8 de HP. |
 | **17** | **Dança do Jaguar (Passiva):** Você não provoca ataques de oportunidade ao se mover. |
@@ -688,7 +688,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **13** | **Segunda Chance (◇ \+ 2 Mana):** Role novamente um teste de ataque que errou. |
 | **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Próximo" devem te atacar no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
 | **15** | **Mestre de Todas as Armas (Passiva):** Você pode trocar sua arma de Mestria após um descanso curto ou longo. |
-| **16** | **Fôlego Renovado (◈ \+ 1 Mana por Dado):** Recupere 1d10 \+ Nível de HP como uma ação. |
+| **16** | **Fôlego Renovado (◈ \+ 1 Mana):** Recupere 1d10 \+ Nível de HP como uma ação. Gaste +1 Mana para cada dado extra. |
 | **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a AC do inimigo em 2 pelo resto do combate (destrói o couro/metal). |
 | **18** | **Carga Heróica (◈◈ \+ 4 Mana):** Avance para "Distante" e ataque com Vantagem. Se acertar, causa dano máximo. |
 | **19** | **Veterano de Ferro (◈◈◈ \+ 8 Mana):** Por 1d4 rodadas, você entra em estado de combate total. Seus ataques com a arma de Mestria causam dano máximo automático. Uma vez por rodada, se matar um inimigo, pode fazer um ataque imediato contra outro "Próximo" como ação livre **◇**. |
@@ -804,10 +804,10 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | **1-2** | \+2 de Destreza ou \+2 de Sabedoria. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 na AC. |
 | **5** | **Ímpeto (◈◈):** Gaste 1 Mana para se mover para "Próximo" instantaneamente e atacar com Vantagem. |
-| **6** | **Palma Explosiva (◇ \+ 1 Mana por dado):** Se o seu ataque matar o alvo, ele explode causando 1d8 de dano Físico em área (Próximo). |
-| **7** | **Mantra da Cura (◈ \+ 1 Mana por dado ou Aliado):** Gaste 1 Mana para curar 1d6 de HP (por Mana gasto) a si mesmo e a um aliado "Próximo". |
+| **6** | **Palma Explosiva (◇ \+ 1 Mana):** Se o seu ataque matar o alvo, ele explode causando 1d8 de dano Físico em área (Próximo). |
+| **7** | **Mantra da Cura (◈ \+ 1 Mana):** Cura 1d6 de HP a si mesmo e a um aliado "Próximo". Gaste +1 Mana para cada dado extra. |
 | **8** | **Mantra de Evasão (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
-| **9** | **Mantra de Retribuição (⟁ \+ 1 Mana por dado):** Inimigos que te acertarem sofrem 1d4 de dano Radiante de volta. |
+| **9** | **Mantra de Retribuição (⟁ \+ 1 Mana):** Inimigos que te acertarem sofrem 1d4 de dano Radiante de volta. |
 | **10** | **Onda de Luz (O Sino) (◈◈):** Gaste 1 Mana para esmagar inimigos numa área "Próximo" com um sino de luz (2d6 dano Radiante por Mana gasto). |
 | **11** | **Serenidade (◈):** Gaste 3 Mana, torna-se invulnerável a todo dano até o início da sua próxima rodada. |
 | **12** | **Ciclone (◈ \+ 1 Mana por inimigo):** Faça um ataque desarmado que gera um ciclone de vento e puxa inimigos "Próximo" para “Adjacentes” a você. |
@@ -865,13 +865,13 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência, \+2 de Sabedoria ou \+2 de Constituição. |
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de esqueletos. |
-| **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana por dado):** Exploda um cadáver ou esqueleto. Dano 1d6 Necrótico em área (Próximo). |
-| **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana por dado):** Um projétil que atravessa inimigos em linha reta (perto). Dano 1d8 físico. |
+| **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana):** Exploda um cadáver ou esqueleto. Dano 1d6 Necrótico em área (Próximo). Gaste +2 Mana para cada dado extra. |
+| **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana):** Um projétil que atravessa inimigos em linha reta (perto). Dano 1d8 físico. Gaste +2 Mana para cada dado extra. |
 | **7** | **Armadura de Ossos (Passivo):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
 | **8** | **Maldizer (Passivo):** Inimigos "Próximo" sofrem \+2 de dano de todos os ataques. |
-| **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana por dado):** Causa 1d4 de dano necrótico a um alvo e você recupera a mesma quantia em HP. |
+| **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana):** Causa 1d4 de dano necrótico a um alvo e você recupera a mesma quantia em HP. Gaste +2 Mana para cada dado extra. |
 | **10** | **Golem de Argila (◈ \+ 3 Mana por Golem):** Em vez de 3 esqueletos, você invoca 1 Golem (15 HP, CA15, 1d8 dano). |
-| **11** | **Dama de Ferro (⟁ \+ 1 Mana por dado):** Inimigos que baterem nos seus esqueletos sofrem 1d4 de dano Físico de volta. |
+| **11** | **Dama de Ferro (⟁ \+ 1 Mana):** Inimigos que baterem nos seus esqueletos sofrem 1d4 de dano Físico de volta. |
 | **12** | **Sifão de Sangue (⟁ \+ 1 Mana):** Quando um inimigo morre "Próximo", você recupera 1d4 de HP. |
 | **13 (4)** | **Espírito de Ossos (Feitiço)(◈ \+ 3 Mana por espírito):** Conjure espíritos que perseguem alvos causando 2d10 necrótico por espírito. |
 | **14 (5)** | **Parede de Ossos (Feitiço)(◈ \+ 2 Mana \+ 1 Mana por 10 HP):** Cria uma barreira de ossos na mesa que bloqueia o movimento por 1d4 rodadas. A Barreira tem CA 16 e 10 HP por **1 Mana**. |
@@ -933,10 +933,10 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **6** | **Sacrifício (◈ \+ 2 Mana):** Gaste 1d4 HP para ganhar **Vantagem** e dano máximo no seu próximo ataque. |
 | **7** | **Zelo (◈◈ \+ 3 Mana):** Faça 3 ataques rápidos no mesmo alvo. |
 | **8** | **Carga (◈◈ \+ 1 Mana):** Avance em linha reta para "Distante" e ataque. Se acertar, o alvo cai (Prone). |
-| **9** | **Seta Sagrada (Feitiço)(◈◈ \+ 2 Mana por dado):** Dispare um raio de luz. Cura 1d6 em aliado ou causa 1d8 de dano Radiante em morto-vivo/demônio. |
+| **9** | **Seta Sagrada (Feitiço)(◈◈ \+ 2 Mana):** Dispare um raio de luz. Cura 1d6 em aliado ou causa 1d8 de dano Radiante em morto-vivo/demônio. Gaste +2 Mana para cada dado extra. |
 | **10** | **Escudo Sagrado (Feitiço)(◈ \+ 3 Mana):** Seu escudo brilha, dando \+3 na AC por um encontro. |
 | **11** | **Meditação (Aura)(◈):** Aliados na aura têm Vantagem para recuperar feitiços durante descansos curtos. |
-| **12** | **Punho dos Céus (Feitiço)(◈◈ \+ 4 Mana por dados):** Um raio cai do céu. Dano 2d10 Radiante em um alvo e solta Holy Bolts (1d10 Radiante) em inimigos perto. |
+| **12** | **Punho dos Céus (Feitiço)(◈◈ \+ 4 Mana):** Um raio cai do céu. Dano 2d10 Radiante em um alvo e solta Holy Bolts (1d10 Radiante) em inimigos perto. Gaste +4 Mana para cada dado extra. |
 | **13** | **Arremesso Abençoado(◈ \+ 3 Mana):** Arremessa um martelo espiral até "Distante". O Martelo causa o dano da arma a cada inimigo que tocar na mesa e volta para sua mão . |
 | **14** | **Salvação (Aura)(◈):** Você e aliados na aura ganham RD 2 a um tipo de dano Elemental (Fogo/Gelo/Raio). |
 | **15** | **Redenção (Aura)(◈):** Quando um inimigo morre na aura, você e aliados recuperam 1 de HP. |
@@ -1070,7 +1070,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | **15** | **Intervenção Divina (⟁):** Gaste 5 Mana. Se um aliado ficar com HP 0, ele fica com 1 HP em vez disso. |
 | **16 (7)** | **Anjo da Guarda (Feitiço)(◈ \+ 2 Mana por aliado):** Invoca um espírito de luz que protege o grupo. Ele concede vantagem em testes para aliados “Próximo” por 1d4 rodadas. |
 | **17** | **Confissão (◈◈◈):** Gaste 3 Mana por inimigo para que perca o próximo turno "contando seus pecados". |
-| **18 (8)** | **Nova Sagrada (Feitiço) (◈◈ \+ 2 Mana por Dados):** Uma explosão de luz. Cura aliados "Próximo" em 1d8 e causa 1d8 de dano em inimigos. |
+| **18 (8)** | **Nova Sagrada (Feitiço) (◈◈ \+ 2 Mana):** Uma explosão de luz. Cura aliados "Próximo" em 1d8 e causa 1d8 de dano em inimigos. Gaste +2 Mana para cada dado extra. |
 | **19** | **Arcanjo Guardião (◈◈◈ \+ 8 Mana):** Invoca um Arcanjo por 1d4 rodadas (CA 16, HP igual ao seu HP máximo). No seu turno, como ação livre **◇**, ele cura **1d8 HP** de um aliado OU causa **2d8 de dano Radiante** a um inimigo "Próximo". |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
