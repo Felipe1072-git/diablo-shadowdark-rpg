@@ -190,19 +190,30 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 
 ### Armaduras e Escudos (01-39)
 
-*Cada armadura tem CA própria (13–18). Tipo define propriedades e acesso de classe — ver tabela completa no Cap. 6 do Livro do Jogador.*
+*Cada armadura tem CA própria (13–18). Tipo define propriedades e acesso de classe. **RD ativa por peça equipada** — não exige set completo.*
 
-| d100 | Item | Tipo | CA | Prop. Secundária | Preço (PO) |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| **01-08** | Couro | Leve | 13 | — | 10 |
-| **09-12** | Couro Reforçado | Leve | 14 | RD 1 físico | 45 |
-| **13-22** | Brunea | Média | 15 | — | 50 |
-| **23-27** | Cota de Malha | Média | 16 | RD 2 físico | 400 |
-| **28-31** | Meia-Placa | Pesada | 17 | RD 2 físico | 750 |
-| **32-34** | Placa Completa | Pesada | 18 | RD 3 físico | 1500 |
-| **35-36** | Broquel | Leve | +1 CA | — | 10 |
-| **37-38** | Escudo | Médio | +2 CA | Quebrável | 15 |
-| **39** | Escudo de Torre | Pesado | +3 CA | Quebrável, \-DES, Mov. \-1 | 60 |
+| d100 | Item | Tipo | CA (set) | RD | Req. | Preço (PO) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **01-08** | Couro | Leve | 13 | — | — | 10 |
+| **09-12** | Couro Reforçado | Leve | 14 | 1 físico | — | 45 |
+| **13-22** | Brunea | Média | 15 | — | FOR 11 | 50 |
+| **23-27** | Cota de Malha | Média | 16 | 2 físico | FOR 11 | 400 |
+| **28-31** | Meia-Placa | Pesada | 17 | 2 físico | FOR 13 | 750 |
+| **32-34** | Placa Completa | Pesada | 18 | 3 físico | FOR 13 | 1500 |
+| **35-36** | Broquel | Leve | \+1 CA | — | — | 10 |
+| **37-38** | Escudo | Médio | \+2 CA | — | — | 15 |
+| **39** | Escudo de Torre | Pesado | \+3 CA | — | FOR 13 | 60 |
+
+**Bônus de CA por peça (referência rápida)**
+
+| Peça | Couro | C. Reforçado | Brunea | C. Malha | Meia-Placa | Placa Compl. |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Peitoral | \+2 | \+2 | \+2 | \+2 | \+3 | \+3 |
+| Perneiras | \+1 | \+1 | \+2 | \+2 | \+2 | \+2 |
+| Elmo | \+0 | \+1 | \+1 | \+1 | \+1 | \+1 |
+| Luvas | \+0 | \+0 | \+0 | \+1 | \+1 | \+1 |
+| Botas | \+0 | \+0 | \+0 | \+0 | \+0 | \+1 |
+| **Set completo** | **13** | **14** | **15** | **16** | **17** | **18** |
 
 ### Armas Corpo a Corpo (40-75)
 

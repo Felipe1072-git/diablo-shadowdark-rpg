@@ -470,6 +470,8 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
 Cada peça de armadura contribui com um bônus à CA base 10. O valor de cada peça depende da armadura específica — misturar peças de armaduras diferentes é permitido; some os bônus normalmente. O Tipo (Leve/Média/Pesada) define as propriedades e os requisitos de classe.
 
+**Redução de Dano (RD):** ativa por peça equipada, não exige o set completo. Cada peça de Couro Reforçado, Cota de Malha, Meia-Placa ou Placa Completa que você veste contribui com a RD da armadura.
+
 | Peça | Couro | C. Reforçado | Brunea | C. Malha | Meia-Placa | Placa Compl. |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | **Peitoral** | \+2 | \+2 | \+2 | \+2 | \+3 | \+3 |
