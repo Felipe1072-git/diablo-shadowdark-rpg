@@ -287,17 +287,20 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 
 ---
 
-### Joias e Acessórios (89-00)
+### Joias, Acessórios e Especiais de Classe (89-00)
 
 *Joias sem efeito em versão Normal — valor vem dos afixos. Role na Sub-tabela de Qualidade abaixo.*
 
 | d100 | Item | Slots na Ficha | Preço Normal (PO) |
 | :---- | :---- | :---- | :---- |
-| **89-93** | Anel | Anel 1 ou Anel 2 | 5 |
-| **94-97** | Amuleto | Amuleto | 10 |
-| **98-00** | Cinto | Cinto (3–4 slots consumível) | 5–20 |
+| **89-91** | Anel | Anel 1 ou Anel 2 | 5 |
+| **92-94** | Amuleto | Amuleto | 10 |
+| **95-96** | Cinto | Cinto (3–4 slots consumível) | 5–20 |
+| **97-00** | Especial de Classe | Slot Especial — Mestre escolhe a classe de um dos PJs | varia |
 
-**Especiais de Classe** são distribuídos manualmente pelo Mestre — não entram no d100. Use a tabela abaixo para determinar o item correto para a classe do personagem. Role na Sub-tabela de Qualidade para determinar a raridade.
+*Resultado 97-00: consulte a tabela de Especiais de Classe abaixo para identificar o item. Role na Sub-tabela de Qualidade para determinar a raridade.*
+
+**Especiais de Classe** — use a tabela abaixo para determinar o item correto após rolar 97-00 no d100.
 
 | Classe | Item Especial | Efeito Base (Normal) |
 | :---- | :---- | :---- |
