@@ -213,24 +213,24 @@ Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e suf
 
 ## Armaduras e Escudos (01-39)
 
-*Bônus de CA por slot: consultar a tabela de Armaduras no Cap. 6 do Livro do Jogador. O Mestre define qual peça (slot) foi encontrada conforme o contexto.*
+*O tipo define o bônus de CA por slot (ver Cap. 6 do Livro do Jogador). Nomes de armadura são estéticos — mesmo tipo, mesma CA. O Mestre decide qual slot foi encontrado conforme o contexto.*
 
-| d100 | Item | Tipo | Preço (PO) |
-| :---- | :---- | :---- | :---- |
-| **01-03** | Acolchoada | Leve | 5 |
-| **04-06** | Couro | Leve | 10 |
-| **07-09** | Couro Batido | Leve | 10 |
-| **10-12** | Cota de Anéis | Média | 30 |
-| **13-15** | Couro Tachonado | Leve | 45 |
-| **16-18** | Camisão de Malha | Média | 50 |
-| **19-21** | Brunea (Escamas) | Média | 50 |
-| **22-24** | Peitoral de Aço | Média | 400 |
-| **25-27** | Meia-Placa | Pesada | 750 |
-| **28-30** | Cota de Malha | Pesada | 75 |
-| **31-34** | Armadura de Talas | Pesada | 200 |
-| **35** | Placa Completa (conjunto) | Pesada | 1500 |
-| **36-37** | Escudo de Madeira | Defesa | 15 |
-| **38-39** | Escudo de Torre | Defesa | 60 |
+| d100 | Item | Tipo | CA Total | Preço (PO) |
+| :---- | :---- | :---- | :---- | :---- |
+| **01-03** | Acolchoada | Leve | 14 | 5 |
+| **04-06** | Couro | Leve | 14 | 10 |
+| **07-09** | Couro Batido | Leve | 14 | 10 |
+| **10-12** | Cota de Anéis | Média | 16 | 30 |
+| **13-15** | Couro Tachonado | Leve | 14 | 45 |
+| **16-18** | Camisão de Malha | Média | 16 | 50 |
+| **19-21** | Brunea (Escamas) | Média | 16 | 50 |
+| **22-24** | Peitoral de Aço | Média | 16 | 400 |
+| **25-27** | Meia-Placa | Pesada | 18 | 750 |
+| **28-30** | Cota de Malha | Pesada | 18 | 75 |
+| **31-34** | Armadura de Talas | Pesada | 18 | 200 |
+| **35** | Placa Completa (conjunto) | Pesada | 18 | 1500 |
+| **36-37** | Escudo de Madeira | Defesa | +2 CA | 15 |
+| **38-39** | Escudo de Torre | Defesa | +3 CA | 60 |
 
 ## Armas Corpo a Corpo (40-75)
 
