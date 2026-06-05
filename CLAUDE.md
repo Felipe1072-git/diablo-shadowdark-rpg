@@ -43,19 +43,22 @@ Substituições aplicadas em todos os arquivos (commit f53cfef).
 ```
 repo/
 ├── livro-do-jogador.md      ← Livro do Jogador (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
-├── livro-do-mestre.md       ← Livro do Mestre (encontros, tesouros, forte, handouts…)
+├── livro-do-mestre.md       ← Livro do Mestre (Cap. 1 Encontros, Cap. 2 Tesouros, Cap. 3 Registro, Apêndice Template)
 ├── cap3-classes.md          ← Cap. 3: Classes (18 classes)
 ├── apendice-criaturas.md    ← Apêndice A: Criaturas
 ├── apendice-glossario.md    ← Apêndice B: Glossário
 ├── referencia-mestre-progressao.md ← Tabelas de PV/progressão por nível (calibração de criaturas)
-├── cenarios/                ← 7 módulos de aventura
-│   ├── senhor-da-mentira.md
+├── cenarios/                ← 8 módulos de aventura
+│   ├── senhor-da-mentira.md      ← inclui Handout Caverna B no final
+│   ├── baluarte-dos-lobos-de-ferro.md ← NPCs do Forte (Rayna, Sorit, Jarek, Valla, Harek, Elara, Silas)
 │   ├── a-torre-esquecida.md
 │   ├── o-abatedouro-profano.md
 │   ├── o-monarca-louco.md
 │   ├── o-carcereiro-das-cinzas.md
 │   ├── sarcofago-escarlate.md
 │   └── o-resgate.md
+├── notas/                   ← rascunhos e ideias de campanha (não entra no livro)
+│   └── notas-campanha.md    ← Sinister 7, ganchos de missão, referências
 └── fichas/
     ├── fichas-referencia.md ← documentação da estrutura das fichas
     └── Fichas 2.0.pdf       ← fichas imprimíveis (não entra no git)
