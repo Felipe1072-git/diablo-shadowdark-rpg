@@ -297,30 +297,28 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 | **94-97** | Amuleto | Amuleto | 10 |
 | **98-00** | Cinto | Cinto (3–4 slots consumível) | 5–20 |
 
-**Especiais de Classe** são distribuídos manualmente pelo Mestre — não entram no d100. Use a tabela abaixo para determinar o item correto para a classe do personagem.
+**Especiais de Classe** são distribuídos manualmente pelo Mestre — não entram no d100. Use a tabela abaixo para determinar o item correto para a classe do personagem. Role na Sub-tabela de Qualidade para determinar a raridade.
 
-| Classe | Item Especial |
-| :---- | :---- |
-| **Arcanista** | Orbe Arcano |
-| **Mago** | Tomo de Magias |
-| **Necromante** | Filogênio |
-| **Feiticeiro (Witch Doctor)** | Mojo |
-| **Renegada** | Aljava |
-| **Sacerdote** | Símbolo Sagrado |
-| **Warlock** | Grimório |
-| **Amazona** | Aljava |
-| **Assassina** | Kit de Armadilhas |
-| **Caçador de Demônios** | Aljava |
-| **Druida** | Totem Druídico |
-| **Natispirito** | Cristal de Espírito |
-| **Monge** | Faixa Sagrada |
-| **Paladino** | Relíquia |
-| **Cavaleiro de Sangue** | Cálice de Sangue |
-| **Cruzado** | Filogênio Sagrado |
-| **Guerreiro** | Pedra de Afiação |
-| **Bárbaro** | Totem Ancestral |
-
-*Role na Sub-tabela de Qualidade para determinar raridade do Especial de Classe encontrado.*
+| Classe | Item Especial | Efeito Base (Normal) |
+| :---- | :---- | :---- |
+| **Arcanista** | Orbe Arcano | Cargas Arcanas concedem +3 de dano em vez de +2 |
+| **Mago** | Tomo de Magias | Uma vez por combate, conjure feitiço de Afinidade sem teste |
+| **Necromante** | Filogênio | +2 ao limite máximo de lacaios |
+| **Feiticeiro** | Mojo | Veneno dura 2 rodadas a mais em vez de 1 |
+| **Renegada** | Carcaj de Sombra | Ataque Furtivo causa +1d6 extra (total +2d6) |
+| **Sacerdote** | Símbolo Sagrado | Oração Purificadora cura/causa 1d8 em vez de 1d6 |
+| **Warlock** | Grimório | Pacto de Sangue recupera 1d6 de Mana em vez de 1d4 |
+| **Amazona** | Aljava de Batalha | Crítico com arcos em 19–20 natural |
+| **Assassina** | Kit de Armadilhas | Sentinelas causam +1d4 de dano extra |
+| **Caçador de Demônios** | Aljava Sombria | Habilidades de Ódio custam 1 Mana a menos (mínimo 1) |
+| **Druida** | Totem Druídico | Espírito Animal tem +2 HP e causa +1 de dano |
+| **Natispirito** | Cristal de Espírito | +1 de dano com armas de haste (total +2) |
+| **Monge** | Faixa Sagrada | Espírito em Fluxo: Mod. Sabedoria +1 de Mana por turno |
+| **Paladino** | Relíquia | Golpe Sagrado adiciona Nível+2 de dano Radiante |
+| **Cavaleiro de Sangue** | Cálice de Sangue | Sifão de Sangue recupera 2 HP em vez de 1 |
+| **Cruzado** | Filogênio Sagrado | Ataque de escudo causa 1d6 em vez de 1d4 |
+| **Guerreiro** | Pedra de Afiação | +1 de dano com a arma de Mestria |
+| **Bárbaro** | Totem Ancestral | Durante Fúria Sanguinária, recupere 1 HP/turno |
 
 ---
 

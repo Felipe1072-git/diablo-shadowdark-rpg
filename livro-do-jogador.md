@@ -530,28 +530,28 @@ O Cinto é um slot especial exclusivo para **Consumíveis**. Cabe até 3 itens c
 
 ### **Slot Especial**
 
-O slot Especial é reservado para **itens exclusivos de classe** — objetos que amplificam o estilo de combate de uma classe específica. Em versão Normal não têm efeito; o valor vem dos Prefixos e Sufixos. Os efeitos mecânicos de cada Especial são detalhados no Capítulo 3.
+O slot Especial é reservado para **itens exclusivos de classe** — objetos que amplificam diretamente as habilidades core de cada classe. Já funcionam em versão Normal; versões Mágicas, Raras e Lendárias ampliam o efeito via Prefixos e Sufixos.
 
-| Classe | Item Especial |
-| :---- | :---- |
-| **Arcanista** | Orbe Arcano |
-| **Mago** | Tomo de Magias |
-| **Necromante** | Filogênio |
-| **Feiticeiro (Witch Doctor)** | Mojo |
-| **Renegada** | Aljava |
-| **Sacerdote** | Símbolo Sagrado |
-| **Warlock** | Grimório |
-| **Amazona** | Aljava |
-| **Assassina** | Kit de Armadilhas |
-| **Caçador de Demônios** | Aljava |
-| **Druida** | Totem Druídico |
-| **Natispirito** | Cristal de Espírito |
-| **Monge** | Faixa Sagrada |
-| **Paladino** | Relíquia |
-| **Cavaleiro de Sangue** | Cálice de Sangue |
-| **Cruzado** | Filogênio Sagrado |
-| **Guerreiro** | Pedra de Afiação |
-| **Bárbaro** | Totem Ancestral |
+| Classe | Item Especial | Efeito Base (Normal) | Preço |
+| :---- | :---- | :---- | :---- |
+| **Arcanista** | Orbe Arcano | Cargas Arcanas (Dínamo) concedem +3 de dano em vez de +2 | 25 po |
+| **Mago** | Tomo de Magias | Uma vez por combate, conjure um feitiço de Afinidade Elemental sem teste de conjuração | 30 po |
+| **Necromante** | Filogênio | +2 ao limite máximo de lacaios (Comandante da Horda) | 30 po |
+| **Feiticeiro (Witch Doctor)** | Mojo | Veneno dura 2 rodadas a mais em vez de 1 (Mestre das Pragas) | 25 po |
+| **Renegada** | Carcaj de Sombra | Ataque Furtivo causa +1d6 extra (total +2d6) | 20 po |
+| **Sacerdote** | Símbolo Sagrado | Oração Purificadora cura ou causa 1d8 em vez de 1d6 | 25 po |
+| **Warlock** | Grimório | Pacto de Sangue recupera 1d6 de Mana em vez de 1d4 | 25 po |
+| **Amazona** | Aljava de Batalha | Ao atirar com arco, crítico em 19–20 natural | 20 po |
+| **Assassina** | Kit de Armadilhas | Sentinelas causam +1d4 de dano extra | 25 po |
+| **Caçador de Demônios** | Aljava Sombria | Habilidades de Ódio custam 1 Mana a menos (mínimo 1) | 30 po |
+| **Druida** | Totem Druídico | Espírito Animal tem +2 HP e seus ataques causam +1 de dano | 25 po |
+| **Natispirito** | Cristal de Espírito | +1 de dano com armas de haste (total +2 com Vigor do Espírito) | 25 po |
+| **Monge** | Faixa Sagrada | Espírito em Fluxo recupera Mod. Sabedoria +1 de Mana por turno | 25 po |
+| **Paladino** | Relíquia | Golpe Sagrado adiciona Nível+2 de dano Radiante em vez de Nível | 30 po |
+| **Cavaleiro de Sangue** | Cálice de Sangue | Sifão de Sangue recupera 2 HP em vez de 1 | 30 po |
+| **Cruzado** | Filogênio Sagrado | Ataque de escudo (Mestre do Escudo) causa 1d6 em vez de 1d4 | 30 po |
+| **Guerreiro** | Pedra de Afiação | +1 de dano com a arma de Mestria | 15 po |
+| **Bárbaro** | Totem Ancestral | Durante Fúria Sanguinária, recupere 1 HP no início de cada turno | 25 po |
 
 # Tempo
 
