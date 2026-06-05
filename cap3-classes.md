@@ -252,7 +252,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | **16** | **Ordens de Batalha (◈+ 2 Mana):** Você grita ordens e até 2 aliados em alcance de audição podem imediatamente se mover até o deslocamento máximo deles como uma reação, sem provocar ataques de oportunidade. |
 | **17** | **Desprezo à Dor (⟁ \+ 2 Mana):** Como uma reação, se cair para 0 HP, você ignora o dano e continua de pé com 1 HP. |
 | **18** | **Dupla Empunhadura (◈ \+ 1 Mana):** Se usar duas armas, você pode gastar 1 Ação e 1 Mana para realizar um ataque extra com a arma secundária. |
-| **19** | **Chamado dos Antigos (◈◈◈ \+ 6 Mana por Ancestral):** Invoca o espíritos ancestrais para lutar ao seu lado, máximo de 3\. Até o fim do combate, cada Ancestral replica seus ataques corpo a corpo **◈** em um alvo adicional em alcance “Próximo”. Resolva todos os ataques e o dano de você e dos Ancestrais em uma única rolagem. |
+| **19** | **Chamado dos Antigos (◈◈◈ \+ 4 Mana por Ancestral):** Invoca espíritos ancestrais para lutar ao seu lado, máximo de 3\. Até o fim do combate, cada Ancestral ataca um alvo “Próximo” no seu turno, causando **1d8 de dano Físico**. Resolva todos os ataques dos Ancestrais com uma única rolagem. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -351,7 +351,7 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 ### **Habilidades de Classe**
 
 * **Mestre da Lança (◈):** Você tem \+1 para atacar com armas de haste. Além disso, você pode fazer um ataque extra com a ponta inversa desse tipo de arma, o dano base é 1d4 Físico.   
-* **Sifão de Sangue (◇):** Sempre que você acertar um inimigo ***vivo*** com um ataque corpo a corpo, você recupera 1 de HP.  
+* **Sifão de Sangue (◇):** Sempre que você acertar um inimigo ***vivo*** com um ataque corpo a corpo, você recupera 1 de HP. Se o inimigo estiver com menos da metade do HP, você recupera **1d4 HP** em vez de 1.  
 ---
 
 ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
@@ -374,7 +374,7 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 | **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 3 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Próximo” e os move para qualquer distância “Próximo”. |
 | **17** | **Vigor Maléfico (◈ \+ 3 Mana por dado):** Ganhe 1d4 HP Temporário até o próximo descanso longo. Você não precisa comer ou beber por uma semana após beber o sangue de um inimigo morto. |
 | **18** | **Onda de Sangue (Feitiço) (◈◈ \+ 2 Mana por dado):** Uma explosão circular. Todos os inimigos adjacentes sofrem 2d6 necrótico e são empurrados para uma distância “Próximo”. |
-| **19** | **Abominação (Transformação) (◈◈◈ \+ 10 Mana):** Torne-se um monstro por 3 rodadas. Com uma ação de ataque **◈** Você **ataca 2x com garras (2d10 necrótico \+ atributo)**. Com ação livre **◇,** **ganha \+10 HP temporários no início de cada rodada**. Você pode se transformar sem o custo de mana, mas deve fazer um teste de **SAB DC 20 \- Level Atual** ou sucumbir à maldição e se tornar uma abominação descontrolada para sempre. |
+| **19** | **Abominação (Transformação) (◈◈◈ \+ 10 Mana):** Torne-se um monstro por 3 rodadas. Com uma ação de ataque **◈** Você **ataca 2x com garras (2d10 necrótico \+ atributo)**. Com ação livre **◇,** **ganha \+5 HP temporários no início de cada rodada**. Você pode se transformar sem o custo de mana, mas deve fazer um teste de **SAB DC 20 \- Level Atual** ou sucumbir à maldição e se tornar uma abominação descontrolada para sempre. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -422,12 +422,12 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **1-2** | \+2 de Força ou \+2 de Sabedoria. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 em testes de conjuração. |
 | **5** | **Pele de Ferro (Feitiço)(◈ \+ 2 Mana):** Reduza todo o dano recebido à metade por 1 rodada. |
-| **6** | **Escudo Reluzente (Feitiço) (◈◈◈ \+ 2 Mana por Rodada):** Inimigos "Próximo" ficam cegos por 1 rodada. (Desvantagem nos ataque enquanto estiverem na área). |
+| **6** | **Escudo Reluzente (Feitiço) (◈◈ \+ 3 Mana):** Inimigos "Próximo" ficam cegos por 1 rodada. (Desvantagem nos ataques enquanto estiverem na área). |
 | **7** | **Punição (◇ \+ 2 Mana):** Após bloquear um ataque, seu próximo golpe tem Vantagem e causa \+1d6 de dano Físico. |
 | **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana por dado):** Invoque um martelo de luz que gira ao seu redor, causando 1d4 de dano Radiante a quem se aproximar (dura 1d4 rodadas). |
 | **9** | **Investida de Corcel (◈ \+ 3 Mana):** Você pode se mover o triplo da distância e ignorar ataques de oportunidade. |
 | **10** | **Esmagar com Escudo (◈ \+ 1 Mana):** Faça ataque de escudo, se acertar, o alvo é derrubado (Prone) automaticamente. |
-| **11** | **Julgamento (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Distante" no lugar com correntes sagradas por 1d4 rodada (DC 10 \+ Sabedoria para soltar). |
+| **11** | **Julgamento (Feitiço) (◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Distante" no lugar com correntes sagradas por 1d4 rodada (DC 10 \+ Sabedoria para soltar). |
 | **12** | **Leis da Esperança (◈ \+ 2 Mana por Rodada):** Você e aliados "Próximo" recuperam 1d4 de HP no início de cada rodada. |
 | **13** | **Leis da Justiça (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
 | **14** | **Espada Cadente (◈◈ \+ 2 Mana por dado):** Salte para "Distante" e caia causando 2d8 de dano Radiante em área (Próximo do impacto). |
@@ -435,7 +435,7 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **16** | **Fúria Sagrada (◈ \+ 3 Mana por Rodada):** Seus ataques agora causam \+2d6 de dano Radiante por 1 rodada. |
 | **17** | **Consagração (Feitiço)(◈ \+ 4 Mana):** Santifique o chão "Próximo". Aliados lá dentro têm Vantagem em testes e ataques. |
 | **18** | **Fervor (Passiva):** Você pode usar uma arma de duas mãos em uma mão se estiver usando um escudo na outra. |
-| **19** | **Campeão de Akarat (◈◈◈ \+ 10 Mana):** Cresça em tamanho e poder. Ganhe um bônus extra igual ao **Atributo Primário** em todos os ataques e danos. Você também regenera **2d10 HP** no início do turno por 1d4 rodadas. |
+| **19** | **Campeão de Akarat (◈◈◈ \+ 10 Mana):** Cresça em tamanho e poder. Ganhe um bônus extra igual ao **Atributo Primário** em todos os ataques e danos. Você também regenera **1d10 HP** no início do turno por 1d4 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -659,7 +659,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 
 ### **Habilidades de Classe**
 
-* **Mestria em Armas:** Escolha um tipo de arma (Espadas, Machados, Maças). Você tem **Vantagem** em ataques com essa arma.  
+* **Mestria em Armas:** Escolha um tipo de arma (Espadas, Machados, Maças). Você tem **Vantagem** em ataques com essa arma. Quando usar Vantagem com a arma de Mestria e acertar, cause **+1d4 de dano extra**.  
 * **Reparar Equipamento:** Durante os descansos, você pode reparar armaduras e armas suas e de seus aliados, restaurando a utilidade de itens danificados. Adicionalmente, você concede \+1 de AC ou \+1 Ataque com Armas. Esse bônus dura 1d4 combates.  
 ---
 
@@ -681,9 +681,9 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Próximo" devem te atacar no próximo turno. |
 | **15** | **Mestre de Todas as Armas (Passiva):** Você pode trocar sua arma de Mestria após um descanso curto ou longo. |
 | **16** | **Fôlego Renovado (◈ \+ 1 Mana por Dado):** Recupere 1d10 \+ Nível de HP como uma ação. |
-| **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a AC do inimigo em 2 permanentemente (destrói o couro/metal). |
+| **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a AC do inimigo em 2 pelo resto do combate (destrói o couro/metal). |
 | **18** | **Carga Heróica (◈◈ \+ 4 Mana):** Avance para "Distante" e ataque com Vantagem. Se acertar, causa dano máximo. |
-| **19** | **Líder de Batalha (Passiva):** Aliados "Próximo" têm Vantagem em testes para não fugirem (Moral). |
+| **19** | **Veterano de Ferro (◈◈◈ \+ 8 Mana):** Por 1d4 rodadas, você entra em estado de combate total. Seus ataques com a arma de Mestria causam dano máximo automático. Uma vez por rodada, se matar um inimigo, pode fazer um ataque imediato contra outro "Próximo" como ação livre **◇**. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
