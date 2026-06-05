@@ -110,18 +110,18 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 
 🔴 Alta
 - ~~Títulos de Origem — reformatar como tabela legível~~ ✅ (commit d09968c)
-- Propriedades das armas — definir no Arsenal (Finesse, Versátil, Haste, etc. usadas mas não explicadas)
-- Formatação do Cap. 7 Magia — headings virou texto, frase cortada, parágrafo dentro de `##`
+- ~~Propriedades das armas — definir no Arsenal~~ ✅ (commit e276132)
+- ~~Formatação do Cap. 7 Magia — headings virou texto, frase cortada, parágrafo dentro de `##`~~ ✅ (commit e276132)
 
 🟡 Média
-- Duplicações em Talentos Gerais: "Força da Desesperança" em duas tabelas com efeitos diferentes; "Pele Grossa" e "Pele de Pedra" com efeito idêntico
-- Cap. 4 Origens — consolidar: conteúdo duplicado entre Cap. 2 (Títulos) e Cap. 4
-- Seções vazias: `# Pontos de Ação` (sem conteúdo) e `# Fichas 2.0` (sem conteúdo)
-- `## ---` aparece 3× como subheadings no Cap. 1 — devem ser `---` simples
+- **Duplicações em Talentos Gerais:** "Força da Desesperança" aparece na Tabela 1 (Combate #19) e Tabela 3 (Sobrevivência #11) com efeitos diferentes. "Pele Grossa" (Combate #1) e "Pele de Pedra" (Sobrevivência #1) têm efeito idêntico (+3 HP). Requer decisão do Paulo sobre qual manter/renomear.
+- **Cap. 4 Origens — consolidar:** conteúdo duplicado entre Cap. 2 (Sistema de Títulos) e Cap. 4. Cap. 4 está praticamente vazio — só aponta de volta pro Cap. 2 + tabela de Antecedentes. Considerar fundir ou reestruturar.
+- ~~Seções vazias: `# Pontos de Ação` e `# Fichas 2.0`~~ ✅ (commit e276132)
+- ~~`## ---` aparece 3× como subheadings no Cap. 1~~ ✅ (commit e276132)
 
 🟢 Baixa
-- Imagem quebrada `![][image1]` na seção de Mana
-- Ordenação dos capítulos no arquivo (Cap. 1 vem depois de Cap. 2, 4, 5)
+- ~~Imagem quebrada `![][image1]` na seção de Mana~~ ✅ (commit e276132)
+- **Ordenação dos capítulos no arquivo:** Cap. 1 vem depois de Cap. 2, 4, 5 no arquivo. Impacta leitura direta do `.md` mas não o PDF compilado. Avaliar se vale reorganizar.
 
 ## Convenções de Commit
 
