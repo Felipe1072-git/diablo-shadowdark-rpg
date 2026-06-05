@@ -114,6 +114,69 @@ Ação ativa: gaste **◈◈** para realizar um golpe devastador. Uma rolagem de
 
 A DC que sobe a cada conjuração bem-sucedida se chama **DC de Conjuração** (era "DC de Fadiga" / "DC de exaustão" em versões anteriores).
 
+### Categorias de Itens ✅
+
+Hierarquia de raridade alinhada com a franquia Diablo:
+**Normal → Mágico → Raro → Lendário → Único / Set**
+
+- **Normal** (era "Comum"): item base sem afixos
+- **Mágico**: 1 Prefixo ou 1 Sufixo
+- **Raro**: 1 Prefixo + 1 Sufixo
+- **Lendário**: 2 Prefixos + 1 Sufixo (ou efeito especial do Mestre)
+- **Único**: efeito fixo exclusivo, sem sistema de prefixo/sufixo
+- **Set**: template em aberto, bônus a definir futuramente
+
+### Arsenal — Armas ✅
+
+Lista expandida e alinhada com a franquia Diablo (commits 87e6705):
+- **Foice** (1d10, 2H) renomeada para **Foice de Guerra**
+- Adicionadas: Porrete, Foice (Sickle 1d4), Martelo Leve, Cimitarra, Tridente, Maça Grande, Martelo de Guerra, Estrela da Manhã, Rapieira, Pica, Glaive, Lança de Montaria
+- **Glaive** diferencia da Alabarda com propriedade Trespassar
+- LdM: Malho corrigido para 2d8, Machado Grande corrigido para 2d8, Bordão unificado como Cajado, Machadinha removida
+
+### Arsenal — Catalisadores ✅
+
+Seção removida do LdJ. Os 5 itens com efeitos fixos (Crânio Preservado, Orbe de Essência, Escudo de Zakarum, Pedra de Espírito, Pena de Rapina) são candidatos a **itens Únicos** futuramente.
+
+### Arsenal — Cinto ✅
+
+- **Cinto**: 3 slots de consumível — 5 po
+- **Cinto de Couro Reforçado**: 4 slots de consumível — 20 po
+
+### Slot Especial — Itens de Classe ✅
+
+Cada classe tem um item exclusivo que já funciona em versão Normal, amplificando diretamente a habilidade core da classe. Preços: 50–200 po.
+
+| Classe | Item | Efeito Base |
+|---|---|---|
+| Arcanista | Orbe Arcano | Cargas Arcanas +3 dano/carga |
+| Mago | Tomo de Magias | 1×/combate feitiço de Afinidade sem teste |
+| Necromante | Filogênio | +2 limite de lacaios |
+| Feiticeiro | Mojo | Veneno +2 rodadas (Mestre das Pragas) |
+| Renegada | Carcaj de Sombra | Ataque Furtivo +1d6 (total +2d6) |
+| Sacerdote | Símbolo Sagrado | Oração Purificadora 1d8 |
+| Warlock | Grimório | Pacto de Sangue 1d6 Mana |
+| Amazona | Aljava de Batalha | Crítico com arcos 19–20 |
+| Assassina | Kit de Armadilhas | Sentinelas +1d4 dano |
+| Caçador de Demônios | Aljava Sombria | Habilidades de Ódio –1 Mana (mín. 1) |
+| Druida | Totem Druídico | Espírito Animal +2 HP/+1 dano |
+| Natispirito | Cristal de Espírito | +1 dano haste (total +2) |
+| Monge | Faixa Sagrada | Espírito em Fluxo: Mod. SAB +1/turno |
+| Paladino | Relíquia | Golpe Sagrado Nível+2 Radiante |
+| Cavaleiro de Sangue | Cálice de Sangue | Sifão de Sangue 2 HP |
+| Cruzado | Filogênio Sagrado | Ataque de escudo 1d6 |
+| Guerreiro | Pedra de Afiação | +1 dano com arma de Mestria |
+| Bárbaro | Totem Ancestral | Fúria: +1 HP/turno |
+
+### Tabela de Tesouros d100 — LdM ✅
+
+Distribuição atual (Cap. 2 Tesouros):
+- **01–39** Armaduras (sub-tabela própria com peça/set e qualidade)
+- **40–75** Armas Corpo a Corpo
+- **76–88** Armas à Distância e Focos
+- **89–91** Anel · **92–94** Amuleto · **95–96** Cinto
+- **97–00** Especial de Classe — Mestre escolhe para qual PJ do grupo
+
 ---
 
 ## Prioridade de Trabalho
