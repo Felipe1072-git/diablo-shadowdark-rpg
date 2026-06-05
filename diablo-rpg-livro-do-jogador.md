@@ -499,8 +499,6 @@ Os **Pontos de Vida (PV)** representam quanto punição um personagem aguenta an
 
 ---
 
-# Pontos de Ação
-
 # O Fluxo do Combate
 
 No mundo de **Santuário**, a hesitação é uma sentença de morte. Enquanto as hordas do Inferno Ardente avançam, um herói não é medido apenas por sua força, mas pela rapidez com que executa suas ações sob pressão.
@@ -511,7 +509,7 @@ Diferente de outros sistemas de RPG, aqui não há uma distinção rígida entre
 
 Cada rodada, você recebe **3 Pontos de Ação (◈◈◈)**. Você pode gastá-los como desejar: três ataques, três movimentos, ou uma combinação de habilidades.
 
-## ---
+---
 
 ### Os Ícones de Ação
 
@@ -523,7 +521,7 @@ Use estes símbolos como referência rápida em suas fichas e tabelas:
 * **◇ Ação Livre:** Ações instantâneas que não consomem seu fôlego (limite de 1 por turno).  
 * **⟁ Reação:** Uma ação realizada fora do seu turno em resposta a um gatilho.
 
-## ---
+---
 
 ## Os Pontos de Ação (Action Points)
 
@@ -533,7 +531,7 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 
 **Regra de Ouro:** Não existem "Ataques Extras" automáticos por nível. Se você deseja atacar mais de uma vez, deve gastar os **Pontos de Ação** necessários para isso.
 
-## ---
+---
 
 ## Tabela de Ações
 
@@ -694,9 +692,6 @@ Se o seu Mana chegar a **0**, você entra em um estado de fadiga profunda:
 
 ---
 
-![][image1]
-
-
 ### **Resumo de Interação (AP vs. Mana)**
 
 | Recurso | O que define? | Recuperação |
@@ -718,9 +713,13 @@ O **Bárbaro** está cercado por 3 Caídos.
 
 # Sistema de Magia
 
-## **A Manipulação das Energias Proibidas** *A é uma força bruta, caótica e senciente que flui do conflito eterno entre os Altos Céus e o Inferno Ardente.*
+## **A Manipulação das Energias Proibidas**
 
-## **A Mecânica de Conjuração** Um conjurador  **pode tentar conjurar qualquer feitiço que conheça. Dado que tenha os recursos necessários.**
+A Magia é uma força bruta, caótica e senciente que flui do conflito eterno entre os Altos Céus e o Inferno Ardente.
+
+## **A Mecânica de Conjuração**
+
+Um conjurador **pode tentar conjurar qualquer feitiço que conheça**, dado que tenha os recursos necessários.
 
 Para conjurar, o jogador deve realizar um Teste de Conjuração:
 
@@ -743,13 +742,15 @@ Canalizar o poder arcano drena a mente e o corpo. No calor da batalha, cada suce
 ### 3\. A Falha: O Alívio da Mente
 
 
-### Diferente de outros sistemas, **falhar não significa perder o feitiço**. Significa que a energia não foi canalizada, permitindo que a mente do conjurador descanse e se restabeleça.
+Diferente de outros sistemas, **falhar não significa perder o feitiço**. Significa que a energia não foi canalizada, permitindo que a mente do conjurador descanse e se restabeleça.
 
 * **Efeito:** A DC para o próximo feitiço reduz em **\-2** (mínimo de DC 10).  
 * O conjurador **não perde os recursos do feitiço,** mas perde a ação gasta.   
 * Ele pode tentar novamente no próximo turno com uma dificuldade menor.
 
-## **O Preço do Erro: Malfunção Mágica** O único momento em que o elo com o poder se rompe é através do erro catastrófico. Se o jogador rolar um 1 Natural no dado:
+## **O Preço do Erro: Malfunção Mágica**
+
+O único momento em que o elo com o poder se rompe é através do erro catastrófico. Se o jogador rolar um 1 Natural no dado:
 
 * **Perda:** O feitiço é **perdido** e não pode ser conjurado até o próximo **Descanso Longo**.  
 * **Malfunção:** O jogador deve rolar imediatamente na tabela de *Malfunção Mágica* (ver abaixo).  
@@ -777,6 +778,29 @@ Para tornar isso visual e emocionante na mesa, use o **Dado de Fluxo**:
 5. **O Mago falhou?** Gire o dado de volta para o **2 (DC 12\)**. *"O Mago respira fundo e sente a magia fluir melhor agora."*
 
 # Arsenal
+
+## Propriedades das Armas
+
+Toda arma possui uma ou mais propriedades que definem como ela se comporta em combate. As propriedades são listadas nas tabelas abaixo.
+
+| Propriedade | Efeito |
+| :---- | :---- |
+| **Leve** | Pode ser usada na mão secundária sem penalidade. Ideal para quem luta com duas armas. |
+| **Finesse** | Você pode usar FOR ou DES no ataque e dano — escolha no momento do ataque. |
+| **Versátil (Xd)** | Pode ser empunhada com uma ou duas mãos. Com duas mãos, use o dado entre parênteses. |
+| **Duas Mãos** | Requer as duas mãos para usar. Não pode ser combinada com escudo. |
+| **Haste** | Alcance estendido — pode atingir alvos a até Próximo sem se mover. Ataques de oportunidade atingem quem entra ou sai do alcance. |
+| **Arremesso (Zona)** | Pode ser arremessada até a zona indicada (Próximo ou Distante). Usa FOR no ataque. |
+| **Foco Mágico** | Conta como catalisador para conjuração. Concede \+1 em testes de conjuração. |
+| **Trespassar** | Em um Acerto Crítico, o ataque continua e atinge um segundo alvo adjacente ao primeiro. |
+| **Brutal** | Role novamente qualquer dado de dano que resultar em 1. Aceite o novo resultado. |
+| **Pesada** | Criaturas Pequenas têm Desvantagem em ataques com esta arma. |
+| **Penetrante** | Ignora 1 ponto de CA proveniente de armadura (não de escudos ou atributos). |
+| **Carga** | Precisa de uma ação (◈) para recarregar após cada disparo. |
+| **Pilha (X por slot)** | Múltiplas unidades ocupam um único slot de inventário. |
+| **Distante** | Alcance padrão até Distante. Ataques além desse alcance têm Desvantagem. |
+
+---
 
 ### **Armas de Uma Mão (Corpo a Corpo)**
 
@@ -878,10 +902,6 @@ Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a C
 * **Ruído:** Você tem **Desvantagem** em testes de Furtividade e em qualquer teste para se mover silenciosamente.  
 * **Movimento Lento:** Devido ao peso extremo, o personagem não pode realizar a ação de "Correr".  
 * **Quebrável:** Se você sofrer um ataque que reduziria seu HP a 0 ou um Crítico devastador, você pode sacrificar o escudo. Ele se estilhaça completamente, mas você não sofre dano algum daquele ataque específico.
-
-# Fichas 2.0
-
- 
 
 # Tempo
 
