@@ -114,7 +114,7 @@ A Resistência tem três pilares que se somam: **atributo primário + RD de arma
 | Arquétipo | Atributo primário | Resistência Física base | Resistência Elemental base | Resistência Exótica base |
 |---|---|---|---|---|
 | Caster (Mago, Arcanista, Necromante) | INT +3 | 0 (Couro, FOR 0) | 3 | 0 |
-| Suporte (Sacerdote, Warlock) | VON +3 | 0–1 | 0–1 | 3 |
+| Suporte (Sacerdote, Warlock) | CAR +3 | 0–1 | 0–1 | 3 |
 | Híbrido (Amazona, Renegada, Caçador) | DES +3 | 1–2 (FOR +1 + armadura leve/média) | 0–1 | 0–1 |
 | Guerreiro (Guerreiro, Monge, Druida) | FOR +3 | 5 (FOR +3 + Cota de Malha RD 2) | 0 | 0 |
 | Tanque (Bárbaro, Paladino, Cruzado) | FOR/CAR +3 | 6 (FOR +3 + Placa Completa RD 3) | 0 | 0–1 |
@@ -124,7 +124,7 @@ A Resistência tem três pilares que se somam: **atributo primário + RD de arma
 **Fontes por tipo:**
 - **Física** = Mod. FOR + RD da armadura + itens
 - **Elemental** (Fogo/Gelo/Elétrico/Veneno/Ácido) = Mod. INT + itens
-- **Exótica** (Necrótico/Radiante/Psíquico/Força) = Mod. VON + itens
+- **Exótica** (Necrótico/Radiante/Psíquico/Força) = Mod. CAR + itens
 
 ---
 
