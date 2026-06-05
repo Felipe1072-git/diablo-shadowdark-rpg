@@ -154,20 +154,20 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 
 | Ação / Manobra | Custo | Tipo | Descrição e Efeito |
 | :---- | :---- | :---- | :---- |
-| **Ataque Básico** | **◈** | Ação | Um ataque padrão com arma ou magia básica. |
-| **Movimento** | **◈** | Ação | Desloca-se uma distância Próximo (aprox. 9m). |
-| **Investida (Charge)** | **◈◈◈** | Ação | Move-se o dobro da distância e realiza um Ataque com \+2 no acerto. |
-| **Desengajar** | **◈** | Ação | Recua com segurança. Inimigos não podem usar Reações contra você. |
-| **Interagir** | **◈** | Ação | Abrir porta, pegar item, alavancas ou recarregar besta pesada. |
-| **Usar Item** | **◈** | Ação | Beber uma poção, usar um pergaminho ou óleo na arma. |
-| **Esquiva** | **⟁** | Reação | Adiciona \+3 na CA contra um ataque ou Vantagem em teste de DES. |
-| **Sacrifício** | **⟁** | Reação | Mitiga todo o dano de um ataque, mas escolhe um item equipado para ser destruído. |
-| **Ataque de Oportunidade** | **⟁** | Reação | Ataca um inimigo adjacente que tenta se mover. |
-| **Cobertura** | **⟁** ou **⟁⟁** | Reação | Quando um aliado Próximo é alvo de um ataque ou efeito de área, você se lança na frente dele. Gaste ⟁ se já estiver Adjacente, ou ⟁⟁ se precisar se mover até ele. **Contra ataques:** o ataque é redirecionado a você — o atacante rola contra a sua CA e você sofre o dano no lugar do aliado. **Contra efeitos de área:** o aliado não sofre dano; você absorve a parte dele e toma o dano total (o seu + o do aliado). |
-| **Derrubar / Empurrar** | **◈** | Ação | Teste de FOR vs o alvo. Se vencer, o alvo cai ou é empurrado para longe. |
-| **Ajudar** | **◈** | Ação | Vantagem para o próximo teste de um aliado. |
-| **Preparar** | **◈ ou \+◈** | Ação | Define um gatilho para realizar uma ação fora do seu turno. |
-| **Troca Rápida** | ◇ | Livre | Trocar uma arma leve ou soltar algo no chão (1x por turno). |
+| **Ataque Básico** | **◈** | Ação | Ataca com arma ou magia básica. |
+| **Movimento** | **◈** | Ação | Move-se até uma zona Próxima (~15cm na mesa). |
+| **Investida** | **◈◈◈** | Ação | Move-se o dobro em linha reta e ataca com \+2 no acerto. |
+| **Desengajar** | **◈** | Ação | Recua sem provocar Ataque de Oportunidade. |
+| **Interagir** | **◈** | Ação | Abre uma porta, pega um item, aciona uma alavanca ou recarrega uma besta pesada. |
+| **Usar Item** | **◈** | Ação | Bebe uma poção, usa um pergaminho ou aplica óleo em uma arma. |
+| **Derrubar / Empurrar** | **◈** | Ação | Teste de FOR contra o alvo. Se vencer: o alvo cai (Deitado) ou é empurrado 1 zona. |
+| **Ajudar** | **◈** | Ação | Concede Vantagem no próximo teste de um aliado Adjacente. |
+| **Preparar** | **custo da ação** | Ação | Declara uma ação e um gatilho. Se o gatilho ocorrer antes do seu próximo turno, a ação dispara automaticamente. Se não ocorrer, o custo é perdido. |
+| **Troca Rápida** | ◇ | Livre | Troca uma arma leve ou solta algo no chão (1× por turno). |
+| **Esquiva** | **⟁** | Reação | \+3 na CA contra um ataque, ou Vantagem em um teste de DES. |
+| **Sacrifício** | **⟁** | Reação | Anula todo o dano de um ataque. Um item equipado à sua escolha é destruído (Comum) ou desativado (Mágico+). |
+| **Ataque de Oportunidade** | **⟁** | Reação | Quando um inimigo Adjacente tenta se mover, você o ataca antes que ele saia. |
+| **Cobertura** | **⟁** ou **⟁⟁** | Reação | Protege um aliado Próximo. Gaste ⟁ se já estiver Adjacente, ou ⟁⟁ se precisar se mover até ele. **Ataque:** redirecionado a você — o atacante rola contra sua CA. **Área:** o aliado não sofre dano; você toma o total (sua parte \+ a dele). |
 
 
 ---
