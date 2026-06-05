@@ -473,6 +473,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 
 * **Espírito Animal:** Você tem ***um*** **Lobo ou Corvo Espiritual** (1d4 HP, 1d6 de dano). Você pode tomar ações **◈** com ele usando seus PA durante seu turno (Mover, Atacar, etc). **Ele sempre usa seu atributo primário para testes (d20+Sabedoria)**. Se morrer, você pode gastar **◈ \+ 1 Mana** para trazê lo de volta.  
 * **Transmutar:** Como uma ação **◈ \+ 2 Mana**, role **Sabedoria (DC 15 − Nível\)**. Se passar, mude para a forma de **Lobo** (dobro de movimento e \+1d6 de dano Físico) ou **Urso** (+2 AC e \+5 HP temporários). A forma dura até o fim do combate.  
+* **Licantropia (Passiva):** A partir do nível 5, você pode usar Transmutar sem rolar dados.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
 ---
 
@@ -496,7 +497,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **16 (7)** | **Vinha Venenosa (Feitiço) (◈◈ \+ 2 Mana por inimigo):** Uma planta surge do chão e imobiliza um inimigo por 1d4 rodadas. |
 | **17** | **Chamado do Urso Pardo (◈◈ \+ 3 Mana):** Invoque um Urso Espiritual (10 HP, 1d10 de dano) em vez do Lobo e Corvo. |
 | **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana por dado):** O chão explode em lava. Dano 3d10 em toda área “Próximo” de um ponto que você escolher. |
-| **19** | **Licantropia:** Você pode mudar de forma instantaneamente sem precisar rolar dados. |
+| **19** | **Armagedão (◈◈◈ \+ 8 Mana):** Você chama os céus contra seus inimigos. Por 1d4 rodadas, meteoros de fogo caem sobre todos os inimigos em área "Próximo", causando **2d10 de dano Fogo** por rodada. Inimigos na área devem fazer um teste de CON (DC 10 \+ SAB) ou ficarem atordoados por 1 rodada. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -562,7 +563,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 | **16** | **Devorar (Centopeia)(◇ \+ 1 Mana):** Se matar um inimigo envenenado, recupere 1d8 de HP. |
 | **17** | **Dança do Jaguar (Passiva):** Você não provoca ataques de oportunidade ao se mover. |
 | **18** | **Encarnação do Guardião (Passiva):** Escolha um segundo Guardião para ter o benefício passivo simultaneamente. |
-| **19** | **Golpe Final (◈ \+ 1 Mana por HP):** Consuma sua mana para fazer um golpe que executa automaticamente o inimigo. O alvo deve ter HP restante igual a quantidade de Mana gasta para ser executado. |
+| **19** | **Voo da Águia (◈◈◈ \+ 6 Mana):** Você se torna a Águia e varre o campo de batalha em alta velocidade. Mova-se por toda área "Distante" num único arco, causando **3d8 de dano Físico** a cada inimigo que tocar. Inimigos atingidos não podem fazer ataques de oportunidade contra você neste turno. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -786,7 +787,7 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 * **Punhos de Ferro:** Seus ataques desarmados causam 1d6 de dano Físico e são considerados armas mágicas.  
 * **Defesa Iluminada:** Enquanto não usar armaduras médias, pesadas ou escudo, sua AC é **10 \+ Mod. de Destreza \+ Mod. de Sabedoria**.  
 * **Espírito em Fluxo:** Você ganha 1 de Mana sempre que acertar um ataque (limite de ganho por turno igual ao seu Modificador de Sabedoria).   
-* **Alcance Mortal (◈ \+):** Gaste 1 Espírito e lance um projétil de força em direção a inimigos perto. Para cada 1 Espírito adicional, lance um projétil extra. Se lançar 3 projéteis, durante um turno, em um mesmo inimigo, o alvo é arremessado para longe.  
+* **Alcance Mortal (◈ \+):** Gaste 1 Mana e lance um projétil de força em direção a inimigos perto. Para cada 1 Mana adicional, lance um projétil extra. Se lançar 3 projéteis, durante um turno, em um mesmo inimigo, o alvo é arremessado para longe.  
 ---
 
 ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
@@ -795,21 +796,21 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Sabedoria. |
 | **3-4** | \+1 em ataques corpo a corpo ou \+1 na AC. |
-| **5** | **Ímpeto (◈◈):** Gaste 1 Espírito para se mover para "Próximo" instantaneamente e atacar com Vantagem. |
+| **5** | **Ímpeto (◈◈):** Gaste 1 Mana para se mover para "Próximo" instantaneamente e atacar com Vantagem. |
 | **6** | **Palma Explosiva (◇ \+ 1 Mana por dado):** Se o seu ataque matar o alvo, ele explode causando 1d8 de dano Físico em área (Próximo). |
-| **7** | **Mantra da Cura (◈ \+ 1 Mana por dado ou Aliado):** Gaste 1 Espírito para curar 1d6 de HP (por espírito) a si mesmo e a um aliado "Próximo". |
+| **7** | **Mantra da Cura (◈ \+ 1 Mana por dado ou Aliado):** Gaste 1 Mana para curar 1d6 de HP (por Mana gasto) a si mesmo e a um aliado "Próximo". |
 | **8** | **Mantra de Evasão (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
 | **9** | **Mantra de Retribuição (⟁ \+ 1 Mana por dado):** Inimigos que te acertarem sofrem 1d4 de dano Radiante de volta. |
-| **10** | **Onda de Luz (O Sino) (◈◈):** Gaste 1 Espírito para esmagar inimigos numa área "Próximo" com um sino de luz (2d6 dano Radiante por espírito). |
-| **11** | **Serenidade (◈):** Gaste 3 Espírito, torna-se invulnerável a todo dano até o início da sua próxima rodada |
+| **10** | **Onda de Luz (O Sino) (◈◈):** Gaste 1 Mana para esmagar inimigos numa área "Próximo" com um sino de luz (2d6 dano Radiante por Mana gasto). |
+| **11** | **Serenidade (◈):** Gaste 3 Mana, torna-se invulnerável a todo dano até o início da sua próxima rodada. |
 | **12** | **Ciclone (◈ \+ 1 Mana por inimigo):** Faça um ataque desarmado que gera um ciclone de vento e puxa inimigos "Próximo" para “Adjacentes” a você. |
-| **13** | **Sete Lados  (◈◈◈ \+ 2 Mana):** Gaste 3 Espírito para realizar 7 ataques  distribuídos entre inimigos "Próximo" a sua escolha. Você não gera ataques de oportunidade. |
+| **13** | **Sete Lados (◈◈◈ \+ 5 Mana):** Realize 7 ataques distribuídos entre inimigos "Próximo" a sua escolha. Você não gera ataques de oportunidade. |
 | **14** | **Golpe de Chicotada (◈ \+ 1 Mana por inimigo):** Faça um ataque em chute circular que empurra inimigos “Adjacentes” para "Próximo". |
 | **15** | **Pés Ligeiros (◈ \+ 1 Mana):** Seu movimento dobra e você pode andar sobre a água ou paredes nesta rodada. |
 | **16** | **Santuário Interior (◈ \+ 4 Mana):** Cria um círculo na mesa. Inimigos não podem entrar e aliados dentro dele ganham Vantagem em todos os testes. |
-| **17** | **Epifania (◈◈ \+ 5 Mana):** Você recupera 1d4 Espírito no início de cada turno e não precisa gastar uma ação **◈** para se mover durante seu turno. |
-| **18** | **Experiência de Quase Morte (⟁ \+ 5 Mana):** Ao ficar com HP 0, o Monge não morre, mas é curado em metade da Vida máxima e tem seu Espírito restaurado para metade (a menos que já possua mais). |
-| **19** | **Aliado Místico (◈ \+ 4 Mana) :** Invoca uma cópia espiritual que luta ao seu lado por 1d4 rodadas. Ela tem suas estatísticas, mas não suas habilidades especiais. |
+| **17** | **Epifania (◈◈ \+ 5 Mana):** Você recupera 1d4 Mana no início de cada turno e não precisa gastar uma ação **◈** para se mover durante seu turno. |
+| **18** | **Experiência de Quase Morte (⟁ \+ 5 Mana):** Ao ficar com HP 0, o Monge não morre, mas é curado em metade da Vida máxima e tem sua Mana restaurada para metade (a menos que já possua mais). |
+| **19** | **Aliado Místico (◈◈◈ \+ 5 Mana):** Invoca uma cópia espiritual que luta ao seu lado por 1d4 rodadas. Ela tem suas estatísticas e pode usar suas habilidades básicas (ataque e movimento). Uma vez por rodada, como ação livre **◇**, ela repete o último ataque que você usou. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -1037,9 +1038,8 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 
 ### **Habilidades de Classe**
 
-* **Pontos de Fé:** Você possui uma reserva de poder espiritual. Seu máximo é igual ao seu **Nível \+ Modificador de Sabedoria**. Você sempre começa encontros sem fé.  
-  * Oração ◈◈ \- Você pode gastar duas ações para recuperar 1d4 pontos de fé no seu turno.  
-* **Oração Purificadora (◈):** Gaste 1 Ponto de Fé (sem rolar dados) para curar 1d6 de HP de um aliado "Próximo" ou causar 1d6 de dano Radiante em inimigos.  
+* **Oração (◈◈):** Como duas ações, você recupera 1d4 de Mana no seu turno. Pode ser usada uma vez por rodada.  
+* **Oração Purificadora (◈):** Gaste 1 Mana (sem rolar dados) para curar 1d6 de HP de um aliado "Próximo" ou causar 1d6 de dano Radiante em inimigos.  
 * **Voto de Castidade (Passiva):** Se você não usar armas de metal ou armaduras, você ganha **Vantagem** em todos os testes de conjuração de magias sagradas.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
 ---
@@ -1049,22 +1049,22 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Sabedoria ou \+2 de Constituição. |
-| **3-4** | \+1 em testes de conjuração ou \+2 Pontos de Fé. |
+| **3-4** | \+1 em testes de conjuração ou \+2 Mana máximo. |
 | **5** | **Halo de Luz (Passivo):** Você emite uma luz constante (alcance Curto). Inimigos têm \-1 nos ataques contra você. |
 | **6** | **Palavra de Poder (◈ \+  1 Mana):** Gaste 1 Ponto de Fé para dar \+3 de AC a um aliado por 1d4 rodadas. |
 | **7 (1)** | **Exorcismo (Feitiço) (◈ \+  2 Mana):** Inimigos Mortos-vivos ou demônios "Próximo" sofrem 3d6 Radiante e fogem. |
 | **8 (2)** | **Bênção (Feitiço) (◈ \+  1 Mana por Aliado):** Aliados "Próximo" ganham \+1 em todos os testes por 1d4 rodadas. |
-| **9** | **Penitência (◈):** Você pode perder 1d4 de HP para recuperar 4 Pontos de Fé imediatamente. |
+| **9** | **Penitência (◈):** Você pode perder 1d4 de HP para recuperar 4 Mana imediatamente. |
 | **10 (3)** | **Prece de Recomposição (Feitiço)(◈ \+ 2 Mana por Aliado):** Um aliado "Próximo" recupera 1d4 de HP toda vez que sofrer dano (dura 3 rodadas). |
 | **11** | **Chamas Sagradas (Passiva):** Sua arma causa \+1d6 de dano Radiante extra. |
 | **12 (4)** | **Purificação (Feitiço)(◈ \+ 2 Mana por efeito):** Remova instantaneamente um efeito de Veneno, Maldição ou Paralisia de um aliado. Se gastar \+6 Mana também cura 3d6 ao aliado. |
 | **13 (5)** | **Salmo de Proteção (Feitiço)(◈ \+ 2 Mana por aliado):** Você e aliados "Próximo" ganham RD 5 a dano Mágico por 1d4 rodadas. |
 | **14 (6)** | **Salto de Fé (Feitiço)(◈ \+ 2 Mana por aliado):** Puxe um aliado de "Distante" para o seu lado instantaneamente. |
-| **15** | **Intervenção Divina (⟁):** Gaste 5 Pontos de Fé. Se um aliado ficar com HP 0, ele fica com 1 HP em vez disso. |
+| **15** | **Intervenção Divina (⟁):** Gaste 5 Mana. Se um aliado ficar com HP 0, ele fica com 1 HP em vez disso. |
 | **16 (7)** | **Anjo da Guarda (Feitiço)(◈ \+ 2 Mana por aliado):** Invoca um espírito de luz que protege o grupo. Ele concede vantagem em testes para aliados “Próximo” por 1d4 rodadas. |
-| **17** | **Confissão (◈◈◈):** Gaste 3 Pontos de Fé, por inimigo, para que perca o próximo turno "contando seus pecados". |
+| **17** | **Confissão (◈◈◈):** Gaste 3 Mana por inimigo para que perca o próximo turno "contando seus pecados". |
 | **18 (8)** | **Nova Sagrada (Feitiço) (◈◈ \+ 2 Mana por Dados):** Uma explosão de luz. Cura aliados "Próximo" em 1d8 e causa 1d8 de dano em inimigos. |
-| **19** | **Avatar da Luz (◈ \+ 5 Mana):** Torne-se um ser radiante por 3 rodadas. Suas orações não custam Pontos de Fé. |
+| **19** | **Arcanjo Guardião (◈◈◈ \+ 8 Mana):** Invoca um Arcanjo por 1d4 rodadas (CA 16, HP igual ao seu HP máximo). No seu turno, como ação livre **◇**, ele cura **1d8 HP** de um aliado OU causa **2d8 de dano Radiante** a um inimigo "Próximo". |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -1131,7 +1131,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **16** | **Proteção Psíquica (⟁ \+ 2 Mana por 5 HP):** Crie um escudo mental que reduz 5 HP quando sofre dano. |
 | **17 (10)** | **Maldição de Expurgo (Feitiço)(◈+ 2 Mana por dano):** Amaldiçoe sua arma para que no próximo ataque que acertar, ela cause 3d6 de dano de fogo a inimigos adjacentes ao alvo.  |
 | **18** | **Lâminas Espelhadas (◈ \+ 3 Mana por duplicata):** Com apenas uma ação, você ataca com duplicatas da sua arma flutuante. |
-| **19** | **Forma Demoníaca** **(◈ \+ 5 Mana por HP e dado):** Você se transforma em um demônio, Sua For é \+5 e ganhe 20 HP temporários. Com uma ação ◈ você pode fazer 2 ataques de garra ou 1 ataque laser a distância. Ambos causam 3d6 de fogo. A transformação dura 1d4 rodadas. |
+| **19** | **Forma Demoníaca (◈◈◈ \+ 8 Mana):** Você se transforma em um demônio por 1d4 rodadas. Ganha \+5 de Força e 20 HP temporários. Com uma ação **◈** faz 2 ataques de garra (2d6 Fogo \+ atributo) ou 1 ataque laser (3d6 Fogo, alcance Longo). |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
