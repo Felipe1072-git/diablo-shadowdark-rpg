@@ -163,7 +163,7 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 | **Derrubar / Empurrar** | **◈** | Ação | Teste de FOR contra o alvo. Se vencer: o alvo cai (Deitado) ou é empurrado 1 zona. |
 | **Levantar** | **◈** | Ação | Sai da condição Deitado. |
 | **Ajudar** | **◈** | Ação | Concede Vantagem no próximo teste de um aliado Adjacente. |
-| **Defesa Total** | **◈◈** | Ação | \+4 CA até o início do seu próximo turno. Você não pode atacar neste turno. |
+| **Defesa Total** | **◈◈** | Ação | \+3 CA até o início do seu próximo turno. Você não pode atacar neste turno. |
 | **Provocar** | **◈** | Ação | 1 criatura Próxima visível testa SAB DC 10 \+ seu mod. primário. Falha: deve atacar somente você, com Vantagem, até o início do seu próximo turno. |
 | **Preparar** | **custo da ação** | Ação | Declara uma ação e um gatilho. Se o gatilho ocorrer antes do seu próximo turno, a ação dispara automaticamente. Se não ocorrer, o custo é perdido. |
 | **Troca Rápida** | ◇ | Livre | Troca uma arma leve ou solta algo no chão (1× por turno). |

@@ -54,23 +54,27 @@ Gerado para calibrar statblocks de criaturas. Atualizar se os Dados de Vida das 
 
 ## CA por Tier de Armadura *(equipamento define a CA, não o nível)*
 
-| Armadura | Tipo | CA base | Com Escudo |
+| Armadura | Tipo | Sem Escudo | +Broquel (+1) | +Escudo (+2) | +Torre (+3) |
+|---|---|---|---|---|---|
+| Couro | Leve | CA 13 (+Mod DES) | CA 14 (+Mod DES) | — | — |
+| Couro Reforçado | Leve | CA 14 (+Mod DES) | CA 15 (+Mod DES) | — | — |
+| Brunea | Média | CA 15 | CA 16 | CA 17 | — |
+| Cota de Malha | Média | CA 16 | CA 17 | CA 18 | — |
+| Meia-Placa | Pesada | CA 17 | CA 18 | CA 19 | CA 20 |
+| Placa Completa | Pesada | CA 18 | CA 19 | CA 20 | **CA 21** |
+
+*Armaduras Leves somam Mod. DES. Escudo e Torre são Quebráveis. Torre penaliza DES e Movimento.*
+
+**Potencial mínimo e máximo de CA por faixa de nível**
+
+| Nível | Mínimo | Máximo base | Máximo c/ Defesa Total (+3) |
 |---|---|---|---|
-| Couro | Leve | CA 13 (+Mod DES) | CA 14 (+Mod DES) |
-| Couro Reforçado | Leve | CA 14 (+Mod DES) | CA 15 (+Mod DES) |
-| Brunea | Média | CA 15 | CA 17 |
-| Cota de Malha | Média | CA 16 | CA 18 |
-| Meia-Placa | Pesada | CA 17 | CA 20 |
-| Placa Completa | Pesada | CA 18 | CA 21 |
+| 1 | CA 13 (Couro, DES 10) | CA 21 (Placa Completa + Torre) | CA 24 |
+| 2–4 | CA 13 | CA 21 | CA 24 |
+| 5–7 | CA 13 | CA 21 | CA 24 |
+| 8–10 | CA 13 | CA 21 | CA 24 |
 
-**CA típica por faixa de nível** *(baseada no que os PJs conseguem comprar/encontrar)*
-
-| Nível | Caster (leve) | Híbrido (leve/média) | Guerreiro (média) | Tanque (pesada + escudo) |
-|---|---|---|---|---|
-| 1 | CA 13–14 | CA 13–15 | CA 15–16 | CA 17–18 |
-| 2–4 | CA 13–14 | CA 14–15 | CA 15–16 | CA 18–20 |
-| 5–7 | CA 14–15 | CA 15–16 | CA 16–18 | CA 19–21 |
-| 8–10 | CA 14–15 | CA 15–16 | CA 17–18 | CA 20–21 |
+*O teto base não muda com o nível — depende do equipamento encontrado ou comprado.*
 
 ---
 
