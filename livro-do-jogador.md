@@ -415,6 +415,9 @@ Toda arma possui uma ou mais propriedades que definem como ela se comporta em co
 | **Carga** | Precisa de uma ação (◈) para recarregar após cada disparo. |
 | **Pilha (X por slot)** | Múltiplas unidades ocupam um único slot de inventário. |
 | **Distante** | Alcance padrão até Distante. Ataques além desse alcance têm Desvantagem. |
+| **Sangramento** | No crítico, a vítima sofre o dano indicado por rodada durante 3 rodadas (cumulativo). Estancado com uma ação (◈) e teste de CON DC 12. |
+| **Imparável** | Ignora o bônus de CA concedido por escudos do alvo. |
+| **Inapreensível** | Não pode ser alvo de Desarmado — esta arma está sempre na sua posse. |
 
 ---
 
@@ -425,16 +428,16 @@ Ideais para quem usa Escudo ou quer lutar com duas armas (Propriedade Leve).
 | Arma | Dano | Propriedades | Preço |
 | :---- | :---- | :---- | :---- |
 | **Adaga** | 1d4 | Leve, Finesse, Arremesso (Próximo) | 1 po |
-| **Katar / Garra** | 1d4 | Leve, Finesse (Crítico causa \+1d4 sangramento) | 4 po |
-| **Varinha (Wand)** | 1d4 | Foco Mágico (+1 em testes de conjuração) | 10 po |
+| **Katar / Garra** | 1d4 | Leve, Finesse, Sangramento (Crítico causa \+1d4 de dano por rodada por 3 rodadas) | 4 po |
+| **Varinha (Wand)** | 1d4 | Foco Mágico | 10 po |
 | **Machado de Mão** | 1d6 | Leve, Arremesso (Próximo) | 2 po |
 | **Espada Curta** | 1d6 | Leve, Finesse | 7 po |
 | **Maça** | 1d6 | Arremesso (Próximo) | 5 po |
-| **Cestus / Punho** | 1d6 | Leve, Não pode ser desarmado | 3 po |
+| **Cestus / Punho** | 1d6 | Leve, Inapreensível | 3 po |
 | **Espada Longa** | 1d8 | Versátil (1d10) | 10 po |
 | **Machado de Guerra** | 1d8 | Versátil (1d10) | 8 po |
-| **Mangual (Flail)** | 1d8 | Ignora Escudo do inimigo | 12 po |
-| **Picareta de Guerra** | 1d8 | Penetrante (Ignora 1 ponto de AC de armadura) | 10 po |
+| **Mangual (Flail)** | 1d8 | Imparável | 12 po |
+| **Picareta de Guerra** | 1d8 | Penetrante | 10 po |
 
 ### **Armas de Duas Mãos (Corpo a Corpo)**
 
@@ -443,10 +446,10 @@ Poder bruto e o controle de área.
 | Arma | Dano | Propriedades | Preço |
 | :---- | :---- | :---- | :---- |
 | **Cajado** | 1d6 | Duas Mãos, Foco Mágico, Haste | 5 po |
-| **Lança** | 1d8 | Duas Mãos, Haste, Arremesso | 4 po |
+| **Lança** | 1d8 | Duas Mãos, Haste, Arremesso (Próximo) | 4 po |
 | **Foice** | 1d10 | Duas Mãos, Finesse, **Trespassar** | 15 po |
 | **Machado Grande** | 2d8 | Duas Mãos, **Trespassar** | 18 po |
-| **Espada Montante** | 2d10 | Duas Mãos, Brutal (Role novamente dados com valor 1), Pesada | 20 po |
+| **Espada Montante** | 2d10 | Duas Mãos, Brutal, Pesada | 20 po |
 | **Maul (Marreta)** | 2d8 | Duas Mãos | 15 po |
 | **Alabarda** | 1d10 | Duas Mãos, Haste | 12 po |
 
