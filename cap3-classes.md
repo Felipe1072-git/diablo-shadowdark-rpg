@@ -73,7 +73,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **11** | **Flecha de Gelo (◈ \+ 2 Mana):** Adicione \+1d6 de dano de gelo a um ataque de arco. Gaste +2 Mana para cada dado extra. **Extra (◇ \+ 2 Mana):** Um alvo atingido por seu arco fica congelado (não se move no próximo turno). |
 | **12** | **Flecha Guia (⟁ \+ 4 Mana):** Como uma reação, você pode transformar um erro em um acerto automático (causa dano normal). |
 | **13** | **Flechas Múltiplas (◈ \+ 1 Mana por alvo):** Como uma ação, ataque múltiplos alvos "Próximo" entre si com uma única rolagem de ataque. |
-| **14** | **Jab (◈ \+ 3 Mana):** Se usar uma lança, você pode fazer 3 ataques rápidos em um único alvo, cada um causando 1d4 de dano Físico extra em cada ataque. |
+| **14** | **Jab (◈ \+ 3 Mana):** Se usar uma lança, você pode fazer 3 golpes rápidos em um único alvo, cada um causando 1d4 de dano Físico (sem dano de arma). |
 | **15** | **Azagaia de Veneno (◈ \+ 1 Mana):** Sua azagaia arremessada deixa uma nuvem. Alvos na área sofrem 1d4 de dano de Veneno por 3 rodadas. Gaste +1 Mana para cada dado extra. |
 | **16** | **Fúria dos Raios (◈ \+ 2 Mana):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). Gaste +2 Mana para cada dado extra. |
 | **17** | **Isca (Decoy) (◈◈ \+ 1 Mana):** Cria uma cópia ilusória. Inimigos devem passar num teste de Sabedoria (DC = 10 \+ Modificador do Atributo Primário) para atacar você em vez da cópia. |
@@ -199,7 +199,7 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **16** | **Guerreiro das Sombras (◈◈ \+ 2 Mana):** Invoca uma sombra que repete seu último ataque na rodada (dura 1d4 rodadas). |
 | **17** | **Veneno (◇ \+ 1 Mana):** Suas garras causam 1d4 de dano de Veneno extra por rodada (durante 3 rodadas) após o acerto. |
 | **18** | **Explosão Mental (◈◈ \+ 3 Mana):** Você empurra inimigos perto apenas com a mente e causa 2d6 de dano psíquico. Gaste +3 Mana para cada dado extra. |
-| **19** | **Golpe de Fênix (◈◈◈ \+ 6 Mana):** Libera toda a energia das Cargas de Combo em uma explosão elemental. Gaste todas as cargas acumuladas — o efeito escala: **1 carga** \= explosão de 2d8 Fogo em área "Próximo"; **2 cargas** \= também congela todos os alvos por 1 rodada; **3 cargas** \= também dispara raios encadeados causando 1d10 Relâmpago em até 3 alvos adicionais. |
+| **19** | **Golpe de Fênix (◈◈◈ \+ 6 Mana):** Libera toda a energia das Cargas de Combo em uma explosão elemental. Gaste todas as cargas acumuladas — o efeito escala: **1 carga** \= explosão de 3d8 Fogo em área "Próximo"; **2 cargas** \= também congela todos os alvos por 1 rodada; **3 cargas** \= também dispara raios encadeados causando 1d10 Relâmpago em até 3 alvos adicionais. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
