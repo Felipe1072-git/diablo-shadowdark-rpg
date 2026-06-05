@@ -163,6 +163,7 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 | **Esquiva** | **⟁** | Reação | Adiciona \+3 na CA contra um ataque ou Vantagem em teste de DES. |
 | **Sacrifício** | **⟁** | Reação | Mitiga todo o dano de um ataque, mas escolhe um item equipado para ser destruído. |
 | **Ataque de Oportunidade** | **⟁** | Reação | Ataca um inimigo adjacente que tenta se mover. |
+| **Cobertura** | **⟁** ou **⟁⟁** | Reação | Quando um aliado Próximo é alvo de um ataque ou efeito de área, você se lança na frente dele. Gaste ⟁ se já estiver Adjacente, ou ⟁⟁ se precisar se mover até ele. **Contra ataques:** o ataque é redirecionado a você — o atacante rola contra a sua CA e você sofre o dano no lugar do aliado. **Contra efeitos de área:** o aliado não sofre dano; você absorve a parte dele e toma o dano total (o seu + o do aliado). |
 | **Derrubar / Empurrar** | **◈** | Ação | Teste de FOR vs o alvo. Se vencer, o alvo cai ou é empurrado para longe. |
 | **Ajudar** | **◈** | Ação | Vantagem para o próximo teste de um aliado. |
 | **Preparar** | **◈ ou \+◈** | Ação | Define um gatilho para realizar uma ação fora do seu turno. |
