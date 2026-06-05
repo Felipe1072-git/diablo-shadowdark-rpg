@@ -131,11 +131,11 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 
 | d20 | Resultado | Descrição / Efeito |
 | :---- | :---- | :---- |
-| **1-10** | Nada | Apenas poeira e ossos. |
-| **11** | Poção de Vida | Veja a ***sub-tabela de poções*** abaixo. |
-| **12** | Poção de Mana | Veja a ***sub-tabela de poções*** abaixo. |
-| **13-17** | Ouro | **(*1d20 x ND*)** \+ **(*Nível Médio do Grupo x 10*)** moedas de ouro. |
-| **18-20** | Equipamento | Um item de inventário. Role na ***sub-tabela de Equipamento***. |
+| **1-6** | Nada | Apenas poeira e ossos. |
+| **7-8** | Poção de Vida | Veja a ***sub-tabela de poções*** abaixo. |
+| **9-10** | Poção de Mana | Veja a ***sub-tabela de poções*** abaixo. |
+| **11-16** | Ouro | **(*1d20 x ND*)** \+ **(*Nível Médio do Grupo x 10*)** moedas de ouro. |
+| **17-20** | Equipamento | Um item de inventário. Role na ***sub-tabela de Equipamento***. |
 
 ### *Sub-tabela: Poções (1d20 \+ ND*)
 
@@ -150,10 +150,10 @@ As lojas de magia nessas aventuras são essenciais para a sobrevivência dos per
 
 | 1d20 \+ ND | Qualidade do Item | Descrição |
 | :---- | :---- | :---- |
-| **1-15** | Item Comum | Item padrão (Espada, Armadura, etc.). |
-| **16-17** | Item Mágico (Prefixo) | Item padrão \+ Prefixo |
-| **18-19** | Item Raro (Sufixo) | Item padrão \+ Sufixo |
-| **20+** | Item Lendário | Item padrão \+ Prefixo e Sufixo |
+| **1-10** | Item Comum | Item padrão (Espada, Armadura, etc.). |
+| **11-14** | Item Mágico (Prefixo) | Item padrão \+ Prefixo |
+| **15-18** | Item Raro (Sufixo) | Item padrão \+ Sufixo |
+| **19+** | Item Lendário | Item padrão \+ Prefixo e Sufixo |
 | **A descrição do Mestre** | Item Único | Item com propriedades únicas. |
 | **A descrição do Mestre** | Item de Conjunto | Item com propriedades especiais, ativadas quando o usuário estiver usando duas ou mais peças. |
 
