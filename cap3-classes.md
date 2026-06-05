@@ -68,7 +68,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **13** | **Flechas Múltiplas (◈ \+ 1 Mana por alvo):** Como uma ação, ataque múltiplos alvos "Próximo" entre si com uma única rolagem de ataque. |
 | **14** | **Jab (◈ \+ 3 Mana):** Se usar uma lança, você pode fazer 3 ataques rápidos em um único alvo, cada um causando 1d4 de dano Físico extra em cada ataque. |
 | **15** | **Azagaia de Veneno (◈ \+ 1 Mana por dado):** Sua azagaia arremessada deixa uma nuvem. Alvos na área sofrem 1d4 de dano de Veneno por 3 rodadas. |
-| **16** | **Fúria dos Raios (◈◈ \+ 1 Mana por dado):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). |
+| **16** | **Fúria dos Raios (◈ \+ 2 Mana por dado):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). |
 | **17** | **Isca (Decoy) (◈◈ \+ 1 Mana):** Cria uma cópia ilusória. Inimigos devem passar num teste de Sabedoria **◈** (DC 10+Des) para atacar você em vez da cópia. |
 | **18** | **Esquiva Ativa (⟁ \+ 1 Mana por dado):** Se um inimigo acertar, você pode gastar 1 de mana para reduzir 1d10 \+ Nível pontos de dano. |
 | **19** | **Valkíria (◈◈◈ \+ 3 Mana):** Uma vez por dia, você invoca uma guerreira etérea por 1d4 rodadas. Ela tem status iguais aos seus e ataca junto com você quando você usa uma ação de ataque **◈**. |
@@ -169,7 +169,7 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 ### **Habilidades de Classe**
 
 * **Garras Gêmeas:** Se você estiver empunhando duas garras ou adagas, você pode rolar o dano duas vezes e escolher o melhor resultado.  
-* **Cargas de Combo:** Ao acertar um ataque, seu próximo "Finalizador" custa 1 de Mana a menos (cumulativo até 3 cargas).   
+* **Cargas de Combo:** Ao acertar um ataque, você acumula 1 Carga (máx. 3). Cada Carga reduz em 1 o custo de Mana do próximo Finalizador usado. As cargas se perdem se você não usar um Finalizador até o fim do seu próximo turno.  
 ---
 
 ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
@@ -182,8 +182,8 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **6 (2)** | **Garras de Gelo (◇ Finalizador):** Gaste 1 carga para congelar o alvo por 1 rodada no ataque. 1 Carga por rodada |
 | **7 (3)** | **Golpe do Tigre (◇ Finalizador):** Gaste 3 cargas para causar dano máximo automático no ataque. |
 | **8 (4)** | **Chute do Dragão (Finalizador) (◈◈ \+ 1 Mana por chute) :** Gaste 1 carga, faça um chute (ou mais) que arremessa inimigos adjacentes para "Distante". |
-| **9** | **Vôo do Dragão (Finalizador) (◈◈◈ \+ 2 Mana por dado) :** Gaste 1 carga, teleporte para um inimigo perto e faça chute com Vantagem que causa 3d6 de dano físico. |
-| **10** | **Burst of Speed (◈◈◈):** Uma vez por dia, você recupera toda sua mana. |
+| **9** | **Vôo do Dragão (Finalizador) (◈◈ \+ 4 Mana) :** Gaste 1 carga, teleporte para um inimigo perto e faça chute com Vantagem que causa 3d6 de dano Físico. |
+| **10** | **Burst of Speed (◈):** Uma vez por combate, você recupera toda sua mana. |
 | **11** | **Manto de Sombras (◈ \+ 2 Mana):** Escuridão mágica te envolve. Inimigos "Próximo" têm Desvantagem para atacar até o início do seu próximo turno. |
 | **12** | **Sentinela de Fogo (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele cospe fogo dano 1d6 de Fogo em quem passar "Próximo". |
 | **13** | **Sentinela de Raios (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele atira um raio no inimigo mais próximo todo turno (dano 1d6 de Relâmpago). |
@@ -192,7 +192,7 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **16** | **Guerreiro das Sombras (◈◈ \+ 2 Mana):** Invoca uma sombra que repete seu último ataque na rodada (dura 1d4 rodadas). |
 | **17** | **Veneno (◇ \+ 1 Mana por dado):** Suas garras causam 1d4 de dano de Veneno extra por rodada (durante 3 rodadas) após o acerto. |
 | **18** | **Explosão Mental (◈◈ \+ 3 Mana por dado):** Você empurra inimigos perto apenas com a mente e causa 2d6 de dano psíquico. |
-| **19** | **Bloqueio de Garras (◇ \+ 3 Mana):** Se estiver com duas garras, você pode gastar sua reação para anular um ataque. |
+| **19** | **Golpe de Fênix (◈◈◈ \+ 6 Mana):** Libera toda a energia das Cargas de Combo em uma explosão elemental. Gaste todas as cargas acumuladas — o efeito escala: **1 carga** \= explosão de 2d8 Fogo em área "Próximo"; **2 cargas** \= também congela todos os alvos por 1 rodada; **3 cargas** \= também dispara raios encadeados causando 1d10 Relâmpago em até 3 alvos adicionais. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -306,7 +306,7 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 | **8** | **Cortina de Fumaça (Disciplina) (◈ \+ 1 Mana):** Invisível por 1 rodada ou até atacar. |
 | **9** | **Sentinela (Ódio) (◈ \+ 1 Mana/dado):** Coloque um sentinela. Ele atira automaticamente no inimigo mais próximo 1d6 de dano Físico.  |
 | **10** | **Flecha de Fragmentação (Ódio) (◈◈ \+ 2 Mana/dado):** O projétil causa dano da arma \+ 1d8 de dano de Fogo em área "Próximo" .  |
-| **11** | **Companheiro Animal (Ódio) (◈ \+ 5 Mana/Companheiro):** Invoca um companheiro animal (HP 1d4+Nív, CA 12, Dano 1d6 Físico). Age no seu turno. |
+| **11** | **Companheiro Animal (Ódio) (◈ \+ 3 Mana/Companheiro):** Invoca um companheiro animal (HP 1d4+Nív, CA 12, Dano 1d6 Físico). Age no seu turno. |
 | **12** | **Poder das Sombras (Disciplina) (◈◈ \+ 2 Mana):** Por 3 rodadas, recupera 1 HP sempre que causar dano.  |
 | **13** | **Armadilha de Estacas (Disciplina) (◈◈ \+ 3 Mana/dado):** Criar uma armadilha em baixo do alvo, ele sofre 2d6 de dano Físico e para de andar até o início do seu próximo turno. |
 | **14** | **Tiro Rápido (Ódio) (◈ \+ 2 Mana):** Mova-se e faça dois ataques à distância.  |
@@ -975,7 +975,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 
 ### **Habilidades de Classe**
 
-* **Ataque Furtivo (⟁ \+ 0 Mana):** Uma vez por rodada, cause \+1d6 de dano extra se você tiver **Vantagem** no ataque ou se o inimigo estiver adjacente a um aliado.  
+* **Ataque Furtivo (⟁ \+ 0 Mana):** Uma vez por rodada, cause dano extra se você tiver **Vantagem** no ataque ou se o inimigo estiver adjacente a um aliado. O bônus escala com o nível: **+1d6 (Nv 1–3) · +2d6 (Nv 4–6) · +3d6 (Nv 7–10)**.  
 * **Imbuimento Rápido (◈ \+ 1 Mana):** Como uma ação ◈,  você pode imbuir sua arma com 1d4 de dano de **Veneno** ou **Sombras** (Necrótico). O efeito dura até o próximo ataque bem-sucedido.  
 ---
 
@@ -991,7 +991,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | **8** | **Abrojos (Armadilha)(◈ \+ 1 Mana por dano):** Jogue pregos no chão. Inimigos que passarem ficam lentos e sofrem 1d4 de dano Físico. |
 | **9** | **Bomba de Fumaça (Armadilha)(◈ \+ 1 Mana por rodada):** Inimigos "Próximo" não podem te ver ou te atacar por 1 rodada. |
 | **10** | **Imbuimento de Gelo (Armadilha)(◇ \+ 3 Mana):** Ao acertar uma criatura com um ataque, o alvo atingido fica congelado . Dura 1d4 Rodadas. (Alvo faz um teste de Força DC 10 \+ Des para se libertar) |
-| **11** | **Saraivada (◈ \+ 3 Mana):** Dispare 5 flechas em um arco, atingindo vários inimigos "Próximo". |
+| **11** | **Saraivada (◈ \+ 3 Mana):** Dispare 5 flechas em um arco, atingindo vários inimigos "Próximo". Cada flecha causa **1d4 de dano Físico**. |
 | **12** | **Ocultamento (◈ \+ 1 Mana):** Você pode fazer um teste para se esconder mesmo sem cobertura se ficar imóvel. |
 | **13** | **Mestra de Armadilhas (Passiva):** Suas armadilhas causam \+1d6 de dano extra além dos efeitos normais. |
 | **14** | **Clone das Sombras (◈◈ \+ 3 Mana):** Invoque uma sombra que copia seus ataques por 3 rodadas. |
@@ -999,7 +999,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | **16** | **Chuva de Flechas (◈ \+ 3 Mana \+ 1 Mana por dado):** Cubra uma área "Distante" com flechas mágicas 3d6 de dano Físico. |
 | **17** | **Visão Interior (◈ \+ 3 Mana):** Marque um inimigo. Todos os ataques contra ele têm Vantagem por 1d4 rodadas. |
 | **18** | **Ímpeto (◈ \+ 1 Mana):** Mova-se o dobro da distância normal e atravesse inimigos sem sofrer ataques de oportunidade. |
-| **19** | **Mestra da Fuga (Armadilha)(⟁ \+ 5 Mana):** Se for cair para 0 HP, você usa uma bomba de fumaça e se move para "Distante" com 1 HP. |
+| **19** | **Armadilha da Morte (◈◈◈ \+ 8 Mana):** Coloque uma armadilha de energia sombria. Quando ativada, causa **4d8 de dano Necrótico** em área "Próximo" e deixa o terreno maldito por 1d4 rodadas — inimigos que iniciarem o turno na área sofrem **1d6 Necrótico** automaticamente. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
