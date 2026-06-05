@@ -71,7 +71,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **16** | **Fúria dos Raios (◈ \+ 2 Mana por dado):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). |
 | **17** | **Isca (Decoy) (◈◈ \+ 1 Mana):** Cria uma cópia ilusória. Inimigos devem passar num teste de Sabedoria **◈** (DC 10+Des) para atacar você em vez da cópia. |
 | **18** | **Esquiva Ativa (⟁ \+ 1 Mana por dado):** Se um inimigo acertar, você pode gastar 1 de mana para reduzir 1d10 \+ Nível pontos de dano. |
-| **19** | **Valkíria (◈◈◈ \+ 3 Mana):** Uma vez por dia, você invoca uma guerreira etérea por 1d4 rodadas. Ela tem status iguais aos seus e ataca junto com você quando você usa uma ação de ataque **◈**. |
+| **19** | **Valkíria (◈◈◈ \+ 6 Mana):** Uma vez por combate, você invoca uma guerreira etérea por 1d4 rodadas. Ela tem CA igual à sua e HP igual ao seu nível × 3. No seu turno, como ação livre **◇**, ela faz um ataque causando **1d8 \+ seu modificador de DEX** de dano Físico num alvo "Próximo". |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
