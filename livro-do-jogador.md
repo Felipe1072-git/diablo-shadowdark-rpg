@@ -468,16 +468,19 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
 ### **Armaduras**
 
-Cada armadura tem sua própria CA total. O Tipo define as propriedades e quais classes podem usá-la. Armaduras mais caras dentro do mesmo Tipo oferecem CA maior e, em alguns casos, Redução de Dano física adicional.
+Cada peça de armadura contribui com um bônus à CA base 10. O valor de cada peça depende da armadura específica — misturar peças de armaduras diferentes é permitido; some os bônus normalmente. O Tipo (Leve/Média/Pesada) define as propriedades e os requisitos de classe.
 
-| Item | Tipo | CA | Prop. Secundária | Propriedades do Tipo | Preço |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| **Couro** | Leve | 13 | — | \+Mod DES à CA | 10 po |
-| **Couro Reforçado** | Leve | 14 | RD 1 contra dano físico | \+Mod DES à CA | 45 po |
-| **Brunea** | Média | 15 | — | Requer FOR 11 | 50 po |
-| **Cota de Malha** | Média | 16 | RD 2 contra dano físico | Requer FOR 11 | 400 po |
-| **Meia-Placa** | Pesada | 17 | RD 2 contra dano físico | Ruído, Requer FOR 13 | 750 po |
-| **Placa Completa** | Pesada | 18 | RD 3 contra dano físico | Ruído, Requer FOR 13 | 1500 po |
+| Peça | Couro | C. Reforçado | Brunea | C. Malha | Meia-Placa | Placa Compl. |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **Peitoral** | \+2 | \+2 | \+2 | \+2 | \+3 | \+3 |
+| **Perneiras** | \+1 | \+1 | \+2 | \+2 | \+2 | \+2 |
+| **Elmo** | \+0 | \+1 | \+1 | \+1 | \+1 | \+1 |
+| **Luvas** | \+0 | \+0 | \+0 | \+1 | \+1 | \+1 |
+| **Botas** | \+0 | \+0 | \+0 | \+0 | \+0 | \+1 |
+| **Set completo** | **CA 13** | **CA 14** | **CA 15** | **CA 16** | **CA 17** | **CA 18** |
+| **Tipo** | Leve | Leve | Média | Média | Pesada | Pesada |
+| **Prop. do Tipo** | \+Mod DES | \+Mod DES, RD 1 | Req. FOR 11 | Req. FOR 11, RD 2 | Ruído, Req. FOR 13, RD 2 | Ruído, Req. FOR 13, RD 3 |
+| **Preço (set)** | 10 po | 45 po | 50 po | 400 po | 750 po | 1500 po |
 
 ### **Escudos**
 
