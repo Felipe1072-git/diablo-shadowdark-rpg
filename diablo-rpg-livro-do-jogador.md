@@ -356,8 +356,7 @@ Canalizar o poder arcano drena a mente e o corpo. No calor da batalha, cada suce
 * Esse aumento é cumulativo para todos os feitiços daquela classe durante o encontro.  
 * Exemplo: O Mago lança **Bola de Fogo (DC 10\)** e acerta. Para o seu próximo turno, a DC de qualquer magia dele agora é **12**. Se ele acertar novamente, a próxima será **14**.
 
-### 3\. A Falha: O Alívio da Mente
-
+## **3\. A Falha: O Alívio da Mente**
 
 Diferente de outros sistemas, **falhar não significa perder o feitiço**. Significa que a energia não foi canalizada, permitindo que a mente do conjurador descanse e se restabeleça.
 
@@ -371,13 +370,13 @@ O único momento em que o elo com o poder se rompe é através do erro catastró
 
 * **Perda:** O feitiço é **perdido** e não pode ser conjurado até o próximo **Descanso Longo**.  
 * **Malfunção:** O jogador deve rolar imediatamente na tabela de *Malfunção Mágica* (ver abaixo).  
-* **Reset:** A DC de exaustão volta imediatamente para 10 (pois o choque da falha limpou a mente, embora de forma violenta).
+* **Reset:** A DC de Conjuração volta imediatamente para 10 (pois o choque da falha limpou a mente, embora de forma violenta).
 
 ### Tabela de Malfunção Mágica (O Preço do "1")
 
 | d6 | Resultado | Efeito |
 | :---- | :---- | :---- |
-| **1** | **Queimadura de Mana** | Você sofre **1d6** de dano e a sua DC de Fadiga aumenta em \+4 imediatamente. |
+| **1** | **Queimadura de Mana** | Você sofre **1d6** de dano e a sua DC de Conjuração aumenta em \+4 imediatamente. |
 | **2** | **Drenagem Vital** | O feitiço ocorre, mas você perde **1d8** de HP máximo até o próximo Descanso Longo. Caso chegue a zero o personagem morre. |
 | **3** | **Anomalia de Alvo** | O feitiço é lançado, mas atinge o aliado mais próximo ou você mesmo em vez do inimigo. |
 | **4** | **Amnésia Momentânea** | Você esquece todos os seus feitiços preparados por **1d4** rodadas. |
