@@ -69,15 +69,15 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **7** | **Golpe Crítico (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **8** | **Penetração (⟁ \+ 1 Mana):** Seus ataques ignoram bônus de armadura, de escudos ou coberturas leves. |
 | **9** | **Evasão (⟁ \+ 4 Mana):** Como uma reação, você pode ignorar o dano de uma armadilha ou magia de área. |
-| **10** | **Flecha de Fogo (◈ \+ 2 Mana por dado):** Adicione \+1d6 de dano de fogo a um ataque de arco. |
-| **11** | **Flecha de Gelo (◈ \+ 2 Mana por dado):** Adicione \+1d6 de dano de gelo a um ataque de arco.  **Extra (◇ \+ 2 Mana):** Um alvo atingido por seu arco fica congelado (não se move no próximo turno). |
+| **10** | **Flecha de Fogo (◈ \+ 2 Mana):** Adicione \+1d6 de dano de fogo a um ataque de arco. Gaste +2 Mana para cada dado extra. |
+| **11** | **Flecha de Gelo (◈ \+ 2 Mana):** Adicione \+1d6 de dano de gelo a um ataque de arco. Gaste +2 Mana para cada dado extra. **Extra (◇ \+ 2 Mana):** Um alvo atingido por seu arco fica congelado (não se move no próximo turno). |
 | **12** | **Flecha Guia (⟁ \+ 4 Mana):** Como uma reação, você pode transformar um erro em um acerto automático (causa dano normal). |
 | **13** | **Flechas Múltiplas (◈ \+ 1 Mana por alvo):** Como uma ação, ataque múltiplos alvos "Próximo" entre si com uma única rolagem de ataque. |
 | **14** | **Jab (◈ \+ 3 Mana):** Se usar uma lança, você pode fazer 3 ataques rápidos em um único alvo, cada um causando 1d4 de dano Físico extra em cada ataque. |
-| **15** | **Azagaia de Veneno (◈ \+ 1 Mana por dado):** Sua azagaia arremessada deixa uma nuvem. Alvos na área sofrem 1d4 de dano de Veneno por 3 rodadas. |
-| **16** | **Fúria dos Raios (◈ \+ 2 Mana por dado):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). |
-| **17** | **Isca (Decoy) (◈◈ \+ 1 Mana):** Cria uma cópia ilusória. Inimigos devem passar num teste de Sabedoria **◈** (DC 10+Des) para atacar você em vez da cópia. |
-| **18** | **Esquiva Ativa (⟁ \+ 1 Mana por dado):** Se um inimigo acertar, você pode gastar 1 de mana para reduzir 1d10 \+ Nível pontos de dano. |
+| **15** | **Azagaia de Veneno (◈ \+ 1 Mana):** Sua azagaia arremessada deixa uma nuvem. Alvos na área sofrem 1d4 de dano de Veneno por 3 rodadas. Gaste +1 Mana para cada dado extra. |
+| **16** | **Fúria dos Raios (◈ \+ 2 Mana):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). Gaste +2 Mana para cada dado extra. |
+| **17** | **Isca (Decoy) (◈◈ \+ 1 Mana):** Cria uma cópia ilusória. Inimigos devem passar num teste de Sabedoria (DC = 10 \+ Modificador do Atributo Primário) para atacar você em vez da cópia. |
+| **18** | **Esquiva Ativa (⟁ \+ 1 Mana):** Se um inimigo acertar, você pode gastar 1 Mana para reduzir 1d10 \+ Nível pontos de dano. Gaste +1 Mana para cada dado extra. |
 | **19** | **Valkíria (◈◈◈ \+ 6 Mana):** Uma vez por combate, você invoca uma guerreira etérea por 1d4 rodadas. Ela tem CA igual à sua e HP igual ao seu nível × 3. No seu turno, como ação livre **◇**, ela faz um ataque causando **1d8 \+ seu modificador de DEX** de dano Físico num alvo "Próximo". |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -192,13 +192,13 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **9** | **Vôo do Dragão (Finalizador) (◈◈ \+ 4 Mana) :** Gaste 1 carga, teleporte para um inimigo perto e faça chute com Vantagem que causa 3d6 de dano Físico. |
 | **10** | **Burst of Speed (◈):** Uma vez por combate, você recupera toda sua mana. |
 | **11** | **Manto de Sombras (◈ \+ 2 Mana):** Escuridão mágica te envolve. Inimigos "Próximo" têm Desvantagem para atacar até o início do seu próximo turno. |
-| **12** | **Sentinela de Fogo (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele cospe fogo dano 1d6 de Fogo em quem passar "Próximo". |
-| **13** | **Sentinela de Raios (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Ele atira um raio no inimigo mais próximo todo turno (dano 1d6 de Relâmpago). |
-| **14** | **Sentinela da Morte (Armadilha) (◈ \+ 1 Mana por dado):** Coloque um marcador na mesa. Quando alguém morre perto dela, ela explode o cadáver (1d8 dano Necrótico). |
+| **12** | **Sentinela de Fogo (Armadilha) (◈ \+ 1 Mana):** Coloque um marcador na mesa. Ele cospe fogo dano 1d6 de Fogo em quem passar "Próximo". Gaste +1 Mana para cada dado extra. |
+| **13** | **Sentinela de Raios (Armadilha) (◈ \+ 1 Mana):** Coloque um marcador na mesa. Ele atira um raio no inimigo mais próximo todo turno (dano 1d6 de Relâmpago). Gaste +1 Mana para cada dado extra. |
+| **14** | **Sentinela da Morte (Armadilha) (◈ \+ 1 Mana):** Coloque um marcador na mesa. Quando alguém morre perto dela, ela explode o cadáver (1d8 dano Necrótico). Gaste +1 Mana para cada dado extra. |
 | **15** | **Mestra das Armadilhas (Passiva):** Você pode ter duas armadilhas ativas ao mesmo tempo na mesa. |
 | **16** | **Guerreiro das Sombras (◈◈ \+ 2 Mana):** Invoca uma sombra que repete seu último ataque na rodada (dura 1d4 rodadas). |
-| **17** | **Veneno (◇ \+ 1 Mana por dado):** Suas garras causam 1d4 de dano de Veneno extra por rodada (durante 3 rodadas) após o acerto. |
-| **18** | **Explosão Mental (◈◈ \+ 3 Mana por dado):** Você empurra inimigos perto apenas com a mente e causa 2d6 de dano psíquico. |
+| **17** | **Veneno (◇ \+ 1 Mana):** Suas garras causam 1d4 de dano de Veneno extra por rodada (durante 3 rodadas) após o acerto. |
+| **18** | **Explosão Mental (◈◈ \+ 3 Mana):** Você empurra inimigos perto apenas com a mente e causa 2d6 de dano psíquico. Gaste +3 Mana para cada dado extra. |
 | **19** | **Golpe de Fênix (◈◈◈ \+ 6 Mana):** Libera toda a energia das Cargas de Combo em uma explosão elemental. Gaste todas as cargas acumuladas — o efeito escala: **1 carga** \= explosão de 2d8 Fogo em área "Próximo"; **2 cargas** \= também congela todos os alvos por 1 rodada; **3 cargas** \= também dispara raios encadeados causando 1d10 Relâmpago em até 3 alvos adicionais. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -309,19 +309,19 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 | **3-4** | \+1 em ataques à distância ou \+1 na AC. |
 | **5** | **Salto Mortal (Disciplina) (◈ \+ 1 Mana):** Move-se para área "Próximo", ignora ataques de oportunidade.  |
 | **6** | **Boleadeiras (Disciplina) (◈ \+ 1 Mana):** Faça um ataque. Se acertar, o alvo fica preso por 1d4 rodadas.  |
-| **7** | **Granada (Ódio) (◈◈ \+ 2 Mana/dado):** Arremessa uma granada em um ponto “perto” que explode e causa 2d6 de dano de fogo em inimigos "adjacentes".  |
+| **7** | **Granada (Ódio) (◈◈ \+ 2 Mana):** Arremessa uma granada em um ponto “perto” que explode e causa 2d6 de dano de fogo em inimigos “adjacentes”. Gaste +2 Mana para cada dado extra. |
 | **8** | **Cortina de Fumaça (Disciplina) (◈ \+ 1 Mana):** Invisível por 1 rodada ou até atacar. |
-| **9** | **Sentinela (Ódio) (◈ \+ 1 Mana/dado):** Coloque um sentinela. Ele atira automaticamente no inimigo mais próximo 1d6 de dano Físico.  |
-| **10** | **Flecha de Fragmentação (Ódio) (◈◈ \+ 2 Mana/dado):** O projétil causa dano da arma \+ 1d8 de dano de Fogo em área "Próximo" .  |
+| **9** | **Sentinela (Ódio) (◈ \+ 1 Mana):** Coloque um sentinela. Ele atira automaticamente no inimigo mais próximo 1d6 de dano Físico. Gaste +1 Mana para cada dado extra. |
+| **10** | **Flecha de Fragmentação (Ódio) (◈◈ \+ 2 Mana):** O projétil causa dano da arma \+ 1d8 de dano de Fogo em área "Próximo". Gaste +2 Mana para cada dado extra. |
 | **11** | **Companheiro Animal (Ódio) (◈ \+ 3 Mana/Companheiro):** Invoca um companheiro animal (HP 1d4+Nív, CA 12, Dano 1d6 Físico). Age no seu turno. |
 | **12** | **Poder das Sombras (Disciplina) (◈◈ \+ 2 Mana):** Por 3 rodadas, recupera 1 HP sempre que causar dano.  |
-| **13** | **Armadilha de Estacas (Disciplina) (◈◈ \+ 3 Mana/dado):** Criar uma armadilha em baixo do alvo, ele sofre 2d6 de dano Físico e para de andar até o início do seu próximo turno. |
+| **13** | **Armadilha de Estacas (Disciplina) (◈◈ \+ 3 Mana):** Criar uma armadilha em baixo do alvo, ele sofre 2d6 de dano Físico e para de andar até o início do seu próximo turno. Gaste +3 Mana para cada dado extra. |
 | **14** | **Tiro Rápido (Ódio) (◈ \+ 2 Mana):** Mova-se e faça dois ataques à distância.  |
-| **15** | **Fã de Facas (Ódio) (◈◈ \+ 2 Mana/dado):** Causa 2d6 físico em área (Próximo) e reduz o movimento pela metade até o início do seu próximo turno.  |
+| **15** | **Fã de Facas (Ódio) (◈◈ \+ 2 Mana):** Causa 2d6 físico em área (Próximo) e reduz o movimento pela metade até o início do seu próximo turno. Gaste +2 Mana para cada dado extra. |
 | **16** | **Atirador de Elite (Ódio) (◇ \+ 1 Mana ):** Se você não se moveu neste turno, seu ataque tem Vantagem e causa dano máximo.  |
 | **17** | **Bestas de Mão (Ódio) (◇ \+ 1 Mana):** Se usar duas bestas, quando você gastar uma ação **◈** para realizar um ataque, faça uma ataque extra com a arma secundária usando uma ação livre **◇**. |
 | **18** | **Vingança (Ódio) (◈◈ \+ 5 Mana):** Transforme-se na personificação do Ódio por 1d4 rodadas. Move-se o dobro, ataques têm Vantagem e causam 1d6 de dano Físico extra.  |
-| **19** | **Chuva de Vingança (◈◈◈ \+ 5 Mana/dado):** Dezenas de flechas caem do céu numa área "Próximo". Causando 3d6 de dano Físico instantaneamente e por mais 1d4 rodadas a todos os inimigos na área.  |
+| **19** | **Chuva de Vingança (◈◈◈ \+ 5 Mana):** Dezenas de flechas caem do céu numa área "Próximo". Causando 3d6 de dano Físico instantaneamente e por mais 1d4 rodadas a todos os inimigos na área. Gaste +5 Mana para cada dado extra. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -997,15 +997,15 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | **5** | **Passo de Sombra (◈ \+ 3 Mana):** Teleporte-se para trás de um inimigo "Próximo" e faça um ataque com Vantagem. |
 | **6** | **Disparo Penetrante (◈ \+ 3 Mana):** Sua flecha atravessa todos os inimigos perto em linha reta. Causa o dano da arma em cada um deles. |
 | **7** | **Lâminas Retorcidas (◈ \+ 3 Mana):** Arremesse 2 armas leves. Após atingir os alvos, as lâminas voltam para você, causando 1d4 de dano Físico às criaturas no caminho. |
-| **8** | **Abrojos (Armadilha)(◈ \+ 1 Mana por dano):** Jogue pregos no chão. Inimigos que passarem ficam lentos e sofrem 1d4 de dano Físico. |
-| **9** | **Bomba de Fumaça (Armadilha)(◈ \+ 1 Mana por rodada):** Inimigos "Próximo" não podem te ver ou te atacar por 1 rodada. |
-| **10** | **Imbuimento de Gelo (Armadilha)(◇ \+ 3 Mana):** Ao acertar uma criatura com um ataque, o alvo atingido fica congelado . Dura 1d4 Rodadas. (Alvo faz um teste de Força DC 10 \+ Des para se libertar) |
+| **8** | **Abrojos (Armadilha)(◈ \+ 1 Mana):** Jogue pregos no chão. Inimigos que passarem ficam lentos e sofrem 1d4 de dano Físico. |
+| **9** | **Bomba de Fumaça (Armadilha)(◈ \+ 1 Mana):** Inimigos "Próximo" não podem te ver ou te atacar por 1 rodada. |
+| **10** | **Imbuimento de Gelo (Armadilha)(◇ \+ 3 Mana):** Ao acertar uma criatura com um ataque, o alvo atingido fica congelado. Dura 1d4 Rodadas. (Alvo faz um teste de Força DC = 10 \+ Modificador do Atributo Primário para se libertar) |
 | **11** | **Saraivada (◈ \+ 3 Mana):** Dispare 5 flechas em um arco, atingindo vários inimigos "Próximo". Cada flecha causa **1d4 de dano Físico**. |
 | **12** | **Ocultamento (◈ \+ 1 Mana):** Você pode fazer um teste para se esconder mesmo sem cobertura se ficar imóvel. |
 | **13** | **Mestra de Armadilhas (Passiva):** Suas armadilhas causam \+1d6 de dano extra além dos efeitos normais. |
 | **14** | **Clone das Sombras (◈◈ \+ 3 Mana):** Invoque uma sombra que copia seus ataques por 3 rodadas. |
 | **15** | **Exploração de Fraqueza (Passiva):** Seus ataques críticos agora acontecem com 18-20 natural. |
-| **16** | **Chuva de Flechas (◈ \+ 3 Mana \+ 1 Mana por dado):** Cubra uma área "Distante" com flechas mágicas 3d6 de dano Físico. |
+| **16** | **Chuva de Flechas (◈ \+ 3 Mana):** Cubra uma área "Distante" com flechas mágicas 3d6 de dano Físico. Gaste +1 Mana para cada dado extra. |
 | **17** | **Visão Interior (◈ \+ 3 Mana):** Marque um inimigo. Todos os ataques contra ele têm Vantagem por 1d4 rodadas. |
 | **18** | **Ímpeto (◈ \+ 1 Mana):** Mova-se o dobro da distância normal e atravesse inimigos sem sofrer ataques de oportunidade. |
 | **19** | **Armadilha da Morte (◈◈◈ \+ 8 Mana):** Coloque uma armadilha de energia sombria. Quando ativada, causa **4d8 de dano Necrótico** em área "Próximo" e deixa o terreno maldito por 1d4 rodadas — inimigos que iniciarem o turno na área sofrem **1d6 Necrótico** automaticamente. |
