@@ -91,6 +91,19 @@ Objetivo: monstro acerta um guerreiro típico em ~55–65% dos ataques.
 
 ---
 
+## Dano dos Monstros por Faixa de Nível *(por acerto, grupo de 4–5 jogadores)*
+
+Calibrado para: Minion elimina um caster em 1–2 acertos; Padrão pressiona qualquer PJ em 2–3; Elite é ameaça severa; Chefe pode one-shot casters e elimina tanques em 2–3 acertos.
+
+| Nível do encontro | Minion | Padrão | Elite | Chefe |
+|---|---|---|---|---|
+| 1 | 2–3 | 4–6 | 7–10 | 11–15 |
+| 2–4 | 3–5 | 6–9 | 10–14 | 15–20 |
+| 5–7 | 5–8 | 9–13 | 14–20 | 21–28 |
+| 8–10 | 7–10 | 12–16 | 18–25 | 28–40 |
+
+---
+
 ### Nota sobre CA alta com itens mágicos
 
 Itens mágicos e habilidades de classe podem levar a CA para 21–24 já nos níveis 1–3, bem além do teto base das armaduras. **Não ajustar os ATKs dos monstros para compensar** — um personagem com CA 24 deve se sentir intocável contra ataques diretos. Isso é intencional.

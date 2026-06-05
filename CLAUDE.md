@@ -230,6 +230,19 @@ Distribuição atual (Cap. 2 Tesouros):
 - Handout Caverna B movido para `cenarios/senhor-da-mentira.md`
 - Rascunhos de campanha (Sinister 7, ganchos) movidos para `notas/notas-campanha.md`
 
+### Goal 5 — Tabelas de Referência do Mestre (`referencia-mestre-progressao.md`)
+
+Expandir o documento com todas as estatísticas relevantes para calibração de encontros e distribuição de recompensas. Ordem de execução:
+
+1. ~~CA por tier com 3 colunas de escudo e min/max por nível~~ ✅ (commit e49ee58)
+2. Dano dos monstros por faixa de nível ← próximo
+3. DC de Salvaguardas recomendadas (fácil / moderado / mortal por nível)
+4. RD disponível por tier (quanto dano médio a armadura absorve por rodada)
+5. Probabilidade de acerto — tabela cruzada ATK × CA com % de chance
+6. Riqueza esperada por nível (ouro e itens para calibrar tesouros e lojas)
+
+---
+
 ### Goal 3 — Revisão do Livro do Mestre ✅ (commit dbb0938 + f3e8a64 + 9419ada)
 
 - Template de Cenário reescrito para linguagem de RPG (era wargame de miniaturas)
