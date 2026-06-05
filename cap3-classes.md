@@ -498,7 +498,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **10 (3)** | **Sábio de Carvalho (Feitiço) (◈◈ \+ 2 Mana):** Invoque um espírito que dá \+1d4 de HP temporário para todos os aliados "Próximo". Gaste +2 Mana para cada dado extra. |
 | **11** | **Lobos Atrozes (Passiva):** Você pode ter um lobo espiritual extra. Isso aumenta o número de lobos ativos ao mesmo tempo. |
 | **12** | **Coração de Wolverine (Passiva):** Seu espírito animal garante \+1 em ataques e dano para aliados "Próximo". |
-| **13 (4)** | **Rocha Rolante (Feitiço) (◈◈ \+ 2 Mana):** Lança uma pedra em linha reta que causa 1d8 de dano físico e derruba inimigos perto. Gaste +2 Mana para cada dado extra. |
+| **13 (4)** | **Rocha Rolante (Feitiço) (◈◈ \+ 2 Mana):** Lança uma pedra em linha reta que causa 2d8 de dano físico e derruba inimigos perto. Gaste +2 Mana para cada dado extra. |
 | **14 (5)** | **Fissura (Feitiço)(◈ \+ 2 Mana):** Abre uma fenda no chão “Próximo”. Inimigos na área sofrem 1d6 de fogo por turno. Gaste +2 Mana para cada dado extra. A fenda dura 1d4 rodadas. |
 | **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana):** Crie um Furacão poderoso em até um ponto “Distante”. Inimigos que começarem o turno “Próximo” do Furacão sofrem 2d6 de dano físico. Gaste +2 Mana para cada dado extra. |
 | **16 (7)** | **Vinha Venenosa (Feitiço) (◈◈ \+ 2 Mana por inimigo):** Uma planta surge do chão e imobiliza um inimigo por 1d4 rodadas. |
@@ -808,7 +808,7 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | **7** | **Mantra da Cura (◈ \+ 1 Mana):** Cura 1d6 de HP a si mesmo e a um aliado "Próximo". Gaste +1 Mana para cada dado extra. |
 | **8** | **Mantra de Evasão (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
 | **9** | **Mantra de Retribuição (⟁ \+ 1 Mana):** Inimigos que te acertarem sofrem 1d4 de dano Radiante de volta. |
-| **10** | **Onda de Luz (O Sino) (◈◈):** Gaste 1 Mana para esmagar inimigos numa área "Próximo" com um sino de luz (2d6 dano Radiante por Mana gasto). |
+| **10** | **Onda de Luz (O Sino) (◈◈ \+ 2 Mana):** Esmague inimigos numa área "Próximo" com um sino de luz, causando 2d6 de dano Radiante. Gaste +2 Mana para cada dado extra. |
 | **11** | **Serenidade (◈):** Gaste 3 Mana, torna-se invulnerável a todo dano até o início da sua próxima rodada. |
 | **12** | **Ciclone (◈ \+ 1 Mana por inimigo):** Faça um ataque desarmado que gera um ciclone de vento e puxa inimigos "Próximo" para “Adjacentes” a você. |
 | **13** | **Sete Lados (◈◈◈ \+ 5 Mana):** Realize 7 ataques distribuídos entre inimigos "Próximo" a sua escolha. Você não gera ataques de oportunidade. |
@@ -943,7 +943,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **16** | **Limpeza (Aura)(◈):** Reduz pela metade a duração de venenos ou maldições em aliados na aura. |
 | **17** | **Mãos de Luz (Feitiço)(◈◈ \+ 5 Mana):** Toque um aliado para curar todo o HP dele. |
 | **18** | **Convicção (Aura)(◈):** Inimigos na aura perdem 2 de AC (sua fé quebra a proteção deles). |
-| **19** | **Avatar da Justiça (◈◈◈ \+ 8 Mana) :** Você canaliza a luz divina pura através de seu corpo, tornando-se um receptáculo de julgamento por 1d4 rodadas. Você torna-se **imune** a efeitos de controle. Todos os inimigos que começarem o turno "Próximo" de você sofrem **1d10** de dano radiante automático. |
+| **19** | **Avatar da Justiça (◈◈◈ \+ 8 Mana) :** Você canaliza a luz divina pura através de seu corpo, tornando-se um receptáculo de julgamento por 1d4 rodadas. Você torna-se **imune** a efeitos de controle. Todos os inimigos que começarem o turno "Próximo" de você sofrem **2d10** de dano radiante automático. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
