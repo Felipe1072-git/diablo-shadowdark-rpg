@@ -197,7 +197,11 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 | **25-28** | Set completo Mágico | Todas as 5 peças com o mesmo Prefixo. |
 | **29+** | Set completo Raro | Todas as 5 peças com Prefixo e Sufixo. |
 
-**Qual peça? (1d6):** 1 Peitoral · 2 Perneiras · 3 Elmo · 4 Luvas · 5 Botas · 6 Mestre escolhe
+**Qual peça? (1d6)**
+
+| 1 | 2 | 3 | 4 | 5 | 6 |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Peitoral | Perneiras | Elmo | Luvas | Botas | Mestre escolhe |
 
 ---
 
