@@ -1,0 +1,743 @@
+# Livro do Mestre — Diablo Homebrew RPG
+
+> Material exclusivo para o Mestre. Não distribuir aos jogadores.
+
+---
+
+# Template de Cenário
+
+#### **O Conceito e o "Gold Standard" (Inspiração)**
+
+* **Título do Cenário:** (Ex: "A Capela", "O Sarcófago").  
+* **Narrativa (Set Dressing):** Descreva o cenário de forma visceral. Evite objetivos abstratos; foque em objetos tangíveis e locais reais (um templo em ruínas, um líder embriagado, um edifício em chamas).  
+* **Referência de Estilo:** Este é um cenário focado em narrativa imersiva ou em equilíbrio para torneios?.
+
+#### **Espaço de Design e Configuração (Página Esquerda)**
+
+* **Tamanho do Campo de Batalha:** Defina as dimensões (ex: 3x3 pés ou 44x30 polegadas).  
+* **Posicionamento (Deployment):** Pearson sugere usar as **diagonais do tabuleiro** para aumentar a distância entre as forças, incentivando a movimentação e a imersão antes do combate.  
+* **Grupos de Batalha:** Divida as forças em grupos (ex: três grupos iguais) e determine quais começam no campo e quais chegam como reforços.  
+* **Condições de Vitória:** O que os jogadores devem fazer para vencer? Tenha pelo menos dois caminhos (ex: coletar X tesouros ou eliminar X inimigos) para evitar que os jogadores fiquem parados ("castling").  
+* **Limite de Turnos:** Considere **remover o limite fixo de turnos** para permitir que a história chegue a uma conclusão natural (em torno de 10 turnos), usando mecânicas para desencorajar o jogo excessivamente defensivo.
+
+
+#### **A Tabela de Reviravoltas (Página Direita)**
+
+Crie uma tabela (geralmente **1D6**) para adicionar variedade e rejogabilidade. Isso transforma um único cenário em várias combinações possíveis.
+
+* **Reviravolta 1-2 (Sutil):** Mudanças leves no ambiente ou recursos (ex: mais tesouros, chuva leve).  
+* **Reviravolta 3-4 (Mecânica):** Mudanças que afetam as regras de jogo (ex: visibilidade reduzida, cura em solo sagrado, bônus de ataque).  
+* **Reviravolta 5-6 (O Ponto de Virada):** Um momento de "promessa e recompensa" que vira o jogo de cabeça para baixo.  
+  * **O Ponto de Virada ("Lifting the Lid"):** Quando uma ação específica ocorre (ex: a primeira morte, abrir um sarcófago), algo imprevisível acontece (um inimigo NPC surge, o turno termina abruptamente, o prédio começa a queimar).
+
+  ---
+
+  ### **Dicas do Especialista para o seu Cenário:**
+
+* **Interatividade:** Certifique-se de que os elementos do cenário interajam entre si (ex: uma regra de "nevoeiro" afetando a visibilidade de quem está protegendo um tesouro).  
+* **Recompensas Tangíveis:** Se houver um item especial (como o conteúdo de um sarcófago), garanta que ele tenha um impacto real, como mutações, armas mágicas ou pontos de campanha significativos.  
+* **Restrição de Espaço:** Tente encaixar tudo em um **spread de duas páginas A4** para que os jogadores tenham toda a informação acessível à frente deles durante a partida.
+
+  ### **O Cenário (Setup e Regras)**
+
+  **\[Nome do Cenário\]**
+
+  *Introdução: \[Um parágrafo curto de atmosfera, contando a história do local e por que as gangues estão aqui.\]*
+
+  1\. Configuração do Campo de Batalha
+
+* Tamanho sugerido: \[Ex: 90cm x 90 cm/ 120cmx80cm polegadas\]  
+* Terreno: \[Descrição do objetivo central, como a Capela ou o Sarcófago, e onde posicioná-lo.\]  
+  2\. Implantação (Deployment)  
+* Zonas: \[Descrever o início em cantos opostos ou nas diagonais do tabuleiro\].  
+* Grupos de Batalha: \[Ex: Divida seu bando em 3 grupos; role para ver qual entra no turno 1\].  
+  3\. Condições de Vitória  
+* \[Critério A: Ex: Capturar X tesouros\]  
+* \[Critério B: Ex: Derrotar X inimigos\]  
+* *Dica: Mantenha as condições de vitória claras e não focadas apenas em extermínio.*
+
+
+  ### **A Tabela de Reviravoltas (Twists)**
+
+  Eventos da Batalha (Rolagem de D6)
+
+  No início da rodada X (ou quando ocorrer um evento específico, como derramar sangue), role 1d6 para determinar a reviravolta da partida:
+
+1. \[Nome do Evento 1\]: \[Regra rápida\]  
+2. \[Nome do Evento 2\]: \[Regra rápida\]  
+3. \[Nome do Evento 3\]: \[Regra rápida\]  
+4. \[Nome do Evento 4\]: \[Regra rápida\]  
+5. \[Nome do Evento 5\]: \[Regra rápida\]  
+6. \[Nome do Evento 6\]: \[Regra rápida\]
+
+> **Classes:** Ver arquivo [`01-classes.md`](01-classes.md)
+
+# Encontros
+
+| Conteúdo do Hexadecimal (d100) |  |
+| :---- | :---- |
+| **1-50**  | Vazio |
+| **51-65**  | Monstros |
+| **66-70**  | Monstros com Tesouros Escondidos |
+| **71-80** | Tesouros Escondidos |
+| **81-90** | Perigos |
+| **91-00** | Pontos Seguros |
+
+**Monstros.** Os encontros com monstros gerarão um grupo de criaturas com um único objetivo em mente: destruir o grupo. Não há espaço para interpretação aqui. Os monstros são totalmente beligerantes e jamais poderão ser dissociados de seu desejo desenfreado de eliminar os personagens.
+
+**Tesouros Escondidos.** Os encontros de Tesouros Escondidos geram tesouros e itens mágicos. Ao contrário de usar o Nível de Desafio de um monstro para calcular o valor de um item mágico, ***os tesouros usam o nível médio do grupo do personagem do jogador, arredondado para baixo.*** Isso gera itens mágicos, onde quer que sejam encontrados, às vezes muito mais poderosos do que itens que seriam deixados por um monstro derrotado. Para criar um tesouro, role no tesouro para determinar sua aparência e, em seguida, role na tabela de tesouros aleatórios 1d4 vezes. Como resultado, é possível que alguns tesouros estejam vazios, enquanto outros podem estar repletos de itens valiosos.
+
+**Perigos.** Encontros perigosos são locais que podem parecer seguros à primeira vista, mas escondem algum tipo de risco. Pode ser um baú de tesouro com armadilha ou uma casa abandonada com um porão cheio de mortos-vivos. Resolver o perigo provavelmente resultará em algum tipo de benefício: geralmente um lugar seguro para descansar e algum tesouro. Mas o perigo inicial nem sempre é óbvio. Alternativamente, o perigo pode ser simplesmente dois encontros com monstros concentrados no mesmo hexágono, geralmente com terreno indicando que se trata de um covil ou toca de monstro.
+
+**Pontos Seguros.** Os Pontos Seguros oferecem um local protegido que permite ao grupo descansar, além de um tesouro escondido. Esses locais, como uma cabana no campo ou um pequeno oásis no deserto, permitem que o grupo faça uma pausa para recuperar magias, pontos de vida e habilidades esgotadas.
+
+# Encontros com Monstros
+
+## Gramados e Pradarias (Caminho de Tristram)
+
+*Foco: Caídos (Fallen), Animais corrompidos e Mortos-vivos básicos.*
+
+| d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **1-9** | 1d6 Caídos | 2d4 Caídos, 1d4 Xamãs Caídos  | 2d6 Caídos, 1d6 Cães do Inferno | 2d6 Caídos com 1d4+2 Cães do Inferno | 2d4+4 Caídos, 1d4 Supervisores |
+| **10-14** | 2d4 Morcegos Carniceiros | 1d6 Heróis Corrompidos | 2d4 Vampiros | 1d6 Vampiros, 1 Vampiro Superior | 3d6 Homens-Bode, 1d4 Clãs da Lua, 1  Empalador Khazra |
+| **15-19** | 2d4 Ratos de Peste | 1d6 Vermes Gigantes | 1d6 Carniçais Famintos | 2d6 Carniçais Famintos | 1d6 Vermes Gigantes, 1 Verme Colossal |
+| **20** | 3d6 Homens-Bode, 1 Clã da Lua | 1d4+1 Vampiros Aprendices | 1 Abominação | 1d4 Vampiros Superiores | 2d6 Vampiros, 1d4 Vampiros Superiores |
+
+## Pântanos e Lamaçais (Kurast / Scosglen)
+
+*Foco: Fetichistas, Criaturas fétidas e Enxames.*
+
+| d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **1-9** | 2d4 Vermes de Pântano | 3d6 Moscas Mutantes | 4d6 Fetichistas | 3d8 Guerreiros Bogad | 4d6 Xamãs Fetichistas |
+| **10-14** | 2d4 Moscas Mutantes | 2d8 Fetichistas | 2d6 Cobras de Pantanal | 2d6 Homens-Peixe, 2d6 Crocodilos de Lama | 2d6 Carniçais Inchados, 1d4 Insepultos |
+| **15-19** | 2d4 Fetichistas | 2d6 Insepultos | 2d8 Crocodilos de Lama | 2d8 Almas Penadas | 2d4 Aparições de Ódio |
+| **20** | 1d4 Enxame de Insetos | 1 Bruxa de Pântano | 2d10 Enxames de Gafanhotos | 2d4 Aparições | 2d4 Insepultos Gigantes |
+
+## Deserto e Terras Áridas (Lut Gholein / Kehjistan)
+
+*Foco: Lacuni, Mortos-vivos mumificados e Insetos da areia.*
+
+| d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **1-9** | 2d4 Escorpiões | 3d6 Bandidos | 4d6 Bandidos | 3d8 Esqueletos de Areia | 2d6 Esqueletos, 2d4 Guardas das Tumbas |
+| **10-14** | 2d4 Víboras de Areia | 2d8 Saltadores Lacuni | 3d6 Esqueletos Queimados | 4d6 Sombras de Areia | 2d12 Esqueletos, 2d4 Múmias Maiores |
+| **15-19** | 2d4 Salteadores | 2d6 Esqueletos | 2d4 Sombras | 1d4 Escorpiões Gigantes | 2d4 Múmias, 2d4 Espectros |
+| **20** | 1d4 Esqueletos | 2d4 Sombras | 3d6 Vermes da Areia | 2d4 Múmias Antigas | 1 Lorde das Tumbas (Radament) |
+
+## Selva e Floresta Tropical (Kurast / Toraja)
+
+*Foco: Fetichistas (Nanicos), Zakarum Corrompidos e Feras.*
+
+| d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **1-9** | 2d4 Moscas de Peste | 2d6 Zumbis de Selva | 2d6 Guerreiros Fetichistas | 4d6 Fetichistas | 4d6 Xamãs Fetichistas |
+| **10-14** | 1d4 Aranhas de Teia | 1d4 Aranhas de Musgo | 3d6 Zumbis | 4d6 Macacos das Trevas | 2d6 Carniçais, 1d4 Horrores de Espinhos |
+| **15-19** | 1d4 Cobras de Árvore | 2d4 Gorilas da Selva | 3d6 Pássaros de Fogo | 2d12 Zumbis, 1d4 Carniçais | 2d4 Homens-Tigre (Lacuni) |
+| **20** | 1d4 Vespas de Areia | 1d4 Carniçais | 2d6 Macacos Gigantes | 2d4 Cobras Constritoras | 2d4 Membros do Conselho |
+
+## Círculos Internos do Inferno (Reino do Terror)
+
+*Foco: Demônios puros, Cavaleiros do Inferno e Súcubos.*
+
+| d20 | Nível 1 | Nível 2-3 | Nível 4 | Nível 5-7 | Nível 8+ |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **1-9** | 1d4 Vermes de Carne | 2d6 Vermes de Carne | 3d6 Almas Penadas | 2d6 Carniçais, 1 Insepulto | 3d6 Diabretes (Imps) |
+| **10-14** | 1d4 Esqueletos Fogosos | 2d6 Esqueletos Fogosos | 3d6 Cavaleiros da Perdição | 3d4 Diabretes de Fogo | 3d4 Demônios Alados |
+| **15-19** | 1d4 Zumbis de Sangue | 2d6 Zumbis de Sangue | 1d6 Súcubos | 2d4 Cavaleiros do Inferno | 2d4 Caras de Carne |
+| **20** | 1 Diabrete | 1d2 Súcubos | 1d4 Algozes | 2d4 Vermes, 1 Lorde das Chamas | 1 Senhor do Terror (Balrog/Pit Lord) |
+
+## Tesouros e Esconderijos (d6)
+
+| d6 | Planícies (Tristram) | Pântanos (Kurast) | Deserto (Lut Gholein) | Selva (Toraja) | Ártico (Arreat) | Montanhas (Tamoe) | Masmorras | Inferno |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **1** | Carroça Destruída | Esconderijo no Tronco | Alforjes Rasgados | Oferendas no Totem | Menir Rúnico | Pedras Soltas | Pilha de Dejetos | Caixões de Ferro |
+| **2** | Cova Rasa | Bote Naufragado | Vasos de Argila | Sarcófago | Cache Congelado | Baú Trancado | Baú de Ferro | Suportes Votivos |
+| **3** | Caixotes de Provisões | Bote Virado | Cadáver de Camelo | Vasos de Argila | Caixotes | Baú de Madeira | Baú de Luxo | Sarcófago Maldito |
+| **4** | Baú Trancado | Caixa de Pesca | Urnas de Cinzas | Embrulho em Árvore | Barris de Gelo | Carroça Tombada | Sarcófago Real | Caixa de Esmolas |
+| **5** | Caixões | Barris Podres | Sarcófago Exumado | Caixa de Pedra | Vasos de Barro | Cofre Pequeno | Corpos de Vítimas | Baú Trancado |
+| **6** | Embrulho sob Rocha | Mochila Ruída | Caixotes | Cestos de Palha | Carroça Quebrada | Gaiola de Ferro | Urnas Funerárias | Urnas de Almas |
+
+## Perigos e Riscos (d6)
+
+*Em Santuário, até o cenário quer te matar.*
+
+| d6 | Perigos e Riscos |
+| :---- | :---- |
+| **1** | **Estrutura em Chamas ou Ruindo** – Invasão demoníaca iminente ou desabamento. |
+| **2** | **Estrutura em Ruínas com Tesouro** – O loot está visível, mas a estrutura cairá se não houver cuidado. |
+| **3** | **Porão Infestado** – Contém um Encontro com Monstro e um Tesouro no subsolo (Cave/Porão). |
+| **4** | **Baú Amaldiçoado (Trap)** – Causa 2d6 de dano por nível médio do grupo. Teste de Resistência para metade.  *Tipo de Dano (d6):* 1-2 Fogo, 3-4 Veneno, 5-6 Eletricidade. |
+| **5-6**  | **Covil de Elite** – Área de alta densidade. Role **dois** Encontros de Monstros simultâneos. |
+
+## Pontos Seguros (d6)
+
+*Raros momentos de paz entre hordas de demônios.*
+
+| d6 | Pontos Seguros |
+| :---- | :---- |
+| **1** | **Santuário de Cura ou Fonte de Sangue** – Estrutura intacta com suprimentos ou fontes que recuperam todos os Pontos de Vida. |
+| **2** | **Santuário de Reflexão ou Poço de Mana** – Recupera todos os usos de magias, habilidades e recursos de classe. |
+| **3** | **Oratório Protegido** – Estrutura intacta contendo um baú trancado. |
+| **4** | **Ruína Estável** – Estrutura segura com um tesouro escondido no sótão ou porão. |
+| **5-6**  | **Acampamento de Refugiados ou Posto Avançado** – Local seguro o suficiente para um **Descanso Longo**. |
+
+# Tesouros
+
+Para cada monstro derrotado pelos jogadores, role na tabela de tesouros abaixo. Esta tabela fractal de tesouros pode revelar alguns itens surpreendentemente poderosos. Somando o valor em ouro de cada aspecto do tesouro, você pode obter um custo que pode ser usado para negociar com mercadores. Lembre-se de que só porque um personagem encontra um tesouro não significa que ele saiba o que ele faz. Os personagens precisarão que ele seja identificado na cidade ou que tenha meios de identificá-lo por conta própria. Sem isso, o tesouro só é tão útil quanto sua contraparte mundana.
+
+## Bases e Lojas de Magia
+
+As lojas de magia nessas aventuras são essenciais para a sobrevivência dos personagens. Os personagens precisarão reabastecer seus suprimentos e ficarão surpresos com a quantidade de ouro que gastarão fazendo isso. Cada ato deve começar em uma base, que deve ter alguns NPCs dispostos a vender poções básicas de saúde e mana por 75 peças de ouro cada. Além disso, um vendedor de itens mágicos deve estar disposto a identificar itens mágicos por 250 peças de ouro, caso o grupo não consiga. Talvez, após completar uma missão secundária para um desses NPCs, as identificações possam ser concedidas ao grupo gratuitamente. Além disso, os mercadores de magia podem oferecer dez itens mágicos identificados, gerados aleatoriamente, para venda, juntamente com dez itens mágicos não identificados. Estes podem ser um pouco arriscados, já que podem estar amaldiçoados, mas geralmente acabam sendo vantajosos para os personagens. O custo de um item mágico não identificado é igual a 500 vezes o custo base do item. Cada um sempre terá um prefixo e um sufixo de encantamento.
+
+## Tesouro Base (1d20)
+
+| d20 | Resultado | Descrição / Efeito |
+| :---- | :---- | :---- |
+| **1-10** | Nada | Apenas poeira e ossos. |
+| **11** | Poção de Vida | Veja a ***sub-tabela de poções*** abaixo. |
+| **12** | Poção de Mana | Veja a ***sub-tabela de poções*** abaixo. |
+| **13-17** | Ouro | **(*1d20 x ND*)** \+ **(*Nível Médio do Grupo x 10*)** moedas de ouro. |
+| **18-20** | Equipamento | Um item de inventário. Role na ***sub-tabela de Equipamento***. |
+
+### *Sub-tabela: Poções (1d20 \+ ND*)
+
+| Resultado | Poção de Vida (Recupera PV) | Poção de Mana (Recupera Magia) | Preço |
+| :---- | :---- | :---- | :---- |
+| **1-10** | Comum: 1d4 PV | Comum: Recupera 1d4 mana. | 50 |
+| **11-20** | Forte: 2d4 PV | Forte: Recupera 2d4 mana. | 150 |
+| **21-30** | Grande: 3d4 PV | Grande: Recupera 3d4 mana. | 300 |
+| **31+** | Superior: Recupera tudo | Superior: Recupera 4d4 \+ Vantagem no próximo teste. | 500 |
+
+### Sub-tabela: Equipamento (1d20 \+ ND)
+
+| 1d20 \+ ND | Qualidade do Item | Descrição |
+| :---- | :---- | :---- |
+| **1-15** | Item Comum | Item padrão (Espada, Armadura, etc.). |
+| **16-17** | Item Mágico (Prefixo) | Item padrão \+ Prefixo |
+| **18-19** | Item Raro (Sufixo) | Item padrão \+ Sufixo |
+| **20+** | Item Lendário | Item padrão \+ Prefixo e Sufixo |
+| **A descrição do Mestre** | Item Único | Item com propriedades únicas. |
+| **A descrição do Mestre** | Item de Conjunto | Item com propriedades especiais, ativadas quando o usuário estiver usando duas ou mais peças. |
+
+#
+
+# Tabela de Itens Base (1d100)
+
+Esta tabela define o item "cru" encontrado. Lembre-se de rolar os prefixos e sufixos mágicos conforme a raridade do encontro.
+
+## Armaduras e Escudos (01-39)
+
+| d100 | Item | Tipo | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **01-03** | Acolchoada (Padded) | Leve (CA 11 \+ DES) | 5 |
+| **04-06** | Couro (Leather) | Leve (CA 11 \+ DES) | 10 |
+| **07-09** | Couro Batido (Hide) | Média (CA 12 \+ DES) | 10 |
+| **10-12** | Cota de Anéis (Ring Mail) | Média (CA 13 \+ DES) | 30 |
+| **13-15** | Couro Tachonado | Leve (CA 12 \+ DES) | 45 |
+| **16-18** | Camisão de Malha | Média (CA 13 \+ DES) | 50 |
+| **19-21** | Brunea (Scale Mail) | Média (CA 14 \+ DES) | 50 |
+| **22-24** | Peitoral de Aço | Média (CA 14 \+ DES) | 400 |
+| **25-27** | Meia-Placa | Pesada (CA 15\) | 750 |
+| **28-30** | Cota de Malha | Pesada (CA 16\) | 75 |
+| **31-34** | Armadura de Talas | Pesada (CA 17\) | 200 |
+| **35** | Placa Completa | Pesada (CA 18\) | 1500 |
+| **36-37** | Escudo | Defesa (+2 CA) | 10 |
+| **38-39** | Escudo de Torre | Defesa (+3 CA) | 100 |
+
+## Armas Corpo a Corpo (40-75)
+
+| d100 | Item | Dano Sugerido | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **40** | Porrete (Club) | 1d4 | 1 |
+| **41** | Foice (Sickle) | 1d4 | 1 |
+| **42-43** | Lança (Spear) | 1d6 | 1 |
+| **44** | Bordão (Staff) | 1d6 | 1 |
+| **45** | Adaga (Dagger) | 1d4 | 1 |
+| **46-47** | Maça Grande | 1d8 | 2 |
+| **48** | Azagaia (Javelin) | 1d6 | 2 |
+| **49** | Martelo Leve | 1d4 | 2 |
+| **50-51** | Machadinha | 1d6 | 5 |
+| **52** | Maça (Mace) | 1d6 | 5 |
+| **53** | Pica (Pike) | 1d10 | 5 |
+| **54** | Tridente | 1d6 | 5 |
+| **55** | Picareta de Guerra | 1d8 | 5 |
+| **56** | Machado de Batalha | 1d8 | 10 |
+| **57-58** | Mangual (Flail) | 1d8 | 10 |
+| **59** | Lança de Montaria | 1d12 | 10 |
+| **60** | Malho (Maul) | 2d6 | 10 |
+| **61-62** | Espada Curta | 1d6 | 10 |
+| **63** | Espada Longa | 1d8 | 15 |
+| **64** | Estrela da Manhã | 1d8 | 15 |
+| **65-66** | Martelo de Guerra | 1d8 | 15 |
+| **67** | Glaive | 1d10 | 20 |
+| **68** | Alabarda | 1d10 | 20 |
+| **69-70** | Rapieira | 1d8 | 25 |
+| **71** | Cimitarra | 1d6 | 25 |
+| **72+** | Machado Grande | 1d12 | 30 |
+
+## Armas à Distância e Focos (76-00)
+
+| d100 | Item | Municção / Tipo | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **76-80** | Funda (Sling) | Pedras | 1 |
+| **81-82** | Dardos (20) | Arremesso | 10 |
+| **83** | Zarabatana | Dardos | 10 |
+| **84-85** | Besta Leve | Viratons | 25 |
+| **86-87** | Arco Curto | Flechas | 25 |
+| **88-89** | Arco Longo | Flechas | 50 |
+| **90** | Besta Pesada | Viratons | 50 |
+| **91-93** | Foco Arcano | Varinha/Cajado/Cristal | 5-20 |
+| **94-95** | Símbolo Sagrado | Amuleto/Relicário | 5 |
+| **96-97** | Foco Druídico | Totem/Cajado de Yew | 1-10 |
+| **98-00** | Instrumento Musical | Alaúde/Flauta/Gaita | 2-35 |
+
+## Focos de Conjuração e Instrumentos (91-00)
+
+| d8 | Categoria | Dado | Sub-item | Preço (PO) |
+| :---- | :---- | :---- | :---- | :---- |
+| **1-3** | Arcano | 1d6 | 1-2: Varinha (Wand) | 5 |
+|  |  |  | 3: Orbe (Orb) | 10 |
+|  |  |  | 4: Bastão (Rod) | 10 |
+|  |  |  | 5: Cajado (Staff) | 10 |
+|  |  |  | 6: Cristal | 20 |
+| **4-5** | Sagrado | 1d6 | 1-2: Amuleto | 5 |
+|  |  |  | 3-4: Emblema | 5 |
+|  |  |  | 5-6: Relicário | 5 |
+| **6-7** | Druídico | 1d6 | 1-2: Ramo de Visco | 1 |
+|  |  |  | 3-4: Totem | 1 |
+|  |  |  | 5: Cajado de Madeira | 5 |
+|  |  |  | 6: Varinha de Teixo | 10 |
+| **8** | Musical | 1d10 | 1: Flauta | 2 |
+|  |  |  | 2: Shalm (Xalmua) | 2 |
+|  |  |  | 3: Chifre (Horn) | 3 |
+|  |  |  | 4: Tambor | 6 |
+|  |  |  | 5: Flauta de Pã | 12 |
+|  |  |  | 6: Dulcimer | 25 |
+|  |  |  | 7: Gaita de Fole | 30 |
+|  |  |  | 8: Lira | 30 |
+|  |  |  | 9: Viola | 30 |
+|  |  |  | 10: Alaúde | 35 |
+
+#
+
+# Tabela de Prefixos (1d100)
+
+Esta tabela é utilizada para determinar a propriedade mágica inicial de um item. Role na categoria correspondente ao resultado do d100.
+
+---
+
+## 1\. Melhoria de Armadura (01-20)
+
+*Role 1d20 \+ ND (Nível de Dificuldade) do monstro/tesouro.*
+
+| d20+ND | Prefixo | Efeito | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-6** | Robusto | \+1 de CA | 2.000 |
+| **7-12** | Forte | \+1 de CA (+2 contra projéteis) | 3.750 |
+| **13-18** | Valente | \+2 de CA | 5.000 |
+| **19-24** | Glorioso | \+2 de CA (+3 contra projéteis) | 7.500 |
+| **25-30** | Santo | \+3 de CA | 12.000 |
+| **31+** | Divino | \+3 de CA (+4 contra projéteis) | 15.000 |
+
+## 2\. Melhoria de Resistências (21-35)
+
+*Role 1d20 \+ ND.*
+
+| d20+ND | Prefixo | Efeito | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-10** | Gemas Básicas | \+1 RD (escolha o tipo: Ácido, Gelo, Fogo, Raio, Veneno, força radiante, necrótico, etc.) | 2.000 |
+| **11-30** | Gemas Raras | \+2 RD (escolha o tipo) | 6.000 |
+| **31** | Topázio | \+2 RD em TODOS os tipos. | 15.000 |
+| **32+** | Prismático | \+3 RD em TODOS os tipos. | 18.000 |
+
+## 3\. Efeitos no Inimigo (36-39)
+
+*Role 1d20 \+ ND. Afeta o alvo ao acertar um golpe.*
+
+| d20+ND | Prefixo | Efeito | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-8** | Subjugador | Alvo fica Surpreso por 1 rodada (Resistência de SAB CD 11 nega). | 10.000 |
+| **9-12** | Exaustivo | Alvo fica Surpreso por 1d4 rodadas (Resistência de SAB CD 15 nega). | 10.000 |
+| **13-16** | Esgotante | A Iniciativa do alvo torna-se 0 (SAB CD 17 nega). | 10.000 |
+| **17-19** | Uivante | Alvo fica Amedrontado por 1 rodada (SAB CD 17 nega). | 12.000 |
+| **20** | Caótico | Alvo torna-se aliado por 1d4+1 rodadas (SAB CD 17 nega). | 12.000 |
+| **21+** | Esmagador | Alvo fica sob efeito de Lentidão por 2d4 rodadas (SAB CD 19 nega). | 18.000 |
+
+## 4\. Utilidades e Maldições (40-54)
+
+*Role nas subcategorias indicadas.*
+
+| d100 | Categoria | Efeito | Preço |
+| :---- | :---- | :---- | :---- |
+| **40** | Exaustão | Descanso curto em metade do tempo e Imunidade a Exaustão. | 6000 |
+| **41-45 (d6)** | Perícias | Concede \+2 em testes de Atributos específicos. | \- |
+| **1** | Matador | \+2 Força | 5000 |
+| **2** | Apanhador | \+2 Destreza | 5000 |
+| **3** | Bruto | \+2 Constituição | 5000 |
+| **4** | Conjurador | \+2 Inteligência | 5000 |
+| **5** | Monástico | \+2 Sabedoria | 5000 |
+| **6** | Angelical | \+2 Carisma | 5000 |
+| **46-49 (d8)** | Amaldiçoado | Itens amaldiçoados que atraem azar | 1 |
+| **1** | Enferrujado | \-1 CA | 1 |
+| **2** | Vulnerável | \-2 CA | 1 |
+| **3** | Vidro | \-2 em Testes | 1 |
+| **4** | Hiena | Usuário não pode conjurar feitiços | 1 |
+| **5** | Umbral | Tochas e Lanternas carregadas pelo usuário apagam | 1 |
+| **6** | Cristal | Ao acertar um ataque ou sofrer dano físico com esse item, ele é destruído de forma irreparável. | 1 |
+| **7** | Fraco | Todo dano causado é reduzido pela metade |  |
+| **8** | Inútil | Esse item não causa dano |  |
+| **50** | Caprichoso | Role duas vezes na tabela de prefixos e aplique ambos. | \- |
+| **51-54** | Visibilidade | Concede Luz, Ver Invisibilidade ou Invisibilidade sob condições. | 2.500+ |
+| **1** | Brilhante | O item emite uma luz brilhante até uma distância perto. | 2500 |
+| **2** | Oracular | O usuário pode ver criaturas invisíveis. | 5000 |
+| **3** | Discreto | O usuário é considerado invisível para criaturas longe | 7500 |
+| **4** | Escondido | O usuário é considerado invisível para criaturas perto ou longe | 10000 |
+| **5** | Sorrateiro | O usuário pode gastar uma ação ◈ para ficar invisível até tomar uma próxima ação ◈. | 15000 |
+| **6** | Invisível | O usuário pode gastar uma ação ◈ \+ 1 Mana para ficar invisível por 1d4 rodadas. | 20000 |
+
+## 5\. Fluxo de Mana e Pontos de Ação (55-60)
+
+| d20+ND | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-10** | Do Lagarto | Seu limite máximo de Mana aumenta em \+5. | 2.500 |
+| **11-20** | Da Serpente | Seu limite máximo de Mana aumenta em \+10. | 7.500 |
+| **21-27** | Enganador | Ao gastar Mana, role 1d10. Em um 10, a Mana não é consumida. | 17.500 |
+| **28-29** | Triunfante | Recupere 1 Mana imediatamente ao desferir um golpe fatal. | 25.000 |
+| **30+** | Vulpino | Como Reação ⟁, gaste 1 Mana para ganhar RD 3 a todo dano por 1 turno. | 27.500 |
+
+## 6\. Atributos e Combate (61-100)
+
+*Role 1d20 \+ ND.*
+
+| d100 | Categoria | Prefixo | Efeito |
+| :---- | :---- | :---- | :---- |
+| **61-70** | Atributos | Titânico | \+3 em um Atributo a sua escolha (FOR, DES, CON, INT, SAB, CHA). |
+| **71-77** | Ataque | Preciso | \+3 nos testes de Ataque. |
+| **78-89** | Dano | Brutal | \+3 no Dano e Críticos correm em 19-20. |
+| **90-00** | Mestre | Imparável | \+3 no Ataque, \+3 no Dano e Crítico em 19-20. |
+
+# Tabela de Sufixos (1d100)
+
+Esta tabela é utilizada para determinar a propriedade mágica secundária de um item. Role na categoria correspondente ao resultado do d100.
+
+## 1\. Redução de Dano (01-20)
+
+*Role 1d20 \+ ND (Nível de Dificuldade) do monstro/tesouro.*
+
+| d20+ND | Prefixo | Efeito | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-12** | da Saúde | \+1 RD em TODOS os tipos. | 5.000 |
+| **13-18** | da Proteção | \+2 RD em TODOS os tipos. | 12.500 |
+| **19-25** | da Absorção | \+3 RD em TODOS os tipos. | 25.500 |
+| **26-29** | da Vida | \+4 RD em TODOS os tipos. | 50.000 |
+| **30+** | da Deflexão | \+5 RD em TODOS os tipos. | 100.000 |
+
+## 2\. Reação Quando Atacado⟁ (21-26)
+
+*Role 1d20 \+ ND.*
+
+| d20+ND | Prefixo | Efeito | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-14** | de Espinhos | Atacante sofre 1d4 físico para cada ataque corpo a corpo contra o usuário | 5000 |
+| **15+** | de Ferrão | Atacante sofre 2d4 físico para cada ataque corpo a corpo contra o usuário | 10.000 |
+
+## 3\. Efeitos de Movimento (28-30)
+
+*Role 1d20 \+ ND. Afeta o alvo ao acertar um golpe.*
+
+| d20+ND | Prefixo | Efeito | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-14** | do Passo | Corre o dobro com uma ação de movimento ◈ | 10.000 |
+| **15-19** | da Velocidade | Corre o dobro com uma ação de movimento ◈ e não pode ser surpreso | 30.000 |
+| **20+** | da Aceleração | Corre o triplo com uma ação de movimento ◈ e não pode ser surpreso | 100.000 |
+
+## 4\. Aumento de HP (31-35)
+
+*Role 1d20 \+ ND*
+
+| d20+ND | Categoria | Efeito | Preço |
+| :---- | :---- | :---- | :---- |
+| **1-8** | do Chacal | \+4 HP Temporários | 2500 |
+| **9-13** | da Raposa | \+6 HP Temporários | 5000 |
+| **14-17** | do Jaguar | \+8 HP Temporários | 7500 |
+| **18-21** | do Lobo | \+10 HP Temporários | 10000 |
+| **22-23** | da Águia | \+12 HP Temporários | 12500 |
+| **24-25** | do Tigre | \+15 HP Temporários | 15000 |
+| **26-27** | do Leão | \+18 HP Temporários | 17500 |
+| **28-29** | do Mamute | \+20 HP Temporários | 20000 |
+| **20-31** | da Baleia | \+25 HP Temporários | 22500 |
+| **32+** | do Colosso | \+30 HP Temporários | 25000 |
+
+## 5\. Recuperação (36-45)
+
+*Role 1d20*
+
+| d20 | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-10** | da Regeneração | Usuário cura 1 HP por turno. | 100000 |
+| **11-20** | da Renovação | Usuário recupera 1 HP ponto de atributo perdido por turno. | 100000 |
+
+## 6\. Preparação Diária (61-70)
+
+*Role 1d20 \+ ND.*
+
+| d20+ND | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **1-10** | da Poupança | O usuário pode usar uma habilidade sem gastar Mana 1x por dia. | 50000 |
+| **11-25** | da Negociação | O usuário pode usar uma habilidade sem gastar Mana 2x por dia. | 100000 |
+| **25-35** | da Osmose | O usuário pode usar uma habilidade sem gastar Pontos de Ação ou Mana 1x por dia. | 250000 |
+| **36+** | da Transcendência | O usuário pode usar uma habilidade sem gastar Pontos de Ação ou Mana 2x por dia. | 500000 |
+
+## 7\. Dano Extra (71-85)
+
+| d100 | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **71-72** | do Gelo | \+1d6 de dano de gelo em ataques e feitiços | 2500 |
+| **73-74** | do Fogo | \+1d6 de dano de fogo em ataques e feitiços | 2500 |
+| **75-76** | da Eletricidade | \+1d6 de dano Elétrico em ataques e feitiços | 2500 |
+| **77-78** | do Veneno | \+1d6 de dano de Veneno em ataques e feitiços | 2500 |
+| **79-80** | da Radiância | \+1d6 de dano Radiante em ataques e feitiços | 5000 |
+| **81-82** | da Necromancia | \+1d6 de dano Necrótico em ataques e feitiços | 5000 |
+| **83-84** | da Psique | \+1d6 de dano Psíquico em ataques e feitiços | 5000 |
+| **85** | da Força | \+1d6 de dano de Força em ataques e feitiços | 10000 |
+
+## 8\. Efeito de Runas (86-100)
+
+| d100 | Prefixo | Efeito no Sistema de Mana (AP) | Preço (PO) |
+| :---- | :---- | :---- | :---- |
+| **86** | Amn	Sede de Sangue | **Roubo de Vida:** Cura 1d4 PV sempre que causar dano crítico ou matar um inimigo. |  |
+| **87** | Shael	Rapidez | **Velocidade:** Reduz o custo de ações  ou reações em 1 Mana. |  |
+| **88** | Pul	Exorcismo | **Dano Sagrado:** \+1 dado de dano adicional contra Demônios e Mortos-Vivos. |  |
+| **89** | Um	Laceração | **Ferimentos Abertos:** O alvo sangra, perdendo 1d4 PV por rodada até ser curado ou estabilizado. |  |
+| **90** | Mal	Veredito | **Anticura:** Impede que o alvo regenere vida ou receba cura mágica por 3 rodadas. |  |
+| **91** | Ist	Fortuna | **Busca Mágica:** Aumenta a chance de encontrar itens raros/mágicos em saques em \+10%. |  |
+| **92** | Gul	Precisão | **Foco:** Recebe \+1d4 em todas as jogadas de ataque com esta arma. |  |
+| **93** | Vex	Sifão de Éter | **Roubo de Mana:** Ao causar dano, role 1d6. Em um 5 ou 6, você recupera 1 ponto de Mana. |  |
+| **94** | Ohm	Poder Bruto | **Dano Físico:** A arma causa \+5 de dano fixo em todos os ataques bem-sucedidos. |  |
+| **95** | Lo	Golpe Mortal | **Crítico Devastador:** Chance de causar dano dobrado (além do crítico normal) em um 19 natural. |  |
+| **96** | Sur	Aflição | **Cegueira:** Alvos atingidos devem passar num teste de Constituição ou ficam Cegos por 1 rodada. |  |
+| **97** | Ber	Esmagamento | **Golpe Esmagador:** Reduz a Armadura (CA) do alvo em 2 permanentemente (até o fim do combate). |  |
+| **98** | Jah	Aniquilação | **Ignorar Defesa:** O ataque ignora qualquer bônus de escudo ou armadura natural do inimigo. |  |
+| **99** | Cham	Gelo Eterno | **Congelar:** O alvo fica Imobilizado por 1 rodada. Você se torna imune a efeitos de lentidão. |  |
+| **100** | Zod	Eternidade | **Indestrutível:** A arma nunca quebra e você recebe um Sucesso Crítico automático por sessão. |  |
+
+# Registro de Campanha
+
+**Era Inicial:** 1337 AK \- Era do Ódio  
+**O Tempo Avança? (Role 1d6):** (1) Agora | (2-3) Próxima Sessão | (4-6) Estável
+
+| Sessão | Data | Era | Estação |
+| :---- | :---- | :---- | :---- |
+| \#Zero |  | 1337 AK \- Era do Ódio | Primavera \- Início |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+**SITUAÇÕES PENDENTES**
+
+*Role 1d6 ao avançar o tempo: 1 (Catástrofe), 2-3 (Piora), 4-6 (Alívio/Melhora).*
+
+| Ameaça / Situação Oculta | Localização | Rolagem (1d6) | Novo Status (Catastrófico, Piorou, Alívio) |
+| :---- | :---- | :---- | :---- |
+| *Ex: Culto Velado de Belial* | *Esgotos de Caldeum* | *2 (Piorou)* | *O culto assassinou o capitão da guarda.* |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+**ATIVIDADES DE INTERSTÍCIO (HERÓIS)**
+
+*O que cada herói faz quando o tempo avança entre as aventuras.*
+
+| Herói / Classe | Período (Estação/Era) | Atividade Escolhida | Resultado / Benefício Adquirido |
+| :---- | :---- | :---- | :---- |
+| *Ex: Kael (Bárbaro)* | *Jovem* | *Serviço* | *Fortificou os portões do acampamento.* |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+# Ideias
+
+![][image3]
+
+![][image4]
+
+[https://app.lootstudios.com/bundle/voracious-sands/](https://app.lootstudios.com/bundle/voracious-sands/)
+
+Sinister 7 \- Sete heróis (nephalem) que começam a caçar os jogadores do grupo principal
+
+Berserker \- Nega
+
+Warlock \- Nega
+
+Cruzado \- Homem
+
+Renegado (Rogue) \- Homem
+
+Arcanista \- Nega
+
+Caçador de Demônios \- Homem
+
+Cavaleiro de Sangue \- Homem
+
+Colocar uma moça estuprada pelos Ghouls no final de uma dungeon
+
+Criar um clima de solidão
+
+Colocar um portal para o inferno
+
+Colocar runas de proteção em volta do forte para parar as marés infernais
+
+escoltar crianças de um vilarejo até o forte
+
+inimigos com orcrux (Filacterias)
+
+# Forte
+
+## **NPCs do Forte**
+
+## Como os Lobos de Ferro são conhecidos por misturar perícia com espadas e magia elemental, esses NPCs refletem essa versatilidade.
+
+### **1\. Comandante Rayna, a "Voz da Tempestade"**
+
+* **Papel:** Líder do Baluarte e Principal Quest Giver.  
+* **Descrição:** Uma veterana de Caldeum com cicatrizes de queimaduras rúnicas no rosto. Ela não usa armadura pesada, mas sim couros reforçados e uma capa vermelha desbotada.  
+* **Personalidade:** Rígida e pragmática. Ela não envia os heróis por bondade, mas porque seus homens estão exaustos contendo as Marés Infernais.  
+* **Gancho de Missão:** "Mestre, Rayna olha para o mapa das Cavernas do Caos com desprezo. Ela precisa que alguém rompa o bloqueio dos Khazra para estabelecer uma linha de suprimentos com Lut Gholein, ou o Baluarte cairá de fome antes de cair pelas lâminas."
+
+### **2\. Mago Elemental Sorit**
+
+* **Papel:** Intendente de Itens Mágicos e Lore.  
+* **Descrição:** Um estudioso que fugiu da destruição da Biblioteca de Caldeum. Ele está sempre cercado por pergaminhos e tentando purificar fragmentos de pedras corrompidas.  
+* **Personalidade:** Ansioso e fascinado pelo proibido. Ele acredita que os cultistas nas cavernas estão usando rituais de sacrifício para invocar algo ligado a Belial.  
+* **Gancho de Missão:** Ele oferece recompensas por "Corações de Khazra" ou "Grimórios de Cultistas" encontrados nas Cavernas, na esperança de entender como a corrupção está se espalhando tão rápido.
+
+### **3\. Jarek, o Lâmina Quebrada**
+
+* **Papel:** Mestre de Armas e Treinador.  
+* **Descrição:** Um lobo de ferro gigantesco que perdeu uma perna na queda de Caldeum. Agora ele supervisiona a defesa das muralhas.  
+* **Personalidade:** Melancólico, mas protetor. Ele vê os aventureiros como "bucha de canhão" até que provem o contrário.  
+* **Gancho de Missão:** Jarek conhece a entrada secreta das Cavernas (a antiga passagem dos contrabandistas), mas só revelará a localização se os jogadores recuperarem o estandarte de sua unidade, perdido em uma emboscada no sopé das montanhas.
+
+### **4\. Valla, a batedora de Aranoch**
+
+* **Papel:** Guia e informante sobre o mundo exterior.  
+* **Descrição:** Ágil, vestindo roupas de areia que a tornam quase invisível no terreno rochoso. Ela é a única que entra e sai do labirinto das cavernas com vida.  
+* **Personalidade:** Sarcástica e direta. Ela não acredita que o deserto de Aranoch ainda exista como era antes; para ela, tudo agora é domínio dos mortos-vivos.  
+* **Gancho de Missão:** Ela pode dar aos jogadores um mapa parcial das Cavernas do Caos, mas avisa: "O layout muda. O mal lá dentro respira, e as paredes parecem se mover quando o sangue toca o chão."
+
+### **⚒️ O Ferreiro: Harek, o Prisioneiro do Ferro Negro**
+
+* **Papel:**  Ferreiro.  
+* **Onde encontrá-lo:** Nas **Cavernas dos Khazra (Homens-Bode)**.  
+* **A Situação:** Os Khazra não o mataram porque reconheceram sua habilidade. Ele está acorrentado a uma forja improvisada em uma das câmaras mais profundas, sendo forçado a fundir "Aço Infernal" (fragmentos de armas de demônios derrotados) para armar os campeões da tribo.  
+* **Personalidade:** Harek é um homem de poucas palavras, com os pulmões castigados pela fuligem mágica. Ele sente uma culpa imensa por cada lâmina que foi forçada a criar para os monstros.  
+* **O Resgate:** Os jogadores não precisam apenas de uma chave; eles precisam de um martelo específico (o **Martelo de Hephaesto**) que os Khazra roubaram. Sem o martelo, ele não pode quebrar as correntes rúnicas que o prendem à forja.  
+* **Recompensa no Baluarte:** Uma vez resgatado, ele se instala no Forte. Ele poderá **Reparar Itens** (essencial se você usa regras de durabilidade) e **Encantar Equipamentos** usando os materiais que os Lobos de Ferro não sabem manipular.
+
+### **🌿 A Especialista em Poções de Kanduras: Elara, a Erveira de Scosglen**
+
+* **Papel:**  Apotecária.  
+* **Onde encontrá-la (Hexcrawl ao Oeste):** No **Bosque das Sombras Longas**. É uma região de mata fechada onde as árvores parecem observar quem passa.  
+* **A Situação:** Elara não está em uma cabana comum; ela vive dentro de um **Menir oco** (uma pedra antiga de rituais). Ela está tentando conter uma "Infestação de Sangue" que está apodrecendo as raízes da floresta. Os jogadores a encontram tentando desesperadamente manter um círculo de proteção rúnica enquanto criaturas corrompidas (talvez *Walking Corpses* ou lobos possuídos) cercam o local.  
+* **Personalidade:** Ela é direta, ríspida e tem um sotaque carregado das terras do norte. Ela despreza a "magia de cidade" de Caldeum e confia apenas no que a terra provê.  
+* **A Condição para Ajudar:** Ela se recusa a ir para o Baluarte porque "o ferro dos Lobos de Ferro fere o espírito da floresta". No entanto, ela aceita trocar poções se os jogadores trouxerem **Cinzas de Demônio** (obtidas nas Marés Infernais) para que ela use como fertilizante purificador em seu jardim de ervas.
+
+**Serviços:**
+
+* **Poções de Rejuvenescimento:** Aquelas clássicas de *Diablo* que recuperam vida e mana instantaneamente (caras e raras).  
+* **Antídotos Fortes:** Essenciais para sobreviver às aranhas e criaturas peçonhentas das florestas.  
+* **Bênção da Terra:** Um óleo que, aplicado nas armas, causa dano extra contra demônios por um curto período.
+
+### **🎲 O NPC Oportunista: Silas, o "Olho-Furado"**
+
+* **Papel:** Smuggler (Contrabandista), Informante e Apostador (Mecânica de Gheed/Kadala).  
+* **Descrição:** Um homem magro e nervoso, que veste restos de sedas de Caldeum sobre couros imundos. Ele está sempre mascando uma raiz que deixa seus dentes pretos e fala em sussurros rápidos.  
+* **Personalidade:** Cínico, ganancioso e surpreendentemente bem informado. Ele não acredita na "salvação de Santuário", mas acredita firmemente no poder do ouro. Ele trata os Lobos de Ferro com um respeito fingido, mas na verdade os vê como clientes temporários.
+
+**O que ele oferece ao grupo:**
+
+1. **Aposta (Gambling):** Silas vende itens não identificados de qualidade duvidosa por preços altos. "Pode ser uma lâmina lendária de Vizjerei, mestre, ou pode ser uma faca de cozinha enferrujada. O destino decide. O ouro é meu."  
+2. **Mercadorias Proibidas:** Ele é o único lugar no forte onde se pode conseguir coisas como *Pó de Tumba* (para rituais necróticos), *Sangue de Demônio Destilado* (um estimulante perigoso) ou mapas parciais das Cavernas do Caos que mostram as rotas de patrulha dos cultistas (informações que Valla, a batedora, não consegue).
+
+### **O Pacto dos Rejeitados (A Rede de Contatos)**
+
+Silas tem uma rede de "informantes" que ninguém mais quer: os **Fallen (Decaídos)**. Ele descobriu que essas criaturas são covardes e extremamente subornáveis por coisas simples, como carne fresca ou bugigangas brilhantes.
+
+* **Como ele consegue os itens:** Ele tem um ponto de encontro secreto em um bueiro ou em uma fenda nas rochas ao oeste do Forte. Lá, ele troca restos de comida do forte por itens que os Decaídos roubaram de caravanas ou de outros monstros nas Cavernas do Caos.  
+* **O que o jogador vê:** Silas assobiando um tom baixo e estranho perto de uma caverna. Pequenas mãos vermelhas e garras saem das sombras, entregando a ele um embrulho sujo de sangue em troca de um saco de miúdos de porco.
+
+# Handout \- Caverna B
+
+| Letra Humana | Glifo Serpente | Letra Humana | Glifo Serpente |
+| :---: | :---: | :---: | :---: |
+| **A** | 𝛬 | **N** | 𝜈 |
+| **B** | 𝛽 | **O** | 𝜽 |
+| **C** | Ͼ | **P** | 𝜋 |
+| **D** | 𝛿 | **Q** | 𝜙 |
+| **E** | 𝜀 | **R** | 𝜌 |
+| **F** | Ⲙ | **S** | ʃ |
+| **G** | 𝛾 | **T** | 𝜏 |
+| **H** | 𝜂 | **U** | 𝜐 |
+| **I** | 𝜄 | **V** | ψ |
+| **J** | Ѡ | **W** | 𝜔 |
+| **K** | ϰ | **X** | χ |
+| **L** | 𝜆 | **Y** | 𝜓 |
+| **M** | 𝜇 | **Z** | 𝜁 |
+
+*O ar na câmara oculta é pesado, impregnado com o cheiro acre de enxofre e o borbulhar constante de uma poça de ácido esverdeado misturado a sangue que emana da base de um crânio colossal. Escavadas profundamente nas pedras negras e úmidas que circundam a fonte, runas antigas e sibilantes parecem pulsar levemente à medida que a heresia se aproxima do nosso mundo.*
+
+| 𝜽 ʃ𝜀𝜈𝜂𝜽𝜌 𝛿𝛬 𝜇𝜀𝜈𝜏𝜄𝜌𝛬 𝜀χ𝜄𝛾𝜀 ʃ𝛬𝜈𝛾𝜐𝜀. 𝛿𝜽 𝛬Ͼ𝜄𝛿𝜽 𝜀𝜌𝛾𝜐𝜀-ʃ𝜀 𝜽 𝜀𝜈𝛾𝛬𝜈𝛬𝛿𝜽𝜌. 𝛽𝜀𝜆𝜄𝛬𝜆 𝛿𝜽𝜇𝜄𝜈𝛬𝜌𝛬. |
+| :---: |
+
+\[ Transcrição fiel das inscrições rúnicas coletadas ao redor da poça de ácido — Idioma Ofídico-Infernal \]
+
+#### **Dia 12 da Investigação**
+
+*Os boatos estavam certos. Rastreamos a influência do Senhor da Mentira até este maldito complexo de cavernas. O Setor B está mudado. Os pequenos seres que infestavam o lugar originalmente fugiram aterrorizados ou foram massacrados. O ar aqui embaixo está pesado, sufocante, carregado de miragens que fazem os olhos sangrarem. A Capitã disse para mantermos a guarda alta. Sinto que as sombras estão se movendo, mas quando olho diretamente, não há nada. Algo está tecendo uma teia de ilusões ao nosso redor.*
+
+#### **Dia 15 da Investigação**
+
+*Fomos emboscados. Aquelas malditas víboras... as formas delas mudavam diante dos nossos olhos, mimetizando nossos próprios companheiros. Minha espada encantada partiu as escamas de duas delas, mas éramos minoria. Fui arrastado para as profundezas, até uma câmara que cheira a carne queimada. Eles ergueram um altar ao redor de uma poça de fluido esverdeado e corrosivo. Jogaram a Capitã lá dentro. O som da armadura e da carne dela derretendo sob o ácido... os monstros riam enquanto misturavam o sangue dela àquela podridão. Meu turno é o próximo.*
+
+#### **Último Registro (Manchado de Ácido e Sangue Seco)**
+
+*A poça começou a ferver violentamente. Não há salvação para mim. Todos os demais já foram consumidas pelo veneno deles, mas meus olhos ainda veem o horror. Algo está emergindo da mistura de ácido e sangue. Uma silhueta massiva, trocando de pele a cada segundo, revelando garras, escamas e os rostos agonizantes dos meus irmãos mortos. Algo desperta. Sinto a corrupção serpentear pelas minhas veias, arrancando minha alma. Se alguém encontrar este diário... não confie no que seus olhos veem nesta câmara. Tudo aqui é uma terrível mentira. A morte não será o meu fim... ele vai me erguer.*
+

@@ -48,7 +48,8 @@ Substituições pendentes em todos os arquivos:
 
 ```
 repo/
-├── Diablo Homebrew RPG.md   ← livro principal (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
+├── Diablo Homebrew RPG.md   ← Livro do Jogador (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
+├── livro-do-mestre.md       ← Livro do Mestre (encontros, tesouros, forte, handouts…)
 ├── 01-classes.md            ← Cap. 3: Classes (18 classes)
 ├── apendice-b-glossario.md  ← Apêndice B: Glossário
 ├── cenarios/                ← 7 módulos de aventura
@@ -65,8 +66,9 @@ repo/
 ```
 
 **Ordem de compilação para o PDF:**
-1. `Diablo Homebrew RPG.md` (Cap. 1–2, 4–7, Apêndices)
+1. `Diablo Homebrew RPG.md` (Cap. 1–2, 4–7, Apêndices) — distribuir aos jogadores
 2. `01-classes.md` (Cap. 3)
+3. `livro-do-mestre.md` — **não distribuir aos jogadores**
 
 Os cenários e fichas são documentos separados, não fazem parte do livro principal.
 
