@@ -82,12 +82,12 @@ Gerado para calibrar statblocks de criaturas. Atualizar se os Dados de Vida das 
 
 Objetivo: monstro acerta um guerreiro típico em ~55–65% dos ataques.
 
-| Nível do encontro | Minion | Padrão | Elite | Chefe |
-|---|---|---|---|---|
-| 1 | +2 | +3 | — | — |
-| 2–4 | +3 | +4 | +5 | +6 |
-| 5–7 | +4 | +5 | +6 | +7 |
-| 8+ | +5 | +6 | +7 | +8–+9 |
+| Nível do encontro | Minion | Padrão | Elite | Chefe | Chefe de Ato | Prime Evil |
+|---|---|---|---|---|---|---|
+| 1 | +2 | +3 | — | — | — | — |
+| 2–4 | +3 | +4 | +5 | +6 | — | — |
+| 5–7 | +4 | +5 | +6 | +7 | +10 | — |
+| 8+ | +5 | +6 | +7 | +8–+9 | +10–+11 | +13 |
 
 ---
 
@@ -172,6 +172,15 @@ Para ameaçar esses personagens, use efeitos que **não exigem rolagem de ataque
 | +10 | 95% | 95% | 95% | 90% | 85% | 80% | 75% | 70% | 65% | 60% | 55% | 50% | 45% | 40% | 35% |
 | +11 | 95% | 95% | 95% | 95% | 90% | 85% | 80% | 75% | 70% | 65% | 60% | 55% | 50% | 45% | 40% |
 | +12 | 95% | 95% | 95% | 95% | 95% | 90% | 85% | 80% | 75% | 70% | 65% | 60% | 55% | 50% | 45% |
+| +13 | 95% | 95% | 95% | 95% | 95% | 95% | 90% | 85% | 80% | 75% | 70% | 65% | 60% | 55% | 50% |
+| +14 | 95% | 95% | 95% | 95% | 95% | 95% | 95% | 90% | 85% | 80% | 75% | 70% | 65% | 60% | 55% |
+| +15 | 95% | 95% | 95% | 95% | 95% | 95% | 95% | 95% | 90% | 85% | 80% | 75% | 70% | 65% | 60% |
+
+**Referência de ATK por tier de inimigo:**
+- Minion / Padrão nível 1–4: +2 a +4
+- Elite / Chefe comum nível 5–8: +5 a +9
+- Chefe de Ato / Mini-boss: +10 a +11
+- **Prime Evil / Chefe Final: +13** → 50% de acerto contra CA 24 (teto do jogo)
 
 ---
 
