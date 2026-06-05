@@ -1,4 +1,4 @@
-# Livro do Mestre — Diablo Homebrew RPG
+# Diablo RPG — Livro do Mestre
 
 > Material exclusivo para o Mestre. Não distribuir aos jogadores.
 
@@ -741,3 +741,56 @@ Silas tem uma rede de "informantes" que ninguém mais quer: os **Fallen (Decaíd
 
 *A poça começou a ferver violentamente. Não há salvação para mim. Todos os demais já foram consumidas pelo veneno deles, mas meus olhos ainda veem o horror. Algo está emergindo da mistura de ácido e sangue. Uma silhueta massiva, trocando de pele a cada segundo, revelando garras, escamas e os rostos agonizantes dos meus irmãos mortos. Algo desperta. Sinto a corrupção serpentear pelas minhas veias, arrancando minha alma. Se alguém encontrar este diário... não confie no que seus olhos veem nesta câmara. Tudo aqui é uma terrível mentira. A morte não será o meu fim... ele vai me erguer.*
 
+---
+
+## Tempo — Tabelas do Mestre
+
+### **SITUAÇÕES PENDENTES** *Se uma situação importante permanecer sem solução antes da transição para a próxima Estação ou Era, role **1d6** para determinar como ela evolui sob a influência do Conflito Eterno:*
+
+| PASSAGEM DO TEMPO |  |
+| :---- | :---- |
+| **1** | **Catastrófico:** Termina da pior forma que poderia acontecer. |
+| **2-3** | **Deterioração:** A situação piora significativamente. |
+| **4-6** | **Alívio:** A situação melhora ou se resolve favoravelmente. |
+
+---
+
+## Viagem — Tabelas do Mestre
+
+### ENCONTROS DE REGIÃO
+
+Ao terminar uma fase em **Regiões Selvagens**, role:
+
+| ENCONTROS DE REGIÃO |  |
+| :---- | :---- |
+| **1** | Encontre o próximo **Augúrio (Omen)** de um **Mito (Myth)** aleatório neste Reino. |
+| **2-3** | Encontre o próximo **Augúrio (Omen)** do **Mito** mais próximo. |
+| **4-6** | Encontre o **Ponto de Interesse (Landmark)** do Hexágono.**Caso contrário:** Tudo limpo (sem encontros). |
+
+### OUTRAS TABELAS DE VIAGEM
+
+Viajantes que se encontrarem vagando sem senso de direção, ou cercados por escuridão ou névoa, devem rolar quando tentarem se mover para um novo Hexágono.
+
+*Quando a Comitiva viaja à noite sem guia/luz, ou sob névoa espessa, role 1d6:*
+
+| VIAJANDO ÀS CEGAS |  |
+| :---- | :---- |
+| **1** | **Círculo Vicioso:** Vocês perdem o senso de direção e voltam exatamente para o **Hexágono de onde partiram**. A Fase do dia é desperdiçada. |
+| **2-3** | **Desvio:** Vocês derivam para um Hexágono adjacente indesejado. Role **1d6**: (1-3) Esquerda, (4-6) Direita do destino pretendido. |
+| **4-6** | **Determinação:** Vocês conseguem manter o rumo e progridem conforme planejado, apesar das dificuldades. |
+
+*Em Santuário, o clima não é apenas um incômodo, é uma extensão do Inferno. Role 1d6:*
+
+| CLIMA IMPLACÁVEL |  |
+| :---- | :---- |
+| **1** | **Tempestade Infernal / Nevasca de Sangue:** Clima extremo. É impossível sair do Hexágono atual. Ninguém consegue realizar um **Descanso Longo** devido ao frio ou ventos uivantes. |
+| **2-3** | **Ameaça Iminente:** O céu escurece e o ar fica pesado. Se este resultado for rolado duas vezes consecutivas, o clima se torna **Implacável** (como o resultado 1). |
+| **4-6** | **Céu Limpo:** Tempo firme para viagem (dentro dos padrões sombrios de Santuário). |
+
+*Ao chegar em uma vila, acampamento de refugiados ou posto avançado. Role 1d6:*
+
+| HUMOR LOCAL |  |
+| :---- | :---- |
+| **1** | **Sob o Jugo do Mal:** O local está ocupado por uma presença demoníaca, um culto ativo ou sofreu um massacre recente. O medo é absoluto. |
+| **2-3** | **Declínio Acentuado:** Há um sentimento de desesperança. Os recursos são escassos, as pessoas estão doentes ou a corrupção está começando a se enraizar nos corações. |
+| **4-6** | **Relativa Calmaria:** O humor é aceitável. Os locais são cautelosos, mas as defesas ainda resistem e a vida segue seu curso penoso. |
