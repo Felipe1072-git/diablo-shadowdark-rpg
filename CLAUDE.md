@@ -155,32 +155,14 @@ A DC que sobe a cada conjuração bem-sucedida se chama **DC de Conjuração** (
 - ~~Imagem quebrada `![][image1]` na seção de Mana~~ ✅ (commit e276132)
 - ~~**Ordenação dos capítulos no arquivo:** Cap. 1 vinha depois de Cap. 2, 4, 5~~ ✅ (commit 1e8e186)
 
-### Goal 4 — Estrutura e Capítulos do Livro do Mestre ⬅️ PRÓXIMA SESSÃO
+### Goal 4 — Estrutura e Capítulos do Livro do Mestre ✅ (commit 44dc6af)
 
-O `livro-do-mestre.md` foi revisado no conteúdo (Goal 3), mas ainda não tem estrutura de capítulos consistente com o Livro do Jogador. Estrutura atual do LdM:
-
-```
-# Template de Cenário        ← sem numeração de capítulo
-# Encontros                  ← duplicado? (ver "# Encontros com Monstros" logo abaixo)
-# Encontros com Monstros     ← deveria ser subseção do cap. de Encontros
-# Tesouros                   ← cap. solto
-# Tabela de Itens Base       ← deveria ser subseção de Tesouros
-# Tabela de Prefixos         ← cap. solto
-# Tabela de Sufixos          ← cap. solto
-# Registro de Campanha       ← cap. solto (inclui tabelas de Tempo e Viagem no final)
-# Forte                      ← NPCs e handout misturados
-# Handout - Caverna B        ← deveria ser material de cenário, não do LdM
-# Tempo — Tabelas do Mestre  ← subseção sem capítulo pai
-# Viagem — Tabelas do Mestre ← subseção sem capítulo pai
-```
-
-Problemas a resolver com o Paulo:
-1. Definir a estrutura de capítulos (numerados ou temáticos)
-2. `# Encontros` e `# Encontros com Monstros` parecem duplicar — fundir
-3. Tabelas de Itens Base, Prefixos e Sufixos são subseções de Tesouros — reorganizar
-4. `# Forte` mistura NPCs de uma campanha específica com regras gerais — separar
-5. `# Handout - Caverna B` não deveria estar no LdM principal — mover para cenários
-6. Tempo e Viagem estão no final do Registro de Campanha sem hierarquia clara
+- Cap. 1 Encontros / Cap. 2 Tesouros e Itens / Cap. 3 Registro de Campanha / Apêndice Template
+- Tabelas de Itens Base, Prefixos e Sufixos rebaixadas para `##` (subseções de Cap. 2)
+- `## Tempo` e `## Viagem` movidas para dentro do Cap. 3
+- NPCs dos Lobos de Ferro extraídos para `cenarios/baluarte-dos-lobos-de-ferro.md`
+- Handout Caverna B movido para `cenarios/senhor-da-mentira.md`
+- Rascunhos de campanha (Sinister 7, ganchos) movidos para `notas/notas-campanha.md`
 
 ### Goal 3 — Revisão do Livro do Mestre ✅ (commit dbb0938 + f3e8a64 + 9419ada)
 
