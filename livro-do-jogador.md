@@ -765,8 +765,8 @@ Se você quiser emular a progressão de dificuldade de Diablo (Normal, Nightmare
 Conforme os jogadores avançam na história ou entram em áreas amaldiçoadas (como o Inferno Ardente ou o Ato IV), o ambiente corrói suas defesas.
 
 * **Nível 1-4 (Normal):** Nenhuma penalidade.  
-* **Nível 5-10 (Pesadelo):** \-5 em todas as Resistências na Matriz.  
-* **Nível 11+ (Inferno):** \-10 em todas as Resistências na Matriz.
+* **Nível 5-7 (Pesadelo):** \-5 em todas as Resistências na Matriz.  
+* **Nível 8-10 (Inferno):** \-10 em todas as Resistências na Matriz.
 
 *Nota:* Isso permite que resistências fiquem negativas. Se você tem \-5 de Fogo e toma 10 de dano, você sofre 15\. Isso força os jogadores a buscarem itens melhores constantemente.
 

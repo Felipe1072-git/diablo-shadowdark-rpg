@@ -380,8 +380,8 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 | Nome | PV | CA | Ataque | Dano | Vel. | AP |
 |---|---|---|---|---|---|---|
-| Sombra | 18 | 13 | +4 | 1d6+2 Sombrio (toque sombrio) | Voo Normal | 3 |
-| Sombra de Areia | 28 | 14 | +5 | 2d8+5 Sombrio (toque) | Voo Normal | 3 |
+| Sombra | 18 | 13 | +4 | 1d6+2 Necrótico (toque sombrio) | Voo Normal | 3 |
+| Sombra de Areia | 28 | 14 | +5 | 2d8+5 Necrótico (toque) | Voo Normal | 3 |
 | Espectro | 35 | 15 | +7 | 2d10+3 Gelo (toque glacial) | Voo Rápido | 3 |
 
 **Todas as Entidades de Sombra — Imunidades:** Imunes a Necrótico e Veneno. **Vulneráveis a Radiante** (ataques Radiantes causam dano extra igual ao Nível do atacante).
@@ -1749,7 +1749,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 |---|---|---|---|---|---|---|
 | Sombra do Medo | 20 | 13 | +5 | 2d4+3 Psíquico (toque de terror) | Voo Normal | 3 |
 | Osso Voador | 14 | 12 | +4 | 1d6+2 Físico (garra) | Voo Normal | 3 |
-| Demônio do Pesadelo | 35 | 15 | +6 | 2d10+3 Sombrio (garras sombrias) | Próximo | 3 |
+| Demônio do Pesadelo | 35 | 15 | +6 | 2d10+3 Necrótico (garras sombrias) | Próximo | 3 |
 
 **Sombra do Medo — Imunidades:** Imune a Necrótico e Veneno. **Vulnerável a Radiante** (ataques Radiantes causam dano extra igual ao Nível do atacante).
 **Sombra do Medo — Incorporal:** Ataques físicos não-mágicos têm Desvantagem contra ela.
