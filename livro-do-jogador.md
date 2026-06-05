@@ -770,6 +770,18 @@ Conforme os jogadores avançam na história ou entram em áreas amaldiçoadas (c
 
 ---
 
+## **5\. Imunidades e Vulnerabilidades**
+
+Alguns inimigos são **Imunes** a certos tipos de dano — eles tomam **0** de dano desse tipo, independentemente do valor.
+
+Outros são **Vulneráveis** — quando você os acerta com o tipo fraco, o ataque causa dano extra igual ao seu **Nível**.
+
+> *Exemplo:* Um Vampiro é Vulnerável a Radiante. Você é nível 4. Seu golpe causa 8 de dano Radiante — ele toma **12** (8 + 4 do nível).
+
+O Mestre revela imunidades e vulnerabilidades quando os personagens as identificam. Explorar a fraqueza certa é parte da estratégia de combate em Santuário.
+
+---
+
 
 ## **TABELA 1: MATRIZ DE RESISTÊNCIA DO PERSONAGEM (RD Por Tipo)**
 

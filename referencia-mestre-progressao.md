@@ -188,11 +188,11 @@ Use ao criar statblocks. A coluna de RD Física segue o padrão Minion / Padrão
 
 **Imunidade:** o monstro toma 0 de dano desse tipo. Reservar para identidade temática forte (Demônio de Fogo imune a Fogo, Espectro imune a Físico). Evitar em humanoides comuns — elimina opções táticas dos jogadores.
 
-**Vulnerabilidade:** o monstro toma dano extra ao ser atingido pelo tipo fraco. Dois níveis:
-- **Leve:** +nível do encontro de dano bônus (ex: encontro nível 5 → +5 de dano)
-- **Severa:** dano dobrado — reservar para fraquezas icônicas de chefes (Vampiro Ancião vs Radiante, Golem de Pedra vs Arcano)
+**Vulnerabilidade:** o monstro toma **+Nível do PJ** de dano extra ao ser atingido pelo tipo fraco. Sem distinção de grau — toda vulnerabilidade funciona igual. Com múltiplos jogadores, cada acerto soma o nível individual de quem atacou.
 
-*Vulnerabilidade severa em monstros comuns os torna triviais para as classes certas e irrelevantes para as demais. Prefira a versão leve para manter o encontro interessante para o grupo todo.*
+> *Exemplo:* Paladino nível 5 acerta um Vampiro Vulnerável a Radiante com 8 de dano → toma 13 (8 + 5).
+
+*Uma vulnerabilidade bem explorada recompensa o grupo por escolher o dano certo — sem tornar criaturas triviais nem irrelevantes para quem não tem aquele tipo.*
 
 ---
 
