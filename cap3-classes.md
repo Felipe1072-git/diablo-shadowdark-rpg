@@ -136,7 +136,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | **13** | **Ilusionismo (⟁ \+ 2 Mana):** Quando sofrer dano, cria 2 duplicatas (inimigos têm 50% de chance de errar e acertar uma das duplicatas). As duplicatas duram 1d4 rodadas. |
 | **14 (4)** | **Buraco Negro (Feitiço) (◈◈ \+ 2 Mana):** Puxe todas as miniaturas "Próximo" de um ponto para o centro e cause 2d8 de dano Arcano. Gaste +2 Mana para cada dado extra. |
 | **15** | **Anomalia Instável (⟁ \+ 2 Mana):** Se cair para 0 HP, explode em energia (2d6 dano Arcano adjacente) e fica com 1 HP. Gaste +2 Mana para cada dado extra. |
-| **16 (5)** | **Espada Espectral (Feitiço) (◈◈ \+ 1 Mana):** Uma Lâmina Espectral que atinge um arco curto à frente do Arcanista, todos os inimigos adjacentes a um ponto perto sofrem 1d6 dano Arcano, Fogo, Gelo ou Relâmpago. Gaste +1 Mana para cada dado extra. |
+| **16 (5)** | **Espada Espectral (Feitiço) (◈◈ \+ 1 Mana):** Uma Lâmina Espectral que atinge um arco curto à frente do Arcanista, todos os inimigos adjacentes a um ponto perto sofrem 2d6 dano Arcano, Fogo, Gelo ou Relâmpago. Gaste +1 Mana para cada dado extra. |
 | **17** | **Arconte (◈◈ \+ 5 Mana):** Transforme-se em energia pura (Vantagem em todos testes de feitiços e \+5 de dano em todos os feitiços) por 1d4 rodadas. |
 | **18** | **Fluxo Temporal (◈◈ \+ 5 Mana):** Você e aliados perto podem usar um PA **◈** extra por turno (4) durante 1d4 rodadas. |
 | **19 (6)** | **Meteoro (Feitiço)(◈◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de dano Arcano a todos os inimigos adjacentes ao ponto escolhido. |
@@ -618,7 +618,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | **1-2** | \+2 de Inteligência ou \+2 de Sabedoria. |
 | **3-4** | \+1 em testes de conjuração ou \+2 de HP. |
 | **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana):** Mãos saem do chão. Inimigos “Próximo” sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodada. Gaste +2 Mana para cada dado extra. |
-| **6 (2)** | **Nuvem de Gafanhotos (Feitiço)(◈ \+ 2 Mana):** Uma nuvem de pragas que saltam de inimigo em inimigo, causando 1d4 de dano Físico automático em todos os inimigos perto. Gaste +2 Mana para cada dado extra. Dura 1d4 Rodadas. |
+| **6 (2)** | **Nuvem de Gafanhotos (Feitiço)(◈ \+ 2 Mana):** Uma nuvem de pragas que saltam de inimigo em inimigo, causando 1d6 de dano Físico automático em todos os inimigos perto. Gaste +2 Mana para cada dado extra. Dura 1d4 Rodadas. |
 | **7 (3)** | **Bomba de Fogo (Feitiço)(◈ \+ 1 Mana):** Você lança um jarro de explosivos. Escolha um ponto “Próximo”. Todas as criaturas adjacentes àquele ponto sofrem 2d6 de dano de fogo. Gaste +1 Mana para cada dado extra. |
 | **8 (4)** | **Caminhada do Espírito (Feitiço)(◈ \+ 3 Mana):** Fique invisível e etéreo por 1d4 rodadas. Você não sofre dano físico nessa forma. |
 | **9 (5)** | **Invasão de Sapos (Feitiço)(◈ \+ 1 Mana):** Uma horda de sapos explosivos cobre o chão causando 1d6 de dano de veneno. Gaste +1 Mana para cada dado extra. A área é de terreno difícil e dura 1d4 Rodadas. |
@@ -865,11 +865,11 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência, \+2 de Sabedoria ou \+2 de Constituição. |
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de esqueletos. |
-| **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana):** Exploda um cadáver ou esqueleto. Dano 1d6 Necrótico em área (Próximo). Gaste +2 Mana para cada dado extra. |
-| **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana):** Um projétil que atravessa inimigos em linha reta (perto). Dano 1d8 físico. Gaste +2 Mana para cada dado extra. |
+| **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana):** Exploda um cadáver ou esqueleto. Dano 2d6 Necrótico em área (Próximo). Gaste +2 Mana para cada dado extra. |
+| **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana):** Um projétil que atravessa inimigos em linha reta (perto). Dano 2d8 físico. Gaste +2 Mana para cada dado extra. |
 | **7** | **Armadura de Ossos (Passivo):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
 | **8** | **Maldizer (Passivo):** Inimigos "Próximo" sofrem \+2 de dano de todos os ataques. |
-| **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana):** Causa 1d4 de dano necrótico a um alvo e você recupera a mesma quantia em HP. Gaste +2 Mana para cada dado extra. |
+| **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana):** Causa 1d6 de dano necrótico a um alvo e você recupera a mesma quantia em HP. Gaste +2 Mana para cada dado extra. |
 | **10** | **Golem de Argila (◈ \+ 3 Mana por Golem):** Em vez de 3 esqueletos, você invoca 1 Golem (15 HP, CA15, 1d8 dano). |
 | **11** | **Dama de Ferro (⟁ \+ 1 Mana):** Inimigos que baterem nos seus esqueletos sofrem 1d4 de dano Físico de volta. |
 | **12** | **Sifão de Sangue (⟁ \+ 1 Mana):** Quando um inimigo morre "Próximo", você recupera 1d4 de HP. |
