@@ -83,7 +83,7 @@ Cada classe começa com um kit de equipamento definido. Consulte a tabela abaixo
 
 **6. Escolha seu Título de Origem**
 
-Consulte a seção **Sistema de Títulos e Renome** abaixo e escolha um dos 12 Títulos de Origem. Este título representa de onde você veio e concede um talento passivo inicial.
+Consulte o **Cap. 4: Origens** e escolha um dos 12 Títulos de Origem. Este título representa de onde você veio e concede um talento passivo inicial.
 
 ---
 
@@ -125,7 +125,15 @@ O sistema vai do **nível 1 ao 10**. Conforme os heróis enfrentam os males de S
 
 ---
 
-# **Sistema De Títulos e Renome**
+# Cap. 4: Origens
+
+A origem de um personagem é definida por duas escolhas: **de onde ele veio** e **o que ele fazia antes de ser herói**.
+
+Todos os habitantes de Santuário são humanos ou nephalem — descendentes mortais dos anjos e demônios que se uniram no início dos tempos. Não há raças distintas neste sistema: o que diferencia os personagens é sua história, não sua natureza.
+
+---
+
+## Sistema de Títulos e Renome
 
 *"Em Santuário, o poder não é medido apenas pelo fio da espada, mas pelo peso do nome. Quando um demônio ouve seus passos, ele não deve apenas temer a dor; ele deve temer a lenda."* — Tyrael, o Arcanjo da Justiça.
 
@@ -136,7 +144,7 @@ Os heróis não são definidos apenas por suas classes, mas pelos seus feitos. E
 * **Troca de Título:** Você pode trocar seu Título Ativo apenas durante um **Descanso Curto ou Longo**, enquanto conta histórias na fogueira.  
 * **Acúmulo:** Você nunca perde um título conquistado. Eles são medalhas permanentes na sua coleção.
 
-#### A. TÍTULOS DE ORIGEM (Criação de Personagem)
+### A. Títulos de Origem (Criação de Personagem)
 
 *Todo aventureiro vem de algum lugar.* 
 
@@ -158,11 +166,11 @@ Ao criar seu personagem, escolha **um** título baseado na região onde você cr
 | **12** | **O Penitente de Hawezar** · *Os pântanos fétidos e esquecidos, cheios de bruxas e fugitivos* | **Estômago de Ferro** — Você é imune à condição *Exaustão* causada por viagens e tem Vantagem em testes que envolvam penalidades de fome. |
 |
 
-#### B. TÍTULOS DE CONQUISTA (Milestones)
+### B. Títulos de Conquista (Milestones)
 
 Estes títulos não são dados na criação; são tomados à força durante o jogo. Quando você realizar o feito, o Mestre lhe concederá o título.
 
-##### CATEGORIA: BRUTALIDADE (Combate)
+#### Categoria: Brutalidade (Combate)
 
 | TÍTULO | FEITO (Requisito) | EFEITO ATIVO |
 | :---- | :---- | :---- |
@@ -171,9 +179,7 @@ Estes títulos não são dados na criação; são tomados à força durante o jo
 | Matador de Demônios | Dar o golpe final em um Chefe de Ato. | Você começa qualquer combate contra Demônios com **10 Pontos de Vida** extra. |
 | Punho de Ferro | Acertar 3 ataques consecutivos na mesma rodada. | **Precisão:** Você ignora penalidades de Cobertura Leve e Escudos em seus ataques. |
 
-##### 
-
-##### **CATEGORIA: SOBREVIVÊNCIA E TENACIDADE**
+#### Categoria: Sobrevivência e Tenacidade
 
 | TÍTULO | FEITO (Requisito) | EFEITO ATIVO |
 | :---- | :---- | :---- |
@@ -181,9 +187,7 @@ Estes títulos não são dados na criação; são tomados à força durante o jo
 | Muralha Viva | Passar um combate inteiro sendo atacado sem sofrer nenhum ponto de dano na Vida. | Sua **Defesa Base** aumenta permanentemente em **\+1**. |
 | Sangue de Ferro | Resistir a 3 efeitos de Veneno/Doença consecutivos. | Você ganha **Vantagem** em testes de para resistir a efeitos de status. |
 
-##### 
-
-##### **CATEGORIA: FORTUNA E DESTINO**
+#### Categoria: Fortuna e Destino
 
 | TÍTULO | FEITO (Requisito) | EFEITO ATIVO |
 | :---- | :---- | :---- |
@@ -191,24 +195,12 @@ Estes títulos não são dados na criação; são tomados à força durante o jo
 | **Barão de Ouro** | Possuir tesouro de ouro no valor de 10.000 moedas. | Você pode comprar itens Raros (Amarelos) em lojas comuns e ganha 20% de desconto. |
 | **Senhor do Azar** | Rolar dois "1 Naturais" (Falhas) na mesma sessão. | **Karma:** Quando você rolar uma Falha Crítica (1), você ganha você pode transformar aquele resultado em um **20**. |
 
-##### **CATEGORIA: EXPLORAÇÃO E LORE**
+#### Categoria: Exploração e Lore
 
 | TÍTULO | FEITO (Requisito) | EFEITO ATIVO |
 | :---- | :---- | :---- |
 | **Mestre das Chaves** | Abrir 20 baús ou portas trancadas. | Destrancar fechaduras torna-se uma **Ação Livre** para você (uma vez por turno). |
 | **O Horadrim** | Identificar 10 itens mágicos ou lendários. | **Saber Ancestral:** Você identifica itens instantaneamente ao tocar e ganha \+1d20 em testes de Misticismo. |
-
-# Cap. 4: Origens
-
-A origem de um personagem é definida por duas escolhas: **de onde ele veio** e **o que ele fazia antes de ser herói**.
-
-Todos os habitantes de Santuário são humanos ou nephalem — descendentes mortais dos anjos e demônios que se uniram no início dos tempos. Não há raças distintas neste sistema: o que diferencia os personagens é sua história, não sua natureza.
-
----
-
-## Título de Origem
-
-O Título de Origem representa a região onde você cresceu. Ele já está definido no **Sistema de Títulos e Renome** — escolha um dos 12 títulos regionais durante a criação do personagem. Esse título é seu **Título Ativo inicial** e concede um talento passivo imediato.
 
 ---
 
@@ -299,7 +291,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 
 | d20 | Talento | Efeito |
 | :---- | :---- | :---- |
-| 1 | **Pele de Pedra** | +3 de HP máximos permanentes. |
+| 1 | **Pele de Pedra** | RD 1 permanente contra todo dano físico. |
 | 2 | **Segundo Fôlego** | Uma vez por combate, como ◇, recupere 1d8+Nível PV. |
 | 3 | **Resistência a Venenos** | Vantagem em Salvaguardas contra veneno e doenças. |
 | 4 | **Cicatrização Acelerada** | No início de cada Descanso Curto, recupere 1d4 PV automaticamente. |
@@ -309,7 +301,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 8 | **Caminhante das Sombras** | Você enxerga normalmente em escuridão total até uma distância Próximo. |
 | 9 | **Sono Leve** | Você recupera os benefícios de Descanso Longo em 4 horas em vez de 8. |
 | 10 | **Reflexo de Queda** | Sem dano em quedas de até 6 metros. Acima disso, o dano é reduzido à metade. |
-| 11 | **Força da Desesperança** | Enquanto com menos de 25% dos PV máximos, Vantagem em Salvaguardas. |
+| 11 | **Vontade da Desesperança** | Enquanto com menos de 25% dos PV máximos, Vantagem em Salvaguardas. |
 | 12 | **Adaptação** | Após sofrer o mesmo tipo de dano três vezes no mesmo combate, você ganha RD 3 contra ele pelo resto do combate. |
 | 13 | **Vontade de Ferro** | Vantagem em todas as Salvaguardas de SAB e CAR. |
 | 14 | **Recuperação Mística** | Ao matar um inimigo, recupere 1d4 PV. |
