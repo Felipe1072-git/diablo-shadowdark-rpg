@@ -73,13 +73,13 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 |---|---|
 | Capa | ✅ Pronto |
 | Introdução | ✅ Pronto |
-| Cap. 1: Jogando o Jogo | ⚠️ Em revisão (ver Goal 2) |
-| Cap. 2: Criando um Personagem | ⚠️ Em revisão (ver Goal 2) |
+| Cap. 1: Jogando o Jogo | ✅ Pronto |
+| Cap. 2: Criando um Personagem | ✅ Pronto |
 | Cap. 3: Classes (18 classes) | ✅ Pronto |
-| Cap. 4: Origens | ⚠️ Em revisão (ver Goal 2) |
-| Cap. 5: Talentos | ⚠️ Em revisão (ver Goal 2) |
-| Cap. 6: Arsenal | ⚠️ Em revisão (ver Goal 2) |
-| Cap. 7: Magia | ⚠️ Em revisão (ver Goal 2) |
+| Cap. 4: Origens | ✅ Pronto |
+| Cap. 5: Talentos | ✅ Pronto |
+| Cap. 6: Arsenal | ✅ Pronto |
+| Cap. 7: Magia | ✅ Pronto |
 | **Apêndice A: Criaturas** | ✅ Pronto |
 | **Apêndice B: Glossário** | ✅ Pronto |
 
@@ -114,14 +114,16 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 - ~~Formatação do Cap. 7 Magia — headings virou texto, frase cortada, parágrafo dentro de `##`~~ ✅ (commit e276132)
 
 🟡 Média
-- **Duplicações em Talentos Gerais:** "Força da Desesperança" aparece na Tabela 1 (Combate #19) e Tabela 3 (Sobrevivência #11) com efeitos diferentes. "Pele Grossa" (Combate #1) e "Pele de Pedra" (Sobrevivência #1) têm efeito idêntico (+3 HP). Requer decisão do Paulo sobre qual manter/renomear.
-- **Cap. 4 Origens — consolidar:** conteúdo duplicado entre Cap. 2 (Sistema de Títulos) e Cap. 4. Cap. 4 está praticamente vazio — só aponta de volta pro Cap. 2 + tabela de Antecedentes. Considerar fundir ou reestruturar.
+- ~~**Duplicações em Talentos Gerais:** "Força da Desesperança" / "Pele Grossa" vs "Pele de Pedra"~~ ✅ (commit 4c8c412)
+- ~~**Cap. 4 Origens — consolidar:** Sistema de Títulos fundido ao Cap. 4~~ ✅ (commit 4c8c412)
 - ~~Seções vazias: `# Pontos de Ação` e `# Fichas 2.0`~~ ✅ (commit e276132)
 - ~~`## ---` aparece 3× como subheadings no Cap. 1~~ ✅ (commit e276132)
+- ~~**Cap. 6 Arsenal:** propriedades duplicadas, Trespassar conflitante, texto fantasma~~ ✅ (commit c0fd66a)
+- ~~**Cap. 7 Magia:** heading inconsistente, terminologia "DC" com três nomes~~ ✅ (commit 9d2c8bb)
 
 🟢 Baixa
 - ~~Imagem quebrada `![][image1]` na seção de Mana~~ ✅ (commit e276132)
-- **Ordenação dos capítulos no arquivo:** Cap. 1 vem depois de Cap. 2, 4, 5 no arquivo. Impacta leitura direta do `.md` mas não o PDF compilado. Avaliar se vale reorganizar.
+- ~~**Ordenação dos capítulos no arquivo:** Cap. 1 vinha depois de Cap. 2, 4, 5~~ ✅ (commit 1e8e186)
 
 ## Convenções de Commit
 
