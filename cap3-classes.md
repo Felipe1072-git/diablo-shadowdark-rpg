@@ -125,18 +125,18 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Destreza. |
 | **3-4** | \+1 em testes de conjuração ou \+1 na AC. |
-| **5** | **Explosão de Energia (⟁ \+ 1 Mana por dado):** Quando sofrer dano, cause 1d6 de dano Arcano e empurre o inimigo para um local "Próximo". |
+| **5** | **Explosão de Energia (⟁ \+ 1 Mana):** Quando sofrer dano, cause 1d6 de dano Arcano e empurre o inimigo para um local "Próximo". Gaste +1 Mana para cada dado extra. |
 | **6** | **Teleporte (◈ \+ 1 Mana ou ◈ \+ 2 Mana por Aliado):** Como movimento, você pode se teleportar para um lugar "Próximo". Alternativamente, você pode teleportar a você e um aliado perto. |
 | **7** | **Lente Arcana (Passiva):** Suas magias têm o dobro de alcance. |
 | **8** | **Torrente Arcana (Passiva):** Seus projéteis mágicos causam \+1d4 de dano Arcano extra se você não se moveu nessa rodada. |
 | **9 (1)** | **Slow Time (Feitiço) (◈◈ \+ 1 Mana por rodada):** Crie uma zona de lentidão por 1 rodada. Os projéteis param no ar, todas as criaturas têm metade da movimentação e só é possível fazer 1 ação **◈** por rodada. |
-| **10 (2)** | **Mísseis Arcanos (Feitiço) ( ◈ \+ 1 Mana por dardo extra):** Três dardos que acertam um ou mais alvos causando 1d4 de dano Arcano. |
+| **10 (2)** | **Mísseis Arcanos (Feitiço) (◈ \+ 1 Mana):** Três dardos que acertam um ou mais alvos causando 1d4 de dano Arcano. Gaste +1 Mana para cada dardo extra. |
 | **11** | **Escudo de Diamante (⟁ \+ 3 Mana):** Como uma reação, mitigue todo o dano recebido em um ataque. |
 | **12 (3)** | **Desintegrar (Feitiço) (◈ por rodada \+ 1 Mana):** Canalize um raio que causa 1d10 de dano Arcano por turno enquanto mantiver concentração. A cada rodada que a concentração é mantida o dano aumenta em \+1d10. Criaturas mortas por esse feitiço viram pó. |
 | **13** | **Ilusionismo (⟁ \+ 2 Mana):** Quando sofrer dano, cria 2 duplicatas (inimigos têm 50% de chance de errar e acertar uma das duplicatas). As duplicatas duram 1d4 rodadas. |
-| **14 (4)** | **Buraco Negro (Feitiço) (◈◈ \+ 2 Mana por dado):** Puxe todas as miniaturas "Próximo" de um ponto para o centro e cause 2d8 de dano Arcano. |
-| **15** | **Anomalia Instável (⟁ \+ 2 Mana por dado):** Se cair para 0 HP, explode em energia (2d6 dano Arcano adjacente) e fica com 1 HP. |
-| **16 (5)** | **Espada Espectral (Feitiço) (◈◈ \+ 1 Mana por dado):** Uma Lâmina Espectral que atinge um arco curto à frente do Arcanista, todos os inimigos adjacentes a um ponto perto sofrem 1d6 dano Arcano, Fogo, Gelo ou Relâmpago. |
+| **14 (4)** | **Buraco Negro (Feitiço) (◈◈ \+ 2 Mana):** Puxe todas as miniaturas "Próximo" de um ponto para o centro e cause 2d8 de dano Arcano. Gaste +2 Mana para cada dado extra. |
+| **15** | **Anomalia Instável (⟁ \+ 2 Mana):** Se cair para 0 HP, explode em energia (2d6 dano Arcano adjacente) e fica com 1 HP. Gaste +2 Mana para cada dado extra. |
+| **16 (5)** | **Espada Espectral (Feitiço) (◈◈ \+ 1 Mana):** Uma Lâmina Espectral que atinge um arco curto à frente do Arcanista, todos os inimigos adjacentes a um ponto perto sofrem 1d6 dano Arcano, Fogo, Gelo ou Relâmpago. Gaste +1 Mana para cada dado extra. |
 | **17** | **Arconte (◈◈ \+ 5 Mana):** Transforme-se em energia pura (Vantagem em todos testes de feitiços e \+5 de dano em todos os feitiços) por 1d4 rodadas. |
 | **18** | **Fluxo Temporal (◈◈ \+ 5 Mana):** Você e aliados perto podem usar um PA **◈** extra por turno (4) durante 1d4 rodadas. |
 | **19 (6)** | **Meteoro (Feitiço)(◈◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de dano Arcano a todos os inimigos adjacentes ao ponto escolhido. |
@@ -617,21 +617,21 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Sabedoria. |
 | **3-4** | \+1 em testes de conjuração ou \+2 de HP. |
-| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana por dado):** Mãos saem do chão. Inimigos "Próximo" sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodada. |
-| **6 (2)** | **Nuvem de Gafanhotos (Feitiço)(◈ \+ 2 Mana por dado):** Uma nuvem de pragas que saltam de inimigo em inimigo, causando 1d4 de dano Físico automático em todos os inimigos perto. Dura 1d4 Rodadas. |
-| **7 (3)** | **Bomba de Fogo (Feitiço)(◈ \+ 1 Mana por dado):** Você lança um jarro de explosivos. Escolha um ponto “Próximo”. Todas as criaturas adjacentes àquele ponto sofrem 2d6 de dano de fogo. |
+| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana):** Mãos saem do chão. Inimigos “Próximo” sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodada. Gaste +2 Mana para cada dado extra. |
+| **6 (2)** | **Nuvem de Gafanhotos (Feitiço)(◈ \+ 2 Mana):** Uma nuvem de pragas que saltam de inimigo em inimigo, causando 1d4 de dano Físico automático em todos os inimigos perto. Gaste +2 Mana para cada dado extra. Dura 1d4 Rodadas. |
+| **7 (3)** | **Bomba de Fogo (Feitiço)(◈ \+ 1 Mana):** Você lança um jarro de explosivos. Escolha um ponto “Próximo”. Todas as criaturas adjacentes àquele ponto sofrem 2d6 de dano de fogo. Gaste +1 Mana para cada dado extra. |
 | **8 (4)** | **Caminhada do Espírito (Feitiço)(◈ \+ 3 Mana):** Fique invisível e etéreo por 1d4 rodadas. Você não sofre dano físico nessa forma. |
-| **9 (5)** | **Invasão de Sapos (Feitiço)(◈ \+ 1 Mana por dado):** Uma horda de sapos explosivos cobre o chão causando 1d6 de dano de veneno. A área é de terreno difícil e dura 1d4 Rodadas. |
-| **10** | **Sacrifício (◈ \+ 1 Mana por dado):** Você explode seus Cães Zumbis. Cada cão causa 1d8 de dano necrótico a criaturas adjacentes. |
+| **9 (5)** | **Invasão de Sapos (Feitiço)(◈ \+ 1 Mana):** Uma horda de sapos explosivos cobre o chão causando 1d6 de dano de veneno. Gaste +1 Mana para cada dado extra. A área é de terreno difícil e dura 1d4 Rodadas. |
+| **10** | **Sacrifício (◈ \+ 1 Mana por Cão):** Você explode seus Cães Zumbis. Cada cão causa 1d8 de dano necrótico a criaturas adjacentes. |
 | **11** | **Gargântua (◈ \+ 5 Mana por Gargântua):** Invoque um zumbi gigante (20 HP, 2d8 de dano Físico) em de um dos cães. |
 | **12 (6)** | **Aterrorizar (Feitiço) (◈ \+ 1 Mana por inimigo):** Você usa sua máscara para gritar. Inimigos "Próximo" fogem por 1d4 rodada. |
-| **13 (7)** | **Zumbis Suicidas (Feitiço)(◈ \+ 1 Mana por dado):** Uma fila de zumbis corre e explode no primeiro alvo. Dano 2d6 Necrótico. |
-| **14 (8)** | **Piranhas (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria uma poça de água que causa 2d8 de dano de veneno durante 1d4 rodadas. Quem estiver na área sofre um dano extra de 1d4 de todas as fontes (ataques, feitiços, etc). |
+| **13 (7)** | **Zumbis Suicidas (Feitiço)(◈ \+ 1 Mana):** Uma fila de zumbis corre e explode no primeiro alvo. Dano 2d6 Necrótico. Gaste +1 Mana para cada dado extra. |
+| **14 (8)** | **Piranhas (Feitiço)(◈◈ \+ 2 Mana):** Cria uma poça de água que causa 2d8 de dano de veneno durante 1d4 rodadas. Gaste +2 Mana para cada dado extra. Quem estiver na área sofre um dano extra de 1d4 de todas as fontes (ataques, feitiços, etc). |
 | **15** | **Exército de Fetiche (◈◈◈ \+ 1 Mana por pigmeu):** Invoque um pequeno pigmeu com adagas (1d4 HP, CA 13, 1d4 de dano Físico cada). Dura um combate. |
 | **16 (9)** | **Vudu Maluco (Feitiço)(◈◈ \+ 1 Mana por Rodada):** Uma estátua que dá **Vantagem** em ataques para todos os aliados "Próximo" dela. Dura 1 Rodada. |
-| **17 (10)** | **Parede de Zumbis (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria uma barreira física de corpos na mesa por 1d4 rodadas. Inimigos perto da parede sofrem 1d8 de dano físico. **Extra:** Pode gastar \+1 Mana para mudar o tipo de dano para Fogo, Gelo ou Veneno. |
+| **17 (10)** | **Parede de Zumbis (Feitiço)(◈◈ \+ 2 Mana):** Cria uma barreira física de corpos na mesa por 1d4 rodadas. Inimigos perto da parede sofrem 1d8 de dano físico. Gaste +2 Mana para cada dado extra. **Extra:** Pode gastar \+1 Mana para mudar o tipo de dano para Fogo, Gelo ou Veneno. |
 | **18 (11)** | **Colheita de Almas (Feitiço)(◈ \+ 2 Mana por Inimigo):** Drene a inteligência de até 5 inimigos próximos. Ganhe \+2 para conjurar, por inimigo, durante 3 rodadas. |
-| **19 (12)** | **Assombração (Feitiço)(◈◈◈ \+ 5 Mana por dado):** Um espírito persegue um alvo, causando 2d8 de dano necrótico todo turno até o alvo morrer. Se o alvo morrer, o espírito vai para outro inimigo. O espírito dura 1d4+1 rodadas. |
+| **19 (12)** | **Assombração (Feitiço)(◈◈◈ \+ 5 Mana):** Um espírito persegue um alvo, causando 2d8 de dano necrótico todo turno até o alvo morrer. Gaste +5 Mana para cada dado extra. Se o alvo morrer, o espírito vai para outro inimigo. O espírito dura 1d4+1 rodadas. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -744,16 +744,16 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **6** | **Teleporte (◈ \+ 1 Mana):** Pisque para um lugar "Próximo" que você possa ver. |
 | **7 (1)** | **Armadura de Gelo (Feitiço)(◈ \+ 1 Mana por rodada):** Você conjura uma armadura de gelo por 1 rodada, inimigos que te acertarem corpo a corpo sofrem 1d8 de dano de gelo e ficam congelados por 1d4 rodadas. |
 | **8** | **Saque de Mana (Passivo):** Se matar um inimigo com magia, ganha \+2 no próximo teste de conjuração. |
-| **9 (2)** | **Nova de Gelo (Feitiço)(◈ \+ 2 Mana por dado):** Uma explosão circular que causa 1d10 de dano de gelo a todos "Próximo" por 1d4 rodadas. Criaturas que ficarem com HP 0 são congeladas indefinidamente (O mago decide se estão mortas ou não). |
-| **10 (3)** | **Bola de Fogo (Feitiço)(◈ \+ 2 Mana por dado):** Um explosão que causa 1d8 de fogo em uma área "Próximo". Deixa os alvos queimando (1d4 dano/turno). Queimando dura 1d4 rodadas ou até o alvo usar uma ação **◈** para apagar. |
+| **9 (2)** | **Nova de Gelo (Feitiço)(◈ \+ 2 Mana):** Uma explosão circular que causa 1d10 de dano de gelo a todos "Próximo" por 1d4 rodadas. Gaste +2 Mana para cada dado extra. Criaturas que ficarem com HP 0 são congeladas indefinidamente (O mago decide se estão mortas ou não). |
+| **10 (3)** | **Bola de Fogo (Feitiço)(◈ \+ 2 Mana):** Um explosão que causa 1d8 de fogo em uma área "Próximo". Gaste +2 Mana para cada dado extra. Deixa os alvos queimando (1d4 dano/turno). Queimando dura 1d4 rodadas ou até o alvo usar uma ação **◈** para apagar. |
 | **11 (4)** | **Seta Elétrica (Feitiço)(◈ \+ 2 Mana por seta extra):** Dispare 3 faíscas que causam 1d4+1 de dano Relâmpago cada em alvos diferentes. |
-| **12 (5)** | **Encantar Arma (Feitiço)(◈ \+ 2 Mana por dado):** Uma arma sua ou de um aliado causa \+1d4 de dano elemental (Fogo, Gelo ou Relâmpago) por 1d4 rodadas. |
-| **13 (6)** | **Nevasca (Feitiço)(◈ \+ 2 Mana por dado):** Cria uma zona "Próximo" onde inimigos sofrem 1d6 gelo e movem metade por 1d4 rodadas. |
-| **14 (7)** | **Cadeia de Raios (Feitiço)(◈ \+ 2 Mana por dado):** Um raio que pula em até 3 inimigos perto, causando 1d10 de dano Relâmpago em cada. |
-| **15 (8)** | **Hidra (Feitiço)(◈ \+ 2 Mana por dado):** Invoca 1d4 cabeças de fogo que atiram bolas de fogo todo turno em inimigos perto. Cada cabeça causa 1d6 de fogo e duram 1d4 rodadas. Só é possível ter um conjunto de hidras ativa por vez. |
+| **12 (5)** | **Encantar Arma (Feitiço)(◈ \+ 2 Mana):** Uma arma sua ou de um aliado causa \+1d4 de dano elemental (Fogo, Gelo ou Relâmpago) por 1d4 rodadas. Gaste +2 Mana para cada dado extra. |
+| **13 (6)** | **Nevasca (Feitiço)(◈ \+ 2 Mana):** Cria uma zona "Próximo" onde inimigos sofrem 1d6 gelo e movem metade por 1d4 rodadas. Gaste +2 Mana para cada dado extra. |
+| **14 (7)** | **Cadeia de Raios (Feitiço)(◈ \+ 2 Mana):** Um raio que pula em até 3 inimigos perto, causando 1d10 de dano Relâmpago em cada. Gaste +2 Mana para cada dado extra. |
+| **15 (8)** | **Hidra (Feitiço)(◈ \+ 2 Mana):** Invoca 1d4 cabeças de fogo que atiram bolas de fogo todo turno em inimigos perto. Cada cabeça causa 1d6 de fogo e duram 1d4 rodadas. Gaste +2 Mana para cada dado extra. Só é possível ter um conjunto de hidras ativa por vez. |
 | **16** | **Escudo de Energia (Passivo)(⟁ \+ 1 Mana por 5 Dano):** Se você sofrer dano, você pode criar uma barreira mágica para reduzir o dano em 5\. |
 | **17 (9)** | **Meteoro (Feitiço)(◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de fogo a todos os inimigos adjacentes ao ponto escolhido. |
-| **18 (10)** | **Orbe Congelada (Feitiço)(◈ \+ 3 Mana por dados):** Lance uma esfera de área pequena que viaja em linha reta até uma distância “perto”, disparando 1d6 gelo em todas as criaturas adjacentes no caminho. A esfera explode ao final do trajeto causando 3d6 de gelo. |
+| **18 (10)** | **Orbe Congelada (Feitiço)(◈ \+ 3 Mana):** Lance uma esfera de área pequena que viaja em linha reta até uma distância “perto”, disparando 1d6 gelo em todas as criaturas adjacentes no caminho. A esfera explode ao final do trajeto causando 3d6 de gelo. Gaste +3 Mana para cada dado extra na explosão. |
 | **19** | **Bola de Raios (◈◈◈ \+ 6 Mana):** Uma esfera de raios gigante percorre o campo em linha reta até "Distante", causando **2d8 de Relâmpago** em cada inimigo que tocar. Permanece ativa por 1d4 rodadas — no início de cada turno, inimigos adjacentes a ela sofrem **1d6 de Relâmpago** automático. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -1129,14 +1129,14 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **7 (2)** | **Sumonar Corrompido (Feitiço)(◈ \+ 3 Mana):** Você pode conjurar um demônio reptiliano para lutar ao seu lado. Ele tem CA 15; causa **2d6** de dano de fogo extra, RD 5 de Fogo. |
 | **8 (3)** | **Sumonar Profanador (Feitiço)(◈ \+ 3 Mana por inimigo):** Conjurar um demônio de carne flutuante que vincula o HP de inimigos para sofrer dano compartilhado. O compartilhamento dura enquanto o Profanador estiver vivo. |
 | **9 (4)** | **Ferver Sangue (Feitiço)(◈ \+ 1 Mana por 5 HP):** Você consome 5 HP de um dos seus demônios para causar 1d8 de dano de fogo a inimigos adjacentes. |
-| **10 (5)** | **Engordar (Feitiço)(◈ \+ 1 Mana por dado):** Seu Demônio consome um cadáver conjurado e cura 1d4 HP. |
-| **11 (6)** | **Consumir (Feitiço)(◈ \+ 1 Mana por dado):** Sacrifique um de seus demônios para se curar. Você recupera HP igual ao total quando conjurar essa habilidade. |
+| **10 (5)** | **Engordar (Feitiço)(◈ \+ 1 Mana):** Seu Demônio consome um cadáver conjurado e cura 1d4 HP. |
+| **11 (6)** | **Consumir (Feitiço)(◈ \+ 1 Mana):** Sacrifique um de seus demônios para se curar. Você recupera HP igual ao total quando conjurar essa habilidade. |
 | **12 (7)** | **Aprisionar Demônio (Feitiço)(◈ \+ 1 Mana por 5 HP):** Force um demônio com menos de 5 HP a fazer sua vontade. Use os atributos fornecidos pelo Mestre. Não é possível aprisionar Bosses. |
-| **13 (8)** | **Anel de Fogo (Feitiço)(◈ \+ 2 Mana por dado):** Dispara um anel de fogo de si, causando 2d6 de fogo e empurrando inimigos. |
-| **14 (9)** | **Apocalipse (Feitiço)(◈◈ \+ 2 Mana por dado):** Cria um pentagrama “perto” que engolfa inimigos em sua área com 2d6 de fogo e remove resistência a fogo caso o inimigo tenha. |
+| **13 (8)** | **Anel de Fogo (Feitiço)(◈ \+ 2 Mana):** Dispara um anel de fogo de si, causando 2d6 de fogo e empurrando inimigos. Gaste +2 Mana para cada dado extra. |
+| **14 (9)** | **Apocalipse (Feitiço)(◈◈ \+ 2 Mana):** Cria um pentagrama “perto” que engolfa inimigos em sua área com 2d6 de fogo e remove resistência a fogo caso o inimigo tenha. Gaste +2 Mana para cada dado extra. |
 | **15** | **Maestria em Levitação (Passiva):** Você dobra o bônus de inteligência ou carisma nos ataques e dano de sua arma flutuante. |
 | **16** | **Proteção Psíquica (⟁ \+ 2 Mana por 5 HP):** Crie um escudo mental que reduz 5 HP quando sofre dano. |
-| **17 (10)** | **Maldição de Expurgo (Feitiço)(◈+ 2 Mana por dano):** Amaldiçoe sua arma para que no próximo ataque que acertar, ela cause 3d6 de dano de fogo a inimigos adjacentes ao alvo.  |
+| **17 (10)** | **Maldição de Expurgo (Feitiço)(◈ \+ 2 Mana):** Amaldiçoe sua arma para que no próximo ataque que acertar, ela cause 3d6 de dano de fogo a inimigos adjacentes ao alvo. Gaste +2 Mana para cada dado extra. |
 | **18** | **Lâminas Espelhadas (◈ \+ 3 Mana por duplicata):** Com apenas uma ação, você ataca com duplicatas da sua arma flutuante. |
 | **19** | **Forma Demoníaca (◈◈◈ \+ 8 Mana):** Você se transforma em um demônio por 1d4 rodadas. Ganha \+5 de Força e 20 HP temporários. Com uma ação **◈** faz 2 ataques de garra (2d6 Fogo \+ atributo) ou 1 ataque laser (3d6 Fogo, alcance Longo). |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
