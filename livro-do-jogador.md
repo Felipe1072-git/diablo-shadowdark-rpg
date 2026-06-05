@@ -423,6 +423,8 @@ Toda arma possui uma ou mais propriedades que definem como ela se comporta em co
 | **Imparável** | Ignora o bônus de CA concedido por escudos do alvo. |
 | **Inapreensível** | Não pode ser alvo de Desarmado — esta arma está sempre na sua posse. |
 
+> **Tipo de Dano:** Todas as armas causam dano **Físico** por padrão, a menos que uma propriedade especial, encantamento ou habilidade de classe indique outro tipo.
+
 ---
 
 ### **Armas de Uma Mão (Corpo a Corpo)**
@@ -721,7 +723,7 @@ As forças primordiais que moldam o mundo — e o corpo que as absorve.
 
 1. 🔥 **Fogo:** Chamas, lava, explosões.  
 2. ❄️ **Gelo:** Congelamento, nevascas, fragmentos de gelo.  
-3. ⚡ **Elétrico:** Relâmpagos, choques estáticos.  
+3. ⚡ **Relâmpago:** Relâmpagos, choques estáticos.  
 4. ☣️ **Veneno:** Toxinas, gás, bile de demônios, mordidas de aranha.
 
 ### ***C. Resistências Sobrenaturais***
@@ -743,7 +745,7 @@ Como preencher os números na sua Matriz? Em Santuário, a resistência vem de t
 
 Cada atributo protege contra um tipo de ameaça. **Resistência Física é exceção: vem só da armadura e de itens.**
 
-* **Inteligência:** Modificador de INT às Resistências de **Fogo, Gelo e Elétrico**. *Quem entende a magia sabe desviar dela.*
+* **Inteligência:** Modificador de INT às Resistências de **Fogo, Gelo e Relâmpago**. *Quem entende a magia sabe desviar dela.*
 * **Constituição:** Modificador de CON à Resistência de **Veneno**. *O corpo forjado metaboliza a toxina.*
 * **Sabedoria:** Modificador de SAB às Resistências de **Necrótico e Psíquico**. *Instinto aguçado reconhece a sombra antes que ela te consuma.*
 * **Carisma:** Modificador de CAR às Resistências de **Radiante e Arcano**. *Convicção inabalável repele a luz divina e a energia mágica bruta.*
@@ -792,7 +794,7 @@ Esta tabela é o Painel de Personagem para rastrear a Redução de Dano (RD) par
 | **A. Física** | Físico (Corte, Perfuração, Impacto) | *(armadura + itens)* | \+ | \= |
 | **B. Elementais** | 🔥 Fogo | Inteligência | \+ | \= |
 |  | ❄️ Gelo | Inteligência | \+ | \= |
-|  | ⚡ Elétrico | Inteligência | \+ | \= |
+|  | ⚡ Relâmpago | Inteligência | \+ | \= |
 |  | ☣️ Veneno | Constituição | \+ | \= |
 | **C. Sobrenatural** | 💀 Necrótico | Sabedoria | \+ | \= |
 |  | 🧠 Psíquico | Sabedoria | \+ | \= |
