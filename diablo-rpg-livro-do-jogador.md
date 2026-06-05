@@ -402,14 +402,14 @@ Toda arma possui uma ou mais propriedades que definem como ela se comporta em co
 
 | Propriedade | Efeito |
 | :---- | :---- |
-| **Leve** | Pode ser usada na mão secundária sem penalidade. Ideal para quem luta com duas armas. |
+| **Leve** | Pode ser usada na mão secundária sem penalidade. Ao empunhar duas armas Leves, você pode atacar com ambas na mesma ação de Ataque (◈). O 2º ataque (mão inábil) não soma o modificador de atributo ao dano — apenas o valor do dado. |
 | **Finesse** | Você pode usar FOR ou DES no ataque e dano — escolha no momento do ataque. |
 | **Versátil (Xd)** | Pode ser empunhada com uma ou duas mãos. Com duas mãos, use o dado entre parênteses. |
 | **Duas Mãos** | Requer as duas mãos para usar. Não pode ser combinada com escudo. |
 | **Haste** | Alcance estendido — pode atingir alvos a até Próximo sem se mover. Ataques de oportunidade atingem quem entra ou sai do alcance. |
 | **Arremesso (Zona)** | Pode ser arremessada até a zona indicada (Próximo ou Distante). Usa FOR no ataque. |
 | **Foco Mágico** | Conta como catalisador para conjuração. Concede \+1 em testes de conjuração. |
-| **Trespassar** | Em um Acerto Crítico, o ataque continua e atinge um segundo alvo adjacente ao primeiro. |
+| **Trespassar** | Gaste ◈◈ para realizar um golpe devastador. Faça uma única rolagem de ataque contra todos os inimigos adjacentes a você. Cada inimigo atingido recebe o dano completo da arma. |
 | **Brutal** | Role novamente qualquer dado de dano que resultar em 1. Aceite o novo resultado. |
 | **Pesada** | Criaturas Pequenas têm Desvantagem em ataques com esta arma. |
 | **Penetrante** | Ignora 1 ponto de CA proveniente de armadura (não de escudos ou atributos). |
@@ -476,6 +476,7 @@ Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a C
 | **Luvas** | \+0 | \+1 | \+1 |
 | **Botas** | \+0 | \+0 | \+1 |
 | **Total Máximo** | **\+4 (CA 14\)** | **\+6 (CA 16\)** | **\+8 (CA 18\)** |
+| **Propriedades** | \+Modificador de DES à CA | — | Ruído (Desvantagem em Furtividade), Movimento Lento (não pode Correr), Requer FOR 13 |
 
 ### **Escudos e Defesas Especiais**
 
@@ -495,30 +496,6 @@ Cada peça soma o valor indicado à CA base 10\. Se o personagem estiver nu, a C
 | **Orbe de Essência** | Arcano | Um globo de vidro com energia elemental. Uma vez por combate, você pode **rolar novamente** um teste de conjuração falho. | 30 po |
 | **Escudo de Zakarum** | Divino | Um escudo com o glifo da luz. Aumenta o alcance de todas as suas **Auras** para "Próximo (Near)". | 25 po |
 | **Pena de Rapina** | Renegada | Presa ao arco ou besta. Ignora a penalidade de cobertura leve dos inimigos (esconder atrás de barris, etc). | 15 po |
-
-### **Propriedades de Armas**
-
-* **Finesse (Agilidade):** Você pode usar seu modificador de **Destreza** em vez de Força para rolar o ataque e o dano. Ideal para Assassinas e Renegadas.  
-* **Arremesso (Próximo):** A arma pode ser lançada contra um alvo que esteja no alcance **Próximo** (até 9 metros/30 pés). Após o ataque, a arma fica no chão perto do alvo e precisa ser recuperada.  
-* **Duas Mãos:** Ocupa as duas mãos do personagem. Você não pode usar um escudo ou outra arma enquanto empunha esta.  
-* **Versátil:** A arma pode ser usada com uma ou duas mãos. O dano entre parênteses (1d10) é aplicado apenas quando você a empunha com as duas mãos.  
-* **Haste:** Permite atacar inimigos que não estão encostados na sua miniatura, mas que estão no alcance **Próximo**. Isso permite, por exemplo, que um Cavaleiro de Sangue ataque por cima do ombro do Bárbaro.  
-* **Distante:** A arma pode atingir alvos que estejam na zona **Distante** (até onde a vista alcança ou o limite da sala).  
-* **Carga:** Devido ao tempo de recarga, você só pode realizar um ataque por turno com esta arma, mesmo que tenha talentos que permitam múltiplos ataques.  
-* **Ignora Escudo (Mangual):** Inimigos que usam escudo não recebem o bônus de \+1 ou \+2 na AC contra ataques feitos com esta arma. O mangual contorna a defesa.  
-* **Trespassar:** Quando você realiza um ataque, escolha até 3 alvos adjacentes (que estejam encostados na base da sua miniatura). Faça uma única rolagem de ataque. Compare o resultado com a AC de cada um dos 3 alvos individualmente. Todos os alvos que você atingir sofrem o dano total da arma.  
-* **Pesada:** Armas pesadas necessitam de ao menos 13 de força para serem usadas.  
-* **Leve (Ataque Extra):** Se você estiver empunhando duas armas com a propriedade **Leve** (como duas Adagas ou uma Adaga e uma Espada Curta), ao realizar a ação de Ataque, você pode atacar com ambas.  
-* **Regra de Dano:** No segundo ataque (da mão inábil), você **não soma** seu bônus de Atributo (Força ou Destreza) ao resultado do dano. Apenas o valor do dado é aplicado.
-
-### **Propriedades de Armaduras**
-
-* **Dex (Modificador de Destreza):** Você soma seu bônus de Destreza à AC base da armadura. Se sua Destreza for negativa, você subtrai.  
-* **Pesada:** Armaduras completas são exaustivas. Elas necessitam de ao menos 13 de força para serem usadas.  
-* **Escudo (+1 AC):** Ocupa uma de suas mãos. Se você sofrer um ataque crítico ou um dano que vá te matar, você pode declarar que o escudo foi **estilhaçado**. O escudo é destruído, mas você ignora todo o dano daquele golpe.  
-* **Ruído:** Você tem **Desvantagem** em testes de Furtividade e em qualquer teste para se mover silenciosamente.  
-* **Movimento Lento:** Devido ao peso extremo, o personagem não pode realizar a ação de "Correr".  
-* **Quebrável:** Se você sofrer um ataque que reduziria seu HP a 0 ou um Crítico devastador, você pode sacrificar o escudo. Ele se estilhaça completamente, mas você não sofre dano algum daquele ataque específico.
 
 # Tempo
 
@@ -746,10 +723,6 @@ Conforme os jogadores avançam na história ou entram em áreas amaldiçoadas (c
 * **Nível 11+ (Inferno):** \-10 em todas as Resistências na Matriz.
 
 *Nota:* Isso permite que resistências fiquem negativas. Se você tem \-5 de Fogo e toma 10 de dano, você sofre 15\. Isso força os jogadores a buscarem itens melhores constantemente.
-
-Excelente ideia. Transformar as regras do **CAPÍTULO 5: A MATRIZ DE RESISTÊNCIA** em tabelas de referência rápida é crucial para a usabilidade em jogo.
-
-Aqui estão as tabelas que sumarizam a Matriz de Resistência para o Mestre e o Jogador:
 
 ---
 
