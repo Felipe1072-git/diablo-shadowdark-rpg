@@ -32,6 +32,13 @@ Cada classe neste sistema foi desenhada para representar um arquétipo clássico
 * **Atributo Principal:** O pilar mecânico da classe. Define o sucesso em testes de habilidade e o poder das suas técnicas.  
 * **Habilidades de Classe:** As características únicas que definem o estilo de jogo, sejam elas técnicas de combate, magias ou talentos passivos.
 
+### Regras Universais de Classe
+
+**DC de Resistência:** Sempre que uma habilidade forçar um inimigo a fazer um teste de resistência, a dificuldade é **DC = 10 + Modificador do Atributo Primário** da classe. Essa fórmula se aplica a todas as classes salvo indicação contrária explícita no texto da habilidade.
+
+**Escalonamento de Dano:** Habilidades com dano escalável seguem o padrão: **dado base + 1 dado extra por 2 Mana adicional**. O jogador decide quantos dados quer rolar antes de gastar a Mana. Exemplo: uma habilidade com base 1d6 pode gastar +2 Mana para 2d6, +4 Mana para 3d6, e assim por diante.
+
+**Talento Duplicado:** Se ao subir de nível você rolar um talento que já possui, pode escolher livremente qualquer outro talento da lista da sua classe que ainda não possua (equivalente ao resultado 20).
 
 ---
 
@@ -243,12 +250,12 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | **7** | **Turbilhão (◈ \+ 3 Mana):** Ataque todos os inimigos ao seu alcance com uma única rolagem. |
 | **8** | **Grito de Guerra (◇  \+ 2 Mana):** O Bárbaro grita e recebe (ou concede a aliados próximos) \+1d6 de PV Temporário. |
 | **9** | **Resistência Natural (Passiva):** Você ganha RD 2 contra venenos e magia. |
-| **10** | **Berserk (◈  \+ 2  Mana por dado):** Faça um ataque que adiciona \+1d10 de dano Físico, mas também impede o bárbaro de se beneficiar de Recuperação de Vida e Recuperação de Mana até o início do próximo turno. |
+| **10** | **Berserk (◈ \+ 2 Mana):** Faça um ataque que adiciona \+1d10 de dano Físico. Gaste +2 Mana para cada dado extra. Impede o Bárbaro de se beneficiar de Recuperação de Vida e Recuperação de Mana até o início do próximo turno. |
 | **11** | **Mestre das Armas Grandes (Passiva):** Ao usar armas de duas mãos, você rola o dano duas vezes e escolhe o maior. |
-| **12** | **Sede de Sangue (◇ \+ 1 Mana por dado):** Toda vez que o Bárbaro reduz um inimigo a 0 PV enquanto está em Fúria, ele recupera 1d6 de PV temporário. |
+| **12** | **Sede de Sangue (◇ \+ 1 Mana):** Toda vez que o Bárbaro reduz um inimigo a 0 PV enquanto está em Fúria, ele recupera 1d6 de PV temporário. |
 | **13** | **Frenesi (◇ \+ 1 Mana por Acerto):** Sempre que acertar um ataque, ganha \+1 no próximo ataque (acumulativo até o fim do combate). |
 | **14** | **Implacável (Passiva):** Enquanto estiver com menos da metade do seu HP máximo, você ganha RD 2 contra todo e qualquer tipo de dano sofrido. |
-| **15** | **Arremesso de Arma (Passiva) (◇ \+ 1 Mana por dado):** Você pode arremessar qualquer arma corpo a corpo como se fosse uma arma de arremesso (alcance perto). Ao usar armas de arremesso, pode gastar mana para causar 1d4 de dano Físico extra. |
+| **15** | **Arremesso de Arma (Passiva) (◇ \+ 1 Mana):** Você pode arremessar qualquer arma corpo a corpo como se fosse uma arma de arremesso (alcance perto). Ao usar armas de arremesso, cause \+1d4 de dano Físico extra. |
 | **16** | **Ordens de Batalha (◈+ 2 Mana):** Você grita ordens e até 2 aliados em alcance de audição podem imediatamente se mover até o deslocamento máximo deles como uma reação, sem provocar ataques de oportunidade. |
 | **17** | **Desprezo à Dor (⟁ \+ 2 Mana):** Como uma reação, se cair para 0 HP, você ignora o dano e continua de pé com 1 HP. |
 | **18** | **Dupla Empunhadura (◈ \+ 1 Mana):** Se usar duas armas, você pode gastar 1 Ação e 1 Mana para realizar um ataque extra com a arma secundária. |
@@ -363,16 +370,16 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 | **5** | **Gume Sombrio (Feitiço) (◈ \+ 1 Mana por Adaga):** Você pode lançar adagas de sangue em inimigos perto, causa 1d6 necrótico. |
 | **6** | **Nuvem de Mefítica (Feitiço) (◈ \+ 5 Mana):** Libera uma nuvem tóxica ao seu redor que causa **Desvantagem** aos inimigos "Próximo" de você por 1d4 rodadas. |
 | **7** | **Lança Empaladora (◈ \+ 3 Mana):** Se acertar um ataque, você pode prender o inimigo no chão. Inimigo faz um Teste de Força **DC 10+Atributo** para escapar. |
-| **8** | **Sanguinar (◈◈ \+ 3 Mana por dado):** Avance em linha reta para "Próximo" e cause 1d6 necrótico automático a todos no caminho. Você não gera ataques de oportunidade. |
+| **8** | **Sanguinar (◈◈ \+ 2 Mana):** Avance em linha reta para "Próximo" e cause 1d6 necrótico automático a todos no caminho. Gaste +2 Mana para cada dado extra. Você não gera ataques de oportunidade. |
 | **9** | **Sentidos Sobrenaturais (Passiva):** Você pode enxergar perfeitamente no escuro total (mesmo sem tochas) em alcance Curto. |
 | **10** | **Drenar Sangue (Feitiço) (◈ \+ 2 Mana) :** Drene 1d4 de HP de um inimigo perto e cure-se. |
-| **11** | **Esmagar o Fraco (◇ \+ 1 Mana por dado):** Você causa \+1d4 necrótico contra inimigos que não estejam com o HP cheio. |
+| **11** | **Esmagar o Fraco (◇ \+ 1 Mana):** Você causa \+1d4 necrótico contra inimigos que não estejam com o HP cheio. |
 | **12** | **Sudário da Noite (Feitiço) (◈ \+ 5 Mana):** Envolva a si mesmo e a aliados “perto” em trevas até o início do seu próximo turno. **Aparições sombrias** de cada criatura afetada surgem em seus turnos para **desferir um Ataque Extra** uma vez por rodada como ação livre **◇**.  |
 | **13** | **Golpe Crítico (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **14** | **Transfusão (◈):** Você pode tocar um aliado e transferir seu próprio HP para ele (ponto por ponto) ou sugar o sangue de um aliado e transferir HP para si. |
-| **15** | **Espinhos de Sangue (⟁ \+ 1 Mana por dado):** Quando sofrer dano, espirre sangue de volta e cause 1d4 necrótico a uma criatura adjacente. |
-| **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 3 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Próximo” e os move para qualquer distância “Próximo”. |
-| **17** | **Vigor Maléfico (◈ \+ 3 Mana por dado):** Ganhe 1d4 HP Temporário até o próximo descanso longo. Você não precisa comer ou beber por uma semana após beber o sangue de um inimigo morto. |
+| **15** | **Espinhos de Sangue (⟁ \+ 1 Mana):** Quando sofrer dano, espirre sangue de volta e cause 1d4 necrótico a uma criatura adjacente. |
+| **16** | **Tentáculos de Sangue (Feitiço) (◈ \+ 3 Mana por inimigo):** Dispara tentáculos sangrentos em inimigos “Próximo” e os move para qualquer distância “Próximo” (Teste de FOR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
+| **17** | **Vigor Maléfico (◈ \+ 2 Mana):** Ganhe 1d4 HP Temporário até o próximo descanso longo. Gaste +2 Mana para cada dado extra. Você não precisa comer ou beber por uma semana após beber o sangue de um inimigo morto. |
 | **18** | **Onda de Sangue (Feitiço) (◈◈ \+ 2 Mana por dado):** Uma explosão circular. Todos os inimigos adjacentes sofrem 2d6 necrótico e são empurrados para uma distância “Próximo”. |
 | **19** | **Abominação (Transformação) (◈◈◈ \+ 10 Mana):** Torne-se um monstro por 3 rodadas. Com uma ação de ataque **◈** Você **ataca 2x com garras (2d10 necrótico \+ atributo)**. Com ação livre **◇,** **ganha \+5 HP temporários no início de cada rodada**. Você pode se transformar sem o custo de mana, mas deve fazer um teste de **SAB DC 20 \- Level Atual** ou sucumbir à maldição e se tornar uma abominação descontrolada para sempre. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
@@ -424,14 +431,14 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **5** | **Pele de Ferro (Feitiço)(◈ \+ 2 Mana):** Reduza todo o dano recebido à metade por 1 rodada. |
 | **6** | **Escudo Reluzente (Feitiço) (◈◈ \+ 3 Mana):** Inimigos "Próximo" ficam cegos por 1 rodada. (Desvantagem nos ataques enquanto estiverem na área). |
 | **7** | **Punição (◇ \+ 2 Mana):** Após bloquear um ataque, seu próximo golpe tem Vantagem e causa \+1d6 de dano Físico. |
-| **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana por dado):** Invoque um martelo de luz que gira ao seu redor, causando 1d4 de dano Radiante a quem se aproximar (dura 1d4 rodadas). |
+| **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana):** Invoque um martelo de luz que gira ao seu redor, causando 1d4 de dano Radiante a quem se aproximar (dura 1d4 rodadas). Gaste +2 Mana para cada dado extra. |
 | **9** | **Investida de Corcel (◈ \+ 3 Mana):** Você pode se mover o triplo da distância e ignorar ataques de oportunidade. |
 | **10** | **Esmagar com Escudo (◈ \+ 1 Mana):** Faça ataque de escudo, se acertar, o alvo é derrubado (Prone) automaticamente. |
 | **11** | **Julgamento (Feitiço) (◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Distante" no lugar com correntes sagradas por 1d4 rodada (DC 10 \+ Sabedoria para soltar). |
 | **12** | **Leis da Esperança (◈ \+ 2 Mana por Rodada):** Você e aliados "Próximo" recuperam 1d4 de HP no início de cada rodada. |
 | **13** | **Leis da Justiça (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
-| **14** | **Espada Cadente (◈◈ \+ 2 Mana por dado):** Salte para "Distante" e caia causando 2d8 de dano Radiante em área (Próximo do impacto). |
-| **15** | **Provocar (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Force inimigos "Próximo" a atacarem apenas você no próximo turno. |
+| **14** | **Espada Cadente (◈◈ \+ 2 Mana):** Salte para "Distante" e caia causando 2d8 de dano Radiante em área (Próximo do impacto). Gaste +2 Mana para cada dado extra. |
+| **15** | **Provocar (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Force inimigos "Próximo" a atacarem apenas você no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
 | **16** | **Fúria Sagrada (◈ \+ 3 Mana por Rodada):** Seus ataques agora causam \+2d6 de dano Radiante por 1 rodada. |
 | **17** | **Consagração (Feitiço)(◈ \+ 4 Mana):** Santifique o chão "Próximo". Aliados lá dentro têm Vantagem em testes e ataques. |
 | **18** | **Fervor (Passiva):** Você pode usar uma arma de duas mãos em uma mão se estiver usando um escudo na outra. |
@@ -679,7 +686,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **11** | **Mestre de Armadura (Passiva):** Enquanto usar armadura pesada, você tem RD 2 para dano físico e o peso das armaduras não reduz seu movimento. |
 | **12** | **Ataque Brutal (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **13** | **Segunda Chance (◇ \+ 2 Mana):** Role novamente um teste de ataque que errou. |
-| **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Próximo" devem te atacar no próximo turno. |
+| **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Próximo" devem te atacar no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
 | **15** | **Mestre de Todas as Armas (Passiva):** Você pode trocar sua arma de Mestria após um descanso curto ou longo. |
 | **16** | **Fôlego Renovado (◈ \+ 1 Mana por Dado):** Recupere 1d10 \+ Nível de HP como uma ação. |
 | **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a AC do inimigo em 2 pelo resto do combate (destrói o couro/metal). |
