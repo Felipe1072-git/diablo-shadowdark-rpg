@@ -595,6 +595,8 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
 | Arma | Dano | Propriedades | Preço |
 | :---- | :---- | :---- | :---- |
+| **Funda** | 1d4 | Curto, Pilha (20 pedras por slot) | 1 po |
+| **Dardos (20)** | 1d4 | Arremesso (Curto), Leve, Pilha (20 por slot) | 1 po |
 | **Azagaia (Javelin)** | 1d6 | Arremesso (Próximo), Pilha (3 unidades por slot) | 1 po |
 | **Faca de Arremesso** | 1d4 | Leve, Arremesso (Próximo), Pilha (5 por slot) | 1 po |
 | **Arco Curto** | 1d6 | Distante (Far), Duas Mãos | 8 po |
