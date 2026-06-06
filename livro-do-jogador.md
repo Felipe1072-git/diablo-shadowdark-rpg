@@ -397,6 +397,124 @@ Para tornar isso visual e emocionante na mesa, use o **Dado de Fluxo**:
 4. **O Mago acertou de novo?** Gire para o **4 (DC 14\)**. *“A tensão aumenta”*.  
 5. **O Mago falhou?** Gire o dado de volta para o **2 (DC 12\)**. *"O Mago respira fundo e sente a magia fluir melhor agora."*
 
+# Tempo e Viagem
+
+Enquanto o combate define os momentos de tensão máxima, a exploração de Santuário acontece em escalas maiores — horas, estações, anos. Esta seção cobre as regras usadas fora do combate.
+
+---
+
+## Fases do Dia
+
+Cada **dia** possui 3 fases:
+
+- **Manhã** (Alvorecer ao Meio-dia)
+- **Tarde** (Meio-dia ao Pôr do Sol)
+- **Noite** (Pôr do Sol ao Alvorecer)
+
+Cada fase comporta uma ação significativa de viagem, exploração ou descanso.
+
+---
+
+## Estações de Santuário
+
+Em vez de meses, o ano de Santuário é marcado por três estações e seus rituais:
+
+| | Primavera (Verde) | Colheita (Dourada) | Inverno (Cinza) |
+| :---- | :---- | :---- | :---- |
+| **Início** | Banquete do Sol (Excesso e folia) | Banquete das Estrelas (Honras e concursos) | Banquete da Lua (Reflexão e mortalidade) |
+| **Meio** | Missa do Cetro (Votos de lealdade) | Missa dos Anciões (Assembleia de videntes) | Missa da Chama (Calor e boa vontade) |
+| **Fim** | O Imposto (Moedas para o Reino) | O Dízimo (Comida para o Reino) | O Recrutamento (Materiais para o Reino) |
+
+### Avançando o Tempo
+
+Ao final de cada sessão, ou durante uma pausa natural na jornada, o grupo decide quanto tempo passa:
+
+- **Nenhum:** Retome exatamente de onde parou.
+- **Semanas:** Avance até o próximo evento sazonal.
+- **Meses:** Avance para a próxima Estação.
+- **Anos:** Inicie uma nova Era (veja Eras da Vida, Cap. 2).
+
+*Em dúvida, role 1d6:*
+
+| d6 | Resultado |
+| :---- | :---- |
+| **1** | **Mudança Imediata:** A Estação ou Era muda agora. |
+| **2–3** | **Mudança Próxima:** Muda após a próxima sessão. |
+| **4–6** | **Estabilidade:** A Estação ou Era atual continua. |
+
+### Atividades entre Estações
+
+Entre as estações, cada herói escolhe uma ocupação:
+
+- **Peregrinação:** Aprenda sobre uma parte desconhecida do Mundo.
+- **Cortesia:** Estabeleça um novo contato ou ganhe um favor.
+- **Serviço:** Realize uma pequena melhoria para uma Região.
+
+Se o grupo avança um ano inteiro (nova Era), as opções são mais impactantes:
+
+- **Dever:** Realize uma melhoria significativa na Região.
+- **Sucessão:** Estabeleça um sucessor e torne-o um Herói.
+- **Legado:** Seu sucessor ganha metade do seu nível atual.
+
+---
+
+## Viagem
+
+Viajar consome uma **Fase** inteira do dia. Existem três métodos:
+
+| Método | Distância por Fase |
+| :---- | :---- |
+| **Caminhada** | 1/3 de Hexágono a pé |
+| **Galope** | 2/3 de Hexágono (montaria ganha Exaustão) |
+| **Cruzeiro** | 1 Hexágono (barco ou estrada adequada) |
+
+### Hospitalidade
+
+Ao dormir em locais seguros (cidades, postos avançados), não é necessária Rolagem de Encontros. Estadias longas exigem um **Favor** — uma missão ou pagamento em ouro.
+
+### Acampamento
+
+Dormir ao relento exige uma Rolagem de Encontros normalmente.
+
+- **Augúrios Hostis:** Impedem o descanso — personagens não recuperam HP ou usos de habilidades.
+- **Sem fonte de luz:** Acampar sem fogueira atrai automaticamente um encontro sombrio.
+
+### Suprimentos
+
+Presume-se que o grupo coleta o básico durante a jornada. Em regiões desoladas (Deserto de Aranoch, Pântanos de Kurast), ficar sem suprimentos tem consequências:
+
+- **Privação:** Cada manhã sem comida ou água, perca **1d6 de HP permanente** até comer e descansar em local seguro.
+
+### Noite e Escuridão
+
+Viajar ou explorar à noite sem fonte de luz é um convite à morte:
+
+- **Exaustão:** Imposta ao fim da fase — Desvantagem em todos os testes até realizar um descanso de 8 horas.
+- **Viagem às Cegas:** Sem luz (tochas ou magia) ou um Guia, testes de orientação têm **Desvantagem** adicional.
+
+### Sono
+
+Qualquer manhã após uma noite sem sono adequado (ataques, vigília forçada):
+
+- **Exaustão:** Todos os testes têm Desvantagem até realizar um descanso de 8 horas.
+
+### Inverno
+
+Nas regiões gélidas (Cimeiras Despedaçadas):
+
+- **Frio Penetrante:** Acampar sem abrigo ou viajar à noite impõe **Exaustão** por fase. Acumular duas Exaustões causa **1d6 de HP permanente** por hipotermia.
+- **Clima Extremo:** O Mestre pode impor Desvantagem em testes de orientação durante nevascas.
+
+### Barreiras
+
+Atravessar uma Barreira normalmente não é possível — apenas habitantes locais conhecem um caminho seguro. Tentar forçar a passagem desperdiça a Fase do dia e gera uma Rolagem de Encontros.
+
+### Augúrios e Mitos
+
+Santuário é pontuado por **Mitos** — horrores e segredos latentes espalhados pela terra. Cada Mito possui **Augúrios** (sinais crescentes de intensidade) que os personagens encontram antes do confronto final. O Mestre controla quando e como os Augúrios aparecem — os jogadores apenas experienciam seus efeitos na narrativa.
+
+---
+
 # Arsenal
 
 ## Propriedades das Armas
@@ -558,123 +676,6 @@ O slot Especial é reservado para **itens exclusivos de classe** — objetos que
 | **Cruzado** | Filogênio Sagrado | Ataque de escudo (Mestre do Escudo) causa 1d6 em vez de 1d4 | 100 po |
 | **Guerreiro** | Pedra de Afiação | +1 de dano com a arma de Mestria | 50 po |
 | **Bárbaro** | Totem Ancestral | Durante Fúria Sanguinária, recupere 1 HP no início de cada turno | 100 po |
-
-# Tempo
-
-Cada **Dia** possui 3 Fases: **Manhã** (Alvorecer ao Meio-dia), **Tarde** (Meio-dia ao Pôr do Sol) e **Noite** (Pôr do Sol ao Alvorecer).
-
-### **ESTAÇÕES DE SANTUÁRIO** *Em vez de meses, os anos de Santuário são marcados por ciclos de tributos e massas religiosas.*
-
-| Primavera (Verde) | Colheita (Dourada) | Inverno (Cinza) |
-| :---- | :---- | :---- |
-| **Início:** Banquete do Sol (Excesso e folia). | **Início:** Banquete das Estrelas (Honras e concursos). | **Início:** Banquete da Lua (Reflexão e mortalidade). |
-| **Meio:** Missa do Cetro (Votos de lealdade). | **Meio:** Missa dos Anciões (Assembleia de videntes). | **Meio:** Missa da Chama (Calor e boa vontade). |
-| **Fim:** O Imposto (Moedas para o Reino). | **Fim:** O Dízimo (Comida para o Reino). | **Fim:** O Recrutamento (Materiais para o Reino). |
-
-Cada **Personagem** tem uma **Vida,** que tem 3 **Eras**:
-
-* **Jovem:** Aprendizado constante. Sem alterações em atributos.  
-* **Maduro:** No auge. Role **3d6** para cada Atributo; mantenha o novo valor se for **maior**.  
-* **Idoso:** Legado e declínio. Role **3d6** para cada Atributo; mantenha o novo valor se for **menor**.  
-  * Personagens Idosos perdem **1d12 de HP** ao final de cada Era. Se chegar a 0, morrem em paz.
-
-### **AVANÇANDO O TEMPO** *Ao final de cada sessão, ou durante uma pausa natural na jornada, o grupo decide quanto tempo passará razoavelmente:*
-
-* **Nenhum:** Retome exatamente de onde parou.  
-* **Semanas:** Progrida até o próximo evento sazonal significativo.  
-* **Meses:** Avance para a próxima Estação (Season).  
-* **Anos:** Inicie uma nova Era (Age) na Primavera.
-
-*Em dúvida. Role 1d6:*
-
-| PASSAGEM DO TEMPO |  |
-| :---- | :---- |
-| **1** | **Mudança Imediata:** A Estação ou Era muda **agora**. |
-| **2-3** | **Mudança Próxima:** A Estação ou Era muda após a próxima sessão. |
-| **4-6** | **Estabilidade:** A Estação ou Era atual continua. |
-
-### Entre Estações e Eras, os Heróis guardam o Mundo e cada um escolhe uma ocupação.
-
-#### **ATIVIDADE ENTRE ESTAÇÕES** Escolha um:
-
-* ### **Peregrinação:** Aprenda sobre uma parte desconhecida do Mundo.
-
-* ### **Cortesia:** Estabeleça um novo contato ou ganhe um favor.
-
-* ### **Serviço:** Realize uma pequena melhoria para uma Região.
-
-#### **ATIVIDADE ENTRE ERAS** Escolha um:
-
-* ### **Dever:** Realize uma melhoria significativa na Região.
-
-* ### **Sucessão:** Estabeleça um sucessor e torne-o um Herói.
-
-* ### **Legado:** Seu sucessor ganha metade do seu nível atual.
-
-
-# Viagem
-
-Viajar consome uma **Fase** inteira do dia e utiliza um de 3 métodos:
-
-* **Caminhada:** 1/3 Hexágono a pé.  
-* **Galope:** 2/3 Hexágonos em uma montaria que não esteja Exausta. A montaria ganha um nível de Exaustão.  
-* **Cruzeiro:** 1 Hexágonos de barco, ou montado em uma estrada adequada (raramente encontrada).
-
-### HOSPITALIDADE 
-
-Ao dormir em locais seguros (Cidades, Postos Avançados), **não** realize a Rolagem de Encontros de Região. É esperado que heróis recebam abrigo, mas estadias longas exigem um **Favor** (uma missão ou pagamento em ouro).
-
-### ACAMPAMENTO
-
-Dormir ao relento exige uma Rolagem de Encontros normalmente.
-
-* **Augúrios Hostis:** Impedem o descanso. Personagens não recuperam HP ou usos de habilidades.
-
-* **Tochas:** Acampar sem uma fogueira ou fonte de luz atrai automaticamente um encontro sombrio.
-
-### SUPRIMENTOS (SUPPLIES)
-
-Presume-se que vocês coletam o básico. Se estiverem em um local desolado (Deserto de Aranoch, Pântanos de Kurast) e ficarem sem suprimentos:
-
-* **Privação:** Cada manhã sem comida ou água, perca **1d6 de HP** de forma permanente até comer e descansar em um local seguro.
-
-### NOITE E A ESCURIDÃO (NIGHT)
-
-Viajar ou explorar à noite em Santuário é um convite à morte:
-
-* **Dano Mental:** Viajando à noite causa **1 de dano de Sabedoria**. Se chegar a 0, o personagem enlouquece (sucumbe ao Medo).
-
-* **Viagem Cega:** Sem luz (Tochas/Magia) ou um Guia, os testes de orientação têm **Desvantagem**.
-
-### SONO (SLEEP)
-
-Qualquer manhã após uma noite sem sono adequado (devido a ataques ou vigília ininterrupta):
-
-* **Exaustão:** Todos os testes têm **Desvantagem** até que um descanso de 8 horas seja realizado.
-
-### INVERNO (WINTER)
-
-Nas regiões gélidas (como as Cimeiras Despedaçadas):
-
-* **Frio Penetrante:** Acampar sem abrigo ou viajar à noite causa **1d6 de dano de Constituição (CON)** por fase. Se chegar a 0, o personagem morre congelado.
-
-* **Clima Extremo:** Role na tabela de perigos climáticos (Nevascas reduzem a visibilidade para poucos metros).
-
-### AUGÚRIOS (OMENS)
-
-Cada **Mito** possui 6 **Augúrios**, listados na ordem em que são encontrados. O 1º encontro com um **Mito** é o sinal mais fraco; o 6º é o confronto direto ou a manifestação total do horror.
-
-**Lembre-se da Primazia da Ação:** Se os jogadores quiserem caçar Diablo, eles não precisam esperar que o Augúrio apareça se tomarem a iniciativa por conta própria.
-
-
-### HEXÁGONOS DE MITO (MYTH HEXES)
-
-Se entrarem no Hexágono onde o "Mito" reside (ex: O Mosteiro Amaldiçoado), o encontro é automático e os jogadores fazem um teste de DEX DC 12 para surpreender.
-
-### BARREIRAS (BARRIERS)
-
-Atravessar uma Barreira normalmente não é possível, embora habitantes locais possam conhecer um caminho. Tentar atravessar uma Barreira desperdiça aquela Fase do dia, mas ainda gera uma Rolagem de Regiões Selvagens.
-
 
 # Matriz de Resistência
 
@@ -927,6 +928,14 @@ O sistema vai do **nível 1 ao 10**. Conforme os heróis enfrentam os males de S
 2. **Mana aumenta automaticamente:** seu novo Mana Máximo é 10 + modificador do Atributo Primário + nível atual.
 3. **Role na Tabela de Talentos:** role 1d20 na tabela da sua classe e ganhe o talento correspondente.
 4. **Bônus específicos de classe:** algumas classes concedem ganhos adicionais ao subir de nível — consulte sua classe.
+
+### Eras da Vida
+
+Além do avanço de nível, cada personagem atravessa três **Eras** ao longo de sua carreira — quando o grupo decide avançar um ano inteiro na ficção (veja Avançando o Tempo, Cap. 1):
+
+- **Jovem:** Aprendizado constante. Sem alterações em atributos.
+- **Maduro:** No auge. Role **3d6** para cada Atributo; mantenha o novo valor se for **maior**.
+- **Idoso:** Legado e declínio. Role **3d6** para cada Atributo; mantenha o novo valor se for **menor**. Ao final de cada Era, perca **1d12 de HP máximo**. Se chegar a 0, o personagem morre em paz.
 
 ---
 
