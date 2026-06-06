@@ -531,7 +531,8 @@ window.rolarTesouro = function() {
       if (joia.especial) {
         const esp = ESPECIAIS[Math.floor(Math.random() * ESPECIAIS.length)];
         nomeBase = esp.item;
-        infoItem = `${esp.classe} — ${esp.efeito}`;
+        infoItem = `<span class="afixo-tipo">⭐ slot especial</span> ${esp.classe}`
+                 + `<div class="afixo"><span class="afixo-tipo">Efeito base</span> ${esp.efeito}</div>`;
         logs.push(step(`⭐ <b>Especial de Classe: ${esp.classe}</b>`));
       } else {
         nomeBase = joia.nome;
