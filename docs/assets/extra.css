@@ -20,11 +20,23 @@ h1, h2, h3, h4 {
 /* Tabelas: borda sutil */
 .md-content table {
   border-collapse: collapse;
+  width: 100%;
 }
 .md-content th,
 .md-content td {
   border: 1px solid var(--md-default-fg-color--lightest);
   padding: 0.4em 0.8em;
+}
+
+/* Tabelas em mobile: fonte menor para caber sem rolar */
+@media (max-width: 600px) {
+  .md-content table {
+    font-size: 0.78rem;
+  }
+  .md-content th,
+  .md-content td {
+    padding: 0.3em 0.5em;
+  }
 }
 
 /* Nome do site na barra superior */
