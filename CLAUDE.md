@@ -319,6 +319,72 @@ Revisar as 18 classes usando as tabelas de `referencia-mestre-progressao.md` com
 
 ---
 
+### Goal 8 — Sets Canônicos da Franquia (`livro-do-mestre.md` + `docs/mestre/tesouros.md`) 🔄 Em andamento
+
+Documentar **todos os sets canônicos** de D1/D2/D3/D4 adaptados para o sistema. Cada set tem:
+- **Peças com afixos fixos próprios** (funcionam como itens Lendários individualmente)
+- **Bônus progressivos** (2 peças + set completo) ancorados nas **habilidades de classe existentes**
+- Sets são **recompensas narrativas exclusivas** — nunca rolados aleatoriamente
+
+**Regras de design:**
+- Antes de propor qualquer set, **ler as habilidades da classe em `cap3-classes.md`**
+- Bônus de set devem **modificar ou ampliar mecânicas existentes** da classe — nunca adicionar efeitos genéricos desconectados
+- Cada set dentro da mesma classe deve ter **identidade distinta** (ex: um amplifica mobilidade, outro DPS, outro survivability)
+- Número de peças do RPG = mínimo 2, máximo 5 (D3 tinha 6 — condensar para 4-5 no RPG)
+- Mapear o set ao set D2/D3 original: consultar o tema do set original antes de criar efeitos
+
+**Progresso por classe:**
+
+| Classe | Sets | Status |
+|---|---|---|
+| Amazona | M'avina's Battle Hymn, Vidala's Rig | M'avina ✅ · Vidala ⬜ |
+| Arcanista | Cathan's Traps, Naj's Ancient Vestige, Vyr's Amazing Arcana | ⬜ ⬜ ⬜ |
+| Assassina | Natalya's Odium | ✅ |
+| Bárbaro | Immortal King, Berserker's Arsenal, Raekor's, Wrath of the Wastes, Might of the Earth, Horde of the Ninety Savages | IK ✅ · restantes ⬜ |
+| Caçador de Demônios | Tancred's Battlegear, Marauder's, Unhallowed Essence, Gears of Dreadlands | ⬜ ⬜ ⬜ ⬜ |
+| Cavaleiro de Sangue | Sazabi's Grand Tribute, Thorns of the Invoker | ⬜ ⬜ |
+| Cruzado | Hsaru's Defense, Roland's Legacy, Seeker of the Light, Aegis of Valor | ⬜ ⬜ ⬜ ⬜ |
+| Druida | Aldur's Watchtower, Cow King's Leathers | ⬜ ⬜ |
+| Feiticeiro | Jade Harvester, Zunimassa's Haunt, Helltooth Harness, Arachyr's Carapace | ⬜ ⬜ ⬜ ⬜ |
+| Guerreiro | Bul-Kathos' Children, Cleglaw's Brace, Isenhart's Armory, Sigon's Complete Steel, Bul-Kathos' Oath | ⬜ ⬜ ⬜ ⬜ ⬜ |
+| Mago | Arcanna's Tricks, Firebird's Finery, Delsere's Magnum Opus, Typhon's Veil | ⬜ ⬜ ⬜ ⬜ |
+| Monge | Raiment of a Thousand Storms, Sunwuko's Guile, Inna's Mantra, Uliana's Stratagem, Patterns of Justice | ⬜ ⬜ ⬜ ⬜ ⬜ |
+| Natispirito | Hwanin's Majesty | ⬜ |
+| Necromante | Trang-Oul's Avatar, Sander's Folly, Bones of Rathma, Pestilence Master's Shroud, Grace of Inarius | Trang-Oul ✅ · restantes ⬜ |
+| Paladino | Griswold's Legacy, Milabrega's Regalia, Angelic Raiment, Armor of Akkhan | Griswold ✅ · restantes ⬜ |
+| Renegada | Death's Disguise, Shadow's Mantle | ⬜ ⬜ |
+| Sacerdote | Civerb's Vestments, Heaven's Brethren | ⬜ ⬜ |
+| Warlock | Infernal Tools, Orphan's Call | ⬜ ⬜ |
+
+**Método de trabalho:**
+1. Ler as habilidades da classe em `cap3-classes.md`
+2. Propor peças + afixos + bônus de set para cada set da classe
+3. Aguardar aprovação antes de escrever no documento
+4. Trabalhar uma classe por vez, na ordem acordada
+5. Commitar após cada classe aprovada
+
+**Ordem de execução acordada:**
+1. 🔄 Bárbaro (5 sets pendentes)
+2. Monge (5 sets)
+3. Feiticeiro (4 sets)
+4. Caçador de Demônios (4 sets)
+5. Mago (4 sets)
+6. Necromante (4 sets pendentes)
+7. Cruzado (4 sets)
+8. Guerreiro (5 sets)
+9. Amazona (1 set pendente)
+10. Paladino (3 sets pendentes)
+11. Renegada (2 sets)
+12. Assassina — já concluída ✅
+13. Arcanista (3 sets)
+14. Cavaleiro de Sangue (2 sets)
+15. Druida (2 sets)
+16. Sacerdote (2 sets)
+17. Warlock (2 sets)
+18. Natispirito (1 set)
+
+---
+
 ## Convenções de Commit
 
 - `feat:` nova regra, classe, cenário ou mecânica
