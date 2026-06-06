@@ -1134,6 +1134,35 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Death's Disguise *(Renegada — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Death's Hand** | Luvas — Couro | \+1 Ataque; Imbuimento Rápido: dano sobe para 1d6 (em vez de 1d4) e dura até 3 ataques |
+| **Death's Guard** | Cinto | 4 slots; enquanto com Veneno ativo na arma, você ganha RD 1 Veneno |
+| **Death's Touch** | Espada Longa (1d8) | \+1 Ataque, Finesse; acertos com Veneno na arma: efeito persiste por \+1 rodada extra |
+
+**Bônus de Set:**
+- *2 peças:* Imbuimento Rápido custa 0 Mana
+- *3 peças:* ao matar um inimigo envenenado, recupera 1d4 HP e o Veneno salta para o inimigo Adjacente mais próximo
+
+---
+
+#### Shadow's Mantle *(Renegada — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Mantle of the Shadow** | Peitoral — Couro | \+2 CA; Passo de Sombra — *sem o talento:* set concede acesso; *com o talento:* custa 2 Mana em vez de 3 |
+| **Wraps of Clarity** | Luvas — Couro | \+1 Ataque; após Passo de Sombra, Ataque Furtivo causa \+1d6 extra nesse turno |
+| **Visage of Shadows** | Elmo — Couro | \+1 CA; Ocultamento — *sem o talento:* set concede acesso; *com o talento:* funciona em movimento (não precisa ficar imóvel) |
+| **Feet of the Shadow** | Perneiras — Couro | \+1 CA; Ímpeto — *sem o talento:* set concede acesso; *com o talento:* ao final do Ímpeto você se esconde automaticamente (sem teste) |
+
+**Bônus de Set:**
+- *2 peças:* Passo de Sombra pode ser usado como ◇ (reação) ao receber um ataque — você se teleporta e o ataque erra
+- *4 peças:* o Ataque Furtivo imediatamente após um Passo de Sombra causa dano máximo (sem rolar dado), uma vez por cena
+
+---
+
 #### Trang-Oul's Avatar *(Necromante — 5 peças)*
 
 | Peça | Tipo | Afixos Fixos |
