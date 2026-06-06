@@ -1,0 +1,503 @@
+# 🎲 Rolador de Tesouros
+
+Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas as sub-tabelas automaticamente.
+
+<div id="treasure-roller-ui">
+
+<div class="roller-controls">
+  <label for="nd-input">Nível médio do grupo (ND):</label>
+  <input type="number" id="nd-input" min="1" max="10" value="1">
+  <button onclick="rolarTesouro()" class="roll-btn">🎲 Rolar Tesouro</button>
+  <button onclick="rolarTesouro()" class="roll-btn roll-btn-sec">🔁 Rolar Novamente</button>
+</div>
+
+<div id="resultado-tesouro"></div>
+
+</div>
+
+<style>
+.roller-controls {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 1.5rem 0;
+}
+#nd-input {
+  width: 60px; padding: 6px 10px; border-radius: 4px;
+  border: 1px solid var(--md-default-fg-color--light);
+  background: var(--md-default-bg-color); color: var(--md-default-fg-color);
+  font-size: 1rem; text-align: center; font-family: inherit;
+}
+.roll-btn {
+  padding: 8px 20px; background: #e64a19; color: white;
+  border: none; border-radius: 4px; cursor: pointer;
+  font-size: 1rem; font-family: inherit; font-weight: bold; transition: background 0.2s;
+}
+.roll-btn:hover { background: #ff5722; }
+.roll-btn-sec { background: #555; }
+.roll-btn-sec:hover { background: #777; }
+.result-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1rem;
+  background: var(--md-code-bg-color);
+}
+.roll-step {
+  font-size: 0.88rem; color: var(--md-default-fg-color--light);
+  margin: 0.2rem 0; padding-left: 0.6rem;
+  border-left: 2px solid var(--md-default-fg-color--lightest);
+}
+.dice { font-family: monospace; color: #ff8c00; font-weight: bold; }
+.final-result {
+  margin-top: 1rem; padding-top: 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 1.1rem;
+}
+.afixo { margin-top: 0.35rem; padding-left: 1rem; font-size: 0.95rem; }
+.afixo-tipo {
+  font-size: 0.72rem; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--md-default-fg-color--light);
+  margin-right: 4px;
+}
+.q-normal  { color: #aaa; }
+.q-magico  { color: #4a9edd; }
+.q-raro    { color: #f0c040; }
+.q-lendario{ color: #ff8c00; }
+</style>
+
+<script>
+(function() {
+
+const d = n => Math.floor(Math.random() * n) + 1;
+const lookup = (t, v) => t.find(r => v >= r.min && v <= r.max) || t[t.length - 1];
+
+// ===================== TABELAS =====================
+
+const ARMADURAS = [
+  { min:1,  max:8,  nome:"Couro",          tipo:"Leve",   ca:"13",  rd:"—",        req:"—",      preco:10   },
+  { min:9,  max:12, nome:"Couro Reforçado",tipo:"Leve",   ca:"14",  rd:"1 físico", req:"—",      preco:45   },
+  { min:13, max:22, nome:"Brunea",          tipo:"Média",  ca:"15",  rd:"1 físico", req:"FOR 11", preco:50   },
+  { min:23, max:27, nome:"Cota de Malha",   tipo:"Média",  ca:"16",  rd:"2 físico", req:"FOR 11", preco:400  },
+  { min:28, max:31, nome:"Meia-Placa",      tipo:"Pesada", ca:"17",  rd:"2 físico", req:"FOR 13", preco:750  },
+  { min:32, max:34, nome:"Placa Completa",  tipo:"Pesada", ca:"18",  rd:"3 físico", req:"FOR 13", preco:1500 },
+  { min:35, max:36, nome:"Broquel",         tipo:"Escudo", ca:"+1",  rd:"—",        req:"—",      preco:10   },
+  { min:37, max:38, nome:"Escudo",          tipo:"Escudo", ca:"+2",  rd:"—",        req:"—",      preco:15   },
+  { min:39, max:39, nome:"Escudo de Torre", tipo:"Escudo", ca:"+3",  rd:"—",        req:"FOR 13", preco:60   },
+];
+
+const PECAS = ["Peitoral","Perneiras","Elmo","Luvas","Botas","Mestre escolhe"];
+
+const QUAL_ARMADURA = [
+  { min:1,  max:8,  q:"Normal",      css:"q-normal",   pref:0, suf:0, set:false },
+  { min:9,  max:12, q:"Mágica",      css:"q-magico",   pref:1, suf:0, set:false, magOu:true },
+  { min:13, max:16, q:"Rara",        css:"q-raro",     pref:1, suf:1, set:false },
+  { min:17, max:20, q:"Lendária",    css:"q-lendario", pref:2, suf:1, set:false },
+  { min:21, max:24, q:"Normal (Set)",css:"q-normal",   pref:0, suf:0, set:true  },
+  { min:25, max:28, q:"Mágico (Set)",css:"q-magico",   pref:1, suf:0, set:true  },
+  { min:29, max:999,q:"Raro (Set)",  css:"q-raro",     pref:1, suf:1, set:true  },
+];
+
+const QUAL_GERAL = [
+  { min:1,  max:10, q:"Normal",   css:"q-normal",   pref:0, suf:0 },
+  { min:11, max:14, q:"Mágico",   css:"q-magico",   pref:1, suf:0, magOu:true },
+  { min:15, max:18, q:"Raro",     css:"q-raro",     pref:1, suf:1 },
+  { min:19, max:999,q:"Lendário", css:"q-lendario", pref:2, suf:1 },
+];
+
+const ARMAS_CC = [
+  { min:40, max:40, nome:"Porrete",          dano:"1d4"  },
+  { min:41, max:41, nome:"Foice (Sickle)",   dano:"1d4"  },
+  { min:42, max:42, nome:"Adaga",            dano:"1d4"  },
+  { min:43, max:43, nome:"Martelo Leve",     dano:"1d4"  },
+  { min:44, max:45, nome:"Lança",            dano:"1d8"  },
+  { min:46, max:46, nome:"Cajado",           dano:"1d6"  },
+  { min:47, max:47, nome:"Azagaia",          dano:"1d6"  },
+  { min:48, max:48, nome:"Machado de Mão",   dano:"1d6"  },
+  { min:49, max:49, nome:"Cimitarra",        dano:"1d6"  },
+  { min:50, max:50, nome:"Maça",             dano:"1d6"  },
+  { min:51, max:51, nome:"Tridente",         dano:"1d6"  },
+  { min:52, max:52, nome:"Cestus / Punho",   dano:"1d6"  },
+  { min:53, max:53, nome:"Picareta de Guerra",dano:"1d8" },
+  { min:54, max:54, nome:"Espada Curta",     dano:"1d6"  },
+  { min:55, max:56, nome:"Espada Longa",     dano:"1d8"  },
+  { min:57, max:57, nome:"Maça Grande",      dano:"1d8"  },
+  { min:58, max:58, nome:"Estrela da Manhã", dano:"1d8"  },
+  { min:59, max:59, nome:"Mangual",          dano:"1d8"  },
+  { min:60, max:60, nome:"Machado de Guerra",dano:"1d8"  },
+  { min:61, max:61, nome:"Martelo de Guerra",dano:"1d8"  },
+  { min:62, max:62, nome:"Rapieira",         dano:"1d8"  },
+  { min:63, max:63, nome:"Pica",             dano:"1d10" },
+  { min:64, max:64, nome:"Alabarda",         dano:"1d10" },
+  { min:65, max:65, nome:"Glaive",           dano:"1d10" },
+  { min:66, max:66, nome:"Lança de Montaria",dano:"1d12" },
+  { min:67, max:67, nome:"Foice de Guerra",  dano:"1d10" },
+  { min:68, max:69, nome:"Maul (Marreta)",   dano:"2d8"  },
+  { min:70, max:71, nome:"Machado Grande",   dano:"2d8"  },
+  { min:72, max:75, nome:"Espada Montante",  dano:"2d10" },
+];
+
+const ARMAS_DIST = [
+  { min:76, max:76, nome:"Funda",               info:"Pedras"   },
+  { min:77, max:77, nome:"Dardos (20)",          info:"Arremesso"},
+  { min:78, max:79, nome:"Besta Leve",           info:"Viratons" },
+  { min:80, max:81, nome:"Arco Curto",           info:"Flechas"  },
+  { min:82, max:83, nome:"Arco Longo",           info:"Flechas"  },
+  { min:84, max:84, nome:"Besta Pesada",         info:"Viratons" },
+  { min:85, max:86, nome:"Foco Arcano",          info:"Varinha / Cajado / Cristal" },
+  { min:87, max:87, nome:"Foco Sagrado",         info:"Relicário / Emblema / Símbolo" },
+  { min:88, max:88, nome:"Foco Druídico/Musical",info:"Totem / Cajado / Instrumento" },
+];
+
+const JOIAS = [
+  { min:89, max:91, nome:"Anel",              slot:"Anel 1 ou Anel 2" },
+  { min:92, max:94, nome:"Amuleto",           slot:"Amuleto"          },
+  { min:95, max:96, nome:"Cinto",             slot:"Cinto"            },
+  { min:97, max:100,nome:"Especial de Classe",slot:"Slot Especial", especial:true },
+];
+
+const ESPECIAIS = [
+  { classe:"Arcanista",         item:"Orbe Arcano",        efeito:"Cargas Arcanas +3 dano/carga" },
+  { classe:"Mago",              item:"Tomo de Magias",     efeito:"1×/cena feitiço de Afinidade sem teste" },
+  { classe:"Necromante",        item:"Filogênio",          efeito:"+2 limite de lacaios" },
+  { classe:"Feiticeiro",        item:"Mojo",               efeito:"Veneno dura 2 rodadas a mais" },
+  { classe:"Renegada",          item:"Carcaj de Sombra",   efeito:"Ataque Furtivo +1d6 (total +2d6)" },
+  { classe:"Sacerdote",         item:"Símbolo Sagrado",    efeito:"Oração Purificadora 1d8" },
+  { classe:"Warlock",           item:"Grimório",           efeito:"Pacto de Sangue recupera 1d6 Mana" },
+  { classe:"Amazona",           item:"Aljava de Batalha",  efeito:"Crítico com arcos em 19–20" },
+  { classe:"Assassina",         item:"Kit de Armadilhas",  efeito:"Sentinelas +1d4 dano" },
+  { classe:"Caçador de Demônios",item:"Aljava Sombria",   efeito:"Habilidades de Ódio –1 Mana (mín. 1)" },
+  { classe:"Druida",            item:"Totem Druídico",     efeito:"Espírito Animal +2 HP / +1 dano" },
+  { classe:"Natispirito",       item:"Cristal de Espírito",efeito:"+1 dano com armas de haste (total +2)" },
+  { classe:"Monge",             item:"Faixa Sagrada",      efeito:"Espírito em Fluxo: Mod. SAB +1 Mana/turno" },
+  { classe:"Paladino",          item:"Relíquia",           efeito:"Golpe Sagrado Nível+2 Radiante" },
+  { classe:"Cavaleiro de Sangue",item:"Cálice de Sangue", efeito:"Sifão de Sangue recupera 2 HP" },
+  { classe:"Cruzado",           item:"Filogênio Sagrado",  efeito:"Ataque de escudo 1d6" },
+  { classe:"Guerreiro",         item:"Pedra de Afiação",   efeito:"+1 dano com arma de Mestria" },
+  { classe:"Bárbaro",           item:"Totem Ancestral",    efeito:"Fúria: +1 HP/turno" },
+];
+
+// ---- PREFIXOS ----
+const PREF_ARMADURA = [
+  { min:1,  max:6,  nome:"Robusto",   efeito:"+1 de CA" },
+  { min:7,  max:12, nome:"Forte",     efeito:"+1 de CA (+2 contra projéteis)" },
+  { min:13, max:18, nome:"Valente",   efeito:"+2 de CA" },
+  { min:19, max:24, nome:"Glorioso",  efeito:"+2 de CA (+3 contra projéteis)" },
+  { min:25, max:30, nome:"Santo",     efeito:"+3 de CA" },
+  { min:31, max:999,nome:"Divino",    efeito:"+3 de CA (+4 contra projéteis)" },
+];
+const PREF_RESIST = [
+  { min:1,  max:10, nome:"Gemas Básicas", efeito:"+1 RD (escolha o tipo de dano)" },
+  { min:11, max:30, nome:"Gemas Raras",   efeito:"+2 RD (escolha o tipo de dano)" },
+  { min:31, max:31, nome:"Topázio",       efeito:"+2 RD em TODOS os tipos" },
+  { min:32, max:999,nome:"Prismático",    efeito:"+3 RD em TODOS os tipos" },
+];
+const PREF_INIMIGO = [
+  { min:1,  max:8,  nome:"Subjugador", efeito:"Alvo Surpreso 1 rodada (SAB DC 11 nega)" },
+  { min:9,  max:12, nome:"Exaustivo",  efeito:"Alvo Surpreso 1d4 rodadas (SAB DC 15 nega)" },
+  { min:13, max:16, nome:"Esgotante",  efeito:"Iniciativa do alvo = 0 (SAB DC 17 nega)" },
+  { min:17, max:19, nome:"Uivante",    efeito:"Alvo Amedrontado 1 rodada (SAB DC 17 nega)" },
+  { min:20, max:20, nome:"Caótico",    efeito:"Alvo vira aliado por 1d4+1 rodadas (SAB DC 17 nega)" },
+  { min:21, max:999,nome:"Esmagador",  efeito:"Alvo sob Lentidão por 2d4 rodadas (SAB DC 19 nega)" },
+];
+const PREF_MANA = [
+  { min:1,  max:10, nome:"Do Lagarto",   efeito:"Mana máximo +5" },
+  { min:11, max:20, nome:"Da Serpente",  efeito:"Mana máximo +10" },
+  { min:21, max:27, nome:"Enganador",    efeito:"Ao gastar Mana, role 1d10 — em 10 a Mana não é consumida" },
+  { min:28, max:29, nome:"Triunfante",   efeito:"Recupere 1 Mana ao desferir golpe fatal" },
+  { min:30, max:999,nome:"Vulpino",      efeito:"Como ⟁, gaste 1 Mana para ganhar RD 3 a todo dano por 1 turno" },
+];
+const ATRIBUTOS = ["FOR","DES","CON","INT","SAB","CAR"];
+const MALDIÇÕES = [
+  "Enferrujado: −1 CA",
+  "Vulnerável: −2 CA",
+  "Vidro: −2 em todos os Testes",
+  "Hiena: usuário não pode conjurar feitiços",
+  "Umbral: tochas e lanternas apagam",
+  "Cristal: item é destruído ao acertar ou sofrer dano",
+  "Fraco: todo dano causado é reduzido à metade",
+  "Inútil: este item não causa dano",
+];
+const VISIBILIDADES = [
+  "Brilhante: item emite luz Próxima",
+  "Oracular: usuário vê criaturas invisíveis",
+  "Discreto: invisível para criaturas Distantes",
+  "Escondido: invisível para criaturas Próximas e Distantes",
+  "Sorrateiro: gaste ◈ para ficar invisível até a próxima ação",
+  "Invisível: gaste ◈ + 1 Mana para ficar invisível por 1d4 rodadas",
+];
+
+// ---- SUFIXOS ----
+const SUF_RD = [
+  { min:1,  max:12, nome:"da Saúde",     efeito:"+1 RD em TODOS os tipos" },
+  { min:13, max:18, nome:"da Proteção",  efeito:"+2 RD em TODOS os tipos" },
+  { min:19, max:25, nome:"da Absorção",  efeito:"+3 RD em TODOS os tipos" },
+  { min:26, max:29, nome:"da Vida",      efeito:"+4 RD em TODOS os tipos" },
+  { min:30, max:999,nome:"da Deflexão",  efeito:"+5 RD em TODOS os tipos" },
+];
+const SUF_REACAO = [
+  { min:1,  max:14, nome:"de Espinhos", efeito:"Atacante sofre 1d4 físico em ataques corpo a corpo" },
+  { min:15, max:999,nome:"de Ferrão",   efeito:"Atacante sofre 2d4 físico em ataques corpo a corpo" },
+];
+const SUF_MOV = [
+  { min:1,  max:14, nome:"do Passo",       efeito:"Corre o dobro com ◈ de movimento" },
+  { min:15, max:19, nome:"da Velocidade",  efeito:"Corre o dobro com ◈ e não pode ser surpreendido" },
+  { min:20, max:999,nome:"da Aceleração",  efeito:"Corre o triplo com ◈ e não pode ser surpreendido" },
+];
+const SUF_HP = [
+  { min:1,  max:8,  nome:"do Chacal",  efeito:"+4 HP Temporários"  },
+  { min:9,  max:13, nome:"da Raposa",  efeito:"+6 HP Temporários"  },
+  { min:14, max:17, nome:"do Jaguar",  efeito:"+8 HP Temporários"  },
+  { min:18, max:21, nome:"do Lobo",    efeito:"+10 HP Temporários" },
+  { min:22, max:23, nome:"da Águia",   efeito:"+12 HP Temporários" },
+  { min:24, max:25, nome:"do Tigre",   efeito:"+15 HP Temporários" },
+  { min:26, max:27, nome:"do Leão",    efeito:"+18 HP Temporários" },
+  { min:28, max:29, nome:"do Mamute",  efeito:"+20 HP Temporários" },
+  { min:30, max:31, nome:"da Baleia",  efeito:"+25 HP Temporários" },
+  { min:32, max:999,nome:"do Colosso", efeito:"+30 HP Temporários" },
+];
+const SUF_REC = [
+  { min:1,  max:10, nome:"da Regeneração", efeito:"Cura 1 HP por turno" },
+  { min:11, max:999,nome:"da Renovação",   efeito:"Recupera 1 ponto de atributo perdido por turno" },
+];
+const SUF_DIARIO = [
+  { min:1,  max:10, nome:"da Poupança",     efeito:"1×/dia: use habilidade sem gastar Mana" },
+  { min:11, max:25, nome:"da Negociação",   efeito:"2×/dia: use habilidade sem gastar Mana" },
+  { min:25, max:35, nome:"da Osmose",       efeito:"1×/dia: use habilidade sem gastar ações ou Mana" },
+  { min:36, max:999,nome:"da Transcendência",efeito:"2×/dia: use habilidade sem gastar ações ou Mana" },
+];
+const SUF_DANO = [
+  { min:64, max:65, nome:"do Gelo",       efeito:"+1d6 dano de Gelo"      },
+  { min:66, max:67, nome:"do Fogo",       efeito:"+1d6 dano de Fogo"      },
+  { min:68, max:69, nome:"da Eletricidade",efeito:"+1d6 dano de Relâmpago"},
+  { min:70, max:71, nome:"do Veneno",     efeito:"+1d6 dano de Veneno"    },
+  { min:72, max:73, nome:"da Radiância",  efeito:"+1d6 dano Radiante"     },
+  { min:74, max:75, nome:"da Necromancia",efeito:"+1d6 dano Necrótico"    },
+  { min:76, max:77, nome:"da Psique",     efeito:"+1d6 dano Psíquico"     },
+  { min:78, max:80, nome:"da Força",      efeito:"+1d6 dano de Força"     },
+];
+const SUF_RUNA = [
+  { min:81, max:81,  nome:"Sede de Sangue (Amn)", efeito:"Cura 1d4 PV ao causar crítico ou matar inimigo" },
+  { min:82, max:82,  nome:"Rapidez (Shael)",       efeito:"Reduz custo de ações/reações em 1 Mana" },
+  { min:83, max:83,  nome:"Exorcismo (Pul)",        efeito:"+1 dado de dano contra Demônios e Mortos-Vivos" },
+  { min:84, max:84,  nome:"Laceração (Um)",         efeito:"Alvo sangra: 1d4 PV/rodada até ser curado" },
+  { min:85, max:85,  nome:"Veredito (Mal)",         efeito:"Impede cura mágica do alvo por 3 rodadas" },
+  { min:86, max:86,  nome:"Fortuna (Ist)",          efeito:"+10% chance de itens raros em saques" },
+  { min:87, max:87,  nome:"Precisão (Gul)",         efeito:"+1d4 em todas as jogadas de ataque" },
+  { min:88, max:88,  nome:"Sifão de Éter (Vex)",    efeito:"Ao causar dano, 1d6 — em 5+ recupere 1 Mana" },
+  { min:89, max:89,  nome:"Poder Bruto (Ohm)",      efeito:"+5 dano fixo em todos os ataques" },
+  { min:90, max:90,  nome:"Golpe Mortal (Lo)",      efeito:"Em 19 natural: chance de dano dobrado" },
+  { min:91, max:91,  nome:"Aflição (Sur)",          efeito:"Alvos atingidos: CON DC 12 ou Cegos por 1 rodada" },
+  { min:92, max:92,  nome:"Esmagamento (Ber)",      efeito:"Reduz CA do alvo em 2 até o fim do combate" },
+  { min:93, max:93,  nome:"Aniquilação (Jah)",      efeito:"Ignora bônus de escudo e armadura natural" },
+  { min:94, max:94,  nome:"Gelo Eterno (Cham)",     efeito:"Alvo Imobilizado por 1 rodada; você imune a Lentidão" },
+  { min:95, max:100, nome:"Eternidade (Zod)",       efeito:"Item indestrutível + Sucesso Crítico automático 1×/sessão" },
+];
+
+// ===================== FUNÇÕES =====================
+
+function step(txt) {
+  return `<div class="roll-step">${txt}</div>`;
+}
+
+function prefixo(nd) {
+  const cat = d(100);
+  let nome, efeito, catNome, subRoll;
+
+  if (cat <= 20) {
+    catNome = "Melhoria de Armadura";
+    subRoll = d(20) + nd;
+    const r = lookup(PREF_ARMADURA, subRoll);
+    nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 35) {
+    catNome = "Melhoria de Resistências";
+    subRoll = d(20) + nd;
+    const r = lookup(PREF_RESIST, subRoll);
+    nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 39) {
+    catNome = "Efeitos no Inimigo";
+    subRoll = d(20) + nd;
+    const r = lookup(PREF_INIMIGO, subRoll);
+    nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 54) {
+    catNome = "Utilidades e Maldições";
+    if (cat === 40) {
+      nome = "Exaustão"; efeito = "Descanso curto em metade do tempo + Imunidade a Exaustão";
+    } else if (cat <= 45) {
+      const r = d(6);
+      nome = "Perícia"; efeito = `+2 em testes de ${ATRIBUTOS[r-1]}`;
+    } else if (cat <= 49) {
+      const r = d(8) - 1;
+      nome = "Amaldiçoado"; efeito = MALDIÇÕES[r];
+    } else if (cat === 50) {
+      nome = "Caprichoso"; efeito = "Role 2× na tabela de prefixos e aplique ambos";
+    } else {
+      const r = d(6) - 1;
+      nome = "Visibilidade"; efeito = VISIBILIDADES[r];
+    }
+    subRoll = cat;
+  } else if (cat <= 60) {
+    catNome = "Fluxo de Mana";
+    subRoll = d(20) + nd;
+    const r = lookup(PREF_MANA, subRoll);
+    nome = r.nome; efeito = r.efeito;
+  } else {
+    catNome = "Atributos e Combate";
+    subRoll = cat;
+    if (cat <= 70) { nome = "Titânico";  efeito = "+3 em um Atributo à sua escolha"; }
+    else if (cat <= 77) { nome = "Preciso"; efeito = "+3 nos testes de Ataque"; }
+    else if (cat <= 89) { nome = "Brutal";  efeito = "+3 no Dano e Críticos em 19-20"; }
+    else { nome = "Imparável"; efeito = "+3 Ataque, +3 Dano e Crítico em 19-20"; }
+  }
+
+  return {
+    log: step(`<span class="dice">🎲 Prefixo d100 = ${cat}</span> → <b>${catNome}</b>: <b>${nome}</b>`),
+    nome, efeito
+  };
+}
+
+function sufixo(nd) {
+  const cat = d(100);
+  let nome, efeito, catNome, subRoll;
+
+  if (cat <= 20) {
+    catNome = "Redução de Dano"; subRoll = d(20) + nd;
+    const r = lookup(SUF_RD, subRoll); nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 27) {
+    catNome = "Reação Quando Atacado"; subRoll = d(20) + nd;
+    const r = lookup(SUF_REACAO, subRoll); nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 32) {
+    catNome = "Efeitos de Movimento"; subRoll = d(20) + nd;
+    const r = lookup(SUF_MOV, subRoll); nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 40) {
+    catNome = "Aumento de HP"; subRoll = d(20) + nd;
+    const r = lookup(SUF_HP, subRoll); nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 52) {
+    catNome = "Recuperação"; subRoll = d(20);
+    const r = lookup(SUF_REC, subRoll); nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 63) {
+    catNome = "Preparação Diária"; subRoll = d(20) + nd;
+    const r = lookup(SUF_DIARIO, subRoll); nome = r.nome; efeito = r.efeito;
+  } else if (cat <= 80) {
+    catNome = "Dano Extra"; subRoll = cat;
+    const r = lookup(SUF_DANO, subRoll); nome = r.nome; efeito = r.efeito;
+  } else {
+    catNome = "Efeito de Runa"; subRoll = cat;
+    const r = lookup(SUF_RUNA, subRoll); nome = r.nome; efeito = r.efeito;
+  }
+
+  return {
+    log: step(`<span class="dice">🎲 Sufixo d100 = ${cat}</span> → <b>${catNome}</b>: <b>${nome}</b>`),
+    nome, efeito
+  };
+}
+
+function afixos(qual, nd, logs) {
+  let pref = qual.pref, suf = qual.suf;
+  // Mágico: Prefixo OU Sufixo (50%)
+  if (qual.magOu) { if (Math.random() < 0.5) { pref = 0; suf = 1; } else { pref = 1; suf = 0; } }
+
+  const result = [];
+  for (let i = 0; i < pref; i++) {
+    const p = prefixo(nd);
+    logs.push(p.log);
+    result.push(`<div class="afixo"><span class="afixo-tipo">Prefixo</span> <b>${p.nome}</b> — ${p.efeito}</div>`);
+  }
+  for (let i = 0; i < suf; i++) {
+    const s = sufixo(nd);
+    logs.push(s.log);
+    result.push(`<div class="afixo"><span class="afixo-tipo">Sufixo</span> <b>${s.nome}</b> — ${s.efeito}</div>`);
+  }
+  return result.join("");
+}
+
+window.rolarTesouro = function() {
+  const nd = Math.max(1, Math.min(10, parseInt(document.getElementById('nd-input').value) || 1));
+  const logs = [];
+  let finalHtml = "";
+
+  const base = d(20);
+  logs.push(step(`<span class="dice">🎲 Tesouro Base d20 = ${base}</span>`));
+
+  if (base <= 6) {
+    finalHtml = `<div>💀 <b>Nada</b> — apenas poeira e ossos.</div>`;
+
+  } else if (base <= 10) {
+    const tipo = base <= 8 ? "Vida" : "Mana";
+    const pr = d(20) + nd;
+    logs.push(step(`<span class="dice">🎲 Poção d20+${nd} = ${pr}</span>`));
+    let desc;
+    if (pr <= 10)      desc = tipo === "Vida" ? "Normal — cura 1d4 PV" : "Normal — recupera 1d4 Mana";
+    else if (pr <= 20) desc = tipo === "Vida" ? "Forte — cura 2d4 PV"  : "Forte — recupera 2d4 Mana";
+    else if (pr <= 30) desc = tipo === "Vida" ? "Grande — cura 3d4 PV" : "Grande — recupera 3d4 Mana";
+    else               desc = tipo === "Vida" ? "Superior — cura tudo" : "Superior — recupera 4d4 Mana + Vantagem";
+    finalHtml = `<div>🧪 <b>Poção de ${tipo}</b> — ${desc}</div>`;
+
+  } else if (base <= 16) {
+    const dr = d(10);
+    const total = nd * dr;
+    logs.push(step(`<span class="dice">🎲 Ouro d10 = ${dr}</span> (Nível ${nd} × ${dr})`));
+    finalHtml = `<div>💰 <b>${total} moedas de ouro</b></div>`;
+
+  } else {
+    const dr = d(100);
+    logs.push(step(`<span class="dice">🎲 Equipamento d100 = ${dr}</span>`));
+
+    let nomeItem = "", qual;
+
+    if (dr <= 39) {
+      const arm = lookup(ARMADURAS, dr);
+      nomeItem = arm.nome;
+      const qr = d(20) + nd;
+      logs.push(step(`<span class="dice">🎲 Qualidade Armadura d20+${nd} = ${qr}</span>`));
+      qual = lookup(QUAL_ARMADURA, qr);
+
+      if (!qual.set) {
+        const pr = d(6);
+        const peca = PECAS[pr - 1];
+        logs.push(step(`<span class="dice">🎲 Peça d6 = ${pr}</span> → ${peca}`));
+        nomeItem += ` (${peca})`;
+      } else {
+        nomeItem += " (Set completo)";
+      }
+      nomeItem += ` — ${arm.tipo}, CA ${arm.ca}`;
+
+    } else if (dr <= 75) {
+      const arma = lookup(ARMAS_CC, dr);
+      nomeItem = `${arma.nome} (${arma.dano})`;
+      const qr = d(20) + nd;
+      logs.push(step(`<span class="dice">🎲 Qualidade d20+${nd} = ${qr}</span>`));
+      qual = lookup(QUAL_GERAL, qr);
+
+    } else if (dr <= 88) {
+      const arma = lookup(ARMAS_DIST, dr);
+      nomeItem = arma.nome;
+      const qr = d(20) + nd;
+      logs.push(step(`<span class="dice">🎲 Qualidade d20+${nd} = ${qr}</span>`));
+      qual = lookup(QUAL_GERAL, qr);
+
+    } else {
+      const joia = lookup(JOIAS, dr);
+      if (joia.especial) {
+        const esp = ESPECIAIS[Math.floor(Math.random() * ESPECIAIS.length)];
+        nomeItem = `${esp.item} (${esp.classe})`;
+        logs.push(step(`⭐ <b>Especial de Classe: ${esp.classe}</b>`));
+      } else {
+        nomeItem = joia.nome;
+      }
+      const qr = d(20) + nd;
+      logs.push(step(`<span class="dice">🎲 Qualidade d20+${nd} = ${qr}</span>`));
+      qual = lookup(QUAL_GERAL, qr);
+    }
+
+    const afixoHtml = qual ? afixos(qual, nd, logs) : "";
+    const css = qual ? qual.css : "q-normal";
+    const qNome = qual ? qual.q : "Normal";
+    finalHtml = `<div>🗡️ <span class="${css}"><b>${qNome}</b></span> <b>${nomeItem}</b>${afixoHtml}</div>`;
+  }
+
+  document.getElementById('resultado-tesouro').innerHTML = `
+    <div class="result-card">
+      <div>${logs.join("")}</div>
+      <div class="final-result">${finalHtml}</div>
+    </div>
+  `;
+};
+
+})();
+</script>

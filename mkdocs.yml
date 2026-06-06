@@ -87,6 +87,7 @@ nav:
   - Livro do Mestre:
     - Encontros: mestre/encontros.md
     - Tesouros e Itens: mestre/tesouros.md
+    - 🎲 Rolador de Tesouros: mestre/rolador-tesouros.md
     - Registro de Campanha: mestre/registro-campanha.md
     - Template de Cenário: mestre/template-cenario.md
   - Criaturas: criaturas.md
