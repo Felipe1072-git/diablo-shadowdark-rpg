@@ -569,8 +569,8 @@ Esta tabela é utilizada para determinar a propriedade mágica secundária de um
 
 | d20+ND | Sufixo | Efeito | Preço (PO) |
 | :---- | :---- | :---- | :---- |
-| **1-14** | de Espinhos | Atacante sofre 1d4 físico para cada ataque corpo a corpo contra o usuário | 1.000 |
-| **15+** | de Ferrão | Atacante sofre 2d4 físico para cada ataque corpo a corpo contra o usuário | 2.000 |
+| **1-14** | de Espinhos | Ao ser atingido em C.a.C.: atacante sofre 1d4 Físico automaticamente | 1.000 |
+| **15+** | de Ferrão | Ao ser atingido em C.a.C.: atacante sofre 2d4 Físico automaticamente | 2.000 |
 
 ### 3\. Efeitos de Movimento (28-32)
 

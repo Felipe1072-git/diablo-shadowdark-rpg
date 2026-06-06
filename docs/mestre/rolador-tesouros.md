@@ -231,8 +231,8 @@ const SUF_RD = [
   { min:30, max:999,nome:"da Deflexão",  efeito:"+5 RD em TODOS os tipos" },
 ];
 const SUF_REACAO = [
-  { min:1,  max:14, nome:"de Espinhos", efeito:"Atacante sofre 1d4 físico em ataques corpo a corpo" },
-  { min:15, max:999,nome:"de Ferrão",   efeito:"Atacante sofre 2d4 físico em ataques corpo a corpo" },
+  { min:1,  max:14, nome:"de Espinhos", efeito:"Ao ser atingido em C.a.C.: atacante sofre 1d4 Físico automaticamente" },
+  { min:15, max:999,nome:"de Ferrão",   efeito:"Ao ser atingido em C.a.C.: atacante sofre 2d4 Físico automaticamente" },
 ];
 const SUF_MOV = [
   { min:1,  max:14, nome:"do Passo",       efeito:"Corre o dobro com ◈ de movimento" },
