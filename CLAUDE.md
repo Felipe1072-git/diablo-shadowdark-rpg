@@ -94,7 +94,7 @@ Os cenários e fichas são documentos separados, não fazem parte do livro princ
 
 **Cada armadura tem CA própria (13–18)** — progressão de 1 ponto por nível de armadura:
 - **Couro** (Leve): CA 13, +Mod DES. · **Couro Reforçado** (Leve): CA 14, +Mod DES, RD 1 físico
-- **Brunea** (Média): CA 15, Requer FOR 11. · **Cota de Malha** (Média): CA 16, Requer FOR 11, RD 2 físico
+- **Brunea** (Média): CA 15, +Mod DES (máx +2), RD 1, Requer FOR 11. · **Cota de Malha** (Média): CA 16, +Mod DES (máx +2), RD 2, Requer FOR 11
 - **Meia-Placa** (Pesada): CA 17, Ruído, Requer FOR 13, RD 2 físico. · **Placa Completa** (Pesada): CA 18, Ruído, Requer FOR 13, RD 3 físico
 
 (Movimento Lento removido — considerado punitivo demais.)

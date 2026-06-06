@@ -84,12 +84,12 @@ Gerado para calibrar statblocks de criaturas. Atualizar se os Dados de Vida das 
 |---|---|---|---|---|---|
 | Couro | Leve | CA 13 (+Mod DES) | CA 14 (+Mod DES) | — | — |
 | Couro Reforçado | Leve | CA 14 (+Mod DES) | CA 15 (+Mod DES) | — | — |
-| Brunea | Média | CA 15 | CA 16 | CA 17 | — |
-| Cota de Malha | Média | CA 16 | CA 17 | CA 18 | — |
+| Brunea | Média | CA 15 (+DES máx+2), RD 1 | CA 16 (+DES máx+2) | CA 17 (+DES máx+2) | — |
+| Cota de Malha | Média | CA 16 (+DES máx+2), RD 2 | CA 17 (+DES máx+2) | CA 18 (+DES máx+2) | — |
 | Meia-Placa | Pesada | CA 17 | CA 18 | CA 19 | CA 20 |
 | Placa Completa | Pesada | CA 18 | CA 19 | CA 20 | **CA 21** |
 
-*Armaduras Leves somam Mod. DES. Escudo e Torre são Quebráveis. Torre penaliza DES e Movimento.*
+*Leves somam Mod. DES (sem limite). Médias somam Mod. DES (máx +2) e exigem FOR 11. Pesadas não somam DES e exigem FOR 13. Escudo e Torre são Quebráveis. Torre penaliza DES e Movimento.*
 
 **Potencial mínimo e máximo de CA por faixa de nível**
 

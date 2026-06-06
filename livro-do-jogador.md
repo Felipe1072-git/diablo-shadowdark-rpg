@@ -606,7 +606,7 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
 Cada peça de armadura contribui com um bônus à CA base 10. O valor de cada peça depende da armadura específica — misturar peças de armaduras diferentes é permitido; some os bônus normalmente. O Tipo (Leve/Média/Pesada) define as propriedades e os requisitos de classe.
 
-**Redução de Dano (RD):** ativa por peça equipada, não exige o set completo. Cada peça de Couro Reforçado, Cota de Malha, Meia-Placa ou Placa Completa que você veste contribui com a RD da armadura.
+**Redução de Dano (RD):** ativa por peça equipada, não exige o set completo. Cada peça de Couro Reforçado, Brunea, Cota de Malha, Meia-Placa ou Placa Completa que você veste contribui com a RD da armadura.
 
 | Peça | Couro | C. Reforçado | Brunea | C. Malha | Meia-Placa | Placa Compl. |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -617,7 +617,7 @@ Cada peça de armadura contribui com um bônus à CA base 10. O valor de cada pe
 | **Botas** | \+0 | \+0 | \+0 | \+0 | \+0 | \+1 |
 | **Set completo** | **CA 13** | **CA 14** | **CA 15** | **CA 16** | **CA 17** | **CA 18** |
 | **Tipo** | Leve | Leve | Média | Média | Pesada | Pesada |
-| **Prop. do Tipo** | \+Mod DES | \+Mod DES, RD 1 | Req. FOR 11 | Req. FOR 11, RD 2 | Ruído, Req. FOR 13, RD 2 | Ruído, Req. FOR 13, RD 3 |
+| **Prop. do Tipo** | \+Mod DES | \+Mod DES, RD 1 | \+Mod DES (máx \+2), RD 1, Req. FOR 11 | \+Mod DES (máx \+2), RD 2, Req. FOR 11 | Ruído, Req. FOR 13, RD 2 | Ruído, Req. FOR 13, RD 3 |
 | **Preço (set)** | 10 po | 45 po | 50 po | 400 po | 750 po | 1500 po |
 
 ### **Escudos**

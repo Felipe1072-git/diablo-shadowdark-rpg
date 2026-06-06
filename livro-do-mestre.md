@@ -281,7 +281,7 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | **01-08** | Couro | Leve | 13 | — | — | 10 |
 | **09-12** | Couro Reforçado | Leve | 14 | 1 físico | — | 45 |
-| **13-22** | Brunea | Média | 15 | — | FOR 11 | 50 |
+| **13-22** | Brunea | Média | 15 | 1 físico | FOR 11 | 50 |
 | **23-27** | Cota de Malha | Média | 16 | 2 físico | FOR 11 | 400 |
 | **28-31** | Meia-Placa | Pesada | 17 | 2 físico | FOR 13 | 750 |
 | **32-34** | Placa Completa | Pesada | 18 | 3 físico | FOR 13 | 1500 |
