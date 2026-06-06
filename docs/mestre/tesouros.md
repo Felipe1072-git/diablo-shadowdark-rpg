@@ -713,6 +713,68 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Jade Harvester *(Feiticeiro — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Jade Harvester's Wisdom** | Elmo | \+2 CA; Colheita de Almas drena também 1d4 HP por inimigo |
+| **Jade Harvester's Peace** | Peitoral (Leve) | \+2 CA; Invasão de Sapos dura \+1d4 rodadas |
+| **Jade Harvester's Joy** | Perneiras | \+1 CA; Nuvem de Gafanhotos causa \+1d6 extra no primeiro turno de cada alvo |
+| **Jade Harvester's Mercy** | Luvas | \+1 conjuração; ao usar Colheita de Almas, cada inimigo drenado também recebe Veneno (1d4/turno, 3 turnos) |
+
+**Bônus de Set:**
+- *2 peças:* Mestre das Pragas: veneno dura \+2 rodadas a mais (em vez de \+1)
+- *4 peças:* ao usar Colheita de Almas, cada inimigo drenado explode em nuvem de veneno — todos os Adjacentes ao alvo sofrem 1d6 Veneno imediato
+
+---
+
+#### Zunimassa's Haunt *(Feiticeiro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Zunimassa's Marrow** | Elmo | \+2 CA; Cães Zumbis têm HP = Nível×2 (em vez de Nível) |
+| **Zunimassa's Cloth** | Peitoral (Leve) | \+2 CA; ressuscitar Cães Zumbis custa 0 Mana |
+| **Zunimassa's Finger Wraps** | Luvas | \+1 conjuração; Gargântua — *sem o talento:* set concede acesso; *com o talento:* HP = Nível×4 e dano 3d8 |
+| **Zunimassa's Trail** | Perneiras | \+1 CA; Cães Zumbis e Gargântua não provocam ataques de oportunidade ao se mover |
+| **Zunimassa's Pox** | Cinto | 4 slots; ao matar com lacaio, ele explode em 1d6 Necrótico para todos Adjacentes |
+
+**Bônus de Set:**
+- *2 peças:* você começa com 3 Cães Zumbis (em vez de 2)
+- *5 peças:* agir com todos os lacaios (◈) torna-se Ação Livre (◇) — você comanda a horda e ainda age normalmente
+
+---
+
+#### Helltooth Harness *(Feiticeiro — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Helltooth Helmet** | Elmo | \+2 CA; Parede de Zumbis dura \+1d4 rodadas |
+| **Helltooth Chest** | Peitoral (Leve) | \+2 CA; Parede de Zumbis causa \+1d8 extra e pode ser posicionada em qualquer configuração |
+| **Helltooth Gauntlets** | Luvas | \+1 conjuração; Garras dos Mortos — *sem o talento:* set concede acesso; *com o talento:* prende por 1d4\+2 rodadas e causa \+1d4 extra |
+| **Helltooth Leg Guards** | Perneiras | \+1 CA; inimigos presos pelas Garras dos Mortos têm Desvantagem em todos os testes enquanto presos |
+
+**Bônus de Set:**
+- *2 peças:* Garras dos Mortos e Parede de Zumbis custam 1 Mana a menos cada
+- *4 peças:* inimigos Adjacentes à Parede de Zumbis ficam automaticamente presos pelas Garras dos Mortos (sem custo adicional) — a combinação é Ação Livre (◇) se ambas já estiverem ativas
+
+---
+
+#### Arachyr's Carapace *(Feiticeiro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Arachyr's Mantle** | Elmo | \+2 CA; Invasão de Sapos envenena (1d4/turno) todo inimigo que entrar na área |
+| **Arachyr's Shell** | Peitoral (Leve) | \+2 CA; Piranhas — *sem o talento:* set concede acesso; *com o talento:* o dano extra de todas as fontes aumenta de 1d4 para 1d6 |
+| **Arachyr's Claws** | Luvas | \+1 conjuração; Nuvem de Gafanhotos salta automaticamente para um alvo Próximo adicional a cada turno |
+| **Arachyr's Legs** | Perneiras | \+1 CA; ao se dissipar, qualquer área ativa causa 1d8 Veneno em todos ainda dentro dela |
+| **Arachyr's Girdle** | Cinto | 4 slots; ao ativar qualquer habilidade de área, recupere 1d4 Mana |
+
+**Bônus de Set:**
+- *2 peças:* Invasão de Sapos e Nuvem de Gafanhotos podem estar ativas simultaneamente
+- *5 peças:* ao ativar qualquer habilidade de área, todas as áreas ativas causam seu dano imediatamente em todos os inimigos dentro delas — efeito em cascata uma vez por turno como Ação Livre (◇)
+
+---
+
 #### Tal Rasha's Wrappings *(Mago · Arcanista — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
