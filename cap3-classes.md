@@ -32,6 +32,44 @@ Cada classe neste sistema foi desenhada para representar um arquétipo clássico
 * **Atributo Principal:** O pilar mecânico da classe. Define o sucesso em testes de habilidade e o poder das suas técnicas.  
 * **Habilidades de Classe:** As características únicas que definem o estilo de jogo, sejam elas técnicas de combate, magias ou talentos passivos.
 
+### O Atributo Primário
+
+O atributo primário de cada classe controla quatro coisas ao mesmo tempo:
+
+| Função | Fórmula |
+| :---- | :---- |
+| **Mana máximo** | 10 + Mod. Primário + Nível |
+| **DC de resistência** | 10 + Mod. Primário |
+| **Testes dos lacaios** | Mod. Primário (ATK e testes) |
+| **Mecânicas exclusivas** | Varia por classe (CA alternativa, limite de summons, etc.) |
+
+> Classes com dois atributos (ex: FOR ou CON) escolhem um na criação. O escolhido define Mana, DC e testes de lacaios.
+
+**Atributos Primários — Visão Geral**
+
+| Classe | Atributo Principal | Mecânica exclusiva principal |
+| :---- | :---- | :---- |
+| Amazona | DEX ou FOR | Ataques com haste e dano da Valkíria usam Mod. Primário |
+| Arcanista | INT | CA alternativa = 10 + INT; cargas arcanas |
+| Assassina | DES | Ataques e dano com garras/adagas |
+| Bárbaro | FOR ou CON | CON: Nervos de Aço (CON na CA passivo); FOR: ataques/dano |
+| Caçador de Demônios | DES | Ataques e dano à distância; DC das armadilhas |
+| Cavaleiro de Sangue | FOR ou CON | FOR: ataques/dano com lança |
+| Cruzado | FOR ou SAB | SAB: conjuração via Magia Divina (mesmo escolhendo FOR) |
+| Druida | SAB | Rolagem de Transmutar; lacaios usam SAB |
+| Natispirito | DES ou SAB | DES: ataques com haste; SAB: feitiços |
+| Feiticeiro | CAR ou INT | Lacaios usam Atributo Primário; feitiços de área |
+| Guerreiro | FOR ou CON | FOR: ataques/dano; CON: resistência |
+| Mago | INT | Afinidade Elemental; Sobrecarga Sanguínea; Mestria Elemental |
+| Monge | DES ou SAB | CA = 10 + DES + SAB (usa ambos); Espírito em Fluxo usa SAB |
+| Necromante | INT ou SAB | Limite de lacaios = Mod. Primário + Nível |
+| Paladino | FOR ou CAR | CAR: conjuração via Magia Divina (mesmo escolhendo FOR) |
+| Renegada | DES | Ataques e dano com garras/adagas; DC das armadilhas |
+| Sacerdote | SAB | Conjuração e cura via Oração Purificadora |
+| Warlock | INT ou CAR | Arma flutuante usa INT ou CAR; lacaios usam Atributo Primário |
+
+---
+
 ### Regras Universais de Classe
 
 **DC de Resistência:** Sempre que uma habilidade forçar um inimigo a fazer um teste de resistência, a dificuldade é **DC = 10 + Modificador do Atributo Primário** da classe. Essa fórmula se aplica a todas as classes salvo indicação contrária explícita no texto da habilidade.

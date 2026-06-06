@@ -117,9 +117,124 @@
 
 ---
 
+## Calibração de Encontros
+
+### Parâmetros de PV por Tier
+
+| Tier | PV alvo | Referência |
+| :---- | :---- | :---- |
+| Minion (Caído, Rato) | 3–8 | Morre em 1 ataque de qualquer PJ |
+| Padrão (Vampiro Aprendiz, Verme) | 10–20 | Morre em 2–3 ataques |
+| Elite (Vampiro Superior, Clã da Lua) | 30–55 | Sobrevive 1 rodada completa do grupo |
+| Chefe | 60–100+ | Aguenta 2–3 rodadas, exige estratégia |
+
+### ATK dos Monstros por Faixa de Nível
+
+Objetivo: monstro acerta um guerreiro típico em ~55–65% dos ataques.
+
+| Nível do encontro | Minion | Padrão | Elite | Chefe | Chefe de Ato | Prime Evil |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| 1 | +2 | +3 | — | — | — | — |
+| 2–4 | +3 | +4 | +5 | +6 | — | — |
+| 5–7 | +4 | +5 | +6 | +7 | +10 | — |
+| 8+ | +5 | +6 | +7 | +8–+9 | +10–+11 | +13 |
+
+### Dano dos Monstros por Faixa de Nível *(por acerto, grupo de 4–5 jogadores)*
+
+Calibrado para: Minion elimina um caster em 1–2 acertos; Padrão pressiona qualquer PJ em 2–3; Elite é ameaça severa; Chefe pode one-shot casters e elimina tanques em 2–3 acertos.
+
+| Nível do encontro | Minion | Padrão | Elite | Chefe |
+| :---- | :---- | :---- | :---- | :---- |
+| 1 | 2–3 | 4–6 | 7–10 | 11–15 |
+| 2–4 | 3–5 | 6–9 | 10–14 | 15–20 |
+| 5–7 | 5–8 | 9–13 | 14–20 | 21–28 |
+| 8–10 | 7–10 | 12–16 | 18–25 | 28–40 |
+
+### DC de Salvaguardas Recomendadas
+
+Salvaguardas usam `1d20 + mod do atributo ≥ DC` — sem bônus de nível.
+
+| Nível do encontro | Fácil | Moderado | Severo | Mortal |
+| :---- | :---- | :---- | :---- | :---- |
+| 1 | DC 10 | DC 12 | DC 15 | DC 18 |
+| 2–4 | DC 11 | DC 13 | DC 16 | DC 19 |
+| 5–7 | DC 12 | DC 14 | DC 17 | DC 20 |
+| 8–10 | DC 13 | DC 15 | DC 18 | DC 21 |
+
+*Com mod +3 (atributo primário típico): Fácil ~70% · Moderado ~60% · Severo ~45% · Mortal ~30%*
+
+### RD Recomendada para Monstros
+
+| Arquétipo | RD Física | Imune a | Vulnerável a |
+| :---- | :---- | :---- | :---- |
+| **Humanoide** (bandido, cultista) | 0/1/2/3 | — | — |
+| **Demônio** (Caído, Goatman) | 0/1/2/3 | Fogo (Elite+), Veneno | Gelo |
+| **Não-morto** (esqueleto, vampiro) | 0/1/2/3 | Necrótico, Veneno | Radiante |
+| **Construto** (Golem) | 2/3/5/8 | Veneno, Psíquico | Arcano |
+| **Espectro / Fantasma** | Imune | Físico, Necrótico | Radiante |
+| **Elemental** | 0/0/1/2 | Próprio elemento | Elemento oposto |
+| **Abissal / Angelical** | 2/3/5/8 | Necrótico ou Radiante | Tipo oposto |
+
+*RD no formato Minion/Padrão/Elite/Chefe.*
+
+**Imunidade:** o monstro toma 0 de dano desse tipo. Reservar para identidade temática forte.
+
+**Vulnerabilidade:** o monstro toma **+Nível do PJ** de dano extra ao ser atingido pelo tipo fraco. Cada atacante soma seu próprio nível individualmente.
+
+> *Exemplo:* Paladino nível 5 acerta um Vampiro vulnerável a Radiante com 8 de dano → toma 13 (8 + 5).
+
+### Probabilidade de Acerto — ATK × CA
+
+*1 no d20 = sempre erra (máx 95%). 20 no d20 = sempre acerta (mín 5%).*
+
+| ATK \ CA | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| +2 | 50% | 45% | 40% | 35% | 30% | 25% | 20% | 15% | 10% |
+| +3 | 55% | 50% | 45% | 40% | 35% | 30% | 25% | 20% | 15% |
+| +4 | 60% | 55% | 50% | 45% | 40% | 35% | 30% | 25% | 20% |
+| +5 | 65% | 60% | 55% | 50% | 45% | 40% | 35% | 30% | 25% |
+| +6 | 70% | 65% | 60% | 55% | 50% | 45% | 40% | 35% | 30% |
+| +7 | 75% | 70% | 65% | 60% | 55% | 50% | 45% | 40% | 35% |
+| +8 | 80% | 75% | 70% | 65% | 60% | 55% | 50% | 45% | 40% |
+| +9 | 85% | 80% | 75% | 70% | 65% | 60% | 55% | 50% | 45% |
+| +10 | 90% | 85% | 80% | 75% | 70% | 65% | 60% | 55% | 50% |
+| +13 | 95% | 95% | 95% | 90% | 85% | 80% | 75% | 70% | 65% |
+
+*Prime Evil (+13) acerta CA 21 em 65% — desafiador mesmo contra um tanque com Defesa Total.*
+
+---
+
 # Cap. 2 — Tesouros e Itens
 
 > **ND (Nível de Dificuldade):** sempre que uma tabela pedir `1d20 + ND`, some o **nível médio do grupo** (arredondado para baixo) ao resultado do dado. Exemplo: grupo no nível 5 rola 1d20 e obtém 8 → resultado final 13.
+
+## Riqueza Esperada por Nível
+
+Fórmula padrão: **Nível Médio × 1d10** ouro por achado de tesouro (média: Nível × 5,5 po).
+
+| Nível | Por achado (méd.) | Por sessão (~3 achados) | Acumulado (3 sessões) |
+| :---- | :---- | :---- | :---- |
+| 1 | 5 po | 15 po | 45 po |
+| 2 | 11 po | 33 po | 99 po |
+| 3 | 16 po | 48 po | 144 po |
+| 4 | 22 po | 66 po | 198 po |
+| 5 | 27 po | 81 po | 243 po |
+| 6 | 33 po | 99 po | 297 po |
+| 7 | 38 po | 114 po | 342 po |
+| 8 | 44 po | 132 po | 396 po |
+| 9 | 49 po | 147 po | 441 po |
+| 10 | 55 po | 165 po | 495 po |
+
+**Marcos de compra** *(quando o grupo consegue pagar, em média)*
+
+| Item | Preço | Nível típico |
+| :---- | :---- | :---- |
+| Couro Reforçado ou Brunea | 45–50 po | Nível 1–2 |
+| Slot Especial de Classe (barato) | 50–75 po | Nível 2–3 |
+| Slot Especial de Classe (caro) | 150–200 po | Nível 4–5 |
+| Cota de Malha | 400 po | Nível 6–7 |
+| Meia-Placa | 750 po | Nível 8–9 |
+| Placa Completa | 1.500 po | Nível 10+ |
 
 Para cada monstro derrotado pelos jogadores, role na tabela de tesouros abaixo. Esta tabela fractal de tesouros pode revelar alguns itens surpreendentemente poderosos. Somando o valor em ouro de cada aspecto do tesouro, você pode obter um custo que pode ser usado para negociar com mercadores. Lembre-se de que só porque um personagem encontra um tesouro não significa que ele saiba o que ele faz. Os personagens precisarão que ele seja identificado na cidade ou que tenha meios de identificá-lo por conta própria. Sem isso, o tesouro só é tão útil quanto sua contraparte mundana.
 
