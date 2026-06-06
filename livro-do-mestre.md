@@ -981,6 +981,68 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Tancred's Battlegear *(Caçador de Demônios — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Tancred's Spine** | Elmo | \+2 CA; após usar habilidade de Disciplina, o desconto de \-1 Mana em Ódio dura até o fim do turno seguinte |
+| **Tancred's Hobnails** | Peitoral (Média) | \+2 CA, RD 1; Flecha Faminta causa \+1d6 extra em cada inimigo atravessado |
+| **Tancred's Crowbill** | Machado de Mão (1d6) | \+2 Ataque; ao matar com habilidade de Ódio, recupera 1d6 Mana (em vez de 1d4) |
+| **Tancred's Weird** | Amuleto | Inimigo Jurado: Vantagem também contra Bestas e Humanoides Corrompidos |
+
+**Bônus de Set:**
+- *2 peças:* usar habilidade de Disciplina seguida de habilidade de Ódio no mesmo turno não provoca ataques de oportunidade
+- *4 peças:* toda vez que você usar uma habilidade de Disciplina, a próxima habilidade de Ódio do turno é Ação Livre (◇)
+
+---
+
+#### Marauder's *(Caçador de Demônios — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Marauder's Visage** | Elmo | \+2 CA; Sentinela causa \+1d6 extra ao disparar |
+| **Marauder's Carapace** | Peitoral (Média) | \+2 CA, RD 1; você pode colocar 2 Sentinelas por ◈ (em vez de 1) |
+| **Marauder's Gloves** | Luvas | \+1 ataque; Companheiro Animal — *sem o talento:* set concede acesso; *com o talento:* HP = Nível×3 e dano 1d8 |
+| **Marauder's Encasement** | Perneiras | \+1 CA; Sentinelas disparam também quando um inimigo sair do alcance |
+| **Marauder's Spines** | Cinto | 4 slots; ao colocar uma Sentinela, todas as Sentinelas ativas disparam imediatamente em inimigos Próximo |
+
+**Bônus de Set:**
+- *2 peças:* você pode ter até 3 Sentinelas ativas simultaneamente (em vez de 1)
+- *5 peças:* Sentinelas tornam-se permanentes até serem destruídas — não são mais de uso único; cada uma tem CA 12 e HP = Nível
+
+---
+
+#### Unhallowed Essence *(Caçador de Demônios — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Unhallowed Visage** | Elmo | \+2 CA; Flecha Faminta — *sem o talento:* já é habilidade de classe; *com o talento:* também atravessa inimigos em cone (área Próximo à frente) |
+| **Unhallowed Pauldrons** | Peitoral (Média) | \+2 CA, RD 1; Atirador de Elite — *sem o talento:* set concede acesso; *com o talento:* aplica mesmo se você se moveu apenas 1 zona |
+| **Unhallowed Gloves** | Luvas | \+2 ataque; cada habilidade de Ódio usada consecutivamente causa \+1d4 cumulativo de dano extra (máx \+3d4) |
+| **Unhallowed Breeches** | Perneiras | \+1 CA; Salto Mortal — *sem o talento:* set concede acesso; *com o talento:* custa 0 Mana |
+| **Unhallowed Burden** | Cinto | 4 slots; ao zerar Mana, recupera 3 Mana imediatamente (uma vez por cena) |
+
+**Bônus de Set:**
+- *2 peças:* habilidades de Ódio custam 1 Mana a menos (adicional ao desconto de Disciplina — podem chegar a 0)
+- *5 peças:* quando o desconto de Disciplina está ativo, todas as habilidades de Ódio do turno custam 0 Mana
+
+---
+
+#### Gears of Dreadlands *(Caçador de Demônios — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Dreadlands Mask** | Elmo | \+2 CA; Tiro Rápido — *sem o talento:* set concede acesso; *com o talento:* faz 3 ataques em vez de 2 |
+| **Dreadlands Chest** | Peitoral (Média) | \+2 CA, RD 1; ao usar Tiro Rápido, os ataques ignoram Cobertura |
+| **Dreadlands Gloves** | Luvas | \+2 ataque; Bestas de Mão — *sem o talento:* set concede acesso; *com o talento:* o ataque extra causa \+1d6 Físico |
+| **Dreadlands Breeches** | Perneiras | \+1 CA; ao usar Salto Mortal seguido de ataque no mesmo turno, o ataque tem Vantagem e causa \+1d8 Físico |
+
+**Bônus de Set:**
+- *2 peças:* Tiro Rápido torna-se ◈ em vez de ◈◈ — mover e atacar duas vezes numa única ação
+- *4 peças:* Tiro Rápido torna-se Ação Livre (◇) — use ◈◈ para dois ataques normais e ◇ para Tiro Rápido no mesmo turno
+
+---
+
 #### Tal Rasha's Wrappings *(Mago · Arcanista — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
