@@ -9,6 +9,8 @@ Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas 
   <input type="number" id="nd-input" min="1" max="10" value="1">
   <button onclick="rolarTesouro()" class="roll-btn">🎲 Rolar Tesouro</button>
   <button onclick="rolarTesouro()" class="roll-btn roll-btn-sec">🔁 Rolar Novamente</button>
+  <button onclick="rolarTesouro({forceSet:true})" class="roll-btn roll-btn-test">🧪 Testar Set</button>
+  <button onclick="rolarTesouro({forceCaprichoso:true})" class="roll-btn roll-btn-test">🧪 Testar Caprichoso</button>
 </div>
 
 <div id="resultado-tesouro"></div>
@@ -33,6 +35,8 @@ Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas 
 .roll-btn:hover { background: #ff5722; }
 .roll-btn-sec { background: #555; }
 .roll-btn-sec:hover { background: #777; }
+.roll-btn-test { background: #2a6b2a; font-size: 0.85rem; padding: 6px 14px; }
+.roll-btn-test:hover { background: #3a8f3a; }
 .result-card {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1rem;
@@ -436,7 +440,7 @@ function afixos(qual, nd, logs) {
   const htmlParts = [];
 
   for (let i = 0; i < pref; i++) {
-    const p = prefixo(nd);
+    const p = (i === 0 && window._forceCaprichoso) ? { log: step(`<span class="dice">🎲 Prefixo d100 = 50</span> → <b>Utilidades e Maldições</b>: <b>Caprichoso</b>`), nome:"Caprichoso", titulo:"Caprichoso", efeito:"Role 2× na tabela de prefixos e aplique ambos" } : prefixo(nd);
     logs.push(p.log);
     prefTitulos.push(p.titulo);
     htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo</span> <b>${p.nome}</b> — ${p.efeito}</div>`);
@@ -458,12 +462,20 @@ function afixos(qual, nd, logs) {
   return { html: htmlParts.join(""), prefTitulos, sufTitulos };
 }
 
-window.rolarTesouro = function() {
+window.rolarTesouro = function(opts = {}) {
   const nd = Math.max(1, Math.min(10, parseInt(document.getElementById('nd-input').value) || 1));
   const logs = [];
   let finalHtml = "";
 
-  const base = d(20);
+  // Modo de teste: força cenários específicos
+  if (opts.forceSet) {
+    logs.push(step(`<span style="color:#3a8f3a;">🧪 MODO TESTE — forçando Set Completo</span>`));
+  }
+  if (opts.forceCaprichoso) {
+    logs.push(step(`<span style="color:#3a8f3a;">🧪 MODO TESTE — forçando Caprichoso</span>`));
+  }
+
+  const base = opts.forceSet || opts.forceCaprichoso ? 20 : d(20);
   logs.push(step(`<span class="dice">🎲 Tesouro Base d20 = ${base}</span>`));
 
   if (base <= 6) {
@@ -487,7 +499,7 @@ window.rolarTesouro = function() {
     finalHtml = `<div>💰 <b>${total} moedas de ouro</b></div>`;
 
   } else {
-    const dr = d(100);
+    const dr = opts.forceSet || opts.forceCaprichoso ? 20 : d(100);
     logs.push(step(`<span class="dice">🎲 Equipamento d100 = ${dr}</span>`));
 
     let nomeBase = "", infoItem = "", qual, setHandled = false;
@@ -495,7 +507,8 @@ window.rolarTesouro = function() {
     if (dr <= 39) {
       const arm = lookup(ARMADURAS, dr);
       nomeBase = arm.nome;
-      const qr = d(20) + nd;
+      // forceSet: força qualidade de Set Raro (qr=29); forceCaprichoso: força Mágica normal
+      const qr = opts.forceSet ? 29 : (d(20) + nd);
       logs.push(step(`<span class="dice">🎲 Qualidade Armadura d20+${nd} = ${qr}</span>`));
       qual = lookup(QUAL_ARMADURA, qr);
 
@@ -570,9 +583,13 @@ window.rolarTesouro = function() {
     }
 
     if (!setHandled) {
+      // forceCaprichoso: injeta cat=50 na primeira rolagem de prefixo
+      if (opts.forceCaprichoso && qual && qual.pref === 0) qual = { ...qual, pref: 1, suf: 0 };
+      if (opts.forceCaprichoso) window._forceCaprichoso = true;
       const { html: afixoHtml, prefTitulos, sufTitulos } = qual
         ? afixos(qual, nd, logs)
         : { html: "", prefTitulos: [], sufTitulos: [] };
+      window._forceCaprichoso = false;
 
       const css   = qual ? qual.css : "q-normal";
       const qNome = qual ? qual.q   : "Normal";
