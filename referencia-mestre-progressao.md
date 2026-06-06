@@ -309,6 +309,61 @@ Fórmula do LdM: **Nível Médio × 1d10** ouro por achado de tesouro (média: N
 
 ---
 
+## Atributos Primários por Classe
+
+### O que o Atributo Primário faz
+
+O atributo primário de uma classe determina quatro coisas no sistema:
+
+| Função | Fórmula | Aplicação |
+|---|---|---|
+| **Mana** | 10 + Mod. Primário + Nível | Pool de recursos de todas as classes |
+| **DC de Resistência** | 10 + Mod. Primário | Salvaguardas contra habilidades da classe |
+| **Testes dos lacaios** | Mod. Primário | Ataque e testes dos summons |
+| **Mecânicas exclusivas** | Varia por classe | CA alternativa, limite de lacaios, dano, etc. |
+
+> Classes com **dois** atributos primários (ex: FOR ou CON) devem escolher um na criação do personagem. O escolhido define Mana, DC e testes de lacaios. O outro permanece útil para mecânicas específicas daquela classe.
+
+---
+
+### Tabela de Atributos Primários
+
+| Classe | Atributo Principal | Mana / DC | Mecânica exclusiva que usa o atributo | Lacaio usa | ⚠️ Observação |
+|---|---|---|---|---|---|
+| **Amazona** | DEX ou FOR | ✅ | DEX: ataques com haste (Polivalente) e dano da Valkíria | DEX hardcoded | Valkíria hardcoded em DEX — problema se build FOR |
+| **Arcanista** | INT | ✅ | CA alternativa (INT em vez de DES); cargas arcanas | N/A | Integração forte — INT afeta CA, Mana, DC e dano |
+| **Assassina** | DES | ✅ | Ataques e dano com garras/adagas | N/A | "DES e INT" no texto — INT não aparece em nenhuma mecânica |
+| **Bárbaro** | FOR ou CON | ✅ | CON: Nervos de Aço (CON na CA); FOR: ataques/dano | N/A | Incentiva investir nos dois — diluição do primário |
+| **Caçador de Demônios** | DES | ✅ | Ataques e dano à distância | DES ✓ | Consistente |
+| **Cavaleiro de Sangue** | FOR ou CON | ✅ | FOR: ataques/dano com lança; CON: durabilidade | N/A | Consistente |
+| **Cruzado** | FOR ou SAB | ✅ | FOR: ataques/dano; SAB: conjuração (Magia Divina fixa em SAB) | N/A | Magia Divina usa SAB fixo — se build FOR, spells ficam em atributo separado |
+| **Druida** | SAB | ✅ | Transmutar (rolagem de SAB); lacaios usam SAB | SAB ✓ | Consistente |
+| **Natispirito** | DES ou SAB | ✅ | DES: ataques com haste; SAB: feitiços | N/A | Dual sem lacaios — OK |
+| **Feiticeiro** | CAR ou INT | ✅ | Lacaios usam CAR hardcoded; feitiços de área | CAR hardcoded | Se build INT, lacaios usam o atributo errado |
+| **Guerreiro** | FOR ou CON | ✅ | FOR: ataques/dano; CON: resistência | N/A | Consistente |
+| **Mago** | INT | ✅ | Afinidade elemental; Sobrecarga Sanguínea; Mestria Elemental | N/A | Integração forte |
+| **Monge** | DES ou SAB | ✅ | CA = 10 + DES + SAB (usa os dois); Espírito em Fluxo usa SAB | N/A | Único que usa ambos na CA simultaneamente |
+| **Necromante** | INT ou SAB | ✅ | Limite de lacaios = Mod. INT + Nível (hardcoded); lacaios usam INT | INT hardcoded | Se build SAB, limite de esqueletos ainda usa INT — problema grave |
+| **Paladino** | FOR ou CAR | ✅ | FOR: ataques/dano; CAR: conjuração (Magia Divina fixa em CAR) | N/A | Igual ao Cruzado — Magia Divina usa CAR fixo |
+| **Renegada** | DES e INT | ✅ | DES: ataques e dano; INT: não aparece em nenhuma mecânica | N/A | "e" em vez de "ou" — INT sem função definida |
+| **Sacerdote** | SAB | ✅ | Conjuração e cura via Oração Purificadora | N/A | Consistente |
+| **Warlock** | INT ou CAR | ✅ | Arma flutuante usa INT ou CAR; lacaios usam INT hardcoded | INT hardcoded | Se build CAR, lacaios usam o atributo errado |
+
+---
+
+### Problemas de consistência identificados
+
+| # | Classe | Problema | Impacto |
+|---|---|---|---|
+| 1 | **Renegada** | "DES **e** INT" — INT não tem função mecânica na classe | Jogador investiu em INT sem retorno |
+| 2 | **Necromante** | Limite de lacaios hardcoded em INT (`Mod. INT + Nível`) — build SAB perde metade da identidade | Alto — build SAB tem poucos lacaios |
+| 3 | **Warlock** | Lacaios hardcoded em INT — build CAR perde sinergia | Médio — a arma flutuante compensa |
+| 4 | **Feiticeiro** | Lacaios hardcoded em CAR — build INT perde sinergia | Médio |
+| 5 | **Amazona** | Valkíria hardcoded em DEX — build FOR usa atributo secundário no lacaio | Baixo — ultimate de 1 uso |
+| 6 | **Cruzado / Paladino** | Magia Divina hardcoded (SAB/CAR respectivamente) — separa builds híbridos | Baixo — spells são secundários |
+
+---
+
 ## Parâmetros de Balanceamento de Criaturas *(grupo de 4–5 jogadores)*
 
 | Tier | PV alvo | Referência |
