@@ -913,6 +913,50 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Cathan's Traps *(Arcanista — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Cathan's Rule** | Cajado (1d6) | \+2 conjuração; Mísseis Arcanos dispara \+1 dardo extra sem custo |
+| **Cathan's Mesh** | Peitoral — Couro Reforçado | \+1 CA; Torrente Arcana — *sem o talento:* set concede acesso; *com o talento:* bônus sobe para \+1d6 Arcano em vez de \+1d4 |
+| **Cathan's Visage** | Elmo — Couro | \+1 CA, \+2 INT; limite máximo do Dínamo Arcano sobe em \+2 |
+| **Cathan's Seal** | Anel | \+1 conjuração; cada Carga Arcana gasta concede \+3 dano em vez de \+2 |
+
+**Bônus de Set:**
+- *2 peças:* enquanto imóvel, você acumula 1 Carga Arcana extra por turno automaticamente
+- *4 peças:* Mísseis Arcanos pode ser usado como ◇ (ação livre) uma vez por turno se você não se moveu
+
+---
+
+#### Naj's Ancient Vestige *(Arcanista — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Naj's Puzzler** | Cajado (1d6) | \+2 conjuração; Teleporte — *sem o talento:* set concede acesso; *com o talento:* pode se teleportar até Distante (em vez de Próximo) |
+| **Naj's Light Plate** | Peitoral — Couro Reforçado | \+2 CA; Lente Arcana — *sem o talento:* set concede acesso; *com o talento:* feitiços com alcance Distante ignoram cobertura e podem afetar alvos além de Distante se visíveis |
+| **Naj's Circlet** | Elmo — Couro | \+1 CA, \+2 INT; após usar Teleporte, seu próximo feitiço tem Vantagem no teste de conjuração |
+
+**Bônus de Set:**
+- *2 peças:* Teleporte custa 0 Mana
+- *3 peças:* ao se teleportar, você pode levar 1 aliado Próximo junto (sem custo extra)
+
+---
+
+#### Vyr's Amazing Arcana *(Arcanista — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Vyr's Grasping Gauntlets** | Luvas — Couro | \+1 conjuração; Arconte — *sem o talento:* set concede acesso; *com o talento:* bônus de dano sobe de \+5 para \+7 |
+| **Vyr's Proud Pauldrons** | Peitoral — Couro | \+2 CA; durante Arconte, seus feitiços têm Vantagem no teste de conjuração |
+| **Vyr's Sightless Skull** | Elmo — Couro | \+1 CA, \+2 INT; Arconte dura 1d4\+2 rodadas em vez de 1d4 |
+| **Vyr's Swaggering Stance** | Perneiras — Couro | \+1 CA; durante Arconte, Dínamo Arcano acumula 2 Cargas por teste bem-sucedido em vez de 1 |
+
+**Bônus de Set:**
+- *2 peças:* ao entrar em Arconte, recupera 3 de Mana imediatamente
+- *4 peças:* Arconte pode ser ativado sem custo de Mana uma vez por descanso longo
+
+---
+
 #### Natalya's Odium *(Assassina · Renegada — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
