@@ -837,6 +837,67 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Arcanna's Tricks *(Mago — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Arcanna's Deathwand** | Varinha (1d4) | \+2 conjuração; Sobrecarga Sanguínea custa 1 HP por ponto (em vez de 1d4 por ponto) |
+| **Arcanna's Head** | Elmo | \+2 CA; ao usar Sobrecarga Sanguínea, Mestria Elemental explode também no penúltimo valor (d6: 5–6; d8: 7–8; d10: 9–10) |
+| **Arcanna's Flesh** | Peitoral (Leve) | \+2 CA; Saque de Mana — *sem o talento:* set concede acesso; *com o talento:* bônus sobe para \+3 no próximo teste |
+| **Arcanna's Amulet** | Amuleto | \+1 conjuração; 1×/cena, ao falhar num teste de conjuração, o feitiço não é desperdiçado — pode tentar novamente na próxima rodada sem custo |
+
+**Bônus de Set:**
+- *2 peças:* Sobrecarga Sanguínea: o dano sofrido é reduzido pelo seu modificador de INT (mín. 1 HP)
+- *4 peças:* Sobrecarga Sanguínea torna-se gratuita uma vez por cena — passe automaticamente sem sofrer dano
+
+---
+
+#### Firebird's Finery *(Mago — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Firebird's Plume** | Elmo | \+2 CA; inimigos queimando sofrem Desvantagem em ataques contra você |
+| **Firebird's Breast** | Peitoral (Leve) | \+2 CA; Bola de Fogo — *sem o talento:* set concede acesso; *com o talento:* queimadura dura 1d4 rodadas a mais |
+| **Firebird's Talons** | Luvas | \+1 conjuração; Parede de Fogo — *sem o talento:* set concede acesso; *com o talento:* custa 2 Mana a menos |
+| **Firebird's Tarsi** | Perneiras | \+1 CA; inimigos que morrerem queimando explodem em 1d8 Fogo para todos Adjacentes |
+
+**Bônus de Set:**
+- *2 peças:* se sua Afinidade Elemental for Fogo, Mestria Elemental explode também no penúltimo valor em feitiços de Fogo; se não for Fogo, você passa a ter Vantagem em feitiços de Fogo
+- *4 peças:* 1×/cena, ao atingir 0 HP, o Mago explode em chamas — todos os inimigos Adjacentes sofrem 3d6 Fogo e o Mago ressurge com HP = Mod. INT × 2 (Fênix)
+
+---
+
+#### Delsere's Magnum Opus *(Mago — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Delsere's Gleaming** | Elmo | \+2 CA; Orbe Congelada — *sem o talento:* set concede acesso; *com o talento:* dispara 1d6\+1 projéteis laterais em vez de 1d6 |
+| **Delsere's Staff** | Cajado (1d6) | \+2 conjuração; Teleporte — *sem o talento:* set concede acesso; *com o talento:* custa 0 Mana |
+| **Delsere's Prodigy** | Peitoral (Leve) | \+2 CA; ao usar Teleporte, o próximo feitiço custa 1 Mana a menos |
+| **Delsere's Endless Walk** | Perneiras | \+1 CA; Nova de Gelo — *sem o talento:* set concede acesso; *com o talento:* inimigos congelados ficam vulneráveis (\+2 de dano de todas as fontes) |
+| **Delsere's Shelter** | Cinto | 4 slots; ao conjurar qualquer feitiço de Gelo, recupera 1 Mana |
+
+**Bônus de Set:**
+- *2 peças:* se sua Afinidade Elemental for Gelo, Mestria Elemental explode também no penúltimo valor em feitiços de Gelo; se não for Gelo, você passa a ter Vantagem em feitiços de Gelo
+- *5 peças:* Orbe Congelada torna-se Ação Livre (◇) — conjure-a sem gastar ◈, mantendo o turno inteiro para outros feitiços
+
+---
+
+#### Typhon's Veil *(Mago — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Typhon's Cloak** | Elmo | \+2 CA; Hidra — *sem o talento:* set concede acesso; *com o talento:* invoca 1d4\+2 cabeças em vez de 1d4 |
+| **Typhon's Mantle** | Peitoral (Leve) | \+2 CA; cada cabeça de Hidra causa \+1d4 de dano extra |
+| **Typhon's Scales** | Luvas | \+1 conjuração; Cadeia de Raios — *sem o talento:* set concede acesso; *com o talento:* salta para até 5 inimigos em vez de 3 |
+| **Typhon's Stride** | Perneiras | \+1 CA; enquanto Hidra estiver ativa, feitiços de Relâmpago custam 1 Mana a menos |
+
+**Bônus de Set:**
+- *2 peças:* se sua Afinidade Elemental for Relâmpago, Mestria Elemental explode também no penúltimo valor em feitiços de Relâmpago; se não for Relâmpago, você passa a ter Vantagem em feitiços de Relâmpago
+- *4 peças:* Hidra torna-se permanente até ser destruída (CA 12, HP = Nível×2) — e cada vez que o Mago conjurar um feitiço, todas as cabeças ativas disparam imediatamente como Ação Livre (◇)
+
+---
+
 #### Tal Rasha's Wrappings *(Mago · Arcanista — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
