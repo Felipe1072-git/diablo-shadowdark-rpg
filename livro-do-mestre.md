@@ -1207,6 +1207,35 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Sazabi's Grand Tribute *(Cavaleiro de Sangue — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Sazabi's Mental Sheath** | Elmo — Placa Completa | \+1 CA, \+2 FOR; Sanguinar — *sem o talento:* set concede acesso; *com o talento:* também drena 1d4 HP de cada inimigo atingido no caminho |
+| **Sazabi's Cobalt Redeemer** | Lança (1d8) | \+2 Ataque, Haste; Mestre da Lança: o ataque com a ponta inversa causa 1d6 em vez de 1d4 |
+| **Sazabi's Ghost Liberator** | Peitoral — Placa Completa | \+2 CA, RD 2; Sudário da Noite — *sem o talento:* set concede acesso; *com o talento:* a aparição sombria causa dano adicional igual ao Mod. CON |
+
+**Bônus de Set:**
+- *2 peças:* ao matar um inimigo com arma de haste, recupera 1d4 HP (cumulativo com Sifão de Sangue)
+- *3 peças:* Sudário da Noite custa 0 Mana uma vez por cena
+
+---
+
+#### Thorns of the Invoker *(Cavaleiro de Sangue — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Invoker's Cuirass** | Peitoral — Placa Completa | \+2 CA, RD 3; Espinhos de Sangue — *sem o talento:* set concede acesso; *com o talento:* dano sobe para 1d6 Necrótico |
+| **Invoker's Fist** | Luvas — Placa Completa | \+1 CA; Esmagar o Fraco — *sem o talento:* set concede acesso; *com o talento:* bônus sobe para \+1d6 Necrótico |
+| **Invoker's Casque** | Elmo — Placa Completa | \+1 CA, \+2 CON; Sifão de Sangue: ao recuperar HP, o inimigo perde 1 HP extra (retaliação passiva) |
+| **Invoker's Sequined Tabard** | Perneiras — Placa Completa | \+2 CA; Vigor Maléfico — *sem o talento:* set concede acesso; *com o talento:* HP Temporário sobe para 1d10 |
+
+**Bônus de Set:**
+- *2 peças:* Espinhos de Sangue ativa automaticamente como ◇ sempre que sofrer dano (sem gastar reação)
+- *4 peças:* enquanto tiver HP Temporário ativo, Sifão de Sangue recupera 1d4 HP adicionais em cada acerto
+
+---
+
 #### Trang-Oul's Avatar *(Necromante — 5 peças)*
 
 | Peça | Tipo | Afixos Fixos |
