@@ -1,63 +1,63 @@
-﻿# **17\. Sacerdote (Priest)**
+# **17\. Sacerdote (Priest)**
 
-Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras sagradas e Ã  purificaÃ§Ã£o dos corrompidos. Ele Ã© frÃ¡gil, mas sua fÃ© Ã© uma barreira intransponÃ­vel contra o Inferno Ardente.
+Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras sagradas e à purificação dos corrompidos. Ele é frágil, mas sua fé é uma barreira intransponível contra o Inferno Ardente.
 
-* **Dado de Vida:** d6 por nÃ­vel.  
-* **Mana:** 10 \+ Modificador de Atributo PrimÃ¡rio \+ NÃ­vel  
-* **Armas:** Leve, MÃ©dia.  
-* **Armadura:** Leve, MÃ©dia.  
+* **Dado de Vida:** d6 por nível.  
+* **Mana:** 10 \+ Modificador de Atributo Primário \+ Nível  
+* **Armas:** Leve, Média.  
+* **Armadura:** Leve, Média.  
 * **Atributo Principal:** Sabedoria.
 
 ### **Habilidades de Classe**
 
-* **OraÃ§Ã£o (â—ˆâ—ˆ):** Como duas aÃ§Ãµes, vocÃª recupera 1d4 de Mana no seu turno. Pode ser usada uma vez por rodada.  
-* **OraÃ§Ã£o Purificadora (â—ˆ):** Gaste 1 Mana (sem rolar dados) para curar 1d6 de HP de um aliado PrÃ³ximo ou causar 1d6 de dano Radiante em inimigos.  
-* **Voto de Castidade (Passiva):** Se vocÃª nÃ£o usar armas de metal ou armaduras, vocÃª ganha **Vantagem** em todos os testes de conjuraÃ§Ã£o de magias sagradas.  
-* **FeitiÃ§o BÃ¡sico:** Role 1d8 para definir seu feitiÃ§o inicial.  
+* **Oração (◈◈):** Como duas ações, você recupera 1d4 de Mana no seu turno. Pode ser usada uma vez por rodada.  
+* **Oração Purificadora (◈):** Gaste 1 Mana (sem rolar dados) para curar 1d6 de HP de um aliado Próximo ou causar 1d6 de dano Radiante em inimigos.  
+* **Voto de Castidade (Passiva):** Se você não usar armas de metal ou armaduras, você ganha **Vantagem** em todos os testes de conjuração de magias sagradas.  
+* **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
 ---
 
-### **Tabela de Talentos (Role 1d20 ao subir de nÃ­vel)**
+### **Tabela de Talentos (Role 1d20 ao subir de nível)**
 
 | d20 | Talento |
 | :---- | :---- |
-| **1-2** | \+2 de Sabedoria ou \+2 de ConstituiÃ§Ã£o. |
-| **3-4** | \+1 em testes de conjuraÃ§Ã£o ou \+2 Mana mÃ¡ximo. |
-| **5** | **Halo de Luz (Passiva):** VocÃª emite uma luz constante (alcance Curto). Inimigos tÃªm \-1 nos ataques contra vocÃª. |
-| **6** | **Palavra de Poder (â—ˆ \+ 1 Mana):** Gaste 1 Mana para dar \+3 de CA a um aliado por 1d4 rodadas. |
-| **7 (1)** | **Exorcismo (FeitiÃ§o) (â—ˆ \+ 2 Mana):** Inimigos Mortos-vivos ou demÃ´nios PrÃ³ximo sofrem 3d6 Radiante e fogem. |
-| **8 (2)** | **BÃªnÃ§Ã£o (FeitiÃ§o) (â—ˆ \+ 1 Mana por Aliado):** Aliados PrÃ³ximo ganham \+1 em todos os testes por 1d4 rodadas. |
-| **9** | **PenitÃªncia (â—ˆ):** VocÃª pode perder 1d4 de HP para recuperar 4 Mana imediatamente. |
-| **10 (3)** | **Prece de RecomposiÃ§Ã£o (FeitiÃ§o) (â—ˆ \+ 2 Mana por Aliado):** Um aliado PrÃ³ximo recupera 1d4 de HP toda vez que sofrer dano (dura 3 rodadas). |
+| **1-2** | \+2 de Sabedoria ou \+2 de Constituição. |
+| **3-4** | \+1 em testes de conjuração ou \+2 Mana máximo. |
+| **5** | **Halo de Luz (Passiva):** Você emite uma luz constante (alcance Curto). Inimigos têm \-1 nos ataques contra você. |
+| **6** | **Palavra de Poder (◈ \+ 1 Mana):** Gaste 1 Mana para dar \+3 de CA a um aliado por 1d4 rodadas. |
+| **7 (1)** | **Exorcismo (Feitiço) (◈ \+ 2 Mana):** Inimigos Mortos-vivos ou demônios Próximo sofrem 3d6 Radiante e fogem. |
+| **8 (2)** | **Bênção (Feitiço) (◈ \+ 1 Mana por Aliado):** Aliados Próximo ganham \+1 em todos os testes por 1d4 rodadas. |
+| **9** | **Penitência (◈):** Você pode perder 1d4 de HP para recuperar 4 Mana imediatamente. |
+| **10 (3)** | **Prece de Recomposição (Feitiço) (◈ \+ 2 Mana por Aliado):** Um aliado Próximo recupera 1d4 de HP toda vez que sofrer dano (dura 3 rodadas). |
 | **11** | **Chamas Sagradas (Passiva):** Sua arma causa \+1d6 de dano Radiante extra. |
-| **12 (4)** | **PurificaÃ§Ã£o (FeitiÃ§o) (â—ˆ \+ 2 Mana por efeito):** Remova instantaneamente um efeito de Veneno, MaldiÃ§Ã£o ou Paralisia de um aliado. Se gastar \+6 Mana tambÃ©m cura 3d6 ao aliado. |
-| **13 (5)** | **Salmo de ProteÃ§Ã£o (FeitiÃ§o) (â—ˆ \+ 2 Mana por aliado):** VocÃª e aliados PrÃ³ximo ganham RD 5 a dano MÃ¡gico por 1d4 rodadas. |
-| **14 (6)** | **Salto de FÃ© (FeitiÃ§o) (â—ˆ \+ 2 Mana por aliado):** Puxe um aliado de Distante para o seu lado instantaneamente. |
-| **15** | **IntervenÃ§Ã£o Divina (âŸ):** Gaste 5 Mana. Se um aliado ficar com HP 0, ele fica com 1 HP em vez disso. |
-| **16 (7)** | **Anjo da Guarda (FeitiÃ§o) (â—ˆ \+ 2 Mana por aliado):** Invoca um espÃ­rito de luz que protege o grupo. Ele concede Vantagem em testes para aliados PrÃ³ximo por 1d4 rodadas. |
-| **17** | **ConfissÃ£o (â—ˆâ—ˆâ—ˆ):** Gaste 3 Mana por inimigo para que perca o prÃ³ximo turno "contando seus pecados". |
-| **18 (8)** | **Nova Sagrada (FeitiÃ§o) (â—ˆâ—ˆ \+ 2 Mana):** Uma explosÃ£o de luz. Cura aliados PrÃ³ximo em 1d8 e causa 1d8 de dano em inimigos. Gaste +2 Mana para cada dado extra. |
-| **19** | **Arcanjo GuardiÃ£o (â—ˆâ—ˆâ—ˆ \+ 8 Mana):** Invoca um Arcanjo por 1d4 rodadas. No seu turno, como aÃ§Ã£o livre â—‡, ele cura **1d8 HP** de um aliado OU causa **2d8 Radiante** a um inimigo PrÃ³ximo. **Arcanjo:** CA 16 Â· HP = seu HP mÃ¡ximo |
-| **20** | Escolha qualquer talento desta lista que vocÃª ainda nÃ£o possua. |
+| **12 (4)** | **Purificação (Feitiço) (◈ \+ 2 Mana por efeito):** Remova instantaneamente um efeito de Veneno, Maldição ou Paralisia de um aliado. Se gastar \+6 Mana também cura 3d6 ao aliado. |
+| **13 (5)** | **Salmo de Proteção (Feitiço) (◈ \+ 2 Mana por aliado):** Você e aliados Próximo ganham RD 5 a dano Mágico por 1d4 rodadas. |
+| **14 (6)** | **Salto de Fé (Feitiço) (◈ \+ 2 Mana por aliado):** Puxe um aliado de Distante para o seu lado instantaneamente. |
+| **15** | **Intervenção Divina (⟁):** Gaste 5 Mana. Se um aliado ficar com HP 0, ele fica com 1 HP em vez disso. |
+| **16 (7)** | **Anjo da Guarda (Feitiço) (◈ \+ 2 Mana por aliado):** Invoca um espírito de luz que protege o grupo. Ele concede Vantagem em testes para aliados Próximo por 1d4 rodadas. |
+| **17** | **Confissão (◈◈◈):** Gaste 3 Mana por inimigo para que perca o próximo turno "contando seus pecados". |
+| **18 (8)** | **Nova Sagrada (Feitiço) (◈◈ \+ 2 Mana):** Uma explosão de luz. Cura aliados Próximo em 1d8 e causa 1d8 de dano em inimigos. Gaste +2 Mana para cada dado extra. |
+| **19** | **Arcanjo Guardião (◈◈◈ \+ 8 Mana):** Invoca um Arcanjo por 1d4 rodadas. No seu turno, como ação livre ◇, ele cura **1d8 HP** de um aliado OU causa **2d8 Radiante** a um inimigo Próximo. **Arcanjo:** CA 16 · HP = seu HP máximo |
+| **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
 
 ### **Dicas**
 
-1. **O RosÃ¡rio de FÃ©:** O jogador deve usar um rosÃ¡rio fÃ­sico ou um colar de contas. Cada conta representa 1 Ponto de FÃ©. O Mestre adora essa conexÃ£o fÃ­sica: o jogador literalmente "conta suas preces" enquanto gasta seus recursos.  
-2. **IluminaÃ§Ã£o Real:** Se o Sacerdote usar o **Halo de Luz**, coloque uma lanterna pequena ou a lanterna do celular (com um filtro amarelo/papel) sobre a mesa se vocÃª jogar em ambiente escuro. Isso marca visualmente a Ã¡rea sagrada.  
-3. **Cantos Rituais:** O Mestre recompensa a imersÃ£o. Se o jogador recitar uma pequena frase de oraÃ§Ã£o em latim ou em uma lÃ­ngua fictÃ­cia ao curar alguÃ©m, ele ganha \+1 no resultado do dado de cura.  
-4. **MartÃ­rio:** Se o Sacerdote estiver prestes a morrer, o Mestre permite que ele faÃ§a uma "Ãšltima Prece": ele morre heroicamente, mas cura todo o grupo e bane todos os demÃ´nios menores da sala. Ã‰ o fim Ã©pico que um jogador de Sacerdote respeita.
+1. **O Rosário de Fé:** O jogador deve usar um rosário físico ou um colar de contas. Cada conta representa 1 Ponto de Fé. O Mestre adora essa conexão física: o jogador literalmente "conta suas preces" enquanto gasta seus recursos.  
+2. **Iluminação Real:** Se o Sacerdote usar o **Halo de Luz**, coloque uma lanterna pequena ou a lanterna do celular (com um filtro amarelo/papel) sobre a mesa se você jogar em ambiente escuro. Isso marca visualmente a área sagrada.  
+3. **Cantos Rituais:** O Mestre recompensa a imersão. Se o jogador recitar uma pequena frase de oração em latim ou em uma língua fictícia ao curar alguém, ele ganha \+1 no resultado do dado de cura.  
+4. **Martírio:** Se o Sacerdote estiver prestes a morrer, o Mestre permite que ele faça uma "Última Prece": ele morre heroicamente, mas cura todo o grupo e bane todos os demônios menores da sala. É o fim épico que um jogador de Sacerdote respeita.
 
 ### Objetivos & Recompensas
 
-| d6 | Objetivo de ExploraÃ§Ã£o | Recompensa (DÃ¡diva MecÃ¢nica) |
+| d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
-| **1** | **O RelicÃ¡rio Perdido:** Localizar uma relÃ­quia sagrada em uma catedral em ruÃ­nas e devolvÃª-la a um altar ativo. | **Chama da PenitÃªncia:** Se vocÃª fizer apenas um ataque (arma ou magia) no seu turno, o alvo sofre **\+1d8** de dano Radiante e fica **Cego** atÃ© o fim do prÃ³ximo turno dele. |
-| **2** | **Santificar o Abismo:** Realizar um ritual de purificaÃ§Ã£o em um local onde um massacre ocorreu, impedindo que os mortos se ergam. | **Aura de ProteÃ§Ã£o:** Enquanto vocÃª estiver consciente, aliados PrÃ³ximo ganham **\+2 de bÃ´nus na CA**. |
-| **3** | **O Ãšltimo Alento:** Encontrar um herÃ³i moribundo no ermo e garantir que ele receba os ritos finais para que sua alma nÃ£o seja corrompida. | **GraÃ§a Divina:** Uma vez por descanso longo, quando um aliado PrÃ³ximo cair para 0 HP, vocÃª pode usar sua ReaÃ§Ã£o (âŸ) para que ele fique com **1 HP** em vez disso. |
-| **4** | **PeregrinaÃ§Ã£o do Flagelo:** Atravessar uma zona de corrupÃ§Ã£o extrema (como um pÃ¢ntano de peste) sem utilizar magias de proteÃ§Ã£o. | **Corpo Santificado:** VocÃª ganha **RD 5** contra dano necrÃ³tico e de veneno permanentemente. |
-| **5** | **Exorcismo de Solo:** Identificar a fonte de uma assombraÃ§Ã£o em uma vila e expulsar a entidade sem destruir a estrutura que ela habita. | **Palavra de Banimento:** Uma vez por descanso longo, vocÃª pode forÃ§ar um demÃ´nio, morto-vivo ou celestial a fazer um teste de Vontade (DC 10 \+ Sab). Se falhar, ele Ã© banido para seu plano de origem e nÃ£o pode voltar a SantuÃ¡rio por 24h. |
-| **6** | **Erigir o RefÃºgio:** Consagrar uma sala ou ruÃ­na, tornando-a um local onde demÃ´nios nÃ£o podem entrar por 24 horas. | **OraÃ§Ã£o de Vigor:** Sempre que vocÃª curar um aliado, ele tambÃ©m ganha **\+1d6 de HP temporÃ¡rios** que duram atÃ© o fim do prÃ³ximo descanso curto. |
+| **1** | **O Relicário Perdido:** Localizar uma relíquia sagrada em uma catedral em ruínas e devolvê-la a um altar ativo. | **Chama da Penitência:** Se você fizer apenas um ataque (arma ou magia) no seu turno, o alvo sofre **\+1d8** de dano Radiante e fica **Cego** até o fim do próximo turno dele. |
+| **2** | **Santificar o Abismo:** Realizar um ritual de purificação em um local onde um massacre ocorreu, impedindo que os mortos se ergam. | **Aura de Proteção:** Enquanto você estiver consciente, aliados Próximo ganham **\+2 de bônus na CA**. |
+| **3** | **O Último Alento:** Encontrar um herói moribundo no ermo e garantir que ele receba os ritos finais para que sua alma não seja corrompida. | **Graça Divina:** Uma vez por descanso longo, quando um aliado Próximo cair para 0 HP, você pode usar sua Reação (⟁) para que ele fique com **1 HP** em vez disso. |
+| **4** | **Peregrinação do Flagelo:** Atravessar uma zona de corrupção extrema (como um pântano de peste) sem utilizar magias de proteção. | **Corpo Santificado:** Você ganha **RD 5** contra dano necrótico e de veneno permanentemente. |
+| **5** | **Exorcismo de Solo:** Identificar a fonte de uma assombração em uma vila e expulsar a entidade sem destruir a estrutura que ela habita. | **Palavra de Banimento:** Uma vez por descanso longo, você pode forçar um demônio, morto-vivo ou celestial a fazer um teste de Vontade (DC 10 \+ Sab). Se falhar, ele é banido para seu plano de origem e não pode voltar a Santuário por 24h. |
+| **6** | **Erigir o Refúgio:** Consagrar uma sala ou ruína, tornando-a um local onde demônios não podem entrar por 24 horas. | **Oração de Vigor:** Sempre que você curar um aliado, ele também ganha **\+1d6 de HP temporários** que duram até o fim do próximo descanso curto. |
 
 ---
 
