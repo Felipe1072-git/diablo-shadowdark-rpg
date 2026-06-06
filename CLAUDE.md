@@ -277,7 +277,7 @@ Expandir o documento com todas as estatísticas relevantes para calibração de 
 - Sistema de escudos por tier implementado (Broquel/Escudo/Torre)
 - "Escudos" removido das classes — agora é regra implícita pelo tipo de armadura
 
-### Goal 6 — Revisão de Balanceamento das Classes (`cap3-classes.md`) ← próximo
+### Goal 6 — Revisão de Balanceamento das Classes (`cap3-classes.md`) ✅
 
 Revisar as 18 classes usando as tabelas de `referencia-mestre-progressao.md` como referência matemática. Objetivo: valores de dano consistentes com o DPT por tier, habilidades com custo de Mana coerente com a escala, identidade de cada classe preservada.
 
