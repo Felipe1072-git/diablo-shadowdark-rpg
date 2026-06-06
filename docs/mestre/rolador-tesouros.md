@@ -497,14 +497,15 @@ window.rolarTesouro = function() {
         const pr = d(6);
         const peca = PECAS[pr - 1];
         logs.push(step(`<span class="dice">🎲 Peça d6 = ${pr}</span> → ${peca}`));
-        let bonusStr;
         if (peca === "Mestre escolhe") {
-          bonusStr = "Mestre escolhe a peça";
+          infoItem = `${arm.tipo} · CA base: ${caBase(arm.tipo)} · CA completa: ${arm.ca} — Mestre escolhe a peça`;
+        } else if (peca === "Peitoral") {
+          const bonus = PECA_CA[arm.nome]?.Peitoral ?? 0;
+          infoItem = `${arm.tipo} · CA base: ${caBase(arm.tipo)} · CA completa: ${arm.ca} — Peitoral (+${bonus})`;
         } else {
           const bonus = PECA_CA[arm.nome]?.[peca] ?? 0;
-          bonusStr = `${peca} (${bonus > 0 ? `+${bonus}` : "sem bônus"})`;
+          infoItem = `${arm.tipo} — ${peca} (${bonus > 0 ? `+${bonus}` : "sem bônus"})`;
         }
-        infoItem = `${arm.tipo} · CA base: ${caBase(arm.tipo)} · CA completa: ${arm.ca} — ${bonusStr}`;
       } else {
         infoItem = `${arm.tipo} · CA completa: ${arm.ca} (set completo)`;
       }
