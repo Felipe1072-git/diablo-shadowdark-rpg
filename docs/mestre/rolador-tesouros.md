@@ -295,9 +295,21 @@ function step(txt) {
   return `<div class="roll-step">${txt}</div>`;
 }
 
+// Mapas para nomes-título de prefixos que precisam de forma curta
+const PERICIAS_TITULO = {
+  FOR: "Poderoso", DES: "Veloz", CON: "Resiliente",
+  INT: "Astuto",   SAB: "Perspicaz", CAR: "Eloquente"
+};
+const RESIST_TITULO = {
+  "Gemas Básicas": "Engastado",
+  "Gemas Raras":   "Cravejado",
+  "Topázio":       "Topázio",
+  "Prismático":    "Prismático",
+};
+
 function prefixo(nd) {
   const cat = d(100);
-  let nome, efeito, catNome, subRoll;
+  let nome, titulo, efeito, catNome, subRoll;
 
   if (cat <= 20) {
     catNome = "Melhoria de Armadura";
@@ -309,6 +321,7 @@ function prefixo(nd) {
     subRoll = d(20) + nd;
     const r = lookup(PREF_RESIST, subRoll);
     nome = r.nome; efeito = r.efeito;
+    titulo = RESIST_TITULO[nome] || nome;
   } else if (cat <= 39) {
     catNome = "Efeitos no Inimigo";
     subRoll = d(20) + nd;
@@ -320,15 +333,21 @@ function prefixo(nd) {
       nome = "Exaustão"; efeito = "Descanso curto em metade do tempo + Imunidade a Exaustão";
     } else if (cat <= 45) {
       const r = d(6);
-      nome = "Perícia"; efeito = `+2 em testes de ${ATRIBUTOS[r-1]}`;
+      const atr = ATRIBUTOS[r-1];
+      nome = `Perícia (${atr})`; efeito = `+2 em testes de ${atr}`;
+      titulo = PERICIAS_TITULO[atr];
     } else if (cat <= 49) {
       const r = d(8) - 1;
-      nome = "Amaldiçoado"; efeito = MALDIÇÕES[r];
+      const maldição = MALDIÇÕES[r];
+      nome = "Amaldiçoado"; efeito = maldição;
+      titulo = maldição.split(":")[0]; // ex: "Enferrujado", "Vulnerável"
     } else if (cat === 50) {
       nome = "Caprichoso"; efeito = "Role 2× na tabela de prefixos e aplique ambos";
     } else {
       const r = d(6) - 1;
-      nome = "Visibilidade"; efeito = VISIBILIDADES[r];
+      const vis = VISIBILIDADES[r];
+      nome = "Visibilidade"; efeito = vis;
+      titulo = vis.split(":")[0]; // ex: "Brilhante", "Oracular", "Sorrateiro"
     }
     subRoll = cat;
   } else if (cat <= 60) {
@@ -345,15 +364,16 @@ function prefixo(nd) {
     else { nome = "Imparável"; efeito = "+3 Ataque, +3 Dano e Crítico em 19-20"; }
   }
 
+  if (!titulo) titulo = nome;
   return {
     log: step(`<span class="dice">🎲 Prefixo d100 = ${cat}</span> → <b>${catNome}</b>: <b>${nome}</b>`),
-    nome, efeito
+    nome, titulo, efeito
   };
 }
 
 function sufixo(nd) {
   const cat = d(100);
-  let nome, efeito, catNome, subRoll;
+  let nome, titulo, efeito, catNome, subRoll;
 
   if (cat <= 20) {
     catNome = "Redução de Dano"; subRoll = d(20) + nd;
@@ -379,11 +399,15 @@ function sufixo(nd) {
   } else {
     catNome = "Efeito de Runa"; subRoll = cat;
     const r = lookup(SUF_RUNA, subRoll); nome = r.nome; efeito = r.efeito;
+    // Runas: usar "de [Palavra]" como título (ex: "de Amn", "de Zod")
+    const rune = r.nome.match(/\((\w+)\)/)?.[1];
+    titulo = rune ? `de ${rune}` : r.nome;
   }
 
+  if (!titulo) titulo = nome;
   return {
     log: step(`<span class="dice">🎲 Sufixo d100 = ${cat}</span> → <b>${catNome}</b>: <b>${nome}</b>`),
-    nome, efeito
+    nome, titulo, efeito
   };
 }
 
@@ -392,18 +416,23 @@ function afixos(qual, nd, logs) {
   // Mágico: Prefixo OU Sufixo (50%)
   if (qual.magOu) { if (Math.random() < 0.5) { pref = 0; suf = 1; } else { pref = 1; suf = 0; } }
 
-  const result = [];
+  const prefTitulos = [], sufTitulos = [];
+  const htmlParts = [];
+
   for (let i = 0; i < pref; i++) {
     const p = prefixo(nd);
     logs.push(p.log);
-    result.push(`<div class="afixo"><span class="afixo-tipo">Prefixo</span> <b>${p.nome}</b> — ${p.efeito}</div>`);
+    prefTitulos.push(p.titulo);
+    htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo</span> <b>${p.nome}</b> — ${p.efeito}</div>`);
   }
   for (let i = 0; i < suf; i++) {
     const s = sufixo(nd);
     logs.push(s.log);
-    result.push(`<div class="afixo"><span class="afixo-tipo">Sufixo</span> <b>${s.nome}</b> — ${s.efeito}</div>`);
+    sufTitulos.push(s.titulo);
+    htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Sufixo</span> <b>${s.nome}</b> — ${s.efeito}</div>`);
   }
-  return result.join("");
+
+  return { html: htmlParts.join(""), prefTitulos, sufTitulos };
 }
 
 window.rolarTesouro = function() {
@@ -438,35 +467,38 @@ window.rolarTesouro = function() {
     const dr = d(100);
     logs.push(step(`<span class="dice">🎲 Equipamento d100 = ${dr}</span>`));
 
-    let nomeItem = "", qual;
+    let nomeBase = "", infoItem = "", qual;
 
     if (dr <= 39) {
       const arm = lookup(ARMADURAS, dr);
-      nomeItem = arm.nome;
+      nomeBase = arm.nome;
       const qr = d(20) + nd;
       logs.push(step(`<span class="dice">🎲 Qualidade Armadura d20+${nd} = ${qr}</span>`));
       qual = lookup(QUAL_ARMADURA, qr);
 
+      let pecaInfo = "";
       if (!qual.set) {
         const pr = d(6);
         const peca = PECAS[pr - 1];
         logs.push(step(`<span class="dice">🎲 Peça d6 = ${pr}</span> → ${peca}`));
-        nomeItem += ` (${peca})`;
+        pecaInfo = ` — ${peca}`;
       } else {
-        nomeItem += " (Set completo)";
+        pecaInfo = " — Set completo";
       }
-      nomeItem += ` — ${arm.tipo}, CA ${arm.ca}`;
+      infoItem = `${arm.tipo}, CA ${arm.ca}${pecaInfo}`;
 
     } else if (dr <= 75) {
       const arma = lookup(ARMAS_CC, dr);
-      nomeItem = `${arma.nome} (${arma.dano})`;
+      nomeBase = arma.nome;
+      infoItem = arma.dano;
       const qr = d(20) + nd;
       logs.push(step(`<span class="dice">🎲 Qualidade d20+${nd} = ${qr}</span>`));
       qual = lookup(QUAL_GERAL, qr);
 
     } else if (dr <= 88) {
       const arma = lookup(ARMAS_DIST, dr);
-      nomeItem = arma.nome;
+      nomeBase = arma.nome;
+      infoItem = arma.info;
       const qr = d(20) + nd;
       logs.push(step(`<span class="dice">🎲 Qualidade d20+${nd} = ${qr}</span>`));
       qual = lookup(QUAL_GERAL, qr);
@@ -475,20 +507,39 @@ window.rolarTesouro = function() {
       const joia = lookup(JOIAS, dr);
       if (joia.especial) {
         const esp = ESPECIAIS[Math.floor(Math.random() * ESPECIAIS.length)];
-        nomeItem = `${esp.item} (${esp.classe})`;
+        nomeBase = esp.item;
+        infoItem = `${esp.classe} — ${esp.efeito}`;
         logs.push(step(`⭐ <b>Especial de Classe: ${esp.classe}</b>`));
       } else {
-        nomeItem = joia.nome;
+        nomeBase = joia.nome;
+        infoItem = joia.slot;
       }
       const qr = d(20) + nd;
       logs.push(step(`<span class="dice">🎲 Qualidade d20+${nd} = ${qr}</span>`));
       qual = lookup(QUAL_GERAL, qr);
     }
 
-    const afixoHtml = qual ? afixos(qual, nd, logs) : "";
-    const css = qual ? qual.css : "q-normal";
-    const qNome = qual ? qual.q : "Normal";
-    finalHtml = `<div>🗡️ <span class="${css}"><b>${qNome}</b></span> <b>${nomeItem}</b>${afixoHtml}</div>`;
+    const { html: afixoHtml, prefTitulos, sufTitulos } = qual
+      ? afixos(qual, nd, logs)
+      : { html: "", prefTitulos: [], sufTitulos: [] };
+
+    const css   = qual ? qual.css : "q-normal";
+    const qNome = qual ? qual.q   : "Normal";
+
+    const partes = [...prefTitulos, nomeBase, ...sufTitulos];
+    const nomeCompleto = partes.join(" ");
+
+    const infoHtml = infoItem
+      ? `<div style="font-size:0.85rem;color:var(--md-default-fg-color--light);margin-top:0.15rem;">${infoItem}</div>`
+      : "";
+
+    finalHtml = `
+      <div>
+        🗡️ <span class="${css}" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;">${qNome}</span>
+        <div style="font-size:1.15rem;font-weight:bold;margin-top:0.2rem;" class="${css}">${nomeCompleto}</div>
+        ${infoHtml}
+        ${afixoHtml}
+      </div>`;
   }
 
   document.getElementById('resultado-tesouro').innerHTML = `
