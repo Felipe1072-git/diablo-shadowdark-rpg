@@ -59,7 +59,7 @@ O Sarcófago Escarlate reage à presença de intrusos e à violência derramada 
 
 **CA:** 18 (Armadura Pesada) | **PV:** 60| **Deslocamento:** 9m (6 quadrados)  
 **Ataque (Corpo-a-corpo):** Montante Brutal (+5 para acertar, dano 1d10+2 cortante).  
-**Habilidade \- Ordem de Avanço:** Uma vez por combate, como uma Ação Livre, o Capitão permite que até dois Capangas aliados se movam metade de seu deslocamento imediatamente.
+**Habilidade \- Ordem de Avanço:** Uma vez por cena, como uma Ação Livre, o Capitão permite que até dois Capangas aliados se movam metade de seu deslocamento imediatamente.
 
 #### **Desperto \- Evento 5**
 

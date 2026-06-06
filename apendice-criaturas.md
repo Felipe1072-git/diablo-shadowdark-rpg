@@ -51,7 +51,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 **Caído — Covardia:** Se metade dos Caídos do grupo cair, todos os restantes fazem Salvaguarda de Sabedoria DC 12 ou fogem pelo resto do combate.
 
-**Xamã Caído — Ressurreição:** Gasta ◈◈ para ressuscitar 1 Caído morto adjacente com 2 PV. Uma vez por Xamã por encontro.
+**Xamã Caído — Ressurreição:** Gasta ◈◈ para ressuscitar 1 Caído morto adjacente com 2 PV. Uma vez por Xamã por cena.
 
 **Supervisor — Raliar:** Gasta ◈ para gritar; todos os Caídos a distância Próximo ganham +2 em ataques no próximo turno. Cancela a fuga dos Caídos por 1 rodada.
 
@@ -71,7 +71,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 **Morcego Carniceiro — Enxame:** +1 de dano para cada Morcego adicional atacando o mesmo alvo (máx +4).
 
-**Cão do Inferno — Investida Flamejante:** Uma vez por encontro, gasta ◈◈ e avança distância Distante em linha reta, causando 2d6 de fogo em todos no caminho (Salvaguarda Destreza DC 13, metade no sucesso).
+**Cão do Inferno — Investida Flamejante:** Uma vez por cena, gasta ◈◈ e avança distância Distante em linha reta, causando 2d6 de fogo em todos no caminho (Salvaguarda Destreza DC 13, metade no sucesso).
 
 **Loot:** Rato = nada; Morcego = nada; Cão do Inferno = 1d6 po + 20% de Pele de Hellhound (ingrediente de alquimia).
 
@@ -86,7 +86,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 **Homem-Bode — Carga:** Se mover e atacar no mesmo turno, dano +1d4.
 
-**Clã da Lua — Resistência Lunar:** Uma vez por encontro, ignora o primeiro golpe que o reduziria a 0 PV e fica com 1 PV.
+**Clã da Lua — Resistência Lunar:** Uma vez por cena, ignora o primeiro golpe que o reduziria a 0 PV e fica com 1 PV.
 
 **Loot:** Homem-Bode = 1d8 po; Clã da Lua = 2d6 po + 25% de Chifre Rúnico (componente de encantamento).
 
@@ -128,7 +128,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 
 **Verme Gigante — Agarrar:** Acerto com 8+ de dano → Salvaguarda de Força DC 13 ou o alvo fica Agarrado (◈ para se soltar).
 
-**Abominação — Corpo Recomposto:** Quando cai a 0 PV, uma vez por encontro, rola 2d6 — se resultado > 4, levanta com esse total de PV como Morto-Vivo Recomposto.
+**Abominação — Corpo Recomposto:** Quando cai a 0 PV, uma vez por cena, rola 2d6 — se resultado > 4, levanta com esse total de PV como Morto-Vivo Recomposto.
 
 **Verme Colossal — Engolir Inteiro:** Acerto crítico → o alvo é Engolido (incapacitado, sofre 1d6 de Veneno por turno até escapar com Força DC 16).
 
@@ -205,7 +205,7 @@ Todas as criaturas usam apenas **ouro (po)** como moeda. O loot listado é o que
 **Guerreiro Bogad — Brutalidade:** Vantagem em ataques contra alvos Agarrados ou caídos no chão.
 
 **Xamã Fetichista — Maldição** (◈◈): Salvaguarda de Sabedoria DC 14 ou o alvo tem Desvantagem em ataques por 2 rodadas.
-**Xamã Fetichista — Invocar** (◈◈◈, uma vez por encontro): Convoca 1d4 Fetichistas que surgem no próximo turno.
+**Xamã Fetichista — Invocar** (◈◈◈, uma vez por cena): Convoca 1d4 Fetichistas que surgem no próximo turno.
 
 **Loot:** Fetichista = 1d4 po; Guerreiro Bogad = 1d10 po; Xamã = 2d8 po + 40% de Máscara Ritual (foco mágico).
 
@@ -284,7 +284,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Ações:**
 - **Maldição do Pântano** (◈): Alcance Próximo, Salvaguarda de Sabedoria DC 14 ou o alvo sofre −2 em ataques e CA por 3 rodadas. Acumula.
 - **Projétil de Podridão** (◈): +6 para acertar, alcance Longo, 3d8+3 de dano necrótico.
-- **Invocar Insepulto** (◈◈, uma vez por encontro): Ergue 1d3 Insepultos do solo pantanoso. Eles agem no próximo turno.
+- **Invocar Insepulto** (◈◈, uma vez por cena): Ergue 1d3 Insepultos do solo pantanoso. Eles agem no próximo turno.
 
 **Reação:**
 - **Névoa de Fuga** (⟁): Quando atingida, cria névoa densa ao redor — todos a distância Próximo têm Desvantagem em ataques contra ela até o início do próximo turno dela.
@@ -368,7 +368,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 **Esqueleto Queimado — Aura de Calor:** Criaturas adjacentes sofrem 1 de dano de fogo por turno. RD 8 contra fogo.
 
-**Esqueleto de Areia — Reconstituir:** Quando reduzido a 0 PV, uma vez por encontro rola 1d6 — se resultado > 3, a areia se reconstrói e ele levanta com 5 PV.
+**Esqueleto de Areia — Reconstituir:** Quando reduzido a 0 PV, uma vez por cena rola 1d6 — se resultado > 3, a areia se reconstrói e ele levanta com 5 PV.
 
 **Guarda das Tumbas — Guardião Eterno:** Enquanto estiver protegendo um ponto fixo (altar, sarcófago, entrada), RD 3 contra todo dano.
 
@@ -436,7 +436,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Ações:**
 - **Projétil Necrótico** (◈): +8 para acertar, alcance Longo, 3d10+4 de dano necrótico.
 - **Maldição Real** (◈◈): Salvaguarda de Sabedoria DC 16 ou o alvo sofre −3 em todos os testes e CA por 3 rodadas.
-- **Levantar os Mortos** (◈◈◈, uma vez por encontro): Ergue 1d4+2 Esqueletos ou 1d3 Múmias do solo.
+- **Levantar os Mortos** (◈◈◈, uma vez por cena): Ergue 1d4+2 Esqueletos ou 1d3 Múmias do solo.
 
 **Reação:**
 - **Escudo das Tumbas** (⟁): Reduz 1d8+3 de dano recebido.
@@ -491,7 +491,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 **Zumbi de Selva e Zumbi — Imunidades:** Imunes a Necrótico e Veneno. **Vulneráveis a Radiante** (ataques Radiantes causam dano extra igual ao Nível do atacante).
 
-**Zumbi de Selva — Persistência:** Quando reduzido a 0 PV por dano físico não-mágico, uma vez por encontro fica de pé com 1 PV.
+**Zumbi de Selva — Persistência:** Quando reduzido a 0 PV por dano físico não-mágico, uma vez por cena fica de pé com 1 PV.
 
 **Aranha de Musgo — Veneno Paralisante:** Acerto → Salvaguarda de Constituição DC 13 ou Paralisado por 1 rodada. Também tem Teia (igual à Aranha de Teia, DC 13).
 
@@ -567,7 +567,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 **Ações:**
 - **Orbe de Fogo** (◈): +7 para acertar, alcance Longo, 3d10+4 de dano de fogo.
-- **Hidra** (◈◈, uma vez por encontro por Membro): Invoca uma serpente de fogo que ataca automaticamente um alvo por 1d4 rodadas (1d8 de fogo por turno, sem rolagem de ataque).
+- **Hidra** (◈◈, uma vez por cena por Membro): Invoca uma serpente de fogo que ataca automaticamente um alvo por 1d4 rodadas (1d8 de fogo por turno, sem rolagem de ataque).
 - **Fanatismo** (◈): Todos os Membros do Conselho a distância Próximo ganham +2 em ataques e dano até o início do próximo turno deste Membro.
 
 **Reação:**
@@ -690,7 +690,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 
 **Ações:**
 - **Chicote de Fogo** (◈): +7 para acertar, alcance Curto, 2d10+3 de fogo. Acerto → alvo Derrubado.
-- **Nova de Fogo** (◈◈◈, uma vez por encontro): Todos a distância Próximo fazem Salvaguarda de Destreza DC 15 ou sofrem 4d6 de fogo (metade no sucesso).
+- **Nova de Fogo** (◈◈◈, uma vez por cena): Todos a distância Próximo fazem Salvaguarda de Destreza DC 15 ou sofrem 4d6 de fogo (metade no sucesso).
 
 **Passivos:** RD 8 fogo. Imune a condições de medo e Veneno. **Vulnerável a Gelo** (ataques de Gelo causam dano extra igual ao Nível do atacante).
 
@@ -718,7 +718,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Ações:**
 - **Chicote Infernal** (◈): +9 para acertar, alcance Curto, 4d8+7 de fogo. Acerto → alvo Derrubado.
 - **Passo de Lava** (◈): Move-se até 1 zona. Cada ponto pelo qual passa vira terreno difícil flamejante por 2 rodadas (1d6 de fogo ao entrar ou iniciar turno na área).
-- **Nova Infernal** (◈◈◈, uma vez por encontro): Todos a distância Próximo fazem Salvaguarda de Destreza DC 17 ou sofrem 5d8 de fogo (metade no sucesso).
+- **Nova Infernal** (◈◈◈, uma vez por cena): Todos a distância Próximo fazem Salvaguarda de Destreza DC 17 ou sofrem 5d8 de fogo (metade no sucesso).
 
 **Reação:**
 - **Absorver Chamas** (⟁): Quando atingido por dano de fogo, recupera PV igual ao dano que receberia.
@@ -745,7 +745,7 @@ Enxames ocupam uma área equivalente a uma miniatura grande. Criaturas que comec
 **Ações:**
 - **Smash** (◈): +9 para acertar, 4d8+7 de dano contundente. Acerto → Salvaguarda de Força DC 17 ou alvo é arremessado 1 zona e cai Derrubado.
 - **Pisão** (◈◈): Todos a distância Próximo fazem Salvaguarda de Força DC 17 ou sofrem 3d8+5 de dano Físico e ficam Derrubados.
-- **Frenesi** (◈◈◈, uma vez por encontro): Faz 3 ataques de Smash consecutivos contra alvos diferentes ou o mesmo alvo.
+- **Frenesi** (◈◈◈, uma vez por cena): Faz 3 ataques de Smash consecutivos contra alvos diferentes ou o mesmo alvo.
 
 **Reação:**
 - **Pele de Pedra** (⟁): Reduz 1d12+5 de dano recebido.
@@ -796,7 +796,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Guardiã das Catacumbas — Formação:** +1 CA para cada Guardiã adjacente (máx +2).
 
 **Sacerdotisa — Maldição do Veneno** (◈◈): Salvaguarda de Sabedoria DC 14 ou o alvo recebe +2 em todo dano de veneno pelo resto do encontro. Acumula.
-**Sacerdotisa — Invocar Larvas** (◈◈◈, uma vez por encontro): Convoca 1d4 Larvas de Andariel que surgem no próximo turno.
+**Sacerdotisa — Invocar Larvas** (◈◈◈, uma vez por cena): Convoca 1d4 Larvas de Andariel que surgem no próximo turno.
 
 **Loot:** Rogue = 1d10 po + arco que carregava; Guardiã = 1d10 po + 30% de armadura média; Sacerdotisa = 2d8 po + 40% de Amuleto de Veneno (foco mágico).
 
@@ -828,7 +828,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Esqueleto do Mosteiro:** Imune a Necrótico, Veneno e charme. RD 2 contra dano perfurante. **Vulnerável a Radiante** (ataques Radiantes causam dano extra igual ao Nível do atacante).
 
 **Mago Ósseo — Projétil Elemental:** Escolhe Gelo, Fogo ou Relâmpago ao atacar. Imune a Necrótico e Veneno. **Vulnerável a Radiante** (ataques Radiantes causam dano extra igual ao Nível do atacante).
-**Mago Ósseo — Barreira Óssea** (⟁, uma vez por encontro): Cancela completamente 1 ataque físico.
+**Mago Ósseo — Barreira Óssea** (⟁, uma vez por cena): Cancela completamente 1 ataque físico.
 
 **Loot:** Esqueleto = nada; Mago Ósseo = 1d6 po + 30% de Fragmento de Osso Rúnico (componente mágico).
 
@@ -849,7 +849,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Flecha Sombria** (◈): +6 para acertar, alcance Longo, 2d8+3 de dano necrótico/veneno.
 - **Chuva de Flechas** (◈◈): Ataca todos a distância Próximo com uma única rolagem. Cada alvo atingido faz Salvaguarda de Constituição DC 13 ou sofre 1d4 de veneno por turno durante 2 turnos.
-- **Invocar os Mortos** (◈◈◈, uma vez por encontro): Ressuscita 1d4 Esqueletos do Mosteiro dos túmulos adjacentes.
+- **Invocar os Mortos** (◈◈◈, uma vez por cena): Ressuscita 1d4 Esqueletos do Mosteiro dos túmulos adjacentes.
 
 **Reação:**
 - **Voo Espectral** (⟁): Quando atingida, teleporta-se para distância Próximo, cancelando o dano de 1 ataque.
@@ -909,7 +909,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 - **Garras Venenosas** (◈): +9 para acertar, 3d6+5 de dano Físico + Salvaguarda de Constituição DC 17 ou sofre 2d6 de veneno por turno durante 3 turnos.
 - **Spray de Veneno** (◈◈): Cone Próximo — Salvaguarda de Constituição DC 17 ou sofre 4d8 de veneno (metade no sucesso). Deixa o terreno envenenado por 2 rodadas (1d6 ao entrar ou iniciar turno na área).
 - **Sedução Maior** (◈◈): Salvaguarda de Sabedoria DC 16 ou fica Encantado por 3 rodadas. Falha crítica (1–5 no dado): o alvo ataca o aliado mais próximo.
-- **Nuvem da Angústia** (◈◈◈, uma vez por encontro): Todos no campo de batalha fazem Salvaguarda de Constituição DC 17 ou ficam Envenenados e têm Desvantagem em todos os testes por 2 rodadas.
+- **Nuvem da Angústia** (◈◈◈, uma vez por cena): Todos no campo de batalha fazem Salvaguarda de Constituição DC 17 ou ficam Envenenados e têm Desvantagem em todos os testes por 2 rodadas.
 
 **Reação:**
 - **Manto de Angústia** (⟁): Quando atingida, o atacante faz Salvaguarda de Constituição DC 15 ou sofre 2d6 de veneno.
@@ -981,7 +981,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Guardião de Pedra — Impassível:** Imune a ser Derrubado, Agarrado ou Empurrado. RD 5 contra dano físico. Imune a Veneno e Psíquico. **Vulnerável a Arcano** (ataques Arcanos causam dano extra igual ao Nível do atacante).
 **Guardião de Pedra — Lento mas Implacável:** Só se move distância Curta por turno, mas cada ataque que acerta também empurra o alvo 1 zona (Força DC 15 para resistir).
 
-**Vigília Eterna — Guardião Eterno:** Quando reduzida a 0 PV por dano não-sagrado, faz Salvaguarda de Constituição DC 13 — sucesso: fica com 1 PV. Só pode fazer isso uma vez por encontro.
+**Vigília Eterna — Guardião Eterno:** Quando reduzida a 0 PV por dano não-sagrado, faz Salvaguarda de Constituição DC 13 — sucesso: fica com 1 PV. Só pode fazer isso uma vez por cena.
 **Vigília Eterna:** Imune a Necrótico, Veneno, charme e medo. **Vulnerável a Radiante** (ataques Radiantes causam dano extra igual ao Nível do atacante).
 
 **Loot:** Guardião de Pedra = nada; Vigília Eterna = 2d8 po + 25% de Armadura Pesada encantada.
@@ -1003,7 +1003,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Golpe Esmagador** (◈): +7 para acertar, 2d10+4 de dano contundente. Salvaguarda de Força DC 15 ou alvo Derrubado.
 - **Pisão** (◈◈): Todos a distância Próximo fazem Salvaguarda de Força DC 15 ou sofrem 2d8 de dano Físico e ficam Derrubados.
-- **Punhos de Pedra** (◈◈◈, uma vez por encontro): Faz 2 ataques de Golpe Esmagador no mesmo turno.
+- **Punhos de Pedra** (◈◈◈, uma vez por cena): Faz 2 ataques de Golpe Esmagador no mesmo turno.
 
 **Reação:**
 - **Absorver Impacto** (⟁): Reduz 1d8+3 de dano recebido.
@@ -1032,7 +1032,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Garras da Dor** (◈): +8 para acertar, 2d8+5 de dano cortante. Pode fazer este ataque duas vezes por ◈◈.
 - **Investida Colossal** (◈◈): Avança distância Distante em linha reta e atinge todos no caminho — Salvaguarda de Força DC 16 ou sofrem 2d10 de dano Físico e ficam Derrubados.
-- **Frenesi** (◈◈◈, uma vez por encontro): Faz 3 ataques de Garras da Dor consecutivos.
+- **Frenesi** (◈◈◈, uma vez por cena): Faz 3 ataques de Garras da Dor consecutivos.
 
 **Reação:**
 - **Suportar** (⟁): Reduz 1d8+4 de dano recebido. *Duriel não esquiva — ele apenas aguenta.*
@@ -1062,7 +1062,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Garras da Dor** (◈): +10 para acertar, 3d8+6 de dano cortante. Pode fazer este ataque duas vezes por ◈◈.
 - **Investida Colossal** (◈◈): Avança distância Distante e atinge todos no caminho — Salvaguarda de Força DC 18 ou sofrem 3d10 de dano Físico e ficam Derrubados.
-- **Frenesi Total** (◈◈◈, duas vezes por encontro): Faz 3 ataques de Garras da Dor consecutivos.
+- **Frenesi Total** (◈◈◈, duas vezes por cena): Faz 3 ataques de Garras da Dor consecutivos.
 
 **Reação:**
 - **Suportar** (⟁): Reduz 1d10+5 de dano recebido.
@@ -1163,7 +1163,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Garras da Luxúria** (◈): +7 para acertar, 3d8+5 de dano Físico + Salvaguarda de Sabedoria DC 15 ou o alvo fica Encantado por 1 rodada.
 - **Teia de Desejo** (◈◈): Alcance Distante — Salvaguarda de Destreza DC 14 ou alvo Agarrado e Encantado simultaneamente (não pode se soltar enquanto Encantado).
-- **Dança da Sedução** (◈◈◈, uma vez por encontro): Todos a distância Próximo fazem Salvaguarda de Sabedoria DC 15 ou ficam Encantados por 2 rodadas.
+- **Dança da Sedução** (◈◈◈, uma vez por cena): Todos a distância Próximo fazem Salvaguarda de Sabedoria DC 15 ou ficam Encantados por 2 rodadas.
 
 **Reação:**
 - **Esquiva Graciosa** (⟁): Cancela 1 ataque físico completamente.
@@ -1192,7 +1192,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 
 **Ações:**
 - **Bola de Fogo do Inferno** (◈): +8 para acertar, alcance Longo, 2d10+4 de fogo.
-- **Portal do Pecado** (◈◈, uma vez por encontro): Abre 1 Coração do Pecado em qualquer ponto do campo de batalha.
+- **Portal do Pecado** (◈◈, uma vez por cena): Abre 1 Coração do Pecado em qualquer ponto do campo de batalha.
 - **Voz do Pecado** (◈◈): Todos a distância Próximo fazem Salvaguarda de Sabedoria DC 15 ou ficam Encantados por 1 rodada (não atacam Azmodan).
 
 **Reação:**
@@ -1223,8 +1223,8 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Raio do Inferno** (◈): +10 para acertar, alcance Longo, 3d8+5 de fogo.
 - **Chuva de Fogo** (◈◈): Marca 3 pontos no campo. No início do próximo turno, explosões atingem cada ponto — Salvaguarda de Destreza DC 17 ou 3d8 de fogo (metade no sucesso).
-- **Portal do Pecado** (◈◈, duas vezes por encontro): Abre 1 Coração do Pecado em qualquer ponto do campo de batalha.
-- **Tentação em Massa** (◈◈◈, uma vez por encontro): Todos os inimigos fazem Salvaguarda de Sabedoria DC 17 ou abraçam um Pecado por 2 rodadas — atacam o aliado mais próximo em vez dos inimigos.
+- **Portal do Pecado** (◈◈, duas vezes por cena): Abre 1 Coração do Pecado em qualquer ponto do campo de batalha.
+- **Tentação em Massa** (◈◈◈, uma vez por cena): Todos os inimigos fazem Salvaguarda de Sabedoria DC 17 ou abraçam um Pecado por 2 rodadas — atacam o aliado mais próximo em vez dos inimigos.
 
 **Reação:**
 - **Escudo de Almas** (⟁): Sacrifica 1d6 aliados a distância Próximo para cancelar completamente 1 ataque.
@@ -1365,7 +1365,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 - **Garras Venenosas** (◈): +9 para acertar, 2d10+5 de dano Físico + Salvaguarda de Constituição DC 16 ou sofre 2d6 de veneno por turno durante 3 turnos.
 - **Bafo de Veneno** (◈◈): Cone Próximo — Salvaguarda de Constituição DC 16 ou sofre 4d8 de veneno (metade no sucesso). Deixa nuvem venenosa por 2 rodadas (2d4 ao entrar ou iniciar turno na área).
 - **Campo de Ilusões** (◈◈): Cria 1d6 Duplicatas Demoníacas que surgem no próximo turno.
-- **A Grande Mentira** (◈◈◈, uma vez por encontro): Todos fazem Salvaguarda de Sabedoria DC 17. Falha: vê todos os aliados como inimigos por 2 rodadas. Falha por 5 ou menos: Desvantagem em ataques por 1 rodada.
+- **A Grande Mentira** (◈◈◈, uma vez por cena): Todos fazem Salvaguarda de Sabedoria DC 17. Falha: vê todos os aliados como inimigos por 2 rodadas. Falha por 5 ou menos: Desvantagem em ataques por 1 rodada.
 
 **Reação:**
 - **Forma Fantasma** (⟁): 50% de chance de anular completamente 1 ataque (acertou uma ilusão).
@@ -1401,10 +1401,10 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Inquisidor — Julgamento** (◈◈): Salvaguarda de Sabedoria DC 14 ou o alvo fica Amedrontado por 2 rodadas.
 
 **Bispo do Ódio — Maldição do Ódio** (◈◈): Salvaguarda de Sabedoria DC 14 ou o alvo tem Desvantagem em ataques contra todos exceto o inimigo mais próximo por 2 rodadas (o ódio distrai).
-**Relâmpago Corrompido** (◈◈◈, uma vez por encontro): Raio em linha reta até 2 zonas — Salvaguarda de Destreza DC 14 ou 3d6 de relâmpago (metade no sucesso).
+**Relâmpago Corrompido** (◈◈◈, uma vez por cena): Raio em linha reta até 2 zonas — Salvaguarda de Destreza DC 14 ou 3d6 de relâmpago (metade no sucesso).
 
 **Exorcista Corrompido — Purificação pelo Ódio** (◈◈): Tenta remover um efeito benéfico de um alvo a distância Próximo (Sabedoria DC 13 para resistir).
-**Escudo da Fé** (⟁, uma vez por encontro): Cancela 1d6+2 de dano recebido.
+**Escudo da Fé** (⟁, uma vez por cena): Cancela 1d6+2 de dano recebido.
 
 **Loot:** Inquisidor = 1d10 po + 30% de Armadura Média encantada; Bispo = 2d8 po + 40% de Símbolo Sagrado Corrompido (foco mágico); Exorcista = 1d8 po + 30% de Pergaminho Zakarum (componente mágico).
 
@@ -1469,7 +1469,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Orbe de Relâmpago** (◈): +7 para acertar, alcance Longo, 2d8+4 de relâmpago.
 - **Cadeia de Relâmpago** (◈◈): O raio salta de alvo a alvo — acerta até 3 alvos (cada subsequente sofre −1d6 de dano; Salvaguarda de Destreza DC 14 para metade).
-- **Maldição do Ódio** (◈◈◈, uma vez por encontro): Todos a distância Próximo fazem Salvaguarda de Sabedoria DC 15 ou ficam Odiados por 3 rodadas — toda cura que receberem é convertida em dano equivalente.
+- **Maldição do Ódio** (◈◈◈, uma vez por cena): Todos a distância Próximo fazem Salvaguarda de Sabedoria DC 15 ou ficam Odiados por 3 rodadas — toda cura que receberem é convertida em dano equivalente.
 
 **Reação:**
 - **Absorver Relâmpago** (⟁): Quando atingido por dano de relâmpago, recupera PV igual ao dano que receberia.
@@ -1499,7 +1499,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Relâmpago do Ódio** (◈): +8 para acertar, alcance Longo, 2d10+4 de relâmpago.
 - **Semear o Ódio** (◈◈): Todos a distância Próximo fazem Salvaguarda de Sabedoria DC 16 ou ficam Odiados por 2 rodadas — devem atacar o aliado mais próximo no próximo turno deles.
-- **Nova de Veneno** (◈◈◈, uma vez por encontro): Veneno expande em todas as direções — todos no campo de batalha fazem Salvaguarda de Constituição DC 15 ou sofrem 3d8 de veneno (metade no sucesso).
+- **Nova de Veneno** (◈◈◈, uma vez por cena): Veneno expande em todas as direções — todos no campo de batalha fazem Salvaguarda de Constituição DC 15 ou sofrem 3d8 de veneno (metade no sucesso).
 
 **Reação:**
 - **Escudo de Ódio** (⟁): Quando atingido, o atacante faz Salvaguarda de Sabedoria DC 14 ou sofre 1d8 de dano psíquico (o ódio reflete para quem o feriu).
@@ -1530,7 +1530,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 - **Relâmpago Supremo** (◈): +13 para acertar, alcance Longo, 4d8+7 de relâmpago.
 - **Cadeia de Ódio** (◈◈): O raio salta entre até 4 alvos (cada subsequente −1d6 de dano; Destreza DC 17 para metade). Alvos atingidos fazem Salvaguarda de Sabedoria DC 16 ou ficam Odiados por 1 rodada.
 - **Maldição do Ódio Eterno** (◈◈): Marca um alvo — toda cura que ele receber é convertida em dano equivalente por 3 rodadas. Pode usar uma vez por rodada.
-- **A Voz do Ódio** (◈◈◈, uma vez por encontro): Todos os inimigos fazem Salvaguarda de Sabedoria DC 18. Falha: ficam Odiados por 3 rodadas — devem atacar o aliado mais próximo no início de cada turno. Falha por 5 ou menos: Desvantagem em ataques contra Mephisto por 2 rodadas.
+- **A Voz do Ódio** (◈◈◈, uma vez por cena): Todos os inimigos fazem Salvaguarda de Sabedoria DC 18. Falha: ficam Odiados por 3 rodadas — devem atacar o aliado mais próximo no início de cada turno. Falha por 5 ou menos: Desvantagem em ataques contra Mephisto por 2 rodadas.
 
 **Reação:**
 - **Escudo de Ódio** (⟁): Quando atingido, o atacante faz Salvaguarda de Sabedoria DC 16 ou sofre 2d8 de dano psíquico e fica Odiado por 1 rodada.
@@ -1538,7 +1538,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Habilidades Passivas:**
 - **Senhor do Ódio:** Zakarum Corrompidos e Espectros do Ódio a distância Próximo ganham +2 em ataques. Aliados que morrerem a distância Próximo levantam como Espectros do Desespero no início do próximo turno de Mephisto.
 - **Aura de Ódio Puro:** Criaturas vivas a distância Próximo fazem Salvaguarda de Sabedoria DC 16 no início de cada turno ou sofrem 1d6 de dano psíquico e têm Desvantagem em ataques contra Mephisto por 1 rodada.
-- **O Ódio Não Morre:** Uma vez por encontro, quando reduzido a 0 PV, ressurge com 35 PV no turno seguinte — desde que haja pelo menos 1 criatura que ele converteu com Odiado ainda viva no campo de batalha.
+- **O Ódio Não Morre:** Uma vez por cena, quando reduzido a 0 PV, ressurge com 35 PV no turno seguinte — desde que haja pelo menos 1 criatura que ele converteu com Odiado ainda viva no campo de batalha.
 - RD 12 relâmpago. RD 8 físico. Imune a charme, medo, veneno e paralisia.
 
 **Loot:** 5d10 po + 2 Runas raras + 75% de item mágico raro + 50% de Essência de Mephisto (componente lendário único).
@@ -1567,7 +1567,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Frenesi de Destruição:** Quando reduzido a metade do PV, ganha +2 em ataques e dano pelo resto do encontro.
 
 **Sabotador — Bomba de Fumaça** (◈): Lança ao chão — área Próximo fica com fumaça por 2 rodadas (criaturas na área têm Desvantagem em ataques).
-**Explosivo de Contato** (◈◈, uma vez por encontro): Prende um explosivo em um alvo adjacente (Destreza DC 13 para resistir). No início do próximo turno, explode: 2d8 de fogo em área Próximo do alvo (Salvaguarda de Destreza DC 13, metade no sucesso).
+**Explosivo de Contato** (◈◈, uma vez por cena): Prende um explosivo em um alvo adjacente (Destreza DC 13 para resistir). No início do próximo turno, explode: 2d8 de fogo em área Próximo do alvo (Salvaguarda de Destreza DC 13, metade no sucesso).
 
 **Arauto da Ruína — Grito de Ruína** (◈◈): Todos a distância Próximo fazem Salvaguarda de Constituição DC 13 ou ficam Atordoados por 1 rodada.
 **Aura de Caos (Passivo):** Quando o Arauto morre, todos a distância Próximo sofrem 1d6 de dano contundente pela onda de energia caótica liberada.
@@ -1610,7 +1610,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Bárbaro Corrompido — Frenesi:** Ganha +1 em ataques para cada acerto consecutivo no mesmo alvo (máx +3, reseta se trocar de alvo). Imune a medo.
 **Grito de Batalha** (◈): Todos os aliados a distância Próximo ganham +2 em dano por 1 rodada.
 
-**Ancião das Montanhas — Guardião Eterno:** Quando reduzido a 0 PV por dano não-sagrado, faz Salvaguarda de Constituição DC 14 — sucesso: fica com 1 PV. Uma vez por encontro.
+**Ancião das Montanhas — Guardião Eterno:** Quando reduzido a 0 PV por dano não-sagrado, faz Salvaguarda de Constituição DC 14 — sucesso: fica com 1 PV. Uma vez por cena.
 **Clava Rúnica** (◈◈): +7 para acertar, 2d10+4 de dano Físico. Salvaguarda de Força DC 16 ou o alvo é arremessado 1 zona e cai Derrubado.
 **RD 5 contra dano físico.** Imune a charme e veneno.
 
@@ -1633,7 +1633,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Golpe do Atormentador** (◈): +8 para acertar, 2d10+5 de dano contundente. Salvaguarda de Força DC 16 ou alvo Derrubado e perde ◈ no próximo turno.
 - **Pisão** (◈◈): Todos a distância Próximo fazem Salvaguarda de Força DC 16 ou sofrem 2d8 de dano Físico e ficam Derrubados.
-- **Invocar os Escravizados** (◈◈◈, uma vez por encontro): Convoca 1d4+1 Escravizados de Baal que surgem adjacentes a ele no próximo turno.
+- **Invocar os Escravizados** (◈◈◈, uma vez por cena): Convoca 1d4+1 Escravizados de Baal que surgem adjacentes a ele no próximo turno.
 
 **Reação:**
 - **Suportar** (⟁): Reduz 1d10+4 de dano recebido. *Lister não esquiva — ele aguenta e sorri.*
@@ -1664,7 +1664,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Chicote Tentacular** (◈): +8 para acertar, alcance Curto, 2d8+5 de dano Físico. Acerto → Salvaguarda de Força DC 16 ou alvo Derrubado.
 - **Efluente Vil** (◈◈): Expele nuvem de veneno em cone Próximo — Salvaguarda de Constituição DC 15 ou sofre 3d6 de veneno (metade no sucesso). A área permanece venenosa por 2 rodadas.
-- **Onda da Destruição** (◈◈◈, uma vez por encontro): Lança uma onda de energia caótica em linha reta até 2 zonas — todos no caminho fazem Salvaguarda de Força DC 16 ou sofrem 4d8 de dano Arcano e ficam Derrubados. Metade do dano no sucesso. Destrói automaticamente barreiras mágicas e objetos no caminho.
+- **Onda da Destruição** (◈◈◈, uma vez por cena): Lança uma onda de energia caótica em linha reta até 2 zonas — todos no caminho fazem Salvaguarda de Força DC 16 ou sofrem 4d8 de dano Arcano e ficam Derrubados. Metade do dano no sucesso. Destrói automaticamente barreiras mágicas e objetos no caminho.
 
 **Reação:**
 - **Absorver o Impacto** (⟁): Reduz 1d10+4 de dano recebido.
@@ -1695,7 +1695,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 - **Chicote Tentacular** (◈): +13 para acertar, alcance Curto, 4d8+7 de dano Físico. Acerto → Salvaguarda de Força DC 17 ou alvo Derrubado e arremessado 1 zona.
 - **Efluente Vil** (◈◈): Cone Próximo — Salvaguarda de Constituição DC 17 ou sofre 4d8 de veneno (metade no sucesso). Área permanece venenosa por 3 rodadas (2d6 ao entrar ou iniciar turno na área).
 - **Surgir Tentáculos** (◈◈): Faz emergir 1d3 Tentáculos de Baal em pontos a distância Próximo. Agem no próximo turno.
-- **Onda da Destruição** (◈◈◈, duas vezes por encontro): Onda de energia em linha reta até 2 zonas — Salvaguarda de Força DC 18 ou 5d10 de dano Arcano e alvo Derrubado. Metade do dano no sucesso. Destrói barreiras mágicas, armaduras encantadas e proteções mágicas automaticamente.
+- **Onda da Destruição** (◈◈◈, duas vezes por cena): Onda de energia em linha reta até 2 zonas — Salvaguarda de Força DC 18 ou 5d10 de dano Arcano e alvo Derrubado. Metade do dano no sucesso. Destrói barreiras mágicas, armaduras encantadas e proteções mágicas automaticamente.
 
 **Reação:**
 - **Absorver o Impacto** (⟁): Reduz 1d12+5 de dano recebido.
@@ -1734,7 +1734,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Lâmina do Pânico** (◈◈): Acerto → Salvaguarda de Sabedoria DC 13 ou o alvo fica Amedrontado por 1 rodada.
 
 **Profeta do Pavor — Maldição do Pavor** (◈◈): Salvaguarda de Sabedoria DC 14 ou o alvo não pode se aproximar de Diablo ou de qualquer Cavaleiro do Desespero por 2 rodadas.
-**Visão do Fim** (◈◈◈, uma vez por encontro): Alvo faz Salvaguarda de Sabedoria DC 15 ou fica Paralisado por 1 rodada — vê sua própria morte.
+**Visão do Fim** (◈◈◈, uma vez por cena): Alvo faz Salvaguarda de Sabedoria DC 15 ou fica Paralisado por 1 rodada — vê sua própria morte.
 
 **Cavaleiro do Desespero — Aura Flamejante:** Criaturas adjacentes sofrem 2 de dano de fogo no início de cada turno delas.
 **Carga do Desespero** (◈◈): Avança distância Distante e ataca todos no caminho — Salvaguarda de Destreza DC 14, metade do dano. RD 5 contra fogo. Imune a medo.
@@ -1797,7 +1797,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Garras do Terror** (◈): +8 para acertar, 2d8+5 de dano Físico. Acerto → Salvaguarda de Sabedoria DC 15 ou o alvo fica Amedrontado por 1 rodada.
 - **Raio de Fogo** (◈◈): +8 para acertar, alcance Longo, 3d8+4 de fogo.
-- **Incorporar o Medo** (◈◈◈, uma vez por encontro): A Sombra assume a aparência do personagem mais temido pelo grupo (um inimigo derrotado, um aliado morto — o Mestre decide). Por 2 rodadas, ataques contra ela têm Desvantagem enquanto mantiver a forma.
+- **Incorporar o Medo** (◈◈◈, uma vez por cena): A Sombra assume a aparência do personagem mais temido pelo grupo (um inimigo derrotado, um aliado morto — o Mestre decide). Por 2 rodadas, ataques contra ela têm Desvantagem enquanto mantiver a forma.
 
 **Reação:**
 - **Forma de Sombra** (⟁): Quando atingida, tem 50% de chance de reduzir o dano à metade (o ataque passou pela sombra).
@@ -1827,7 +1827,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 **Ações:**
 - **Garras do Caos** (◈): +9 para acertar, 2d10+5 de dano Físico. Acerto → Salvaguarda de Sabedoria DC 16 ou Amedrontado por 2 rodadas.
 - **Raio Flamejante** (◈◈): +9 para acertar, alcance Longo, 3d8+5 de fogo. Acerto → o alvo fica em chamas (1d6 de fogo por turno até gastar ◈ para apagar).
-- **Grito do Terror** (◈◈◈, uma vez por encontro): Todos os inimigos fazem Salvaguarda de Sabedoria DC 17. Falha: Amedrontados por 3 rodadas e devem usar o movimento para fugir de Diablo. Falha por 5 ou menos: Desvantagem em ataques contra Diablo por 2 rodadas.
+- **Grito do Terror** (◈◈◈, uma vez por cena): Todos os inimigos fazem Salvaguarda de Sabedoria DC 17. Falha: Amedrontados por 3 rodadas e devem usar o movimento para fugir de Diablo. Falha por 5 ou menos: Desvantagem em ataques contra Diablo por 2 rodadas.
 
 **Reação:**
 - **Absorver o Medo** (⟁): Quando um aliado próximo fica Amedrontado, Diablo recupera 1d8+3 PV.
@@ -1858,7 +1858,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 - **Garras do Caos** (◈): +13 para acertar, 4d10+8 de dano Físico. Acerto → Salvaguarda de Sabedoria DC 18 ou Amedrontado por 2 rodadas e perde ◈ no próximo turno.
 - **Raio Infernal** (◈◈): +13 para acertar, alcance Longo, 4d10+8 de fogo. Acerto → alvo em chamas (2d6 de fogo por turno até gastar ◈ para apagar).
 - **Prisão de Osso** (◈◈): Ergue uma jaula de osso ao redor de um alvo a distância Próximo — Salvaguarda de Destreza DC 18 ou fica Aprisionado (não pode se mover; Força DC 18 para quebrar a jaula como ação ◈◈; a jaula tem PV 20 e CA 14).
-- **Grito do Terror Absoluto** (◈◈◈, duas vezes por encontro): Todos os inimigos fazem Salvaguarda de Sabedoria DC 19. Falha: Amedrontados por 3 rodadas — devem fugir e não podem atacar voluntariamente Diablo. Falha por 5 ou menos: Paralisados por 1 rodada.
+- **Grito do Terror Absoluto** (◈◈◈, duas vezes por cena): Todos os inimigos fazem Salvaguarda de Sabedoria DC 19. Falha: Amedrontados por 3 rodadas — devem fugir e não podem atacar voluntariamente Diablo. Falha por 5 ou menos: Paralisados por 1 rodada.
 
 **Reação:**
 - **Absorver o Medo** (⟁): Quando qualquer criatura fica Amedrontada a distância Próximo, recupera 2d8+4 PV.
@@ -1867,7 +1867,7 @@ Os Males podem ser enfrentados como **chefes de ato**, servidos como **aliados s
 - **Senhor do Terror:** Criaturas demoníacas a distância Próximo ganham +2 em ataques. Criaturas que falharem em qualquer Salvaguarda de Sabedoria durante o encontro ficam permanentemente com Desvantagem em ataques contra Diablo pelo resto do encontro.
 - **Aura de Terror Absoluto:** Criaturas vivas a distância Próximo fazem Salvaguarda de Sabedoria DC 17 no início de cada turno ou ficam Amedrontadas por 1 rodada e sofrem 1d6 de dano psíquico.
 - **O Terror Alimenta:** Cada vez que uma criatura fica Amedrontada a qualquer distância durante o encontro — por qualquer fonte — Diablo recupera 1d6 PV.
-- **Imortalidade do Terror:** Uma vez por encontro, quando reduzido a 0 PV, todos os inimigos fazem Salvaguarda de Sabedoria DC 19 imediatamente. Se pelo menos um falhar, Diablo ressurge com PV igual ao total de falhas × 10 no início do próximo turno.
+- **Imortalidade do Terror:** Uma vez por cena, quando reduzido a 0 PV, todos os inimigos fazem Salvaguarda de Sabedoria DC 19 imediatamente. Se pelo menos um falhar, Diablo ressurge com PV igual ao total de falhas × 10 no início do próximo turno.
 - RD 15 fogo. RD 10 físico. Imune a charme, medo, veneno, paralisia e qualquer efeito de terror.
 
 **Loot:** 6d10 po + 3 Runas raras + 90% de item mágico raro + 60% de Essência de Diablo (componente lendário único — o mais poderoso do jogo).

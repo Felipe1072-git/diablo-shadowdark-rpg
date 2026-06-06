@@ -541,7 +541,7 @@ O slot Especial é reservado para **itens exclusivos de classe** — objetos que
 | Classe | Item Especial | Efeito Base (Normal) | Preço |
 | :---- | :---- | :---- | :---- |
 | **Arcanista** | Orbe Arcano | Cargas Arcanas (Dínamo) concedem +3 de dano em vez de +2 | 100 po |
-| **Mago** | Tomo de Magias | Uma vez por combate, conjure um feitiço de Afinidade Elemental sem teste de conjuração | 200 po |
+| **Mago** | Tomo de Magias | Uma vez por cena, conjure um feitiço de Afinidade Elemental sem teste de conjuração | 200 po |
 | **Necromante** | Filogênio | +2 ao limite máximo de lacaios (Comandante da Horda) | 125 po |
 | **Feiticeiro (Witch Doctor)** | Mojo | Veneno dura 2 rodadas a mais em vez de 1 (Mestre das Pragas) | 75 po |
 | **Renegada** | Carcaj de Sombra | Ataque Furtivo causa +1d6 extra (total +2d6) | 75 po |
@@ -1015,7 +1015,7 @@ O Antecedente representa o que você fazia antes de se tornar um herói. Escolha
 
 | # | Antecedente | Quem você era | Habilidade |
 | :---- | :---- | :---- | :---- |
-| 1 | **Soldado** | Serviu nas forças militares de algum reino de Santuário | *Disciplina de Combate:* Uma vez por combate, gaste ◇ para ganhar +2 na CA até o início do seu próximo turno. |
+| 1 | **Soldado** | Serviu nas forças militares de algum reino de Santuário | *Disciplina de Combate:* Uma vez por cena, gaste ◇ para ganhar +2 na CA até o início do seu próximo turno. |
 | 2 | **Sobrevivente** | Viveu em território devastado por demônios e saiu andando | *Instinto de Sobrevivência:* Quando seus PV caem à metade ou menos, você ganha Vantagem em testes de DES e movimento até o fim do combate. |
 | 3 | **Alquimista** | Passou anos preparando poções, venenos e reagentes | *Mestre de Poções:* Ao usar uma poção, recupere +1d4 adicional de PV ou Mana (escolha no momento). |
 | 4 | **Ferreiro** | Forjava e reparava armas e armaduras pelos vilarejos de Santuário | *Trabalho em Metal:* Você identifica propriedades de armas e armaduras ao tocá-las. Itens que você usa demoram o dobro do tempo para se desgastar ou quebrar. |
@@ -1026,7 +1026,7 @@ O Antecedente representa o que você fazia antes de se tornar um herói. Escolha
 | 9 | **Estudioso** | Pesquisou artefatos, criaturas e os segredos ocultos de Santuário | *Conhecimento Proibido:* Vantagem em testes de INT para identificar demônios, criaturas ou artefatos. Uma vez por sessão, o Mestre revela uma informação extra sobre uma criatura ou item que você examinar. |
 | 10 | **Caçador** | Rastreava animais e criaturas pelas terras selvagens de Santuário | *Rastejador:* Vantagem em testes de rastreamento e em testes de DES para se mover silenciosamente. Nunca é surpreendido em ambientes naturais. |
 | 11 | **Guarda** | Protegia uma cidade, caravana ou nobre antes do caos chegar | *Postura de Guarda:* Quando um aliado adjacente sofre um ataque, use ⟁ para reduzir o dano por 1d6 (sem custo de Mana). |
-| 12 | **Renegado** | Serviu forças sombrias antes de se arrepender e partir | *Conhecimento do Inimigo:* Uma vez por combate, revele a fraqueza de um demônio como ◇ — todos os aliados ganham Vantagem em um ataque contra ele. |
+| 12 | **Renegado** | Serviu forças sombrias antes de se arrepender e partir | *Conhecimento do Inimigo:* Uma vez por cena, revele a fraqueza de um demônio como ◇ — todos os aliados ganham Vantagem em um ataque contra ele. |
 
 ---
 
@@ -1049,14 +1049,14 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 5 | **Golpe Ensurdecedor** | Após acertar corpo a corpo, gaste 2 Mana para impor Desvantagem no próximo ataque do alvo. |
 | 6 | **Destruidor de Escudos** | Seus ataques ignoram o bônus de CA de escudos. |
 | 7 | **Instinto de Predador** | Vantagem em ataques contra alvos que ainda não agiram no combate (primeiro turno do encontro). |
-| 8 | **Guerreiro Veterano** | Uma vez por combate, role novamente uma jogada de ataque e fique com o melhor resultado. |
+| 8 | **Guerreiro Veterano** | Uma vez por cena, role novamente uma jogada de ataque e fique com o melhor resultado. |
 | 9 | **Sangue Frio** | Sem Desvantagem em ataques por estar adjacente a múltiplos inimigos. |
 | 10 | **Perseguidor** | Quando um inimigo usa Desengajar, você pode se mover Próximo como ⟁ sem custo de AP. |
 | 11 | **Marca de Morte** | Ao reduzir um inimigo a 0 PV, seu próximo ataque no mesmo turno tem Vantagem. |
 | 12 | **Agressor** | Ao se mover em direção a um inimigo e atacar no mesmo turno, adicione +1d4 ao dano. |
 | 13 | **Ataque Giratório** | Como ◈◈, ataque todos os inimigos adjacentes. Role um ataque para cada um. |
 | 14 | **Provocação** | Como ◈, force um inimigo a mirar só você até o início do seu próximo turno — seus aliados têm Vantagem contra esse alvo enquanto ele te vê. |
-| 15 | **Recuperação em Combate** | Uma vez por combate, recupere 1d6 PV como ◇ durante seu turno. |
+| 15 | **Recuperação em Combate** | Uma vez por cena, recupere 1d6 PV como ◇ durante seu turno. |
 | 16 | **Resistência ao Dano** | Você ganha RD 2 contra dano físico (cortante, perfurante, contundente). |
 | 17 | **Fortaleza de Aço** | Usando armadura Pesada, ignore a primeira fonte de Desvantagem por turno. |
 | 18 | **Golpe Crítico Aprimorado** | Seus Acertos Críticos causam 3 dados de dano em vez de 2. |
@@ -1078,12 +1078,12 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 7 | **Contrafeitiço** | Como ⟁ + 4 Mana, interrompa um feitiço inimigo que você possa ver sendo conjurado. |
 | 8 | **Infusão de Mana** | Como ◈ + 2 Mana, conceda 3 Mana a um aliado adjacente. |
 | 9 | **Alcance Estendido** | Feitiços com alcance Curto passam a alcançar Distante. |
-| 10 | **Poder Bruto** | Uma vez por combate, dobre o dado de dano de um feitiço (gaste 4 Mana extra). |
+| 10 | **Poder Bruto** | Uma vez por cena, dobre o dado de dano de um feitiço (gaste 4 Mana extra). |
 | 11 | **Catalisador Natural** | Você não precisa de um catalisador físico para conjurar — suas mãos servem como foco. Se sua arma já tiver a propriedade Foco Mágico, ganhe +1 adicional nos testes de conjuração. |
 | 12 | **Mente de Ferro** | Seu Mana máximo não pode ser reduzido por efeitos externos (ex: Drenagem Vital da Malfunção). |
 | 13 | **Explosão de Burnout** | Ao entrar em Burnout (Mana 0), cause 2d6 de dano Arcano em todos os adjacentes como ⟁. |
 | 14 | **Absorção Mágica** | Ao sofrer dano de magia, recupere 1 Mana para cada 5 pontos de dano recebido. |
-| 15 | **Conjurador Rápido** | Uma vez por combate, conjure um feitiço de ◈◈ como ◈ (gaste 2 Mana extra). |
+| 15 | **Conjurador Rápido** | Uma vez por cena, conjure um feitiço de ◈◈ como ◈ (gaste 2 Mana extra). |
 | 16 | **Maestria na Falha** | Ao rolar 1 Natural numa conjuração, gaste 5 Mana para ignorar a Malfunção Mágica. |
 | 17 | **Roubo de Mana** | Seus ataques recuperam 1 Mana ao acertar um Golpe Fatal ou Crítico. Se sua arma já tiver o afixo Vampírico ou Espiritual, recupera 2 Mana em vez de 1. |
 | 18 | **Dupla Conjuração** | Uma vez por descanso longo, conjure dois feitiços no mesmo turno (◈◈◈ + Mana de ambos). |
@@ -1097,7 +1097,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | d20 | Talento | Efeito |
 | :---- | :---- | :---- |
 | 1 | **Pele de Pedra** | RD 1 permanente contra todo dano físico. |
-| 2 | **Segundo Fôlego** | Uma vez por combate, como ◇, recupere 1d8+Nível PV. |
+| 2 | **Segundo Fôlego** | Uma vez por cena, como ◇, recupere 1d8+Nível PV. |
 | 3 | **Resistência a Venenos** | Vantagem em Salvaguardas contra veneno e doenças. |
 | 4 | **Cicatrização Acelerada** | No início de cada Descanso Curto, recupere 1d4 PV automaticamente. |
 | 5 | **Corpo Forjado** | Ignore o primeiro nível de Exaustão em qualquer teste. |
@@ -1123,7 +1123,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 
 | d20 | Talento | Efeito |
 | :---- | :---- | :---- |
-| 1 | **Voz de Comando** | Uma vez por combate, como ◇, dê uma ordem a um aliado — ele pode se mover Próximo como ⟁ sem custo de AP. |
+| 1 | **Voz de Comando** | Uma vez por cena, como ◇, dê uma ordem a um aliado — ele pode se mover Próximo como ⟁ sem custo de AP. |
 | 2 | **Intimidação** | Como ◈, force um inimigo (que possa te ouvir) a rolar Salvaguarda de SAB ou CAR (DC 10 + Nível) ou ficar com Desvantagem nos ataques até o fim do turno dele. |
 | 3 | **Presença Imponente** | Vantagem em testes de CAR para intimidar, persuadir ou impressionar NPCs. |
 | 4 | **Grito de Guerra** | Como ◇, todos os aliados que puderem te ouvir ganham +1 em ataques no próximo turno. |
@@ -1132,7 +1132,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 7 | **Liderança de Campo** | Aliados adjacentes têm +1 em Salvaguardas enquanto você estiver de pé e consciente. |
 | 8 | **Mentiroso Habilidoso** | Vantagem em testes para enganar ou disfarçar intenções. NPCs precisam de evidência concreta para desconfiar de você. |
 | 9 | **Fama e Medo** | Quando seu nome é mencionado em combate (como ◇), inimigos com inteligência média ou menor rolam Salvaguarda de SAB (DC 10 + Nível) ou recuam Próximo. |
-| 10 | **Diplomata** | Você pode tentar encerrar um combate por negociação como ◈◈ — o Mestre decide se os inimigos aceitam escutar. Funciona apenas uma vez por encontro. |
+| 10 | **Diplomata** | Você pode tentar encerrar um combate por negociação como ◈◈ — o Mestre decide se os inimigos aceitam escutar. Funciona apenas uma vez por cena. |
 | 11 | **Inspiração** | Uma vez por descanso longo, como ◈, conceda a um aliado Vantagem em qualquer teste ou ataque à escolha dele, usado quando quiser durante a próxima hora. |
 | 12 | **Moral de Ferro** | Aliados que puderem te ouvir são imunes ao efeito Medo enquanto você estiver consciente. |
 | 13 | **Provocador** | Como ◈, insulte um inimigo inteligente. Ele tem Vantagem para atacar você, mas Desvantagem para atacar seus aliados até o fim do próximo turno dele. |
@@ -1181,9 +1181,9 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 2 | **Azarado com Sorte** | Sempre que rolar um 1 Natural, ganhe 1 ponto de Fortuna. Acumule até 3 — gaste 3 para transformar qualquer resultado num 20. |
 | 3 | **Pressentimento** | Uma vez por sessão, antes de rolar um dado, declare que vai usar Pressentimento. Se o resultado for Falha, role novamente e fique com o melhor. |
 | 4 | **Dado Quente** | Após rolar dois 20 Naturais na mesma sessão, todos os seus dados de dano causam o valor máximo até o fim do combate atual. |
-| 5 | **Instinto de Sobrevivente** | Uma vez por combate, quando um ataque te reduziria a 0 PV, role 1d6. No 4+, você fica com 1 PV. |
+| 5 | **Instinto de Sobrevivente** | Uma vez por cena, quando um ataque te reduziria a 0 PV, role 1d6. No 4+, você fica com 1 PV. |
 | 6 | **Achado Inesperado** | Uma vez por sessão, ao abrir um baú, revistar um inimigo ou explorar uma sala, declare um Achado. O Mestre adiciona um item útil (poção, munição ou ferramenta) que não estava planejado. |
-| 7 | **Golpe do Destino** | Uma vez por combate, após errar um ataque, o próximo ataque contra o mesmo alvo tem Vantagem. |
+| 7 | **Golpe do Destino** | Uma vez por cena, após errar um ataque, o próximo ataque contra o mesmo alvo tem Vantagem. |
 | 8 | **Mão Fria, Coração Quente** | Vantagem em rolagens de tabelas aleatórias (tesouros, eventos de viagem, encontros). |
 | 9 | **Desafio do Caos** | Ao rolar um 1 Natural em qualquer teste fora de combate, algo inesperadamente bom acontece — o Mestre narra uma consequência positiva não planejada. |
 | 10 | **Karma** | Sempre que um aliado cair a 0 PV, você ganha Vantagem em todos os ataques no próximo turno. |
@@ -1194,7 +1194,7 @@ Escolha a tabela temática que melhor combina com a direção que você quer dar
 | 15 | **Coincidência Conveniente** | Uma vez por sessão, declare que algo conveniente acontece. O Mestre decide como acontece, mas acontece. |
 | 16 | **Dados Sangrentos** | Sempre que rolar o valor máximo em qualquer dado de dano, role esse dado novamente e some (uma vez por ataque). |
 | 17 | **Fio do Destino** | O Mestre não pode matar seu personagem por consequência de um 1 Natural fora de combate — o pior resultado é humilhante, não letal. |
-| 18 | **Maldição Refletida** | Uma vez por combate, quando sofrer um efeito de status (Medo, Paralisia, Veneno), role 1d6. No 5+, o efeito é refletido para o causador. |
+| 18 | **Maldição Refletida** | Uma vez por cena, quando sofrer um efeito de status (Medo, Paralisia, Veneno), role 1d6. No 5+, o efeito é refletido para o causador. |
 | 19 | **Herança de Nephalem** | Uma vez por campanha, em um momento de morte certa, você sobrevive com 1 PV. O Mestre narra como o sangue de Santuário se recusa a morrer. |
 | 20 | **Filho da Fortuna** | Escolha qualquer outro talento desta tabela. Você o ganha permanentemente. |
 

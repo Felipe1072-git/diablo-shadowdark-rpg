@@ -28,7 +28,7 @@ CA 13, HP 12, MV Distante
 CA 14, HP 45, MV Próximo (Pode flutuar sobre obstáculos)   
 FOR \+1 | DES \+3 | CON \+2 | INT \+4 | SAB \+2 | CAR \+5   
 **Toque Drenante (Ataque Corpo a Corpo):** \+5 (1d8 de dano, e a Condessa recupera HP igual ao dano causado).   
-**Muralha de Chamas:** Uma vez por combate, ela pode erguer uma parede de fogo que corta a sala ao meio. Cruzar a parede causa 2d6 de dano mágico de fogo. Ao ser reduzida a 0 HP, ela ri histericamente e explode em uma nuvem de cinzas e brasas.
+**Muralha de Chamas:** Uma vez por cena, ela pode erguer uma parede de fogo que corta a sala ao meio. Cruzar a parede causa 2d6 de dano mágico de fogo. Ao ser reduzida a 0 HP, ela ri histericamente e explode em uma nuvem de cinzas e brasas.
 
 ---
 

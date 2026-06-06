@@ -305,7 +305,7 @@ Role o d100 para determinar o tipo de item. Cada seção tem sua própria sub-ta
 | Classe | Item Especial | Efeito Base (Normal) |
 | :---- | :---- | :---- |
 | **Arcanista** | Orbe Arcano | Cargas Arcanas concedem +3 de dano em vez de +2 |
-| **Mago** | Tomo de Magias | Uma vez por combate, conjure feitiço de Afinidade sem teste |
+| **Mago** | Tomo de Magias | Uma vez por cena, conjure feitiço de Afinidade sem teste |
 | **Necromante** | Filogênio | +2 ao limite máximo de lacaios |
 | **Feiticeiro** | Mojo | Veneno dura 2 rodadas a mais em vez de 1 |
 | **Renegada** | Carcaj de Sombra | Ataque Furtivo causa +1d6 extra (total +2d6) |

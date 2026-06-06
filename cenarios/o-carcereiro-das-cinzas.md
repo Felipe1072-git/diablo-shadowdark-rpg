@@ -30,7 +30,7 @@ CA 16 (Placas do Abismo), HP 75, MV Próximo (Pode voar para "Distante", mas é 
 FOR \+5 | DES \-1 | CON \+4 | INT \+2 | SAB \+1 | CAR \+3   
 **Cetro-Fornalha (Ataque Corpo a Corpo)**: \+7 (1d10+5 de dano contundente \+ 1d6 de dano de Fogo).   
 **Julgamento do Braseiro (Ação Ranged, Distante)**: O Carcereiro aponta seu cajado e dispara uma esfera de chamas brancas. \+5 para acertar. 2d8 de dano de Fogo e o alvo tem sua armadura/escudo derretido (perde 1 de CA permanentemente até ser consertado).   
-**Prisão de Fogo Pálido**: Uma vez por combate, ele bate seu cajado no chão. Correntes de fogo irrompem ao redor de 1d4 alvos Próximo. Eles devem passar em um Teste de DES DC 14 ou ficam Imobilizados, sofrendo 1d4 de dano de fogo no início de seus turnos até usarem uma ação para quebrar as correntes (Teste de FOR DC 13).
+**Prisão de Fogo Pálido**: Uma vez por cena, ele bate seu cajado no chão. Correntes de fogo irrompem ao redor de 1d4 alvos Próximo. Eles devem passar em um Teste de DES DC 14 ou ficam Imobilizados, sofrendo 1d4 de dano de fogo no início de seus turnos até usarem uma ação para quebrar as correntes (Teste de FOR DC 13).
 
 ---
 

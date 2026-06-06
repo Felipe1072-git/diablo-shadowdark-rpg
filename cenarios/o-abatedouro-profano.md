@@ -29,7 +29,7 @@ Demônios sádicos, menores e ágeis, que preparam as vítimas antes do abate. S
 CA 15 (Avental de Couro com Placas), HP 55, MV Próximo   
 FOR \+4 | DES \+1 | CON \+4 | INT \-1 | SAB \+1 | CAR \-2  
 **Cutelo Colossal (Ataque Corpo a Corpo):** \+6 (1d10+4 de dano). Em um Acerto Crítico natural (20), a vítima perde um membro ou sofre um ferimento persistente horrível.   
-**Investida Brutal:** Uma vez por combate, se move "Distante" em linha reta e ataca todos no caminho. Todos na linha devem fazer um Teste de DES DC 14 ou sofrem 2d8 de dano contundente e são jogados no chão.   
+**Investida Brutal:** Uma vez por cena, se move "Distante" em linha reta e ataca todos no caminho. Todos na linha devem fazer um Teste de DES DC 14 ou sofrem 2d8 de dano contundente e são jogados no chão.   
 **Gancho de Carne (Ataque à Distância, Distante)**: \+5. 1d6 de dano perfurante e o alvo deve passar em um Teste de FOR DC 13 ou é puxado imediatamente para a distância "Próximo" do Açougueiro, ficando à mercê do Cutelo.
 
 ---

@@ -78,7 +78,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | **16** | **Fúria dos Raios (◈ \+ 2 Mana):** Sua lança arremessada explode em raios, causando 2d6 de dano de Relâmpago em área (perto do alvo). Gaste +2 Mana para cada dado extra. |
 | **17** | **Isca (Decoy) (◈◈ \+ 1 Mana):** Cria uma cópia ilusória. Inimigos devem passar num teste de Sabedoria (DC = 10 \+ Modificador do Atributo Primário) para atacar você em vez da cópia. |
 | **18** | **Esquiva Ativa (⟁ \+ 1 Mana):** Se um inimigo acertar, você pode gastar 1 Mana para reduzir 1d10 \+ Nível pontos de dano. Gaste +1 Mana para cada dado extra. |
-| **19** | **Valkíria (◈◈◈ \+ 6 Mana):** Uma vez por combate, invoca uma guerreira etérea por 1d4 rodadas. No seu turno, como ação livre ◇, ela faz um ataque Próximo. **Valkíria:** CA = sua · HP = Nível × 3 · Dano: 1d8 + Mod. Primário Físico |
+| **19** | **Valkíria (◈◈◈ \+ 6 Mana):** Uma vez por cena, invoca uma guerreira etérea por 1d4 rodadas. No seu turno, como ação livre ◇, ela faz um ataque Próximo. **Valkíria:** CA = sua · HP = Nível × 3 · Dano: 1d8 + Mod. Primário Físico |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -155,7 +155,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
 | **1** | **O Tomo Esquecido:** Localizar um livro de magias ou pergaminho antigo em uma biblioteca em ruínas ou covil de culto. | **Ecos do Conhecimento:** Você pode conjurar uma magia que já preparou sem precisar fazer o teste de conjuração. (uma vez por descanso longo). |
-| **2** | **Sifão de Essência:** Encontrar uma anomalia mágica ou fonte elemental e "drenar" sua energia para si. | **Sobrecarga Arcana:** Uma vez por combate, você pode maximizar o dano de um feitiço de dano (em vez de rolar os dados). |
+| **2** | **Sifão de Essência:** Encontrar uma anomalia mágica ou fonte elemental e "drenar" sua energia para si. | **Sobrecarga Arcana:** Uma vez por cena, você pode maximizar o dano de um feitiço de dano (em vez de rolar os dados). |
 | **3** | **Selar a Fenda:** Localizar o ponto de origem de uma brecha arcana e usar seu próprio poder para fechá-la. | **Armadura de Energia:** Enquanto não estiver usando armadura, você adiciona seu bônus de Inteligência à sua CA. (Cumulativo com outros Bônus) |
 | **4** | **Geometria Sagrada:** Mapear a disposição de monumentos antigos para descobrir um local de energia oculta, como um altar de Lilith. | **Mente sobre a Matéria:** Quando você sofrer dano, pode rolar 1d10 para reduzir o dano recebido. |
 | **5** | **O Segredo do Vizjerei:** Investigar os restos de um experimento mágico que deu errado e entender o que causou o erro. | **Estilhaço Arcano:** Seus feitiços causam \+1d6 de dano adicional. |
@@ -190,7 +190,7 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | **7 (3)** | **Golpe do Tigre (◇ Finalizador):** Gaste 3 cargas para causar dano máximo automático no ataque. |
 | **8 (4)** | **Chute do Dragão (Finalizador) (◈◈ \+ 1 Mana por chute) :** Gaste 1 carga, faça um chute (ou mais) que arremessa inimigos adjacentes para "Distante". |
 | **9** | **Vôo do Dragão (Finalizador) (◈◈ \+ 4 Mana) :** Gaste 1 carga, teleporte para um inimigo perto e faça chute com Vantagem que causa 3d6 de dano Físico. |
-| **10** | **Burst of Speed (◈):** Uma vez por combate, você recupera toda sua mana. |
+| **10** | **Surto de Adrenalina (◈):** Uma vez por cena, você recupera todo seu Mana. |
 | **11** | **Manto de Sombras (◈ \+ 2 Mana):** Escuridão mágica te envolve. Inimigos "Próximo" têm Desvantagem para atacar até o início do seu próximo turno. |
 | **12** | **Sentinela de Fogo (Armadilha) (◈ \+ 1 Mana):** Coloque um marcador na mesa. Ele cospe fogo dano 1d6 de Fogo em quem passar "Próximo". Gaste +1 Mana para cada dado extra. |
 | **13** | **Sentinela de Raios (Armadilha) (◈ \+ 1 Mana):** Coloque um marcador na mesa. Ele atira um raio no inimigo mais próximo todo turno (dano 1d6 de Relâmpago). Gaste +1 Mana para cada dado extra. |
@@ -337,7 +337,7 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
 | **1** | **O Rastro de Icor:** Rastrear com sucesso uma criatura demoníaca por uma grande distância através de terreno difícil. | **Sentido do Caçador:** Você ganha Vantagem em testes para detectar demônios e mortos-vivos. Além disso, você nunca pode ser surpreendido por eles. |
-| **2** | **Identificar o Covil:** Localizar a entrada principal e pelo menos uma entrada secreta de um ninho ou masmorra inimiga. | **Marca da Vingança:** Uma vez por combate, você pode marcar um inimigo. Seus ataques contra ele causam **\+1d10** de dano adicional. |
+| **2** | **Identificar o Covil:** Localizar a entrada principal e pelo menos uma entrada secreta de um ninho ou masmorra inimiga. | **Marca da Vingança:** Uma vez por cena, você pode marcar um inimigo. Seus ataques contra ele causam **\+1d10** de dano adicional. |
 | **3** | **Zona de Abate:** Preparar o campo de batalha antes de uma luta, espalhando armadilhas ou identificando pontos de cobertura. | **Mestre de Abrolhos:** Você pode cobrir uma área ao seu redor com estribos. Inimigos que entrarem ali sofrem **1d4** de dano e têm o movimento reduzido à metade por **1d4** rodadas. |
 | **4** | **Infiltrado nas Sombras:** Atravessar uma zona ocupada por inimigos sem ser visto e sem disparar um único tiro. | **Conhecimento:** Uma vez por descanso longo. Ao sofrer dano fatal , o Caçador de Demônios não morre, mas fica invisível por 1 rodada e recupera 50% da sua Vida máxima . |
 | **5** | **Interrogatório das Cinzas:** Encontrar um sobrevivente de um ataque demoníaco e convencê-lo a revelar segredos ou informações importantes do que ele experienciou. | **Virote Perfurante:** Seus ataques com Bestas ou Arcos ignoram a RD de demônios e ignoram **3 pontos de CA** de alvos com armadura. |
@@ -646,7 +646,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
-| **1** | **A Colheita de Ervas Proibidas:** Localizar e coletar 3 ingredientes raros em áreas de perigo extremo (pântanos tóxicos, covis de bestas). | **Nuvem de Ácido:** Uma vez por combate, seu próximo ataque de área ignora qualquer resistência a dano dos inimigos e causa **\+1d8** de dano ácido. |
+| **1** | **A Colheita de Ervas Proibidas:** Localizar e coletar 3 ingredientes raros em áreas de perigo extremo (pântanos tóxicos, covis de bestas). | **Nuvem de Ácido:** Uma vez por cena, seu próximo ataque de área ignora qualquer resistência a dano dos inimigos e causa **\+1d8** de dano ácido. |
 | **2** | **O Totem de Fronteira:** Erguer um totem ritual em um ponto de convergência de caminhos para afastar espíritos malignos da região. | **Presença Umbral:** Você ganha \+1 na CA permanentemente. Além disso, inimigos que começarem o turno adjacente a você sofrem dano psíquico igual ao seu bônus de **Carisma**. |
 | **3** | **Comunhão com o Ancião:** Localizar o espírito de um antigo pajé em uma ruína e realizar um ritual para ouvir seus segredos. | **Visão de Além-Véu:** Você consegue detectar portas secretas, armadilhas e criaturas invisíveis perto, mesmo na escuridão total. |
 | **4** | **Limpar o Cemitério Profanado:** Realizar um ritual de pacificação em um local onde os mortos estão se erguendo sem controle. | **Explosão Espiritual:** Se você matar um inimigo, uma explosão espiritual atinge inimigos adjacentes causando **1d6** de dano psíquico. |
@@ -682,7 +682,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **7** | **Postura Defensiva(◈◈ \+ 1 Mana por Rodada) :** Adicione seu Modificador de Força na CA por 1 rodada. |
 | **8** | **Desarmar (◈ \+ 1 ou 5 Mana):** Faça um ataque, se acertar você faz a arma do inimigo voar para longe. Você pode gastar \+5 Mana para arrancar armas naturais ou partes de monstros (Braços, Asas, Olhos). |
 | **9** | **Golpe de Sangue (◇):** Gaste 2 HP para causar \+1d8 de dano Físico em um ataque. |
-| **10** | **Duro de Matar (⟁ \+ 3 Mana):** Reduza todo o dano físico recebido em um ataque. |
+| **10** | **Duro de Matar (⟁ \+ 3 Mana):** Reduza o dano físico de um ataque recebido em **1d10 + Nível**. |
 | **11** | **Mestre de Armadura (Passiva):** Enquanto usar armadura pesada, você tem RD 2 para dano físico e o peso das armaduras não reduz seu movimento. |
 | **12** | **Ataque Brutal (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **13** | **Segunda Chance (◇ \+ 2 Mana):** Role novamente um teste de ataque que errou. |
@@ -743,7 +743,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **5** | **Calor (◈◈):** Uma vez por descanso longo, você recupera metade do seu Mana sem precisar de descanso. |
 | **6** | **Teleporte (◈ \+ 1 Mana):** Pisque para um lugar "Próximo" que você possa ver. |
 | **7 (1)** | **Armadura de Gelo (Feitiço)(◈ \+ 1 Mana por rodada):** Você conjura uma armadura de gelo por 1 rodada, inimigos que te acertarem corpo a corpo sofrem 1d8 de dano de gelo e ficam congelados por 1d4 rodadas. |
-| **8** | **Saque de Mana (Passivo):** Se matar um inimigo com magia, ganha \+2 no próximo teste de conjuração. |
+| **8** | **Saque de Mana (Passiva):** Se matar um inimigo com magia, ganha \+2 no próximo teste de conjuração. |
 | **9 (2)** | **Nova de Gelo (Feitiço)(◈ \+ 2 Mana):** Uma explosão circular que causa 1d10 de dano de gelo a todos "Próximo" por 1d4 rodadas. Gaste +2 Mana para cada dado extra. Criaturas que ficarem com HP 0 são congeladas indefinidamente (O mago decide se estão mortas ou não). |
 | **10 (3)** | **Bola de Fogo (Feitiço)(◈ \+ 2 Mana):** Um explosão que causa 1d8 de fogo em uma área "Próximo". Gaste +2 Mana para cada dado extra. Deixa os alvos queimando (1d4 dano/turno). Queimando dura 1d4 rodadas ou até o alvo usar uma ação **◈** para apagar. |
 | **11 (4)** | **Seta Elétrica (Feitiço)(◈ \+ 2 Mana por seta extra):** Dispare 3 faíscas que causam 1d4+1 de dano Relâmpago cada em alvos diferentes. |
@@ -751,7 +751,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **13 (6)** | **Nevasca (Feitiço)(◈ \+ 2 Mana):** Cria uma zona "Próximo" onde inimigos sofrem 1d6 gelo e movem metade por 1d4 rodadas. Gaste +2 Mana para cada dado extra. |
 | **14 (7)** | **Cadeia de Raios (Feitiço)(◈ \+ 2 Mana):** Um raio que pula em até 3 inimigos perto, causando 1d10 de dano Relâmpago em cada. Gaste +2 Mana para cada dado extra. |
 | **15 (8)** | **Hidra (Feitiço)(◈ \+ 2 Mana):** Invoca 1d4 cabeças de fogo que atiram bolas de fogo todo turno em inimigos perto. Cada cabeça causa 1d6 de fogo e duram 1d4 rodadas. Gaste +2 Mana para cada dado extra. Só é possível ter um conjunto de hidras ativa por vez. |
-| **16** | **Escudo de Energia (Passivo)(⟁ \+ 1 Mana por 5 Dano):** Se você sofrer dano, você pode criar uma barreira mágica para reduzir o dano em 5\. |
+| **16** | **Escudo de Energia (⟁ \+ 1 Mana):** Se você sofrer dano, você pode criar uma barreira mágica para reduzir o dano em 5\. Gaste +1 Mana para cada 5 de redução extra. |
 | **17 (9)** | **Meteoro (Feitiço)(◈◈ \+ 3 Mana por meteoro):** Marque um local na mesa. No próximo turno, um meteoro cai no local e causa 4d10 de fogo a todos os inimigos adjacentes ao ponto escolhido. |
 | **18 (10)** | **Orbe Congelada (Feitiço)(◈ \+ 3 Mana):** Lance uma esfera de área pequena que viaja em linha reta até uma distância “perto”, disparando 1d6 gelo em todas as criaturas adjacentes no caminho. A esfera explode ao final do trajeto causando 3d6 de gelo. Gaste +3 Mana para cada dado extra na explosão. |
 | **19** | **Bola de Raios (◈◈◈ \+ 6 Mana):** Uma esfera de raios gigante percorre o campo em linha reta até "Distante", causando **2d8 de Relâmpago** em cada inimigo que tocar. Permanece ativa por 1d4 rodadas — no início de cada turno, inimigos adjacentes a ela sofrem **1d6 de Relâmpago** automático. |
@@ -867,8 +867,8 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de esqueletos. |
 | **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana):** Exploda um cadáver ou esqueleto. Dano 2d6 Necrótico em área (Próximo). Gaste +2 Mana para cada dado extra. |
 | **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana):** Um projétil que atravessa inimigos em linha reta (perto). Dano 2d8 físico. Gaste +2 Mana para cada dado extra. |
-| **7** | **Armadura de Ossos (Passivo):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
-| **8** | **Maldizer (Passivo):** Inimigos "Próximo" sofrem \+2 de dano de todos os ataques. |
+| **7** | **Armadura de Ossos (Passiva):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
+| **8** | **Maldizer (Passiva):** Inimigos "Próximo" sofrem \+2 de dano de todos os ataques. |
 | **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana):** Causa 1d6 de dano necrótico a um alvo e você recupera a mesma quantia em HP. Gaste +2 Mana para cada dado extra. |
 | **10** | **Golem de Argila (◈ \+ 3 Mana):** Em vez de 3 esqueletos, invoca 1 Golem. **Golem:** CA 15 · HP = Nível×3 (mínimo 10) · Dano: 1d8 Físico. Dura até zerar o HP. |
 | **11** | **Dama de Ferro (⟁ \+ 1 Mana):** Inimigos que baterem nos seus esqueletos sofrem 1d4 de dano Físico de volta. |
@@ -876,7 +876,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **13 (4)** | **Espírito de Ossos (Feitiço)(◈ \+ 3 Mana):** Dispara um espírito que atravessa um alvo. Dano 2d10 Necrótico. Gaste +3 Mana para cada dado extra. |
 | **14 (5)** | **Parede de Ossos (Feitiço)(◈ \+ 2 Mana \+ 1 Mana por 10 HP):** Cria uma barreira de ossos na mesa que bloqueia o movimento por 1d4 rodadas. A Barreira tem CA 16 e 10 HP por **1 Mana**. |
 | **15 (6)** | **Terror (Feitiço)(◈ \+ 1 Mana por inimigo):** Inimigos "Próximo" devem fugir de você por 1d4 rodadas. |
-| **16** | **Maestria de Esqueletos (Passivo):** Todos os seus lacaios agora têm \+5 HP e \+2 de CA (fixo). O dano deles aumenta em \+1 por faixa de 3 níveis: **+1 (Nv 4) · +2 (Nv 7) · +3 (Nv 10)**. |
+| **16** | **Maestria de Esqueletos (Passiva):** Todos os seus lacaios agora têm \+5 HP e \+2 de CA (fixo). O dano deles aumenta em \+1 por faixa de 3 níveis: **+1 (Nv 4) · +2 (Nv 7) · +3 (Nv 10)**. |
 | **17 (7)** | **Escudo de Almas (Feitiço)(⟁ \+ 2 Mana):** Se você ficar com HP 0, você conjura um feitiço para um esqueleto morrer no seu lugar e você ficar com 1 HP. |
 | **18** | **Mago Esqueleto (◈ \+ 2 Mana):** Em vez de 2 Esqueletos, invoca 1 Esqueleto Mago. **Esqueleto Mago:** CA 12 · HP = Nível · Dano: 1d8 Fogo, Gelo, Relâmpago ou Necrótico · Alcance: Próximo. Dura até zerar o HP. |
 | **19 (8)** | **Reviver (Feitiço)(◈◈◈ \+ 3 Mana):** Ressuscita um monstro morto para lutar ao seu lado por 3 rodadas. Usa os atributos do Mestre. Não pode ser usado em Bosses. |
@@ -898,9 +898,9 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **1** | **Restaurar o Ciclo:** Encontrar um cemitério profanado por carniceiros ou cultistas e realizar o rito de descanso final. | **Ceifa do Destino:** Ao matar um inimigo que tenha alma, você ganha **1d10** HP temporários. |
 | **2** | **Confissão Póstuma:** Extrair um segredo vital de uma alma persistente em uma ruína, permitindo que ela finalmente descanse. | **Alma Solitária:** Se você não utilizar minions e fizer apenas um ataque no seu turno, você adiciona 1d12 necrótico ao dano. |
 | **3** | **Ossário do Herói:** Localizar os restos mortais de um antigo guerreiro em uma masmorra e recuperar um fragmento de sua ossada. | **Armadura de Ossos:** Sua CA natural aumenta em \+1 permanentemente e você ganha Redução de Dano (RD) 2 contra ataques físicos. |
-| **4** | **O Peso do Equilíbrio:** Identificar uma entidade que está "vivendo tempo demais" (morto-vivo ou imortal) e marcar sua localização para o abate. | **Toque do Abismo:** Uma vez por combate, seu ataque ou magia de alvo único causa \+2d6 de dano necrótico adicional. |
+| **4** | **O Peso do Equilíbrio:** Identificar uma entidade que está "vivendo tempo demais" (morto-vivo ou imortal) e marcar sua localização para o abate. | **Toque do Abismo:** Uma vez por cena, seu ataque ou magia de alvo único causa \+2d6 de dano necrótico adicional. |
 | **5** | **Catalogar a Morte:** Mapear o local de um grande massacre antigo, documentando as linhagens que foram interrompidas ali. | **Servo Eterno:** Você recebe um esqueleto ou zumbi permanente (estatísticas de um lacaio simples). Se ele for destruído, se reanima sozinho ao início do seu próximo turno. |
-| **6** | **Selo de Tranquilidade:** Localize uma fenda para o Reino dos Mortos e use sua vontade para selá-la, impedindo vazamentos de energia. | **Fenda Cadavérica:** Uma vez por encontro, você pode **Levantar Mortos** sem gastar ação. |
+| **6** | **Selo de Tranquilidade:** Localize uma fenda para o Reino dos Mortos e use sua vontade para selá-la, impedindo vazamentos de energia. | **Fenda Cadavérica:** Uma vez por cena, você pode **Levantar Mortos** sem gastar ação. |
 
 ---
 
@@ -1089,7 +1089,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | :---- | :---- | :---- |
 | **1** | **O Relicário Perdido:** Localizar uma relíquia sagrada em uma catedral em ruínas e devolvê-la a um altar ativo. | **Chama da Penitência:** Se você fizer apenas um ataque (arma ou magia) no seu turno, o alvo sofre **\+1d8** de dano Radiante e fica **Cego** até o fim do próximo turno dele. |
 | **2** | **Santificar o Abismo:** Realizar um ritual de purificação em um local onde um massacre ocorreu, impedindo que os mortos se ergam. | **Aura de Proteção:** Enquanto você estiver consciente, aliados perto de você ganham **\+2 de bônus na CA**. |
-| **3** | **O Último Alento:** Encontrar um herói moribundo no ermo e garantir que ele receba os ritos finais para que sua alma não seja corrompida. | **Intervenção Divina:** Uma vez por descanso, quando um aliado a até 9 metros cair para 0 PV, você pode usar sua Reação para que ele fique com **1 PV** em vez disso. |
+| **3** | **O Último Alento:** Encontrar um herói moribundo no ermo e garantir que ele receba os ritos finais para que sua alma não seja corrompida. | **Intervenção Divina:** Uma vez por descanso, quando um aliado "Próximo" cair para 0 PV, você pode usar sua Reação para que ele fique com **1 PV** em vez disso. |
 | **4** | **Peregrinação do Flagelo:** Atravessar uma zona de corrupção extrema (como um pântano de peste) sem utilizar magias de proteção. | **Corpo Santificado:** Você ganha **RD 5** contra dano necrótico e de veneno permanentemente. |
 | **5** | **Exorcismo de Solo:** Identificar a fonte de uma assombração em uma vila e expulsar a entidade sem destruir a estrutura que ela habita. | **Palavra de Banimento:** Uma vez por descanso longo, você pode forçar um demônio, morto-vivo ou celestial a fazer um teste de Vontade (DC 10 \+ Sab). Se falhar, ele é banido para seu plano de origem e não pode voltar a Santuário por 24h. |
 | **6** | **Erigir o Refúgio:** Consagrar uma sala ou ruína, tornando-a um local onde demônios não podem entrar por 24 horas. | **Oração de Vigor:** Sempre que você curar um aliado, ele também ganha **\+1d6 de PV temporários** que duram até o fim do próximo descanso curto. |
@@ -1124,7 +1124,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Carisma. |
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de lacaios. |
-| **5** | **Maestria Demoníaca (Passivo):** Seus demônios ganham HP dobrado (Mod. Primário × 2 + Nível), +1 zona de movimento e +1d6 de dano. |
+| **5** | **Maestria Demoníaca (Passiva):** Seus demônios ganham HP dobrado (Mod. Primário × 2 + Nível), +1 zona de movimento e +1d6 de dano. |
 | **6 (1)** | **Marca da Morte (Feitiço) (◈ \+ 1 Mana por demônio):** Teleporta seus demônios para um inimigo perto e os permite fazer um ataque. |
 | **7 (2)** | **Sumonar Corrompido (Feitiço)(◈ \+ 3 Mana):** Conjura um demônio reptiliano. **Corrompido:** CA 15 · HP = Nível×3 (mínimo 10) · Dano: 2d6 Fogo · RD 5 Fogo. Dura até zerar o HP. |
 | **8 (3)** | **Sumonar Profanador (Feitiço)(◈ \+ 3 Mana por inimigo):** Conjura um demônio de carne flutuante. **Profanador:** CA 15 · HP = Nível×3 (mínimo 10). Enquanto estiver vivo, vincula o HP dos inimigos alvo — todos sofrem o mesmo dano que qualquer um deles receber. |
@@ -1134,7 +1134,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **12 (7)** | **Aprisionar Demônio (Feitiço)(◈ \+ 1 Mana por 5 HP):** Force um demônio com menos de 5 HP a fazer sua vontade. Use os atributos fornecidos pelo Mestre. Não é possível aprisionar Bosses. |
 | **13 (8)** | **Anel de Fogo (Feitiço)(◈ \+ 2 Mana):** Dispara um anel de fogo de si, causando 2d6 de fogo e empurrando inimigos. Gaste +2 Mana para cada dado extra. |
 | **14 (9)** | **Apocalipse (Feitiço)(◈◈ \+ 2 Mana):** Cria um pentagrama “perto” que engolfa inimigos em sua área com 2d6 de fogo e remove resistência a fogo caso o inimigo tenha. Gaste +2 Mana para cada dado extra. |
-| **15** | **Maestria em Levitação (Passiva):** Você dobra o bônus de inteligência ou carisma nos ataques e dano de sua arma flutuante. |
+| **15** | **Maestria em Levitação (Passiva):** Você dobra o bônus do Atributo Primário nos ataques e dano de sua arma flutuante. |
 | **16** | **Proteção Psíquica (⟁ \+ 2 Mana por 5 HP):** Crie um escudo mental que reduz 5 HP quando sofre dano. |
 | **17 (10)** | **Maldição de Expurgo (Feitiço)(◈ \+ 2 Mana):** Amaldiçoe sua arma para que no próximo ataque que acertar, ela cause 3d6 de dano de fogo a inimigos adjacentes ao alvo. Gaste +2 Mana para cada dado extra. |
 | **18** | **Lâminas Espelhadas (◈ \+ 3 Mana por duplicata):** Com apenas uma ação, você ataca com duplicatas da sua arma flutuante. |
@@ -1156,7 +1156,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | :---- | :---- | :---- |
 | **1** | **O Cálice do Sangue Vil:** Encontrar uma fonte de corrupção demoníaca pura e, em vez de destruí-la, canalizar uma parte dela para o seu próprio sangue. | **Pacto de Vitalidade:** Você aprende a manipular a própria Mana. Uma vez por descanso longo, você pode entrar em um estado de *Fluxo Arcano* por 1 minuto: todas as suas habilidades custam **0 Mana**, mas você não pode recuperar PV durante esse tempo. |
 | **2** | **Tomos do Conhecimento Proibido:** Recuperar fragmentos de pergaminhos Horadrim que detalham anatomia demoníaca em uma biblioteca infestada. | **Eficiência Maldita:** Uma vez por rodada, quando você usar uma habilidade que custe Mana, você pode rolar 1d6. Em um resultado 5 ou 6, você não gasta os pontos de Mana daquela habilidade. |
-| **3** | **A Pedra da Alma Estilhaçada:** Localizar um fragmento de Pedra da Alma em uma masmorra e realizar um ritual para aprisionar uma essência menor dentro dela. | **Prisão de Essência:** Quando você desferir um **Golpe Fatal** em um inimigo, você armazena a alma dele. Você pode gastar essa alma para realizar uma ação de ◈ sem gastar seus Pontos de Ação (AP). Você pode armazenar até 3 almas. |
+| **3** | **A Pedra da Alma Estilhaçada:** Localizar um fragmento de Pedra da Alma em uma masmorra e realizar um ritual para aprisionar uma essência menor dentro dela. | **Prisão de Essência:** Quando você desferir um **Golpe Fatal** em um inimigo, você armazena a alma dele. Você pode gastar uma alma para realizar uma ◈ adicional no seu turno. Você pode armazenar até 3 almas. |
 | **4** | **O Ritual da Noite Eterna:** Bloquear permanentemente a influência da Luz em uma região inteira, criando um santuário para praticantes das artes sombrias. | **Passo do Vazio:** Ao gastar **◈** para se mover, você pode se teletransportar a uma distância **Próximo** (ignorando obstáculos e ataques de oportunidade). Se terminar o movimento perto de um inimigo, ele fica **Surpreso**. |
 | **5** | **O Contrato de Sangue:** Caçar um demônio renegado que quebrou um pacto com o seu patrono e colher o coração dele como prova. | **Domínio Infernal:** Você ganha Vantagem em todos os testes para conjurar feitiços. |
 | **6** | **A Chave do Inferno:** Reunir os fragmentos de uma chave capaz de abrir um portal direto para os domínios de um dos Primeiros Males (Diablo, Baal ou Mephisto). | **Eco do Sofrimento:** Seus demônios ganham RD 5 a todos os danos. Quando um demônio seu é destruído, ele causa 1d6 de dano fogo a criaturas adjacentes. |
