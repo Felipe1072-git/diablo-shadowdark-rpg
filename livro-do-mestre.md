@@ -763,6 +763,84 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Berserker's Arsenal *(Bárbaro — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Arreol's Face** | Elmo — Placa | \+1 CA, \+2 FOR; ao usar Berserk, próximo ataque tem Vantagem |
+| **Gladiator's Bane** | Peitoral — Placa Completa | \+2 CA, RD 2 Físico; Implacável ativa abaixo de 75% HP (não só metade) |
+| **Baranar's Star** | Estrela da Manhã (1d8) | \+2 Ataque, Penetrante; Berserk causa \+2d10 em vez de \+1d10 |
+
+**Bônus de Set:**
+- *2 peças:* Berserk não impede recuperação de HP/Mana no próximo turno
+- *3 peças:* Berserk pode ser usado como Ação Livre (◇) — use ◈ para atacar E ◇ para Berserk no mesmo turno
+
+---
+
+#### Raekor's *(Bárbaro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Raekor's Horns** | Elmo — Placa | \+1 CA, \+2 CON; Salto pode ser usado como Reação (◇) quando um aliado cai a 0 HP |
+| **Raekor's Burden** | Peitoral — Placa Completa | \+2 CA; cada Salto bem-sucedido concede \+1d6 ao dano do próximo Salto (não acumula entre combates) |
+| **Raekor's Heart** | Luvas — Placa | \+2 Ataque; inimigos no caminho do Salto sofrem dano da arma |
+| **Raekor's Breeches** | Perneiras — Placa | \+1 CA; Salto não provoca ataques de oportunidade |
+| **Raekor's Striders** | Botas — Placa | \+1 CA; alcance do Salto aumenta para Distante (em vez de Próximo) |
+
+**Bônus de Set:**
+- *2 peças:* Salto custa 0 Mana
+- *5 peças:* Após usar Salto, pode usá-lo novamente como Ação Livre (◇) — máximo 1 vez por turno
+
+---
+
+#### Wrath of the Wastes *(Bárbaro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Wastes Helm** | Elmo — Placa | \+1 CA; Turbilhão causa \+1d6 Físico extra por inimigo atingido |
+| **Wastes Chest** | Peitoral — Placa Completa | \+2 CA, RD 3 Físico; Turbilhão custa 1 Mana a menos |
+| **Wastes Gloves** | Luvas — Placa | \+2 Ataque; acertos do Turbilhão causam sangramento (1d4 Físico/turno por 3 turnos) |
+| **Wastes Pants** | Perneiras — Placa | \+1 CA; ao usar Turbilhão, não provoca ataques de oportunidade neste turno |
+| **Wastes Boots** | Botas — Placa | \+1 CA; após Turbilhão, movimento no próximo turno é Ação Livre (◇) |
+
+**Bônus de Set:**
+- *2 peças:* Turbilhão custa 2 Mana (redução total de 1)
+- *5 peças:* Turbilhão pode ser usado como Ação Livre (◇) — use ◈◈ para dois ataques normais E ◇ para Turbilhão na mesma rodada
+
+---
+
+#### Might of the Earth *(Bárbaro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Earth Helm** | Elmo — Placa | \+1 CA; ao aterrissar com Salto, todos os Adjacentes sofrem 1d8 Físico |
+| **Earth Chest** | Peitoral — Placa Completa | \+2 CA, RD 3 Físico; enquanto em Fúria, ataques contra alvos caídos causam \+1d6 extra |
+| **Earth Gloves** | Luvas — Placa | \+2 Ataque; Pancada derruba o alvo automaticamente (sem Salvaguarda) |
+| **Earth Pants** | Perneiras — Placa | \+1 CA; ao derrubar com Pancada, inimigos Adjacentes à vítima fazem SAL. FOR (DC 10 \+ Mod. FOR) ou também caem |
+| **Earth Belt** | Cinto | 4 slots; Pancada custa 1 Mana a menos |
+
+**Bônus de Set:**
+- *2 peças:* Salto causa 1d6 Físico em todos Adjacentes ao ponto de aterrissagem (gratuito, sempre)
+- *5 peças:* Pancada passa a ser ◈ (não apenas ◇) — e se derrubar o alvo, causa 2d8 Físico adicional no impacto
+
+---
+
+#### Horde of the Ninety Savages *(Bárbaro — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Savage Heaume** | Elmo — Placa | \+1 CA; Frenezi acumula até \+Mod. FOR \+ Mod. CON (em vez de só \+Mod. FOR) |
+| **Savage Pauldrons** | Peitoral — Placa Completa | \+2 CA, RD 2 Físico; ao atingir o máximo de Frenezi, próximo ataque causa dano máximo automático |
+| **Savage Gorget** | Amuleto | \+2 FOR; ao matar com Frenezi ativo, recupera 1d4 HP |
+| **Savage Gauntlets** | Luvas — Placa | \+2 Ataque; Dupla Empunhadura não custa Mana enquanto Frenezi estiver ativo |
+| **Savage Girdle** | Cinto | 4 slots; Frenezi só se perde se passar 2 rodadas consecutivas sem atacar |
+
+**Bônus de Set:**
+- *2 peças:* Frenezi acumula 2 stacks por acerto (em vez de 1)
+- *5 peças:* Com Frenezi no máximo: Dupla Empunhadura pode ser usada como Ação Livre (◇) — use ◈◈ E ◇ para três ataques no mesmo turno
+
+---
+
 #### Tal Rasha's Wrappings *(Mago · Arcanista — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |

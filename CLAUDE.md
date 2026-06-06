@@ -340,7 +340,7 @@ Documentar **todos os sets canônicos** de D1/D2/D3/D4 adaptados para o sistema.
 | Amazona | M'avina's Battle Hymn, Vidala's Rig | M'avina ✅ · Vidala ⬜ |
 | Arcanista | Cathan's Traps, Naj's Ancient Vestige, Vyr's Amazing Arcana | ⬜ ⬜ ⬜ |
 | Assassina | Natalya's Odium | ✅ |
-| Bárbaro | Immortal King, Berserker's Arsenal, Raekor's, Wrath of the Wastes, Might of the Earth, Horde of the Ninety Savages | IK ✅ · restantes ⬜ |
+| Bárbaro | Immortal King, Berserker's Arsenal, Raekor's, Wrath of the Wastes, Might of the Earth, Horde of the Ninety Savages | ✅ ✅ ✅ ✅ ✅ ✅ |
 | Caçador de Demônios | Tancred's Battlegear, Marauder's, Unhallowed Essence, Gears of Dreadlands | ⬜ ⬜ ⬜ ⬜ |
 | Cavaleiro de Sangue | Sazabi's Grand Tribute, Thorns of the Invoker | ⬜ ⬜ |
 | Cruzado | Hsaru's Defense, Roland's Legacy, Seeker of the Light, Aegis of Valor | ⬜ ⬜ ⬜ ⬜ |
@@ -364,7 +364,7 @@ Documentar **todos os sets canônicos** de D1/D2/D3/D4 adaptados para o sistema.
 5. Commitar após cada classe aprovada
 
 **Ordem de execução acordada:**
-1. 🔄 Bárbaro (5 sets pendentes)
+1. ✅ Bárbaro (6 sets concluídos)
 2. Monge (5 sets)
 3. Feiticeiro (4 sets)
 4. Caçador de Demônios (4 sets)
