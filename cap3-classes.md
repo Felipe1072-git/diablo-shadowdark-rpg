@@ -490,21 +490,21 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | :---- | :---- |
 | **1-2** | \+2 de Sabedoria ou \+2 de Constituição. |
 | **3-4** | \+1 em testes de conjuração/transmutação ou \+2 de HP. |
-| **5** | **Garras de Fogo (Passiva):** Enquanto transformado, seus ataques causam \+1d4 de fogo. |
-| **6** | **Impacto (Passiva):** Na forma de Urso, se acertar, o alvo fica atordoado por 1 rodada. |
-| **7** | **Raiva (Passiva):** Na forma de Lobo, sua mordida causa veneno (1d4 dano/turno) que se espalha para inimigos "Próximo" no início do turno deles. o Veneno dura 1d4 rodadas. |
+| **5** | **Garras de Fogo (Passiva):** Enquanto transformado, seus ataques causam \+1d4 de Fogo. |
+| **6** | **Impacto (Passiva):** Na forma de Urso, se acertar, o alvo deve fazer uma Salvaguarda de CON (DC 10 \+ Mod. SAB) ou fica atordoado por 1 rodada. |
+| **7** | **Raiva (Passiva):** Na forma de Lobo, sua mordida causa veneno (1d4 dano/turno) que se espalha para inimigos Próximo no início do turno deles. O Veneno dura 1d4 rodadas. |
 | **8 (1)** | **Ciclone de Armadura (Feitiço) (◈ \+ 1 Mana por Rodada):** Você cria uma armadura de vento. Uma vez por rodada, ignore o dano de um ataque à distância. |
 | **9 (2)** | **Corvos Espirituais (Feitiço) (◈ \+ 2 Mana):** Invoque corvos que cegam um inimigo (Desvantagem no ataque) por 1d4 rodadas. |
-| **10 (3)** | **Sábio de Carvalho (Feitiço) (◈◈ \+ 2 Mana):** Invoque um espírito que dá \+1d4 de HP temporário para todos os aliados "Próximo". Gaste +2 Mana para cada dado extra. |
+| **10 (3)** | **Sábio de Carvalho (Feitiço) (◈◈ \+ 2 Mana):** Invoque um espírito que dá \+1d4 de HP temporário para todos os aliados Próximo. Gaste +2 Mana para cada dado extra. |
 | **11** | **Lobos Atrozes (Passiva):** Você pode ter um lobo espiritual extra. Isso aumenta o número de lobos ativos ao mesmo tempo. |
-| **12** | **Coração de Wolverine (Passiva):** Seu espírito animal garante \+1 em ataques e dano para aliados "Próximo". |
-| **13 (4)** | **Rocha Rolante (Feitiço) (◈◈ \+ 2 Mana):** Lança uma pedra em linha reta que causa 2d8 de dano físico e derruba inimigos perto. Gaste +2 Mana para cada dado extra. |
-| **14 (5)** | **Fissura (Feitiço)(◈ \+ 2 Mana):** Abre uma fenda no chão “Próximo”. Inimigos na área sofrem 1d6 de fogo por turno. Gaste +2 Mana para cada dado extra. A fenda dura 1d4 rodadas. |
-| **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana):** Crie um Furacão poderoso em até um ponto “Distante”. Inimigos que começarem o turno “Próximo” do Furacão sofrem 2d6 de dano físico. Gaste +2 Mana para cada dado extra. |
+| **12** | **Coração de Wolverine (Passiva):** Seu espírito animal garante \+1 em ataques e dano para aliados Próximo. |
+| **13 (4)** | **Rocha Rolante (Feitiço) (◈◈ \+ 2 Mana):** Lança uma pedra em linha reta que causa 2d8 de dano Físico e derruba inimigos Próximo. Gaste +2 Mana para cada dado extra. |
+| **14 (5)** | **Fissura (Feitiço) (◈ \+ 2 Mana):** Abre uma fenda no chão Próximo. Inimigos na área sofrem 1d6 de Fogo por turno. Gaste +2 Mana para cada dado extra. A fenda dura 1d4 rodadas. |
+| **15 (6)** | **Furacão (Feitiço) (◈ \+ 2 Mana):** Crie um Furacão poderoso em até um ponto Distante. Inimigos que começarem o turno Próximo do Furacão sofrem 2d6 de dano Físico. Gaste +2 Mana para cada dado extra. |
 | **16 (7)** | **Vinha Venenosa (Feitiço) (◈◈ \+ 2 Mana por inimigo):** Uma planta surge do chão e imobiliza um inimigo por 1d4 rodadas. |
-| **17** | **Chamado do Urso Pardo (◈◈ \+ 3 Mana):** Invoca um Urso Espiritual no lugar do Lobo e Corvo. **Urso Espiritual:** CA 15 · HP = Nível×3 (mínimo 10) · Dano: 1d10 Físico. Dura até zerar o HP. |
-| **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana):** O chão explode em lava. Dano 3d10 em toda área “Próximo” de um ponto que você escolher. Gaste +3 Mana para cada dado extra. |
-| **19** | **Armagedão (◈◈◈ \+ 8 Mana):** Você chama os céus contra seus inimigos. Por 1d4 rodadas, meteoros de fogo caem sobre todos os inimigos em área "Próximo", causando **2d10 de dano Fogo** por rodada. Inimigos na área devem fazer um teste de CON (DC 10 \+ SAB) ou ficarem atordoados por 1 rodada. |
+| **17** | **Chamado do Urso Pardo (◈◈ \+ 3 Mana):** Invoca um Urso Espiritual no lugar do Lobo e Corvo. **Urso Espiritual:** CA 15 · HP = Nível×3 (mínimo 10) · Dano: 1d10 Físico · ATK: mesmo bônus do Druida. Dura até zerar o HP. |
+| **18 (8)** | **Erupção (Feitiço) (◈◈ \+ 3 Mana):** O chão explode em lava. Dano 3d10 em toda área Próximo de um ponto que você escolher. Gaste +3 Mana para cada dado extra. |
+| **19** | **Armagedão (◈◈◈ \+ 8 Mana):** Você chama os céus contra seus inimigos. Por 1d4 rodadas, meteoros de fogo caem sobre todos os inimigos em área Próximo, causando **2d10 de dano Fogo** por rodada. Inimigos na área devem fazer um teste de CON (DC 10 \+ SAB) ou ficarem atordoados por 1 rodada. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -524,7 +524,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **2** | **Domar o Alfa:** Encontrar uma besta gigante corrompida e, em vez de matá-la, usar sua perícia para remover o parasita/corrupção que a aflige. | **Pele de Carvalho:** Sua CA natural aumenta em \+1 permanentemente. Você também ganha Vantagem em testes de Constituição. |
 | **3** | **O Segredo dos Menires:** Localizar um círculo de pedras rúnicas (Menires) e passar uma noite em transe para aprender as correntes de vento. | **Vento Devastador:** Seus feitiços elementais causam \+1 dado de dano adicional. |
 | **4** | **Trilha dos Ancestrais:** Mapear os antigos túmulos dos druidas em uma região e garantir que os espíritos não foram perturbados pelo Mal. | **Comunhão Espiritual:** Uma vez por sessão, você pode perguntar ao Mestre sobre a localização ou informação de uma ameaça ou recurso próximo. O mestre irá dizer a localização exata ou passar uma informação importante sobre o tema na forma de premonição. |
-| **5** | **Sobrevivência de Alcateia:** Sobreviver a uma tempestade ou clima extremo em território hostil usando apenas suas habilidades de transformação para abrigo. | **Garras Afiadas:** Se você reduzir um inimigo a 0 HP, pode realizar um ataque imediato contra outro alvo adjacente. (Efeito Cumulativo) |
+| **5** | **Sobrevivência de Alcateia:** Sobreviver a uma tempestade ou clima extremo em território hostil usando apenas suas habilidades de transformação para abrigo. | **Garras Afiadas:** Se você reduzir um inimigo a 0 HP, pode realizar um ataque imediato contra outro alvo Adjacente. (Efeito Cumulativo) |
 | **6** | **Purificar a Nascente:** Encontrar a nascente de um rio infectada por sangue demoníaco e restaurar a pureza da água. | **Vigor da Terra:** Sempre que você desferir um golpe crítico ou matar um inimigo, você recupera 1d8 pontos de vida instantaneamente. |
 
 ---
