@@ -1,4 +1,4 @@
-# Cap. 3 — Registro de Campanha
+# Registro de Campanha
 
 **Era Inicial:** 1337 AK \- Era do Ódio  
 **O Tempo Avança? (Role 1d6):** (1) Agora | (2-3) Próxima Sessão | (4-6) Estável

@@ -1,4 +1,4 @@
-# Cap. 2 — Tesouros e Itens
+# Tesouros e Itens
 
 > **ND (Nível de Dificuldade):** sempre que uma tabela pedir `1d20 + ND`, some o **nível médio do grupo** (arredondado para baixo) ao resultado do dado. Exemplo: grupo no nível 5 rola 1d20 e obtém 8 → resultado final 13.
 

@@ -1,4 +1,4 @@
-# Cap. 1 — Encontros
+# Encontros
 
 | Conteúdo do Hexadecimal (d100) |  |
 | :---- | :---- |

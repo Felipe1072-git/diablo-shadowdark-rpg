@@ -1,4 +1,4 @@
-# Cap. 4 — Origens
+# Origens
 
 A origem de um personagem é definida por duas escolhas: **de onde ele veio** e **o que ele fazia antes de ser herói**.
 

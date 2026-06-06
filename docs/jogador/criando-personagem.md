@@ -1,4 +1,4 @@
-# Cap. 2 — Criando um Personagem
+# Criando um Personagem
 
 ## Criando Seu Personagem
 

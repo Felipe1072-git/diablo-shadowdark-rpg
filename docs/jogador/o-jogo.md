@@ -1,4 +1,4 @@
-# Cap. 1 — Jogando o Jogo
+# Jogando o Jogo
 
 ## Os Dados
 
