@@ -544,8 +544,8 @@ Esta tabela é utilizada para determinar a propriedade mágica inicial de um ite
 | :---- | :---- | :---- | :---- | :---- |
 | **61-70** | Atributos | Titânico | \+3 em um Atributo a sua escolha (FOR, DES, CON, INT, SAB, CHA). | 2.000 |
 | **71-77** | Ataque | Preciso | \+3 nos testes de Ataque. | 2.000 |
-| **78-89** | Dano | Brutal | \+3 no Dano e Críticos correm em 19-20. | 3.000 |
-| **90-00** | Mestre | Imparável | \+3 no Ataque, \+3 no Dano e Crítico em 19-20. | 5.000 |
+| **78-89** | Dano | Brutal | \+3 no Dano; expande range de crítico em 1 (mín. 19-20). Acumula com outros afixos do mesmo tipo. | 3.000 |
+| **90-00** | Mestre | Imparável | \+3 Ataque, \+3 Dano; expande range de crítico em 1 (mín. 19-20). Acumula com outros afixos do mesmo tipo. | 5.000 |
 
 ## Tabela de Sufixos (1d100)
 

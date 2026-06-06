@@ -380,8 +380,8 @@ function prefixo(nd, noCaprichoso = false) {
     subRoll = cat;
     if (cat <= 70) { nome = "Titânico";  efeito = "+3 em um Atributo à sua escolha"; }
     else if (cat <= 77) { nome = "Preciso"; efeito = "+3 nos testes de Ataque"; }
-    else if (cat <= 89) { nome = "Brutal";  efeito = "+3 no Dano e Críticos em 19-20"; }
-    else { nome = "Imparável"; efeito = "+3 Ataque, +3 Dano e Crítico em 19-20"; }
+    else if (cat <= 89) { nome = "Brutal";  efeito = "+3 no Dano; expande range de crítico em 1 (mín. 19-20)"; }
+    else { nome = "Imparável"; efeito = "+3 Ataque, +3 Dano; expande range de crítico em 1 (mín. 19-20)"; }
   }
 
   if (!titulo) titulo = nome;
