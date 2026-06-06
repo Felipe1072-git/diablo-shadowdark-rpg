@@ -972,7 +972,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 
 ---
 
-# **16\. Renegado (Rogue)**
+# **16\. Renegada (Rogue)**
 
 Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as Irmãs do Olho Cego. Eles são especialistas em encontrar pontos fracos e usar venenos ou sombras para obliterar inimigos antes mesmo de serem vistos.
 
@@ -984,8 +984,8 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 
 ### **Habilidades de Classe**
 
-* **Ataque Furtivo (⟁ \+ 0 Mana):** Uma vez por rodada, cause dano extra se você tiver **Vantagem** no ataque ou se o inimigo estiver adjacente a um aliado. O bônus escala com o nível: **+1d6 (Nv 1–3) · +2d6 (Nv 4–6) · +3d6 (Nv 7–10)**.  
-* **Imbuimento Rápido (◈ \+ 1 Mana):** Como uma ação ◈,  você pode imbuir sua arma com 1d4 de dano de **Veneno** ou **Sombras** (Necrótico). O efeito dura até o próximo ataque bem-sucedido.  
+* **Ataque Furtivo (⟁):** Uma vez por rodada, cause dano extra se você tiver **Vantagem** no ataque ou se o inimigo estiver adjacente a um aliado. O bônus escala com o nível: **+1d6 (Nv 1–3) · +2d6 (Nv 4–6) · +3d6 (Nv 7–10)**.  
+* **Imbuimento Rápido (◈ \+ 1 Mana):** Como uma ação ◈, você pode imbuir sua arma com 1d4 de dano de **Veneno** ou **Necrótico**. O efeito dura até o próximo ataque bem-sucedido.  
 ---
 
 ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
@@ -994,21 +994,21 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Constituição. |
 | **3-4** | \+1 em ataques (corpo a corpo ou distância) ou \+1 na CA. |
-| **5** | **Passo de Sombra (◈ \+ 3 Mana):** Teleporte-se para trás de um inimigo "Próximo" e faça um ataque com Vantagem. |
-| **6** | **Disparo Penetrante (◈ \+ 3 Mana):** Sua flecha atravessa todos os inimigos perto em linha reta. Causa o dano da arma em cada um deles. |
+| **5** | **Passo de Sombra (◈ \+ 3 Mana):** Teleporte-se para trás de um inimigo Próximo e faça um ataque com Vantagem. |
+| **6** | **Disparo Penetrante (◈ \+ 3 Mana):** Sua flecha atravessa todos os inimigos Próximo em linha reta. Causa o dano da arma em cada um deles. |
 | **7** | **Lâminas Retorcidas (◈ \+ 3 Mana):** Arremesse 2 armas leves. Após atingir os alvos, as lâminas voltam para você, causando 1d4 de dano Físico às criaturas no caminho. |
 | **8** | **Abrojos (Armadilha)(◈ \+ 1 Mana):** Jogue pregos no chão. Inimigos que passarem ficam lentos e sofrem 1d4 de dano Físico. |
-| **9** | **Bomba de Fumaça (Armadilha)(◈ \+ 1 Mana):** Inimigos "Próximo" não podem te ver ou te atacar por 1 rodada. |
-| **10** | **Imbuimento de Gelo (Armadilha)(◇ \+ 3 Mana):** Ao acertar uma criatura com um ataque, o alvo atingido fica congelado. Dura 1d4 Rodadas. (Alvo faz um teste de Força DC = 10 \+ Modificador do Atributo Primário para se libertar) |
-| **11** | **Saraivada (◈ \+ 3 Mana):** Dispare 5 flechas em um arco, atingindo vários inimigos "Próximo". Cada flecha causa **1d4 de dano Físico**. |
+| **9** | **Bomba de Fumaça (Armadilha) (◈ \+ 1 Mana):** Inimigos Próximo não podem te ver ou te atacar por 1 rodada. |
+| **10** | **Imbuimento de Gelo (Armadilha) (◇ \+ 3 Mana):** Ao acertar uma criatura com um ataque, o alvo fica congelado por 1d4 rodadas. (Salvaguarda de FOR DC 10 \+ Mod. DES para se libertar) |
+| **11** | **Saraivada (◈ \+ 3 Mana):** Dispare 5 flechas em um arco, atingindo vários inimigos Próximo. Cada flecha causa **1d4 de dano Físico**. |
 | **12** | **Ocultamento (◈ \+ 1 Mana):** Você pode fazer um teste para se esconder mesmo sem cobertura se ficar imóvel. |
 | **13** | **Mestra de Armadilhas (Passiva):** Suas armadilhas causam \+1d6 de dano extra além dos efeitos normais. |
 | **14** | **Clone das Sombras (◈◈ \+ 3 Mana):** Invoque uma sombra que copia seus ataques por 3 rodadas. |
 | **15** | **Exploração de Fraqueza (Passiva):** Seus ataques críticos agora acontecem com 18-20 natural. |
-| **16** | **Chuva de Flechas (◈ \+ 3 Mana):** Cubra uma área "Distante" com flechas mágicas 3d6 de dano Físico. Gaste +3 Mana para cada dado extra. |
+| **16** | **Chuva de Flechas (◈ \+ 3 Mana):** Cubra uma área Distante com flechas mágicas causando 3d6 de dano Físico. Gaste +3 Mana para cada dado extra. |
 | **17** | **Visão Interior (◈ \+ 3 Mana):** Marque um inimigo. Todos os ataques contra ele têm Vantagem por 1d4 rodadas. |
 | **18** | **Ímpeto (◈ \+ 1 Mana):** Mova-se o dobro da distância normal e atravesse inimigos sem sofrer ataques de oportunidade. |
-| **19** | **Armadilha da Morte (◈◈◈ \+ 8 Mana):** Coloque uma armadilha de energia sombria. Quando ativada, causa **4d8 de dano Necrótico** em área "Próximo" e deixa o terreno maldito por 1d4 rodadas — inimigos que iniciarem o turno na área sofrem **1d6 Necrótico** automaticamente. |
+| **19** | **Armadilha da Morte (◈◈◈ \+ 8 Mana):** Coloque uma armadilha de energia sombria. Quando ativada, causa **4d8 de dano Necrótico** em área Próximo e deixa o terreno maldito por 1d4 rodadas — inimigos que iniciarem o turno na área sofrem **1d6 Necrótico** automaticamente. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
