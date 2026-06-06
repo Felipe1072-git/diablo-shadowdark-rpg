@@ -606,7 +606,15 @@ Essenciais para Renegadas, Amazonas e caçadores de demônios.
 
 ### **Armaduras**
 
-Cada peça de armadura contribui com um bônus à CA base 10. O valor de cada peça depende da armadura específica — misturar peças de armaduras diferentes é permitido; some os bônus normalmente. O Tipo (Leve/Média/Pesada) define as propriedades e os requisitos de classe.
+Armaduras podem ser encontradas e equipadas como peças individuais. **Cada peça adiciona seu bônus à CA base do tipo:**
+
+- **Leve:** CA base = 10 + Mod. DES
+- **Média:** CA base = 10 + Mod. DES (máx +2)
+- **Pesada:** CA base = 10
+
+Com uma única peça você já parte da CA base do tipo — exatamente como estar sem armadura da mesma categoria. Cada peça soma seu bônus até completar o set.
+
+**Misturando tipos:** o **Peitoral** determina o tipo do conjunto inteiro. Suas regras de Mod. DES, Ruído e requisito de FOR aplicam ao personagem. Outras peças de tipos diferentes contribuem normalmente com seu bônus de CA.
 
 **Redução de Dano (RD):** ativa por peça equipada, não exige o set completo. Cada peça de Couro Reforçado, Brunea, Cota de Malha, Meia-Placa ou Placa Completa que você veste contribui com a RD da armadura.
 

@@ -289,6 +289,21 @@ const SUF_RUNA = [
   { min:95, max:100, nome:"Eternidade (Zod)",       efeito:"Item indestrutível + Sucesso Crítico automático 1×/sessão" },
 ];
 
+// CA por peça (bônus sobre a CA base do tipo)
+const PECA_CA = {
+  "Couro":          { Peitoral:2, Perneiras:1, Elmo:0, Luvas:0, Botas:0 },
+  "Couro Reforçado":{ Peitoral:2, Perneiras:1, Elmo:1, Luvas:0, Botas:0 },
+  "Brunea":         { Peitoral:2, Perneiras:2, Elmo:1, Luvas:0, Botas:0 },
+  "Cota de Malha":  { Peitoral:2, Perneiras:2, Elmo:1, Luvas:1, Botas:0 },
+  "Meia-Placa":     { Peitoral:3, Perneiras:2, Elmo:1, Luvas:1, Botas:0 },
+  "Placa Completa": { Peitoral:3, Perneiras:2, Elmo:1, Luvas:1, Botas:1 },
+};
+function caBase(tipo) {
+  if (tipo === "Leve")  return "10 + DES";
+  if (tipo === "Média") return "10 + DES (máx +2)";
+  return "10";
+}
+
 // ===================== FUNÇÕES =====================
 
 function step(txt) {
@@ -476,16 +491,21 @@ window.rolarTesouro = function() {
       logs.push(step(`<span class="dice">🎲 Qualidade Armadura d20+${nd} = ${qr}</span>`));
       qual = lookup(QUAL_ARMADURA, qr);
 
-      let pecaInfo = "";
-      if (!qual.set) {
+      if (arm.tipo === "Escudo") {
+        infoItem = `Escudo · ${arm.ca} CA`;
+      } else if (!qual.set) {
         const pr = d(6);
         const peca = PECAS[pr - 1];
         logs.push(step(`<span class="dice">🎲 Peça d6 = ${pr}</span> → ${peca}`));
-        pecaInfo = ` — ${peca}`;
+        const bonus = PECA_CA[arm.nome]?.[peca] ?? null;
+        const base = caBase(arm.tipo);
+        const caPecaStr = bonus != null
+          ? (bonus > 0 ? `${base} +${bonus}` : base)
+          : base;
+        infoItem = `${arm.tipo} · ${peca} · CA isolada: ${caPecaStr} · CA completa: ${arm.ca}`;
       } else {
-        pecaInfo = " — Set completo";
+        infoItem = `${arm.tipo} · Set completo · CA ${arm.ca}`;
       }
-      infoItem = `${arm.tipo}, CA ${arm.ca}${pecaInfo}`;
 
     } else if (dr <= 75) {
       const arma = lookup(ARMAS_CC, dr);
