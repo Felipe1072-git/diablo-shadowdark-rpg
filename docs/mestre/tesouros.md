@@ -635,6 +635,82 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Raiment of a Thousand Storms *(Monge — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Tempestade de Mil Relâmpagos** | Elmo — Couro | \+2 CA; Alcance Mortal causa \+1d6 de dano Relâmpago |
+| **Armadura das Mil Tempestades** | Peitoral — Couro | \+2 CA; quando usar Pés Ligeiros, seu próximo Alcance Mortal é gratuito (sem custo de Mana) |
+| **Luvas do Relâmpago** | Luvas — Couro | \+1 dano desarmado; Alcance Mortal pode atingir alvo Distante (em vez de Próximo) |
+| **Passos da Tempestade** | Botas — Couro | \+1 CA; Pés Ligeiros custa 0 Mana |
+
+**Bônus de Set:**
+- *2 peças:* Alcance Mortal ativa **Espírito em Fluxo** — você recupera 1 Mana ao acertá-lo, como se fosse um ataque físico
+- *4 peças:* Pés Ligeiros torna-se Ação Livre (◇) — pode ser ativado sem gastar ◈
+
+---
+
+#### Sunwuko's Guile *(Monge — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Máscara de Sun Wuko** | Elmo — Couro | \+2 CA; quando ativar qualquer habilidade com custo de Mana, cura 1d4 HP |
+| **Manto de Sun Wuko** | Peitoral — Couro | \+2 CA; Onda de Luz custa 1 Mana a menos (mín. 1) |
+| **Perneiras de Sun Wuko** | Perneiras — Couro | \+1 CA; Mantra de Evasão concede \+2 CA em vez de \+1 a você e aliados |
+| **Amuleto do Macaco Sagrado** | Amuleto | ao acertar Onda de Luz, todos os alvos têm Desvantagem em ataques até o início do próximo turno do Monge |
+
+**Bônus de Set:**
+- *2 peças:* Onda de Luz torna-se ◈ em vez de ◈◈ — tempo de conjuração reduzido
+- *4 peças:* Onda de Luz invoca o **Sino** no campo de batalha por 1d4 rodadas. O Sino ocupa uma posição Próximo à sua escolha (CA 10, indestrutível). Sempre que o Monge ou um aliado atacar o Sino, ele reativa — causando o dano completo da Onda de Luz em todos os inimigos Próximo ao Sino. Pode ser reativado múltiplas vezes até o fim da duração.
+
+---
+
+#### Inna's Mantra *(Monge — 5 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Coroa de Inna** | Elmo — Couro | \+2 CA; Mantra da Cura cura \+1d6 extra |
+| **Manto de Inna** | Peitoral — Couro | \+2 CA; Mantra da Cura atinge 1 aliado adicional (cura 2 aliados numa ação) |
+| **Perneiras de Inna** | Perneiras — Couro | \+1 CA; Mantra de Retribuição reflete 1d6 Radiante em vez de 1d4 |
+| **Luvas de Inna** | Luvas — Couro | \+1 dano desarmado; Mantra de Retribuição — *sem o talento:* set concede acesso; *com o talento:* também protege 1 aliado Próximo escolhido |
+| **Anel de Inna** | Anel | ao usar Mantra da Cura, recupere 1d4 Mana |
+
+**Bônus de Set:**
+- *2 peças:* Mantra da Cura torna-se Ação Livre (◇) uma vez por cena
+- *5 peças:* sempre que o Monge usar Mantra da Cura, todos os alvos curados ganham Mantra de Retribuição por 1 rodada — o próximo inimigo que os acertar sofre 1d4 Radiante de volta
+
+---
+
+#### Uliana's Stratagem *(Monge — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Elmo de Uliana** | Elmo — Couro | \+2 CA; Sete Lados custa 4 Mana em vez de 5 |
+| **Armadura de Uliana** | Peitoral — Couro | \+2 CA; Palma Explosiva — *sem o talento:* ao matar um inimigo com ataque desarmado, ele explode em 1d8 Físico em área Próximo; *com o talento:* a explosão atinge área Distante em vez de Próximo |
+| **Luvas de Uliana** | Luvas — Couro | \+1 dano desarmado; o primeiro ataque do Sete Lados aplica Palma Explosiva automaticamente no alvo |
+| **Anel de Uliana** | Anel | Sete Lados — *sem o talento:* set concede acesso com 5 ataques em vez de 7; *com o talento:* custa ◈◈ em vez de ◈◈◈ |
+
+**Bônus de Set:**
+- *2 peças:* Sete Lados — *sem o talento:* custa ◈◈◈ (acesso completo com 7 ataques); *com o talento:* custa ◈◈
+- *4 peças:* Sete Lados pode ser usado como Ação Livre (◇) uma vez por cena — como resposta imediata ao sofrer dano
+
+---
+
+#### Patterns of Justice *(Monge — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Elmo da Justiça** | Elmo — Couro | \+2 CA; ao usar Ciclone, puxa todos os inimigos Próximo (em vez de apenas alguns) |
+| **Peitoral da Justiça** | Peitoral — Couro | \+2 CA; Ímpeto custa 0 Mana |
+| **Perneiras da Justiça** | Perneiras — Couro | \+1 CA; após usar Ímpeto, seu próximo ataque desarmado causa \+2d6 dano Físico |
+| **Botas da Justiça** | Botas — Couro | \+1 CA; ao usar Ciclone, todos os inimigos puxados sofrem 1d6 de dano Físico imediato |
+
+**Bônus de Set:**
+- *2 peças:* Ímpeto torna-se ◈ em vez de ◈◈ — mover-se para Próximo e atacar com Vantagem numa única ação
+- *4 peças:* Ciclone torna-se Ação Livre (◇) — pode ser usado sem gastar ◈, mantendo o turno inteiro para atacar
+
+---
+
 #### Tal Rasha's Wrappings *(Mago · Arcanista — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
