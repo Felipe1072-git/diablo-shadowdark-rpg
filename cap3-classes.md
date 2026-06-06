@@ -64,7 +64,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | :---- | :---- |
 | **1-2** | \+2 de Força ou \+2 de Destreza. |
 | **3-4** | \+1 para ataques à distância ou corpo a corpo. |
-| **5** | **Esquiva (Passiva):** \+1 na sua Classe de Armadura (AC). |
+| **5** | **Esquiva (Passiva):** \+1 na sua Classe de Armadura (CA). |
 | **6** | **Visão Interior (Passiva):** Você tem \+2 em testes para detectar armadilhas ou inimigos escondidos. |
 | **7** | **Golpe Crítico (Passiva):** Seus ataques críticos agora acontecem com 19-20 natural. |
 | **8** | **Penetração (⟁ \+ 1 Mana):** Seus ataques ignoram bônus de armadura, de escudos ou coberturas leves. |
@@ -94,7 +94,7 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 | d6 | Objetivo (Tarefa Evocativa) | Recompensa (Dádiva Permanente) |
 | :---- | :---- | :---- |
 | **1** | **O Cume das Deusas:** Escalar o ponto natural mais alto da região e acender uma pira de sinalização. | **Mira Firme:** Você dobra o seu bônus de atributo no dano em ataques à distância (Arco ou Javalina). |
-| **2** | **O Rito das Cinzas:** Localizar o corpo de uma Askari perdida em uma masmorra e realizar o rito funerário. | **Esquiva Fluida:** Uma vez por rodada, você pode usar sua Reação para ganhar \+3 na CA contra um único ataque. |
+| **2** | **O Rito das Cinzas:** Localizar o corpo de uma Askari perdida em uma masmorra e realizar o rito funerário. | **Esquiva Fluida:** Uma vez por rodada, você pode usar sua Reação (⟁) para ganhar \+3 na CA contra um único ataque. |
 | **3** | **Santuário Esquecido:** Encontrar um altar oculto de Athulua e purificar a corrupção ao seu redor. | **Primeiro Disparo:** Você ganha \+1d8 de dano adicional no seu primeiro ataque bem-sucedido em cada combate. |
 | **4** | **Trilha de Skovos:** Mapear uma rota segura que atravesse uma zona de perigo sem que o grupo seja detectado. | **Passo de Esquiva:** Uma vez por descanso curto, você pode transformar um acerto crítico recebido em um acerto normal (ou um acerto normal em erro). |
 | **5** | **O Troféu da Predadora:** Rastrear uma besta alfa até seu covil e trazer sua cabeça como prova de domínio. | **Instinto de Rapina:** Você ganha Vantagem em testes para rastrear ou detectar a presença de demônios e mortos-vivos. |
@@ -115,7 +115,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 ### **Habilidades de Classe**
 
 * **Dínamo Arcano (◇):** Sempre que você passar num teste de conjuração, você ganha 1 **Carga Arcana**. É um recurso especial que você pode gastar para aumentar o dano de feitiços (+2 por carga).  
-* **Mente Protegida (Passiva):** Você pode usar Inteligência em vez de Destreza para calcular sua Classe de Armadura (AC) enquanto não usar armadura.  
+* **Mente Protegida (Passiva):** Você pode usar Inteligência em vez de Destreza para calcular sua Classe de Armadura (CA) enquanto não usar armadura.  
 * **Feitiço Básico:** Role 1d6 para definir seu feitiço inicial.  
 ---
 
@@ -124,7 +124,7 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Destreza. |
-| **3-4** | \+1 em testes de conjuração ou \+1 na AC. |
+| **3-4** | \+1 em testes de conjuração ou \+1 na CA. |
 | **5** | **Explosão de Energia (⟁ \+ 1 Mana):** Quando sofrer dano, cause 1d6 de dano Arcano e empurre o inimigo para um local "Próximo". Gaste +1 Mana para cada dado extra. |
 | **6** | **Teleporte (◈ \+ 1 Mana ou ◈ \+ 2 Mana por Aliado):** Como movimento, você pode se teleportar para um lugar "Próximo". Alternativamente, você pode teleportar a você e um aliado perto. |
 | **7** | **Lente Arcana (Passiva):** Suas magias têm o dobro de alcance. |
@@ -184,7 +184,7 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Força. |
-| **3-4** | \+1 para ataques com Garras ou \+1 na AC. |
+| **3-4** | \+1 para ataques com Garras ou \+1 na CA. |
 | **5 (1)** | **Punhos de Fogo (◇ Finalizador):** Gaste cargas para causar \+1d6 de fogo por carga no ataque. |
 | **6 (2)** | **Garras de Gelo (◇ Finalizador):** Gaste 1 carga para congelar o alvo por 1 rodada no ataque. 1 Carga por rodada |
 | **7 (3)** | **Golpe do Tigre (◇ Finalizador):** Gaste 3 cargas para causar dano máximo automático no ataque. |
@@ -235,7 +235,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 
 ### **Habilidades de Classe**
 
-* **Nervos de Aço:** Enquanto estiver usando apenas armaduras Leves ou nenhuma armadura, você soma o seu modificador de **Constituição** na sua Classe de Armadura (AC).  
+* **Nervos de Aço:** Enquanto estiver usando apenas armaduras Leves ou nenhuma armadura, você soma o seu modificador de **Constituição** na sua Classe de Armadura (CA).  
 * **Fúria Sanguinária (◇):** Sempre que sofrer dano ou acertar um golpe você pode entrar em Fúria. Você ganha **Vantagem** em ataques e testes físicos (FOR, DES, CON), causa **\+Nível** de dano extra, mas todos os ataques contra você têm **Vantagem**. Ela dura até o final do combate ou você decidir se acalmar.  
 ---
 
@@ -248,18 +248,18 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 | **5** | **Salto (◈ \+ 1 Mana):** Como movimento, salte para qualquer lugar "Próximo", ignorando obstáculos e faça um ataque. |
 | **6** | **Pancada (◇ \+ 2 Mana):** Se acertar um ataque, empurre o inimigo para "Próximo". O inimigo deve rolar um teste de Constituição ou Força. Se falhar, ele precisará usar duas ações **◈◈** para movimentar até o início do seu próximo turno. |
 | **7** | **Turbilhão (◈ \+ 3 Mana):** Ataque todos os inimigos ao seu alcance com uma única rolagem. |
-| **8** | **Grito de Guerra (◇  \+ 2 Mana):** O Bárbaro grita e recebe (ou concede a aliados próximos) \+1d6 de PV Temporário. |
+| **8** | **Grito de Guerra (◇  \+ 2 Mana):** O Bárbaro grita e recebe (ou concede a aliados próximos) \+1d6 de HP Temporário. |
 | **9** | **Resistência Natural (Passiva):** Você ganha RD 2 contra venenos e magia. |
 | **10** | **Berserk (◈ \+ 2 Mana):** Faça um ataque que adiciona \+1d10 de dano Físico. Gaste +2 Mana para cada dado extra. Impede o Bárbaro de se beneficiar de Recuperação de Vida e Recuperação de Mana até o início do próximo turno. |
 | **11** | **Mestre das Armas Grandes (Passiva):** Ao usar armas de duas mãos, você rola o dano duas vezes e escolhe o maior. |
-| **12** | **Sede de Sangue (◇ \+ 1 Mana):** Toda vez que o Bárbaro reduz um inimigo a 0 PV enquanto está em Fúria, ele recupera 1d6 de PV temporário. |
-| **13** | **Frenesi (◇ \+ 1 Mana por Acerto):** Sempre que acertar um ataque, ganha \+1 no próximo ataque (acumulativo até o fim do combate). |
+| **12** | **Sede de Sangue (◇ \+ 1 Mana):** Toda vez que o Bárbaro reduz um inimigo a 0 HP enquanto está em Fúria, ele recupera 1d6 de HP temporário. |
+| **13** | **Frenesi (◇ \+ 1 Mana por Acerto):** Sempre que acertar um ataque, ganha \+1 no próximo ataque (acumulativo até o fim da cena). |
 | **14** | **Implacável (Passiva):** Enquanto estiver com menos da metade do seu HP máximo, você ganha RD 2 contra todo e qualquer tipo de dano sofrido. |
 | **15** | **Arremesso de Arma (Passiva) (◇ \+ 1 Mana):** Você pode arremessar qualquer arma corpo a corpo como se fosse uma arma de arremesso (alcance perto). Ao usar armas de arremesso, cause \+1d4 de dano Físico extra. |
 | **16** | **Ordens de Batalha (◈+ 2 Mana):** Você grita ordens e até 2 aliados em alcance de audição podem imediatamente se mover até o deslocamento máximo deles como uma reação, sem provocar ataques de oportunidade. |
 | **17** | **Desprezo à Dor (⟁ \+ 2 Mana):** Como uma reação, se cair para 0 HP, você ignora o dano e continua de pé com 1 HP. |
 | **18** | **Dupla Empunhadura (◈ \+ 1 Mana):** Se usar duas armas, você pode gastar 1 Ação e 1 Mana para realizar um ataque extra com a arma secundária. |
-| **19** | **Chamado dos Antigos (◈◈◈ \+ 4 Mana por Ancestral):** Invoca até 3 espíritos ancestrais até o fim do combate. No seu turno, como ação livre ◇, cada Ancestral ataca um alvo Próximo. **Ancestral:** Dano: 2d6 Físico · Alcance: Próximo. Resolva todos os ataques com uma única rolagem. |
+| **19** | **Chamado dos Antigos (◈◈◈ \+ 4 Mana por Ancestral):** Invoca até 3 espíritos ancestrais até o fim da cena. No seu turno, como ação livre ◇, cada Ancestral ataca um alvo Próximo. **Ancestral:** Dano: 2d6 Físico · Alcance: Próximo. Resolva todos os ataques com uma única rolagem. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
 ---
@@ -274,7 +274,7 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
-| **1** | **O Monólito dos Ancestrais:** Localizar um monumento de pedra antigo e entalhar o nome de um companheiro caído ou de um antepassado. | **Trespassar Instintivo:** Se você reduzir um inimigo a 0 PV com uma arma de duas mãos, pode realizar um ataque imediato contra outro alvo adjacente. (O efeito é cumulativo). |
+| **1** | **O Monólito dos Ancestrais:** Localizar um monumento de pedra antigo e entalhar o nome de um companheiro caído ou de um antepassado. | **Trespassar Instintivo:** Se você reduzir um inimigo a 0 HP com uma arma de duas mãos, pode realizar um ataque imediato contra outro alvo adjacente. (O efeito é cumulativo). |
 | **2** | **Prova de Resistência:** Atravessar uma zona de perigo ambiental (nevasca, deserto ou pântano tóxico) sem usar itens de proteção ou abrigo. | **Resiliência de Ferro:** Você ganha \+1 ponto de HP por nível permanentemente e dobra seu bônus de Constituição em testes que demandem o atributo. |
 | **3** | **Desafio da Natureza:** Caçar e abater uma besta alfa da região usando apenas suas mãos ou armas improvisadas do cenário. | **Brutalidade Pura:** Você adiciona o dobro do seu bônus de Força ao dano quando usar armas pesadas (substitui o bônus normal). |
 | **4** | **O Fardo do Gigante:** Carregar um objeto massivo ou um aliado ferido através de um terreno difícil por um dia inteiro sem descansar. | **Avanço Imparável:** Você ignora penalidades de movimento por terreno difícil e pode "atropelar" inimigos menores, movendo-se através de seu espaço sem gerar ataques de oportunidade. |
@@ -295,7 +295,7 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 
 ### **Habilidades de Classe**
 
-* **Habilidades de Ódio (Ofensivas):** Ao reduzir um inimigo a 0 PV com uma habilidade de **Ódio**, recupere 1d4 de Mana.  
+* **Habilidades de Ódio (Ofensivas):** Ao reduzir um inimigo a 0 HP com uma habilidade de **Ódio**, recupere 1d4 de Mana.  
 * **Habilidades de Disciplina (Defensivas):** Após usar uma habilidade de **Disciplina**, habilidades de **Ódio** custam \-1 Mana (Mínimo de 1).  
 * **Flecha Faminta (Ódio) (◈◈ \+ 2 Mana)**: Dispara uma flecha magicamente imbuída que atravessa inimigos “Próximo”.  
 * **Inimigo Jurado:** Você tem **Vantagem** em ataques contra Demônios e Mortos-vivos.  
@@ -306,7 +306,7 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Constituição. |
-| **3-4** | \+1 em ataques à distância ou \+1 na AC. |
+| **3-4** | \+1 em ataques à distância ou \+1 na CA. |
 | **5** | **Salto Mortal (Disciplina) (◈ \+ 1 Mana):** Move-se para área "Próximo", ignora ataques de oportunidade.  |
 | **6** | **Boleadeiras (Disciplina) (◈ \+ 1 Mana):** Faça um ataque. Se acertar, o alvo fica preso por 1d4 rodadas.  |
 | **7** | **Granada (Ódio) (◈◈ \+ 2 Mana):** Arremessa uma granada em um ponto “perto” que explode e causa 2d6 de dano de fogo em inimigos “adjacentes”. Gaste +2 Mana para cada dado extra. |
@@ -396,12 +396,12 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
-| **1** | **A Fonte Corrompida:** Localizar um poço, fonte ou rio profanado e usar seu próprio corpo para "filtrar" a corrupção, purificando a água. | **Sifão de Sangue Aprimorado:** Quando você acerta um ataque, você causa \+1d6 de dano e recuperar a mesma quantidade em PV. |
+| **1** | **A Fonte Corrompida:** Localizar um poço, fonte ou rio profanado e usar seu próprio corpo para "filtrar" a corrupção, purificando a água. | **Sifão de Sangue Aprimorado:** Quando você acerta um ataque, você causa \+1d6 de dano e recuperar a mesma quantidade em HP. |
 | **2** | **Rastro de Hemoglobina:** Rastrear uma criatura de elite apenas pelo "cheiro" do sangue, ignorando pistas visuais, por quilômetros. | **Faro Sanguíneo:** Você ganha Vantagem em testes para rastrear qualquer criatura que não seja um constructo ou morto-vivo esquelético. |
 | **3** | **O Selo de Sangue:** Usar seu próprio sangue para realizar um ritual de selamento em uma porta ou tumba, impedindo a entrada (ou saída) de horrores. | **Lança de Sangue:** Sua arma de haste ganha alcance dobrado e, se você fizer apenas um ataque no turno, você adiciona seu bônus de Constituição ao dano. |
 | **4** | **Comunhão das Sombras:** Encontrar um local de escuridão absoluta e permanecer lá por horas, domando a fera interior sem ceder à loucura. | **Passo de Sangue:** Uma vez por rodada, você pode se transformar em uma névoa de sangue e se teletransportar até para um espaço vazio que você possa ver (perto). |
-| **5** | **O Altar Profano:** Localizar um antigo local de sacrifício e realizar um contra-ritual para honrar as vítimas e reivindicar o poder para a sua Ordem. | **Mestre das Lanças:** Ao reduzir um inimigo a 0 PV, usando uma arma de haste, você pode realizar dois ataques imediatos contra outro alvo no alcance, um com cada ponta da arma. (Efeito Cumulativo) |
-| **6** | **A Queda do Patriarca:** Derrotar um vampiro ou criatura de sangue superior em seu próprio covil e consumir sua essência purificada. | **Fervor Escarlate:** Enquanto você estiver com menos da metade dos seus PV máximos, você ganha \+2 na CA e seus ataques causam um dado de dano extra. |
+| **5** | **O Altar Profano:** Localizar um antigo local de sacrifício e realizar um contra-ritual para honrar as vítimas e reivindicar o poder para a sua Ordem. | **Mestre das Lanças:** Ao reduzir um inimigo a 0 HP, usando uma arma de haste, você pode realizar dois ataques imediatos contra outro alvo no alcance, um com cada ponta da arma. (Efeito Cumulativo) |
+| **6** | **A Queda do Patriarca:** Derrotar um vampiro ou criatura de sangue superior em seu próprio covil e consumir sua essência purificada. | **Fervor Escarlate:** Enquanto você estiver com menos da metade dos seus HP máximos, você ganha \+2 na CA e seus ataques causam um dado de dano extra. |
 
 ---
 
@@ -417,7 +417,7 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 
 ### **Habilidades de Classe**
 
-* **Mestre do Escudo:** Enquanto usar um escudo, você ganha \+1 extra na AC e pode usá-lo para atacar (1d4 de dano Físico \+ empurrão).  
+* **Mestre do Escudo:** Enquanto usar um escudo, você ganha \+1 extra na CA e pode usá-lo para atacar (1d4 de dano Físico \+ empurrão).  
 * **Inabalável:** Você tem **Vantagem** em testes de Força para resistir a ser empurrado, derrubado ou movido contra sua vontade.  
 * **Magia Divina:** Caso aprenda feitiços, você usa a **Sabedoria** para conjura-los.  
 ---
@@ -434,9 +434,9 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | **8** | **Martelo Abençoado (Feitiço)(◈◈ \+ 2 Mana):** Invoque um martelo de luz que gira ao seu redor, causando 1d6 de dano Radiante a quem se aproximar (dura 1d4 rodadas). Gaste +2 Mana para cada dado extra. |
 | **9** | **Investida de Corcel (◈ \+ 3 Mana):** Você pode se mover o triplo da distância e ignorar ataques de oportunidade. |
 | **10** | **Esmagar com Escudo (◈ \+ 1 Mana):** Faça ataque de escudo, se acertar, o alvo é derrubado (Prone) automaticamente. |
-| **11** | **Julgamento (Feitiço) (◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Distante" no lugar com correntes sagradas por 1d4 rodada (DC = 10 \+ Modificador do Atributo Primário para soltar). |
+| **11** | **Julgamento (Feitiço) (◈◈ \+ 2 Mana por Inimigo):** Imobilize um inimigo "Distante" no lugar com correntes sagradas por 1d4 rodadas (DC = 10 \+ Modificador do Atributo Primário para soltar). |
 | **12** | **Leis da Esperança (◈ \+ 2 Mana por Rodada):** Você e aliados "Próximo" recuperam 1d4 de HP no início de cada rodada. |
-| **13** | **Leis da Justiça (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
+| **13** | **Leis da Justiça (Passiva):** Você e aliados "Próximo" ganham \+1 na CA enquanto você estiver consciente. |
 | **14** | **Espada Cadente (◈◈ \+ 2 Mana):** Salte para "Distante" e caia causando 2d8 de dano Radiante em área (Próximo do impacto). Gaste +2 Mana para cada dado extra. |
 | **15** | **Provocar (Feitiço) (◈◈◈ \+ 2 Mana por Inimigo):** Force inimigos "Próximo" a atacarem apenas você no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
 | **16** | **Fúria Sagrada (◈ \+ 3 Mana por Rodada):** Seus ataques agora causam \+2d6 de dano Radiante por 1 rodada. |
@@ -459,7 +459,7 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 | :---- | :---- | :---- |
 | **1** | **Localizar o Túmulo do Mestre:** Encontrar os restos de um antigo Cruzado em uma masmorra e herdar seu brasão/nome. | **Punição Severa:** Se você fizer apenas um ataque no turno, adicione o dobro do seu bônus de Força ao dano. |
 | **2** | **Limpar o Caminho dos Fiéis:** Manter uma posição defensiva (como uma ponte ou portão) contra uma horda enquanto civis fogem. | **Escudo Refletor:** Sempre que um inimigo errar um ataque contra você, ele sofre dano igual ao seu bônus de Sabedoria. |
-| **3** | **Relíquia de Akkhan:** Recuperar um fragmento de armadura ou arma sagrada escondido em um local de corrupção extrema. | **Impacto Esmagador:** Ao reduzir um inimigo a 0 PV, você pode realizar um ataque imediato contra outro alvo adjacente usando uma arma de contusão. (Efeito Cumulativo) |
+| **3** | **Relíquia de Akkhan:** Recuperar um fragmento de armadura ou arma sagrada escondido em um local de corrupção extrema. | **Impacto Esmagador:** Ao reduzir um inimigo a 0 HP, você pode realizar um ataque imediato contra outro alvo adjacente usando uma arma de contusão. (Efeito Cumulativo) |
 | **4** | **Consagrar o Solo Profano:** Realizar um ritual de oração e vigília em um altar demoníaco até que ele seja destruído pela Luz. | **Fé Inabalável:** Você se torna imune a Medo e ganha Vantagem em testes contra efeitos mágicos. |
 | **5** | **O Sermão de Ferro:** Inspirar uma milícia local ou vila a se levantar contra um opressor através de um feito de força. | **Líder da Vanguarda:** Aliados perto de você ganham \+1 na CA e não sofrem penalidades de moral. |
 | **6** | **Peregrinação de Armadura:** Caminhar uma distância enorme sob sol forte ou neve pesada sem nunca remover sua armadura. | **Fortaleza Ambulante:** Você ignora o peso de armas ou armadura pesadas e pode somar seu bônus de Constituição à sua CA. |
@@ -479,7 +479,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 ### **Habilidades de Classe**
 
 * **Espírito Animal:** Você tem ***um*** Lobo ou Corvo Espiritual. Use ◈ para agir com ele durante seu turno (Mover, Atacar). Usa SAB nos testes. Se morrer, gaste ◈ + 1 Mana para trazê-lo de volta. **Espírito Animal:** CA 13 · HP = Nível×2 (mínimo 5) · Dano: 1d6 Físico  
-* **Transmutar:** Como uma ação **◈ \+ 2 Mana**, role **Sabedoria (DC 15 − Nível\)**. Se passar, mude para a forma de **Lobo** (dobro de movimento e \+1d6 de dano Físico) ou **Urso** (+2 AC e \+5 HP temporários). A forma dura até o fim do combate.  
+* **Transmutar:** Como uma ação **◈ \+ 2 Mana**, role **Sabedoria (DC 15 − Nível\)**. Se passar, mude para a forma de **Lobo** (dobro de movimento e \+1d6 de dano Físico) ou **Urso** (+2 CA e \+5 HP temporários). A forma dura até o fim da cena.  
 * **Licantropia (Passiva):** A partir do nível 5, você pode usar Transmutar sem rolar dados.  
 * **Feitiço Básico:** Role 1d8 para definir seu feitiço inicial.  
 ---
@@ -524,7 +524,7 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 | **2** | **Domar o Alfa:** Encontrar uma besta gigante corrompida e, em vez de matá-la, usar sua perícia para remover o parasita/corrupção que a aflige. | **Pele de Carvalho:** Sua CA natural aumenta em \+1 permanentemente. Você também ganha Vantagem em testes de Constituição. |
 | **3** | **O Segredo dos Menires:** Localizar um círculo de pedras rúnicas (Menires) e passar uma noite em transe para aprender as correntes de vento. | **Vento Devastador:** Seus feitiços elementais causam \+1 dado de dano adicional. |
 | **4** | **Trilha dos Ancestrais:** Mapear os antigos túmulos dos druidas em uma região e garantir que os espíritos não foram perturbados pelo Mal. | **Comunhão Espiritual:** Uma vez por sessão, você pode perguntar ao Mestre sobre a localização ou informação de uma ameaça ou recurso próximo. O mestre irá dizer a localização exata ou passar uma informação importante sobre o tema na forma de premonição. |
-| **5** | **Sobrevivência de Alcateia:** Sobreviver a uma tempestade ou clima extremo em território hostil usando apenas suas habilidades de transformação para abrigo. | **Garras Afiadas:** Se você reduzir um inimigo a 0 PV, pode realizar um ataque imediato contra outro alvo adjacente. (Efeito Cumulativo) |
+| **5** | **Sobrevivência de Alcateia:** Sobreviver a uma tempestade ou clima extremo em território hostil usando apenas suas habilidades de transformação para abrigo. | **Garras Afiadas:** Se você reduzir um inimigo a 0 HP, pode realizar um ataque imediato contra outro alvo adjacente. (Efeito Cumulativo) |
 | **6** | **Purificar a Nascente:** Encontrar a nascente de um rio infectada por sangue demoníaco e restaurar a pureza da água. | **Vigor da Terra:** Sempre que você desferir um golpe crítico ou matar um inimigo, você recupera 1d8 pontos de vida instantaneamente. |
 
 ---
@@ -544,7 +544,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 * **Vigor do Espírito (Passiva):** Você tem \+1 para atacar com armas de haste.  
 * **Comunhão com Guardiões (◇):** No início de cada combate, escolha um Guardião para sintonizar. Você ganha o benefício passivo dele até o fim da luta:  
   * **Jaguar:** \+1 em ataques corpo a corpo.  
-  * **Gorila:** \+1 de AC (Armadura).  
+  * **Gorila:** \+1 de CA (Armadura).  
   * **Águia:** Dobra sua distância de movimento.  
   * **Centopeia:** Você recupera 1 de HP sempre que matar um inimigo.
 
@@ -555,7 +555,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Sabedoria. |
-| **3-4** | \+1 em ataques corpo a corpo ou \+1 na AC. |
+| **3-4** | \+1 em ataques corpo a corpo ou \+1 na CA. |
 | **5** | **Garras do Jaguar (◈ \+ 2 Mana):** Se acertar um ataque, pode fazer um segundo ataque. |
 | **6** | **Pancada do Gorila (◈ \+ 1 Mana):** Faça um ataque e empurre um inimigo "Próximo" para "Distante". |
 | **7** | **Mergulho da Águia (◈ \+ 3 Mana):** Salte para um inimigo "Distante" e ataque com Vantagem. |
@@ -586,7 +586,7 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
 | **1** | **A Convergência dos Espíritos:** Localizar um ponto onde o Reino Espiritual se sobrepõe em Santuário e medita para estabilizar o véu. | **Garras do Jaguar:** Seu primeiro ataque no combate causa \+2d12 de dano adicional. Se você se mover antes de atacar, o dano aumenta para \+3d12. |
-| **2** | **O Totem de Proteção:** Encontrar uma aldeia ou refúgio desprotegido e erguer um totem espiritual usando materiais naturais locais. | **Pilar do Gorila:** Ao reduzir um inimigo a 0 PV com um ataque corpo a corpo, pode realizar um ataque imediato contra outro alvo adjacente. (Efeito Cumulativo) |
+| **2** | **O Totem de Proteção:** Encontrar uma aldeia ou refúgio desprotegido e erguer um totem espiritual usando materiais naturais locais. | **Pilar do Gorila:** Ao reduzir um inimigo a 0 HP com um ataque corpo a corpo, pode realizar um ataque imediato contra outro alvo adjacente. (Efeito Cumulativo) |
 | **3** | **Voo da Sentinela:** Mapear uma vasta área selvagem a partir de uma posição elevada, identificando todas as fontes de corrupção. | **Olhar Afiado:** Seus ataques à distância têm \+1 dado de dano. |
 | **4** | **Limpar a Podridão:** Localizar uma área consumida por uma praga antinatural e usar venenos rituais para acelerar o ciclo de morte e renascimento. | **Veneno Potente:** O alvo sofre 1d6 de dano de veneno no início de cada turno dele por 3 rodadas. (Acumulativo) |
 | **5** | **O Resgate da Alma:** Encontrar o espírito de um ancestral perdido em uma ruína e guiá-lo de volta ao descanso eterno. | **Transe de Disciplina:** Gaste uma rodada se preparando, seu próximo ataque terá Vantagem e causará o dobro de dano. |
@@ -617,14 +617,14 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | :---- | :---- |
 | **1-2** | \+2 de Carisma ou \+2 de Inteligência. |
 | **3-4** | \+1 em testes de conjuração ou \+2 de HP. |
-| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana):** Mãos saem do chão. Inimigos “Próximo” sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodada. Gaste +2 Mana para cada dado extra. |
+| **5 (1)** | **Garras dos Mortos (Feitiço) (◈◈ \+ 2 Mana):** Mãos saem do chão. Inimigos “Próximo” sofrem 1d4 de dano necrótico e ficam presos por 1d4 rodadas. Gaste +2 Mana para cada dado extra. |
 | **6 (2)** | **Nuvem de Gafanhotos (Feitiço)(◈ \+ 2 Mana):** Uma nuvem de pragas que saltam de inimigo em inimigo, causando 1d6 de dano Físico automático em todos os inimigos perto. Gaste +2 Mana para cada dado extra. Dura 1d4 Rodadas. |
 | **7 (3)** | **Bomba de Fogo (Feitiço)(◈ \+ 1 Mana):** Você lança um jarro de explosivos. Escolha um ponto “Próximo”. Todas as criaturas adjacentes àquele ponto sofrem 2d6 de dano de fogo. Gaste +1 Mana para cada dado extra. |
 | **8 (4)** | **Caminhada do Espírito (Feitiço)(◈ \+ 3 Mana):** Fique invisível e etéreo por 1d4 rodadas. Você não sofre dano físico nessa forma. |
 | **9 (5)** | **Invasão de Sapos (Feitiço)(◈ \+ 1 Mana):** Uma horda de sapos explosivos cobre o chão causando 1d6 de dano de veneno. Gaste +1 Mana para cada dado extra. A área é de terreno difícil e dura 1d4 Rodadas. |
 | **10** | **Sacrifício (◈ \+ 1 Mana por Cão):** Você explode seus Cães Zumbis. Cada cão causa 1d8 de dano necrótico a criaturas adjacentes. |
 | **11** | **Gargântua (◈ \+ 5 Mana):** No lugar de um dos Cães, invoca 1 Gargântua. **Gargântua:** CA 15 · HP = Nível×3 (mínimo 10) · Dano: 2d8 Físico. Dura até zerar o HP. |
-| **12 (6)** | **Aterrorizar (Feitiço) (◈ \+ 1 Mana por inimigo):** Você usa sua máscara para gritar. Inimigos "Próximo" fogem por 1d4 rodada. |
+| **12 (6)** | **Aterrorizar (Feitiço) (◈ \+ 1 Mana por inimigo):** Você usa sua máscara para gritar. Inimigos "Próximo" fogem por 1d4 rodadas. |
 | **13 (7)** | **Zumbis Suicidas (Feitiço)(◈ \+ 1 Mana):** Uma fila de zumbis corre e explode no primeiro alvo. Dano 2d6 Necrótico. Gaste +1 Mana para cada dado extra. |
 | **14 (8)** | **Piranhas (Feitiço)(◈◈ \+ 2 Mana):** Cria uma poça de água que causa 2d8 de dano de veneno durante 1d4 rodadas. Gaste +2 Mana para cada dado extra. Quem estiver na área sofre um dano extra de 1d4 de todas as fontes (ataques, feitiços, etc). |
 | **15** | **Exército de Fetiche (◈◈◈ \+ 1 Mana por Pigmeu):** Invoca pigmeus com adagas para lutar ao seu lado. Duram 1 combate. **Pigmeu:** CA 13 · HP = Nível (mínimo 1) · Dano: 1d4 Físico |
@@ -650,7 +650,7 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 | **2** | **O Totem de Fronteira:** Erguer um totem ritual em um ponto de convergência de caminhos para afastar espíritos malignos da região. | **Presença Umbral:** Você ganha \+1 na CA permanentemente. Além disso, inimigos que começarem o turno adjacente a você sofrem dano psíquico igual ao seu bônus de **Carisma**. |
 | **3** | **Comunhão com o Ancião:** Localizar o espírito de um antigo pajé em uma ruína e realizar um ritual para ouvir seus segredos. | **Visão de Além-Véu:** Você consegue detectar portas secretas, armadilhas e criaturas invisíveis perto, mesmo na escuridão total. |
 | **4** | **Limpar o Cemitério Profanado:** Realizar um ritual de pacificação em um local onde os mortos estão se erguendo sem controle. | **Explosão Espiritual:** Se você matar um inimigo, uma explosão espiritual atinge inimigos adjacentes causando **1d6** de dano psíquico. |
-| **5** | **O Fetiche de Sangue:** Sacrificar a essência de uma criatura poderosa em um altar natural para fortalecer seu próprio vínculo vital. | **Drenar Vida:** Sempre que você causar dano com um ataque único (sem usar ataques extras), você recupera **1d4** PV. |
+| **5** | **O Fetiche de Sangue:** Sacrificar a essência de uma criatura poderosa em um altar natural para fortalecer seu próprio vínculo vital. | **Drenar Vida:** Sempre que você causar dano com um ataque único (sem usar ataques extras), você recupera **1d4** HP. |
 | **6** | **Rastro da Praga:** Identificar o "paciente zero" ou a fonte de uma doença mágica que aflige uma vila e eliminá-la. | **Mestre de Zumbis:** Você recebe um "Cão Zumbi" extra. |
 
 ---
@@ -668,7 +668,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 ### **Habilidades de Classe**
 
 * **Mestria em Armas:** Escolha um tipo de arma (Espadas, Machados, Maças). Você tem **Vantagem** em ataques com essa arma. Quando usar Vantagem com a arma de Mestria e acertar, cause **+1d4 de dano extra**.  
-* **Reparar Equipamento:** Durante os descansos, você pode reparar armaduras e armas suas e de seus aliados, restaurando a utilidade de itens danificados. Adicionalmente, você concede \+1 de AC ou \+1 Ataque com Armas. Esse bônus dura 1d4 combates.  
+* **Reparar Equipamento:** Durante os descansos, você pode reparar armaduras e armas suas e de seus aliados, restaurando a utilidade de itens danificados. Adicionalmente, você concede \+1 de CA ou \+1 Ataque com Armas. Esse bônus dura 1d4 cenas.  
 ---
 
 ### **Tabela de Talentos (Role 1d20 ao subir de nível)**
@@ -689,7 +689,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | **14** | **Provocação (◈ \+ 3 Mana por inimigo):** Bata no escudo. Inimigos "Próximo" devem te atacar no próximo turno (Teste de SAB ou CAR, DC = 10 \+ Modificador do Atributo Primário, para resistir). |
 | **15** | **Mestre de Todas as Armas (Passiva):** Você pode trocar sua arma de Mestria após um descanso curto ou longo. |
 | **16** | **Fôlego Renovado (◈ \+ 1 Mana):** Recupere 1d10 \+ Nível de HP como uma ação. Gaste +1 Mana para cada dado extra. |
-| **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a AC do inimigo em 2 pelo resto do combate (destrói o couro/metal). |
+| **17** | **Quebra-Armadura (◈◈◈ \+ 3 Mana):** Faça um ataque, se acertar o impacto reduz a CA do inimigo em 2 pelo resto da cena (destrói o couro/metal). |
 | **18** | **Carga Heróica (◈◈ \+ 4 Mana):** Avance para "Distante" e ataque com Vantagem. Se acertar, causa dano máximo. |
 | **19** | **Veterano de Ferro (◈◈◈ \+ 8 Mana):** Por 1d4 rodadas, você entra em estado de combate total. Seus ataques com a arma de Mestria causam dano máximo automático. Uma vez por rodada, se matar um inimigo, pode fazer um ataque imediato contra outro "Próximo" como ação livre **◇**. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
@@ -708,7 +708,7 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
 | **1** | **Mapear a Fortaleza:** Identificar todos os pontos de entrada, saída e rotas de suprimento de uma masmorra ocupada. | **Golpe de Precisão:** Se você não se mover e fizer apenas um ataque no seu turno, adicione \+5 ao teste de ataque. |
-| **2** | **O Forjar da Lenda:** Recuperar uma arma de família ou uma peça de armadura lendária em um local de grande perigo. | **Aparar Avançado:** Você pode gastar sua Reação para reduzir o dano de um ataque físico recebido por você ou um aliado adjacente em 1d8 \+ seu bônus de Força. |
+| **2** | **O Forjar da Lenda:** Recuperar uma arma de família ou uma peça de armadura lendária em um local de grande perigo. | **Aparar Avançado:** Você pode gastar sua Reação (⟁) para reduzir o dano de um ataque físico recebido por você ou um aliado adjacente em 1d8 \+ seu bônus de Força. |
 | **3** | **Prova de Aço:** Sobreviver a uma armadilha de área ou a um colapso de estrutura usando apenas sua armadura e escudo como abrigo. | **Fortaleza Móvel:** Você ganha Redução de Dano (RD) 2 contra ataques físicos enquanto estiver usando armadura pesada. |
 | **4** | **Veterano de Guerra:** Analisar um campo de batalha antigo e deduzir a tática usada pelos mortos para evitar os mesmos erros. | **Retaliação Tática:** Uma vez por rodada, se um inimigo errar um ataque corpo a corpo contra você, você pode realizar um contra-ataque imediato. |
 | **5** | **Warband:** Crie um grupo de mercenários sob seu comando. O grupo deve ter no mínimo 5 integrantes (Outros jogadores não contam como mercenários). | **Olhos do Combatente:** Você não pode ser surpreendido e você ganha Vantagem em testes para perceber armadilhas e inimigos em uma região. |
@@ -739,7 +739,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Inteligência ou \+2 de Destreza. |
-| **3-4** | \+1 em testes de conjuração ou \+1 na AC. |
+| **3-4** | \+1 em testes de conjuração ou \+1 na CA. |
 | **5** | **Calor (◈◈):** Uma vez por descanso longo, você recupera metade do seu Mana sem precisar de descanso. |
 | **6** | **Teleporte (◈ \+ 1 Mana):** Pisque para um lugar "Próximo" que você possa ver. |
 | **7 (1)** | **Armadura de Gelo (Feitiço)(◈ \+ 1 Mana por rodada):** Você conjura uma armadura de gelo por 1 rodada, inimigos que te acertarem corpo a corpo sofrem 1d8 de dano de gelo e ficam congelados por 1d4 rodadas. |
@@ -773,7 +773,7 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 | **1** | **O Coração da Chama:** Localizar uma fonte de calor extremo (vulcão, incêndio eterno ou forja mística) e meditar em suas bordas. | **Combustão Espontânea:** Se o seu feitiço de fogo atingir apenas um alvo, ele sofre **1d10** de dano de queima no início do próximo turno dele e permanece por **1d4** rodadas. |
 | **2** | **O Pico Glacial:** Escalar o cume mais frio da região e sobreviver a uma noite inteira sem usar fogo para se aquecer. | **Armadura de Gelo:** Sua CA aumenta em \+2 permanentemente. Além disso, atacantes corpo a corpo que te atingirem têm seu deslocamento reduzido à metade na rodada seguinte. |
 | **3** | **O Para-raios Arcano:** Permanecer no ponto mais alto de uma tempestade elétrica e "atrair" a energia para um cristal ou foco. | **Descarga Elétrica:** Se você matar um inimigo com um feitiço de raio, a energia salta para inimigos adjacentes, causando metade do dano original. |
-| **4** | **Mapear Linhas de Ley:** Identificar três pontos de convergência mágica no mapa e desenhar o fluxo de energia entre eles. | **Fluxo de Mana:** Uma vez por descanso, você pode conjurar uma magia sem fazer teste de conjuração. |
+| **4** | **Mapear Linhas de Ley:** Identificar três pontos de convergência mágica no mapa e desenhar o fluxo de energia entre eles. | **Fluxo de Mana:** Uma vez por descanso curto, você pode conjurar uma magia sem fazer teste de conjuração. |
 | **5** | **Estabilizar a Anomalia:** Encontrar uma zona onde a magia está "selvagem" e perigosa, e usar sua disciplina para acalmá-la. | **Foco Elemental:** Se você não se mover no seu turno, o seu próximo feitiço de dano adiciona o dobro da sua Inteligência. |
 | **6** | **A Biblioteca de Vizjerei:** Localizar um arquivo de pergaminhos antigos escondidos sob a terra e catalogar seus segredos. | **Erudição Mágica:** Você pode identificar itens mágicos ou runas. |
 
@@ -792,7 +792,7 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 ### **Habilidades de Classe**
 
 * **Punhos de Ferro:** Seus ataques desarmados causam 1d6 de dano Físico e são considerados armas mágicas.  
-* **Defesa Iluminada:** Enquanto não usar armaduras médias, pesadas ou escudo, sua AC é **10 \+ Mod. Primário × 2**.  
+* **Defesa Iluminada:** Enquanto não usar armaduras médias, pesadas ou escudo, sua CA é **10 \+ Mod. Primário × 2**.  
 * **Espírito em Fluxo:** Você ganha 1 de Mana sempre que acertar um ataque (limite de ganho por turno igual ao seu Modificador de Sabedoria (mínimo 1)).   
 * **Alcance Mortal (◈ \+):** Gaste 1 Mana e lance um projétil de força em direção a inimigos perto. Para cada 1 Mana adicional, lance um projétil extra. Se lançar 3 projéteis, durante um turno, em um mesmo inimigo, o alvo é arremessado para longe.  
 ---
@@ -802,11 +802,11 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Sabedoria. |
-| **3-4** | \+1 em ataques corpo a corpo ou \+1 na AC. |
+| **3-4** | \+1 em ataques corpo a corpo ou \+1 na CA. |
 | **5** | **Ímpeto (◈◈ \+ 1 Mana):** Mova-se para "Próximo" instantaneamente e ataque com Vantagem. |
 | **6** | **Palma Explosiva (◇ \+ 1 Mana):** Se o seu ataque matar o alvo, ele explode causando 1d8 de dano Físico em área (Próximo). |
 | **7** | **Mantra da Cura (◈ \+ 1 Mana):** Cura 1d6 de HP a si mesmo e a um aliado "Próximo". Gaste +1 Mana para cada dado extra. |
-| **8** | **Mantra de Evasão (Passiva):** Você e aliados "Próximo" ganham \+1 na AC enquanto você estiver consciente. |
+| **8** | **Mantra de Evasão (Passiva):** Você e aliados "Próximo" ganham \+1 na CA enquanto você estiver consciente. |
 | **9** | **Mantra de Retribuição (⟁ \+ 1 Mana):** Inimigos que te acertarem sofrem 1d4 de dano Radiante de volta. |
 | **10** | **Onda de Luz (O Sino) (◈◈ \+ 2 Mana):** Esmague inimigos numa área "Próximo" com um sino de luz, causando 2d6 de dano Radiante. Gaste +2 Mana para cada dado extra. |
 | **11** | **Serenidade (◈):** Gaste 3 Mana, torna-se invulnerável a todo dano até o início da sua próxima rodada. |
@@ -834,7 +834,7 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 | d6 | Objetivo de Exploração | Recompensa (Dádiva de Disciplina) |
 | :---- | :---- | :---- |
 | **1** | **O Cume do Silêncio:** Alcançar o ponto mais alto e isolado de uma região e meditar por um dia sem interrupção. | **Golpe da Claridade:** Se você não se mover no seu turno, seu primeiro ataque bem-sucedido causa o dobro do dano. |
-| **2** | **A Prova de Ferro:** Destruir um obstáculo físico massivo (uma estátua corrompida, um portão selado) usando apenas seus punhos. | **Mãos Nuas:** Ao reduzir um inimigo a 0 PV, você pode realizar um ataque imediato contra outro alvo adjacente. (Efeito Cumulativo). |
+| **2** | **A Prova de Ferro:** Destruir um obstáculo físico massivo (uma estátua corrompida, um portão selado) usando apenas seus punhos. | **Mãos Nuas:** Ao reduzir um inimigo a 0 HP, você pode realizar um ataque imediato contra outro alvo adjacente. (Efeito Cumulativo). |
 | **3** | **Protetor do Caminho:** Escoltar um grupo de refugiados ou um indivíduo indefeso através de uma zona de perigo sem que eles sofram dano. | **Mantra de Retribuição:** Sempre que um inimigo errar um ataque corpo a corpo contra você, ele sofre dano imediato igual ao seu bônus de Sabedoria. |
 | **4** | **Sintonizar com o Sagrado:** Encontrar as ruínas de um antigo mosteiro ou templo de Sahptev e realizar um ritual de purificação. | **Disciplina Interior:** Você soma seu bônus de Sabedoria para rolagens de ataque e dano. |
 | **5** | **Jornada dos Mil Passos:** Atravessar uma região inteira do mapa a pé, sem utilizar montarias ou portais, mapeando os perigos no caminho. | **Passo do Vento:** Você ignora terreno difícil e pode se mover através do espaço ocupado por inimigos sem provocar ataques de oportunidade. |
@@ -867,7 +867,7 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 | **3-4** | \+1 em testes de conjuração ou \+2 no limite de esqueletos. |
 | **5 (1)** | **Explosão de Cadáver (Feitiço)(◈ \+ 2 Mana):** Exploda um cadáver ou esqueleto. Dano 2d6 Necrótico em área (Próximo). Gaste +2 Mana para cada dado extra. |
 | **6 (2)** | **Lança de Osso (Feitiço) (◈ \+ 2 Mana):** Um projétil que atravessa inimigos em linha reta (perto). Dano 2d8 físico. Gaste +2 Mana para cada dado extra. |
-| **7** | **Armadura de Ossos (Passiva):** Ganhe \+3 na AC enquanto tiver pelo menos 3 esqueletos ativos. |
+| **7** | **Armadura de Ossos (Passiva):** Ganhe \+3 na CA enquanto tiver pelo menos 3 esqueletos ativos. |
 | **8** | **Maldizer (Passiva):** Inimigos "Próximo" sofrem \+2 de dano de todos os ataques. |
 | **9 (3)** | **Drenar Vida (Feitiço)(◈ \+ 2 Mana):** Causa 1d6 de dano necrótico a um alvo e você recupera a mesma quantia em HP. Gaste +2 Mana para cada dado extra. |
 | **10** | **Golem de Argila (◈ \+ 3 Mana):** Em vez de 3 esqueletos, invoca 1 Golem. **Golem:** CA 15 · HP = Nível×3 (mínimo 10) · Dano: 1d8 Físico. Dura até zerar o HP. |
@@ -918,7 +918,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 
 * **Auras de Zakarum:** No seu turno, escolha uma Aura ativa com uma ação (◈). O efeito afeta você e todos os aliados "Próximo". Você só pode ter uma aura ativa por vez. A aura dura até ser trocada.  
   * *Fanatismo:* \+1 em testes de ataque corpo a corpo.  
-  * *Resistência:* \+1 na Classe de Armadura (AC).  
+  * *Resistência:* \+1 na Classe de Armadura (CA).  
 * **Golpe Sagrado (Smite)(◇ \+ 1 Mana):** Ao acertar um ataque, adicione seu **Nível** como dano Radiante extra.  
 * **Magia Divina:** Caso aprenda feitiços, você usa o **Carisma** para conjurá-los.  
 ---
@@ -934,7 +934,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **7** | **Zelo (◈◈ \+ 3 Mana):** Faça 3 ataques rápidos no mesmo alvo. |
 | **8** | **Carga (◈◈ \+ 1 Mana):** Avance em linha reta para "Distante" e ataque. Se acertar, o alvo cai (Prone). |
 | **9** | **Seta Sagrada (Feitiço)(◈◈ \+ 2 Mana):** Dispare um raio de luz. Cura 1d6 em aliado ou causa 1d8 de dano Radiante em morto-vivo/demônio. Gaste +2 Mana para cada dado extra. |
-| **10** | **Escudo Sagrado (Feitiço)(◈ \+ 3 Mana):** Seu escudo brilha, dando \+3 na AC por um encontro. |
+| **10** | **Escudo Sagrado (Feitiço)(◈ \+ 3 Mana):** Seu escudo brilha, dando \+3 na CA por um encontro. |
 | **11** | **Meditação (Aura)(◈):** Aliados na aura têm Vantagem para recuperar feitiços durante descansos curtos. |
 | **12** | **Punho dos Céus (Feitiço)(◈◈ \+ 4 Mana):** Um raio cai do céu. Dano 2d10 Radiante em um alvo e solta Holy Bolts (1d10 Radiante) em inimigos perto. Gaste +4 Mana para cada dado extra. |
 | **13** | **Arremesso Abençoado(◈ \+ 3 Mana):** Arremessa um martelo espiral até "Distante". O Martelo causa o dano da arma a cada inimigo que tocar na mesa e volta para sua mão . |
@@ -942,7 +942,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **15** | **Redenção (Aura)(◈):** Quando um inimigo morre na aura, você e aliados recuperam 1 de HP. |
 | **16** | **Limpeza (Aura)(◈):** Reduz pela metade a duração de venenos ou maldições em aliados na aura. |
 | **17** | **Mãos de Luz (Feitiço)(◈◈ \+ 5 Mana):** Toque um aliado para curar todo o HP dele. |
-| **18** | **Convicção (Aura)(◈):** Inimigos na aura perdem 2 de AC (sua fé quebra a proteção deles). |
+| **18** | **Convicção (Aura)(◈):** Inimigos na aura perdem 2 de CA (sua fé quebra a proteção deles). |
 | **19** | **Avatar da Justiça (◈◈◈ \+ 8 Mana) :** Você canaliza a luz divina pura através de seu corpo, tornando-se um receptáculo de julgamento por 1d4 rodadas. Você torna-se **imune** a efeitos de controle. Todos os inimigos que começarem o turno "Próximo" de você sofrem **2d10** de dano radiante automático. |
 | **20** | Escolha qualquer talento desta lista que você ainda não possua. |
 
@@ -968,7 +968,7 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **3** | **Proteger o Inocente:** Receber um golpe que seria direcionado a um civil ou aliado desarmado. | **Escudo de Disciplina:** Você ganha \+2 na CA enquanto usar escudos. |
 | **4** | **Julgamento do Tirano:** Derrotar um líder inimigo sem recuar ou usar táticas de emboscada. | **Voto de Justiça:** Você pode adicionar seu bônus de Carisma ao dano de um ataque bem-sucedido (uma vez por rodada). |
 | **5** | **Recuperar o Estandarte:** Encontrar e erguer um símbolo de sua ordem em um campo de batalha. | **Presença Comandante:** Aliados próximos ganham bônus igual o seu Carisma em testes. |
-| **6** | **Martírio Voluntário:** Sobreviver a uma luta terminando com menos de 5 PV. | **Retribuição:** Quando um inimigo te acerta, seu próximo ataque contra ele tem Vantagem. |
+| **6** | **Martírio Voluntário:** Sobreviver a uma luta terminando com menos de 5 HP. | **Retribuição:** Quando um inimigo te acerta, seu próximo ataque contra ele tem Vantagem. |
 
 ---
 
@@ -993,7 +993,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | d20 | Talento |
 | :---- | :---- |
 | **1-2** | \+2 de Destreza ou \+2 de Constituição. |
-| **3-4** | \+1 em ataques (corpo a corpo ou distância) ou \+1 na AC. |
+| **3-4** | \+1 em ataques (corpo a corpo ou distância) ou \+1 na CA. |
 | **5** | **Passo de Sombra (◈ \+ 3 Mana):** Teleporte-se para trás de um inimigo "Próximo" e faça um ataque com Vantagem. |
 | **6** | **Disparo Penetrante (◈ \+ 3 Mana):** Sua flecha atravessa todos os inimigos perto em linha reta. Causa o dano da arma em cada um deles. |
 | **7** | **Lâminas Retorcidas (◈ \+ 3 Mana):** Arremesse 2 armas leves. Após atingir os alvos, as lâminas voltam para você, causando 1d4 de dano Físico às criaturas no caminho. |
@@ -1029,7 +1029,7 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | **3** | **Rastro de Sombras:** Rastrear uma figura de elite através de um ambiente urbano ou masmorra sem ser detectado por ela. | **Passo Fantasmagórico:** Uma vez por descanso curto, você pode se mover até o seu deslocamento total através de sombras, ignorando ataques de oportunidade. |
 | **4** | **Mestre de Escapada:** Desarmar uma armadilha complexa ou liderar o grupo para fora de uma emboscada sem ninguém ser ferido. | **Reflexos de Gatilho:** Você ganha um bônus de **\+3** em testes de Iniciativa e sua CA aumenta em **\+1** contra ataques à distância. |
 | **5** | **Ponto de Vigilância:** Estabelecer e manter um ponto de observação oculto por 24h para identificar o ponto fraco de um líder inimigo. | **Marca da Morte:** Você pode gastar sua ação para marcar um alvo. Seu próximo ataque único contra ele causa o **dobro do bônus de atributo** no dano. |
-| **6** | **Reduto do Renegado:** Localizar ou criar um esconderijo secreto em território hostil que sirva de base para o grupo. | **Inércia Assassina:** Ao reduzir um inimigo a 0 PV, você ganha um surto de adrenalina. Você pode imediatamente se deslocar até metade do seu deslocamento sem provocar ataques de oportunidade e seu próximo ataque neste combate terá **Vantagem**. (Efeito Cumulativo) |
+| **6** | **Reduto do Renegado:** Localizar ou criar um esconderijo secreto em território hostil que sirva de base para o grupo. | **Inércia Assassina:** Ao reduzir um inimigo a 0 HP, você ganha um surto de adrenalina. Você pode imediatamente se deslocar até metade do seu deslocamento sem provocar ataques de oportunidade e seu próximo ataque neste combate terá **Vantagem**. (Efeito Cumulativo) |
 
 ---
 
@@ -1058,7 +1058,7 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | **1-2** | \+2 de Sabedoria ou \+2 de Constituição. |
 | **3-4** | \+1 em testes de conjuração ou \+2 Mana máximo. |
 | **5** | **Halo de Luz (Passiva):** Você emite uma luz constante (alcance Curto). Inimigos têm \-1 nos ataques contra você. |
-| **6** | **Palavra de Poder (◈ \+  1 Mana):** Gaste 1 Mana para dar \+3 de AC a um aliado por 1d4 rodadas. |
+| **6** | **Palavra de Poder (◈ \+  1 Mana):** Gaste 1 Mana para dar \+3 de CA a um aliado por 1d4 rodadas. |
 | **7 (1)** | **Exorcismo (Feitiço) (◈ \+  2 Mana):** Inimigos Mortos-vivos ou demônios "Próximo" sofrem 3d6 Radiante e fogem. |
 | **8 (2)** | **Bênção (Feitiço) (◈ \+  1 Mana por Aliado):** Aliados "Próximo" ganham \+1 em todos os testes por 1d4 rodadas. |
 | **9** | **Penitência (◈):** Você pode perder 1d4 de HP para recuperar 4 Mana imediatamente. |
@@ -1089,10 +1089,10 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | :---- | :---- | :---- |
 | **1** | **O Relicário Perdido:** Localizar uma relíquia sagrada em uma catedral em ruínas e devolvê-la a um altar ativo. | **Chama da Penitência:** Se você fizer apenas um ataque (arma ou magia) no seu turno, o alvo sofre **\+1d8** de dano Radiante e fica **Cego** até o fim do próximo turno dele. |
 | **2** | **Santificar o Abismo:** Realizar um ritual de purificação em um local onde um massacre ocorreu, impedindo que os mortos se ergam. | **Aura de Proteção:** Enquanto você estiver consciente, aliados perto de você ganham **\+2 de bônus na CA**. |
-| **3** | **O Último Alento:** Encontrar um herói moribundo no ermo e garantir que ele receba os ritos finais para que sua alma não seja corrompida. | **Intervenção Divina:** Uma vez por descanso, quando um aliado "Próximo" cair para 0 PV, você pode usar sua Reação para que ele fique com **1 PV** em vez disso. |
+| **3** | **O Último Alento:** Encontrar um herói moribundo no ermo e garantir que ele receba os ritos finais para que sua alma não seja corrompida. | **Intervenção Divina:** Uma vez por descanso longo, quando um aliado "Próximo" cair para 0 HP, você pode usar sua Reação (⟁) para que ele fique com **1 HP** em vez disso. |
 | **4** | **Peregrinação do Flagelo:** Atravessar uma zona de corrupção extrema (como um pântano de peste) sem utilizar magias de proteção. | **Corpo Santificado:** Você ganha **RD 5** contra dano necrótico e de veneno permanentemente. |
 | **5** | **Exorcismo de Solo:** Identificar a fonte de uma assombração em uma vila e expulsar a entidade sem destruir a estrutura que ela habita. | **Palavra de Banimento:** Uma vez por descanso longo, você pode forçar um demônio, morto-vivo ou celestial a fazer um teste de Vontade (DC 10 \+ Sab). Se falhar, ele é banido para seu plano de origem e não pode voltar a Santuário por 24h. |
-| **6** | **Erigir o Refúgio:** Consagrar uma sala ou ruína, tornando-a um local onde demônios não podem entrar por 24 horas. | **Oração de Vigor:** Sempre que você curar um aliado, ele também ganha **\+1d6 de PV temporários** que duram até o fim do próximo descanso curto. |
+| **6** | **Erigir o Refúgio:** Consagrar uma sala ou ruína, tornando-a um local onde demônios não podem entrar por 24 horas. | **Oração de Vigor:** Sempre que você curar um aliado, ele também ganha **\+1d6 de HP temporários** que duram até o fim do próximo descanso curto. |
 
 ---
 
@@ -1154,7 +1154,7 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 
 | d6 | Objetivo de Exploração | Recompensa (Dádiva Mecânica) |
 | :---- | :---- | :---- |
-| **1** | **O Cálice do Sangue Vil:** Encontrar uma fonte de corrupção demoníaca pura e, em vez de destruí-la, canalizar uma parte dela para o seu próprio sangue. | **Pacto de Vitalidade:** Você aprende a manipular a própria Mana. Uma vez por descanso longo, você pode entrar em um estado de *Fluxo Arcano* por 1 minuto: todas as suas habilidades custam **0 Mana**, mas você não pode recuperar PV durante esse tempo. |
+| **1** | **O Cálice do Sangue Vil:** Encontrar uma fonte de corrupção demoníaca pura e, em vez de destruí-la, canalizar uma parte dela para o seu próprio sangue. | **Pacto de Vitalidade:** Você aprende a manipular a própria Mana. Uma vez por descanso longo, você pode entrar em um estado de *Fluxo Arcano* por 1d4 rodadas: todas as suas habilidades custam **0 Mana**, mas você não pode recuperar HP durante esse tempo. |
 | **2** | **Tomos do Conhecimento Proibido:** Recuperar fragmentos de pergaminhos Horadrim que detalham anatomia demoníaca em uma biblioteca infestada. | **Eficiência Maldita:** Uma vez por rodada, quando você usar uma habilidade que custe Mana, você pode rolar 1d6. Em um resultado 5 ou 6, você não gasta os pontos de Mana daquela habilidade. |
 | **3** | **A Pedra da Alma Estilhaçada:** Localizar um fragmento de Pedra da Alma em uma masmorra e realizar um ritual para aprisionar uma essência menor dentro dela. | **Prisão de Essência:** Quando você desferir um **Golpe Fatal** em um inimigo, você armazena a alma dele. Você pode gastar uma alma para realizar uma ◈ adicional no seu turno. Você pode armazenar até 3 almas. |
 | **4** | **O Ritual da Noite Eterna:** Bloquear permanentemente a influência da Luz em uma região inteira, criando um santuário para praticantes das artes sombrias. | **Passo do Vazio:** Ao gastar **◈** para se mover, você pode se teletransportar a uma distância **Próximo** (ignorando obstáculos e ataques de oportunidade). Se terminar o movimento perto de um inimigo, ele fica **Surpreso**. |
