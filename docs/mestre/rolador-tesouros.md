@@ -442,9 +442,9 @@ function afixos(qual, nd, logs) {
   for (let i = 0; i < pref; i++) {
     const p = (i === 0 && window._forceCaprichoso) ? { log: step(`<span class="dice">🎲 Prefixo d100 = 50</span> → <b>Utilidades e Maldições</b>: <b>Caprichoso</b>`), nome:"Caprichoso", titulo:"Caprichoso", efeito:"Role 2× na tabela de prefixos e aplique ambos" } : prefixo(nd);
     logs.push(p.log);
-    prefTitulos.push(p.titulo);
     htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo</span> <b>${p.nome}</b> — ${p.efeito}</div>`);
     if (p.nome === "Caprichoso") {
+      // Caprichoso não entra no nome do item — só os prefixos que ele gera
       logs.push(step(`<span style="color:#aaa;">↩ Caprichoso — rolando 2 prefixos bônus automaticamente:</span>`));
       for (let c = 0; c < 2; c++) {
         const extra = prefixo(nd, true);
@@ -452,6 +452,8 @@ function afixos(qual, nd, logs) {
         prefTitulos.push(extra.titulo);
         htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo ✦</span> <b>${extra.nome}</b> — ${extra.efeito}</div>`);
       }
+    } else {
+      prefTitulos.push(p.titulo);
     }
   }
   for (let i = 0; i < suf; i++) {
