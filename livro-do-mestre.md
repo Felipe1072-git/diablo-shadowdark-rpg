@@ -919,6 +919,21 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Hwanin's Majesty *(Natispirito — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Hwanin's Justice** | Glaive (1d10) | \+2 Ataque, Haste, Trespassar; Vigor do Espírito: \+2 dano com esta arma em vez de \+1 |
+| **Hwanin's Splendor** | Elmo — Cota de Malha | \+1 CA, \+2 SAB; Encarnação do Guardião — *sem o talento:* set concede acesso; *com o talento:* pode ter 3 Guardiões simultâneos |
+| **Hwanin's Refuge** | Peitoral — Cota de Malha | \+2 CA; Comunhão com Guardiões: escolha 2 Guardiões no início do combate em vez de 1 |
+| **Hwanin's Blessing** | Cinto | 4 slots; Frenesi de Fogo — *sem o talento:* set concede acesso; *com o talento:* ação extra dura 1d4\+2 rodadas em vez de 1d4 |
+
+**Bônus de Set:**
+- *2 peças:* Voo da Águia custa 3 Mana a menos (3 Mana em vez de 6)
+- *4 peças:* enquanto 2+ Guardiões estiverem ativos, Voo da Águia custa 0 Mana uma vez por cena
+
+---
+
 #### Aldur's Watchtower *(Druida — 4 peças)*
 
 | Peça | Tipo | Afixos Fixos |
@@ -1262,6 +1277,35 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 **Bônus de Set:**
 - *2 peças:* Espinhos de Sangue ativa automaticamente como ◇ sempre que sofrer dano (sem gastar reação)
 - *4 peças:* enquanto tiver HP Temporário ativo, Sifão de Sangue recupera 1d4 HP adicionais em cada acerto
+
+---
+
+#### Infernal Tools *(Warlock — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Hell Rack** | Cajado (1d6), Foco Mágico | \+2 conjuração; Maestria Demoníaca — *sem o talento:* set concede acesso; *com o talento:* demônios também ganham \+1 nos ataques |
+| **Grasp of the Dead** | Luvas — Couro | \+1 conjuração; Marca da Morte — *sem o talento:* set concede acesso; *com o talento:* teletransporta todos os demônios de uma vez por 1 Mana total |
+| **Infernal Sign** | Amuleto | \+2 CAR; Consumir — *sem o talento:* set concede acesso; *com o talento:* também recupera 1d4 Mana ao sacrificar um demônio |
+
+**Bônus de Set:**
+- *2 peças:* demônios são invocados com HP máximo sem custo extra
+- *3 peças:* você pode ter 1 demônio extra de qualquer tipo (além do limite de um por tipo)
+
+---
+
+#### Orphan's Call *(Warlock — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Guillaume's Face** | Elmo — Couro | \+1 CA, \+2 INT; Maldição de Expurgo — *sem o talento:* set concede acesso; *com o talento:* causa 3d8 Fogo em vez de 3d6 |
+| **Magnus's Skin** | Peitoral — Couro Reforçado | \+2 CA; Apocalipse — *sem o talento:* set concede acesso; *com o talento:* também remove RD 5 do alvo além da resistência a Fogo |
+| **Wilhelm's Pride** | Cinto | 4 slots; Pacto de Sangue: recupera 1d6 Mana em vez de 1d4 (cumulativo com Grimório) |
+| **Orphan's Sigil** | Amuleto | \+2 CAR; Mestre das Maldições: inimigos malditos também têm −1 CA enquanto a maldição durar |
+
+**Bônus de Set:**
+- *2 peças:* Pacto de Sangue não custa HP — apenas recupera 1d4 Mana, uma vez por rodada
+- *4 peças:* Forma Demoníaca custa 4 Mana a menos (4 Mana em vez de 8) e dura 1d4\+2 rodadas
 
 ---
 
