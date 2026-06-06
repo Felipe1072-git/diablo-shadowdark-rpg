@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
 }
 
 /* Tabelas em mobile: fonte menor para caber sem rolar */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .md-content table {
     font-size: 0.78rem;
   }
