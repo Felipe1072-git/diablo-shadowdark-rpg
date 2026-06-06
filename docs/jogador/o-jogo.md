@@ -94,13 +94,13 @@ Os **Pontos de Vida (PV)** representam quanto punição um personagem aguenta an
 
 ---
 
-# O Fluxo do Combate
+## O Fluxo do Combate
 
 No mundo de **Santuário**, a hesitação é uma sentença de morte. Enquanto as hordas do Inferno Ardente avançam, um herói não é medido apenas por sua força, mas pela rapidez com que executa suas ações sob pressão.
 
 Diferente de outros sistemas de RPG, aqui não há uma distinção rígida entre "Ação Bônus", "Ação de Movimento" ou "Ação Principal". Tudo o que você faz em combate consome o seu fôlego, sua concentração e sua energia vital — aqui chamada simplesmente de **Pontos de Ação**.
 
-## A Gramática do Combate
+### A Gramática do Combate
 
 Cada rodada, você recebe **3 Pontos de Ação (◈◈◈)**. Você pode gastá-los como desejar: três ataques, três movimentos, ou uma combinação de habilidades.
 
@@ -118,7 +118,7 @@ Use estes símbolos como referência rápida em suas fichas e tabelas:
 
 ---
 
-## Os Pontos de Ação (Action Points)
+### Os Pontos de Ação (Action Points)
 
 Cada personagem possui, por padrão, **3 Pontos de Ação** no início de seu turno. Estes pontos representam sua capacidade de agir em um intervalo de tempo frenético.
 
@@ -128,7 +128,7 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 
 ---
 
-## Tabela de Ações
+### Tabela de Ações
 
 | Ação / Manobra | Custo | Tipo | Descrição e Efeito |
 | :---- | :---- | :---- | :---- |
@@ -153,7 +153,7 @@ Ao início do seu próximo turno, qualquer Ponto de Ação não utilizado é per
 
 ---
 
-## Dinâmicas de Combate
+### Dinâmicas de Combate
 
 ### O Foco Ofensivo
 
@@ -171,7 +171,7 @@ Para realizar uma **Reação (⟁)**, você deve obrigatoriamente terminar o seu
 
 ---
 
-## A Regra do Sacrifício
+### A Regra do Sacrifício
 
 Quando um golpe reduziria você a 0 PV, você pode usar sua Reação (**⟁**) para realizar um **Sacrifício de Equipamento**.
 
@@ -181,19 +181,19 @@ Quando um golpe reduziria você a 0 PV, você pode usar sua Reação (**⟁**) p
 
 ---
 
-## Ações Livres e Gatilhos
+### Ações Livres e Gatilhos
 
 Ações Livres (**◇**) não custam pontos, mas só podem ser usadas uma vez por turno. Geralmente são usadas para gritos de guerra, soltar itens ou ativar habilidades passivas que não requerem esforço físico.
 
 ---
 
-# Distâncias e Alcance
+## Distâncias e Alcance
 
 O sistema usa três conceitos distintos para descrever o espaço no campo de batalha. Cada um tem seu próprio vocabulário para evitar ambiguidade.
 
 ---
 
-## Zonas
+### Zonas
 
 Descrevem **onde algo está** em relação a outro ponto. São a unidade de posição do jogo.
 
@@ -207,7 +207,7 @@ Descrevem **onde algo está** em relação a outro ponto. São a unidade de posi
 
 ---
 
-## Velocidade
+### Velocidade
 
 Descreve **quanto uma criatura se move** por ◈ gasto em movimento. Aparece nos statblocks como **Vel.**
 
@@ -217,7 +217,7 @@ Descreve **quanto uma criatura se move** por ◈ gasto em movimento. Aparece nos
 
 ---
 
-## Alcance
+### Alcance
 
 Descreve **até onde uma habilidade, ataque ou magia chega**. Aparece nas descrições de habilidades e magias como **alcance**.
 
@@ -229,9 +229,9 @@ Descreve **até onde uma habilidade, ataque ou magia chega**. Aparece nas descri
 
 ---
 
-# Mana
+## Mana
 
-## **O Reservatório de Poder: Mana**
+### **O Reservatório de Poder: Mana**
 
 O Mana representa o fôlego místico, a concentração mental e a estamina heroica. Enquanto qualquer um pode balançar uma espada (**◈**), apenas aqueles tocados pelo destino podem canalizar seu Mana para realizar feitos que desafiam a morte.
 
@@ -310,13 +310,13 @@ O **Bárbaro** está cercado por 3 Caídos.
 
 **Total do Turno:** 3 AP gastos, 7 Mana consumidos.
 
-# Sistema de Magia
+## Sistema de Magia
 
-## **A Manipulação das Energias Proibidas**
+### **A Manipulação das Energias Proibidas**
 
 A Magia é uma força bruta, caótica e senciente que flui do conflito eterno entre os Altos Céus e o Inferno Ardente.
 
-## **A Mecânica de Conjuração**
+### **A Mecânica de Conjuração**
 
 Um conjurador **pode tentar conjurar qualquer feitiço que conheça**, dado que tenha os recursos necessários.
 
@@ -326,11 +326,11 @@ Para conjurar, o jogador deve realizar um Teste de Conjuração:
 
 O Atributo depende da sua linhagem: Inteligência para Magos e Arcanistas, Sabedoria para Druidas e Sacerdotes, e assim por diante.
 
-## **1\. A Dificuldade Base (DC)**
+### **1\. A Dificuldade Base (DC)**
 
 Todo feitiço começa com uma Dificuldade Base de 10\. Se o resultado do seu teste for igual ou superior ao DC atual, o feitiço é bem-sucedido e o efeito ocorre imediatamente.
 
-## **2\. O Sucesso: O Peso do Poder (DC Progressiva)**
+### **2\. O Sucesso: O Peso do Poder (DC Progressiva)**
 
 Canalizar o poder arcano drena a mente e o corpo. No calor da batalha, cada sucesso torna a próxima conjuração mais exaustiva.
 
@@ -338,7 +338,7 @@ Canalizar o poder arcano drena a mente e o corpo. No calor da batalha, cada suce
 * Esse aumento é cumulativo para todos os feitiços daquela classe durante o encontro.  
 * Exemplo: O Mago lança **Bola de Fogo (DC 10\)** e acerta. Para o seu próximo turno, a DC de qualquer magia dele agora é **12**. Se ele acertar novamente, a próxima será **14**.
 
-## **3\. A Falha: O Alívio da Mente**
+### **3\. A Falha: O Alívio da Mente**
 
 Diferente de outros sistemas, **falhar não significa perder o feitiço**. Significa que a energia não foi canalizada, permitindo que a mente do conjurador descanse e se restabeleça.
 
@@ -346,7 +346,7 @@ Diferente de outros sistemas, **falhar não significa perder o feitiço**. Signi
 * O conjurador **não perde os recursos do feitiço,** mas perde a ação gasta.   
 * Ele pode tentar novamente no próximo turno com uma dificuldade menor.
 
-## **O Preço do Erro: Malfunção Mágica**
+### **O Preço do Erro: Malfunção Mágica**
 
 O único momento em que o elo com o poder se rompe é através do erro catastrófico. Se o jogador rolar um 1 Natural no dado:
 
@@ -375,13 +375,13 @@ Para tornar isso visual e emocionante na mesa, use o **Dado de Fluxo**:
 4. **O Mago acertou de novo?** Gire para o **4 (DC 14\)**. *“A tensão aumenta”*.  
 5. **O Mago falhou?** Gire o dado de volta para o **2 (DC 12\)**. *"O Mago respira fundo e sente a magia fluir melhor agora."*
 
-# Tempo e Viagem
+## Tempo e Viagem
 
 Enquanto o combate define os momentos de tensão máxima, a exploração de Santuário acontece em escalas maiores — horas, estações, anos. Esta seção cobre as regras usadas fora do combate.
 
 ---
 
-## Fases do Dia
+### Fases do Dia
 
 Cada **dia** possui 3 fases:
 
@@ -393,7 +393,7 @@ Cada fase comporta uma ação significativa de viagem, exploração ou descanso.
 
 ---
 
-## Estações de Santuário
+### Estações de Santuário
 
 Em vez de meses, o ano de Santuário é marcado por três estações e seus rituais:
 
@@ -436,7 +436,7 @@ Se o grupo avança um ano inteiro (nova Era), as opções são mais impactantes:
 
 ---
 
-## Viagem
+### Viagem
 
 Viajar consome uma **Fase** inteira do dia. Existem três métodos:
 
