@@ -1560,6 +1560,35 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ---
 
+#### Civerb's Vestments *(Sacerdote — 3 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Civerb's Icon** | Amuleto | \+2 SAB; Oração Purificadora cura/causa 1d8 em vez de 1d6 (cumulativo com Símbolo Sagrado) |
+| **Civerb's Cudgel** | Maça (1d6) | \+2 Ataque; Chamas Sagradas — *sem o talento:* set concede acesso; *com o talento:* \+1d8 Radiante em vez de \+1d6 |
+| **Civerb's Ward** | Escudo | \+2 CA, Quebrável; ao usar Oração Purificadora em um único alvo, o efeito é dobrado (2d8 cura ou dano) |
+
+**Bônus de Set:**
+- *2 peças:* Oração Purificadora custa 0 Mana quando usada em um único alvo
+- *3 peças:* Intervenção Divina — *sem o talento:* set concede acesso; *com o talento:* custa 3 Mana em vez de 5
+
+---
+
+#### Heaven's Brethren *(Sacerdote — 4 peças)*
+
+| Peça | Tipo | Afixos Fixos |
+| :---- | :---- | :---- |
+| **Haemosu's Adament** | Peitoral — Cota de Malha | \+2 CA; Anjo da Guarda — *sem o talento:* set concede acesso; *com o talento:* Vantagem dura a cena inteira em vez de 1d4 rodadas |
+| **Ondal's Almighty** | Cajado (1d6) | \+2 conjuração; Nova Sagrada — *sem o talento:* set concede acesso; *com o talento:* cura e dano somam \+1d8 extra |
+| **Whitstan's Guard** | Escudo | \+3 CA, Quebrável; Salmo de Proteção — *sem o talento:* set concede acesso; *com o talento:* RD 5 se aplica também a dano Físico |
+| **Taebaek's Glory** | Elmo — Cota de Malha | \+1 CA, \+2 SAB; Arcanjo Guardião dura 1d4\+2 rodadas em vez de 1d4 |
+
+**Bônus de Set:**
+- *2 peças:* Oração (◈◈) passa a custar apenas ◈ — recupera 1d4 Mana com uma única ação
+- *4 peças:* Arcanjo Guardião pode curar e atacar no mesmo turno (as duas opções, não apenas uma)
+
+---
+
 # Cap. 3 — Registro de Campanha
 
 **Era Inicial:** 1337 AK \- Era do Ódio  
