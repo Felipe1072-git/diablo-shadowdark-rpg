@@ -3,11 +3,16 @@
   --md-text-font: "Crimson Pro", serif;
 }
 
-/* Corpo: Crimson Pro é serifada, fica bem em tamanho ligeiramente maior */
+/* Corpo: linha-altura confortável para Crimson Pro serifada */
 .md-content p,
 .md-content li {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  line-height: 1.65;
+}
+
+/* Blockquotes não devem herdar tamanho inflado */
+.md-content blockquote p {
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 /* Títulos */
