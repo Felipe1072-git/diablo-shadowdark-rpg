@@ -47,6 +47,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 ### Bárbaro
 
+![Immortal King](../../assets/sets/immortal-king-barbaro.png)
+
 #### Immortal King *(Bárbaro — 5 peças)*
 
 | Peça | Tipo | Afixos Fixos |
