@@ -8,7 +8,7 @@ Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas 
   <label for="nd-input">Nível médio do grupo (ND):</label>
   <input type="number" id="nd-input" min="1" max="10" value="1">
   <button onclick="rolarTesouro()" class="roll-btn">🎲 Rolar Tesouro</button>
-  <button onclick="rolarTesouro()" class="roll-btn roll-btn-sec">🔁 Rolar Novamente</button>
+  <button onclick="limparTesouro()" class="roll-btn roll-btn-sec">✕ Limpar</button>
 </div>
 <div class="roller-controls" style="margin-top:0.5rem;">
   <span style="font-size:0.82rem;color:var(--md-default-fg-color--light);margin-right:4px;">Rolar categoria:</span>
@@ -639,6 +639,10 @@ window.rolarTesouro = function(opts = {}) {
       <div class="final-result">${finalHtml}</div>
     </div>
   `;
+};
+
+window.limparTesouro = function() {
+  document.getElementById("resultado-tesouro").innerHTML = "";
 };
 
 })();
