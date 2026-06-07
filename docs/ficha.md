@@ -46,11 +46,11 @@
         </div>
         <div class="ficha-form-group">
           <label>Título Ativo</label>
-          <input type="text" id="form-titulo" placeholder="—">
+          <select id="form-titulo"></select>
         </div>
         <div class="ficha-form-group">
           <label>Antecedente</label>
-          <input type="text" id="form-antecedente" placeholder="—">
+          <select id="form-antecedente"></select>
         </div>
       </div>
     </div>
@@ -199,6 +199,9 @@
       <div style="text-align:right;font-size:.85rem;color:#888">
         <div>XP: <span id="ficha-xp-wrapper"></span></div>
         <div style="margin-top:.3rem">Título: <strong id="ficha-titulo-display" style="color:#e74c3c"></strong></div>
+        <div id="ficha-titulo-efeito" style="margin-top:.2rem;font-size:.78rem;color:#999;max-width:260px;line-height:1.4"></div>
+        <div style="margin-top:.4rem">Antecedente: <strong id="ficha-antecedente-display" style="color:#aaa"></strong></div>
+        <div id="ficha-antecedente-efeito" style="margin-top:.2rem;font-size:.78rem;color:#999;max-width:260px;line-height:1.4"></div>
       </div>
     </div>
     <!-- PV / Mana atuais com botões ± -->

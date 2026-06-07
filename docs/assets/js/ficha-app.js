@@ -201,8 +201,26 @@
     setValue('form-nome', p.nome);
     setValue('form-nivel', p.nivel);
     setValue('form-xp', p.xp);
-    setValue('form-titulo', p.titulo);
-    setValue('form-antecedente', p.antecedente);
+    // Título Ativo — select agrupado
+    const selTitulo = document.getElementById('form-titulo');
+    if (selTitulo) {
+      const grupos = [...new Set(TITULOS.map(t => t.grupo))];
+      selTitulo.innerHTML = '<option value="">— Selecionar Título —</option>' +
+        grupos.map(g =>
+          `<optgroup label="${g}">${TITULOS.filter(t => t.grupo === g).map(t =>
+            `<option value="${t.id}" ${t.id === p.titulo ? 'selected' : ''}>${t.nome}</option>`
+          ).join('')}</optgroup>`
+        ).join('');
+    }
+
+    // Antecedente — select simples
+    const selAnte = document.getElementById('form-antecedente');
+    if (selAnte) {
+      selAnte.innerHTML = '<option value="">— Selecionar Antecedente —</option>' +
+        ANTECEDENTES.map(a =>
+          `<option value="${a.id}" ${a.id === p.antecedente ? 'selected' : ''}>${a.nome}</option>`
+        ).join('');
+    }
     setValue('form-notas', p.notas);
 
     const selClasse = document.getElementById('form-classe');
@@ -265,6 +283,9 @@
     p.xp = parseInt(getValue('form-xp')) || 0;
     p.titulo = getValue('form-titulo') || '';
     p.antecedente = getValue('form-antecedente') || '';
+    // Garante migração de texto livre antigo para id
+    if (p.titulo && !TITULOS.find(t => t.id === p.titulo)) p.titulo = '';
+    if (p.antecedente && !ANTECEDENTES.find(a => a.id === p.antecedente)) p.antecedente = '';
     p.notas = getValue('form-notas') || '';
     p.armadura = getValue('form-armadura') || '';
     p.escudo = getValue('form-escudo') || '';
@@ -416,7 +437,12 @@
     if (xpWrapper) {
       xpWrapper.innerHTML = `<input type="number" id="inline-xp" min="0" value="${p.xp}" style="width:56px;text-align:center;padding:.15rem .3rem;background:#111;border:1px solid #333;border-radius:3px;color:#eee;font-size:.85rem"> / <span id="ficha-xp-max">${p.nivel * 10}</span>`;
     }
-    setText('ficha-titulo-display', p.titulo || '—');
+    const tituloObj = TITULOS.find(t => t.id === p.titulo);
+    const anteObj   = ANTECEDENTES.find(a => a.id === p.antecedente);
+    setText('ficha-titulo-display', tituloObj ? tituloObj.nome : (p.titulo || '—'));
+    setText('ficha-titulo-efeito', tituloObj ? tituloObj.efeito : '');
+    setText('ficha-antecedente-display', anteObj ? anteObj.nome : (p.antecedente || '—'));
+    setText('ficha-antecedente-efeito', anteObj ? anteObj.efeito : '');
 
     // Recursos
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);

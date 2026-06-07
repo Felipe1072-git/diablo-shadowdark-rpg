@@ -597,6 +597,53 @@ const CLASSES = [
   }
 ];
 
+const TITULOS = [
+  // Origem
+  { id: 'khanduras',       nome: 'O Sobrevivente de Khanduras',      grupo: 'Origem',       efeito: 'Nascido nas Sombras: Vantagem em testes para resistir a Medo ou Loucura. Caso falhe, pode rolar novamente.' },
+  { id: 'kehjistan',       nome: 'O Erudito de Kehjistan',           grupo: 'Origem',       efeito: 'Afinidade Elemental: Ao final de cada descanso longo, escolha um elemento. Você ganha RD 3 a esse elemento até o próximo descanso.' },
+  { id: 'arreat',          nome: 'O Filho de Arreat',                grupo: 'Origem',       efeito: 'Sangue da Montanha: Ignora penalidades de Terreno Difícil Natural e ganha +1d6 em testes de CON.' },
+  { id: 'scosglen',        nome: 'O Andarilho de Scosglen',          grupo: 'Origem',       efeito: 'Conhecimento de Ervas: Ao beber uma Poção ou ser curado por magia, recupera +2 HP adicionais.' },
+  { id: 'entsteig',        nome: 'O Espião de Entsteig',             grupo: 'Origem',       efeito: 'Primeiro a Atirar: Na primeira rodada de combate, deslocamento dobrado e +1 CA.' },
+  { id: 'westmarch',       nome: 'O Duelista de Westmarch',          grupo: 'Origem',       efeito: 'Falange: Enquanto adjacente a um aliado, +2 CA.' },
+  { id: 'terras-pavorosas',nome: 'O Renegado das Terras Pavorosas',  grupo: 'Origem',       efeito: 'Instinto de Presa: Nunca surpreendido durante descanso; +2 em testes na primeira rodada.' },
+  { id: 'torajan',         nome: 'O Herdeiro de Torajan',            grupo: 'Origem',       efeito: 'Imunidade Tropical: RD 3 a Veneno e Vantagem em testes contra doenças.' },
+  { id: 'ivgorod',         nome: 'O Peregrino de Ivgorod',           grupo: 'Origem',       efeito: 'Equilíbrio Interior: Gaste ◈ para meditar; até o fim do próximo turno, +1 em todos os testes.' },
+  { id: 'skovos',          nome: 'O Oráculo de Skovos',              grupo: 'Origem',       efeito: 'Olho da Tempestade: Ignora penalidades de distância em ataques à distância; enxerga o dobro em luz fraca.' },
+  { id: 'xiansai',         nome: 'O Mercador de Xiansai',            grupo: 'Origem',       efeito: 'Sorte dos Sete: Uma vez por sessão, transforme uma Falha em Sucesso.' },
+  { id: 'hawezar',         nome: 'O Penitente de Hawezar',           grupo: 'Origem',       efeito: 'Estômago de Ferro: Imune à Exaustão por viagens; Vantagem em testes com penalidades de fome.' },
+  // Conquista — Brutalidade
+  { id: 'arauto-da-dor',   nome: 'Arauto da Dor',                    grupo: 'Brutalidade',  efeito: 'Seus Acertos Críticos causam 3 dados de Dano em vez de 2.' },
+  { id: 'ceifador',        nome: 'O Ceifador',                       grupo: 'Brutalidade',  efeito: 'Impulso de Morte: Ao reduzir inimigo a 0 PV, ganha uma Ação de Movimento grátis.' },
+  { id: 'matador-demonios',nome: 'Matador de Demônios',              grupo: 'Brutalidade',  efeito: 'Começa combates contra Demônios com 10 PV extra.' },
+  { id: 'punho-ferro',     nome: 'Punho de Ferro',                   grupo: 'Brutalidade',  efeito: 'Precisão: Ignora penalidades de Cobertura Leve e Escudos em ataques.' },
+  // Conquista — Sobrevivência
+  { id: 'imortal',         nome: 'O Imortal',                        grupo: 'Sobrevivência',efeito: 'Uma vez por dia, se cair a 0 PV, fica com 1 PV ao invés.' },
+  { id: 'muralha-viva',    nome: 'Muralha Viva',                     grupo: 'Sobrevivência',efeito: 'Defesa Base aumenta permanentemente em +1.' },
+  { id: 'sangue-ferro',    nome: 'Sangue de Ferro',                  grupo: 'Sobrevivência',efeito: 'Vantagem em testes para resistir a efeitos de status.' },
+  // Conquista — Fortuna
+  { id: 'mao-destino',     nome: 'Mão do Destino',                   grupo: 'Fortuna',      efeito: 'Uma vez por sessão, pode transformar qualquer dado em um 20.' },
+  { id: 'barao-ouro',      nome: 'Barão de Ouro',                    grupo: 'Fortuna',      efeito: 'Compra itens Raros em lojas comuns; 20% de desconto.' },
+  { id: 'senhor-azar',     nome: 'Senhor do Azar',                   grupo: 'Fortuna',      efeito: 'Karma: Quando rolar Falha Crítica (1), pode transformar em 20.' },
+  // Conquista — Exploração
+  { id: 'mestre-chaves',   nome: 'Mestre das Chaves',                grupo: 'Exploração',   efeito: 'Destrancar fechaduras torna-se Ação Livre (uma vez por turno).' },
+  { id: 'horadrim',        nome: 'O Horadrim',                       grupo: 'Exploração',   efeito: 'Saber Ancestral: Identifica itens ao tocar; +1d20 em testes de Misticismo.' },
+];
+
+const ANTECEDENTES = [
+  { id: 'soldado',    nome: 'Soldado',    efeito: 'Disciplina de Combate: Uma vez por cena, gaste ◇ para ganhar +2 CA até o início do próximo turno.' },
+  { id: 'sobrevivente', nome: 'Sobrevivente', efeito: 'Instinto de Sobrevivência: Quando PV cai à metade, ganha Vantagem em DES e movimento até o fim do combate.' },
+  { id: 'alquimista', nome: 'Alquimista', efeito: 'Mestre de Poções: Ao usar uma poção, recupere +1d4 adicional de PV ou Mana.' },
+  { id: 'ferreiro',   nome: 'Ferreiro',   efeito: 'Trabalho em Metal: Identifica armas e armaduras ao tocá-las. Itens usados demoram o dobro para desgastar.' },
+  { id: 'eremita',    nome: 'Eremita',    efeito: 'Autossuficiência: Nunca precisa rolar para encontrar alimento na natureza. Vantagem para perceber perigos.' },
+  { id: 'mercador',   nome: 'Mercador',   efeito: 'Olho de Negociante: Sabe o valor real de qualquer item. Uma vez por sessão, compra ou vende por 20% fora do preço.' },
+  { id: 'devoto',     nome: 'Devoto',     efeito: 'Fé Inabalável: Uma vez por descanso longo, toque um aliado (◈) para restaurar 1d8 PV. A 0 PV, restaura 2d8.' },
+  { id: 'criminoso',  nome: 'Criminoso',  efeito: 'Mãos Ágeis: Vantagem para esconder objetos, abrir fechaduras ou agir furtivamente. Nunca surpreendido em ambientes urbanos.' },
+  { id: 'estudioso',  nome: 'Estudioso',  efeito: 'Conhecimento Proibido: Vantagem em INT para identificar demônios e artefatos. Mestre revela info extra uma vez por sessão.' },
+  { id: 'cacador',    nome: 'Caçador',    efeito: 'Rastejador: Vantagem em rastreamento e DES para mover silenciosamente. Nunca surpreendido em ambientes naturais.' },
+  { id: 'guarda',     nome: 'Guarda',     efeito: 'Postura de Guarda: Quando aliado adjacente sofre ataque, use ⟁ para reduzir o dano por 1d6.' },
+  { id: 'renegado',   nome: 'Renegado',   efeito: 'Conhecimento do Inimigo: Uma vez por cena, revele a fraqueza de um demônio como ◇ — aliados ganham Vantagem em um ataque.' },
+];
+
 // Helper: encontrar classe por id
 function getClasse(id) {
   return CLASSES.find(c => c.id === id);
