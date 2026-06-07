@@ -67,6 +67,22 @@ h1, h2, h3, h4 {
   background-color: rgba(74, 229, 74, 0.02);
 }
 
+/* ===== Tabelas de Classe ===== */
+
+/* Zebra striping — talentos */
+.md-typeset .talent-table tr:nth-child(even) td,
+.md-typeset .objective-table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Linha do ultimate (19) — destaque sutil */
+.md-typeset .talent-table tr.ultimate-row td {
+  background-color: rgba(200, 80, 40, 0.08);
+  border-left: 2px solid rgba(200, 80, 40, 0.5);
+}
+
+/* ===== Tabela de únicos ===== */
+
 /* Tabela de únicos — nome do item em dourado */
 .md-typeset .unique-table td:nth-child(2) strong {
   color: #c8a840;
