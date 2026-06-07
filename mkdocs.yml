@@ -39,9 +39,12 @@ theme:
 
 extra_css:
   - assets/extra.css
+  - assets/css/ficha.css
 
 extra_javascript:
   - assets/sets.js
+  - assets/js/ficha-data.js
+  - assets/js/ficha-app.js
 
 plugins:
   - search:
@@ -112,5 +115,6 @@ nav:
     - Baal: criaturas/baal.md
     - Diablo: criaturas/diablo.md
   - 🎲 Rolador: mestre/rolador-tesouros.md
+  - 🧙 Fichas: ficha.md
   - Glossário: glossario.md
   - Patch Notes: patch-notes.md

@@ -1,0 +1,290 @@
+/* ── Gerador de Fichas — Diablo RPG ── */
+
+#ficha-app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-family: 'Crimson Pro', Georgia, serif;
+}
+
+/* ─── Botões ─── */
+.ficha-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .45rem 1.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 600;
+  transition: opacity .15s, transform .1s;
+}
+.ficha-btn:hover { opacity: .85; }
+.ficha-btn:active { transform: scale(.97); }
+.ficha-btn:disabled { opacity: .4; cursor: not-allowed; }
+.ficha-btn-primary  { background: #c0392b; color: #fff; }
+.ficha-btn-secondary{ background: #555; color: #eee; }
+.ficha-btn-success  { background: #27ae60; color: #fff; }
+.ficha-btn-danger   { background: #6c2a2a; color: #ddd; }
+.ficha-btn-icon     { background: transparent; border: none; color: #888; cursor: pointer; font-size: .8rem; padding: .15rem .3rem; }
+.ficha-btn-icon:hover { color: #c0392b; }
+
+/* ─── Toolbar ─── */
+.ficha-toolbar {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  padding: .8rem 1rem;
+  background: var(--md-code-bg-color, #1e1e1e);
+  border-radius: 6px;
+}
+
+/* ─── Cards de lista ─── */
+.ficha-lista-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+.ficha-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.ficha-card {
+  border: 1px solid var(--md-primary-fg-color, #c0392b);
+  border-radius: 6px;
+  padding: 1rem;
+  background: var(--md-code-bg-color, #1a1a1a);
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+.ficha-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .3rem;
+}
+.ficha-card-nome { font-size: 1.15rem; font-weight: 700; color: var(--md-primary-fg-color, #e74c3c); }
+.ficha-card-classe { font-size: .82rem; color: #999; }
+.ficha-card-info { display: flex; gap: 1rem; font-size: .85rem; color: #aaa; }
+.ficha-card-acoes { display: flex; gap: .5rem; margin-top: .2rem; }
+.ficha-empty { color: #888; font-style: italic; text-align: center; padding: 2rem 0; }
+
+/* ─── Formulário de criação ─── */
+.ficha-form { display: flex; flex-direction: column; gap: 1.2rem; }
+.ficha-form-section { background: var(--md-code-bg-color, #1a1a1a); border-radius: 6px; padding: 1.2rem; }
+.ficha-form-section h3 { margin: 0 0 .9rem; font-size: 1rem; color: #e74c3c; border-bottom: 1px solid #333; padding-bottom: .4rem; }
+.ficha-form-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: .8rem; }
+.ficha-form-group { display: flex; flex-direction: column; gap: .3rem; }
+.ficha-form-group label { font-size: .8rem; color: #aaa; text-transform: uppercase; letter-spacing: .05em; }
+.ficha-form-group input,
+.ficha-form-group select,
+.ficha-form-group textarea {
+  padding: .4rem .6rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #111;
+  color: #eee;
+  font-family: inherit;
+  font-size: .95rem;
+}
+.ficha-form-group input:focus,
+.ficha-form-group select:focus,
+.ficha-form-group textarea:focus { border-color: #c0392b; outline: none; }
+
+.attr-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; }
+@media (max-width: 480px) { .attr-grid { grid-template-columns: repeat(2, 1fr); } }
+.attr-item { display: flex; flex-direction: column; gap: .2rem; }
+.attr-item label { font-size: .8rem; color: #aaa; text-transform: uppercase; }
+.attr-item .attr-mod { font-size: .8rem; color: #e74c3c; text-align: center; height: 1.2rem; }
+.attr-item input { text-align: center; }
+
+.ficha-form-actions { display: flex; gap: .8rem; justify-content: flex-end; flex-wrap: wrap; }
+
+/* ─── View Ficha ─── */
+.ficha-view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1.2rem;
+}
+.ficha-view-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+
+.ficha-panel {
+  background: var(--md-code-bg-color, #1a1a1a);
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.ficha-panel h3 {
+  margin: 0 0 .7rem;
+  font-size: .9rem;
+  color: #c0392b;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  border-bottom: 1px solid #333;
+  padding-bottom: .35rem;
+}
+
+/* Cabeçalho principal da ficha */
+.ficha-cabecalho-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem 2rem;
+  align-items: start;
+}
+.ficha-nome-grande { font-size: 1.5rem; font-weight: 700; color: #e74c3c; }
+.ficha-sub { font-size: .85rem; color: #888; }
+.nivel-barra { display: flex; gap: 3px; margin-top: .3rem; }
+.nivel-pip {
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  border: 1px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .7rem;
+  color: #666;
+  cursor: default;
+}
+.nivel-pip.ativo { background: #8b1a1a; color: #ffa0a0; border-color: #c0392b; }
+.nivel-pip.faixa-pesadelo.ativo { background: #5a0e6b; border-color: #9b59b6; color: #dda0dd; }
+.nivel-pip.faixa-inferno.ativo { background: #6b1000; border-color: #e74c3c; color: #ff8080; }
+.nivel-faixa { font-size: .75rem; color: #888; margin-top: .2rem; }
+
+/* Recursos */
+.recursos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .8rem;
+}
+.recurso-item { text-align: center; }
+.recurso-label { font-size: .75rem; color: #888; text-transform: uppercase; letter-spacing: .06em; }
+.recurso-valor { font-size: 1.3rem; font-weight: 700; color: #eee; }
+.recurso-valor.pv { color: #e74c3c; }
+.recurso-valor.mana { color: #3498db; }
+.recurso-valor.ca { color: #27ae60; }
+.recurso-valor.atk { color: #f39c12; font-size: 1rem; }
+
+/* Tabela de atributos */
+.ficha-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.ficha-table td { padding: .3rem .5rem; border-bottom: 1px solid #2a2a2a; }
+.ficha-table td.ficha-val { text-align: center; font-weight: 700; width: 50px; }
+.ficha-table td.ficha-mod { text-align: center; width: 50px; color: #e74c3c; }
+.ficha-table td.ficha-mod.neg { color: #3498db; }
+.ficha-table td.ficha-total-rd { text-align: center; width: 60px; font-weight: 700; color: #27ae60; }
+.ficha-table td.ficha-slot-nome { color: #aaa; width: 130px; font-size: .85rem; }
+
+/* Habilidades */
+.ficha-habilidades-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .5rem; }
+.ficha-habilidade { font-size: .88rem; color: #ccc; padding: .35rem .5rem; background: #111; border-radius: 3px; border-left: 2px solid #c0392b; }
+
+/* Talentos */
+.ficha-talentos-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .4rem; }
+.ficha-talento { display: flex; align-items: flex-start; gap: .6rem; padding: .4rem .5rem; background: #111; border-radius: 3px; font-size: .87rem; }
+.ficha-talento-nivel { background: #8b1a1a; color: #ffa0a0; border-radius: 3px; padding: .1rem .4rem; font-size: .75rem; white-space: nowrap; }
+.ficha-talento-texto { flex: 1; color: #ccc; }
+.ficha-empty-small { color: #666; font-style: italic; font-size: .85rem; }
+
+/* Inputs inline na ficha */
+.ficha-input-inline {
+  width: 100%;
+  padding: .25rem .4rem;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 3px;
+  color: #eee;
+  font-family: inherit;
+  font-size: .88rem;
+}
+.ficha-input-inline:focus { border-color: #c0392b; outline: none; }
+.ficha-input-small { width: 60px; text-align: center; }
+
+/* PV / Mana atuais na ficha */
+.recursos-atuais-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: .5rem; }
+.recurso-inline { display: flex; align-items: center; gap: .4rem; font-size: .9rem; }
+.recurso-inline label { color: #888; }
+.recurso-inline input { width: 60px; text-align: center; padding: .2rem .3rem; background: #111; border: 1px solid #333; border-radius: 3px; color: #eee; font-size: .9rem; }
+
+/* Layout 2 colunas para a ficha */
+.ficha-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 640px) { .ficha-two-col { grid-template-columns: 1fr; } }
+
+/* ─── Level Up view ─── */
+.levelup-container { max-width: 600px; margin: 0 auto; }
+.levelup-roll-display { font-size: 3rem; font-weight: 900; color: #e74c3c; text-align: center; margin: 1rem 0; }
+.levelup-talento-box {
+  background: #111;
+  border: 1px solid #c0392b;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: .95rem;
+  color: #eee;
+  min-height: 4rem;
+}
+.levelup-select-label { font-size: .85rem; color: #aaa; margin-bottom: .4rem; display: block; }
+
+/* ─── Toast ─── */
+#ficha-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(2rem);
+  background: #27ae60;
+  color: #fff;
+  padding: .6rem 1.4rem;
+  border-radius: 4px;
+  font-size: .9rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+  z-index: 9999;
+}
+#ficha-toast.visible { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ─── Impressão ─── */
+@media print {
+  /* Esconder o tema MkDocs */
+  .md-header, .md-sidebar, .md-footer, .md-tabs,
+  .ficha-toolbar, .ficha-lista-header, .ficha-view-header,
+  .ficha-view-actions, .ficha-card-acoes,
+  .btn-del-talento, #btn-levelup, #btn-salvar-ficha,
+  #btn-editar-ficha, #btn-excluir-ficha, #btn-exportar,
+  #btn-importar-trigger, #btn-voltar-lista, #btn-imprimir,
+  .md-content__inner > h1,
+  nav, header, footer { display: none !important; }
+
+  #ficha-app { max-width: 100%; padding: 0; }
+  #view-lista, #view-criacao, #view-levelup { display: none !important; }
+  #view-ficha { display: block !important; }
+
+  .ficha-panel {
+    break-inside: avoid;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+    page-break-inside: avoid;
+  }
+  .ficha-panel h3 { color: #8b1a1a; }
+  .ficha-table td { border-bottom: 1px solid #ddd; }
+  .ficha-input-inline { border: 1px solid #ccc; background: #fff; color: #000; }
+  .ficha-talento { border: 1px solid #ddd; background: #f9f9f9; }
+  .ficha-talento-nivel { background: #8b1a1a; }
+  .ficha-habilidade { background: #f5f5f5; border-left-color: #8b1a1a; }
+  .nivel-pip.ativo { background: #8b1a1a; color: #fff; border-color: #8b1a1a; }
+  .recurso-valor { color: #000 !important; }
+
+  body { font-size: 11pt; }
+  .ficha-two-col { grid-template-columns: 1fr 1fr; }
+}

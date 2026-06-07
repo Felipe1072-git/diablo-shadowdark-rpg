@@ -1,0 +1,300 @@
+# 🧙 Gerador de Fichas
+
+<div id="ficha-app">
+
+<!-- ════════════════════════════════ LISTA ════════════════════════════════ -->
+<div id="view-lista">
+  <div class="ficha-lista-header">
+    <h2 style="margin:0">Meus Personagens</h2>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+      <button id="btn-novo" class="ficha-btn ficha-btn-primary">+ Novo Personagem</button>
+      <button id="btn-importar-trigger" class="ficha-btn ficha-btn-secondary">⬆ Importar JSON</button>
+      <input type="file" id="input-importar" accept=".json" style="display:none">
+    </div>
+  </div>
+  <div id="lista-personagens" class="ficha-grid"></div>
+</div>
+
+<!-- ════════════════════════════════ CRIAÇÃO ════════════════════════════════ -->
+<div id="view-criacao" style="display:none">
+  <h2 id="form-titulo-pagina" style="margin-bottom:1.2rem">Novo Personagem</h2>
+  <div class="ficha-form">
+
+    <!-- Identidade -->
+    <div class="ficha-form-section">
+      <h3>Identidade</h3>
+      <div class="ficha-form-row">
+        <div class="ficha-form-group" style="grid-column:span 2">
+          <label>Nome</label>
+          <input type="text" id="form-nome" placeholder="Nome do personagem">
+        </div>
+        <div class="ficha-form-group">
+          <label>Classe</label>
+          <select id="form-classe"></select>
+        </div>
+        <div class="ficha-form-group">
+          <label>Atributo Primário</label>
+          <select id="form-atrib-primario"></select>
+        </div>
+        <div class="ficha-form-group">
+          <label>Nível</label>
+          <input type="number" id="form-nivel" min="1" max="10" value="1">
+        </div>
+        <div class="ficha-form-group">
+          <label>XP</label>
+          <input type="number" id="form-xp" min="0" value="0">
+        </div>
+        <div class="ficha-form-group">
+          <label>Título Ativo</label>
+          <input type="text" id="form-titulo" placeholder="—">
+        </div>
+        <div class="ficha-form-group">
+          <label>Antecedente</label>
+          <input type="text" id="form-antecedente" placeholder="—">
+        </div>
+      </div>
+    </div>
+
+    <!-- Atributos -->
+    <div class="ficha-form-section">
+      <h3>Atributos <small style="font-weight:400;color:#888">(3d6 cada)</small></h3>
+      <button id="btn-rolar-atributos" class="ficha-btn ficha-btn-secondary" style="margin-bottom:.9rem" type="button">🎲 Rolar Todos (3d6)</button>
+      <div class="attr-grid">
+        <div class="attr-item">
+          <label>FOR</label>
+          <input type="number" id="form-FOR" min="3" max="18" value="10">
+          <div class="attr-mod" id="form-mod-FOR">+0</div>
+        </div>
+        <div class="attr-item">
+          <label>DES</label>
+          <input type="number" id="form-DES" min="3" max="18" value="10">
+          <div class="attr-mod" id="form-mod-DES">+0</div>
+        </div>
+        <div class="attr-item">
+          <label>CON</label>
+          <input type="number" id="form-CON" min="3" max="18" value="10">
+          <div class="attr-mod" id="form-mod-CON">+0</div>
+        </div>
+        <div class="attr-item">
+          <label>INT</label>
+          <input type="number" id="form-INT" min="3" max="18" value="10">
+          <div class="attr-mod" id="form-mod-INT">+0</div>
+        </div>
+        <div class="attr-item">
+          <label>SAB</label>
+          <input type="number" id="form-SAB" min="3" max="18" value="10">
+          <div class="attr-mod" id="form-mod-SAB">+0</div>
+        </div>
+        <div class="attr-item">
+          <label>CAR</label>
+          <input type="number" id="form-CAR" min="3" max="18" value="10">
+          <div class="attr-mod" id="form-mod-CAR">+0</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Equipamento -->
+    <div class="ficha-form-section">
+      <h3>Armadura e Escudo</h3>
+      <div class="ficha-form-row">
+        <div class="ficha-form-group">
+          <label>Armadura</label>
+          <select id="form-armadura">
+            <option value="">Sem armadura</option>
+            <option value="Couro">Couro (CA 13, Leve)</option>
+            <option value="Couro Reforçado">Couro Reforçado (CA 14, Leve)</option>
+            <option value="Brunea">Brunea (CA 15, Média)</option>
+            <option value="Cota de Malha">Cota de Malha (CA 16, Média)</option>
+            <option value="Meia-Placa">Meia-Placa (CA 17, Pesada)</option>
+            <option value="Placa Completa">Placa Completa (CA 18, Pesada)</option>
+          </select>
+        </div>
+        <div class="ficha-form-group">
+          <label>Escudo</label>
+          <select id="form-escudo">
+            <option value="">Sem escudo</option>
+            <option value="Broquel">Broquel (+1 CA)</option>
+            <option value="Escudo">Escudo (+2 CA)</option>
+            <option value="Escudo de Torre">Escudo de Torre (+3 CA)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slots de equipamento -->
+    <div class="ficha-form-section">
+      <h3>Equipamento Inicial</h3>
+      <div class="ficha-form-row">
+        <div class="ficha-form-group"><label>Arma 1</label><input type="text" id="form-eq-arma1" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Arma 2</label><input type="text" id="form-eq-arma2" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Especial de Classe</label><input type="text" id="form-eq-especial" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Elmo</label><input type="text" id="form-eq-elmo" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Peito</label><input type="text" id="form-eq-peito" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Luvas</label><input type="text" id="form-eq-luvas" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Perneiras</label><input type="text" id="form-eq-perneiras" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Botas</label><input type="text" id="form-eq-botas" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Amuleto</label><input type="text" id="form-eq-amuleto" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Anel 1</label><input type="text" id="form-eq-anel1" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Anel 2</label><input type="text" id="form-eq-anel2" placeholder="—"></div>
+        <div class="ficha-form-group"><label>Cinto</label><input type="text" id="form-eq-cinto" placeholder="—"></div>
+      </div>
+    </div>
+
+    <!-- Resistências iniciais -->
+    <div class="ficha-form-section">
+      <h3>Bônus de Resistência Inicial <small style="font-weight:400;color:#888">(itens/talentos)</small></h3>
+      <div class="ficha-form-row">
+        <div class="ficha-form-group"><label>Físico</label><input type="number" id="form-res-Fisico" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>🔥 Fogo</label><input type="number" id="form-res-Fogo" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>❄️ Gelo</label><input type="number" id="form-res-Gelo" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>⚡ Relâmpago</label><input type="number" id="form-res-Relampago" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>☣️ Veneno</label><input type="number" id="form-res-Veneno" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>💀 Necrótico</label><input type="number" id="form-res-Necrotico" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>✨ Radiante</label><input type="number" id="form-res-Radiante" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>🧠 Psíquico</label><input type="number" id="form-res-Psiquico" value="0" min="0"></div>
+        <div class="ficha-form-group"><label>🔮 Arcano</label><input type="number" id="form-res-Arcano" value="0" min="0"></div>
+      </div>
+    </div>
+
+    <!-- Notas -->
+    <div class="ficha-form-section">
+      <h3>Notas</h3>
+      <div class="ficha-form-group">
+        <textarea id="form-notas" rows="3" placeholder="Objetivos, NPCs, missões…"></textarea>
+      </div>
+    </div>
+
+    <div class="ficha-form-actions">
+      <button id="btn-cancelar-criacao" class="ficha-btn ficha-btn-secondary" type="button">Cancelar</button>
+      <button id="btn-salvar-criacao" class="ficha-btn ficha-btn-primary" type="button">✔ Salvar Personagem</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ════════════════════════════════ FICHA ════════════════════════════════ -->
+<div id="view-ficha" style="display:none">
+
+  <div class="ficha-view-header">
+    <button id="btn-voltar-lista" class="ficha-btn ficha-btn-secondary">← Lista</button>
+    <div class="ficha-view-actions">
+      <button id="btn-levelup" class="ficha-btn ficha-btn-success">⬆ Level Up</button>
+      <button id="btn-salvar-ficha" class="ficha-btn ficha-btn-primary">💾 Salvar</button>
+      <button id="btn-editar-ficha" class="ficha-btn ficha-btn-secondary">✏ Editar</button>
+      <button id="btn-exportar" class="ficha-btn ficha-btn-secondary">⬇ Exportar</button>
+      <button id="btn-imprimir" class="ficha-btn ficha-btn-secondary">🖨 Imprimir</button>
+      <button id="btn-excluir-ficha" class="ficha-btn ficha-btn-danger">✕ Excluir</button>
+    </div>
+  </div>
+
+  <!-- Cabeçalho da ficha -->
+  <div class="ficha-panel">
+    <div class="ficha-cabecalho-grid">
+      <div>
+        <div id="ficha-nome-display"></div>
+        <div id="ficha-classe-display" style="color:#aaa;font-size:.9rem;margin-top:.2rem"></div>
+        <div id="ficha-nivel-display" style="margin-top:.5rem"></div>
+      </div>
+      <div style="text-align:right;font-size:.85rem;color:#888">
+        <div>XP: <strong id="ficha-xp-display"></strong></div>
+        <div style="margin-top:.3rem">Título: <strong id="ficha-titulo-display" style="color:#e74c3c"></strong></div>
+      </div>
+    </div>
+    <!-- PV / Mana atuais editáveis -->
+    <div class="recursos-atuais-row" style="margin-top:.8rem">
+      <div class="recurso-inline"><label>PV atual:</label><input type="number" id="inline-pv-atual" class="ficha-input-small" min="0"></div>
+      <div class="recurso-inline"><label>Mana atual:</label><input type="number" id="inline-mana-atual" class="ficha-input-small" min="0"></div>
+    </div>
+  </div>
+
+  <!-- Recursos principais -->
+  <div class="ficha-panel">
+    <h3>Recursos</h3>
+    <div class="recursos-grid">
+      <div class="recurso-item"><div class="recurso-label">Vida (PV)</div><div class="recurso-valor pv" id="ficha-pv-display">—</div></div>
+      <div class="recurso-item"><div class="recurso-label">Mana</div><div class="recurso-valor mana" id="ficha-mana-display">—</div></div>
+      <div class="recurso-item"><div class="recurso-label">CA</div><div class="recurso-valor ca" id="ficha-ca-display">—</div></div>
+      <div class="recurso-item"><div class="recurso-label">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>
+    </div>
+    <div style="margin-top:.6rem;font-size:.78rem;color:#666">
+      Armadura: <strong id="ficha-armadura-display"></strong> · Escudo: <strong id="ficha-escudo-display"></strong>
+    </div>
+  </div>
+
+  <!-- Atributos + Habilidades -->
+  <div class="ficha-two-col">
+    <div class="ficha-panel">
+      <h3>Atributos</h3>
+      <table class="ficha-table">
+        <thead><tr><th>Atributo</th><th>Valor</th><th>Mod.</th></tr></thead>
+        <tbody id="ficha-atributos-body"></tbody>
+      </table>
+    </div>
+    <div class="ficha-panel">
+      <h3>Habilidades de Classe</h3>
+      <ul class="ficha-habilidades-list" id="ficha-habilidades-body"></ul>
+    </div>
+  </div>
+
+  <!-- Talentos -->
+  <div class="ficha-panel">
+    <h3>Talentos</h3>
+    <ul class="ficha-talentos-list" id="ficha-talentos-body"></ul>
+  </div>
+
+  <!-- Equipamento + Resistências -->
+  <div class="ficha-two-col">
+    <div class="ficha-panel">
+      <h3>Equipamento</h3>
+      <table class="ficha-table">
+        <tbody id="ficha-equipamento-body"></tbody>
+      </table>
+    </div>
+    <div class="ficha-panel">
+      <h3>Matriz de Resistência</h3>
+      <table class="ficha-table">
+        <thead><tr><th>Tipo</th><th title="Modificador do atributo base">Mod.</th><th title="Bônus de itens">+ Itens</th><th>= Total</th></tr></thead>
+        <tbody id="ficha-resistencias-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Notas -->
+  <div class="ficha-panel">
+    <h3>Notas</h3>
+    <textarea id="ficha-notas-input" class="ficha-input-inline" rows="4" placeholder="Objetivos, NPCs, missões em andamento…" style="width:100%;resize:vertical"></textarea>
+  </div>
+
+</div>
+
+<!-- ════════════════════════════════ LEVEL UP ════════════════════════════════ -->
+<div id="view-levelup" style="display:none">
+  <div class="levelup-container">
+    <h2>⬆ Subindo de Nível</h2>
+    <p id="levelup-nivel-atual" style="color:#aaa"></p>
+
+    <div class="ficha-panel" style="text-align:center">
+      <p style="margin:0;color:#888;font-size:.9rem">Resultado do d20:</p>
+      <div class="levelup-roll-display" id="levelup-roll">—</div>
+    </div>
+
+    <div class="ficha-panel">
+      <h3>Talento Rolado</h3>
+      <div class="levelup-talento-box" id="levelup-talento-texto"></div>
+    </div>
+
+    <div class="ficha-panel">
+      <label class="levelup-select-label" for="levelup-select-talento">
+        Confirme o talento ou escolha outro (caso duplicata ou resultado 20):
+      </label>
+      <select id="levelup-select-talento" style="width:100%;padding:.4rem;background:#111;border:1px solid #444;color:#eee;border-radius:4px;font-size:.88rem"></select>
+    </div>
+
+    <div style="display:flex;gap:.8rem;margin-top:1rem;justify-content:flex-end">
+      <button id="btn-cancelar-levelup" class="ficha-btn ficha-btn-secondary">Cancelar</button>
+      <button id="btn-confirmar-levelup" class="ficha-btn ficha-btn-success">✔ Confirmar Level Up</button>
+    </div>
+  </div>
+</div>
+
+</div>
