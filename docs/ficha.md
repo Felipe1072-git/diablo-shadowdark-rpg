@@ -179,6 +179,7 @@
     <button id="btn-voltar-lista" class="ficha-btn ficha-btn-secondary">← Lista</button>
     <div class="ficha-view-actions">
       <button id="btn-levelup" class="ficha-btn ficha-btn-success">⬆ Level Up</button>
+      <button id="btn-descansar" class="ficha-btn ficha-btn-secondary">💤 Descansar</button>
       <button id="btn-salvar-ficha" class="ficha-btn ficha-btn-primary">💾 Salvar</button>
       <button id="btn-editar-ficha" class="ficha-btn ficha-btn-secondary">✏ Editar</button>
       <button id="btn-exportar" class="ficha-btn ficha-btn-secondary">⬇ Exportar</button>
@@ -196,15 +197,12 @@
         <div id="ficha-nivel-display" style="margin-top:.5rem"></div>
       </div>
       <div style="text-align:right;font-size:.85rem;color:#888">
-        <div>XP: <strong id="ficha-xp-display"></strong></div>
+        <div>XP: <span id="ficha-xp-wrapper"></span></div>
         <div style="margin-top:.3rem">Título: <strong id="ficha-titulo-display" style="color:#e74c3c"></strong></div>
       </div>
     </div>
-    <!-- PV / Mana atuais editáveis -->
-    <div class="recursos-atuais-row" style="margin-top:.8rem">
-      <div class="recurso-inline"><label>PV atual:</label><input type="number" id="inline-pv-atual" class="ficha-input-small" min="0"></div>
-      <div class="recurso-inline"><label>Mana atual:</label><input type="number" id="inline-mana-atual" class="ficha-input-small" min="0"></div>
-    </div>
+    <!-- PV / Mana atuais com botões ± -->
+    <div id="ficha-recursos-atuais" style="margin-top:.8rem"></div>
   </div>
 
   <!-- Recursos principais -->
@@ -216,9 +214,14 @@
       <div class="recurso-item"><div class="recurso-label">CA</div><div class="recurso-valor ca" id="ficha-ca-display">—</div></div>
       <div class="recurso-item"><div class="recurso-label">ATK Bônus</div><div class="recurso-valor atk" id="ficha-atk-display">—</div></div>
     </div>
-    <div style="margin-top:.6rem;font-size:.78rem;color:#666">
-      Armadura: <strong id="ficha-armadura-display"></strong> · Escudo: <strong id="ficha-escudo-display"></strong>
-    </div>
+    <!-- Armadura / Escudo editáveis inline -->
+    <div id="ficha-armadura-inline" style="margin-top:.6rem"></div>
+  </div>
+
+  <!-- Condições -->
+  <div class="ficha-panel">
+    <h3>Condições</h3>
+    <div id="ficha-condicoes-body" style="display:flex;gap:.5rem;flex-wrap:wrap;min-height:2rem"></div>
   </div>
 
   <!-- Atributos + Habilidades -->

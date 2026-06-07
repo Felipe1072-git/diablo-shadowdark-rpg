@@ -4,15 +4,42 @@
 (function() {
   'use strict';
 
+  // ───── Constantes ─────
+  const CONDITIONS = [
+    { id: 'caido',      label: '⬇ Caído' },
+    { id: 'atordoado',  label: '💫 Atordoado' },
+    { id: 'envenenado', label: '☣️ Envenenado' },
+    { id: 'cego',       label: '👁️ Cego' },
+    { id: 'assustado',  label: '😱 Assustado' }
+  ];
+
+  const ARMADURAS_OPT = [
+    { v: '',                l: 'Sem armadura' },
+    { v: 'Couro',           l: 'Couro (CA 13, Leve)' },
+    { v: 'Couro Reforçado', l: 'Couro Reforçado (CA 14, Leve)' },
+    { v: 'Brunea',          l: 'Brunea (CA 15, Média)' },
+    { v: 'Cota de Malha',   l: 'Cota de Malha (CA 16, Média)' },
+    { v: 'Meia-Placa',      l: 'Meia-Placa (CA 17, Pesada)' },
+    { v: 'Placa Completa',  l: 'Placa Completa (CA 18, Pesada)' }
+  ];
+
+  const ESCUDOS_OPT = [
+    { v: '',                l: 'Sem escudo' },
+    { v: 'Broquel',         l: 'Broquel (+1 CA)' },
+    { v: 'Escudo',          l: 'Escudo (+2 CA)' },
+    { v: 'Escudo de Torre', l: 'Escudo de Torre (+3 CA)' }
+  ];
+
   // ───── Estado ─────
   let personagens = [];
   let personagemAtual = null;
   let modoEdicao = false;
+  let _isRendering = false;
 
   // ───── Init ─────
   document.addEventListener('DOMContentLoaded', function() {
     const root = document.getElementById('ficha-app');
-    if (!root) return; // não está na página de fichas
+    if (!root) return;
     carregarPersonagens();
     renderizarLista();
     bindEventos();
@@ -23,6 +50,7 @@
     try {
       const raw = localStorage.getItem('diablo-rpg-fichas');
       personagens = raw ? JSON.parse(raw) : [];
+      personagens.forEach(p => { if (!p.condicoes) p.condicoes = []; });
     } catch(e) { personagens = []; }
   }
 
@@ -33,32 +61,29 @@
   function criarPersonagemVazio() {
     return {
       id: Date.now().toString(),
-      nome: '',
-      classe: 'amazona',
-      atribPrimario: '',
-      nivel: 1,
-      xp: 0,
-      titulo: '',
-      antecedente: '',
+      nome: '', classe: 'amazona', atribPrimario: '',
+      nivel: 1, xp: 0, titulo: '', antecedente: '',
       attrs: { FOR: 10, DES: 10, CON: 10, INT: 10, SAB: 10, CAR: 10 },
-      pvMax: 0, pvAtual: 0,
-      manaMax: 0, manaAtual: 0,
-      ca: 10, atk: 0,
-      armadura: '',
-      escudo: '',
+      pvMax: 0, pvAtual: 0, manaMax: 0, manaAtual: 0,
+      ca: 10, atk: 0, armadura: '', escudo: '',
       equipamento: { elmo:'', peito:'', luvas:'', perneiras:'', botas:'',
                      especial:'', amuleto:'', anel1:'', anel2:'',
                      arma1:'', arma2:'', cinto:'' },
       resistencias: { Fisico:0, Fogo:0, Gelo:0, Relampago:0, Veneno:0,
                       Necrotico:0, Radiante:0, Psiquico:0, Arcano:0 },
-      talentos: [],
-      notas: '',
+      condicoes: [], talentos: [], notas: '',
       criadoEm: new Date().toISOString(),
       atualizadoEm: new Date().toISOString()
     };
   }
 
-  // ───── Navegação entre views ─────
+  // ───── Utilitários ─────
+  function debounce(fn, delay) {
+    let timer;
+    return function() { clearTimeout(timer); timer = setTimeout(fn, delay); };
+  }
+
+  // ───── Navegação ─────
   function mostrar(viewId) {
     ['view-lista','view-criacao','view-ficha','view-levelup'].forEach(id => {
       const el = document.getElementById(id);
@@ -69,56 +94,58 @@
 
   // ───── Eventos globais ─────
   function bindEventos() {
-    // Novo personagem
     on('btn-novo', 'click', () => {
       personagemAtual = criarPersonagemVazio();
       modoEdicao = false;
       renderizarFormulario();
       mostrar('view-criacao');
     });
-
-    // Cancelar criação
     on('btn-cancelar-criacao', 'click', () => mostrar('view-lista'));
-
-    // Salvar criação
     on('btn-salvar-criacao', 'click', salvarPersonagemDoForm);
-
-    // Voltar da ficha
     on('btn-voltar-lista', 'click', () => { renderizarLista(); mostrar('view-lista'); });
-
-    // Editar ficha
     on('btn-editar-ficha', 'click', () => {
       modoEdicao = true;
       renderizarFormulario();
       mostrar('view-criacao');
     });
-
-    // Excluir ficha
     on('btn-excluir-ficha', 'click', excluirPersonagem);
-
-    // Export JSON
     on('btn-exportar', 'click', exportarJSON);
-
-    // Import JSON
     on('btn-importar-trigger', 'click', () => document.getElementById('input-importar')?.click());
     on('input-importar', 'change', importarJSON);
-
-    // Imprimir
     on('btn-imprimir', 'click', () => window.print());
-
-    // Level up
     on('btn-levelup', 'click', iniciarLevelUp);
     on('btn-confirmar-levelup', 'click', confirmarLevelUp);
     on('btn-cancelar-levelup', 'click', () => mostrar('view-ficha'));
-
-    // Salvar edições na ficha (campos inline)
-    on('btn-salvar-ficha', 'click', salvarEdicoesInline);
-
-    // Classe muda no form: atualizar atrib primário
-    on('form-classe', 'change', () => atualizarAtribPrimarioSelect());
-
-    // Rolar atributos
+    on('btn-salvar-ficha', 'click', () => {
+      coletarCamposInline();
+      salvarPersonagens();
+      mostrarToast('Ficha salva!');
+    });
+    on('btn-descansar', 'click', () => {
+      if (!personagemAtual) return;
+      personagemAtual.pvAtual = personagemAtual.pvMax;
+      personagemAtual.manaAtual = personagemAtual.manaMax;
+      const idx = personagens.findIndex(x => x.id === personagemAtual.id);
+      if (idx >= 0) personagens[idx] = personagemAtual;
+      salvarPersonagens();
+      renderizarFicha();
+      mostrarToast('💤 Descansado! PV e Mana restaurados.');
+    });
+    on('form-classe', 'change', atualizarAtribPrimarioSelect);
     on('btn-rolar-atributos', 'click', rolarAtributos);
+
+    // Auto-save com debounce na view da ficha
+    const viewFicha = document.getElementById('view-ficha');
+    if (viewFicha) {
+      const autoSave = debounce(() => {
+        if (!personagemAtual || _isRendering) return;
+        coletarCamposInline();
+        salvarPersonagens();
+        mostrarToast('✓ Salvo');
+      }, 800);
+      viewFicha.addEventListener('input', autoSave);
+      viewFicha.addEventListener('change', autoSave);
+    }
   }
 
   function on(id, evt, fn) {
@@ -153,7 +180,6 @@
           </div>
         </div>`;
     }).join('');
-
     container.querySelectorAll('.btn-abrir').forEach(btn => {
       btn.addEventListener('click', () => abrirPersonagem(btn.dataset.id));
     });
@@ -162,7 +188,6 @@
     });
   }
 
-  // ───── Abrir personagem ─────
   function abrirPersonagem(id) {
     personagemAtual = personagens.find(p => p.id === id);
     if (!personagemAtual) return;
@@ -180,7 +205,6 @@
     setValue('form-antecedente', p.antecedente);
     setValue('form-notas', p.notas);
 
-    // Populate classe select
     const selClasse = document.getElementById('form-classe');
     if (selClasse) {
       selClasse.innerHTML = CLASSES.map(c =>
@@ -189,34 +213,18 @@
     }
     atualizarAtribPrimarioSelect();
 
-    // Atributos
     ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
       setValue('form-' + a, p.attrs[a]);
       atualizarMod(a);
-    });
-
-    // Atualizar listeners dos inputs de atributo
-    ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
       const el = document.getElementById('form-' + a);
-      if (el) {
-        el.oninput = () => atualizarMod(a);
-      }
+      if (el) el.oninput = () => atualizarMod(a);
     });
 
     setValue('form-armadura', p.armadura);
     setValue('form-escudo', p.escudo);
+    Object.keys(p.equipamento).forEach(slot => setValue('form-eq-' + slot, p.equipamento[slot]));
+    Object.keys(p.resistencias).forEach(tipo => setValue('form-res-' + tipo, p.resistencias[tipo]));
 
-    // Equipamento
-    Object.keys(p.equipamento).forEach(slot => {
-      setValue('form-eq-' + slot, p.equipamento[slot]);
-    });
-
-    // Resistências
-    Object.keys(p.resistencias).forEach(tipo => {
-      setValue('form-res-' + tipo, p.resistencias[tipo]);
-    });
-
-    // Título do form
     const titulo = document.getElementById('form-titulo-pagina');
     if (titulo) titulo.textContent = modoEdicao ? 'Editar Personagem' : 'Novo Personagem';
   }
@@ -225,10 +233,8 @@
     const selClasse = document.getElementById('form-classe');
     const selPrimario = document.getElementById('form-atrib-primario');
     if (!selClasse || !selPrimario) return;
-
     const cls = getClasse(selClasse.value);
     if (!cls) return;
-
     selPrimario.innerHTML = cls.atribPrimario.map(a =>
       `<option value="${a}" ${a === (personagemAtual?.atribPrimario || cls.atribPrimario[0]) ? 'selected' : ''}>${a}</option>`
     ).join('');
@@ -238,22 +244,16 @@
     const el = document.getElementById('form-' + attr);
     const modEl = document.getElementById('form-mod-' + attr);
     if (el && modEl) {
-      const v = parseInt(el.value) || 10;
-      const m = mod(v);
+      const m = mod(parseInt(el.value) || 10);
       modEl.textContent = (m >= 0 ? '+' : '') + m;
     }
   }
 
   function rolarAtributos() {
     ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
-      const val = rolar3d6();
-      setValue('form-' + a, val);
+      setValue('form-' + a, [1,2,3].reduce(acc => acc + Math.ceil(Math.random() * 6), 0));
       atualizarMod(a);
     });
-  }
-
-  function rolar3d6() {
-    return [1,2,3].reduce(acc => acc + Math.ceil(Math.random() * 6), 0);
   }
 
   function salvarPersonagemDoForm() {
@@ -268,34 +268,25 @@
     p.notas = getValue('form-notas') || '';
     p.armadura = getValue('form-armadura') || '';
     p.escudo = getValue('form-escudo') || '';
-
-    // Atributos
     ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
       p.attrs[a] = parseInt(getValue('form-' + a)) || 10;
     });
 
-    // Calcular PV e Mana
     const cls = getClasse(p.classe);
     const primAttrVal = p.attrs[p.atribPrimario] || p.attrs['FOR'];
     p.manaMax = calcManaMax(p.nivel, primAttrVal);
     if (p.manaAtual === 0 || p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
     p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
     if (p.pvAtual === 0 || p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
-    p.ca = calcCABase(cls || { id: p.classe }, p.attrs, p.armadura);
-
-    // ATK = bônus de atributo primário
+    p.ca = calcCABase(cls || { id: p.classe }, p.attrs, p.armadura) + escudoBonus(p.escudo);
     p.atk = mod(primAttrVal);
 
-    // Equipamento
     Object.keys(p.equipamento).forEach(slot => {
       p.equipamento[slot] = getValue('form-eq-' + slot) || '';
     });
-
-    // Resistências
     Object.keys(p.resistencias).forEach(tipo => {
       p.resistencias[tipo] = parseInt(getValue('form-res-' + tipo)) || 0;
     });
-
     p.atualizadoEm = new Date().toISOString();
 
     if (!modoEdicao) {
@@ -304,52 +295,221 @@
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
     }
-
     salvarPersonagens();
     renderizarFicha();
     mostrar('view-ficha');
+  }
+
+  // ───── Coletar campos inline (auto-save) ─────
+  function coletarCamposInline() {
+    const p = personagemAtual;
+    if (!p) return;
+
+    ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
+      const el = document.getElementById('inline-attr-' + a);
+      if (el) p.attrs[a] = parseInt(el.value) || 10;
+    });
+
+    const xpEl = document.getElementById('inline-xp');
+    if (xpEl) p.xp = parseInt(xpEl.value) || 0;
+
+    const armEl = document.getElementById('inline-armadura');
+    const escEl = document.getElementById('inline-escudo');
+    if (armEl) p.armadura = armEl.value;
+    if (escEl) p.escudo = escEl.value;
+
+    const pvEl = document.getElementById('inline-pv-atual');
+    const manaEl = document.getElementById('inline-mana-atual');
+    if (pvEl) p.pvAtual = parseInt(pvEl.value) || 0;
+    if (manaEl) p.manaAtual = parseInt(manaEl.value) || 0;
+
+    Object.keys(p.equipamento).forEach(slot => {
+      const el = document.getElementById('inline-eq-' + slot);
+      if (el) p.equipamento[slot] = el.value;
+    });
+    Object.keys(p.resistencias).forEach(tipo => {
+      const el = document.getElementById('inline-res-' + tipo);
+      if (el) p.resistencias[tipo] = parseInt(el.value) || 0;
+    });
+
+    const notasEl = document.getElementById('ficha-notas-input');
+    if (notasEl) p.notas = notasEl.value;
+
+    p.condicoes = CONDITIONS.filter(c =>
+      document.getElementById('cond-' + c.id)?.classList.contains('ativo')
+    ).map(c => c.id);
+
+    recalcularStats();
+
+    p.atualizadoEm = new Date().toISOString();
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+  }
+
+  // ───── Recalcular stats ao vivo ─────
+  function recalcularStats() {
+    const p = personagemAtual;
+    if (!p) return;
+    const cls = getClasse(p.classe);
+    const primAttrVal = p.attrs[p.atribPrimario] || p.attrs['FOR'] || 10;
+
+    p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
+    p.manaMax = calcManaMax(p.nivel, primAttrVal);
+    p.ca = calcCABase(cls || { id: p.classe }, p.attrs, p.armadura) + escudoBonus(p.escudo);
+    p.atk = mod(primAttrVal);
+    if (p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
+    if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
+
+    setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
+    setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+    setText('ficha-ca-display', p.ca);
+    setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
+
+    ['FOR','DES','CON','INT','SAB','CAR'].forEach(a => {
+      const modEl = document.getElementById('attr-mod-display-' + a);
+      if (modEl) {
+        const m = mod(p.attrs[a]);
+        modEl.textContent = (m >= 0 ? '+' : '') + m;
+        modEl.className = 'ficha-mod' + (m < 0 ? ' neg' : '');
+      }
+    });
+
+    Object.keys(p.resistencias).forEach(tipo => {
+      const attrBase = getAtribResistencia(tipo);
+      const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
+      const modEl = document.getElementById('res-mod-' + tipo);
+      if (modEl) modEl.textContent = modAttr !== null ? modAttr : '—';
+      const totalEl = document.getElementById('res-total-' + tipo);
+      if (totalEl) {
+        const bonus = parseInt(document.getElementById('inline-res-' + tipo)?.value) || 0;
+        totalEl.textContent = modAttr !== null ? modAttr + bonus : bonus;
+      }
+    });
+
+    verificarAlertaXP();
+  }
+
+  function verificarAlertaXP() {
+    const p = personagemAtual;
+    if (!p) return;
+    const btnLvl = document.getElementById('btn-levelup');
+    if (!btnLvl) return;
+    const pronto = p.xp >= p.nivel * 10 && p.nivel < 10;
+    btnLvl.classList.toggle('levelup-ready', pronto);
+    btnLvl.title = pronto ? `${p.xp}/${p.nivel * 10} XP — Pronto para subir de nível!` : '';
   }
 
   // ───── View: Ficha ─────
   function renderizarFicha() {
     const p = personagemAtual;
     if (!p) return;
+    _isRendering = true;
     const cls = getClasse(p.classe);
     const nomeCls = cls ? cls.nome : p.classe;
-    const modAtribPrimario = mod(p.attrs[p.atribPrimario] || p.attrs['FOR'] || 10);
 
-    // Cabeçalho
     setHTML('ficha-nome-display', `<span class="ficha-nome-grande">${esc(p.nome)}</span>`);
     setHTML('ficha-classe-display', `${nomeCls} <span class="ficha-sub">· Atrib. Primário: ${p.atribPrimario}</span>`);
     setHTML('ficha-nivel-display', renderBarraNivel(p.nivel));
-    setText('ficha-xp-display', `${p.xp} / ${p.nivel * 10} XP`);
+
+    // XP inline editável
+    const xpWrapper = document.getElementById('ficha-xp-wrapper');
+    if (xpWrapper) {
+      xpWrapper.innerHTML = `<input type="number" id="inline-xp" min="0" value="${p.xp}" style="width:56px;text-align:center;padding:.15rem .3rem;background:#111;border:1px solid #333;border-radius:3px;color:#eee;font-size:.85rem"> / <span id="ficha-xp-max">${p.nivel * 10}</span>`;
+    }
     setText('ficha-titulo-display', p.titulo || '—');
 
     // Recursos
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
     setText('ficha-ca-display', p.ca);
-    const sinalAtk = p.atk >= 0 ? '+' : '';
-    setText('ficha-atk-display', `${sinalAtk}${p.atk} + bônus de arma`);
+    setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
 
-    // Atributos
+    // PV / Mana com botões ±
+    setHTML('ficha-recursos-atuais', `
+      <div class="recursos-atuais-row">
+        <div class="recurso-inline">
+          <label>PV atual:</label>
+          <button class="btn-pm" data-target="inline-pv-atual" data-delta="-5" type="button">-5</button>
+          <button class="btn-pm" data-target="inline-pv-atual" data-delta="-1" type="button">-1</button>
+          <input type="number" id="inline-pv-atual" class="ficha-input-small" min="0" max="${p.pvMax}" value="${p.pvAtual}">
+          <button class="btn-pm" data-target="inline-pv-atual" data-delta="1" type="button">+1</button>
+          <button class="btn-pm" data-target="inline-pv-atual" data-delta="5" type="button">+5</button>
+        </div>
+        <div class="recurso-inline">
+          <label>Mana atual:</label>
+          <button class="btn-pm" data-target="inline-mana-atual" data-delta="-5" type="button">-5</button>
+          <button class="btn-pm" data-target="inline-mana-atual" data-delta="-1" type="button">-1</button>
+          <input type="number" id="inline-mana-atual" class="ficha-input-small" min="0" max="${p.manaMax}" value="${p.manaAtual}">
+          <button class="btn-pm" data-target="inline-mana-atual" data-delta="1" type="button">+1</button>
+          <button class="btn-pm" data-target="inline-mana-atual" data-delta="5" type="button">+5</button>
+        </div>
+      </div>`);
+    document.querySelectorAll('.btn-pm').forEach(btn => {
+      btn.onclick = (e) => {
+        e.preventDefault(); e.stopPropagation();
+        const targetEl = document.getElementById(btn.dataset.target);
+        if (!targetEl) return;
+        const max = parseInt(targetEl.max) || 999;
+        const newVal = Math.max(0, Math.min(max, (parseInt(targetEl.value) || 0) + parseInt(btn.dataset.delta)));
+        targetEl.value = newVal;
+        if (btn.dataset.target === 'inline-pv-atual') {
+          p.pvAtual = newVal;
+          setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
+        } else {
+          p.manaAtual = newVal;
+          setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+        }
+        const idx = personagens.findIndex(x => x.id === p.id);
+        if (idx >= 0) personagens[idx] = p;
+        salvarPersonagens();
+        mostrarToast('✓ Salvo');
+      };
+    });
+
+    // Armadura / Escudo inline
+    setHTML('ficha-armadura-inline', `
+      <div style="display:flex;gap:.8rem;flex-wrap:wrap;align-items:center">
+        <div class="recurso-inline">
+          <label>Armadura:</label>
+          <select id="inline-armadura" class="ficha-input-inline" style="max-width:220px">
+            ${ARMADURAS_OPT.map(a => `<option value="${esc(a.v)}" ${p.armadura===a.v?'selected':''}>${esc(a.l)}</option>`).join('')}
+          </select>
+        </div>
+        <div class="recurso-inline">
+          <label>Escudo:</label>
+          <select id="inline-escudo" class="ficha-input-inline" style="max-width:200px">
+            ${ESCUDOS_OPT.map(e => `<option value="${esc(e.v)}" ${p.escudo===e.v?'selected':''}>${esc(e.l)}</option>`).join('')}
+          </select>
+        </div>
+      </div>`);
+    const armSel = document.getElementById('inline-armadura');
+    const escSel = document.getElementById('inline-escudo');
+    if (armSel) armSel.onchange = () => { p.armadura = armSel.value; recalcularStats(); };
+    if (escSel) escSel.onchange = () => { p.escudo = escSel.value; recalcularStats(); };
+
+    // Atributos editáveis
     const attrNomes = { FOR:'Força', DES:'Destreza', CON:'Constituição', INT:'Inteligência', SAB:'Sabedoria', CAR:'Carisma' };
     const tblBody = document.getElementById('ficha-atributos-body');
     if (tblBody) {
       tblBody.innerHTML = Object.entries(p.attrs).map(([a, v]) => {
         const m = mod(v);
-        const sinal = m >= 0 ? '+' : '';
-        return `<tr><td>${attrNomes[a]}</td><td class="ficha-val">${v}</td><td class="ficha-mod ${m<0?'neg':''}">${sinal}${m}</td></tr>`;
+        return `<tr>
+          <td>${attrNomes[a]}</td>
+          <td class="ficha-val"><input type="number" class="ficha-input-inline ficha-input-small" id="inline-attr-${a}" value="${v}" min="3" max="20"></td>
+          <td class="ficha-mod ${m<0?'neg':''}" id="attr-mod-display-${a}">${m>=0?'+':''}${m}</td>
+        </tr>`;
       }).join('');
+      Object.keys(p.attrs).forEach(a => {
+        const el = document.getElementById('inline-attr-' + a);
+        if (el) el.oninput = () => { p.attrs[a] = parseInt(el.value) || 10; recalcularStats(); };
+      });
     }
 
     // Habilidades de Classe
     if (cls) {
       const habBody = document.getElementById('ficha-habilidades-body');
       if (habBody) {
-        habBody.innerHTML = cls.habilidades.map(h =>
-          `<li class="ficha-habilidade">${esc(h)}</li>`
-        ).join('');
+        habBody.innerHTML = cls.habilidades.map(h => `<li class="ficha-habilidade">${esc(h)}</li>`).join('');
       }
     }
 
@@ -388,11 +548,7 @@
       ).join('');
     }
 
-    // Armadura e Escudo
-    setText('ficha-armadura-display', p.armadura || 'Nenhuma');
-    setText('ficha-escudo-display', p.escudo || 'Nenhum');
-
-    // Resistências
+    // Resistências com total ao vivo
     const resNomes = {
       Fisico:'🛡️ Físico', Fogo:'🔥 Fogo', Gelo:'❄️ Gelo', Relampago:'⚡ Relâmpago',
       Veneno:'☣️ Veneno', Necrotico:'💀 Necrótico', Radiante:'✨ Radiante',
@@ -402,89 +558,85 @@
     if (resBody) {
       resBody.innerHTML = Object.entries(resNomes).map(([tipo, nome]) => {
         const val = p.resistencias[tipo] || 0;
-        const attrBase = getAtribResistencia(tipo, p.atribPrimario);
-        const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : '—';
+        const attrBase = getAtribResistencia(tipo);
+        const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
+        const total = modAttr !== null ? modAttr + val : val;
         return `<tr>
           <td>${nome}</td>
-          <td class="ficha-val">${attrBase ? modAttr : '—'}</td>
+          <td class="ficha-val" id="res-mod-${tipo}">${modAttr !== null ? modAttr : '—'}</td>
           <td><input type="number" class="ficha-input-inline ficha-input-small" id="inline-res-${tipo}" value="${val}" min="-20" max="50"></td>
-          <td class="ficha-val ficha-total-rd">${attrBase ? (typeof modAttr === 'number' ? modAttr + val : val) : val}</td>
+          <td class="ficha-val ficha-total-rd" id="res-total-${tipo}">${total}</td>
         </tr>`;
       }).join('');
+      Object.keys(p.resistencias).forEach(tipo => {
+        const bonusEl = document.getElementById('inline-res-' + tipo);
+        if (bonusEl) bonusEl.oninput = () => {
+          const attrBase = getAtribResistencia(tipo);
+          const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
+          const bonus = parseInt(bonusEl.value) || 0;
+          const totalEl = document.getElementById('res-total-' + tipo);
+          if (totalEl) totalEl.textContent = modAttr !== null ? modAttr + bonus : bonus;
+        };
+      });
+    }
+
+    // Condições
+    const condBody = document.getElementById('ficha-condicoes-body');
+    if (condBody) {
+      condBody.innerHTML = CONDITIONS.map(c =>
+        `<button class="condicao-badge ${(p.condicoes||[]).includes(c.id) ? 'ativo' : ''}" id="cond-${c.id}" data-cond="${c.id}" type="button">${c.label}</button>`
+      ).join('');
+      condBody.querySelectorAll('.condicao-badge').forEach(btn => {
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          btn.classList.toggle('ativo');
+          const condId = btn.dataset.cond;
+          if (!p.condicoes) p.condicoes = [];
+          if (btn.classList.contains('ativo')) {
+            if (!p.condicoes.includes(condId)) p.condicoes.push(condId);
+          } else {
+            p.condicoes = p.condicoes.filter(c => c !== condId);
+          }
+          const idx = personagens.findIndex(x => x.id === p.id);
+          if (idx >= 0) personagens[idx] = p;
+          salvarPersonagens();
+        };
+      });
     }
 
     // Notas
     const notasEl = document.getElementById('ficha-notas-input');
     if (notasEl) notasEl.value = p.notas || '';
 
-    // PV / Mana atuais (campos editáveis no cabeçalho)
-    setValue('inline-pv-atual', p.pvAtual);
-    setValue('inline-mana-atual', p.manaAtual);
-
-    // Atualizar botão level up
     const btnLvl = document.getElementById('btn-levelup');
     if (btnLvl) btnLvl.disabled = p.nivel >= 10;
+    verificarAlertaXP();
+
+    _isRendering = false;
   }
 
-  function getAtribResistencia(tipo, atribPrimario) {
-    const mapa = {
+  function getAtribResistencia(tipo) {
+    return {
       Fisico: null,
       Fogo: 'INT', Gelo: 'INT', Relampago: 'INT',
       Veneno: 'CON',
       Necrotico: 'SAB', Psiquico: 'SAB',
       Radiante: 'CAR', Arcano: 'CAR'
-    };
-    return mapa[tipo];
+    }[tipo] || null;
   }
 
   function renderBarraNivel(nivel) {
     const faixas = [
-      { min:1, max:4, label:'Normal' },
-      { min:5, max:7, label:'Pesadelo' },
+      { min:1, max:4,  label:'Normal' },
+      { min:5, max:7,  label:'Pesadelo' },
       { min:8, max:10, label:'Inferno' }
     ];
     const pips = Array.from({length:10}, (_, i) => {
       const n = i + 1;
-      const ativo = n <= nivel;
       const faixa = faixas.find(f => n >= f.min && n <= f.max);
-      return `<span class="nivel-pip ${ativo ? 'ativo' : ''} faixa-${faixa?.label?.toLowerCase()}" title="Nível ${n}">${n}</span>`;
+      return `<span class="nivel-pip ${n <= nivel ? 'ativo' : ''} faixa-${faixa?.label?.toLowerCase()}" title="Nível ${n}">${n}</span>`;
     }).join('');
     return `<div class="nivel-barra">${pips}</div><span class="nivel-faixa">${faixas.find(f => nivel >= f.min && nivel <= f.max)?.label || ''}</span>`;
-  }
-
-  function salvarEdicoesInline() {
-    const p = personagemAtual;
-    if (!p) return;
-
-    // Equipamento inline
-    Object.keys(p.equipamento).forEach(slot => {
-      const el = document.getElementById('inline-eq-' + slot);
-      if (el) p.equipamento[slot] = el.value;
-    });
-
-    // Resistências inline
-    Object.keys(p.resistencias).forEach(tipo => {
-      const el = document.getElementById('inline-res-' + tipo);
-      if (el) p.resistencias[tipo] = parseInt(el.value) || 0;
-    });
-
-    // Notas
-    const notasEl = document.getElementById('ficha-notas-input');
-    if (notasEl) p.notas = notasEl.value;
-
-    // PV / Mana atuais
-    const pvEl = document.getElementById('inline-pv-atual');
-    const manaEl = document.getElementById('inline-mana-atual');
-    if (pvEl) p.pvAtual = Math.min(parseInt(pvEl.value) || p.pvAtual, p.pvMax);
-    if (manaEl) p.manaAtual = Math.min(parseInt(manaEl.value) || p.manaAtual, p.manaMax);
-
-    p.atualizadoEm = new Date().toISOString();
-    const idx = personagens.findIndex(x => x.id === p.id);
-    if (idx >= 0) personagens[idx] = p;
-    salvarPersonagens();
-
-    mostrarToast('Ficha salva!');
-    renderizarFicha();
   }
 
   function removerTalento(idx) {
@@ -498,34 +650,26 @@
   function iniciarLevelUp() {
     const p = personagemAtual;
     if (!p || p.nivel >= 10) return;
-
     const cls = getClasse(p.classe);
     if (!cls) return;
 
-    // Rolar 1d20
     const roll = Math.ceil(Math.random() * 20);
     const talento = encontrarTalento(cls.talentos, roll);
 
-    const rollEl = document.getElementById('levelup-roll');
-    const talentoEl = document.getElementById('levelup-talento-texto');
-    const nivelEl = document.getElementById('levelup-nivel-atual');
+    setText('levelup-nivel-atual', `Nível ${p.nivel} → ${p.nivel + 1}`);
+    setText('levelup-roll', roll);
+    setText('levelup-talento-texto', talento?.text || '—');
+
     const selectEl = document.getElementById('levelup-select-talento');
-
-    if (nivelEl) nivelEl.textContent = `Nível ${p.nivel} → ${p.nivel + 1}`;
-    if (rollEl) rollEl.textContent = roll;
-    if (talentoEl) talentoEl.textContent = talento?.text || '—';
-
-    // Preencher select com todos os talentos (para escolha manual / resultado 20)
     if (selectEl) {
       selectEl.innerHTML = cls.talentos.map(t =>
         `<option value="${t.roll}" ${t.roll === talento?.roll ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 80)}${t.text.length > 80 ? '…' : ''}</option>`
       ).join('');
-      selectEl.addEventListener('change', () => {
+      selectEl.onchange = () => {
         const chosen = cls.talentos.find(t => t.roll === selectEl.value);
-        if (talentoEl && chosen) talentoEl.textContent = chosen.text;
-      });
+        if (chosen) setText('levelup-talento-texto', chosen.text);
+      };
     }
-
     mostrar('view-levelup');
   }
 
@@ -542,47 +686,36 @@
   function confirmarLevelUp() {
     const p = personagemAtual;
     if (!p) return;
-
     const selectEl = document.getElementById('levelup-select-talento');
     const cls = getClasse(p.classe);
     if (!cls || !selectEl) return;
 
-    const rollSelecionado = selectEl.value;
-    const talento = cls.talentos.find(t => t.roll === rollSelecionado);
+    const talento = cls.talentos.find(t => t.roll === selectEl.value);
     if (!talento) return;
 
-    // Subir nível
     p.nivel += 1;
-
-    // Aplicar talento simples automaticamente
     const aplicacao = aplicarTalentoSimples(p, talento.text);
     if (aplicacao) {
       if (aplicacao.tipo === 'attr') p.attrs[aplicacao.attr] += aplicacao.valor;
       if (aplicacao.tipo === 'pv') p.pvMax += aplicacao.valor;
       if (aplicacao.tipo === 'mana') p.manaMax += aplicacao.valor;
     }
+    p.talentos.push({ roll: selectEl.value, texto: talento.text, nivel: p.nivel });
 
-    // Adicionar talento à lista
-    p.talentos.push({ roll: rollSelecionado, texto: talento.text, nivel: p.nivel });
-
-    // Recalcular stats
     const primAttrVal = p.attrs[p.atribPrimario] || p.attrs['FOR'] || 10;
-    const novoManaMax = calcManaMax(p.nivel, primAttrVal);
     const novoPVMax = calcPVMax(p.nivel, cls.dv, p.attrs.CON);
-    // Adicionar HP do novo nível
     const hpGanho = novoPVMax - p.pvMax;
     p.pvMax = novoPVMax;
     p.pvAtual = Math.min(p.pvAtual + hpGanho, p.pvMax);
-    p.manaMax = novoManaMax;
+    p.manaMax = calcManaMax(p.nivel, primAttrVal);
     if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
-    p.ca = calcCABase(cls, p.attrs, p.armadura);
+    p.ca = calcCABase(cls, p.attrs, p.armadura) + escudoBonus(p.escudo);
     p.atk = mod(primAttrVal);
     p.atualizadoEm = new Date().toISOString();
 
     const idx = personagens.findIndex(x => x.id === p.id);
     if (idx >= 0) personagens[idx] = p;
     salvarPersonagens();
-
     mostrarToast(`Nível ${p.nivel} alcançado! +${hpGanho} HP`);
     renderizarFicha();
     mostrar('view-ficha');
@@ -608,8 +741,7 @@
   // ───── Export / Import ─────
   function exportarJSON() {
     if (!personagemAtual) return;
-    const json = JSON.stringify(personagemAtual, null, 2);
-    const blob = new Blob([json], { type: 'application/json' });
+    const blob = new Blob([JSON.stringify(personagemAtual, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -626,7 +758,7 @@
       try {
         const p = JSON.parse(ev.target.result);
         if (!p.id || !p.classe) throw new Error('Arquivo inválido');
-        // Garantir novo id para evitar conflito
+        if (!p.condicoes) p.condicoes = [];
         const existe = personagens.find(x => x.id === p.id);
         if (existe) {
           if (!confirm('Já existe um personagem com este ID. Substituir?')) return;
@@ -657,7 +789,8 @@
     }
     toast.textContent = msg;
     toast.classList.add('visible');
-    setTimeout(() => toast.classList.remove('visible'), 2500);
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(() => toast.classList.remove('visible'), 2000);
   }
 
   // ───── Helpers DOM ─────

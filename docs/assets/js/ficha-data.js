@@ -656,6 +656,11 @@ function calcCABase(classe, attrs, armaduraEquipada) {
   return baseCA + modDES;
 }
 
+// Bônus de escudo na CA
+function escudoBonus(escudo) {
+  return { 'Broquel': 1, 'Escudo': 2, 'Escudo de Torre': 3 }[escudo] || 0;
+}
+
 // Talento simples que aplica automaticamente (+2 FOR, etc.)
 function aplicarTalentoSimples(char, texto) {
   const m2 = texto.match(/\+2 de (Força|Destreza|Constituição|Inteligência|Sabedoria|Carisma)/);
