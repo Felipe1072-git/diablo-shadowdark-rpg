@@ -51,20 +51,20 @@ h1, h2, h3, h4 {
 }
 
 /* Tabelas de set — cabeçalho verde escuro */
-.set-table th {
-  background-color: #1a3320;
-  color: #4ae54a;
+.md-typeset .set-table th {
+  background-color: #1a3320 !important;
+  color: #4ae54a !important;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
 
 /* Tabelas de set — nome da peça em verde */
-.set-table td:first-child strong {
+.md-typeset .set-table td:first-child strong {
   color: #4ae54a;
 }
 
 /* Tabelas de set — zebra striping sutil */
-.set-table tr:nth-child(even) td {
+.md-typeset .set-table tr:nth-child(even) td {
   background-color: rgba(74, 229, 74, 0.04);
 }
 

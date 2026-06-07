@@ -1,12 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("h4.set-title").forEach(function (h4) {
-    var el = h4.nextElementSibling;
-    while (el) {
-      if (el.tagName === "TABLE") {
-        el.classList.add("set-table");
+  // Busca h4 que contenham elemento com classe set-title, OU h4 com a classe diretamente
+  var headings = document.querySelectorAll("h4.set-title, h4 .set-title");
+  headings.forEach(function (el) {
+    var h4 = el.closest("h4") || el;
+    var sibling = h4.nextElementSibling;
+    while (sibling) {
+      if (sibling.tagName === "TABLE") {
+        sibling.classList.add("set-table");
       }
-      if (el.tagName === "H4" || el.tagName === "H3" || el.tagName === "H2") break;
-      el = el.nextElementSibling;
+      if (["H2", "H3", "H4"].includes(sibling.tagName)) break;
+      sibling = sibling.nextElementSibling;
     }
   });
 });
