@@ -67,9 +67,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 
 | Peça | Tipo | Afixos Fixos |
 | :---- | :---- | :---- |
-| **Arreol's Face** | Elmo — Placa | \+1 CA, \+2 FOR; ao usar Berserk, próximo ataque tem Vantagem |
-| **Gladiator's Bane** | Peitoral — Placa Completa | \+2 CA, RD 2 Físico; Implacável ativa abaixo de 75% HP (não só metade) |
-| **Baranar's Star** | Estrela da Manhã (1d8) | \+2 Ataque, Penetrante; Berserk causa \+2d10 em vez de \+1d10 |
+| **Arreol's Face** | Elmo — Brunea | \+1 CA, \+2 FOR; ao usar Berserk, próximo ataque tem Vantagem |
+| **Gladiator's Bane** | Peitoral — Cota de Malha | \+2 CA, RD 2 Físico; Implacável ativa abaixo de 75% HP (não só metade) |
+| **Baranar's Star** | Machado de Mão (1d6) | \+2 Ataque, Penetrante; Berserk causa \+2d10 em vez de \+1d10 |
 
 **Bônus de Set:**
 - *2 peças:* Berserk não impede recuperação de HP/Mana no próximo turno
