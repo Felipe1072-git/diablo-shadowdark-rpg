@@ -136,11 +136,5 @@ Esta tabela é o Painel de Personagem para rastrear a Redução de Dano (RD) par
 > **Fórmula:** Dano Recebido − Valor na Matriz = Dano Final (mínimo 0 em Normal; pode ser negativo em Pesadelo/Inferno).
 
 
-[image2]: 
-
-[image3]: 
-
-[image4]: 
-
 ---
 
