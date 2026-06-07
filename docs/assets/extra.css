@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 /* Tabelas de set — cabeçalho verde escuro */
-h4.set-title ~ table th {
+.set-table th {
   background-color: #1a3320;
   color: #4ae54a;
   font-weight: 700;
@@ -59,12 +59,12 @@ h4.set-title ~ table th {
 }
 
 /* Tabelas de set — nome da peça em verde */
-h4.set-title ~ table td:first-child strong {
+.set-table td:first-child strong {
   color: #4ae54a;
 }
 
 /* Tabelas de set — zebra striping sutil */
-h4.set-title ~ table tr:nth-child(even) td {
+.set-table tr:nth-child(even) td {
   background-color: rgba(74, 229, 74, 0.04);
 }
 
