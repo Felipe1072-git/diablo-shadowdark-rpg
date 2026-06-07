@@ -81,6 +81,7 @@ Defina o nível médio do grupo e clique em **Rolar**. O rolador percorre todas 
 
 const d = n => Math.floor(Math.random() * n) + 1;
 const lookup = (t, v) => t.find(r => v >= r.min && v <= r.max) || t[t.length - 1];
+window._itemAtual = null;
 
 // ===================== TABELAS =====================
 
@@ -449,6 +450,7 @@ function afixos(qual, nd, logs) {
 
   const prefTitulos = [], sufTitulos = [];
   const htmlParts = [];
+  const afixosData = [];
 
   for (let i = 0; i < pref; i++) {
     const p = (i === 0 && window._forceCaprichoso) ? { log: step(`<span class="dice">🎲 Prefixo d100 = 50</span> → <b>Utilidades e Maldições</b>: <b>Caprichoso</b>`), nome:"Caprichoso", titulo:"Caprichoso", efeito:"Role 2× na tabela de prefixos e aplique ambos" } : prefixo(nd);
@@ -462,9 +464,11 @@ function afixos(qual, nd, logs) {
         logs.push(extra.log);
         prefTitulos.push(extra.titulo);
         htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Prefixo ✦</span> <b>${extra.nome}</b> — ${extra.efeito}</div>`);
+        afixosData.push({ tipo: 'Prefixo', nome: extra.nome, efeito: extra.efeito });
       }
     } else {
       prefTitulos.push(p.titulo);
+      afixosData.push({ tipo: 'Prefixo', nome: p.nome, efeito: p.efeito });
     }
   }
   for (let i = 0; i < suf; i++) {
@@ -472,9 +476,10 @@ function afixos(qual, nd, logs) {
     logs.push(s.log);
     sufTitulos.push(s.titulo);
     htmlParts.push(`<div class="afixo"><span class="afixo-tipo">Sufixo</span> <b>${s.nome}</b> — ${s.efeito}</div>`);
+    afixosData.push({ tipo: 'Sufixo', nome: s.nome, efeito: s.efeito });
   }
 
-  return { html: htmlParts.join(""), prefTitulos, sufTitulos };
+  return { html: htmlParts.join(""), prefTitulos, sufTitulos, afixosData };
 }
 
 window.rolarTesouro = function(opts = {}) {
@@ -608,9 +613,9 @@ window.rolarTesouro = function(opts = {}) {
       // forceCaprichoso: injeta cat=50 na primeira rolagem de prefixo
       if (opts.forceCaprichoso && qual && qual.pref === 0) qual = { ...qual, pref: 1, suf: 0 };
       if (opts.forceCaprichoso) window._forceCaprichoso = true;
-      const { html: afixoHtml, prefTitulos, sufTitulos } = qual
+      const { html: afixoHtml, prefTitulos, sufTitulos, afixosData } = qual
         ? afixos(qual, nd, logs)
-        : { html: "", prefTitulos: [], sufTitulos: [] };
+        : { html: "", prefTitulos: [], sufTitulos: [], afixosData: [] };
       window._forceCaprichoso = false;
 
       const css   = qual ? qual.css : "q-normal";
@@ -623,6 +628,29 @@ window.rolarTesouro = function(opts = {}) {
         ? `<div style="font-size:0.85rem;color:var(--md-default-fg-color--light);margin-top:0.15rem;">${infoItem}</div>`
         : "";
 
+      // Detectar slot do item
+      const pecaToSlot = { 'Peitoral':'peito', 'Elmo':'elmo', 'Luvas':'luvas', 'Perneiras':'perneiras', 'Botas':'botas' };
+      let slotTipo = 'arma';
+      if (dr <= 39) {
+        const pecaMatch = infoItem.match && infoItem.match(/— (Peitoral|Elmo|Luvas|Perneiras|Botas)/);
+        slotTipo = pecaToSlot[pecaMatch && pecaMatch[1]] || 'peito';
+      } else if (dr <= 88) { slotTipo = 'arma'; }
+      else if (dr <= 91) { slotTipo = 'anel'; }
+      else if (dr <= 94) { slotTipo = 'amuleto'; }
+      else if (dr <= 96) { slotTipo = 'cinto'; }
+      else { slotTipo = 'especial'; }
+
+      window._itemAtual = {
+        nome: nomeCompleto,
+        slotTipo: slotTipo,
+        tipoBase: nomeBase,
+        tipoArmadura: dr <= 39 ? nomeBase : null,
+        qualidade: qNome,
+        infoBase: typeof infoItem === 'string' ? infoItem.replace(/<[^>]+>/g,'').trim() : '',
+        afixos: afixosData,
+        bonusStats: typeof parseBonusStats === 'function' ? parseBonusStats(afixosData) : {}
+      };
+
       finalHtml = `
         <div>
           🗡️ <span class="${css}" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;">${qNome}</span>
@@ -630,19 +658,45 @@ window.rolarTesouro = function(opts = {}) {
           ${infoHtml}
           ${afixoHtml}
         </div>`;
+    } else {
+      window._itemAtual = null;
     }
   }
+
+  const salvarBtn = window._itemAtual
+    ? `<div class="salvar-item-row">
+        <span style="font-size:0.82rem;color:#888;">Adicionar ao inventário global:</span>
+        <button id="btn-salvar-item" onclick="window.salvarItemAtual(this)" class="roll-btn" style="font-size:0.85rem;padding:5px 14px;background:#27ae60;">💾 Salvar no Inventário</button>
+      </div>`
+    : '';
 
   document.getElementById('resultado-tesouro').innerHTML = `
     <div class="result-card">
       <div>${logs.join("")}</div>
       <div class="final-result">${finalHtml}</div>
+      ${salvarBtn}
     </div>
   `;
 };
 
 window.limparTesouro = function() {
   document.getElementById("resultado-tesouro").innerHTML = "";
+  window._itemAtual = null;
+};
+
+window.salvarItemAtual = function(btn) {
+  if (!window._itemAtual) return;
+  if (typeof adicionarAoInventario !== 'function') {
+    alert('Erro: abra a página de Fichas pelo menos uma vez para inicializar o inventário.');
+    return;
+  }
+  adicionarAoInventario(Object.assign({}, window._itemAtual));
+  window._itemAtual = null;
+  if (btn) {
+    btn.textContent = '✓ Salvo!';
+    btn.disabled = true;
+    btn.style.background = '#555';
+  }
 };
 
 })();

@@ -760,8 +760,18 @@ function calcPVMax(nivel, dv, conVal) {
 }
 
 // CA baseada em peças individuais de armadura
-function calcCAFromEquip(cls, attrs, equip, escudo) {
-  const peito = (equip && equip.peito) ? equip.peito : '';
+// equipadoSlots opcional: { peito: itemId, elmo: itemId, ... }
+function calcCAFromEquip(cls, attrs, equip, escudo, equipadoSlots) {
+  function getArmorTipo(slot) {
+    var itemId = equipadoSlots && equipadoSlots[slot];
+    if (itemId && typeof getInventarioItem === 'function') {
+      var item = getInventarioItem(itemId);
+      if (item && item.tipoArmadura) return item.tipoArmadura;
+    }
+    return (equip && equip[slot]) ? equip[slot] : '';
+  }
+
+  const peito = getArmorTipo('peito');
   const info = ARMADURA_INFO[peito];
   const tipo = info ? info.tipo : '';
   const desMod = mod(attrs.DES || 10);
@@ -777,7 +787,7 @@ function calcCAFromEquip(cls, attrs, equip, escudo) {
 
   let ca = 10;
   ['elmo', 'peito', 'luvas', 'perneiras', 'botas'].forEach(slot => {
-    const pType = (equip && equip[slot]) ? equip[slot] : '';
+    const pType = getArmorTipo(slot);
     ca += ((ARMADURA_PECAS[pType] || {})[slot]) || 0;
   });
 
@@ -803,6 +813,87 @@ function calcCABase(classe, attrs, armaduraEquipada) {
 // Bônus de escudo na CA
 function escudoBonus(escudo) {
   return { 'Broquel': 1, 'Escudo': 2, 'Escudo de Torre': 3 }[escudo] || 0;
+}
+
+// ─── Inventário Global ───────────────────────────────────────────────────────
+var INVENTARIO_KEY = 'diablo-rpg-inventario';
+
+function getInventario() {
+  try { return JSON.parse(localStorage.getItem(INVENTARIO_KEY) || '[]'); }
+  catch(e) { return []; }
+}
+
+function salvarInventario(inv) {
+  localStorage.setItem(INVENTARIO_KEY, JSON.stringify(inv));
+}
+
+function getInventarioItem(id) {
+  return getInventario().find(function(i) { return i.id === id; }) || null;
+}
+
+function adicionarAoInventario(item) {
+  var inv = getInventario();
+  if (!item.id) item.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+  item.criadoEm = item.criadoEm || new Date().toISOString();
+  if (item.equipadoPor === undefined) item.equipadoPor = null;
+  inv.push(item);
+  salvarInventario(inv);
+  return item.id;
+}
+
+function atualizarItemInventario(id, campos) {
+  var inv = getInventario();
+  var idx = inv.findIndex(function(i) { return i.id === id; });
+  if (idx >= 0) { Object.assign(inv[idx], campos); salvarInventario(inv); }
+}
+
+function removerDoInventario(id) {
+  salvarInventario(getInventario().filter(function(i) { return i.id !== id; }));
+}
+
+// Parse bônus numéricos dos afixos para aplicar automaticamente
+function parseBonusStats(afixosArr) {
+  var bonus = { ca: 0, atk: 0, dano: 0, rdTodos: 0, manaMax: 0, pvTemp: 0 };
+  if (!afixosArr) return bonus;
+  afixosArr.forEach(function(af) {
+    var e = af.efeito || '';
+    var m;
+    m = e.match(/\+(\d+)\s*(?:de\s*)?CA/i);
+    if (m) bonus.ca += +m[1];
+    m = e.match(/\+(\d+)\s*(?:nos\s+testes\s+de\s+)?[Aa]taque/);
+    if (m) bonus.atk += +m[1];
+    m = e.match(/\+(\d+)\s*(?:no\s+[Dd]ano|[Dd]ano\s+fixo)/);
+    if (m) bonus.dano += +m[1];
+    // "Imparável: +3 Ataque, +3 Dano" — pega o Dano após a vírgula
+    m = e.match(/,\s*\+(\d+)\s*[Dd]ano/);
+    if (m) bonus.dano += +m[1];
+    m = e.match(/\+(\d+)\s*RD\s+em\s+TODOS/i);
+    if (m) bonus.rdTodos += +m[1];
+    m = e.match(/[Mm]ana\s+(?:m[áa]ximo\s+)?\+(\d+)/);
+    if (m) bonus.manaMax += +m[1];
+    m = e.match(/\+(\d+)\s*HP\s+[Tt]empor/);
+    if (m) bonus.pvTemp += +m[1];
+  });
+  return bonus;
+}
+
+// Soma bônus de todos os itens equipados pelo personagem
+function calcBonusFromItems(equipadoSlots) {
+  var bonus = { ca: 0, atk: 0, dano: 0, rdTodos: 0, manaMax: 0, pvTemp: 0 };
+  if (!equipadoSlots) return bonus;
+  Object.values(equipadoSlots).forEach(function(itemId) {
+    if (!itemId) return;
+    var item = getInventarioItem(itemId);
+    if (!item || !item.bonusStats) return;
+    var b = item.bonusStats;
+    bonus.ca += b.ca || 0;
+    bonus.atk += b.atk || 0;
+    bonus.dano += b.dano || 0;
+    bonus.rdTodos += b.rdTodos || 0;
+    bonus.manaMax += b.manaMax || 0;
+    bonus.pvTemp += b.pvTemp || 0;
+  });
+  return bonus;
 }
 
 // Talento simples que aplica automaticamente (+2 FOR, etc.)

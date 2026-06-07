@@ -52,6 +52,7 @@
       personagens = raw ? JSON.parse(raw) : [];
       personagens.forEach(p => {
         if (!p.condicoes) p.condicoes = [];
+        if (!p.equipadoSlots) p.equipadoSlots = {};
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
           ['elmo','peito','luvas','perneiras','botas'].forEach(s => {
@@ -77,6 +78,7 @@
       equipamento: { elmo:'', peito:'', luvas:'', perneiras:'', botas:'',
                      especial:'', amuleto:'', anel1:'', anel2:'',
                      arma1:'', arma2:'', cinto:'' },
+      equipadoSlots: {},
       resistencias: { Fisico:0, Fogo:0, Gelo:0, Relampago:0, Veneno:0,
                       Necrotico:0, Radiante:0, Psiquico:0, Arcano:0 },
       condicoes: [], talentos: [], notas: '',
@@ -474,8 +476,15 @@
 
     p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
     p.manaMax = calcManaMax(p.nivel, primAttrVal);
-    p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo);
+    p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo, p.equipadoSlots);
     p.atk = mod(primAttrVal);
+
+    // Bônus de itens equipados
+    const itemBonus = (typeof calcBonusFromItems === 'function') ? calcBonusFromItems(p.equipadoSlots) : { ca:0, atk:0, rdTodos:0, manaMax:0 };
+    p.ca += itemBonus.ca;
+    p.atk += itemBonus.atk;
+    p.manaMax += itemBonus.manaMax;
+
     if (p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
     if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
 
@@ -483,7 +492,8 @@
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
     setText('ficha-ca-display', p.ca);
-    setText('ficha-rd-display', rdFisicoCalc > 0 ? rdFisicoCalc : '—');
+    const rdTotal = rdFisicoCalc + (itemBonus.rdTodos || 0);
+    setText('ficha-rd-display', rdTotal > 0 ? rdTotal : '—');
     setText('ficha-atk-display', `${p.atk >= 0 ? '+' : ''}${p.atk} + bônus de arma`);
 
     // Atualizar resumo de armadura no painel
@@ -761,8 +771,143 @@
     if (btnLvl) btnLvl.disabled = p.nivel >= 10;
     verificarAlertaXP();
 
+    renderizarMochila();
+
     _isRendering = false;
   }
+
+  // ───── Inventário / Mochila ─────
+  const MOCHILA_SLOT_NOMES = {
+    arma:'Arma', peito:'Peitoral', elmo:'Elmo', luvas:'Luvas',
+    perneiras:'Perneiras', botas:'Botas', anel:'Anel', amuleto:'Amuleto',
+    cinto:'Cinto', especial:'Especial de Classe'
+  };
+  const MOCHILA_QUAL_STYLE = {
+    'Normal':'color:#aaa', 'Mágico':'color:#4a9edd', 'Mágica':'color:#4a9edd',
+    'Raro':'color:#f0c040', 'Rara':'color:#f0c040',
+    'Lendário':'color:#ff8c00', 'Lendária':'color:#ff8c00',
+    'Único':'color:#a040c0', 'Set':'color:#27ae60'
+  };
+
+  function renderizarMochila() {
+    const p = personagemAtual;
+    const panel = document.getElementById('ficha-mochila-body');
+    if (!panel) return;
+    if (!p || typeof getInventario !== 'function') { panel.innerHTML = ''; return; }
+
+    const inv = getInventario();
+    const mochila = inv.filter(i => !i.equipadoPor || i.equipadoPor === p.id);
+
+    if (mochila.length === 0) {
+      panel.innerHTML = '<p class="ficha-empty-small">Inventário vazio. Role itens no <a href="../mestre/rolador-tesouros/">Rolador de Tesouros</a> e salve-os aqui.</p>';
+      return;
+    }
+
+    panel.innerHTML = mochila.map(item => {
+      const equipado = item.equipadoPor === p.id;
+      const equipSlotEntry = equipado
+        ? Object.entries(p.equipadoSlots || {}).find(([,v]) => v === item.id)
+        : null;
+      const equipSlotNome = equipSlotEntry
+        ? (MOCHILA_SLOT_NOMES[equipSlotEntry[0].replace(/\d$/, '')] || equipSlotEntry[0])
+        : null;
+
+      const qualStyle = MOCHILA_QUAL_STYLE[item.qualidade] || 'color:#aaa';
+      const afixosList = (item.afixos || []).map(af =>
+        `<div style="font-size:.76rem;color:#888;margin-top:.1rem">` +
+        `<span style="color:#555;font-size:.7rem;text-transform:uppercase;margin-right:.3rem">${esc(af.tipo)}</span>` +
+        `<b>${esc(af.nome)}</b> — ${esc(af.efeito)}</div>`
+      ).join('');
+
+      const slotTipo = item.slotTipo || 'arma';
+      const multiSlots = slotTipo === 'arma' ? ['arma1','arma2'] : slotTipo === 'anel' ? ['anel1','anel2'] : null;
+      let equipBtns;
+      if (equipado) {
+        equipBtns = `<span style="font-size:.78rem;color:#27ae60;margin-right:.4rem">✓ ${esc(equipSlotNome || 'equipado')}</span>` +
+          `<button class="ficha-btn ficha-btn-secondary" style="font-size:.75rem;padding:.15rem .5rem" ` +
+          `onclick="window._fichaDesequipar('${item.id}')">Desequipar</button>`;
+      } else if (multiSlots) {
+        equipBtns = multiSlots.map(s =>
+          `<button class="ficha-btn ficha-btn-primary" style="font-size:.75rem;padding:.15rem .5rem" ` +
+          `onclick="window._fichaEquipar('${s}','${item.id}')">` +
+          `Equipar em ${MOCHILA_SLOT_NOMES[slotTipo]} ${s.slice(-1)}</button>`
+        ).join(' ');
+      } else {
+        equipBtns = `<button class="ficha-btn ficha-btn-primary" style="font-size:.75rem;padding:.15rem .5rem" ` +
+          `onclick="window._fichaEquipar('${slotTipo}','${item.id}')">Equipar</button>`;
+      }
+
+      return `<div class="mochila-item${equipado ? ' mochila-equipado' : ''}">` +
+        `<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;flex-wrap:wrap">` +
+        `<div style="flex:1;min-width:0">` +
+        `<div style="${qualStyle};font-weight:700;font-size:.9rem">${esc(item.nome)}</div>` +
+        `<div style="font-size:.73rem;color:#666;margin-bottom:.15rem">` +
+        `${esc(item.qualidade)} · ${esc(MOCHILA_SLOT_NOMES[slotTipo] || slotTipo)}` +
+        `${item.infoBase ? ' · ' + esc(item.infoBase) : ''}</div>` +
+        `${afixosList}</div>` +
+        `<div style="display:flex;gap:.3rem;align-items:center;flex-wrap:wrap;flex-shrink:0">` +
+        `${equipBtns}` +
+        `<button class="ficha-btn ficha-btn-danger" style="font-size:.75rem;padding:.15rem .4rem" ` +
+        `onclick="window._fichaDeleteItem('${item.id}')" title="Remover do inventário">✕</button>` +
+        `</div></div></div>`;
+    }).join('');
+  }
+
+  function equiparItemFicha(slotKey, itemId) {
+    const p = personagemAtual;
+    if (!p) return;
+    if (!p.equipadoSlots) p.equipadoSlots = {};
+    // Desequipar item anterior no slot
+    const oldId = p.equipadoSlots[slotKey];
+    if (oldId && typeof atualizarItemInventario === 'function') atualizarItemInventario(oldId, { equipadoPor: null });
+    // Equipar
+    p.equipadoSlots[slotKey] = itemId;
+    if (typeof atualizarItemInventario === 'function') atualizarItemInventario(itemId, { equipadoPor: p.id });
+    // Se armadura: atualizar equipamento[slot] para CA calc
+    const armorSlots = ['elmo','peito','luvas','perneiras','botas'];
+    if (armorSlots.includes(slotKey) && typeof getInventarioItem === 'function') {
+      const item = getInventarioItem(itemId);
+      if (item && item.tipoArmadura) p.equipamento[slotKey] = item.tipoArmadura;
+    }
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+    recalcularStats();
+    renderizarMochila();
+    mostrarToast('Item equipado!');
+  }
+
+  function desequiparItemFicha(itemId) {
+    const p = personagemAtual;
+    if (!p) return;
+    const slotEntry = Object.entries(p.equipadoSlots || {}).find(([,v]) => v === itemId);
+    if (slotEntry) p.equipadoSlots[slotEntry[0]] = null;
+    if (typeof atualizarItemInventario === 'function') atualizarItemInventario(itemId, { equipadoPor: null });
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+    recalcularStats();
+    renderizarMochila();
+    mostrarToast('Item desequipado.');
+  }
+
+  function deletarItemInventario(itemId) {
+    const p = personagemAtual;
+    if (p) {
+      const slotEntry = Object.entries(p.equipadoSlots || {}).find(([,v]) => v === itemId);
+      if (slotEntry) { p.equipadoSlots[slotEntry[0]] = null; }
+      const idx = personagens.findIndex(x => x.id === p.id);
+      if (idx >= 0) { personagens[idx] = p; salvarPersonagens(); }
+    }
+    if (typeof removerDoInventario === 'function') removerDoInventario(itemId);
+    recalcularStats();
+    renderizarMochila();
+    mostrarToast('Item removido do inventário.');
+  }
+
+  window._fichaEquipar = equiparItemFicha;
+  window._fichaDesequipar = desequiparItemFicha;
+  window._fichaDeleteItem = deletarItemInventario;
 
   function getAtribResistencia(tipo) {
     return {

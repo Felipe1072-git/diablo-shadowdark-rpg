@@ -303,6 +303,29 @@
   50% { opacity: .65; }
 }
 
+/* ─── Mochila ─── */
+.mochila-item {
+  padding: .5rem .6rem;
+  border-radius: 4px;
+  border: 1px solid #2a2a2a;
+  background: #111;
+  margin-bottom: .4rem;
+  transition: border-color .15s;
+}
+.mochila-item:hover { border-color: #444; }
+.mochila-equipado { border-color: #27ae60 !important; background: #0a1f0a; }
+
+/* Botão salvar no Rolador */
+.salvar-item-row {
+  margin-top: .8rem;
+  padding-top: .6rem;
+  border-top: 1px solid #333;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+
 /* ─── Impressão ─── */
 @media print {
   /* Esconder o tema MkDocs */

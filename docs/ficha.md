@@ -283,6 +283,13 @@
     <textarea id="ficha-notas-input" class="ficha-input-inline" rows="4" placeholder="Objetivos, NPCs, missões em andamento…" style="width:100%;resize:vertical"></textarea>
   </div>
 
+  <!-- Mochila & Inventário -->
+  <div class="ficha-panel">
+    <h3>🎒 Mochila &amp; Inventário</h3>
+    <p style="font-size:.8rem;color:#666;margin:0 0 .6rem">Itens salvos no Rolador de Tesouros aparecem aqui. Clique em <b>Equipar</b> para associar um item a um slot do personagem — os bônus de afixos serão aplicados automaticamente.</p>
+    <div id="ficha-mochila-body"></div>
+  </div>
+
 </div>
 
 <!-- ════════════════════════════════ LEVEL UP ════════════════════════════════ -->
