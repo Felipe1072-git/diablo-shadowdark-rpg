@@ -50,6 +50,41 @@ h1, h2, h3, h4 {
   padding-left: 0.5em;
 }
 
+/* Tabelas de set — cabeçalho verde escuro */
+h4.set-title ~ table th {
+  background-color: #1a3320;
+  color: #4ae54a;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Tabelas de set — nome da peça em verde */
+h4.set-title ~ table td:first-child strong {
+  color: #4ae54a;
+}
+
+/* Tabelas de set — zebra striping sutil */
+h4.set-title ~ table tr:nth-child(even) td {
+  background-color: rgba(74, 229, 74, 0.04);
+}
+
+/* Bônus de Set — admonition customizado */
+.md-typeset .admonition.set-bonus {
+  border-color: #4ae54a;
+}
+
+.md-typeset .admonition.set-bonus > .admonition-title {
+  background-color: rgba(74, 229, 74, 0.12);
+  color: #4ae54a;
+  font-weight: 700;
+}
+
+.md-typeset .admonition.set-bonus > .admonition-title::before {
+  background-color: #4ae54a;
+  -webkit-mask-image: var(--md-admonition-icon--tip);
+  mask-image: var(--md-admonition-icon--tip);
+}
+
 /* Nome do site na barra superior */
 .md-header__title {
   font-weight: 700;

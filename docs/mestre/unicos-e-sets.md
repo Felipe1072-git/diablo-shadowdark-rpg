@@ -57,9 +57,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Forge** | Luvas — Placa | \+2 Ataque; Turbilhão custa 1 Mana a menos |
 | **Will** | Elmo — Placa | \+1 CA; recupera 1 HP por acerto durante Fúria |
 
-**Bônus de Set:**
-- *2 peças:* Ganha RD 2 enquanto em Fúria
-- *5 peças:* Fúria não concede mais Vantagem aos inimigos contra você
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Ganha RD 2 enquanto em Fúria
+    - **5 peças —** Fúria não concede mais Vantagem aos inimigos contra você
 
 ---
 
@@ -71,9 +71,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Gladiator's Bane** | Peitoral — Cota de Malha | \+2 CA, RD 2 Físico; Implacável ativa abaixo de 75% HP (não só metade) |
 | **Baranar's Star** | Machado de Mão (1d6) | \+2 Ataque, Penetrante; Berserk causa \+2d10 em vez de \+1d10 |
 
-**Bônus de Set:**
-- *2 peças:* Berserk não impede recuperação de HP/Mana no próximo turno
-- *3 peças:* Berserk pode ser usado como Ação Livre (◇) — use ◈ para atacar E ◇ para Berserk no mesmo turno
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Berserk não impede recuperação de HP/Mana no próximo turno
+    - **3 peças —** Berserk pode ser usado como Ação Livre (◇) — use ◈ para atacar E ◇ para Berserk no mesmo turno
 
 ---
 
@@ -87,9 +87,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Raekor's Breeches** | Perneiras — Placa | \+1 CA; Salto não provoca ataques de oportunidade |
 | **Raekor's Striders** | Botas — Placa | \+1 CA; alcance do Salto aumenta para Distante (em vez de Próximo) |
 
-**Bônus de Set:**
-- *2 peças:* Salto custa 0 Mana
-- *5 peças:* Após usar Salto, pode usá-lo novamente como Ação Livre (◇) — máximo 1 vez por turno
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Salto custa 0 Mana
+    - **5 peças —** Após usar Salto, pode usá-lo novamente como Ação Livre (◇) — máximo 1 vez por turno
 
 ---
 
@@ -103,9 +103,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Wastes Pants** | Perneiras — Placa | \+1 CA; ao usar Turbilhão, não provoca ataques de oportunidade neste turno |
 | **Wastes Boots** | Botas — Placa | \+1 CA; após Turbilhão, movimento no próximo turno é Ação Livre (◇) |
 
-**Bônus de Set:**
-- *2 peças:* Turbilhão custa 2 Mana (redução total de 1)
-- *5 peças:* Turbilhão pode ser usado como Ação Livre (◇) — use ◈◈ para dois ataques normais E ◇ para Turbilhão na mesma rodada
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Turbilhão custa 2 Mana (redução total de 1)
+    - **5 peças —** Turbilhão pode ser usado como Ação Livre (◇) — use ◈◈ para dois ataques normais E ◇ para Turbilhão na mesma rodada
 
 ---
 
@@ -119,9 +119,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Earth Pants** | Perneiras — Placa | \+1 CA; ao derrubar com Pancada, inimigos Adjacentes à vítima fazem SAL. FOR (DC 10 \+ Mod. FOR) ou também caem |
 | **Earth Belt** | Cinto | 4 slots; Pancada custa 1 Mana a menos |
 
-**Bônus de Set:**
-- *2 peças:* Salto causa 1d6 Físico em todos Adjacentes ao ponto de aterrissagem (gratuito, sempre)
-- *5 peças:* Pancada passa a ser ◈ (não apenas ◇) — e se derrubar o alvo, causa 2d8 Físico adicional no impacto
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Salto causa 1d6 Físico em todos Adjacentes ao ponto de aterrissagem (gratuito, sempre)
+    - **5 peças —** Pancada passa a ser ◈ (não apenas ◇) — e se derrubar o alvo, causa 2d8 Físico adicional no impacto
 
 ---
 
@@ -135,9 +135,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Savage Gauntlets** | Luvas — Placa | \+2 Ataque; Dupla Empunhadura não custa Mana enquanto Frenezi estiver ativo |
 | **Savage Girdle** | Cinto | 4 slots; Frenezi só se perde se passar 2 rodadas consecutivas sem atacar |
 
-**Bônus de Set:**
-- *2 peças:* Frenezi acumula 2 stacks por acerto (em vez de 1)
-- *5 peças:* Com Frenezi no máximo: Dupla Empunhadura pode ser usada como Ação Livre (◇) — use ◈◈ E ◇ para três ataques no mesmo turno
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Frenezi acumula 2 stacks por acerto (em vez de 1)
+    - **5 peças —** Com Frenezi no máximo: Dupla Empunhadura pode ser usada como Ação Livre (◇) — use ◈◈ E ◇ para três ataques no mesmo turno
 
 ---
 
@@ -152,9 +152,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Luvas do Relâmpago** | Luvas — Couro | \+1 dano desarmado; Alcance Mortal pode atingir alvo Distante (em vez de Próximo) |
 | **Passos da Tempestade** | Botas — Couro | \+1 CA; Pés Ligeiros custa 0 Mana |
 
-**Bônus de Set:**
-- *2 peças:* Alcance Mortal ativa **Espírito em Fluxo** — você recupera 1 Mana ao acertá-lo, como se fosse um ataque físico
-- *4 peças:* Pés Ligeiros torna-se Ação Livre (◇) — pode ser ativado sem gastar ◈
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Alcance Mortal ativa **Espírito em Fluxo** — você recupera 1 Mana ao acertá-lo, como se fosse um ataque físico
+    - **4 peças —** Pés Ligeiros torna-se Ação Livre (◇) — pode ser ativado sem gastar ◈
 
 ---
 
@@ -167,9 +167,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Perneiras de Sun Wuko** | Perneiras — Couro | \+1 CA; Mantra de Evasão concede \+2 CA em vez de \+1 a você e aliados |
 | **Amuleto do Macaco Sagrado** | Amuleto | ao acertar Onda de Luz, todos os alvos têm Desvantagem em ataques até o início do próximo turno do Monge |
 
-**Bônus de Set:**
-- *2 peças:* Onda de Luz torna-se ◈ em vez de ◈◈ — tempo de conjuração reduzido
-- *4 peças:* Onda de Luz invoca o **Sino** no campo de batalha por 1d4 rodadas. O Sino ocupa uma posição Próximo à sua escolha (CA 10, indestrutível). Sempre que o Monge ou um aliado atacar o Sino, ele reativa — causando o dano completo da Onda de Luz em todos os inimigos Próximo ao Sino. Pode ser reativado múltiplas vezes até o fim da duração.
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Onda de Luz torna-se ◈ em vez de ◈◈ — tempo de conjuração reduzido
+    - **4 peças —** Onda de Luz invoca o **Sino** no campo de batalha por 1d4 rodadas. O Sino ocupa uma posição Próximo à sua escolha (CA 10, indestrutível). Sempre que o Monge ou um aliado atacar o Sino, ele reativa — causando o dano completo da Onda de Luz em todos os inimigos Próximo ao Sino. Pode ser reativado múltiplas vezes até o fim da duração.
 
 ---
 
@@ -183,9 +183,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Luvas de Inna** | Luvas — Couro | \+1 dano desarmado; Mantra de Retribuição — *sem o talento:* set concede acesso; *com o talento:* também protege 1 aliado Próximo escolhido |
 | **Anel de Inna** | Anel | ao usar Mantra da Cura, recupere 1d4 Mana |
 
-**Bônus de Set:**
-- *2 peças:* Mantra da Cura torna-se Ação Livre (◇) uma vez por cena
-- *5 peças:* sempre que o Monge usar Mantra da Cura, todos os alvos curados ganham Mantra de Retribuição por 1 rodada — o próximo inimigo que os acertar sofre 1d4 Radiante de volta
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Mantra da Cura torna-se Ação Livre (◇) uma vez por cena
+    - **5 peças —** sempre que o Monge usar Mantra da Cura, todos os alvos curados ganham Mantra de Retribuição por 1 rodada — o próximo inimigo que os acertar sofre 1d4 Radiante de volta
 
 ---
 
@@ -198,9 +198,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Luvas de Uliana** | Luvas — Couro | \+1 dano desarmado; o primeiro ataque do Sete Lados aplica Palma Explosiva automaticamente no alvo |
 | **Anel de Uliana** | Anel | Sete Lados — *sem o talento:* set concede acesso com 5 ataques em vez de 7; *com o talento:* custa ◈◈ em vez de ◈◈◈ |
 
-**Bônus de Set:**
-- *2 peças:* Sete Lados — *sem o talento:* custa ◈◈◈ (acesso completo com 7 ataques); *com o talento:* custa ◈◈
-- *4 peças:* Sete Lados pode ser usado como Ação Livre (◇) uma vez por cena — como resposta imediata ao sofrer dano
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Sete Lados — *sem o talento:* custa ◈◈◈ (acesso completo com 7 ataques); *com o talento:* custa ◈◈
+    - **4 peças —** Sete Lados pode ser usado como Ação Livre (◇) uma vez por cena — como resposta imediata ao sofrer dano
 
 ---
 
@@ -213,9 +213,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Perneiras da Justiça** | Perneiras — Couro | \+1 CA; após usar Ímpeto, seu próximo ataque desarmado causa \+2d6 dano Físico |
 | **Botas da Justiça** | Botas — Couro | \+1 CA; ao usar Ciclone, todos os inimigos puxados sofrem 1d6 de dano Físico imediato |
 
-**Bônus de Set:**
-- *2 peças:* Ímpeto torna-se ◈ em vez de ◈◈ — mover-se para Próximo e atacar com Vantagem numa única ação
-- *4 peças:* Ciclone torna-se Ação Livre (◇) — pode ser usado sem gastar ◈, mantendo o turno inteiro para atacar
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Ímpeto torna-se ◈ em vez de ◈◈ — mover-se para Próximo e atacar com Vantagem numa única ação
+    - **4 peças —** Ciclone torna-se Ação Livre (◇) — pode ser usado sem gastar ◈, mantendo o turno inteiro para atacar
 
 ---
 
@@ -230,9 +230,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Hwanin's Refuge** | Peitoral — Cota de Malha | \+2 CA; Comunhão com Guardiões: escolha 2 Guardiões no início do combate em vez de 1 |
 | **Hwanin's Blessing** | Cinto | 4 slots; Frenesi de Fogo — *sem o talento:* set concede acesso; *com o talento:* ação extra dura 1d4\+2 rodadas em vez de 1d4 |
 
-**Bônus de Set:**
-- *2 peças:* Voo da Águia custa 3 Mana a menos (3 Mana em vez de 6)
-- *4 peças:* enquanto 2+ Guardiões estiverem ativos, Voo da Águia custa 0 Mana uma vez por cena
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Voo da Águia custa 3 Mana a menos (3 Mana em vez de 6)
+    - **4 peças —** enquanto 2+ Guardiões estiverem ativos, Voo da Águia custa 0 Mana uma vez por cena
 
 ---
 
@@ -247,9 +247,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Aldur's Rhythm** | Cajado (1d6) | \+2 conjuração; Fissura — *sem o talento:* set concede acesso; *com o talento:* dura 1d4\+2 rodadas |
 | **Aldur's Advance** | Amuleto | \+2 SAB; enquanto transformado, seus feitiços elementais causam \+1d4 do mesmo tipo de dano |
 
-**Bônus de Set:**
-- *2 peças:* Transmutar custa 1 Mana a menos e a forma dura a cena inteira sem precisar ser reativada
-- *4 peças:* enquanto transformado, Armagedão custa 4 Mana a menos (4 Mana em vez de 8)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Transmutar custa 1 Mana a menos e a forma dura a cena inteira sem precisar ser reativada
+    - **4 peças —** enquanto transformado, Armagedão custa 4 Mana a menos (4 Mana em vez de 8)
 
 ---
 
@@ -261,9 +261,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Cow King's Hide** | Peitoral — Brunea | \+2 CA, RD 1; Chamado do Urso Pardo — *sem o talento:* set concede acesso; *com o talento:* Urso Espiritual tem CA 17 e HP = Nível×4 |
 | **Cow King's Hooves** | Perneiras — Brunea | \+1 CA; Coração de Wolverine — *sem o talento:* set concede acesso; *com o talento:* bônus para aliados sobe de \+1 para \+2 |
 
-**Bônus de Set:**
-- *2 peças:* ressuscitar Espírito Animal custa 0 Mana e é ação livre (◇)
-- *3 peças:* você pode ter 1 Lobo/Corvo Espiritual e 1 Urso Espiritual ativos simultaneamente
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** ressuscitar Espírito Animal custa 0 Mana e é ação livre (◇)
+    - **3 peças —** você pode ter 1 Lobo/Corvo Espiritual e 1 Urso Espiritual ativos simultaneamente
 
 ---
 
@@ -278,9 +278,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Jade Harvester's Joy** | Perneiras | \+1 CA; Nuvem de Gafanhotos causa \+1d6 extra no primeiro turno de cada alvo |
 | **Jade Harvester's Mercy** | Luvas | \+1 conjuração; ao usar Colheita de Almas, cada inimigo drenado também recebe Veneno (1d4/turno, 3 turnos) |
 
-**Bônus de Set:**
-- *2 peças:* Mestre das Pragas: veneno dura \+2 rodadas a mais (em vez de \+1)
-- *4 peças:* ao usar Colheita de Almas, cada inimigo drenado explode em nuvem de veneno — todos os Adjacentes ao alvo sofrem 1d6 Veneno imediato
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Mestre das Pragas: veneno dura \+2 rodadas a mais (em vez de \+1)
+    - **4 peças —** ao usar Colheita de Almas, cada inimigo drenado explode em nuvem de veneno — todos os Adjacentes ao alvo sofrem 1d6 Veneno imediato
 
 ---
 
@@ -294,9 +294,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Zunimassa's Trail** | Perneiras | \+1 CA; Cães Zumbis e Gargântua não provocam ataques de oportunidade ao se mover |
 | **Zunimassa's Pox** | Cinto | 4 slots; ao matar com lacaio, ele explode em 1d6 Necrótico para todos Adjacentes |
 
-**Bônus de Set:**
-- *2 peças:* você começa com 3 Cães Zumbis (em vez de 2)
-- *5 peças:* agir com todos os lacaios (◈) torna-se Ação Livre (◇) — você comanda a horda e ainda age normalmente
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** você começa com 3 Cães Zumbis (em vez de 2)
+    - **5 peças —** agir com todos os lacaios (◈) torna-se Ação Livre (◇) — você comanda a horda e ainda age normalmente
 
 ---
 
@@ -309,9 +309,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Helltooth Gauntlets** | Luvas | \+1 conjuração; Garras dos Mortos — *sem o talento:* set concede acesso; *com o talento:* prende por 1d4\+2 rodadas e causa \+1d4 extra |
 | **Helltooth Leg Guards** | Perneiras | \+1 CA; inimigos presos pelas Garras dos Mortos têm Desvantagem em todos os testes enquanto presos |
 
-**Bônus de Set:**
-- *2 peças:* Garras dos Mortos e Parede de Zumbis custam 1 Mana a menos cada
-- *4 peças:* inimigos Adjacentes à Parede de Zumbis ficam automaticamente presos pelas Garras dos Mortos (sem custo adicional) — a combinação é Ação Livre (◇) se ambas já estiverem ativas
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Garras dos Mortos e Parede de Zumbis custam 1 Mana a menos cada
+    - **4 peças —** inimigos Adjacentes à Parede de Zumbis ficam automaticamente presos pelas Garras dos Mortos (sem custo adicional) — a combinação é Ação Livre (◇) se ambas já estiverem ativas
 
 ---
 
@@ -325,9 +325,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Arachyr's Legs** | Perneiras | \+1 CA; ao se dissipar, qualquer área ativa causa 1d8 Veneno em todos ainda dentro dela |
 | **Arachyr's Girdle** | Cinto | 4 slots; ao ativar qualquer habilidade de área, recupere 1d4 Mana |
 
-**Bônus de Set:**
-- *2 peças:* Invasão de Sapos e Nuvem de Gafanhotos podem estar ativas simultaneamente
-- *5 peças:* ao ativar qualquer habilidade de área, todas as áreas ativas causam seu dano imediatamente em todos os inimigos dentro delas — efeito em cascata uma vez por turno como Ação Livre (◇)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Invasão de Sapos e Nuvem de Gafanhotos podem estar ativas simultaneamente
+    - **5 peças —** ao ativar qualquer habilidade de área, todas as áreas ativas causam seu dano imediatamente em todos os inimigos dentro delas — efeito em cascata uma vez por turno como Ação Livre (◇)
 
 ---
 
@@ -342,9 +342,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Tancred's Crowbill** | Machado de Mão (1d6) | \+2 Ataque; ao matar com habilidade de Ódio, recupera 1d6 Mana (em vez de 1d4) |
 | **Tancred's Weird** | Amuleto | Inimigo Jurado: Vantagem também contra Bestas e Humanoides Corrompidos |
 
-**Bônus de Set:**
-- *2 peças:* usar habilidade de Disciplina seguida de habilidade de Ódio no mesmo turno não provoca ataques de oportunidade
-- *4 peças:* toda vez que você usar uma habilidade de Disciplina, a próxima habilidade de Ódio do turno é Ação Livre (◇)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** usar habilidade de Disciplina seguida de habilidade de Ódio no mesmo turno não provoca ataques de oportunidade
+    - **4 peças —** toda vez que você usar uma habilidade de Disciplina, a próxima habilidade de Ódio do turno é Ação Livre (◇)
 
 ---
 
@@ -358,9 +358,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Marauder's Encasement** | Perneiras | \+1 CA; Sentinelas disparam também quando um inimigo sair do alcance |
 | **Marauder's Spines** | Cinto | 4 slots; ao colocar uma Sentinela, todas as Sentinelas ativas disparam imediatamente em inimigos Próximo |
 
-**Bônus de Set:**
-- *2 peças:* você pode ter até 3 Sentinelas ativas simultaneamente (em vez de 1)
-- *5 peças:* Sentinelas tornam-se permanentes até serem destruídas — não são mais de uso único; cada uma tem CA 12 e HP = Nível
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** você pode ter até 3 Sentinelas ativas simultaneamente (em vez de 1)
+    - **5 peças —** Sentinelas tornam-se permanentes até serem destruídas — não são mais de uso único; cada uma tem CA 12 e HP = Nível
 
 ---
 
@@ -374,9 +374,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Unhallowed Breeches** | Perneiras | \+1 CA; Salto Mortal — *sem o talento:* set concede acesso; *com o talento:* custa 0 Mana |
 | **Unhallowed Burden** | Cinto | 4 slots; ao zerar Mana, recupera 3 Mana imediatamente (uma vez por cena) |
 
-**Bônus de Set:**
-- *2 peças:* habilidades de Ódio custam 1 Mana a menos (adicional ao desconto de Disciplina — podem chegar a 0)
-- *5 peças:* quando o desconto de Disciplina está ativo, todas as habilidades de Ódio do turno custam 0 Mana
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** habilidades de Ódio custam 1 Mana a menos (adicional ao desconto de Disciplina — podem chegar a 0)
+    - **5 peças —** quando o desconto de Disciplina está ativo, todas as habilidades de Ódio do turno custam 0 Mana
 
 ---
 
@@ -389,9 +389,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Dreadlands Gloves** | Luvas | \+2 ataque; Bestas de Mão — *sem o talento:* set concede acesso; *com o talento:* o ataque extra causa \+1d6 Físico |
 | **Dreadlands Breeches** | Perneiras | \+1 CA; ao usar Salto Mortal seguido de ataque no mesmo turno, o ataque tem Vantagem e causa \+1d8 Físico |
 
-**Bônus de Set:**
-- *2 peças:* Tiro Rápido torna-se ◈ em vez de ◈◈ — mover e atacar duas vezes numa única ação
-- *4 peças:* Tiro Rápido torna-se Ação Livre (◇) — use ◈◈ para dois ataques normais e ◇ para Tiro Rápido no mesmo turno
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Tiro Rápido torna-se ◈ em vez de ◈◈ — mover e atacar duas vezes numa única ação
+    - **4 peças —** Tiro Rápido torna-se Ação Livre (◇) — use ◈◈ para dois ataques normais e ◇ para Tiro Rápido no mesmo turno
 
 ---
 
@@ -406,9 +406,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Arcanna's Flesh** | Peitoral (Leve) | \+2 CA; Saque de Mana — *sem o talento:* set concede acesso; *com o talento:* bônus sobe para \+3 no próximo teste |
 | **Arcanna's Amulet** | Amuleto | \+1 conjuração; 1×/cena, ao falhar num teste de conjuração, o feitiço não é desperdiçado — pode tentar novamente na próxima rodada sem custo |
 
-**Bônus de Set:**
-- *2 peças:* Sobrecarga Sanguínea: o dano sofrido é reduzido pelo seu modificador de INT (mín. 1 HP)
-- *4 peças:* Sobrecarga Sanguínea torna-se gratuita uma vez por cena — passe automaticamente sem sofrer dano
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Sobrecarga Sanguínea: o dano sofrido é reduzido pelo seu modificador de INT (mín. 1 HP)
+    - **4 peças —** Sobrecarga Sanguínea torna-se gratuita uma vez por cena — passe automaticamente sem sofrer dano
 
 ---
 
@@ -421,9 +421,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Firebird's Talons** | Luvas | \+1 conjuração; Parede de Fogo — *sem o talento:* set concede acesso; *com o talento:* custa 2 Mana a menos |
 | **Firebird's Tarsi** | Perneiras | \+1 CA; inimigos que morrerem queimando explodem em 1d8 Fogo para todos Adjacentes |
 
-**Bônus de Set:**
-- *2 peças:* se sua Afinidade Elemental for Fogo, Mestria Elemental explode também no penúltimo valor em feitiços de Fogo; se não for Fogo, você passa a ter Vantagem em feitiços de Fogo
-- *4 peças:* 1×/cena, ao atingir 0 HP, o Mago explode em chamas — todos os inimigos Adjacentes sofrem 3d6 Fogo e o Mago ressurge com HP = Mod. INT × 2 (Fênix)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** se sua Afinidade Elemental for Fogo, Mestria Elemental explode também no penúltimo valor em feitiços de Fogo; se não for Fogo, você passa a ter Vantagem em feitiços de Fogo
+    - **4 peças —** 1×/cena, ao atingir 0 HP, o Mago explode em chamas — todos os inimigos Adjacentes sofrem 3d6 Fogo e o Mago ressurge com HP = Mod. INT × 2 (Fênix)
 
 ---
 
@@ -437,9 +437,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Delsere's Endless Walk** | Perneiras | \+1 CA; Nova de Gelo — *sem o talento:* set concede acesso; *com o talento:* inimigos congelados ficam vulneráveis (\+2 de dano de todas as fontes) |
 | **Delsere's Shelter** | Cinto | 4 slots; ao conjurar qualquer feitiço de Gelo, recupera 1 Mana |
 
-**Bônus de Set:**
-- *2 peças:* se sua Afinidade Elemental for Gelo, Mestria Elemental explode também no penúltimo valor em feitiços de Gelo; se não for Gelo, você passa a ter Vantagem em feitiços de Gelo
-- *5 peças:* Orbe Congelada torna-se Ação Livre (◇) — conjure-a sem gastar ◈, mantendo o turno inteiro para outros feitiços
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** se sua Afinidade Elemental for Gelo, Mestria Elemental explode também no penúltimo valor em feitiços de Gelo; se não for Gelo, você passa a ter Vantagem em feitiços de Gelo
+    - **5 peças —** Orbe Congelada torna-se Ação Livre (◇) — conjure-a sem gastar ◈, mantendo o turno inteiro para outros feitiços
 
 ---
 
@@ -452,9 +452,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Typhon's Scales** | Luvas | \+1 conjuração; Cadeia de Raios — *sem o talento:* set concede acesso; *com o talento:* salta para até 5 inimigos em vez de 3 |
 | **Typhon's Stride** | Perneiras | \+1 CA; enquanto Hidra estiver ativa, feitiços de Relâmpago custam 1 Mana a menos |
 
-**Bônus de Set:**
-- *2 peças:* se sua Afinidade Elemental for Relâmpago, Mestria Elemental explode também no penúltimo valor em feitiços de Relâmpago; se não for Relâmpago, você passa a ter Vantagem em feitiços de Relâmpago
-- *4 peças:* Hidra torna-se permanente até ser destruída (CA 12, HP = Nível×2) — e cada vez que o Mago conjurar um feitiço, todas as cabeças ativas disparam imediatamente como Ação Livre (◇)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** se sua Afinidade Elemental for Relâmpago, Mestria Elemental explode também no penúltimo valor em feitiços de Relâmpago; se não for Relâmpago, você passa a ter Vantagem em feitiços de Relâmpago
+    - **4 peças —** Hidra torna-se permanente até ser destruída (CA 12, HP = Nível×2) — e cada vez que o Mago conjurar um feitiço, todas as cabeças ativas disparam imediatamente como Ação Livre (◇)
 
 ---
 
@@ -467,9 +467,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Lidless Wall** | Peitoral — Brunea | Mestria Elemental explode também no penúltimo valor (d6: 5–6; d8: 7–8; d10: 9–10) |
 | **Wrapping** | Perneiras — Brunea | \+1 CA; \+1d4 dano ao elemento da Afinidade Elemental |
 
-**Bônus de Set:**
-- *2 peças:* \+1 em todos os testes de conjuração
-- *4 peças:* Afinidade Elemental aplica-se aos 3 elementos simultaneamente — Vantagem com Fogo, Gelo e Relâmpago
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** \+1 em todos os testes de conjuração
+    - **4 peças —** Afinidade Elemental aplica-se aos 3 elementos simultaneamente — Vantagem com Fogo, Gelo e Relâmpago
 
 ---
 
@@ -484,9 +484,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Cathan's Visage** | Elmo — Couro | \+1 CA, \+2 INT; limite máximo do Dínamo Arcano sobe em \+2 |
 | **Cathan's Seal** | Anel | \+1 conjuração; cada Carga Arcana gasta concede \+3 dano em vez de \+2 |
 
-**Bônus de Set:**
-- *2 peças:* enquanto imóvel, você acumula 1 Carga Arcana extra por turno automaticamente
-- *4 peças:* Mísseis Arcanos pode ser usado como ◇ (ação livre) uma vez por turno se você não se moveu
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** enquanto imóvel, você acumula 1 Carga Arcana extra por turno automaticamente
+    - **4 peças —** Mísseis Arcanos pode ser usado como ◇ (ação livre) uma vez por turno se você não se moveu
 
 ---
 
@@ -498,9 +498,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Naj's Light Plate** | Peitoral — Couro Reforçado | \+2 CA; Lente Arcana — *sem o talento:* set concede acesso; *com o talento:* feitiços com alcance Distante ignoram cobertura e podem afetar alvos além de Distante se visíveis |
 | **Naj's Circlet** | Elmo — Couro | \+1 CA, \+2 INT; após usar Teleporte, seu próximo feitiço tem Vantagem no teste de conjuração |
 
-**Bônus de Set:**
-- *2 peças:* Teleporte custa 0 Mana
-- *3 peças:* ao se teleportar, você pode levar 1 aliado Próximo junto (sem custo extra)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Teleporte custa 0 Mana
+    - **3 peças —** ao se teleportar, você pode levar 1 aliado Próximo junto (sem custo extra)
 
 ---
 
@@ -513,9 +513,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Vyr's Sightless Skull** | Elmo — Couro | \+1 CA, \+2 INT; Arconte dura 1d4\+2 rodadas em vez de 1d4 |
 | **Vyr's Swaggering Stance** | Perneiras — Couro | \+1 CA; durante Arconte, Dínamo Arcano acumula 2 Cargas por teste bem-sucedido em vez de 1 |
 
-**Bônus de Set:**
-- *2 peças:* ao entrar em Arconte, recupera 3 de Mana imediatamente
-- *4 peças:* Arconte pode ser ativado sem custo de Mana uma vez por descanso longo
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** ao entrar em Arconte, recupera 3 de Mana imediatamente
+    - **4 peças —** Arconte pode ser ativado sem custo de Mana uma vez por descanso longo
 
 ---
 
@@ -530,9 +530,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Totem** | Elmo — Couro | \+1 CA, \+2 DES |
 | **Mark** | Botas — Couro | \+1 CA; mover não provoca ataques de oportunidade |
 
-**Bônus de Set:**
-- *2 peças:* Finalizadores com 3+ Cargas custam 0 Mana
-- *4 peças:* Finalizadores com 3 Cargas tornam-se Ação Livre (◇) — você ataca com ◈ e ainda usa o Finalizador no mesmo turno
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Finalizadores com 3+ Cargas custam 0 Mana
+    - **4 peças —** Finalizadores com 3 Cargas tornam-se Ação Livre (◇) — você ataca com ◈ e ainda usa o Finalizador no mesmo turno
 
 ---
 
@@ -546,9 +546,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Death's Guard** | Cinto | 4 slots; enquanto com Veneno ativo na arma, você ganha RD 1 Veneno |
 | **Death's Touch** | Espada Longa (1d8) | \+1 Ataque, Finesse; acertos com Veneno na arma: efeito persiste por \+1 rodada extra |
 
-**Bônus de Set:**
-- *2 peças:* Imbuimento Rápido custa 0 Mana
-- *3 peças:* ao matar um inimigo envenenado, recupera 1d4 HP e o Veneno salta para o inimigo Adjacente mais próximo
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Imbuimento Rápido custa 0 Mana
+    - **3 peças —** ao matar um inimigo envenenado, recupera 1d4 HP e o Veneno salta para o inimigo Adjacente mais próximo
 
 ---
 
@@ -561,9 +561,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Visage of Shadows** | Elmo — Couro | \+1 CA; Ocultamento — *sem o talento:* set concede acesso; *com o talento:* funciona em movimento (não precisa ficar imóvel) |
 | **Feet of the Shadow** | Perneiras — Couro | \+1 CA; Ímpeto — *sem o talento:* set concede acesso; *com o talento:* ao final do Ímpeto você se esconde automaticamente (sem teste) |
 
-**Bônus de Set:**
-- *2 peças:* Passo de Sombra pode ser usado como ◇ (reação) ao receber um ataque — você se teleporta e o ataque erra
-- *4 peças:* o Ataque Furtivo imediatamente após um Passo de Sombra causa dano máximo (sem rolar dado), uma vez por cena
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Passo de Sombra pode ser usado como ◇ (reação) ao receber um ataque — você se teleporta e o ataque erra
+    - **4 peças —** o Ataque Furtivo imediatamente após um Passo de Sombra causa dano máximo (sem rolar dado), uma vez por cena
 
 ---
 
@@ -577,9 +577,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Sazabi's Cobalt Redeemer** | Lança (1d8) | \+2 Ataque, Haste; Mestre da Lança: o ataque com a ponta inversa causa 1d6 em vez de 1d4 |
 | **Sazabi's Ghost Liberator** | Peitoral — Placa Completa | \+2 CA, RD 2; Sudário da Noite — *sem o talento:* set concede acesso; *com o talento:* a aparição sombria causa dano adicional igual ao Mod. CON |
 
-**Bônus de Set:**
-- *2 peças:* ao matar um inimigo com arma de haste, recupera 1d4 HP (cumulativo com Sifão de Sangue)
-- *3 peças:* Sudário da Noite custa 0 Mana uma vez por cena
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** ao matar um inimigo com arma de haste, recupera 1d4 HP (cumulativo com Sifão de Sangue)
+    - **3 peças —** Sudário da Noite custa 0 Mana uma vez por cena
 
 ---
 
@@ -592,9 +592,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Invoker's Casque** | Elmo — Placa Completa | \+1 CA, \+2 CON; Sifão de Sangue: ao recuperar HP, o inimigo perde 1 HP extra (retaliação passiva) |
 | **Invoker's Sequined Tabard** | Perneiras — Placa Completa | \+2 CA; Vigor Maléfico — *sem o talento:* set concede acesso; *com o talento:* HP Temporário sobe para 1d10 |
 
-**Bônus de Set:**
-- *2 peças:* Espinhos de Sangue ativa automaticamente como ◇ sempre que sofrer dano (sem gastar reação)
-- *4 peças:* enquanto tiver HP Temporário ativo, Sifão de Sangue recupera 1d4 HP adicionais em cada acerto
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Espinhos de Sangue ativa automaticamente como ◇ sempre que sofrer dano (sem gastar reação)
+    - **4 peças —** enquanto tiver HP Temporário ativo, Sifão de Sangue recupera 1d4 HP adicionais em cada acerto
 
 ---
 
@@ -608,9 +608,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Grasp of the Dead** | Luvas — Couro | \+1 conjuração; Marca da Morte — *sem o talento:* set concede acesso; *com o talento:* teletransporta todos os demônios de uma vez por 1 Mana total |
 | **Infernal Sign** | Amuleto | \+2 CAR; Consumir — *sem o talento:* set concede acesso; *com o talento:* também recupera 1d4 Mana ao sacrificar um demônio |
 
-**Bônus de Set:**
-- *2 peças:* demônios são invocados com HP máximo sem custo extra
-- *3 peças:* você pode ter 1 demônio extra de qualquer tipo (além do limite de um por tipo)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** demônios são invocados com HP máximo sem custo extra
+    - **3 peças —** você pode ter 1 demônio extra de qualquer tipo (além do limite de um por tipo)
 
 ---
 
@@ -623,9 +623,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Wilhelm's Pride** | Cinto | 4 slots; Pacto de Sangue: recupera 1d6 Mana em vez de 1d4 (cumulativo com Grimório) |
 | **Orphan's Sigil** | Amuleto | \+2 CAR; Mestre das Maldições: inimigos malditos também têm −1 CA enquanto a maldição durar |
 
-**Bônus de Set:**
-- *2 peças:* Pacto de Sangue não custa HP — apenas recupera 1d4 Mana, uma vez por rodada
-- *4 peças:* Forma Demoníaca custa 4 Mana a menos (4 Mana em vez de 8) e dura 1d4\+2 rodadas
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Pacto de Sangue não custa HP — apenas recupera 1d4 Mana, uma vez por rodada
+    - **4 peças —** Forma Demoníaca custa 4 Mana a menos (4 Mana em vez de 8) e dura 1d4\+2 rodadas
 
 ---
 
@@ -641,9 +641,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Claws** | Luvas — Couro Reforçado | Feitiços de Necrótico/Veneno \+1d4; ao matar com feitiço, refunde 1 Mana |
 | **Girth** | Cinto | 4 slots; \+2 limite de lacaios; Levantar Mortos ergue 1d4+1 esqueletos |
 
-**Bônus de Set:**
-- *2 peças:* Levantar Mortos não precisa de cadáveres próximos — ergue esqueletos do chão mesmo sem corpos
-- *5 peças:* Lacaios irradiam Maldizar — inimigos Adjacentes a qualquer lacaio seu sofrem \+2 de dano de todas as fontes
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Levantar Mortos não precisa de cadáveres próximos — ergue esqueletos do chão mesmo sem corpos
+    - **5 peças —** Lacaios irradiam Maldizar — inimigos Adjacentes a qualquer lacaio seu sofrem \+2 de dano de todas as fontes
 
 ---
 
@@ -656,9 +656,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Sander's Riprap** | Perneiras | \+1 CA; inimigos sob Maldizar que morrerem Próximo são automaticamente elegíveis para Levantar Mortos (sem precisar de cadáver) |
 | **Sander's Paragon** | Luvas | \+1 conjuração; ao usar Drenar Vida num inimigo envenenado, cura o dobro do dano causado |
 
-**Bônus de Set:**
-- *2 peças:* Maldizar passa a afetar inimigos Distante (em vez de só Próximo)
-- *4 peças:* inimigos sob Maldizar que sofrerem Drenar Vida têm a duração do veneno reiniciada — ciclo de dano sustentado sem custo adicional
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Maldizar passa a afetar inimigos Distante (em vez de só Próximo)
+    - **4 peças —** inimigos sob Maldizar que sofrerem Drenar Vida têm a duração do veneno reiniciada — ciclo de dano sustentado sem custo adicional
 
 ---
 
@@ -672,9 +672,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Rathma's Ossified Sabatons** | Perneiras | \+1 CA; ao usar Reviver, todos os lacaios ativos ganham \+2 dano e \+3 HP até o fim da cena |
 | **Rathma's Macabre Vambraces** | Cinto | 4 slots; agir com todos os lacaios (◈) inclui Golem e criaturas de Reviver automaticamente |
 
-**Bônus de Set:**
-- *2 peças:* Golem de Argila e criaturas de Reviver não contam para o limite de Comandante da Horda
-- *5 peças:* ao usar Reviver, o monstro ressuscitado mantém todos os seus atributos originais (não usa estatísticas de esqueleto padrão)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Golem de Argila e criaturas de Reviver não contam para o limite de Comandante da Horda
+    - **5 peças —** ao usar Reviver, o monstro ressuscitado mantém todos os seus atributos originais (não usa estatísticas de esqueleto padrão)
 
 ---
 
@@ -687,9 +687,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Pestilence Gloves** | Luvas | \+1 conjuração; ao usar Explosão de Cadáver num esqueleto seu, recupera 1d4 Mana |
 | **Pestilence Boots** | Perneiras | \+1 CA; ao usar Lança de Osso em inimigo sob Maldizar, a lança retorna e pode ser relançada como Ação Livre (◇) no mesmo turno |
 
-**Bônus de Set:**
-- *2 peças:* Explosão de Cadáver e Lança de Osso custam 1 Mana a menos cada
-- *4 peças:* ao destruir um esqueleto próprio com Explosão de Cadáver, invoca automaticamente um novo esqueleto das cinzas no mesmo local (não conta como ação)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Explosão de Cadáver e Lança de Osso custam 1 Mana a menos cada
+    - **4 peças —** ao destruir um esqueleto próprio com Explosão de Cadáver, invoca automaticamente um novo esqueleto das cinzas no mesmo local (não conta como ação)
 
 ---
 
@@ -703,9 +703,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Inarius's Reticence** | Luvas | \+1 conjuração; Escudo de Almas — *sem o talento:* set concede acesso; *com o talento:* pode ser usado sem sacrificar o esqueleto uma vez por cena |
 | **Inarius's Will** | Cinto | 4 slots; ao usar Escudo de Almas, recupera 1d6 Mana |
 
-**Bônus de Set:**
-- *2 peças:* Armadura de Ossos concede \+5 CA em vez de \+3
-- *5 peças:* enquanto Armadura de Ossos estiver ativa, você tem RD 3 contra todo tipo de dano
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Armadura de Ossos concede \+5 CA em vez de \+3
+    - **5 peças —** enquanto Armadura de Ossos estiver ativa, você tem RD 3 contra todo tipo de dano
 
 ---
 
@@ -719,9 +719,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Hsaru's Iron Heel** | Perneiras | \+1 CA; Esmagar com Escudo — *sem o talento:* set concede acesso; *com o talento:* o alvo derrubado também fica atordoado até o início do próximo turno (Desvantagem em testes) |
 | **Hsaru's Iron Fist** | Escudo | \+3 CA, Quebrável; Punição — *sem o talento:* set concede acesso; *com o talento:* causa \+1d8 Radiante em vez de \+1d6 |
 
-**Bônus de Set:**
-- *2 peças:* o bônus de CA extra do Mestre do Escudo sobe para \+2 (em vez de \+1)
-- *3 peças:* ao usar ataque de escudo, o empurrão automaticamente derruba o alvo (sem salvaguarda)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** o bônus de CA extra do Mestre do Escudo sobe para \+2 (em vez de \+1)
+    - **3 peças —** ao usar ataque de escudo, o empurrão automaticamente derruba o alvo (sem salvaguarda)
 
 ---
 
@@ -735,9 +735,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Roland's Stride** | Perneiras | \+1 CA; após usar Espada Cadente, seu próximo ataque de escudo custa 0 Mana |
 | **Roland's Determination** | Cinto | 4 slots; Investida de Corcel não gasta ação de movimento — você ainda pode se mover normalmente no turno |
 
-**Bônus de Set:**
-- *2 peças:* Investida de Corcel torna-se ◈ sem restrição de movimento (não consome seu deslocamento do turno)
-- *5 peças:* Espada Cadente torna-se Ação Livre (◇) uma vez por cena — use ◈◈ para dois ataques normais e ainda caia sobre os inimigos
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Investida de Corcel torna-se ◈ sem restrição de movimento (não consome seu deslocamento do turno)
+    - **5 peças —** Espada Cadente torna-se Ação Livre (◇) uma vez por cena — use ◈◈ para dois ataques normais e ainda caia sobre os inimigos
 
 ---
 
@@ -750,9 +750,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Seeker's Gloves** | Luvas | \+2 ataque; Julgamento — *sem o talento:* set concede acesso; *com o talento:* imobiliza até 3 inimigos de uma vez pelo mesmo custo |
 | **Seeker's Greaves** | Perneiras | \+1 CA; inimigos imobilizados por Julgamento recebem dano do Martelo Abençoado automaticamente no início de cada turno |
 
-**Bônus de Set:**
-- *2 peças:* Martelo Abençoado passa a girar em Próximo (em vez de só Adjacente)
-- *4 peças:* Martelo Abençoado torna-se Ação Livre (◇) — conjure-o sem gastar ◈ e ainda ataque normalmente no mesmo turno
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Martelo Abençoado passa a girar em Próximo (em vez de só Adjacente)
+    - **4 peças —** Martelo Abençoado torna-se Ação Livre (◇) — conjure-o sem gastar ◈ e ainda ataque normalmente no mesmo turno
 
 ---
 
@@ -765,9 +765,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Valor's Gauntlets** | Luvas | \+2 ataque; enquanto Campeão de Akarat estiver ativo, todos os ataques causam \+1d6 Radiante extra |
 | **Valor's Greaves** | Perneiras | \+1 CA; ao usar Fúria Sagrada, Campeão de Akarat custa 4 Mana a menos neste turno |
 
-**Bônus de Set:**
-- *2 peças:* Fúria Sagrada e Campeão de Akarat podem estar ativos simultaneamente
-- *4 peças:* enquanto Campeão de Akarat estiver ativo, Fúria Sagrada torna-se Ação Livre (◇) — cada turno você pode atacar E ativar Fúria Sagrada sem custo de ação
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Fúria Sagrada e Campeão de Akarat podem estar ativos simultaneamente
+    - **4 peças —** enquanto Campeão de Akarat estiver ativo, Fúria Sagrada torna-se Ação Livre (◇) — cada turno você pode atacar E ativar Fúria Sagrada sem custo de ação
 
 ---
 
@@ -780,8 +780,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Bul-Kathos' Sacred Charge** | Espada Montante (2d10) | \+2 Ataque, Brutal; Mestria em Armas: o bônus de \+1d4 sobe para \+1d6 ao acertar com Vantagem |
 | **Bul-Kathos' Tribal Guardian** | Espada Longa (1d8) | \+2 Ataque, Finesse; ao usar ambas as espadas do set, Mestria em Armas aplica-se às duas |
 
-**Bônus de Set:**
-- *2 peças:* ao atacar com ambas as espadas no mesmo turno, o segundo ataque também tem Vantagem se o primeiro acertou
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** ao atacar com ambas as espadas no mesmo turno, o segundo ataque também tem Vantagem se o primeiro acertou
 
 ---
 
@@ -793,9 +793,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Cleglaw's Claw** | Luvas | \+1 ataque; Postura Defensiva — *sem o talento:* set concede acesso; *com o talento:* custa apenas ◈ (em vez de ◈◈) |
 | **Cleglaw's Pincers** | Escudo | \+2 CA, Quebrável; ao derrubar um inimigo com Golpe de Escudo, todos os Adjacentes a ele fazem SAL. DES (DC 10 \+ Mod. FOR) ou também caem |
 
-**Bônus de Set:**
-- *2 peças:* Golpe de Escudo e Postura Defensiva custam 0 Mana
-- *3 peças:* ao usar Postura Defensiva, o bônus de CA aplica-se também a 1 aliado Adjacente de sua escolha
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Golpe de Escudo e Postura Defensiva custam 0 Mana
+    - **3 peças —** ao usar Postura Defensiva, o bônus de CA aplica-se também a 1 aliado Adjacente de sua escolha
 
 ---
 
@@ -808,9 +808,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Isenhart's Parry** | Escudo | \+2 CA, Quebrável; Segunda Chance — *sem o talento:* set concede acesso; *com o talento:* custa 0 Mana |
 | **Isenhart's Lightbrand** | Espada Longa (1d8) | \+2 Ataque; no crítico, causa \+2d6 Físico extra |
 
-**Bônus de Set:**
-- *2 peças:* ao usar armadura pesada, você ignora Desvantagem causada por terreno difícil
-- *4 peças:* uma vez por cena, quando sofrer um crítico, reduza-o para acerto normal (o aço absorve o impacto)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** ao usar armadura pesada, você ignora Desvantagem causada por terreno difícil
+    - **4 peças —** uma vez por cena, quando sofrer um crítico, reduza-o para acerto normal (o aço absorve o impacto)
 
 ---
 
@@ -824,9 +824,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Sigon's Wrap** | Cinto | 4 slots; Fôlego Renovado — *sem o talento:* set concede acesso; *com o talento:* cura 1d10 \+ Nível \+ Mod. CON |
 | **Sigon's Gage** | Luvas | \+2 ataque; ao matar inimigo sob Provocação, todos os Adjacentes fazem SAL. SAB (DC 10 \+ Mod. FOR) ou ficam com medo por 1 rodada |
 
-**Bônus de Set:**
-- *2 peças:* enquanto sob Provocação ativa, Carnificína não tem limite de ataques encadeados por turno
-- *5 peças:* Provocação torna-se Ação Livre (◇) — ative-a sem gastar ◈ e ainda use o turno inteiro para atacar
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** enquanto sob Provocação ativa, Carnificína não tem limite de ataques encadeados por turno
+    - **5 peças —** Provocação torna-se Ação Livre (◇) — ative-a sem gastar ◈ e ainda use o turno inteiro para atacar
 
 ---
 
@@ -837,8 +837,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Bul-Kathos' Warrior Blood** | Maul (2d8) | \+2 Ataque, Brutal; Veterano de Ferro — *sem o talento:* set concede acesso com 1d4 rodadas e dano máximo; *com o talento:* dura 1d4\+2 rodadas |
 | **Bul-Kathos' Solemn Vow** | Machado Grande (2d8) | \+2 Ataque, Trespassar; Carga Heróica — *sem o talento:* set concede acesso; *com o talento:* se matar o alvo, custa 0 Mana e pode ser repetida no mesmo turno como ◇ |
 
-**Bônus de Set:**
-- *2 peças:* durante Veterano de Ferro, Carga Heróica torna-se Ação Livre (◇) — avance sobre um inimigo E ainda use o turno completo para atacar
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** durante Veterano de Ferro, Carga Heróica torna-se Ação Livre (◇) — avance sobre um inimigo E ainda use o turno completo para atacar
 
 ---
 
@@ -853,9 +853,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Tenet** | Cinto | 4 slots; primeiro disparo de arco por turno causa \+1d4 extra |
 | **Caster** | Luvas — Couro | \+1 Ataque com arco; Flechas Múltiplas custa 1 Mana por alvo |
 
-**Bônus de Set:**
-- *2 peças:* Crítico com arco em 18–20 natural
-- *4 peças:* Flechas Múltiplas atinge todos os inimigos em Próximo — vira AoE real
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Crítico com arco em 18–20 natural
+    - **4 peças —** Flechas Múltiplas atinge todos os inimigos em Próximo — vira AoE real
 
 ---
 
@@ -867,9 +867,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Vidala's Ambush** | Peitoral — Couro | \+1 CA; Evasão — *sem o talento:* set concede acesso; *com o talento:* funciona também contra ataques diretos (não só área) |
 | **Vidala's Fetlock** | Perneiras — Couro | \+1 CA; após usar Esquiva Ativa, seu próximo ataque de arco tem Vantagem |
 
-**Bônus de Set:**
-- *2 peças:* Fúria dos Raios e flechas elementais (Flecha de Fogo, Flecha de Gelo) custam 1 Mana a menos
-- *3 peças:* Uma vez por cena, Fúria dos Raios pode ser usada como ◇ (reação) — disparada automaticamente quando um inimigo entrar no alcance Distante ou te atacar à distância
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Fúria dos Raios e flechas elementais (Flecha de Fogo, Flecha de Gelo) custam 1 Mana a menos
+    - **3 peças —** Uma vez por cena, Fúria dos Raios pode ser usada como ◇ (reação) — disparada automaticamente quando um inimigo entrar no alcance Distante ou te atacar à distância
 
 ---
 
@@ -884,9 +884,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Valor** | Elmo — Meia-Placa | \+1 CA, \+2 CAR; Aura de Fanatismo dá \+2 Ataque em vez de \+1 |
 | **Redemption** | Escudo | \+3 CA, Quebrável; ao quebrar: pulso Radiante (2d8, todos Adjacentes) |
 
-**Bônus de Set:**
-- *2 peças:* Pode ter 2 Auras ativas simultaneamente
-- *4 peças:* Golpe Sagrado não custa Mana — gratuito em todo acerto
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Pode ter 2 Auras ativas simultaneamente
+    - **4 peças —** Golpe Sagrado não custa Mana — gratuito em todo acerto
 
 ---
 
@@ -899,9 +899,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Milabrega's Rod** | Escudo | \+2 CA, Quebrável; ao quebrar: pulso de cura (1d8, aliados Próximo) |
 | **Milabrega's Orb** | Amuleto | \+2 conjuração; Mãos de Luz — *sem o talento:* set concede acesso (cura 1d8 HP por 2 Mana); *com o talento:* custa 2 Mana a menos |
 
-**Bônus de Set:**
-- *2 peças:* Setas Sagradas afeta 1 alvo extra (cura ou dano) sem custo adicional
-- *4 peças:* Punho dos Céus detona as Setas Sagradas com dano máximo (sem rolar dado)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Setas Sagradas afeta 1 alvo extra (cura ou dano) sem custo adicional
+    - **4 peças —** Punho dos Céus detona as Setas Sagradas com dano máximo (sem rolar dado)
 
 ---
 
@@ -913,9 +913,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Angelic Mantle** | Peitoral — Cota de Malha | \+2 CA, RD 2; Aura de Salvação — *sem o talento:* set concede acesso; *com o talento:* RD 3 Elemental em vez de 2 |
 | **Angelic Wings** | Amuleto | \+2 CAR; sua Aura afeta aliados a Distante (em vez de Próximo) |
 
-**Bônus de Set:**
-- *2 peças:* Trocar de Aura custa ◇ (ação livre) em vez de ◈
-- *3 peças:* Enquanto tiver uma Aura ativa, você recupera 1 HP no início de cada turno
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Trocar de Aura custa ◇ (ação livre) em vez de ◈
+    - **3 peças —** Enquanto tiver uma Aura ativa, você recupera 1 HP no início de cada turno
 
 ---
 
@@ -928,9 +928,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Akkhan's Leniency** | Perneiras — Placa Completa | \+2 CA; Carga — *sem o talento:* set concede acesso; *com o talento:* se derrubar o alvo, Golpe Sagrado é gratuito nesse turno |
 | **Talisman of Akkhan** | Amuleto | \+2 CAR; Avatar da Justiça custa 4 Mana a menos (4 Mana em vez de 8) |
 
-**Bônus de Set:**
-- *2 peças:* Durante Avatar da Justiça, Golpe Sagrado adiciona Nível × 2 Radiante em vez de Nível
-- *4 peças:* Avatar da Justiça pode ser ativado sem custo de Mana uma vez por descanso longo
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Durante Avatar da Justiça, Golpe Sagrado adiciona Nível × 2 Radiante em vez de Nível
+    - **4 peças —** Avatar da Justiça pode ser ativado sem custo de Mana uma vez por descanso longo
 
 ---
 
@@ -944,9 +944,9 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Civerb's Cudgel** | Maça (1d6) | \+2 Ataque; Chamas Sagradas — *sem o talento:* set concede acesso; *com o talento:* \+1d8 Radiante em vez de \+1d6 |
 | **Civerb's Ward** | Escudo | \+2 CA, Quebrável; ao usar Oração Purificadora em um único alvo, o efeito é dobrado (2d8 cura ou dano) |
 
-**Bônus de Set:**
-- *2 peças:* Oração Purificadora custa 0 Mana quando usada em um único alvo
-- *3 peças:* Intervenção Divina — *sem o talento:* set concede acesso; *com o talento:* custa 3 Mana em vez de 5
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Oração Purificadora custa 0 Mana quando usada em um único alvo
+    - **3 peças —** Intervenção Divina — *sem o talento:* set concede acesso; *com o talento:* custa 3 Mana em vez de 5
 
 ---
 
@@ -959,8 +959,8 @@ Sets são recompensas narrativas exclusivas, assim como os Itens Únicos. Cada p
 | **Whitstan's Guard** | Escudo | \+3 CA, Quebrável; Salmo de Proteção — *sem o talento:* set concede acesso; *com o talento:* RD 5 se aplica também a dano Físico |
 | **Taebaek's Glory** | Elmo — Cota de Malha | \+1 CA, \+2 SAB; Arcanjo Guardião dura 1d4\+2 rodadas em vez de 1d4 |
 
-**Bônus de Set:**
-- *2 peças:* Oração (◈◈) passa a custar apenas ◈ — recupera 1d4 Mana com uma única ação
-- *4 peças:* Arcanjo Guardião pode curar e atacar no mesmo turno (as duas opções, não apenas uma)
+!!! set-bonus "Bônus de Set"
+    - **2 peças —** Oração (◈◈) passa a custar apenas ◈ — recupera 1d4 Mana com uma única ação
+    - **4 peças —** Arcanjo Guardião pode curar e atacar no mesmo turno (as duas opções, não apenas uma)
 
 ---
