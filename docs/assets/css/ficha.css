@@ -279,17 +279,17 @@
 .btn-pm:active { transform: scale(.95); }
 
 /* Botões ± embutidos nos cards de PV/Mana */
-.recurso-item-editavel { gap: .3rem; }
-.recurso-valor-row {
+.recurso-item-editavel { gap: .1rem; }
+.recurso-btns {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: .25rem;
+  gap: .4rem;
+  margin-top: .15rem;
 }
 .btn-pm-inline {
-  padding: .15rem .4rem;
-  font-size: .75rem;
-  opacity: .7;
+  padding: .1rem .55rem;
+  font-size: .78rem;
+  opacity: .65;
 }
 .btn-pm-inline:hover { opacity: 1; }
 

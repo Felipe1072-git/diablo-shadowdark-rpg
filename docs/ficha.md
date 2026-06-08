@@ -182,17 +182,17 @@
     <div class="recursos-grid">
       <div class="recurso-item recurso-item-editavel">
         <div class="recurso-label">Vida (PV)</div>
-        <div class="recurso-valor-row">
+        <div class="recurso-valor pv" id="ficha-pv-display">—</div>
+        <div class="recurso-btns">
           <button onclick="window._fichaPVDelta(-1)" type="button" class="btn-pm btn-pm-inline">-1</button>
-          <div class="recurso-valor pv" id="ficha-pv-display">—</div>
           <button onclick="window._fichaPVDelta(1)" type="button" class="btn-pm btn-pm-inline">+1</button>
         </div>
       </div>
       <div class="recurso-item recurso-item-editavel">
         <div class="recurso-label">Mana</div>
-        <div class="recurso-valor-row">
+        <div class="recurso-valor mana" id="ficha-mana-display">—</div>
+        <div class="recurso-btns">
           <button onclick="window._fichaManaDelta(-1)" type="button" class="btn-pm btn-pm-inline">-1</button>
-          <div class="recurso-valor mana" id="ficha-mana-display">—</div>
           <button onclick="window._fichaManaDelta(1)" type="button" class="btn-pm btn-pm-inline">+1</button>
         </div>
       </div>
