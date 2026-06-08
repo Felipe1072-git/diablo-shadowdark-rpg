@@ -581,7 +581,7 @@
       if (modEl) {
         const m = mod(p.attrs[a]);
         modEl.textContent = (m >= 0 ? '+' : '') + m;
-        modEl.className = 'ficha-mod' + (m < 0 ? ' neg' : '');
+        modEl.className = 'ficha-mod ' + (m > 0 ? 'res-pos' : m < 0 ? 'res-neg' : 'res-zero');
       }
     });
 
@@ -676,7 +676,7 @@
         return `<tr>
           <td>${attrNomes[a]}</td>
           <td class="ficha-val"><input type="number" class="ficha-input-inline ficha-input-small" id="inline-attr-${a}" value="${v}" min="3" max="20"></td>
-          <td class="ficha-mod ${m<0?'neg':''}" id="attr-mod-display-${a}">${m>=0?'+':''}${m}</td>
+          <td class="ficha-mod ${m>0?'res-pos':m<0?'res-neg':'res-zero'}" id="attr-mod-display-${a}">${m>=0?'+':''}${m}</td>
         </tr>`;
       }).join('');
       Object.keys(p.attrs).forEach(a => {
