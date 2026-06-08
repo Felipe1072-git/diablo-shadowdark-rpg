@@ -190,7 +190,7 @@
       <div class="recurso-item"><div class="recurso-label" id="lbl-conj-bonus">Bônus Conjuração</div><div class="recurso-valor" id="ficha-conj-display" style="color:#9b59b6;font-size:1rem">—</div></div>
     </div>
     <!-- Bônus manuais (ATK extra, Conjuração) -->
-    <div id="ficha-bonus-row" class="recursos-atuais-row" style="margin-top:.6rem"></div>
+    <div id="ficha-bonus-row" class="recursos-grid" style="margin-top:.6rem;border-top:1px solid #222;padding-top:.6rem"></div>
     <!-- Armadura / Escudo editáveis inline -->
     <div id="ficha-armadura-inline" style="margin-top:.4rem"></div>
   </div>

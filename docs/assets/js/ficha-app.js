@@ -334,10 +334,10 @@
     const ATTRS = ['FOR','DES','CON','INT','SAB','CAR'];
     const selAtk  = document.getElementById('form-atrib-atk');
     const selConj = document.getElementById('form-atrib-conj');
-    if (selAtk) selAtk.innerHTML = `<option value="">— (mesmo que Primário)</option>` +
-      ATTRS.map(a => `<option value="${a}" ${a === personagemAtual?.atribAtk ? 'selected' : ''}>${a}</option>`).join('');
-    if (selConj) selConj.innerHTML = `<option value="">— (não usa)</option>` +
-      ATTRS.map(a => `<option value="${a}" ${a === personagemAtual?.atribConj ? 'selected' : ''}>${a}</option>`).join('');
+    const defaultAtk  = personagemAtual?.atribAtk  || (cls?.atribPrimario?.[0] || 'FOR');
+    const defaultConj = personagemAtual?.atribConj || (cls?.atribPrimario?.[0] || 'FOR');
+    if (selAtk)  selAtk.innerHTML  = ATTRS.map(a => `<option value="${a}" ${a === defaultAtk  ? 'selected' : ''}>${a}</option>`).join('');
+    if (selConj) selConj.innerHTML = ATTRS.map(a => `<option value="${a}" ${a === defaultConj ? 'selected' : ''}>${a}</option>`).join('');
   }
 
   function atualizarMod(attr) {
@@ -505,9 +505,9 @@
     if (conjEl) conjEl.textContent = `${conjTotal >= 0 ? '+' : ''}${conjTotal}`;
     // Labels dinâmicos com o atributo escolhido
     const atkLbl = document.getElementById('lbl-atk-bonus');
-    if (atkLbl) atkLbl.textContent = p.atribAtk ? `ATK (${p.atribAtk})` : 'ATK Bônus';
+    if (atkLbl) atkLbl.textContent = `ATK (${p.atribAtk || p.atribPrimario || 'FOR'})`;
     const conjLbl = document.getElementById('lbl-conj-bonus');
-    if (conjLbl) conjLbl.textContent = p.atribConj ? `Conjuração (${p.atribConj})` : 'Bônus Conjuração';
+    if (conjLbl) conjLbl.textContent = `Conjuração (${p.atribConj || p.atribPrimario || 'FOR'})`;
 
     // Atualizar resumo de armadura no painel
     const peito = p.equipamento.peito || '';
@@ -578,9 +578,14 @@
     setText('ficha-antecedente-display', anteObj ? anteObj.nome : (p.antecedente || '—'));
     setText('ficha-antecedente-efeito', anteObj ? anteObj.efeito : '');
 
-    // Recalcular CA ao carregar para garantir consistência com itens atuais
+    // Recalcular stats ao carregar para garantir consistência
+    const primAttrValLoad = p.attrs[p.atribPrimario] || p.attrs['FOR'] || 10;
+    const atkAttrValLoad  = p.atribAtk  ? (p.attrs[p.atribAtk]  || 10) : primAttrValLoad;
+    const conjAttrValLoad = p.atribConj ? (p.attrs[p.atribConj] || 10) : primAttrValLoad;
     const itemBonusLoad = calcBonusFromItems(p.items || []);
-    p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo, p.items || []) + itemBonusLoad.ca;
+    p.ca       = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo, p.items || []) + itemBonusLoad.ca;
+    p.atk      = mod(atkAttrValLoad) + itemBonusLoad.atk;
+    p.conjBase = mod(conjAttrValLoad);
     salvarPersonagens();
 
     // Recursos
@@ -590,13 +595,13 @@
     const rdInit = calcRDFisico(p.equipamento, p.items);
     setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');
     const atkTotalInit  = p.atk + (p.bonusAtkExtra || 0);
-    const conjTotalInit = (p.conjBase || 0) + (p.bonusConjuracao || 0);
+    const conjTotalInit = p.conjBase + (p.bonusConjuracao || 0);
     setText('ficha-atk-display', `${atkTotalInit >= 0 ? '+' : ''}${atkTotalInit}`);
     setText('ficha-conj-display', `${conjTotalInit >= 0 ? '+' : ''}${conjTotalInit}`);
     const atkLblI = document.getElementById('lbl-atk-bonus');
-    if (atkLblI) atkLblI.textContent = p.atribAtk ? `ATK (${p.atribAtk})` : 'ATK Bônus';
+    if (atkLblI) atkLblI.textContent = `ATK (${p.atribAtk || p.atribPrimario || 'FOR'})`;
     const conjLblI = document.getElementById('lbl-conj-bonus');
-    if (conjLblI) conjLblI.textContent = p.atribConj ? `Conjuração (${p.atribConj})` : 'Bônus Conjuração';
+    if (conjLblI) conjLblI.textContent = `Conjuração (${p.atribConj || p.atribPrimario || 'FOR'})`;
 
     // PV / Mana com botões ±
     setHTML('ficha-recursos-atuais', `
@@ -812,17 +817,21 @@
     const bonusRow = document.getElementById('ficha-bonus-row');
     if (bonusRow) {
       bonusRow.innerHTML = `
-        <div class="recurso-inline">
-          <label style="color:#888;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em">Bônus ATK extra</label>
-          <button class="btn-pm" data-target="inline-bonus-atk" data-delta="-1" type="button">-1</button>
-          <input type="number" id="inline-bonus-atk" class="ficha-input-small" value="${p.bonusAtkExtra||0}" style="width:55px;text-align:center;padding:.2rem .3rem;background:#111;border:1px solid #333;border-radius:3px;color:#eee;font-size:.9rem">
-          <button class="btn-pm" data-target="inline-bonus-atk" data-delta="1" type="button">+1</button>
+        <div class="bonus-extra-item">
+          <span class="recurso-label">Extra ATK</span>
+          <div class="recurso-inline" style="justify-content:center;gap:.3rem;margin-top:.2rem">
+            <button class="btn-pm" data-target="inline-bonus-atk" data-delta="-1" type="button">−</button>
+            <input type="number" id="inline-bonus-atk" class="ficha-input-small" value="${p.bonusAtkExtra||0}" style="width:48px;text-align:center">
+            <button class="btn-pm" data-target="inline-bonus-atk" data-delta="1" type="button">+</button>
+          </div>
         </div>
-        <div class="recurso-inline">
-          <label style="color:#888;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em">Bônus Conjuração</label>
-          <button class="btn-pm" data-target="inline-bonus-conj" data-delta="-1" type="button">-1</button>
-          <input type="number" id="inline-bonus-conj" class="ficha-input-small" value="${p.bonusConjuracao||0}" style="width:55px;text-align:center;padding:.2rem .3rem;background:#111;border:1px solid #333;border-radius:3px;color:#eee;font-size:.9rem">
-          <button class="btn-pm" data-target="inline-bonus-conj" data-delta="1" type="button">+1</button>
+        <div class="bonus-extra-item">
+          <span class="recurso-label">Extra Conj.</span>
+          <div class="recurso-inline" style="justify-content:center;gap:.3rem;margin-top:.2rem">
+            <button class="btn-pm" data-target="inline-bonus-conj" data-delta="-1" type="button">−</button>
+            <input type="number" id="inline-bonus-conj" class="ficha-input-small" value="${p.bonusConjuracao||0}" style="width:48px;text-align:center">
+            <button class="btn-pm" data-target="inline-bonus-conj" data-delta="1" type="button">+</button>
+          </div>
         </div>`;
       const atkEl = document.getElementById('inline-bonus-atk');
       if (atkEl) atkEl.oninput = () => { p.bonusAtkExtra = parseInt(atkEl.value) || 0; recalcularStats(); salvarPersonagens(); };

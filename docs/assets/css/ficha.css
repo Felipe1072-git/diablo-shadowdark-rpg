@@ -299,6 +299,9 @@
 .cond-desc-item { font-size: .78rem; color: #cc8888; line-height: 1.4; }
 .cond-desc-item strong { color: #ffbbbb; }
 
+/* ─── Bônus extra (ATK / Conjuração) ─── */
+.bonus-extra-item { text-align: center; }
+
 /* ─── Cores da matriz de resistência ─── */
 .res-pos  { color: #27ae60 !important; }
 .res-zero { color: #555    !important; }
