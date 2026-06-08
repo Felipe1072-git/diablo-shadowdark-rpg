@@ -975,10 +975,11 @@
           <h4 style="margin:0 0 .8rem;color:#e74c3c">Adicionar Talento</h4>
           <div class="ficha-form-row" style="margin-bottom:.6rem">
             <div class="ficha-form-group">
-              <label>Tabela</label>
+              <label>Tipo</label>
               <select id="tal-form-tipo">
                 <option value="classe">Tabela da Classe</option>
                 <option value="geral">Tabela Geral</option>
+                <option value="homebrew">✏ Homebrew</option>
               </select>
             </div>
             <div class="ficha-form-group" id="tal-form-geral-group" style="display:none">
@@ -986,13 +987,25 @@
               <select id="tal-form-geral-id">${tabelaGeralOpts}</select>
             </div>
           </div>
-          <div class="ficha-form-row">
-            <div class="ficha-form-group" style="grid-column:span 2">
-              <label>Talento</label>
-              <select id="tal-form-select"><option value="">— Escolha o talento —</option></select>
+          <div id="tal-form-tabela-group">
+            <div class="ficha-form-row">
+              <div class="ficha-form-group" style="grid-column:span 2">
+                <label>Talento</label>
+                <select id="tal-form-select"><option value="">— Escolha o talento —</option></select>
+              </div>
+            </div>
+            <div id="tal-form-texto" style="font-size:.82rem;color:#bbb;margin-top:.5rem;padding:.5rem .6rem;background:#0d1a0d;border-left:3px solid #2d5a2d;border-radius:3px;display:none"></div>
+          </div>
+          <div id="tal-form-homebrew-group" style="display:none">
+            <div class="ficha-form-group" style="margin-bottom:.5rem">
+              <label>Nome do Talento</label>
+              <input type="text" id="tal-form-hb-nome" placeholder="ex: Golpe da Sombra">
+            </div>
+            <div class="ficha-form-group">
+              <label>Descrição</label>
+              <textarea id="tal-form-hb-desc" rows="3" placeholder="Descreva o efeito do talento…" style="width:100%;background:#111;border:1px solid #444;border-radius:4px;color:#eee;font-family:inherit;font-size:.9rem;padding:.4rem .5rem;box-sizing:border-box;resize:vertical"></textarea>
             </div>
           </div>
-          <div id="tal-form-texto" style="font-size:.82rem;color:#bbb;margin-top:.5rem;padding:.5rem .6rem;background:#0d1a0d;border-left:3px solid #2d5a2d;border-radius:3px;display:none"></div>
           <div style="display:flex;gap:.6rem;margin-top:.8rem;justify-content:flex-end">
             <button class="ficha-btn ficha-btn-secondary" onclick="window._fichaCancelarTalento()" type="button">Cancelar</button>
             <button class="ficha-btn ficha-btn-primary" onclick="window._fichaSalvarTalento()" type="button">✔ Adicionar</button>
@@ -1029,9 +1042,14 @@
 
       const tipoSel = document.getElementById('tal-form-tipo');
       const geralGroup = document.getElementById('tal-form-geral-group');
+      const tabelaGroup = document.getElementById('tal-form-tabela-group');
+      const homebrewGroup = document.getElementById('tal-form-homebrew-group');
       if (tipoSel) tipoSel.onchange = () => {
+        const isHB = tipoSel.value === 'homebrew';
+        if (tabelaGroup) tabelaGroup.style.display = isHB ? 'none' : '';
+        if (homebrewGroup) homebrewGroup.style.display = isHB ? '' : 'none';
         if (geralGroup) geralGroup.style.display = tipoSel.value === 'geral' ? '' : 'none';
-        popularSelectFicha();
+        if (!isHB) popularSelectFicha();
       };
       const geralSel = document.getElementById('tal-form-geral-id');
       if (geralSel) geralSel.onchange = popularSelectFicha;
@@ -1048,7 +1066,7 @@
     } else {
       body.innerHTML = '<ul class="ficha-talentos-list">' + p.talentos.map((t, i) =>
         `<li class="ficha-talento" data-idx="${i}">
-          <span class="ficha-talento-nivel">Nv ${t.nivel || '?'}</span>
+          <span class="ficha-talento-nivel${t.homebrew ? ' ficha-talento-hb' : ''}">Nv ${t.nivel || '?'}${t.homebrew ? ' ✏' : ''}</span>
           <span class="ficha-talento-texto">${esc(t.texto)}</span>
           <button class="ficha-btn-icon btn-del-talento" data-idx="${i}" title="Remover talento">✕</button>
         </li>`
@@ -1068,6 +1086,24 @@
     const p = personagemAtual;
     if (!p) return;
     const tipo = getValue('tal-form-tipo');
+
+    // Homebrew: nome + descrição livres
+    if (tipo === 'homebrew') {
+      const nome = getValue('tal-form-hb-nome').trim();
+      const desc = (document.getElementById('tal-form-hb-desc')?.value || '').trim();
+      if (!nome) { mostrarToast('Digite o nome do talento!'); return; }
+      const texto = desc ? `${nome}: ${desc}` : nome;
+      p.talentos.push({ roll: 'HB', texto, nivel: p.nivel, homebrew: true });
+      const idx = personagens.findIndex(x => x.id === p.id);
+      if (idx >= 0) personagens[idx] = p;
+      salvarPersonagens();
+      _talentoFormAberto = false;
+      renderizarTalentosPanel();
+      recalcularStats();
+      mostrarToast('Talento homebrew adicionado!');
+      return;
+    }
+
     const rollVal = getValue('tal-form-select');
     if (!rollVal) { mostrarToast('Escolha um talento primeiro!'); return; }
 
