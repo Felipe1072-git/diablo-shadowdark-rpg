@@ -546,6 +546,11 @@
     setText('ficha-antecedente-display', anteObj ? anteObj.nome : (p.antecedente || '—'));
     setText('ficha-antecedente-efeito', anteObj ? anteObj.efeito : '');
 
+    // Recalcular CA ao carregar para garantir consistência com itens atuais
+    const itemBonusLoad = calcBonusFromItems(p.items || []);
+    p.ca = calcCAFromEquip(cls || { id: p.classe }, p.attrs, p.equipamento, p.escudo, p.items || []) + itemBonusLoad.ca;
+    salvarPersonagens();
+
     // Recursos
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
