@@ -1613,6 +1613,12 @@
     const p = personagemAtual;
     const el = document.getElementById('ficha-notas-body');
     if (!el || !p) return;
+    // Salvar estado aberto das seções antes de re-renderizar
+    const openSections = new Set();
+    el.querySelectorAll('details.notas-section').forEach(d => {
+      if (d.open) openSections.add(d.querySelector('summary')?.textContent?.trim());
+    });
+    const primeiraRender = openSections.size === 0;
     const ns = p.notasEstruturadas || {};
     const objs = ns.objetivos || [];
     const facs = ns.facoes || [];
@@ -1650,12 +1656,12 @@
     el.innerHTML = `
       <div class="notas-two-col">
         <div class="notas-col">
-          <details class="notas-section" open>
+          <details class="notas-section">
             <summary>Objetivos</summary>
             <div id="notas-objetivos-list">${objRows}</div>
             <button class="ficha-btn ficha-btn-secondary notas-add-btn" onclick="window._notasAddObj()" type="button">+ Objetivo</button>
           </details>
-          <details class="notas-section" open>
+          <details class="notas-section">
             <summary>Missão Principal</summary>
             <textarea class="notas-textarea" rows="3" placeholder="Missão principal em andamento…" oninput="window._notasSaveField('missaoPrincipal',this.value)">${ns.missaoPrincipal||''}</textarea>
           </details>
@@ -1669,7 +1675,7 @@
           </details>
         </div>
         <div class="notas-col">
-          <details class="notas-section" open>
+          <details class="notas-section">
             <summary>NPCs</summary>
             <textarea class="notas-textarea" rows="5" placeholder="Personagens encontrados…" oninput="window._notasSaveField('npcs',this.value)">${ns.npcs||''}</textarea>
           </details>
@@ -1688,6 +1694,12 @@
           </details>
         </div>
       </div>`;
+    // Restaurar estado aberto (ou abrir defaults na primeira renderização)
+    const defaults = new Set(['Objetivos','Missão Principal','NPCs']);
+    el.querySelectorAll('details.notas-section').forEach(d => {
+      const title = d.querySelector('summary')?.textContent?.trim();
+      if (primeiraRender ? defaults.has(title) : openSections.has(title)) d.open = true;
+    });
   }
 
   window._notasSaveField = function(field, val) {
