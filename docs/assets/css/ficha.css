@@ -129,7 +129,7 @@
 .ficha-form-section { background: var(--md-code-bg-color, #1a1a1a); border-radius: 6px; padding: 1.2rem; }
 .ficha-form-section h3 { margin: 0 0 .9rem; font-size: 1rem; color: #e74c3c; border-bottom: 1px solid #333; padding-bottom: .4rem; }
 .ficha-form-row { display: grid; grid-template-columns: 1fr; gap: .8rem; }
-@media (min-width: 561px) {
+@media (min-width: 768px) {
   .ficha-form-row { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
 }
 .ficha-form-group { display: flex; flex-direction: column; gap: .3rem; }
@@ -515,7 +515,7 @@
 /* ══════════════════════════════
    RESPONSIVE — MOBILE (≤ 560px)
    ══════════════════════════════ */
-@media (max-width: 560px) {
+@media (max-width: 767px) {
 
   /* Padding geral */
   #ficha-app { padding: 0 .4rem; }
@@ -583,7 +583,7 @@
 }
 
 /* ─── Mobile — botões ± touch-friendly ─── */
-@media (pointer: coarse), (max-width: 560px) {
+@media (pointer: coarse), (max-width: 767px) {
   .btn-pm {
     min-width: 36px;
     min-height: 38px;
