@@ -312,6 +312,16 @@
   line-height: 1.4;
 }
 
+/* ─── Formulário inline de item ─── */
+.ficha-item-form {
+  background: #0a130a;
+  border: 1px solid #2d5a2d;
+  border-radius: 6px;
+  padding: .8rem 1rem;
+  margin-bottom: .8rem;
+}
+.ficha-item-form h4 { font-size: 1rem; }
+
 /* ─── Mochila ─── */
 .mochila-item {
   padding: .5rem .6rem;
