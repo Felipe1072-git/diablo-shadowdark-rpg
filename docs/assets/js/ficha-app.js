@@ -210,7 +210,7 @@
       const p = personagemAtual;
       if (!p) return;
       p.pvAtual = Math.max(0, Math.min(p.pvMax, (p.pvAtual || 0) + delta));
-      setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
+      setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.pvMax}</span>`);
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
       salvarPersonagens();
@@ -220,7 +220,7 @@
       const p = personagemAtual;
       if (!p) return;
       p.manaAtual = Math.max(0, Math.min(p.manaMax, (p.manaAtual || 0) + delta));
-      setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+      setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.manaMax}</span>`);
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
       salvarPersonagens();
@@ -549,8 +549,8 @@
     if (p.manaAtual > p.manaMax) p.manaAtual = p.manaMax;
 
     const rdFisicoCalc = calcRDFisico(p.equipamento, p.items);
-    setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
-    setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+    setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.pvMax}</span>`);
+    setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.manaMax}</span>`);
     setText('ficha-ca-display', p.ca);
     const rdFisicoTotal = rdFisicoCalc + (itemBonus.rdPorTipo?.Fisico || 0);
     setText('ficha-rd-display', rdFisicoTotal > 0 ? rdFisicoTotal : '—');
@@ -648,12 +648,8 @@
     salvarPersonagens();
 
     // Recursos
-    setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
-    setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
-    const pvEl = document.getElementById('ficha-pv-display');
-    if (pvEl) pvEl.dataset.max = `___ / ${p.pvMax}`;
-    const manaEl = document.getElementById('ficha-mana-display');
-    if (manaEl) manaEl.dataset.max = `___ / ${p.manaMax}`;
+    setHTML('ficha-pv-display', `<span class="rv-atual">${p.pvAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.pvMax}</span>`);
+    setHTML('ficha-mana-display', `<span class="rv-atual">${p.manaAtual}</span><span class="rv-sep"> / </span><span class="rv-max">${p.manaMax}</span>`);
     setText('ficha-ca-display', p.ca);
     const rdInit = calcRDFisico(p.equipamento, p.items);
     setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');

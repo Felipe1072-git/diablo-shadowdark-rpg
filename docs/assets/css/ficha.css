@@ -635,7 +635,7 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   #btn-levelup, #btn-salvar-ficha, #btn-editar-ficha,
   #btn-excluir-ficha, #btn-exportar, #btn-importar-trigger,
   #btn-voltar-lista, #btn-imprimir, #btn-descansar,
-  #ficha-mochila-panel, #ficha-bonus-row,
+  #ficha-bonus-row,
   #ficha-condicoes-panel,
   .notas-del-btn, .notas-obj-del { display: none !important; }
 
@@ -665,13 +665,10 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   .nivel-pip.ativo { background: #8b1a1a !important; color: #fff !important; border-color: #8b1a1a !important; }
   #ficha-xp-wrapper input { border: none !important; border-bottom: 1px solid #888 !important; background: transparent !important; color: #000 !important; width: 40px !important; }
 
-  /* ── Recursos: PV/Mana atuais em branco, CA/RD/ATK com cores originais escurecidas ── */
+  /* ── Recursos: valor atual oculto (___), max visível ── */
   .recurso-label { color: #555 !important; font-size: 8pt !important; }
-  .recurso-item-editavel .recurso-valor { color: transparent !important; position: relative; display: block; }
-  .recurso-item-editavel .recurso-valor::after {
-    content: attr(data-max); color: #000; position: absolute;
-    left: 50%; transform: translateX(-50%); font-size: 1.3rem; font-weight: 700; white-space: nowrap;
-  }
+  .recurso-item-editavel .rv-atual { visibility: hidden; }
+  .recurso-item-editavel .rv-atual::before { content: '___'; visibility: visible; }
   .recurso-valor.pv { color: #a00 !important; }
   .recurso-valor.mana { color: #1a6fa8 !important; }
   #ficha-ca-display { color: #1a7a3a !important; }
@@ -716,10 +713,17 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
   .notas-section { background: #f4f8ff !important; border: 1px solid #b0c4de !important; }
   .notas-section > summary { color: #1a3a6a !important; }
   .notas-two-col { background: transparent !important; }
-  .notas-input { background: #fff !important; border: 1px solid #aaa !important; color: #000 !important; }
+  .notas-input, .notas-textarea { background: #fff !important; border: 1px solid #aaa !important; color: #000 !important; }
   .notas-facao-card { background: #eef2ff !important; border-color: #b0c4de !important; }
   details.notas-section { display: block !important; }
   details.notas-section > summary { list-style: none !important; }
+
+  /* ── Mochila ── */
+  #ficha-mochila-panel { break-inside: avoid; }
+  #ficha-mochila-panel .ficha-btn { display: none !important; }
+  .mochila-item { background: #f5f5f5 !important; border: 1px solid #ddd !important; border-radius: 4px; padding: .3rem .5rem; margin-bottom: .3rem; }
+  .mochila-item-row { display: flex !important; align-items: flex-start !important; }
+  .mochila-item-acoes { display: none !important; }
 
   /* ── Lacaios: manter cores originais (fundo escuro) ── */
   #ficha-lacaios-panel { break-inside: avoid; }
