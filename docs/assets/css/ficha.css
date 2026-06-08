@@ -624,50 +624,111 @@ details.ficha-form-section[open] > summary { margin-bottom: .9rem; border-bottom
 @page { margin: 1.5cm; }
 
 @media print {
-  /* Esconder o tema MkDocs */
+  /* ── Ocultar chrome do MkDocs e controles interativos ── */
   .md-header, .md-sidebar, .md-footer, .md-tabs,
+  .md-content__inner > h1,
+  nav, header, footer,
   .ficha-toolbar, .ficha-lista-header, .ficha-view-header,
   .ficha-view-actions, .ficha-card-acoes,
-  .btn-del-talento, #btn-levelup, #btn-salvar-ficha,
-  #btn-editar-ficha, #btn-excluir-ficha, #btn-exportar,
-  #btn-importar-trigger, #btn-voltar-lista, #btn-imprimir,
-  .md-content__inner > h1,
-  nav, header, footer { display: none !important; }
+  .ficha-btn, .ficha-btn-icon,
+  .btn-pm, .btn-pm-inline, .recurso-btns,
+  .btn-del-talento, .btn-edit-talento,
+  #btn-levelup, #btn-salvar-ficha, #btn-editar-ficha,
+  #btn-excluir-ficha, #btn-exportar, #btn-importar-trigger,
+  #btn-voltar-lista, #btn-imprimir, #btn-descansar,
+  #ficha-mochila-panel, #ficha-bonus-row,
+  #ficha-condicoes-panel,
+  .notas-del-btn, .notas-obj-del,
+  details > summary .notas-del-btn { display: none !important; }
 
   #ficha-app { max-width: 100%; padding: 0; }
   #view-lista, #view-criacao, #view-levelup { display: none !important; }
   #view-ficha { display: block !important; }
-  /* Controles interativos não imprimem */
-  .btn-pm, .btn-pm-inline, .recurso-btns,
-  .btn-edit-talento, .ficha-btn-icon,
-  #btn-descansar, #ficha-mochila-panel, #ficha-bonus-row { display: none !important; }
-  #ficha-lacaios-panel { break-inside: avoid; }
-  /* Condições: só as ativas imprimem */
-  .condicao-badge:not(.ativo) { display: none !important; }
-  .cond-descricao { display: none !important; }
-  .condicao-badge.ativo { background: #8b1a1a; color: #fff; border-color: #8b1a1a; }
+
+  /* ── Layout geral ── */
+  body { font-size: 10pt; color: #000; background: #fff; }
+  * { color: inherit; }
 
   .ficha-panel {
     break-inside: avoid;
-    border: 1px solid #ccc;
-    background: #fff;
-    color: #000;
     page-break-inside: avoid;
+    border: 1px solid #bbb;
+    background: #fff !important;
+    color: #000 !important;
+    padding: .5rem .7rem !important;
+    margin-bottom: .5rem !important;
   }
-  .ficha-panel h3 { color: #8b1a1a; }
-  .ficha-table td { border-bottom: 1px solid #ddd; }
-  .ficha-input-inline { border: 1px solid #ccc; background: #fff; color: #000; }
-  .ficha-talento { border: 1px solid #ddd; background: #f9f9f9; }
-  .ficha-talento-nivel { background: #8b1a1a; }
-  .ficha-habilidade { background: #f5f5f5; border-left-color: #8b1a1a; }
-  .nivel-pip.ativo { background: #8b1a1a; color: #fff; border-color: #8b1a1a; }
-  .recurso-valor { color: #000 !important; }
+  .ficha-panel h3 { color: #8b1a1a !important; font-size: 9pt; letter-spacing: .08em; margin-bottom: .3rem !important; }
+
+  /* ── Cabeçalho ── */
+  .cab-divider { display: none; }
+  .cab-efeito, .cab-badge-label { color: #444 !important; }
+  .cab-badge-nome { color: #8b1a1a !important; }
+  .ficha-nome-grande { font-size: 16pt !important; }
+  .ficha-sub { color: #555 !important; }
+  .nivel-pip { border-color: #bbb !important; color: #bbb !important; }
+  .nivel-pip.ativo { background: #8b1a1a !important; color: #fff !important; border-color: #8b1a1a !important; }
+  .cab-xp { color: #555 !important; }
+  #ficha-xp-wrapper input { border: none !important; border-bottom: 1px solid #888 !important; background: transparent !important; color: #000 !important; }
+
+  /* ── Recursos: PV e Mana — esconde atual, mostra ___/Max para preencher ── */
+  .recurso-item-editavel .recurso-valor {
+    color: transparent !important;
+    position: relative;
+    display: block;
+  }
+  .recurso-item-editavel .recurso-valor::after {
+    content: attr(data-max);
+    color: #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .recurso-label { color: #555 !important; font-size: 8pt; }
+  .recurso-valor { color: #000 !important; font-size: 1.1rem !important; }
+  .recursos-grid { gap: .3rem !important; }
+
+  /* ── Atributos ── */
+  .ficha-table td { border-bottom: 1px solid #ddd; color: #000 !important; }
+  .ficha-table th { color: #555 !important; }
+  .ficha-input-inline { border: 1px solid #aaa !important; background: #fff !important; color: #000 !important; }
+  .ficha-mod { color: #000 !important; }
   .res-pos, .ficha-total-rd.res-pos { color: #1a7a3a !important; }
   .res-neg, .ficha-total-rd.res-neg { color: #c0392b !important; }
   .res-zero, .ficha-total-rd.res-zero { color: #888 !important; }
+
+  /* ── Matriz de resistência: cores das colunas ── */
   [style*="color:#e67e22"] { color: #b35a00 !important; }
   [style*="color:#4a9edd"] { color: #1a6fa8 !important; }
 
-  body { font-size: 11pt; }
+  /* ── Habilidades e talentos ── */
+  .ficha-habilidade { background: #f5f5f5 !important; border-left-color: #8b1a1a !important; color: #000 !important; }
+  .ficha-habilidade p, .ficha-habilidade li { color: #000 !important; }
+  .ficha-talento { border: 1px solid #ddd !important; background: #f9f9f9 !important; }
+  .ficha-talento-nivel { background: #8b1a1a !important; color: #fff !important; }
+  .ficha-talento-texto { color: #000 !important; }
+  .ficha-talento-hb { background: #eaf4fb !important; color: #1a4a6b !important; }
+
+  /* ── Equipamento ── */
+  .slot-item-card { background: #f0f0f0 !important; border-color: #bbb !important; color: #000 !important; }
+  .ficha-table td.ficha-slot-nome { color: #555 !important; }
+
+  /* ── Notas de campanha ── */
+  .notas-section { background: #fff !important; border: 1px solid #bbb !important; }
+  .notas-section > summary { color: #8b1a1a !important; }
+  .notas-input { background: #fff !important; border: 1px solid #bbb !important; color: #000 !important; }
+  .notas-facao-card { background: #f5f5f5 !important; border-color: #bbb !important; }
+  details.notas-section { display: block !important; }
+  details.notas-section > summary::marker,
+  details.notas-section > summary::-webkit-details-marker { display: none !important; }
+
+  /* ── Lacaios ── */
+  #ficha-lacaios-panel { break-inside: avoid; }
+  .lacaio-card { background: #f0f0f0 !important; border-color: #bbb !important; color: #000 !important; }
+
+  /* ── Grade global ── */
   .ficha-two-col { grid-template-columns: 1fr 1fr; }
 }

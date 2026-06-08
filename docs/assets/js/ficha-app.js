@@ -650,6 +650,10 @@
     // Recursos
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+    const pvEl = document.getElementById('ficha-pv-display');
+    if (pvEl) pvEl.dataset.max = `___ / ${p.pvMax}`;
+    const manaEl = document.getElementById('ficha-mana-display');
+    if (manaEl) manaEl.dataset.max = `___ / ${p.manaMax}`;
     setText('ficha-ca-display', p.ca);
     const rdInit = calcRDFisico(p.equipamento, p.items);
     setText('ficha-rd-display', rdInit > 0 ? rdInit : '—');
