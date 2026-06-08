@@ -281,7 +281,7 @@
 .ficha-talento { display: flex; align-items: flex-start; gap: .6rem; padding: .4rem .5rem; background: #111; border-radius: 3px; font-size: .87rem; }
 .ficha-talento-nivel { background: #8b1a1a; color: #ffa0a0; border-radius: 3px; padding: .1rem .4rem; font-size: .75rem; white-space: nowrap; }
 .ficha-talento-hb { background: #1a4a6b; color: #7ec8e3; }
-.ficha-talento-texto { flex: 1; color: #ccc; }
+.ficha-talento-texto { flex: 1; color: #ccc; word-break: break-word; overflow-wrap: anywhere; min-width: 0; }
 .ficha-empty-small { color: #666; font-style: italic; font-size: .85rem; }
 
 /* Inputs inline na ficha */
