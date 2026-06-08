@@ -6,11 +6,20 @@
 
   // ───── Constantes ─────
   const CONDITIONS = [
-    { id: 'caido',      label: '⬇ Caído' },
-    { id: 'atordoado',  label: '💫 Atordoado' },
-    { id: 'envenenado', label: '☣️ Envenenado' },
-    { id: 'cego',       label: '👁️ Cego' },
-    { id: 'assustado',  label: '😱 Assustado' }
+    { id: 'agarrado',     label: '🔗 Agarrado',     effect: 'Não pode se mover. Gasta ◈ e faz teste de Força (DC variável) para se soltar.' },
+    { id: 'amedrontado',  label: '😨 Amedrontado',  effect: 'Desvantagem em ataques contra a fonte do medo. Deve usar o movimento para se afastar dela quando possível.' },
+    { id: 'aprisionado',  label: '⛓ Aprisionado',  effect: 'Não pode se mover. Desvantagem em ataques. Escapa com teste de Força (DC variável) como ação ◈◈.' },
+    { id: 'atordoado',    label: '💫 Atordoado',    effect: 'Perde ◈ no próximo turno (ou conforme a habilidade que causou o efeito).' },
+    { id: 'caido',        label: '⬇ Caído',         effect: 'Inconsciente e morrendo. Um aliado pode gastar ◈ para estabilizar; ao ser estabilizado, acorda com 1 PV.' },
+    { id: 'cego',         label: '👁️ Cego',          effect: 'Não pode ver. Desvantagem em todos os ataques. Inimigos atacando têm Vantagem contra ele.' },
+    { id: 'derrubado',    label: '🪃 Derrubado',    effect: 'Está no chão. Desvantagem em ataques. Gasta ◈ para se levantar.' },
+    { id: 'encantado',    label: '✨ Encantado',    effect: 'Não pode atacar a criatura que o encantou. Pode ter efeitos adicionais conforme a habilidade.' },
+    { id: 'enjoado',      label: '🤢 Enjoado',      effect: '−1 em ataques enquanto a condição persistir.' },
+    { id: 'envenenado',   label: '☣️ Envenenado',   effect: 'Sofre dano de Veneno por turno durante a duração indicada.' },
+    { id: 'furioso',      label: '🔴 Furioso',      effect: 'Deve atacar o aliado mais próximo em vez do inimigo no próximo turno.' },
+    { id: 'incapacitado', label: '🚫 Incapacitado', effect: 'Não pode agir nem reagir.' },
+    { id: 'odiado',       label: '💔 Odiado',       effect: 'Toda cura recebida é convertida em dano equivalente pelo tempo indicado.' },
+    { id: 'paralisado',   label: '❄️ Paralisado',   effect: 'Não pode se mover nem agir. Ataques contra um alvo Paralisado têm Vantagem.' }
   ];
 
   const ARMADURAS_OPT = [
@@ -780,9 +789,23 @@
     // Condições
     const condBody = document.getElementById('ficha-condicoes-body');
     if (condBody) {
-      condBody.innerHTML = CONDITIONS.map(c =>
-        `<button class="condicao-badge ${(p.condicoes||[]).includes(c.id) ? 'ativo' : ''}" id="cond-${c.id}" data-cond="${c.id}" type="button">${c.label}</button>`
-      ).join('');
+      condBody.innerHTML =
+        '<div class="cond-badges">' +
+        CONDITIONS.map(c =>
+          `<button class="condicao-badge ${(p.condicoes||[]).includes(c.id) ? 'ativo' : ''}" id="cond-${c.id}" data-cond="${c.id}" title="${c.effect}" type="button">${c.label}</button>`
+        ).join('') +
+        '</div>' +
+        '<div class="cond-descricao" id="cond-descricao"></div>';
+
+      const atualizarDescricao = () => {
+        const desc = document.getElementById('cond-descricao');
+        if (!desc) return;
+        const ativas = CONDITIONS.filter(c => document.getElementById('cond-' + c.id)?.classList.contains('ativo'));
+        desc.innerHTML = ativas.length
+          ? ativas.map(c => `<div class="cond-desc-item"><strong>${c.label}</strong> — ${c.effect}</div>`).join('')
+          : '';
+      };
+
       condBody.querySelectorAll('.condicao-badge').forEach(btn => {
         btn.onclick = (e) => {
           e.stopPropagation();
@@ -797,8 +820,11 @@
           const idx = personagens.findIndex(x => x.id === p.id);
           if (idx >= 0) personagens[idx] = p;
           salvarPersonagens();
+          atualizarDescricao();
         };
       });
+
+      atualizarDescricao();
     }
 
     // Notas

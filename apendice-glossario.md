@@ -117,6 +117,8 @@ Todo personagem recebe **3 Pontos de Ação (◈◈◈)** no início de cada tur
 
 **Caído (0 PV)** — Inconsciente e morrendo. Um aliado pode gastar ◈ para estabilizar; ao ser estabilizado, acorda com 1 PV.
 
+**Cego** — Não pode ver. Desvantagem em todos os ataques. Inimigos atacando têm Vantagem contra ele.
+
 **Derrubado** — Está no chão. Desvantagem em ataques. Gasta ◈ para se levantar.
 
 **Encantado** — Não pode atacar a criatura que o encantou. Pode ter efeitos adicionais conforme a habilidade.

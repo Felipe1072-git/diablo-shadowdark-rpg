@@ -293,6 +293,11 @@
 .condicao-badge:hover { border-color: #888; color: #ccc; }
 .condicao-badge.ativo { background: #6b0000; border-color: #e74c3c; color: #ffbbbb; }
 
+.cond-badges { display: flex; flex-wrap: wrap; gap: .4rem; }
+.cond-descricao { margin-top: .5rem; display: flex; flex-direction: column; gap: .25rem; }
+.cond-desc-item { font-size: .78rem; color: #cc8888; line-height: 1.4; }
+.cond-desc-item strong { color: #ffbbbb; }
+
 /* ─── Level Up pronto ─── */
 .levelup-ready {
   animation: lvl-pulse 1.2s ease-in-out infinite;
