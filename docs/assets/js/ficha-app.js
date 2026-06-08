@@ -566,7 +566,7 @@
     const atkLbl = document.getElementById('lbl-atk-bonus');
     if (atkLbl) atkLbl.textContent = `ATK (${p.atribAtk || p.atribPrimario || 'FOR'})`;
     const conjLbl = document.getElementById('lbl-conj-bonus');
-    if (conjLbl) conjLbl.textContent = `Conjuração (${p.atribConj || p.atribPrimario || 'FOR'})`;
+    if (conjLbl) conjLbl.textContent = `Conj. (${p.atribConj || p.atribPrimario || 'FOR'})`;
 
     // Atualizar resumo de armadura no painel
     const peito = p.equipamento.peito || '';
@@ -663,7 +663,7 @@
     const atkLblI = document.getElementById('lbl-atk-bonus');
     if (atkLblI) atkLblI.textContent = `ATK (${p.atribAtk || p.atribPrimario || 'FOR'})`;
     const conjLblI = document.getElementById('lbl-conj-bonus');
-    if (conjLblI) conjLblI.textContent = `Conjuração (${p.atribConj || p.atribPrimario || 'FOR'})`;
+    if (conjLblI) conjLblI.textContent = `Conj. (${p.atribConj || p.atribPrimario || 'FOR'})`;
 
 
 
