@@ -912,7 +912,7 @@
       const sel = document.getElementById('form-tal-select');
       if (!sel) return;
       sel.innerHTML = '<option value="">— Nenhum talento inicial —</option>' +
-        talentos.map(t => `<option value="${t.roll}" ${t.roll === selecionado ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 90)}${t.text.length > 90 ? '…' : ''}</option>`).join('');
+        talentos.map(t => `<option value="${t.roll}" ${t.roll === selecionado ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 50)}${t.text.length > 50 ? '…' : ''}</option>`).join('');
       atualizarTextoTalento();
     }
 
@@ -1823,7 +1823,7 @@
       const selectEl = document.getElementById('levelup-select-talento');
       if (selectEl) {
         selectEl.innerHTML = tabela.map(t =>
-          `<option value="${t.roll}" ${t.roll === talento?.roll ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 80)}${t.text.length > 80 ? '…' : ''}</option>`
+          `<option value="${t.roll}" ${t.roll === talento?.roll ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 50)}${t.text.length > 50 ? '…' : ''}</option>`
         ).join('');
         selectEl.onchange = () => {
           const chosen = tabela.find(t => t.roll === selectEl.value);
