@@ -176,6 +176,35 @@
     on('btn-rolar-atributos', 'click', rolarAtributos);
     on('btn-add-talento', 'click', abrirTalentoForm);
 
+    // Event delegation para botões ± (btn-pm) — funciona com botões criados dinamicamente
+    document.addEventListener('click', function(e) {
+      const btn = e.target.closest('.btn-pm[data-target]');
+      if (!btn) return;
+      e.preventDefault();
+      const p = personagemAtual;
+      const targetEl = document.getElementById(btn.dataset.target);
+      if (!targetEl) return;
+      const max = parseInt(targetEl.max) || 9999;
+      const min = parseInt(targetEl.min) ?? -9999;
+      const newVal = Math.max(min, Math.min(max, (parseInt(targetEl.value) || 0) + parseInt(btn.dataset.delta)));
+      targetEl.value = newVal;
+      // Notifica oninput do campo (para handlers específicos)
+      targetEl.dispatchEvent(new Event('input'));
+      // Atualiza displays e salva para campos conhecidos
+      if (!p) return;
+      if (btn.dataset.target === 'inline-pv-atual') {
+        p.pvAtual = newVal;
+        setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
+      } else if (btn.dataset.target === 'inline-mana-atual') {
+        p.manaAtual = newVal;
+        setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+      }
+      const idx = personagens.findIndex(x => x.id === p.id);
+      if (idx >= 0) personagens[idx] = p;
+      salvarPersonagens();
+      mostrarToast('✓ Salvo');
+    });
+
     // Auto-save com debounce na view da ficha
     const viewFicha = document.getElementById('view-ficha');
     if (viewFicha) {
@@ -623,33 +652,6 @@
           <button class="btn-pm" data-target="inline-mana-atual" data-delta="5" type="button">+5</button>
         </div>
       </div>`);
-    document.querySelectorAll('.btn-pm').forEach(btn => {
-      btn.onclick = (e) => {
-        e.preventDefault(); e.stopPropagation();
-        const targetEl = document.getElementById(btn.dataset.target);
-        if (!targetEl) return;
-        const max = parseInt(targetEl.max) || 999;
-        const newVal = Math.max(0, Math.min(max, (parseInt(targetEl.value) || 0) + parseInt(btn.dataset.delta)));
-        targetEl.value = newVal;
-        // Dispara oninput para que handlers específicos de cada campo atuem
-        targetEl.dispatchEvent(new Event('input'));
-        if (btn.dataset.target === 'inline-pv-atual') {
-          p.pvAtual = newVal;
-          setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
-          const idx = personagens.findIndex(x => x.id === p.id);
-          if (idx >= 0) personagens[idx] = p;
-          salvarPersonagens();
-          mostrarToast('✓ Salvo');
-        } else if (btn.dataset.target === 'inline-mana-atual') {
-          p.manaAtual = newVal;
-          setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
-          const idx = personagens.findIndex(x => x.id === p.id);
-          if (idx >= 0) personagens[idx] = p;
-          salvarPersonagens();
-          mostrarToast('✓ Salvo');
-        }
-      };
-    });
 
 
     // Atributos editáveis
@@ -819,18 +821,14 @@
       bonusRow.innerHTML = `
         <div class="bonus-extra-item">
           <span class="recurso-label">Extra ATK</span>
-          <div class="recurso-inline" style="justify-content:center;gap:.3rem;margin-top:.2rem">
-            <button class="btn-pm" data-target="inline-bonus-atk" data-delta="-1" type="button">−</button>
-            <input type="number" id="inline-bonus-atk" class="ficha-input-small" value="${p.bonusAtkExtra||0}" style="width:48px;text-align:center">
-            <button class="btn-pm" data-target="inline-bonus-atk" data-delta="1" type="button">+</button>
+          <div style="margin-top:.3rem;text-align:center">
+            <input type="number" id="inline-bonus-atk" class="ficha-input-small" value="${p.bonusAtkExtra||0}" style="width:56px;text-align:center;background:#111;border:1px solid #333;border-radius:3px;color:#eee;padding:.2rem .3rem">
           </div>
         </div>
         <div class="bonus-extra-item">
           <span class="recurso-label">Extra Conj.</span>
-          <div class="recurso-inline" style="justify-content:center;gap:.3rem;margin-top:.2rem">
-            <button class="btn-pm" data-target="inline-bonus-conj" data-delta="-1" type="button">−</button>
-            <input type="number" id="inline-bonus-conj" class="ficha-input-small" value="${p.bonusConjuracao||0}" style="width:48px;text-align:center">
-            <button class="btn-pm" data-target="inline-bonus-conj" data-delta="1" type="button">+</button>
+          <div style="margin-top:.3rem;text-align:center">
+            <input type="number" id="inline-bonus-conj" class="ficha-input-small" value="${p.bonusConjuracao||0}" style="width:56px;text-align:center;background:#111;border:1px solid #333;border-radius:3px;color:#eee;padding:.2rem .3rem">
           </div>
         </div>`;
       const atkEl = document.getElementById('inline-bonus-atk');
