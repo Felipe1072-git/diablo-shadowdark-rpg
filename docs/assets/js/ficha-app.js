@@ -176,34 +176,35 @@
     on('btn-rolar-atributos', 'click', rolarAtributos);
     on('btn-add-talento', 'click', abrirTalentoForm);
 
-    // Event delegation para botões ± (btn-pm) — funciona com botões criados dinamicamente
-    document.addEventListener('click', function(e) {
-      const btn = e.target.closest('.btn-pm[data-target]');
-      if (!btn) return;
-      e.preventDefault();
+    // Handlers globais para botões ± de PV e Mana
+    window._fichaPVDelta = function(delta) {
       const p = personagemAtual;
-      const targetEl = document.getElementById(btn.dataset.target);
-      if (!targetEl) return;
-      const max = parseInt(targetEl.max) || 9999;
-      const min = parseInt(targetEl.min) ?? -9999;
-      const newVal = Math.max(min, Math.min(max, (parseInt(targetEl.value) || 0) + parseInt(btn.dataset.delta)));
-      targetEl.value = newVal;
-      // Notifica oninput do campo (para handlers específicos)
-      targetEl.dispatchEvent(new Event('input'));
-      // Atualiza displays e salva para campos conhecidos
       if (!p) return;
-      if (btn.dataset.target === 'inline-pv-atual') {
-        p.pvAtual = newVal;
-        setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
-      } else if (btn.dataset.target === 'inline-mana-atual') {
-        p.manaAtual = newVal;
-        setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
-      }
+      const el = document.getElementById('inline-pv-atual');
+      if (!el) return;
+      const newVal = Math.max(0, Math.min(p.pvMax, (parseInt(el.value) || 0) + delta));
+      el.value = newVal;
+      p.pvAtual = newVal;
+      setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
       const idx = personagens.findIndex(x => x.id === p.id);
       if (idx >= 0) personagens[idx] = p;
       salvarPersonagens();
       mostrarToast('✓ Salvo');
-    });
+    };
+    window._fichaManaDelta = function(delta) {
+      const p = personagemAtual;
+      if (!p) return;
+      const el = document.getElementById('inline-mana-atual');
+      if (!el) return;
+      const newVal = Math.max(0, Math.min(p.manaMax, (parseInt(el.value) || 0) + delta));
+      el.value = newVal;
+      p.manaAtual = newVal;
+      setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
+      const idx = personagens.findIndex(x => x.id === p.id);
+      if (idx >= 0) personagens[idx] = p;
+      salvarPersonagens();
+      mostrarToast('✓ Salvo');
+    };
 
     // Auto-save com debounce na view da ficha
     const viewFicha = document.getElementById('view-ficha');
@@ -637,19 +638,19 @@
       <div class="recursos-atuais-row">
         <div class="recurso-inline">
           <label>PV atual:</label>
-          <button class="btn-pm" data-target="inline-pv-atual" data-delta="-5" type="button">-5</button>
-          <button class="btn-pm" data-target="inline-pv-atual" data-delta="-1" type="button">-1</button>
+          <button onclick="window._fichaPVDelta(-5)" type="button" class="btn-pm">-5</button>
+          <button onclick="window._fichaPVDelta(-1)" type="button" class="btn-pm">-1</button>
           <input type="number" id="inline-pv-atual" class="ficha-input-small" min="0" max="${p.pvMax}" value="${p.pvAtual}">
-          <button class="btn-pm" data-target="inline-pv-atual" data-delta="1" type="button">+1</button>
-          <button class="btn-pm" data-target="inline-pv-atual" data-delta="5" type="button">+5</button>
+          <button onclick="window._fichaPVDelta(1)" type="button" class="btn-pm">+1</button>
+          <button onclick="window._fichaPVDelta(5)" type="button" class="btn-pm">+5</button>
         </div>
         <div class="recurso-inline">
           <label>Mana atual:</label>
-          <button class="btn-pm" data-target="inline-mana-atual" data-delta="-5" type="button">-5</button>
-          <button class="btn-pm" data-target="inline-mana-atual" data-delta="-1" type="button">-1</button>
+          <button onclick="window._fichaManaDelta(-5)" type="button" class="btn-pm">-5</button>
+          <button onclick="window._fichaManaDelta(-1)" type="button" class="btn-pm">-1</button>
           <input type="number" id="inline-mana-atual" class="ficha-input-small" min="0" max="${p.manaMax}" value="${p.manaAtual}">
-          <button class="btn-pm" data-target="inline-mana-atual" data-delta="1" type="button">+1</button>
-          <button class="btn-pm" data-target="inline-mana-atual" data-delta="5" type="button">+5</button>
+          <button onclick="window._fichaManaDelta(1)" type="button" class="btn-pm">+1</button>
+          <button onclick="window._fichaManaDelta(5)" type="button" class="btn-pm">+5</button>
         </div>
       </div>`);
 
