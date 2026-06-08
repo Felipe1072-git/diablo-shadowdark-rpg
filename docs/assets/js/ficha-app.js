@@ -73,10 +73,9 @@
         if (!p.atribConj) p.atribConj = '';
         if (!p.notasEstruturadas) p.notasEstruturadas = { objetivos:[], npcs:'', missaoPrincipal:'', facoes:[], missoesSecundarias:'', rumores:'', bestiario:[] };
         if (p._arma2BloqueadaPor === undefined) p._arma2BloqueadaPor = null;
-        // Migrar itens antigos: nomeAfixo → sufixoNome + buscar efeito na tabela
+        // Migrar itens antigos: nomeAfixo → sufixoNome + prefixoNome → prefixos[]
         (p.items || []).forEach(function(item) {
-          if (!item.prefixoNome) item.prefixoNome = '';
-          if (!item.prefixoEfeito) item.prefixoEfeito = '';
+          // sufixo
           if (!item.sufixoNome && item.nomeAfixo) {
             item.sufixoNome = item.nomeAfixo;
             var found = SUFIXOS.find(function(s) { return s.nome.toLowerCase() === item.nomeAfixo.toLowerCase(); });
@@ -84,6 +83,10 @@
           }
           if (!item.sufixoNome) item.sufixoNome = '';
           if (!item.sufixoEfeito) item.sufixoEfeito = '';
+          // prefixos[] — migrar campo legado
+          if (!item.prefixos) {
+            item.prefixos = (item.prefixoNome) ? [{nome: item.prefixoNome, efeito: item.prefixoEfeito || ''}] : [];
+          }
         });
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
@@ -717,7 +720,7 @@
             <td><div class="slot-item-card">
               <div style="${qualStyle};font-weight:700;font-size:.85rem">${esc(eqItem.nome)}${eqItem.sufixoNome ? ` <span style="color:#888;font-weight:400;font-size:.85em">${esc(eqItem.sufixoNome)}</span>` : (eqItem.nomeAfixo ? ` <span style="color:#888;font-weight:400;font-size:.85em">${esc(eqItem.nomeAfixo)}</span>` : '')}</div>
               ${(eqItem.infoBase || eqItem.atributo) ? `<div style="font-size:.78rem;color:#bbb;margin-bottom:.1rem">${eqItem.infoBase ? esc(eqItem.infoBase) : ''}${eqItem.atributo ? ` <span style="color:#e67e22">${esc(eqItem.atributo)}</span>` : ''}</div>` : ''}
-              ${eqItem.prefixoNome ? `<div style="font-size:.72rem;color:#e67e22;margin-top:.1rem"><strong>${esc(eqItem.prefixoNome)}:</strong> ${esc(eqItem.prefixoEfeito||'')}</div>` : ''}
+              ${(eqItem.prefixos||[]).filter(px=>px.nome).map(px=>`<div style="font-size:.72rem;color:#e67e22;margin-top:.1rem"><strong>${esc(px.nome)}:</strong> ${esc(px.efeito||'')}</div>`).join('')}
               ${eqItem.sufixoEfeito ? `<div style="font-size:.72rem;color:#9b59b6;margin-top:.1rem"><strong>${esc(eqItem.sufixoNome||'')}:</strong> ${esc(eqItem.sufixoEfeito)}</div>` : ''}
               ${bonusTexts.length ? `<div style="font-size:.72rem;color:#4a9edd;margin-top:.1rem">${bonusTexts.join(' · ')}</div>` : ''}
               <button class="ficha-btn ficha-btn-secondary" style="font-size:.7rem;padding:.1rem .4rem;margin-top:.3rem"
@@ -1109,7 +1112,10 @@
     if (!panel || !p) return;
 
     if (_itemFormAberto) {
+      const _editItemObj = _itemEditandoId ? (personagemAtual?.items||[]).find(i=>i.id===_itemEditandoId) : null;
+      window._editingPrefixos = (_editItemObj?.prefixos || []).map(p => ({nome:p.nome||'', efeito:p.efeito||''}));
       panel.innerHTML = renderFormItem();
+      renderPrefixosList();
       const slotSel = document.getElementById('item-form-slot-tipo');
       if (slotSel) slotSel.onchange = () => {
         const armorSlots = ['peito','elmo','luvas','perneiras','botas'];
@@ -1168,7 +1174,7 @@
           <div class="mochila-item-info">
             <div style="${qualStyle};font-weight:700;font-size:.9rem">${esc(item.nome)}${item.sufixoNome ? ` <span style="color:#888;font-weight:400">${esc(item.sufixoNome)}</span>` : (item.nomeAfixo ? ` <span style="color:#888;font-weight:400">${esc(item.nomeAfixo)}</span>` : '')}</div>
             <div style="font-size:.73rem;color:#666;margin-bottom:.15rem">${esc(item.qualidade)} · ${esc(slotNome)}${item.infoBase ? ' · ' + esc(item.infoBase) : ''}${item.atributo ? ` · <span style="color:#e67e22">${esc(item.atributo)}</span>` : ''}</div>
-            ${item.prefixoNome ? `<div style="font-size:.76rem;color:#e67e22;margin-top:.1rem"><strong>${esc(item.prefixoNome)}:</strong> ${esc(item.prefixoEfeito||'')}</div>` : ''}
+            ${(item.prefixos||[]).filter(px=>px.nome).map(px=>`<div style="font-size:.76rem;color:#e67e22;margin-top:.1rem"><strong>${esc(px.nome)}:</strong> ${esc(px.efeito||'')}</div>`).join('')}
             ${item.sufixoEfeito ? `<div style="font-size:.76rem;color:#9b59b6;margin-top:.1rem"><strong>${esc(item.sufixoNome||'')}:</strong> ${esc(item.sufixoEfeito)}</div>` : ''}
             ${bonusTexts.length ? `<div style="font-size:.75rem;color:#4a9edd">${bonusTexts.join(' &nbsp;·&nbsp; ')}</div>` : ''}
           </div>
@@ -1245,29 +1251,24 @@
         </div>
       </div>
 
-      <!-- Prefixo -->
-      <div class="ficha-form-row" style="margin-top:.3rem">
-        <div class="ficha-form-group" style="grid-column:span 2">
-          <label>Prefixo <small style="color:#666">(comece a digitar para sugestões)</small></label>
-          <datalist id="dl-prefixos-form">${PREFIXOS.map(p=>`<option value="${esc(p.nome)}">`).join('')}</datalist>
-          <input type="text" id="item-form-prefixo-nome" list="dl-prefixos-form"
-            value="${esc(v('prefixoNome'))}" placeholder="ex: Imparável"
-            oninput="window._itemAfixoChanged('prefixo',this.value)">
+      <!-- Prefixos (lista dinâmica) -->
+      <div style="margin-top:.5rem">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.3rem">
+          <label style="margin:0">Prefixos <small style="color:#666">(comece a digitar para sugestões)</small></label>
+          <button type="button" class="ficha-btn ficha-btn-secondary" style="font-size:.75rem;padding:.2rem .6rem" onclick="window._itemAddPrefixo()">+ Prefixo</button>
         </div>
-        <div class="ficha-form-group" style="grid-column:span 2">
-          <label>Efeito do Prefixo <small style="color:#666">edite para homebrew</small></label>
-          <input type="text" id="item-form-prefixo-efeito" value="${esc(v('prefixoEfeito'))}" placeholder="Descrição do efeito…">
-        </div>
+        <datalist id="dl-prefixos-form">${PREFIXOS.map(p=>`<option value="${esc(p.nome)}">`).join('')}</datalist>
+        <div id="item-form-prefixos-list"></div>
       </div>
 
       <!-- Sufixo -->
-      <div class="ficha-form-row" style="margin-top:.3rem">
+      <div class="ficha-form-row" style="margin-top:.5rem">
         <div class="ficha-form-group" style="grid-column:span 2">
-          <label>Sufixo <small style="color:#666">(comece a digitar para sugestões)</small></label>
+          <label>Sufixo <small style="color:#666">(ex: "Imparável / do Chacal" auto-divide)</small></label>
           <datalist id="dl-sufixos-form">${SUFIXOS.map(s=>`<option value="${esc(s.nome)}">`).join('')}</datalist>
           <input type="text" id="item-form-sufixo-nome" list="dl-sufixos-form"
             value="${esc(v('sufixoNome') || v('nomeAfixo'))}" placeholder="ex: da Negociação"
-            oninput="window._itemAfixoChanged('sufixo',this.value)">
+            oninput="window._itemSufixoChanged(this.value)">
         </div>
         <div class="ficha-form-group" style="grid-column:span 2">
           <label>Efeito do Sufixo <small style="color:#666">edite para homebrew</small></label>
@@ -1388,10 +1389,9 @@
       duasMaos: slotTipo === 'arma' ? !!(document.getElementById('item-form-duas-maos')?.checked) : false,
       equipadoEm: existente ? existente.equipadoEm : null,
       infoBase: getValue('item-form-info-base').trim(),
-      nomeAfixo: getValue('item-form-sufixo-nome').trim(),
-      prefixoNome: getValue('item-form-prefixo-nome').trim(),
-      prefixoEfeito: getValue('item-form-prefixo-efeito').trim(),
+      prefixos: (window._editingPrefixos||[]).filter(p=>p.nome.trim()),
       sufixoNome: getValue('item-form-sufixo-nome').trim(),
+      nomeAfixo: getValue('item-form-sufixo-nome').trim(),
       sufixoEfeito: getValue('item-form-sufixo-efeito').trim(),
       bonusCA: parseInt(getValue('item-form-bonus-ca')) || 0,
       bonusATK: parseInt(getValue('item-form-bonus-atk')) || 0,
@@ -1435,11 +1435,74 @@
   };
 
   // Auto-fill: prefixo/sufixo nome → efeito (se bater com tabela)
-  window._itemAfixoChanged = function(tipo, val) {
-    const tabela = tipo === 'prefixo' ? PREFIXOS : SUFIXOS;
-    const found = tabela.find(x => x.nome.toLowerCase() === val.toLowerCase());
+  function renderPrefixosList() {
+    const el = document.getElementById('item-form-prefixos-list');
+    if (!el) return;
+    const list = window._editingPrefixos || [];
+    if (!list.length) {
+      el.innerHTML = '<div style="color:#555;font-size:.8rem;padding:.2rem 0 .4rem">Nenhum prefixo — clique em + Prefixo</div>';
+      return;
+    }
+    el.innerHTML = list.map((px, i) => `
+      <div style="display:flex;gap:.35rem;margin-bottom:.3rem;align-items:center">
+        <input type="text" list="dl-prefixos-form" value="${esc(px.nome)}" placeholder="ex: Imparável"
+          style="flex:0 0 38%;min-width:0" oninput="window._itemPrefixoNomeChanged(${i},this.value)">
+        <input type="text" value="${esc(px.efeito)}" placeholder="Efeito…"
+          style="flex:1;min-width:0" oninput="window._editingPrefixos[${i}].efeito=this.value">
+        <button type="button" class="ficha-btn ficha-btn-danger" style="padding:.15rem .45rem;font-size:.8rem;flex-shrink:0"
+          onclick="window._itemDelPrefixo(${i})">×</button>
+      </div>`).join('');
+  }
+
+  window._itemAddPrefixo = function() {
+    if (!window._editingPrefixos) window._editingPrefixos = [];
+    window._editingPrefixos.push({nome:'', efeito:''});
+    renderPrefixosList();
+  };
+
+  window._itemDelPrefixo = function(idx) {
+    if (!window._editingPrefixos) return;
+    window._editingPrefixos.splice(idx, 1);
+    renderPrefixosList();
+  };
+
+  window._itemPrefixoNomeChanged = function(idx, val) {
+    if (!window._editingPrefixos) return;
+    window._editingPrefixos[idx].nome = val;
+    const found = PREFIXOS.find(x => x.nome.toLowerCase() === val.toLowerCase());
+    if (found && !window._editingPrefixos[idx].efeito) {
+      window._editingPrefixos[idx].efeito = found.efeito;
+      renderPrefixosList();
+    }
+  };
+
+  window._itemSufixoChanged = function(val) {
+    // Parse "Prefixo / Sufixo" — divide e preenche os dois
+    if (val.includes('/')) {
+      const parts = val.split('/');
+      const rawPre = parts[0].trim();
+      const rawSuf = parts.slice(1).join('/').trim();
+      // Preenche campo sufixo com a parte depois do /
+      const sufEl = document.getElementById('item-form-sufixo-nome');
+      if (sufEl) sufEl.value = rawSuf;
+      const sufFound = SUFIXOS.find(x => x.nome.toLowerCase() === rawSuf.toLowerCase());
+      const sufEfEl = document.getElementById('item-form-sufixo-efeito');
+      if (sufEfEl && sufFound && !sufEfEl.value) sufEfEl.value = sufFound.efeito;
+      // Preenche ou adiciona no prefixos[]
+      if (rawPre) {
+        if (!window._editingPrefixos) window._editingPrefixos = [];
+        if (!window._editingPrefixos.length) window._editingPrefixos.push({nome:'', efeito:''});
+        window._editingPrefixos[0].nome = rawPre;
+        const preFound = PREFIXOS.find(x => x.nome.toLowerCase() === rawPre.toLowerCase());
+        if (preFound && !window._editingPrefixos[0].efeito) window._editingPrefixos[0].efeito = preFound.efeito;
+        renderPrefixosList();
+      }
+      return;
+    }
+    // Lookup normal
+    const found = SUFIXOS.find(x => x.nome.toLowerCase() === val.toLowerCase());
     if (!found) return;
-    const efEl = document.getElementById(`item-form-${tipo}-efeito`);
+    const efEl = document.getElementById('item-form-sufixo-efeito');
     if (efEl && !efEl.value) efEl.value = found.efeito;
   };
 
