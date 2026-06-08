@@ -979,17 +979,32 @@ function escudoBonus(escudo) {
 }
 
 // Soma bônus de todos os itens equipados (p.items array)
+var _TIPO_KEY_MAP = {'Físico':'Fisico','Fogo':'Fogo','Gelo':'Gelo','Relâmpago':'Relampago','Veneno':'Veneno','Necrótico':'Necrotico','Radiante':'Radiante','Psíquico':'Psiquico','Arcano':'Arcano'};
+var _ALL_RES_KEYS = ['Fisico','Fogo','Gelo','Relampago','Veneno','Necrotico','Radiante','Psiquico','Arcano'];
+
 function calcBonusFromItems(items) {
-  var bonus = { ca: 0, atk: 0, dano: 0, rdFisico: 0, rdTodos: 0, manaMax: 0 };
+  var bonus = { ca: 0, atk: 0, dano: 0, manaMax: 0, rdPorTipo: {} };
+  _ALL_RES_KEYS.forEach(function(k){ bonus.rdPorTipo[k] = 0; });
   if (!items) return bonus;
   items.forEach(function(item) {
     if (!item.equipadoEm) return;
-    bonus.ca      += item.bonusCA       || 0;
-    bonus.atk     += item.bonusATK      || 0;
-    bonus.dano    += item.bonusDano     || 0;
-    bonus.rdFisico+= item.bonusRDFisico || 0;
-    bonus.rdTodos += item.bonusRDTodos  || 0;
-    bonus.manaMax += item.bonusManaMax  || 0;
+    bonus.ca     += item.bonusCA      || 0;
+    bonus.atk    += item.bonusATK     || 0;
+    bonus.dano   += item.bonusDano    || 0;
+    bonus.manaMax+= item.bonusManaMax || 0;
+    // bonusRD[] — novo formato
+    (item.bonusRD || []).forEach(function(r) {
+      if (!r.tipo || !r.valor) return;
+      if (r.tipo === 'Todos') {
+        _ALL_RES_KEYS.forEach(function(k){ bonus.rdPorTipo[k] += r.valor; });
+      } else {
+        var k = _TIPO_KEY_MAP[r.tipo] || r.tipo;
+        if (bonus.rdPorTipo[k] !== undefined) bonus.rdPorTipo[k] += r.valor;
+      }
+    });
+    // Legado
+    if (item.bonusRDFisico) bonus.rdPorTipo['Fisico'] += item.bonusRDFisico;
+    if (item.bonusRDTodos)  _ALL_RES_KEYS.forEach(function(k){ bonus.rdPorTipo[k] += item.bonusRDTodos; });
   });
   return bonus;
 }

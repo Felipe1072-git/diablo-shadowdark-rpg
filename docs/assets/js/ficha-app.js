@@ -550,8 +550,8 @@
     setText('ficha-pv-display', `${p.pvAtual} / ${p.pvMax}`);
     setText('ficha-mana-display', `${p.manaAtual} / ${p.manaMax}`);
     setText('ficha-ca-display', p.ca);
-    const rdTotal = rdFisicoCalc + (itemBonus.rdFisico || 0) + (itemBonus.rdTodos || 0);
-    setText('ficha-rd-display', rdTotal > 0 ? rdTotal : '—');
+    const rdFisicoTotal = rdFisicoCalc + (itemBonus.rdPorTipo?.Fisico || 0);
+    setText('ficha-rd-display', rdFisicoTotal > 0 ? rdFisicoTotal : '—');
     const danoTotal = itemBonus.dano || 0;
     const danoEl = document.getElementById('ficha-dano-display');
     if (danoEl) danoEl.textContent = danoTotal > 0 ? `+${danoTotal}` : danoTotal < 0 ? `${danoTotal}` : '—';
@@ -755,16 +755,19 @@
     };
     const resBody = document.getElementById('ficha-resistencias-body');
     if (resBody) {
+      const rdItens = itemBonus.rdPorTipo || {};
       resBody.innerHTML = Object.entries(resNomes).map(([tipo, nome]) => {
         const val = p.resistencias[tipo] || 0;
         const attrBase = getAtribResistencia(tipo);
         const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
-        const total = modAttr !== null ? modAttr + val : val;
+        const rdItem = rdItens[tipo] || 0;
+        const total = (modAttr !== null ? modAttr : 0) + val + rdItem;
         const tc = total > 0 ? 'res-pos' : total < 0 ? 'res-neg' : 'res-zero';
         return `<tr>
           <td>${nome}</td>
           <td class="ficha-val" id="res-mod-${tipo}">${modAttr !== null ? modAttr : '—'}</td>
           <td><input type="number" class="ficha-input-inline ficha-input-small" id="inline-res-${tipo}" value="${val}" min="-20" max="50"></td>
+          <td class="ficha-val" style="color:#4a9edd;font-size:.8rem">${rdItem > 0 ? '+'+rdItem : '—'}</td>
           <td class="ficha-val ficha-total-rd ${tc}" id="res-total-${tipo}">${total}</td>
         </tr>`;
       }).join('');
@@ -774,7 +777,8 @@
           const attrBase = getAtribResistencia(tipo);
           const modAttr = attrBase ? mod(p.attrs[attrBase] || 10) : null;
           const bonus = parseInt(bonusEl.value) || 0;
-          const total = modAttr !== null ? modAttr + bonus : bonus;
+          const rdItem = rdItens[tipo] || 0;
+          const total = (modAttr !== null ? modAttr : 0) + bonus + rdItem;
           const totalEl = document.getElementById('res-total-' + tipo);
           if (totalEl) {
             totalEl.textContent = total;
