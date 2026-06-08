@@ -47,6 +47,7 @@
   let _itemFormAberto = false;
   let _itemEditandoId = null;
   let _talentoFormAberto = false;
+  let _talentoEditandoIdx = -1;
 
   // ───── Init ─────
   document.addEventListener('DOMContentLoaded', function() {
@@ -957,6 +958,7 @@
   // ───── Talento livre na ficha ─────
   function abrirTalentoForm() {
     _talentoFormAberto = true;
+    _talentoEditandoIdx = -1;
     renderizarTalentosPanel();
   }
 
@@ -1064,15 +1066,49 @@
     if (p.talentos.length === 0) {
       body.innerHTML = '<li class="ficha-empty-small" style="list-style:none;padding:.4rem 0;color:#666">Nenhum talento ainda. Suba de nível para ganhar talentos.</li>';
     } else {
-      body.innerHTML = '<ul class="ficha-talentos-list">' + p.talentos.map((t, i) =>
-        `<li class="ficha-talento" data-idx="${i}">
-          <span class="ficha-talento-nivel${t.homebrew ? ' ficha-talento-hb' : ''}">Nv ${t.nivel || '?'}${t.homebrew ? ' ✏' : ''}</span>
+      const editIdx = _talentoEditandoIdx;
+      body.innerHTML = '<ul class="ficha-talentos-list">' + p.talentos.map((t, i) => {
+        if (i === editIdx) {
+          // Form de edição inline
+          const isHB = !!t.homebrew;
+          const [hbNome, ...hbDescParts] = (t.texto || '').split(': ');
+          const hbDesc = hbDescParts.join(': ');
+          return `<li class="ficha-talento ficha-talento-editando" data-idx="${i}">
+            <div class="tal-edit-form">
+              <div style="display:flex;gap:.4rem;align-items:center;margin-bottom:.4rem">
+                <label style="font-size:.75rem;color:#aaa;white-space:nowrap">Nível</label>
+                <input type="number" id="tal-edit-nivel" value="${t.nivel||1}" min="1" max="10" style="width:60px;background:#111;border:1px solid #444;border-radius:3px;color:#eee;padding:.2rem .4rem;font-size:.9rem">
+              </div>
+              ${isHB ? `
+              <div style="margin-bottom:.3rem">
+                <input type="text" id="tal-edit-hb-nome" value="${esc(hbNome)}" placeholder="Nome…" style="width:100%;background:#111;border:1px solid #444;border-radius:3px;color:#eee;padding:.3rem .4rem;font-size:.9rem;box-sizing:border-box;margin-bottom:.3rem">
+                <textarea id="tal-edit-hb-desc" rows="2" placeholder="Descrição…" style="width:100%;background:#111;border:1px solid #444;border-radius:3px;color:#eee;padding:.3rem .4rem;font-size:.85rem;box-sizing:border-box;resize:vertical;font-family:inherit">${esc(hbDesc)}</textarea>
+              </div>` : `
+              <div style="font-size:.83rem;color:#888;margin-bottom:.4rem;padding:.3rem .4rem;background:#0a0a0a;border-radius:3px">${esc(t.texto)}</div>`}
+              <div style="display:flex;gap:.4rem;justify-content:flex-end">
+                <button class="ficha-btn ficha-btn-secondary" onclick="window._talCancelarEdit()" type="button" style="font-size:.8rem;padding:.2rem .6rem">Cancelar</button>
+                <button class="ficha-btn ficha-btn-primary" onclick="window._talSalvarEdit(${i})" type="button" style="font-size:.8rem;padding:.2rem .6rem">✔ Salvar</button>
+              </div>
+            </div>
+          </li>`;
+        }
+        return `<li class="ficha-talento" data-idx="${i}">
+          <span class="ficha-talento-nivel${t.homebrew ? ' ficha-talento-hb' : ''}">Nv ${t.nivel || '?'}</span>
           <span class="ficha-talento-texto">${esc(t.texto)}</span>
-          <button class="ficha-btn-icon btn-del-talento" data-idx="${i}" title="Remover talento">✕</button>
-        </li>`
-      ).join('') + '</ul>';
+          <div style="display:flex;gap:.2rem;flex-shrink:0">
+            <button class="ficha-btn-icon btn-edit-talento" data-idx="${i}" title="Editar talento">✏</button>
+            <button class="ficha-btn-icon btn-del-talento" data-idx="${i}" title="Remover talento">✕</button>
+          </div>
+        </li>`;
+      }).join('') + '</ul>';
       body.querySelectorAll('.btn-del-talento').forEach(btn => {
         btn.addEventListener('click', () => removerTalento(parseInt(btn.dataset.idx)));
+      });
+      body.querySelectorAll('.btn-edit-talento').forEach(btn => {
+        btn.addEventListener('click', () => {
+          _talentoEditandoIdx = parseInt(btn.dataset.idx);
+          renderizarTalentosPanel();
+        });
       });
     }
   }
@@ -1135,6 +1171,29 @@
 
   window._fichaCancelarTalento = cancelarTalentoForm;
   window._fichaSalvarTalento = salvarTalentoDoForm;
+
+  window._talCancelarEdit = function() {
+    _talentoEditandoIdx = -1;
+    renderizarTalentosPanel();
+  };
+  window._talSalvarEdit = function(idx) {
+    const p = personagemAtual;
+    if (!p || !p.talentos[idx]) return;
+    const t = p.talentos[idx];
+    const novoNivel = parseInt(document.getElementById('tal-edit-nivel')?.value) || t.nivel;
+    t.nivel = novoNivel;
+    if (t.homebrew) {
+      const nome = (document.getElementById('tal-edit-hb-nome')?.value || '').trim();
+      const desc = (document.getElementById('tal-edit-hb-desc')?.value || '').trim();
+      t.texto = desc ? `${nome}: ${desc}` : nome;
+    }
+    const i = personagens.findIndex(x => x.id === p.id);
+    if (i >= 0) personagens[i] = p;
+    salvarPersonagens();
+    _talentoEditandoIdx = -1;
+    renderizarTalentosPanel();
+    mostrarToast('✓ Talento atualizado');
+  };
 
   // ───── Inventário / Mochila ─────
   const MOCHILA_SLOT_NOMES = {
