@@ -131,26 +131,6 @@
       <p id="form-ca-preview" style="margin:.6rem 0 0;font-size:.85rem;color:#aaa"></p>
     </div>
 
-    <!-- Armas e Acessórios -->
-    <div class="ficha-form-section">
-      <h3>Armas e Acessórios</h3>
-      <div class="ficha-form-row">
-        <div class="ficha-form-group">
-          <label>Arma 1</label>
-          <input type="text" id="form-eq-arma1" list="datalist-armas" placeholder="—" autocomplete="off">
-        </div>
-        <div class="ficha-form-group">
-          <label>Arma 2</label>
-          <input type="text" id="form-eq-arma2" list="datalist-armas" placeholder="—" autocomplete="off">
-        </div>
-        <div class="ficha-form-group"><label>Especial de Classe</label><input type="text" id="form-eq-especial" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Amuleto</label><input type="text" id="form-eq-amuleto" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Anel 1</label><input type="text" id="form-eq-anel1" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Anel 2</label><input type="text" id="form-eq-anel2" placeholder="—"></div>
-        <div class="ficha-form-group"><label>Cinto</label><input type="text" id="form-eq-cinto" placeholder="—"></div>
-      </div>
-    </div>
-
     <!-- Resistências iniciais (colapsável) -->
     <details class="ficha-form-section">
       <summary>Bônus de Resistência Inicial <small style="font-weight:400;color:#888">(itens/talentos — normalmente 0 na criação)</small></summary>
@@ -305,6 +285,23 @@
   <div class="levelup-container">
     <h2>⬆ Subindo de Nível</h2>
     <p id="levelup-nivel-atual" style="color:#aaa"></p>
+
+    <div class="ficha-panel">
+      <div style="display:flex;gap:.8rem;flex-wrap:wrap;align-items:flex-end">
+        <div class="ficha-form-group" style="flex:0 0 auto">
+          <label>Tabela</label>
+          <select id="levelup-tabela-tipo" style="padding:.35rem .5rem;background:#111;border:1px solid #444;border-radius:4px;color:#eee;font-family:inherit;font-size:.9rem">
+            <option value="classe">Tabela da Classe</option>
+            <option value="geral">Tabela Geral</option>
+          </select>
+        </div>
+        <div id="levelup-geral-group" class="ficha-form-group" style="display:none;flex:0 0 auto">
+          <label>Tabela Geral</label>
+          <select id="levelup-tabela-geral-id" style="padding:.35rem .5rem;background:#111;border:1px solid #444;border-radius:4px;color:#eee;font-family:inherit;font-size:.9rem"></select>
+        </div>
+        <button id="btn-rolar-levelup-novo" class="ficha-btn ficha-btn-secondary" type="button">🎲 Rolar novamente</button>
+      </div>
+    </div>
 
     <div class="ficha-panel" style="text-align:center">
       <p style="margin:0;color:#888;font-size:.9rem">Resultado do d20:</p>

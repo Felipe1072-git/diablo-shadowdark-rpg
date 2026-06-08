@@ -336,25 +336,6 @@
       };
     }
 
-    // Datalist de armas (preencher uma vez)
-    const dl = document.getElementById('datalist-armas');
-    if (dl && !dl.children.length) {
-      dl.innerHTML = ARMAS_LISTA.map(a => `<option value="${a}">`).join('');
-    }
-
-    // Especial de Classe auto-fill
-    const especialEl = document.getElementById('form-eq-especial');
-    if (especialEl) {
-      const classItem = ITENS_CLASSE[p.classe] || '';
-      if (!especialEl.value || Object.values(ITENS_CLASSE).includes(especialEl.value)) {
-        especialEl.value = classItem;
-      }
-    }
-
-    // Demais slots de equipamento
-    Object.keys(p.equipamento).filter(s => !armorSlotsFrm.includes(s)).forEach(slot => {
-      setValue('form-eq-' + slot, p.equipamento[slot] || '');
-    });
     Object.keys(p.resistencias).forEach(tipo => setValue('form-res-' + tipo, p.resistencias[tipo]));
 
     // Preview inicial de CA
@@ -418,8 +399,8 @@
     p.pvMax = calcPVMax(p.nivel, cls ? cls.dv : 8, p.attrs.CON);
     if (p.pvAtual === 0 || p.pvAtual > p.pvMax) p.pvAtual = p.pvMax;
 
-    // Salvar todos os slots de equipamento
-    Object.keys(p.equipamento).forEach(slot => {
+    // Salvar só slots de armadura (outros são editados diretamente na ficha)
+    ['elmo','peito','luvas','perneiras','botas'].forEach(slot => {
       p.equipamento[slot] = getValue('form-eq-' + slot) || '';
     });
 
@@ -699,6 +680,12 @@
     // Talentos
     _talentoFormAberto = false;
     renderizarTalentosPanel();
+
+    // Datalist de armas (popular na abertura da ficha, não depende do form de criação)
+    const dl = document.getElementById('datalist-armas');
+    if (dl && !dl.children.length) {
+      dl.innerHTML = ARMAS_LISTA.map(a => `<option value="${a}">`).join('');
+    }
 
     // Equipamento
     const eqNomes = {
@@ -1387,23 +1374,59 @@
     const cls = getClasse(p.classe);
     if (!cls) return;
 
-    const roll = Math.ceil(Math.random() * 20);
-    const talento = encontrarTalento(cls.talentos, roll);
-
     setText('levelup-nivel-atual', `Nível ${p.nivel} → ${p.nivel + 1}`);
-    setText('levelup-roll', roll);
-    setText('levelup-talento-texto', talento?.text || '—');
 
-    const selectEl = document.getElementById('levelup-select-talento');
-    if (selectEl) {
-      selectEl.innerHTML = cls.talentos.map(t =>
-        `<option value="${t.roll}" ${t.roll === talento?.roll ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 80)}${t.text.length > 80 ? '…' : ''}</option>`
+    // Preencher select de tabela geral (uma vez)
+    const geralSel = document.getElementById('levelup-tabela-geral-id');
+    if (geralSel) {
+      geralSel.innerHTML = TALENTOS_GERAIS.map(t =>
+        `<option value="${t.id}">${t.nome}</option>`
       ).join('');
-      selectEl.onchange = () => {
-        const chosen = cls.talentos.find(t => t.roll === selectEl.value);
-        if (chosen) setText('levelup-talento-texto', chosen.text);
-      };
     }
+
+    // Resetar seletor para classe ao abrir
+    const tipoSel = document.getElementById('levelup-tabela-tipo');
+    if (tipoSel) tipoSel.value = 'classe';
+    const geralGroup = document.getElementById('levelup-geral-group');
+    if (geralGroup) geralGroup.style.display = 'none';
+
+    function getTabelaLevelUp() {
+      const tipo = getValue('levelup-tabela-tipo');
+      if (tipo === 'geral') {
+        const geralId = getValue('levelup-tabela-geral-id');
+        return TALENTOS_GERAIS.find(t => t.id === geralId)?.talentos || [];
+      }
+      return cls.talentos;
+    }
+
+    function rolarEPopular() {
+      const tabela = getTabelaLevelUp();
+      const roll = Math.ceil(Math.random() * 20);
+      const talento = encontrarTalento(tabela, roll);
+      setText('levelup-roll', roll);
+      setText('levelup-talento-texto', talento?.text || '—');
+      const selectEl = document.getElementById('levelup-select-talento');
+      if (selectEl) {
+        selectEl.innerHTML = tabela.map(t =>
+          `<option value="${t.roll}" ${t.roll === talento?.roll ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 80)}${t.text.length > 80 ? '…' : ''}</option>`
+        ).join('');
+        selectEl.onchange = () => {
+          const chosen = tabela.find(t => t.roll === selectEl.value);
+          if (chosen) setText('levelup-talento-texto', chosen.text);
+        };
+      }
+    }
+
+    if (tipoSel) tipoSel.onchange = () => {
+      if (geralGroup) geralGroup.style.display = tipoSel.value === 'geral' ? '' : 'none';
+      rolarEPopular();
+    };
+    if (geralSel) geralSel.onchange = rolarEPopular;
+
+    const btnRolar = document.getElementById('btn-rolar-levelup-novo');
+    if (btnRolar) btnRolar.onclick = rolarEPopular;
+
+    rolarEPopular();
     mostrar('view-levelup');
   }
 
@@ -1424,7 +1447,15 @@
     const cls = getClasse(p.classe);
     if (!cls || !selectEl) return;
 
-    const talento = cls.talentos.find(t => t.roll === selectEl.value);
+    const tipo = getValue('levelup-tabela-tipo');
+    let talento;
+    if (tipo === 'geral') {
+      const geralId = getValue('levelup-tabela-geral-id');
+      const tabela = TALENTOS_GERAIS.find(t => t.id === geralId);
+      talento = tabela?.talentos.find(t => t.roll === selectEl.value);
+    } else {
+      talento = cls.talentos.find(t => t.roll === selectEl.value);
+    }
     if (!talento) return;
 
     p.nivel += 1;
