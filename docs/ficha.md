@@ -243,10 +243,10 @@
     </div>
   </div>
 
-  <!-- Notas -->
+  <!-- Notas Estruturadas -->
   <div class="ficha-panel">
-    <h3>Notas</h3>
-    <textarea id="ficha-notas-input" class="ficha-input-inline" rows="4" placeholder="Objetivos, NPCs, missões em andamento…" style="width:100%;resize:vertical"></textarea>
+    <h3>Notas de Campanha</h3>
+    <div id="ficha-notas-body"></div>
   </div>
 
   <!-- Lacaios & Pets -->

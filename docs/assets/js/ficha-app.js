@@ -71,6 +71,7 @@
         if (p.bonusConjuracao === undefined) p.bonusConjuracao = 0;
         if (!p.atribAtk) p.atribAtk = '';
         if (!p.atribConj) p.atribConj = '';
+        if (!p.notasEstruturadas) p.notasEstruturadas = { objetivos:[], npcs:'', missaoPrincipal:'', facoes:[], missoesSecundarias:'', rumores:'', bestiario:[] };
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
           ['elmo','peito','luvas','perneiras','botas'].forEach(s => {
@@ -103,6 +104,10 @@
       resistencias: { Fisico:0, Fogo:0, Gelo:0, Relampago:0, Veneno:0,
                       Necrotico:0, Radiante:0, Psiquico:0, Arcano:0 },
       condicoes: [], talentos: [], notas: '',
+      notasEstruturadas: {
+        objetivos: [], npcs: '', missaoPrincipal: '',
+        facoes: [], missoesSecundarias: '', rumores: '', bestiario: []
+      },
       criadoEm: new Date().toISOString(),
       atualizadoEm: new Date().toISOString()
     };
@@ -484,9 +489,6 @@
       if (el) p.resistencias[tipo] = parseInt(el.value) || 0;
     });
 
-    const notasEl = document.getElementById('ficha-notas-input');
-    if (notasEl) p.notas = notasEl.value;
-
     p.condicoes = CONDITIONS.filter(c =>
       document.getElementById('cond-' + c.id)?.classList.contains('ativo')
     ).map(c => c.id);
@@ -814,9 +816,7 @@
       atualizarDescricao();
     }
 
-    // Notas
-    const notasEl = document.getElementById('ficha-notas-input');
-    if (notasEl) notasEl.value = p.notas || '';
+    renderizarNotas();
 
     const btnLvl = document.getElementById('btn-levelup');
     if (btnLvl) btnLvl.disabled = p.nivel >= 10;
@@ -1456,6 +1456,157 @@
   window._fichaAddLacaio = adicionarLacaio;
   window._fichaLacaioHP  = lacaioHP;
   window._fichaLacaioDel = deletarLacaio;
+
+  // ───── Notas Estruturadas ─────
+  function salvarNotas() {
+    const p = personagemAtual;
+    if (!p) return;
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+  }
+
+  function renderizarNotas() {
+    const p = personagemAtual;
+    const el = document.getElementById('ficha-notas-body');
+    if (!el || !p) return;
+    const ns = p.notasEstruturadas || {};
+    const objs = ns.objetivos || [];
+    const facs = ns.facoes || [];
+    const best = ns.bestiario || [];
+
+    const objRows = objs.map((o, i) => `
+      <div class="notas-objetivo-row">
+        <input type="checkbox" ${o.concluido ? 'checked' : ''} onchange="window._notasToggleObj(${i})" title="Concluído">
+        <input type="text" class="notas-input" placeholder="Objetivo…" value="${(o.texto||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveObj(${i},'texto',this.value)" ${o.concluido ? 'style="text-decoration:line-through;color:#666"' : ''}>
+        <input type="text" class="notas-input notas-recompensa" placeholder="Recompensa…" value="${(o.recompensa||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveObj(${i},'recompensa',this.value)">
+        <button class="notas-del-btn" onclick="window._notasDelObj(${i})" title="Remover">✕</button>
+      </div>`).join('');
+
+    const facRows = facs.map((f, i) => `
+      <div class="notas-facao-card">
+        <div class="notas-facao-row">
+          <input type="text" class="notas-input" placeholder="Nome da Facção…" value="${(f.nome||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveFac(${i},'nome',this.value)">
+          <button class="notas-del-btn" onclick="window._notasDelFac(${i})" title="Remover">✕</button>
+        </div>
+        <div class="notas-facao-row">
+          <input type="text" class="notas-input" placeholder="Reputação…" value="${(f.reputacao||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveFac(${i},'reputacao',this.value)" style="flex:1">
+          <input type="text" class="notas-input" placeholder="Relação atual…" value="${(f.relacao||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveFac(${i},'relacao',this.value)" style="flex:1">
+        </div>
+        <input type="text" class="notas-input" placeholder="Contatos…" value="${(f.contatos||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveFac(${i},'contatos',this.value)">
+      </div>`).join('');
+
+    const bestRows = best.map((b, i) => `
+      <div class="notas-bestiario-row">
+        <input type="text" class="notas-input" placeholder="Criatura…" value="${(b.nome||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveBest(${i},'nome',this.value)">
+        <input type="text" class="notas-input" placeholder="Fraqueza…" value="${(b.fraqueza||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveBest(${i},'fraqueza',this.value)">
+        <input type="text" class="notas-input" placeholder="Situação…" value="${(b.situacao||'').replace(/"/g,'&quot;')}" oninput="window._notasSaveBest(${i},'situacao',this.value)">
+        <button class="notas-del-btn" onclick="window._notasDelBest(${i})" title="Remover">✕</button>
+      </div>`).join('');
+
+    el.innerHTML = `
+      <div class="notas-two-col">
+        <div class="notas-col">
+          <details class="notas-section" open>
+            <summary>Objetivos</summary>
+            <div id="notas-objetivos-list">${objRows}</div>
+            <button class="ficha-btn ficha-btn-secondary notas-add-btn" onclick="window._notasAddObj()" type="button">+ Objetivo</button>
+          </details>
+          <details class="notas-section" open>
+            <summary>Missão Principal</summary>
+            <textarea class="notas-textarea" rows="3" placeholder="Missão principal em andamento…" oninput="window._notasSaveField('missaoPrincipal',this.value)">${ns.missaoPrincipal||''}</textarea>
+          </details>
+          <details class="notas-section">
+            <summary>Missões Secundárias</summary>
+            <textarea class="notas-textarea" rows="4" placeholder="Lista de missões secundárias…" oninput="window._notasSaveField('missoesSecundarias',this.value)">${ns.missoesSecundarias||''}</textarea>
+          </details>
+          <details class="notas-section">
+            <summary>Rumores</summary>
+            <textarea class="notas-textarea" rows="3" placeholder="Rumores ouvidos…" oninput="window._notasSaveField('rumores',this.value)">${ns.rumores||''}</textarea>
+          </details>
+        </div>
+        <div class="notas-col">
+          <details class="notas-section" open>
+            <summary>NPCs</summary>
+            <textarea class="notas-textarea" rows="5" placeholder="Personagens encontrados…" oninput="window._notasSaveField('npcs',this.value)">${ns.npcs||''}</textarea>
+          </details>
+          <details class="notas-section">
+            <summary>Facções</summary>
+            <div id="notas-facoes-list">${facRows}</div>
+            <button class="ficha-btn ficha-btn-secondary notas-add-btn" onclick="window._notasAddFac()" type="button">+ Facção</button>
+          </details>
+          <details class="notas-section">
+            <summary>Bestiário</summary>
+            <div class="notas-bestiario-header" style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:.3rem;font-size:.75rem;color:#666;padding:.2rem .3rem">
+              <span>Criatura</span><span>Fraqueza</span><span>Situação</span><span></span>
+            </div>
+            <div id="notas-bestiario-list">${bestRows}</div>
+            <button class="ficha-btn ficha-btn-secondary notas-add-btn" onclick="window._notasAddBest()" type="button">+ Criatura</button>
+          </details>
+        </div>
+      </div>`;
+  }
+
+  window._notasSaveField = function(field, val) {
+    const p = personagemAtual; if (!p) return;
+    if (!p.notasEstruturadas) p.notasEstruturadas = {};
+    p.notasEstruturadas[field] = val;
+    salvarNotas();
+  };
+  window._notasAddObj = function() {
+    const p = personagemAtual; if (!p) return;
+    if (!p.notasEstruturadas) p.notasEstruturadas = {};
+    if (!p.notasEstruturadas.objetivos) p.notasEstruturadas.objetivos = [];
+    p.notasEstruturadas.objetivos.push({ texto:'', recompensa:'', concluido:false });
+    salvarNotas(); renderizarNotas();
+  };
+  window._notasDelObj = function(i) {
+    const p = personagemAtual; if (!p) return;
+    p.notasEstruturadas.objetivos.splice(i, 1);
+    salvarNotas(); renderizarNotas();
+  };
+  window._notasToggleObj = function(i) {
+    const p = personagemAtual; if (!p) return;
+    p.notasEstruturadas.objetivos[i].concluido = !p.notasEstruturadas.objetivos[i].concluido;
+    salvarNotas(); renderizarNotas();
+  };
+  window._notasSaveObj = function(i, field, val) {
+    const p = personagemAtual; if (!p) return;
+    p.notasEstruturadas.objetivos[i][field] = val;
+    salvarNotas();
+  };
+  window._notasAddFac = function() {
+    const p = personagemAtual; if (!p) return;
+    if (!p.notasEstruturadas.facoes) p.notasEstruturadas.facoes = [];
+    p.notasEstruturadas.facoes.push({ nome:'', reputacao:'', relacao:'', contatos:'' });
+    salvarNotas(); renderizarNotas();
+  };
+  window._notasDelFac = function(i) {
+    const p = personagemAtual; if (!p) return;
+    p.notasEstruturadas.facoes.splice(i, 1);
+    salvarNotas(); renderizarNotas();
+  };
+  window._notasSaveFac = function(i, field, val) {
+    const p = personagemAtual; if (!p) return;
+    p.notasEstruturadas.facoes[i][field] = val;
+    salvarNotas();
+  };
+  window._notasAddBest = function() {
+    const p = personagemAtual; if (!p) return;
+    if (!p.notasEstruturadas.bestiario) p.notasEstruturadas.bestiario = [];
+    p.notasEstruturadas.bestiario.push({ nome:'', fraqueza:'', situacao:'' });
+    salvarNotas(); renderizarNotas();
+  };
+  window._notasDelBest = function(i) {
+    const p = personagemAtual; if (!p) return;
+    p.notasEstruturadas.bestiario.splice(i, 1);
+    salvarNotas(); renderizarNotas();
+  };
+  window._notasSaveBest = function(i, field, val) {
+    const p = personagemAtual; if (!p) return;
+    p.notasEstruturadas.bestiario[i][field] = val;
+    salvarNotas();
+  };
 
   function getAtribResistencia(tipo) {
     return {
