@@ -228,7 +228,7 @@
   </div>
 
   <!-- Condições -->
-  <div class="ficha-panel">
+  <div class="ficha-panel" id="ficha-condicoes-panel">
     <h3>Condições</h3>
     <div id="ficha-condicoes-body" style="min-height:2rem"></div>
   </div>
