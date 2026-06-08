@@ -73,6 +73,18 @@
         if (!p.atribConj) p.atribConj = '';
         if (!p.notasEstruturadas) p.notasEstruturadas = { objetivos:[], npcs:'', missaoPrincipal:'', facoes:[], missoesSecundarias:'', rumores:'', bestiario:[] };
         if (p._arma2BloqueadaPor === undefined) p._arma2BloqueadaPor = null;
+        // Migrar itens antigos: nomeAfixo → sufixoNome + buscar efeito na tabela
+        (p.items || []).forEach(function(item) {
+          if (!item.prefixoNome) item.prefixoNome = '';
+          if (!item.prefixoEfeito) item.prefixoEfeito = '';
+          if (!item.sufixoNome && item.nomeAfixo) {
+            item.sufixoNome = item.nomeAfixo;
+            var found = SUFIXOS.find(function(s) { return s.nome.toLowerCase() === item.nomeAfixo.toLowerCase(); });
+            if (found && !item.sufixoEfeito) item.sufixoEfeito = found.efeito;
+          }
+          if (!item.sufixoNome) item.sufixoNome = '';
+          if (!item.sufixoEfeito) item.sufixoEfeito = '';
+        });
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
           ['elmo','peito','luvas','perneiras','botas'].forEach(s => {
@@ -731,8 +743,10 @@
           return `<tr>
             <td class="ficha-slot-nome">${nome}</td>
             <td><div class="slot-item-card">
-              <div style="${qualStyle};font-weight:700;font-size:.85rem">${esc(eqItem.nome)}${eqItem.nomeAfixo ? ` <span style="color:#888;font-weight:400;font-size:.85em">${esc(eqItem.nomeAfixo)}</span>` : ''}</div>
+              <div style="${qualStyle};font-weight:700;font-size:.85rem">${esc(eqItem.nome)}${eqItem.sufixoNome ? ` <span style="color:#888;font-weight:400;font-size:.85em">${esc(eqItem.sufixoNome)}</span>` : (eqItem.nomeAfixo ? ` <span style="color:#888;font-weight:400;font-size:.85em">${esc(eqItem.nomeAfixo)}</span>` : '')}</div>
               ${(eqItem.infoBase || eqItem.atributo) ? `<div style="font-size:.78rem;color:#bbb;margin-bottom:.1rem">${eqItem.infoBase ? esc(eqItem.infoBase) : ''}${eqItem.atributo ? ` <span style="color:#e67e22">${esc(eqItem.atributo)}</span>` : ''}</div>` : ''}
+              ${eqItem.prefixoNome ? `<div style="font-size:.72rem;color:#e67e22;margin-top:.1rem"><strong>${esc(eqItem.prefixoNome)}:</strong> ${esc(eqItem.prefixoEfeito||'')}</div>` : ''}
+              ${eqItem.sufixoEfeito ? `<div style="font-size:.72rem;color:#9b59b6;margin-top:.1rem"><strong>${esc(eqItem.sufixoNome||'')}:</strong> ${esc(eqItem.sufixoEfeito)}</div>` : ''}
               ${bonusTexts.length ? `<div style="font-size:.72rem;color:#4a9edd;margin-top:.1rem">${bonusTexts.join(' · ')}</div>` : ''}
               <button class="ficha-btn ficha-btn-secondary" style="font-size:.7rem;padding:.1rem .4rem;margin-top:.3rem"
                 onclick="window._fichaDesequipar('${eqItem.id}')">Desequipar</button>
@@ -1180,8 +1194,10 @@
       return `<div class="mochila-item">
         <div class="mochila-item-row">
           <div class="mochila-item-info">
-            <div style="${qualStyle};font-weight:700;font-size:.9rem">${esc(item.nome)}${item.nomeAfixo ? ` <span style="color:#888;font-weight:400">${esc(item.nomeAfixo)}</span>` : ''}</div>
+            <div style="${qualStyle};font-weight:700;font-size:.9rem">${esc(item.nome)}${item.sufixoNome ? ` <span style="color:#888;font-weight:400">${esc(item.sufixoNome)}</span>` : (item.nomeAfixo ? ` <span style="color:#888;font-weight:400">${esc(item.nomeAfixo)}</span>` : '')}</div>
             <div style="font-size:.73rem;color:#666;margin-bottom:.15rem">${esc(item.qualidade)} · ${esc(slotNome)}${item.infoBase ? ' · ' + esc(item.infoBase) : ''}${item.atributo ? ` · <span style="color:#e67e22">${esc(item.atributo)}</span>` : ''}</div>
+            ${item.prefixoNome ? `<div style="font-size:.76rem;color:#e67e22;margin-top:.1rem"><strong>${esc(item.prefixoNome)}:</strong> ${esc(item.prefixoEfeito||'')}</div>` : ''}
+            ${item.sufixoEfeito ? `<div style="font-size:.76rem;color:#9b59b6;margin-top:.1rem"><strong>${esc(item.sufixoNome||'')}:</strong> ${esc(item.sufixoEfeito)}</div>` : ''}
             ${bonusTexts.length ? `<div style="font-size:.75rem;color:#4a9edd">${bonusTexts.join(' &nbsp;·&nbsp; ')}</div>` : ''}
           </div>
           <div class="mochila-item-acoes">
@@ -1218,12 +1234,16 @@
       ).join('');
     const showArmor = armorSlots.includes(v('slotTipo','arma'));
 
+    const armaDatalist = isArma ? `<datalist id="dl-armas-form">${ARSENAL_ARMAS.map(a=>`<option value="${esc(a.nome)}">`).join('')}</datalist>` : '';
+
     return `<div class="ficha-item-form">
       <h4 style="margin:0 0 .8rem;color:#e74c3c">${_itemEditandoId ? 'Editar Item' : 'Novo Item'}</h4>
       <div class="ficha-form-row">
         <div class="ficha-form-group" style="grid-column:span 2">
-          <label>Nome</label>
-          <input type="text" id="item-form-nome" value="${esc(v('nome'))}" placeholder="Ex: Espada Longa">
+          <label>Nome ${isArma ? '<small style="color:#666">(arsenal: comece a digitar)</small>' : ''}</label>
+          ${armaDatalist}
+          <input type="text" id="item-form-nome" value="${esc(v('nome'))}" placeholder="Ex: Espada Longa"
+            ${isArma ? 'list="dl-armas-form" oninput="window._itemNomeArmaChanged(this.value)"' : ''}>
         </div>
         <div class="ficha-form-group">
           <label>Qualidade</label>
@@ -1237,7 +1257,7 @@
       <div class="ficha-form-row">
         <div class="ficha-form-group" id="item-form-tipo-armadura-group" style="${showArmor ? '' : 'display:none'}">
           <label>Tipo de Armadura Base</label>
-          <select id="item-form-tipo-armadura">${armorTypeOpts}</select>
+          <select id="item-form-tipo-armadura" onchange="window._itemArmaduraChanged(this.value)">${armorTypeOpts}</select>
         </div>
         <div class="ficha-form-group" id="item-form-atributo-group" style="${isArma ? '' : 'display:none'}">
           <label>Atributo de Ataque</label>
@@ -1248,15 +1268,42 @@
           <div style="padding:.4rem 0"><label style="display:flex;align-items:center;gap:.4rem;cursor:pointer"><input type="checkbox" id="item-form-duas-maos" ${v('duasMaos') ? 'checked' : ''}> Arma de 2 mãos (ocupa 2 slots)</label></div>
         </div>
         <div class="ficha-form-group">
-          <label>Info Base <small style="color:#666">(ex: 1d8)</small></label>
-          <input type="text" id="item-form-info-base" value="${esc(v('infoBase'))}" placeholder="—">
-        </div>
-        <div class="ficha-form-group">
-          <label>Sufixo decorativo</label>
-          <input type="text" id="item-form-nome-afixo" value="${esc(v('nomeAfixo'))}" placeholder="ex: do Assassino">
+          <label>Info Base <small style="color:#666">auto-preenchido ou manual</small></label>
+          <input type="text" id="item-form-info-base" value="${esc(v('infoBase'))}" placeholder="ex: 1d8 · Versátil">
         </div>
       </div>
-      <div class="ficha-form-row">
+
+      <!-- Prefixo -->
+      <div class="ficha-form-row" style="margin-top:.3rem">
+        <div class="ficha-form-group" style="grid-column:span 2">
+          <label>Prefixo <small style="color:#666">(comece a digitar para sugestões)</small></label>
+          <datalist id="dl-prefixos-form">${PREFIXOS.map(p=>`<option value="${esc(p.nome)}">`).join('')}</datalist>
+          <input type="text" id="item-form-prefixo-nome" list="dl-prefixos-form"
+            value="${esc(v('prefixoNome'))}" placeholder="ex: Imparável"
+            oninput="window._itemAfixoChanged('prefixo',this.value)">
+        </div>
+        <div class="ficha-form-group" style="grid-column:span 2">
+          <label>Efeito do Prefixo <small style="color:#666">edite para homebrew</small></label>
+          <input type="text" id="item-form-prefixo-efeito" value="${esc(v('prefixoEfeito'))}" placeholder="Descrição do efeito…">
+        </div>
+      </div>
+
+      <!-- Sufixo -->
+      <div class="ficha-form-row" style="margin-top:.3rem">
+        <div class="ficha-form-group" style="grid-column:span 2">
+          <label>Sufixo <small style="color:#666">(comece a digitar para sugestões)</small></label>
+          <datalist id="dl-sufixos-form">${SUFIXOS.map(s=>`<option value="${esc(s.nome)}">`).join('')}</datalist>
+          <input type="text" id="item-form-sufixo-nome" list="dl-sufixos-form"
+            value="${esc(v('sufixoNome') || v('nomeAfixo'))}" placeholder="ex: da Negociação"
+            oninput="window._itemAfixoChanged('sufixo',this.value)">
+        </div>
+        <div class="ficha-form-group" style="grid-column:span 2">
+          <label>Efeito do Sufixo <small style="color:#666">edite para homebrew</small></label>
+          <input type="text" id="item-form-sufixo-efeito" value="${esc(v('sufixoEfeito'))}" placeholder="Descrição do efeito…">
+        </div>
+      </div>
+
+      <div class="ficha-form-row" style="margin-top:.3rem">
         <div class="ficha-form-group"><label>Bônus CA</label><input type="number" id="item-form-bonus-ca" value="${v('bonusCA',0)}" min="-20" max="20"></div>
         <div class="ficha-form-group"><label>Bônus ATK</label><input type="number" id="item-form-bonus-atk" value="${v('bonusATK',0)}" min="-20" max="20"></div>
         <div class="ficha-form-group"><label>Bônus Dano</label><input type="number" id="item-form-bonus-dano" value="${v('bonusDano',0)}" min="-20" max="20"></div>
@@ -1369,7 +1416,11 @@
       duasMaos: slotTipo === 'arma' ? !!(document.getElementById('item-form-duas-maos')?.checked) : false,
       equipadoEm: existente ? existente.equipadoEm : null,
       infoBase: getValue('item-form-info-base').trim(),
-      nomeAfixo: getValue('item-form-nome-afixo').trim(),
+      nomeAfixo: getValue('item-form-sufixo-nome').trim(),
+      prefixoNome: getValue('item-form-prefixo-nome').trim(),
+      prefixoEfeito: getValue('item-form-prefixo-efeito').trim(),
+      sufixoNome: getValue('item-form-sufixo-nome').trim(),
+      sufixoEfeito: getValue('item-form-sufixo-efeito').trim(),
       bonusCA: parseInt(getValue('item-form-bonus-ca')) || 0,
       bonusATK: parseInt(getValue('item-form-bonus-atk')) || 0,
       bonusDano: parseInt(getValue('item-form-bonus-dano')) || 0,
@@ -1392,6 +1443,33 @@
     renderizarFicha();
     mostrarToast(editandoId ? 'Item atualizado!' : 'Item adicionado!');
   }
+
+  // Auto-fill: nome de arma → info base + duasMaos
+  window._itemNomeArmaChanged = function(val) {
+    const arma = ARSENAL_ARMAS.find(a => a.nome.toLowerCase() === val.toLowerCase());
+    if (!arma) return;
+    const ib = document.getElementById('item-form-info-base');
+    if (ib && !ib.value) ib.value = arma.infoBase;
+    const cb = document.getElementById('item-form-duas-maos');
+    if (cb) cb.checked = arma.duasMaos;
+  };
+
+  // Auto-fill: tipo de armadura → info base
+  window._itemArmaduraChanged = function(val) {
+    const ib = document.getElementById('item-form-info-base');
+    if (!ib) return;
+    if (val && ARMADURA_INFO_BASE[val]) ib.value = ARMADURA_INFO_BASE[val];
+    else if (!val) ib.value = '';
+  };
+
+  // Auto-fill: prefixo/sufixo nome → efeito (se bater com tabela)
+  window._itemAfixoChanged = function(tipo, val) {
+    const tabela = tipo === 'prefixo' ? PREFIXOS : SUFIXOS;
+    const found = tabela.find(x => x.nome.toLowerCase() === val.toLowerCase());
+    if (!found) return;
+    const efEl = document.getElementById(`item-form-${tipo}-efeito`);
+    if (efEl && !efEl.value) efEl.value = found.efeito;
+  };
 
   window._fichaEquipar = equiparItemFicha;
   window._fichaDesequipar = desequiparItemFicha;
