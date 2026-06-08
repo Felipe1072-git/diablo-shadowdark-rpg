@@ -830,6 +830,160 @@ function calcBonusFromItems(items) {
   return bonus;
 }
 
+// Talentos Gerais (Cap. 5) — 6 tabelas, qualquer classe pode rolar
+const TALENTOS_GERAIS = [
+  {
+    id: 'combate', nome: 'Tabela 1: Combate',
+    talentos: [
+      { roll: '1',  text: 'Pele Grossa: +3 de HP máximos permanentes.' },
+      { roll: '2',  text: 'Reflexo Instintivo: Quando toma dano de uma fonte que pode ver, use ⟁ para reduzir o dano em 1d6 (sem custo de Mana).' },
+      { roll: '3',  text: 'Foco Mortal: Uma vez por turno, gaste 1 Mana para adicionar +1d6 de dano a um ataque bem-sucedido.' },
+      { roll: '4',  text: 'Espírito de Batalha: Vantagem em Salvaguardas para resistir a condições (Medo, Paralisia, etc.) durante combate.' },
+      { roll: '5',  text: 'Golpe Ensurdecedor: Após acertar corpo a corpo, gaste 2 Mana para impor Desvantagem no próximo ataque do alvo.' },
+      { roll: '6',  text: 'Destruidor de Escudos: Seus ataques ignoram o bônus de CA de escudos.' },
+      { roll: '7',  text: 'Instinto de Predador: Vantagem em ataques contra alvos que ainda não agiram no combate (primeiro turno do encontro).' },
+      { roll: '8',  text: 'Guerreiro Veterano: Uma vez por cena, role novamente uma jogada de ataque e fique com o melhor resultado.' },
+      { roll: '9',  text: 'Sangue Frio: Sem Desvantagem em ataques por estar adjacente a múltiplos inimigos.' },
+      { roll: '10', text: 'Perseguidor: Quando um inimigo usa Desengajar, você pode se mover Próximo como ⟁ sem custo de PA.' },
+      { roll: '11', text: 'Marca de Morte: Ao reduzir um inimigo a 0 PV, seu próximo ataque no mesmo turno tem Vantagem.' },
+      { roll: '12', text: 'Agressor: Ao se mover em direção a um inimigo e atacar no mesmo turno, adicione +1d4 ao dano.' },
+      { roll: '13', text: 'Ataque Giratório: Como ◈◈, ataque todos os inimigos adjacentes. Role um ataque para cada um.' },
+      { roll: '14', text: 'Provocação: Como ◈, force um inimigo a mirar só você até o início do seu próximo turno — seus aliados têm Vantagem contra esse alvo enquanto ele te vê.' },
+      { roll: '15', text: 'Recuperação em Combate: Uma vez por cena, recupere 1d6 PV como ◇ durante seu turno.' },
+      { roll: '16', text: 'Resistência ao Dano: Você ganha RD 2 contra dano físico (cortante, perfurante, contundente).' },
+      { roll: '17', text: 'Fortaleza de Aço: Usando armadura Pesada, ignore a primeira fonte de Desvantagem por turno.' },
+      { roll: '18', text: 'Golpe Crítico Aprimorado: Seus Acertos Críticos causam 3 dados de dano em vez de 2.' },
+      { roll: '19', text: 'Força da Desesperança: Enquanto com menos de 25% dos PV máximos, Vantagem em ataques.' },
+      { roll: '20', text: 'Lenda do Combate: Escolha qualquer outro talento desta tabela. Você o ganha permanentemente.' }
+    ]
+  },
+  {
+    id: 'magia', nome: 'Tabela 2: Magia',
+    talentos: [
+      { roll: '1',  text: 'Reservatório Expandido: +5 de Mana máximo permanentes.' },
+      { roll: '2',  text: 'Foco Arcano: Ao passar num teste de conjuração, recupere 1 Mana.' },
+      { roll: '3',  text: 'Resistência Mágica: Vantagem em Salvaguardas contra magias e efeitos sobrenaturais.' },
+      { roll: '4',  text: 'Amplificador Elemental: Escolha um elemento (Fogo, Gelo, Raio, Veneno). Seus feitiços desse elemento causam +1d6 adicional.' },
+      { roll: '5',  text: 'Conjuração Silenciosa: Você conjura sem gestos visíveis ou sons. Inimigos não identificam de onde veio a magia.' },
+      { roll: '6',  text: 'Recuperação de Mana: Durante um Descanso Curto, recupere Mana adicional igual ao seu Nível.' },
+      { roll: '7',  text: 'Contrafeitiço: Como ⟁ + 4 Mana, interrompa um feitiço inimigo que você possa ver sendo conjurado.' },
+      { roll: '8',  text: 'Infusão de Mana: Como ◈ + 2 Mana, conceda 3 Mana a um aliado adjacente.' },
+      { roll: '9',  text: 'Alcance Estendido: Feitiços com alcance Curto passam a alcançar Distante.' },
+      { roll: '10', text: 'Poder Bruto: Uma vez por cena, dobre o dado de dano de um feitiço (gaste 4 Mana extra).' },
+      { roll: '11', text: 'Catalisador Natural: Você não precisa de um catalisador físico para conjurar — suas mãos servem como foco.' },
+      { roll: '12', text: 'Mente de Ferro: Seu Mana máximo não pode ser reduzido por efeitos externos.' },
+      { roll: '13', text: 'Explosão de Burnout: Ao entrar em Burnout (Mana 0), cause 2d6 de dano Arcano em todos os adjacentes como ⟁.' },
+      { roll: '14', text: 'Absorção Mágica: Ao sofrer dano de magia, recupere 1 Mana para cada 5 pontos de dano recebido.' },
+      { roll: '15', text: 'Conjurador Rápido: Uma vez por cena, conjure um feitiço de ◈◈ como ◈ (gaste 2 Mana extra).' },
+      { roll: '16', text: 'Maestria na Falha: Ao rolar 1 Natural numa conjuração, gaste 5 Mana para ignorar a Malfunção Mágica.' },
+      { roll: '17', text: 'Roubo de Mana: Seus ataques recuperam 1 Mana ao acertar um Golpe Fatal ou Crítico.' },
+      { roll: '18', text: 'Dupla Conjuração: Uma vez por descanso longo, conjure dois feitiços no mesmo turno (◈◈◈ + Mana de ambos).' },
+      { roll: '19', text: 'Escudo Arcano: Como ⟁, gaste 3 Mana para negar completamente um dano.' },
+      { roll: '20', text: 'Maestria Arcana: Escolha qualquer outro talento desta tabela. Você o ganha permanentemente.' }
+    ]
+  },
+  {
+    id: 'sobrevivencia', nome: 'Tabela 3: Sobrevivência',
+    talentos: [
+      { roll: '1',  text: 'Pele de Pedra: RD 1 permanente contra todo dano físico.' },
+      { roll: '2',  text: 'Segundo Fôlego: Uma vez por cena, como ◇, recupere 1d8+Nível PV.' },
+      { roll: '3',  text: 'Resistência a Venenos: Vantagem em Salvaguardas contra veneno e doenças.' },
+      { roll: '4',  text: 'Cicatrização Acelerada: No início de cada Descanso Curto, recupere 1d4 PV automaticamente.' },
+      { roll: '5',  text: 'Corpo Forjado: Ignore o primeiro nível de Exaustão em qualquer teste.' },
+      { roll: '6',  text: 'Resistência ao Frio: Imune a penalidades de clima frio. RD 3 contra dano de gelo.' },
+      { roll: '7',  text: 'Resistência ao Calor: Imune a penalidades de clima quente. RD 3 contra dano de fogo.' },
+      { roll: '8',  text: 'Caminhante das Sombras: Você enxerga normalmente em escuridão total até uma distância Próximo.' },
+      { roll: '9',  text: 'Sono Leve: Você recupera os benefícios de Descanso Longo em 4 horas em vez de 8.' },
+      { roll: '10', text: 'Reflexo de Queda: Sem dano em quedas de até 6 metros. Acima disso, o dano é reduzido à metade.' },
+      { roll: '11', text: 'Vontade da Desesperança: Enquanto com menos de 25% dos PV máximos, Vantagem em Salvaguardas.' },
+      { roll: '12', text: 'Adaptação: Após sofrer o mesmo tipo de dano três vezes no mesmo combate, você ganha RD 3 contra ele pelo resto do combate.' },
+      { roll: '13', text: 'Vontade de Ferro: Vantagem em todas as Salvaguardas de SAB e CAR.' },
+      { roll: '14', text: 'Recuperação Mística: Ao matar um inimigo, recupere 1d4 PV.' },
+      { roll: '15', text: 'Pulmões de Aço: Segure a respiração por 10 minutos. Vantagem em testes de CON por exaustão física.' },
+      { roll: '16', text: 'Estômago de Ferro: Imune a penalidades de fome e sede por até 3 dias.' },
+      { roll: '17', text: 'Tenazes: Ao ser estabilizado após cair a 0 PV, você acorda com 1d4 PV em vez de 1.' },
+      { roll: '18', text: 'Cicatriz de Batalha: Para cada cicatriz permanente que você carrega, +1 em Salvaguardas de CON.' },
+      { roll: '19', text: 'Imortal em Treinamento: Ao falhar numa Salvaguarda de morte (0 PV), role 1d6. No 6, você fica com 1 PV.' },
+      { roll: '20', text: 'Lendário Sobrevivente: Escolha qualquer outro talento desta tabela. Você o ganha permanentemente.' }
+    ]
+  },
+  {
+    id: 'social', nome: 'Tabela 4: Social',
+    talentos: [
+      { roll: '1',  text: 'Voz de Comando: Uma vez por cena, como ◇, dê uma ordem a um aliado — ele pode se mover Próximo como ⟁ sem custo de PA.' },
+      { roll: '2',  text: 'Intimidação: Como ◈, force um inimigo a rolar Salvaguarda de SAB ou CAR (DC 10 + Nível) ou ficar com Desvantagem nos ataques até o fim do turno dele.' },
+      { roll: '3',  text: 'Presença Imponente: Vantagem em testes de CAR para intimidar, persuadir ou impressionar NPCs.' },
+      { roll: '4',  text: 'Grito de Guerra: Como ◇, todos os aliados que puderem te ouvir ganham +1 em ataques no próximo turno.' },
+      { roll: '5',  text: 'Rede de Contatos: Em qualquer cidade ou assentamento, você sempre conhece alguém. Uma vez por sessão, o Mestre apresenta um contato local.' },
+      { roll: '6',  text: 'Interrogação: Vantagem em testes para extrair informação de prisioneiros, suspeitos ou testemunhas.' },
+      { roll: '7',  text: 'Liderança de Campo: Aliados adjacentes têm +1 em Salvaguardas enquanto você estiver de pé e consciente.' },
+      { roll: '8',  text: 'Mentiroso Habilidoso: Vantagem em testes para enganar ou disfarçar intenções.' },
+      { roll: '9',  text: 'Fama e Medo: Quando seu nome é mencionado em combate (como ◇), inimigos com inteligência média ou menor rolam Salvaguarda de SAB (DC 10 + Nível) ou recuam Próximo.' },
+      { roll: '10', text: 'Diplomata: Você pode tentar encerrar um combate por negociação como ◈◈. Funciona apenas uma vez por cena.' },
+      { roll: '11', text: 'Inspiração: Uma vez por descanso longo, como ◈, conceda a um aliado Vantagem em qualquer teste ou ataque à escolha dele.' },
+      { roll: '12', text: 'Moral de Ferro: Aliados que puderem te ouvir são imunes ao efeito Medo enquanto você estiver consciente.' },
+      { roll: '13', text: 'Provocador: Como ◈, insulte um inimigo inteligente. Ele tem Vantagem para atacar você, mas Desvantagem para atacar seus aliados até o fim do próximo turno dele.' },
+      { roll: '14', text: 'Passagem Segura: Uma vez por sessão, você pode negociar passagem segura por território inimigo sem combate.' },
+      { roll: '15', text: 'Leitura de Intenção: Vantagem em testes de SAB para perceber mentiras, armadilhas sociais ou emboscadas disfarçadas de negociação.' },
+      { roll: '16', text: 'Reputação de Guerreiro: Inimigos que conhecem seu nome começam o combate com Desvantagem na primeira Salvaguarda que fizerem.' },
+      { roll: '17', text: 'Aliado Improvável: Uma vez por sessão, convença um NPC neutro ou hostil a ajudar o grupo por uma cena.' },
+      { roll: '18', text: 'Carisma Sobrenatural: Você pode usar CAR em vez de qualquer outro atributo em testes de interação social.' },
+      { roll: '19', text: 'Discurso Inspirador: Durante um Descanso Curto, faça um discurso. Todos os aliados que ouvirem recuperam +1d4 PV extra além do normal.' },
+      { roll: '20', text: 'Lenda Viva: Escolha qualquer outro talento desta tabela. Você o ganha permanentemente.' }
+    ]
+  },
+  {
+    id: 'exploracao', nome: 'Tabela 5: Exploração',
+    talentos: [
+      { roll: '1',  text: 'Sentidos Aguçados: Vantagem em testes de SAB para perceber perigos, armadilhas ou criaturas escondidas.' },
+      { roll: '2',  text: 'Rastreador: Você segue rastros automaticamente em terreno natural. Em terreno urbano, Vantagem no teste.' },
+      { roll: '3',  text: 'Escalador Nato: Você escala superfícies sem teste em condições normais. Em condições adversas, Vantagem.' },
+      { roll: '4',  text: 'Faro de Tesouro: Vantagem em testes para encontrar itens escondidos, compartimentos secretos ou saídas ocultas.' },
+      { roll: '5',  text: 'Memória de Mapa: Você nunca se perde em locais que já visitou. Em locais novos, o Mestre sempre te diz quantas saídas existem.' },
+      { roll: '6',  text: 'Passagem Furtiva: Vantagem em testes de DES para se mover silenciosamente. Em armadura Pesada, a Desvantagem normal é ignorada.' },
+      { roll: '7',  text: 'Leitura de Ruínas: Como ◈, você identifica a função original de qualquer estrutura ou sala ao examiná-la.' },
+      { roll: '8',  text: 'Sentido de Armadilha: Nunca é surpreendido por armadilhas mecânicas. Você percebe a presença de armadilhas mágicas automaticamente.' },
+      { roll: '9',  text: 'Natação de Combate: Sem penalidades em combate ou movimento subaquático. Você pode segurar a respiração o dobro do tempo normal.' },
+      { roll: '10', text: 'Cartógrafo: Ao final de cada sessão de exploração, o Mestre revela um detalhe oculto do mapa que o grupo ainda não descobriu.' },
+      { roll: '11', text: 'Visão Mística: Como ◈, detecte a presença de magia, demônios ou mortos-vivos num raio Próximo.' },
+      { roll: '12', text: 'Caminhante Noturno: Sem penalidades em terreno escuro ou de luz fraca. Vantagem em testes de exploração durante a noite.' },
+      { roll: '13', text: 'Quebrador de Portas: Portas, cadeados e barreiras físicas comuns cedem sem teste.' },
+      { roll: '14', text: 'Conhecimento de Terreno: Escolha um tipo de terreno. Vantagem em todos os testes de exploração nesse ambiente.' },
+      { roll: '15', text: 'Sobrevivente do Inferno: Você ignora penalidades de ambientes sobrenaturais (calor demoníaco, escuridão mágica, névoa corrompida).' },
+      { roll: '16', text: 'Intuição de Perigo: No início de cada sessão, o Mestre avisa se o próximo encontro principal será de combate, social ou exploração.' },
+      { roll: '17', text: 'Sentido de Morte: Você percebe automaticamente a presença de mortos-vivos ou demônios num raio Distante, mesmo através de paredes.' },
+      { roll: '18', text: 'Rastejador de Masmorras: Ao entrar numa nova área, Vantagem na primeira ação que você tomar.' },
+      { roll: '19', text: 'Escalar Paredes: Como ◈, suba superfícies verticais de até 6 metros sem equipamento.' },
+      { roll: '20', text: 'Explorador Lendário: Escolha qualquer outro talento desta tabela. Você o ganha permanentemente.' }
+    ]
+  },
+  {
+    id: 'fortuna', nome: 'Tabela 6: Fortuna',
+    talentos: [
+      { roll: '1',  text: 'Sortudo: Uma vez por sessão, transforme uma Falha em um Sucesso em qualquer teste.' },
+      { roll: '2',  text: 'Azarado com Sorte: Sempre que rolar um 1 Natural, ganhe 1 ponto de Fortuna. Acumule até 3 — gaste 3 para transformar qualquer resultado num 20.' },
+      { roll: '3',  text: 'Pressentimento: Uma vez por sessão, antes de rolar um dado, declare que vai usar Pressentimento. Se o resultado for Falha, role novamente.' },
+      { roll: '4',  text: 'Dado Quente: Após rolar dois 20 Naturais na mesma sessão, todos os seus dados de dano causam o valor máximo até o fim do combate atual.' },
+      { roll: '5',  text: 'Instinto de Sobrevivente: Uma vez por cena, quando um ataque te reduziria a 0 PV, role 1d6. No 4+, você fica com 1 PV.' },
+      { roll: '6',  text: 'Achado Inesperado: Uma vez por sessão, ao explorar uma sala, declare um Achado. O Mestre adiciona um item útil não planejado.' },
+      { roll: '7',  text: 'Golpe do Destino: Uma vez por cena, após errar um ataque, o próximo ataque contra o mesmo alvo tem Vantagem.' },
+      { roll: '8',  text: 'Mão Fria, Coração Quente: Vantagem em rolagens de tabelas aleatórias (tesouros, eventos de viagem, encontros).' },
+      { roll: '9',  text: 'Desafio do Caos: Ao rolar um 1 Natural em qualquer teste fora de combate, algo inesperadamente bom acontece.' },
+      { roll: '10', text: 'Karma: Sempre que um aliado cair a 0 PV, você ganha Vantagem em todos os ataques no próximo turno.' },
+      { roll: '11', text: 'Olho do Furacão: Quando estiver cercado por 3 ou mais inimigos, role 1d6 no início do seu turno. No 5+, um deles tropeça ou hesita.' },
+      { roll: '12', text: 'Tesouro Amaldiçoado: Uma vez por sessão, ao pegar um item mágico desconhecido, você pode ativá-lo imediatamente sem identificá-lo.' },
+      { roll: '13', text: 'Ressurgir das Cinzas: Uma vez por descanso longo, ao ser estabilizado após cair a 0 PV, você levanta com 1d6 PV sem gastar uma ação.' },
+      { roll: '14', text: 'Bênção Profana: Ao iniciar um combate em território demoníaco ou corrompido, role 1d6. No 4+, ganhe Vantagem no primeiro ataque.' },
+      { roll: '15', text: 'Coincidência Conveniente: Uma vez por sessão, declare que algo conveniente acontece. O Mestre decide como acontece, mas acontece.' },
+      { roll: '16', text: 'Dados Sangrentos: Sempre que rolar o valor máximo em qualquer dado de dano, role esse dado novamente e some (uma vez por ataque).' },
+      { roll: '17', text: 'Fio do Destino: O Mestre não pode matar seu personagem por consequência de um 1 Natural fora de combate.' },
+      { roll: '18', text: 'Maldição Refletida: Uma vez por cena, quando sofrer um efeito de status, role 1d6. No 5+, o efeito é refletido para o causador.' },
+      { roll: '19', text: 'Herança de Nephalem: Uma vez por campanha, em um momento de morte certa, você sobrevive com 1 PV.' },
+      { roll: '20', text: 'Filho da Fortuna: Escolha qualquer outro talento desta tabela. Você o ganha permanentemente.' }
+    ]
+  }
+];
+
 // Talento simples que aplica automaticamente (+2 FOR, etc.)
 function aplicarTalentoSimples(char, texto) {
   const m2 = texto.match(/\+2 de (Força|Destreza|Constituição|Inteligência|Sabedoria|Carisma)/);

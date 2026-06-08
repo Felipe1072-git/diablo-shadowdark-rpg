@@ -167,6 +167,11 @@
       </div>
     </div>
 
+    <!-- Talento Inicial -->
+    <div class="ficha-form-section" id="form-talento-section">
+      <!-- preenchido por JS apenas na criação -->
+    </div>
+
     <!-- Notas -->
     <div class="ficha-form-section">
       <h3>Notas</h3>
@@ -256,8 +261,11 @@
 
   <!-- Talentos -->
   <div class="ficha-panel">
-    <h3>Talentos</h3>
-    <ul class="ficha-talentos-list" id="ficha-talentos-body"></ul>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem">
+      <h3 style="margin:0">Talentos</h3>
+      <button id="btn-add-talento" class="ficha-btn ficha-btn-secondary" style="font-size:.8rem;padding:.2rem .7rem" type="button">+ Talento</button>
+    </div>
+    <div id="ficha-talentos-body"></div>
   </div>
 
   <!-- Equipamento + Resistências -->

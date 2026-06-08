@@ -37,6 +37,7 @@
   let _isRendering = false;
   let _itemFormAberto = false;
   let _itemEditandoId = null;
+  let _talentoFormAberto = false;
 
   // ───── Init ─────
   document.addEventListener('DOMContentLoaded', function() {
@@ -154,8 +155,10 @@
         especialEl.value = classItem;
       }
       atualizarCaPreviewForm();
+      renderizarTalentoInicialForm();
     });
     on('btn-rolar-atributos', 'click', rolarAtributos);
+    on('btn-add-talento', 'click', abrirTalentoForm);
 
     // Auto-save com debounce na view da ficha
     const viewFicha = document.getElementById('view-ficha');
@@ -350,6 +353,8 @@
 
     const titulo = document.getElementById('form-titulo-pagina');
     if (titulo) titulo.textContent = modoEdicao ? 'Editar Personagem' : 'Novo Personagem';
+
+    renderizarTalentoInicialForm();
   }
 
   function atualizarAtribPrimarioSelect() {
@@ -417,6 +422,28 @@
     p.atualizadoEm = new Date().toISOString();
 
     if (!modoEdicao) {
+      // Coletar talento inicial do form
+      const talRoll = getValue('form-tal-select');
+      if (talRoll) {
+        const tipoTabela = getValue('form-tal-tipo');
+        let talento = null;
+        if (tipoTabela === 'geral') {
+          const geralId = getValue('form-tal-geral-id');
+          const tabela = TALENTOS_GERAIS.find(t => t.id === geralId);
+          if (tabela) talento = tabela.talentos.find(t => t.roll === talRoll);
+        } else {
+          if (cls) talento = cls.talentos.find(t => t.roll === talRoll);
+        }
+        if (talento) {
+          const aplicacao = aplicarTalentoSimples(p, talento.text);
+          if (aplicacao) {
+            if (aplicacao.tipo === 'attr') p.attrs[aplicacao.attr] += aplicacao.valor;
+            if (aplicacao.tipo === 'pv') p.pvMax += aplicacao.valor;
+            if (aplicacao.tipo === 'mana') p.manaMax += aplicacao.valor;
+          }
+          p.talentos.push({ roll: talRoll, texto: talento.text, nivel: 1 });
+        }
+      }
       personagens.push(p);
     } else {
       const idx = personagens.findIndex(x => x.id === p.id);
@@ -661,23 +688,8 @@
     }
 
     // Talentos
-    const talentosBody = document.getElementById('ficha-talentos-body');
-    if (talentosBody) {
-      if (p.talentos.length === 0) {
-        talentosBody.innerHTML = '<li class="ficha-empty-small">Nenhum talento ainda. Suba de nível para ganhar talentos.</li>';
-      } else {
-        talentosBody.innerHTML = p.talentos.map((t, i) =>
-          `<li class="ficha-talento" data-idx="${i}">
-            <span class="ficha-talento-nivel">Nv ${t.nivel || '?'}</span>
-            <span class="ficha-talento-texto">${esc(t.texto)}</span>
-            <button class="ficha-btn-icon btn-del-talento" data-idx="${i}" title="Remover talento">✕</button>
-          </li>`
-        ).join('');
-        talentosBody.querySelectorAll('.btn-del-talento').forEach(btn => {
-          btn.addEventListener('click', () => removerTalento(parseInt(btn.dataset.idx)));
-        });
-      }
-    }
+    _talentoFormAberto = false;
+    renderizarTalentosPanel();
 
     // Equipamento
     const eqNomes = {
@@ -801,6 +813,253 @@
 
     _isRendering = false;
   }
+
+  // ───── Talento Inicial (formulário de criação) ─────
+  function renderizarTalentoInicialForm() {
+    const sec = document.getElementById('form-talento-section');
+    if (!sec) return;
+    if (modoEdicao) { sec.innerHTML = ''; return; }
+
+    const clsId = getValue('form-classe') || 'amazona';
+    const cls = getClasse(clsId);
+    const tabelaGeralOpts = TALENTOS_GERAIS.map(t =>
+      `<option value="${t.id}">${t.nome}</option>`
+    ).join('');
+
+    sec.innerHTML = `
+      <h3>Talento Inicial (Nível 1)</h3>
+      <p style="font-size:.82rem;color:#888;margin:.0 0 .8rem">Personagens começam com 1 talento. Role ou escolha abaixo.</p>
+      <div class="ficha-form-row" style="margin-bottom:.6rem">
+        <div class="ficha-form-group">
+          <label>Tabela</label>
+          <select id="form-tal-tipo">
+            <option value="classe">Tabela da Classe</option>
+            <option value="geral">Tabela Geral</option>
+          </select>
+        </div>
+        <div class="ficha-form-group" id="form-tal-geral-group" style="display:none">
+          <label>Tabela Geral</label>
+          <select id="form-tal-geral-id">${tabelaGeralOpts}</select>
+        </div>
+        <div class="ficha-form-group" style="display:flex;align-items:flex-end">
+          <button class="ficha-btn ficha-btn-secondary" id="btn-rolar-talento-inicial" type="button">🎲 Rolar d20</button>
+        </div>
+        <div class="ficha-form-group">
+          <label>Resultado</label>
+          <div id="form-tal-roll-display" style="font-size:1.4rem;font-weight:700;color:#e74c3c;text-align:center;padding:.25rem 0">—</div>
+        </div>
+      </div>
+      <div class="ficha-form-row">
+        <div class="ficha-form-group" style="grid-column:span 2">
+          <label>Talento</label>
+          <select id="form-tal-select"></select>
+        </div>
+      </div>
+      <div id="form-tal-texto" style="font-size:.82rem;color:#bbb;margin-top:.5rem;padding:.5rem .6rem;background:#0d1a0d;border-left:3px solid #2d5a2d;border-radius:3px;display:none"></div>`;
+
+    const tipoSel = document.getElementById('form-tal-tipo');
+    const geralGroup = document.getElementById('form-tal-geral-group');
+    const rolarBtn = document.getElementById('btn-rolar-talento-inicial');
+
+    function getTabela() {
+      if (tipoSel.value === 'geral') {
+        const geralId = getValue('form-tal-geral-id');
+        return TALENTOS_GERAIS.find(t => t.id === geralId)?.talentos || [];
+      }
+      return cls ? cls.talentos : [];
+    }
+
+    function popularSelect(talentos, selecionado) {
+      const sel = document.getElementById('form-tal-select');
+      if (!sel) return;
+      sel.innerHTML = '<option value="">— Nenhum talento inicial —</option>' +
+        talentos.map(t => `<option value="${t.roll}" ${t.roll === selecionado ? 'selected' : ''}>[${t.roll}] ${t.text.substring(0, 90)}${t.text.length > 90 ? '…' : ''}</option>`).join('');
+      atualizarTextoTalento();
+    }
+
+    function atualizarTextoTalento() {
+      const sel = document.getElementById('form-tal-select');
+      const txt = document.getElementById('form-tal-texto');
+      if (!sel || !txt) return;
+      const tabela = getTabela();
+      const found = tabela.find(t => t.roll === sel.value);
+      if (found) { txt.textContent = found.text; txt.style.display = ''; }
+      else { txt.style.display = 'none'; }
+    }
+
+    tipoSel.onchange = () => {
+      geralGroup.style.display = tipoSel.value === 'geral' ? '' : 'none';
+      popularSelect(getTabela(), null);
+    };
+
+    const geralSel = document.getElementById('form-tal-geral-id');
+    if (geralSel) geralSel.onchange = () => popularSelect(getTabela(), null);
+
+    rolarBtn.onclick = () => {
+      const roll = Math.ceil(Math.random() * 20);
+      document.getElementById('form-tal-roll-display').textContent = roll;
+      const tabela = getTabela();
+      const talento = tabela.find(t => {
+        if (t.roll.includes('-')) {
+          const [min, max] = t.roll.split('-').map(Number);
+          return roll >= min && roll <= max;
+        }
+        return parseInt(t.roll) === roll;
+      });
+      popularSelect(tabela, talento?.roll);
+    };
+
+    const sel = document.getElementById('form-tal-select');
+    if (sel) sel.onchange = atualizarTextoTalento;
+
+    popularSelect(getTabela(), null);
+  }
+
+  // ───── Talento livre na ficha ─────
+  function abrirTalentoForm() {
+    _talentoFormAberto = true;
+    renderizarTalentosPanel();
+  }
+
+  function renderizarTalentosPanel() {
+    const p = personagemAtual;
+    const body = document.getElementById('ficha-talentos-body');
+    if (!body || !p) return;
+
+    if (_talentoFormAberto) {
+      const cls = getClasse(p.classe);
+      const tabelaGeralOpts = TALENTOS_GERAIS.map(t =>
+        `<option value="${t.id}">${t.nome}</option>`
+      ).join('');
+      body.innerHTML = `
+        <div class="ficha-item-form">
+          <h4 style="margin:0 0 .8rem;color:#e74c3c">Adicionar Talento</h4>
+          <div class="ficha-form-row" style="margin-bottom:.6rem">
+            <div class="ficha-form-group">
+              <label>Tabela</label>
+              <select id="tal-form-tipo">
+                <option value="classe">Tabela da Classe</option>
+                <option value="geral">Tabela Geral</option>
+              </select>
+            </div>
+            <div class="ficha-form-group" id="tal-form-geral-group" style="display:none">
+              <label>Tabela Geral</label>
+              <select id="tal-form-geral-id">${tabelaGeralOpts}</select>
+            </div>
+          </div>
+          <div class="ficha-form-row">
+            <div class="ficha-form-group" style="grid-column:span 2">
+              <label>Talento</label>
+              <select id="tal-form-select"><option value="">— Escolha o talento —</option></select>
+            </div>
+          </div>
+          <div id="tal-form-texto" style="font-size:.82rem;color:#bbb;margin-top:.5rem;padding:.5rem .6rem;background:#0d1a0d;border-left:3px solid #2d5a2d;border-radius:3px;display:none"></div>
+          <div style="display:flex;gap:.6rem;margin-top:.8rem;justify-content:flex-end">
+            <button class="ficha-btn ficha-btn-secondary" onclick="window._fichaCancelarTalento()" type="button">Cancelar</button>
+            <button class="ficha-btn ficha-btn-primary" onclick="window._fichaSalvarTalento()" type="button">✔ Adicionar</button>
+          </div>
+        </div>`;
+
+      function getTabelaFicha() {
+        const tipo = getValue('tal-form-tipo');
+        if (tipo === 'geral') {
+          const geralId = getValue('tal-form-geral-id');
+          return TALENTOS_GERAIS.find(t => t.id === geralId)?.talentos || [];
+        }
+        return cls ? cls.talentos : [];
+      }
+
+      function popularSelectFicha() {
+        const sel = document.getElementById('tal-form-select');
+        if (!sel) return;
+        const tabela = getTabelaFicha();
+        sel.innerHTML = '<option value="">— Escolha o talento —</option>' +
+          tabela.map(t => `<option value="${t.roll}">[${t.roll}] ${t.text.substring(0, 90)}${t.text.length > 90 ? '…' : ''}</option>`).join('');
+        atualizarTextoTalentoFicha();
+      }
+
+      function atualizarTextoTalentoFicha() {
+        const sel = document.getElementById('tal-form-select');
+        const txt = document.getElementById('tal-form-texto');
+        if (!sel || !txt) return;
+        const tabela = getTabelaFicha();
+        const found = tabela.find(t => t.roll === sel.value);
+        if (found) { txt.textContent = found.text; txt.style.display = ''; }
+        else { txt.style.display = 'none'; }
+      }
+
+      const tipoSel = document.getElementById('tal-form-tipo');
+      const geralGroup = document.getElementById('tal-form-geral-group');
+      if (tipoSel) tipoSel.onchange = () => {
+        if (geralGroup) geralGroup.style.display = tipoSel.value === 'geral' ? '' : 'none';
+        popularSelectFicha();
+      };
+      const geralSel = document.getElementById('tal-form-geral-id');
+      if (geralSel) geralSel.onchange = popularSelectFicha;
+      const talSel = document.getElementById('tal-form-select');
+      if (talSel) talSel.onchange = atualizarTextoTalentoFicha;
+
+      popularSelectFicha();
+      return;
+    }
+
+    // Lista normal de talentos
+    if (p.talentos.length === 0) {
+      body.innerHTML = '<li class="ficha-empty-small" style="list-style:none;padding:.4rem 0;color:#666">Nenhum talento ainda. Suba de nível para ganhar talentos.</li>';
+    } else {
+      body.innerHTML = '<ul class="ficha-talentos-list">' + p.talentos.map((t, i) =>
+        `<li class="ficha-talento" data-idx="${i}">
+          <span class="ficha-talento-nivel">Nv ${t.nivel || '?'}</span>
+          <span class="ficha-talento-texto">${esc(t.texto)}</span>
+          <button class="ficha-btn-icon btn-del-talento" data-idx="${i}" title="Remover talento">✕</button>
+        </li>`
+      ).join('') + '</ul>';
+      body.querySelectorAll('.btn-del-talento').forEach(btn => {
+        btn.addEventListener('click', () => removerTalento(parseInt(btn.dataset.idx)));
+      });
+    }
+  }
+
+  function cancelarTalentoForm() {
+    _talentoFormAberto = false;
+    renderizarTalentosPanel();
+  }
+
+  function salvarTalentoDoForm() {
+    const p = personagemAtual;
+    if (!p) return;
+    const tipo = getValue('tal-form-tipo');
+    const rollVal = getValue('tal-form-select');
+    if (!rollVal) { mostrarToast('Escolha um talento primeiro!'); return; }
+
+    let talento = null;
+    if (tipo === 'geral') {
+      const geralId = getValue('tal-form-geral-id');
+      const tabela = TALENTOS_GERAIS.find(t => t.id === geralId);
+      if (tabela) talento = tabela.talentos.find(t => t.roll === rollVal);
+    } else {
+      const cls = getClasse(p.classe);
+      if (cls) talento = cls.talentos.find(t => t.roll === rollVal);
+    }
+    if (!talento) { mostrarToast('Talento não encontrado!'); return; }
+
+    const aplicacao = aplicarTalentoSimples(p, talento.text);
+    if (aplicacao) {
+      if (aplicacao.tipo === 'attr') p.attrs[aplicacao.attr] += aplicacao.valor;
+      if (aplicacao.tipo === 'pv') p.pvMax += aplicacao.valor;
+      if (aplicacao.tipo === 'mana') p.manaMax += aplicacao.valor;
+    }
+    p.talentos.push({ roll: rollVal, texto: talento.text, nivel: p.nivel });
+    const idx = personagens.findIndex(x => x.id === p.id);
+    if (idx >= 0) personagens[idx] = p;
+    salvarPersonagens();
+    _talentoFormAberto = false;
+    renderizarFicha();
+    mostrarToast('Talento adicionado!');
+  }
+
+  window._fichaCancelarTalento = cancelarTalentoForm;
+  window._fichaSalvarTalento = salvarTalentoDoForm;
 
   // ───── Inventário / Mochila ─────
   const MOCHILA_SLOT_NOMES = {
