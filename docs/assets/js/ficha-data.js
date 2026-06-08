@@ -638,6 +638,9 @@ const ARMADURA_INFO_BASE = {
   'Placa Completa':  'CA 18 · RD 3 (Pesada, Req. FOR 13, Ruído)',
 };
 
+// Tipos de dano válidos para RD por tipo
+const TIPOS_DANO = ['Físico','Fogo','Gelo','Relâmpago','Veneno','Necrótico','Radiante','Psíquico','Arcano','Todos'];
+
 // Arsenal completo de armas para datalist + auto-fill
 const ARSENAL_ARMAS = [
   // Corpo a corpo — 1 mão

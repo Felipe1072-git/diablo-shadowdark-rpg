@@ -88,6 +88,12 @@
           if (!item.prefixos) {
             item.prefixos = (item.prefixoNome) ? [{nome: item.prefixoNome, efeito: item.prefixoEfeito || ''}] : [];
           }
+          // bonusRD[] — migrar campos legados bonusRDFisico / bonusRDTodos
+          if (!item.bonusRD) {
+            item.bonusRD = [];
+            if (item.bonusRDFisico) item.bonusRD.push({tipo:'Físico', valor: item.bonusRDFisico});
+            if (item.bonusRDTodos)  item.bonusRD.push({tipo:'Todos',  valor: item.bonusRDTodos});
+          }
         });
         // Migrar save antigo (armadura única → peças individuais)
         if (p.armadura && !p.equipamento.peito) {
@@ -720,8 +726,7 @@
           if (eqItem.bonusCA)       bonusTexts.push(`CA ${eqItem.bonusCA > 0 ? '+' : ''}${eqItem.bonusCA}`);
           if (eqItem.bonusATK)      bonusTexts.push(`ATK ${eqItem.bonusATK > 0 ? '+' : ''}${eqItem.bonusATK}`);
           if (eqItem.bonusDano)     bonusTexts.push(`Dano ${eqItem.bonusDano > 0 ? '+' : ''}${eqItem.bonusDano}`);
-          if (eqItem.bonusRDFisico) bonusTexts.push(`RD Fís. +${eqItem.bonusRDFisico}`);
-          if (eqItem.bonusRDTodos)  bonusTexts.push(`RD Todos +${eqItem.bonusRDTodos}`);
+          (eqItem.bonusRD||[]).forEach(r=>{ if(r.valor) bonusTexts.push(`RD ${r.tipo} +${r.valor}`); });
           if (eqItem.bonusManaMax)  bonusTexts.push(`Mana ${eqItem.bonusManaMax > 0 ? '+' : ''}${eqItem.bonusManaMax}`);
           return `<tr>
             <td class="ficha-slot-nome">${nome}</td>
@@ -1216,8 +1221,10 @@
     if (_itemFormAberto) {
       const _editItemObj = _itemEditandoId ? (personagemAtual?.items||[]).find(i=>i.id===_itemEditandoId) : null;
       window._editingPrefixos = (_editItemObj?.prefixos || []).map(p => ({nome:p.nome||'', efeito:p.efeito||''}));
+      window._editingRDs = (_editItemObj?.bonusRD || []).map(r => ({tipo:r.tipo||'Físico', valor:r.valor||0}));
       panel.innerHTML = renderFormItem();
       renderPrefixosList();
+      renderRDList();
       const slotSel = document.getElementById('item-form-slot-tipo');
       if (slotSel) slotSel.onchange = () => {
         const armorSlots = ['peito','elmo','luvas','perneiras','botas'];
@@ -1254,8 +1261,7 @@
       if (item.bonusCA)       bonusTexts.push(`CA ${item.bonusCA > 0 ? '+' : ''}${item.bonusCA}`);
       if (item.bonusATK)      bonusTexts.push(`ATK ${item.bonusATK > 0 ? '+' : ''}${item.bonusATK}`);
       if (item.bonusDano)     bonusTexts.push(`Dano ${item.bonusDano > 0 ? '+' : ''}${item.bonusDano}`);
-      if (item.bonusRDFisico) bonusTexts.push(`RD Fís. +${item.bonusRDFisico}`);
-      if (item.bonusRDTodos)  bonusTexts.push(`RD Todos +${item.bonusRDTodos}`);
+      (item.bonusRD||[]).forEach(r=>{ if(r.valor) bonusTexts.push(`RD ${r.tipo} +${r.valor}`); });
       if (item.bonusManaMax)  bonusTexts.push(`Mana ${item.bonusManaMax > 0 ? '+' : ''}${item.bonusManaMax}`);
 
       const multiSlots = item.slotTipo === 'arma' ? (item.duasMaos ? ['arma1'] : ['arma1','arma2']) : item.slotTipo === 'anel' ? ['anel1','anel2'] : null;
@@ -1382,9 +1388,14 @@
         <div class="ficha-form-group"><label>Bônus CA</label><input type="number" id="item-form-bonus-ca" value="${v('bonusCA',0)}" min="-20" max="20"></div>
         <div class="ficha-form-group"><label>Bônus ATK</label><input type="number" id="item-form-bonus-atk" value="${v('bonusATK',0)}" min="-20" max="20"></div>
         <div class="ficha-form-group"><label>Bônus Dano</label><input type="number" id="item-form-bonus-dano" value="${v('bonusDano',0)}" min="-20" max="20"></div>
-        <div class="ficha-form-group"><label>RD Físico</label><input type="number" id="item-form-bonus-rd-fisico" value="${v('bonusRDFisico',0)}" min="0" max="20"></div>
-        <div class="ficha-form-group"><label>RD Todos</label><input type="number" id="item-form-bonus-rd-todos" value="${v('bonusRDTodos',0)}" min="0" max="20"></div>
         <div class="ficha-form-group"><label>Mana Máx</label><input type="number" id="item-form-bonus-mana-max" value="${v('bonusManaMax',0)}" min="-20" max="50"></div>
+      </div>
+      <div style="margin-top:.6rem">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.3rem">
+          <label style="margin:0;font-size:.8rem;color:#aaa;text-transform:uppercase;letter-spacing:.05em">Resistência a Dano (RD) <small style="color:#555;text-transform:none">por tipo</small></label>
+          <button type="button" class="ficha-btn ficha-btn-secondary" style="font-size:.75rem;padding:.2rem .6rem" onclick="window._itemAddRD()">+ RD</button>
+        </div>
+        <div id="item-form-rd-list"></div>
       </div>
       <div style="display:flex;gap:.6rem;margin-top:.8rem;justify-content:flex-end">
         <button class="ficha-btn ficha-btn-secondary" onclick="window._fichaCancelarItem()" type="button">Cancelar</button>
@@ -1498,8 +1509,7 @@
       bonusCA: parseInt(getValue('item-form-bonus-ca')) || 0,
       bonusATK: parseInt(getValue('item-form-bonus-atk')) || 0,
       bonusDano: parseInt(getValue('item-form-bonus-dano')) || 0,
-      bonusRDFisico: parseInt(getValue('item-form-bonus-rd-fisico')) || 0,
-      bonusRDTodos: parseInt(getValue('item-form-bonus-rd-todos')) || 0,
+      bonusRD: (window._editingRDs||[]).filter(r=>r.tipo && r.valor),
       bonusManaMax: parseInt(getValue('item-form-bonus-mana-max')) || 0
     };
     if (editandoId) {
@@ -1555,6 +1565,38 @@
           onclick="window._itemDelPrefixo(${i})">×</button>
       </div>`).join('');
   }
+
+  function renderRDList() {
+    const el = document.getElementById('item-form-rd-list');
+    if (!el) return;
+    const list = window._editingRDs || [];
+    const tipoOpts = TIPOS_DANO.map(t => `<option value="${t}">`).join('');
+    if (!list.length) {
+      el.innerHTML = '<div style="color:#555;font-size:.8rem;padding:.2rem 0 .4rem">Nenhuma resistência — clique em + RD</div>';
+      return;
+    }
+    el.innerHTML = list.map((r, i) => `
+      <div style="display:flex;gap:.35rem;margin-bottom:.3rem;align-items:center">
+        <datalist id="dl-tipos-dano-${i}">${tipoOpts}</datalist>
+        <input type="text" list="dl-tipos-dano-${i}" value="${esc(r.tipo)}" placeholder="Tipo…"
+          style="flex:1;min-width:0" oninput="window._editingRDs[${i}].tipo=this.value">
+        <input type="number" value="${r.valor}" min="0" max="20" placeholder="Valor"
+          style="width:60px;flex-shrink:0" oninput="window._editingRDs[${i}].valor=parseInt(this.value)||0">
+        <button type="button" class="ficha-btn ficha-btn-danger" style="padding:.15rem .45rem;font-size:.8rem;flex-shrink:0"
+          onclick="window._itemDelRD(${i})">×</button>
+      </div>`).join('');
+  }
+
+  window._itemAddRD = function() {
+    if (!window._editingRDs) window._editingRDs = [];
+    window._editingRDs.push({tipo:'Físico', valor:1});
+    renderRDList();
+  };
+  window._itemDelRD = function(idx) {
+    if (!window._editingRDs) return;
+    window._editingRDs.splice(idx, 1);
+    renderRDList();
+  };
 
   window._itemAddPrefixo = function() {
     if (!window._editingPrefixos) window._editingPrefixos = [];
