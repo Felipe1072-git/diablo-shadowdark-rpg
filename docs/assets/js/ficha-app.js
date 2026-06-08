@@ -44,6 +44,7 @@
   let personagemAtual = null;
   let modoEdicao = false;
   let _isRendering = false;
+  let _notasJaRendered = false;
   let _itemFormAberto = false;
   let _itemEditandoId = null;
   let _talentoFormAberto = false;
@@ -290,6 +291,7 @@
   function abrirPersonagem(id) {
     personagemAtual = personagens.find(p => p.id === id);
     if (!personagemAtual) return;
+    _notasJaRendered = false;
     renderizarFicha();
     mostrar('view-ficha');
   }
@@ -1759,7 +1761,7 @@
     el.querySelectorAll('details.notas-section').forEach(d => {
       if (d.open) openSections.add(d.querySelector('summary')?.textContent?.trim());
     });
-    const primeiraRender = openSections.size === 0;
+    const primeiraRender = !_notasJaRendered;
     const ns = p.notasEstruturadas || {};
     const objs = ns.objetivos || [];
     const facs = ns.facoes || [];
@@ -1841,6 +1843,7 @@
       const title = d.querySelector('summary')?.textContent?.trim();
       if (primeiraRender ? defaults.has(title) : openSections.has(title)) d.open = true;
     });
+    _notasJaRendered = true;
   }
 
   window._notasSaveField = function(field, val) {
