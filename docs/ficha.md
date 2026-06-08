@@ -4,10 +4,13 @@
 
 <!-- ════════════════════════════════ LISTA ════════════════════════════════ -->
 <div id="view-lista">
-  <div class="ficha-lista-header">
-    <h2 style="margin:0">Meus Personagens</h2>
-    <div style="display:flex;gap:.6rem;flex-wrap:wrap">
-      <button id="btn-novo" class="ficha-btn ficha-btn-primary">+ Novo Personagem</button>
+  <div class="lista-hero">
+    <div class="lista-hero-texto">
+      <div class="lista-hero-titulo">Meus Personagens</div>
+      <div class="lista-hero-sub">Selecione um herói ou crie um novo</div>
+    </div>
+    <div class="lista-hero-acoes">
+      <button id="btn-novo" class="ficha-btn ficha-btn-primary lista-btn-principal">+ Novo Personagem</button>
       <button id="btn-importar-trigger" class="ficha-btn ficha-btn-secondary">⬆ Importar JSON</button>
       <input type="file" id="input-importar" accept=".json" style="display:none">
     </div>

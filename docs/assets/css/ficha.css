@@ -43,26 +43,42 @@
 }
 
 /* ─── Cards de lista ─── */
-.ficha-lista-header {
+/* ─── Tela de lista de personagens ─── */
+.lista-hero {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.2rem;
+  flex-direction: column;
+  gap: .8rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2a2a2a;
 }
+.lista-hero-titulo { font-size: 1.3rem; font-weight: 700; color: #fff; }
+.lista-hero-sub { font-size: .85rem; color: #666; margin-top: .15rem; }
+.lista-hero-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.lista-btn-principal { min-width: 160px; }
+
 .ficha-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
+  gap: .8rem;
 }
 .ficha-card {
-  border: 1px solid var(--md-primary-fg-color, #c0392b);
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid var(--md-primary-fg-color, #c0392b);
   border-radius: 6px;
-  padding: 1rem;
+  padding: .9rem 1rem;
   background: var(--md-code-bg-color, #1a1a1a);
   display: flex;
   flex-direction: column;
-  gap: .6rem;
+  gap: .5rem;
+  transition: border-color .15s, background .15s;
+  cursor: pointer;
 }
+.ficha-card:hover { background: #222; border-color: #3a3a3a; border-left-color: #e74c3c; }
 .ficha-card-header {
   display: flex;
   justify-content: space-between;
@@ -70,10 +86,42 @@
   flex-wrap: wrap;
   gap: .3rem;
 }
-.ficha-card-nome { font-size: 1.15rem; font-weight: 700; color: var(--md-primary-fg-color, #e74c3c); }
-.ficha-card-classe { font-size: .82rem; color: #999; }
-.ficha-card-info { display: flex; gap: 1rem; font-size: .85rem; color: #aaa; }
-.ficha-card-acoes { display: flex; gap: .5rem; margin-top: .2rem; }
+.ficha-card-nome { font-size: 1.1rem; font-weight: 700; color: var(--md-primary-fg-color, #e74c3c); }
+.ficha-card-nivel {
+  font-size: .75rem;
+  color: #888;
+  background: #2a2a2a;
+  border-radius: 3px;
+  padding: .1rem .4rem;
+  white-space: nowrap;
+}
+.ficha-card-classe { font-size: .82rem; color: #888; }
+.ficha-card-stats {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+.ficha-card-stat {
+  font-size: .78rem;
+  color: #aaa;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: .15rem .5rem;
+}
+.ficha-card-stat-label { color: #666; font-size: .7rem; margin-right: .2rem; }
+.ficha-card-acoes { display: flex; gap: .4rem; margin-top: .1rem; }
+
+/* Empty state */
+.ficha-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #555;
+}
+.ficha-empty-icon { font-size: 2.5rem; margin-bottom: .6rem; }
+.ficha-empty-titulo { font-size: 1rem; color: #666; margin-bottom: .3rem; }
+.ficha-empty-sub { font-size: .85rem; color: #444; }
 .ficha-empty { color: #888; font-style: italic; text-align: center; padding: 2rem 0; }
 
 /* ─── Formulário de criação ─── */

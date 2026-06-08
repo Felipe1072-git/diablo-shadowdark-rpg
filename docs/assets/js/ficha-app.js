@@ -243,24 +243,31 @@
     const container = document.getElementById('lista-personagens');
     if (!container) return;
     if (personagens.length === 0) {
-      container.innerHTML = '<p class="ficha-empty">Nenhum personagem criado ainda. Clique em <strong>Novo Personagem</strong> para começar.</p>';
+      container.innerHTML = `<div class="ficha-empty">
+        <div class="ficha-empty-icon">⚔️</div>
+        <div class="ficha-empty-titulo">Nenhum herói ainda</div>
+        <div class="ficha-empty-sub">Clique em <strong>+ Novo Personagem</strong> para começar sua jornada</div>
+      </div>`;
       return;
     }
+    const TIER = ['','Normal','Normal','Normal','Normal','Pesadelo','Pesadelo','Pesadelo','Inferno','Inferno','Inferno'];
     container.innerHTML = personagens.map(p => {
       const cls = getClasse(p.classe);
+      const tierLabel = TIER[p.nivel] || '';
       return `
         <div class="ficha-card" data-id="${p.id}">
           <div class="ficha-card-header">
             <span class="ficha-card-nome">${esc(p.nome || 'Sem nome')}</span>
-            <span class="ficha-card-classe">${cls ? cls.nome : p.classe} · Nv ${p.nivel}</span>
+            <span class="ficha-card-nivel">Nv ${p.nivel} · ${tierLabel}</span>
           </div>
-          <div class="ficha-card-info">
-            <span>PV ${p.pvAtual}/${p.pvMax}</span>
-            <span>Mana ${p.manaAtual}/${p.manaMax}</span>
-            <span>CA ${p.ca}</span>
+          <div class="ficha-card-classe">${cls ? cls.nome : p.classe}</div>
+          <div class="ficha-card-stats">
+            <span class="ficha-card-stat"><span class="ficha-card-stat-label">PV</span>${p.pvAtual}/${p.pvMax}</span>
+            <span class="ficha-card-stat"><span class="ficha-card-stat-label">Mana</span>${p.manaAtual}/${p.manaMax}</span>
+            <span class="ficha-card-stat"><span class="ficha-card-stat-label">CA</span>${p.ca}</span>
           </div>
           <div class="ficha-card-acoes">
-            <button class="ficha-btn ficha-btn-primary btn-abrir" data-id="${p.id}">Abrir Ficha</button>
+            <button class="ficha-btn ficha-btn-primary btn-abrir" data-id="${p.id}" style="flex:1">Abrir Ficha</button>
             <button class="ficha-btn ficha-btn-danger btn-del" data-id="${p.id}">✕</button>
           </div>
         </div>`;
