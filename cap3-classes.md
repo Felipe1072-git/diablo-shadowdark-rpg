@@ -537,9 +537,9 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 
 🗡 **Mecânica**
 
-1. **Leis de Esperança vs Justiça:** **Leis da Esperança** curam 1d4 HP por rodada — melhor em lutas longas contra chefes. **Leis da Justiça** dão +1 CA passivo para aliados Próximo — melhor em hordas com muitos atacantes. Troque conforme o tipo de encontro.
-2. **Punição + Pele de Ferro:** Ative **Pele de Ferro** para reduzir o dano à metade e force o inimigo a te atacar. Quando errar, dispare **Punição** com Vantagem. Você absorve e retalia no mesmo turno.
-3. **Auras visuais:** Use anéis de cores diferentes na base da miniatura para a Lei ativa. Sem precisar consultar fichas — quem está dentro do raio sabe o bônus automaticamente.
+1. **Leis da Justiça é sempre passiva:** **Leis da Justiça** (+1 CA para aliados Próximo) nunca desliga — mas só funciona para quem está perto de você. Sua posição no mapa importa mais do que sua arma: o Cruzado deve ficar no centro da formação, não na frente sozinho.
+2. **Provocar + Pele de Ferro = escudo humano:** Use **Provocar** (◈◈◈) para forçar todos os inimigos a te atacar no próximo turno. No turno seguinte, ative **Pele de Ferro** (◈) antes deles agirem — dano à metade. Dois turnos de setup, mas o grupo inteiro ataca sem ser alvo.
+3. **Esmagar + Julgamento = CC duplo:** Use **Esmagar com Escudo** para derrubar o alvo (caído) e no turno seguinte aplique **Julgamento** para imobilizá-lo com correntes. Caído + preso: ele não age e todos os aliados têm Vantagem nos ataques contra ele.
 
 🎭 **Roleplay**
 
