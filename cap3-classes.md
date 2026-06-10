@@ -123,9 +123,17 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 
 ### **Dicas**
 
-1. **Munição Simplificada:** Não conte flechas. Use a regra do "Dado de Munição". Comece com um **d12**. Toda vez que a Amazona atirar e tirar "1" no dado de ataque, o dado de munição cai um degrau (d12 → d10 → d8 → d6 → d4). Se tirar 1 no d4, ela ficou sem flechas.  
-2. **A Valkíria no Tabuleiro:** Use uma miniatura dourada ou translúcida para representá-la. Ela age junto com a Amazona — quando ambas miram o mesmo alvo, lembre o grupo que as duas têm Vantagem. O impacto visual de duas guerreiras atacando em sincronia é o charme desta habilidade.  
-3. **Movimento Visual:** A Amazona deve ser a classe que mais se move. Descreva como ela salta sobre mesas ou desliza por baixo de monstros para usar o **Jab**.
+🗡 **Mecânica**
+
+1. **Munição Simplificada:** Não conte flechas — use o "Dado de Munição". Comece com um **d12**. Toda vez que atirar e tirar 1 no dado de ataque, o dado de munição cai um degrau (d12 → d10 → d8 → d6 → d4). Tirou 1 no d4? Ficou sem flechas.
+2. **A Valkíria e Vantagem:** Use uma miniatura dourada ou translúcida para representar a Valkíria. Quando ambas mirarem o mesmo alvo, lembre o grupo que as duas têm Vantagem — o impacto visual de duas guerreiras em sincronia é o charme desta habilidade.
+3. **Polivalente é a sua vantagem única:** A Amazona pode usar DES onde precisaria de FOR e vice-versa. Se os inimigos têm CA alta e sua DES está subindo mais que a FOR (ou o contrário), ajuste na hora. Nenhuma outra classe tem essa flexibilidade.
+
+🎭 **Roleplay**
+
+1. **Askari não pede permissão:** Ela é guerreira por direito ancestral, não por título nobiliárquico. Quando alguém no grupo subestimá-la, ela não argumenta — ela demonstra. A cena seguinte é a resposta.
+2. **Athulua te vê:** Antes de invocar a Valkíria, feche os olhos por um segundo e murmure o nome da deusa. A guerreira que surge não é magia — é uma ancestral respondendo ao chamado. Descreva-a como alguém que parece familiar.
+3. **O tabuleiro é seu domínio:** A Amazona deve ser a classe que mais se move. Descreva como ela salta sobre mesas ou desliza por baixo de monstros para usar o **Jab** — o Mestre recompensa mobilidade com posicionamento.
 
 ### **Objetivos & Recompensas**
 
@@ -184,9 +192,17 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 
 ### **Dicas**
 
-1. **Manipulação Tátil:** Quando o Arcanista usar o **Buraco Negro**, o jogador deve fisicamente mover as miniaturas dos inimigos na mesa para o centro. Isso dá uma sensação de controle espacial muito forte.  
-2. **O "Contador de Cargas":** O jogador deve usar dados de cores diferentes (roxos, se possível) na frente dele para representar o **Dínamo Arcano**. Visualizar o poder acumulando aumenta a empolgação.  
-3. **Bolha de Tempo Física:** Se o jogador usar **Distorção Temporal**, coloque um copo transparente virado ou um anel de luz sobre a área. Qualquer miniatura dentro dessa zona age por último na rodada.
+🗡 **Mecânica**
+
+1. **Acumule Cargas antes de gastar:** Cargas Arcanas sobem a cada conjuração bem-sucedida. Use **Mísseis Arcanos** (DC baixo) para acumular 2–3 cargas e então as gaste num **Meteoro** ou **Desintegrar** — seu dano por ação sobe drasticamente.
+2. **Buraco Negro + Espada Espectral:** Puxe todos os inimigos para o centro com **Buraco Negro**, depois use **Espada Espectral** no mesmo ponto. Você distribui 2d6 Arcano a todos que já estão agrupados, sem gasto de movimento extra.
+3. **O "Contador de Cargas":** Use dados de cores diferentes (roxos, se possível) para representar o **Dínamo Arcano**. Visualizar o poder acumulando na mesa aumenta a empolgação e evita esquecer as cargas.
+
+🎭 **Roleplay**
+
+1. **O Arcanista não conjura — ele compreende:** Ele não "lança" feitiços como outros magos. Ele identifica como a gravidade, o tempo e o espaço funcionam ali e os redireciona. Quando usar **Buraco Negro**, não diga "ataco". Diga "eu torço o espaço entre vocês."
+2. **Bolha de Tempo:** Coloque um copo transparente virado ou um anel de luz sobre a área. Miniaturas dentro da zona agem por último — aviso visual que comunica o domínio do Arcanista sobre a iniciativa.
+3. **Conhecimento como poder:** Todo lugar novo é campo de estudo. O Arcanista percebe anomalias que outros ignoram — pedras fora do lugar, padrões de luz errados. Pergunte ao Mestre "tem alguma anomalia mágica aqui?" antes de entrar num dungeon. Você não é curioso — é metódico.
 
 ### **Objetivos & Recompensas**
 
@@ -244,9 +260,17 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 
 ### **Dicas**
 
-1. **Tokens de Armadilha:** Use objetos reais. O jogador da Assassina deve trazer 3 moedas ou arruelas de metal pintadas. Quando ela armar uma *Sentinela*, ela coloca o objeto na mesa. Isso define visualmente a "zona de perigo" para os monstros.  
-2. **Visualizando os Combos:** Use dados de cores diferentes para as Cargas de Combo. Quando a Assassina atingir 3 cargas, o jogador pode trocar por um dado maior (um d20 gigante, por exemplo) para representar o **Finalizador**. Isso cria um "clímax" visual no turno dela.  
-3. **A "Sombra" Tátil:** Se ela usar o *Guerreiro das Sombras*, use uma miniatura igual à dela, mas pintada de preto ou roxo transparente. Ela não tem vida própria; se a Assassina for atingida, a sombra pode desaparecer.
+🗡 **Mecânica**
+
+1. **Cargas como economia de Mana:** Cada Carga de Combo vale −1 Mana no Finalizador. Acumular 3 cargas antes de usar **Morte Iminente** economiza mais Mana do que parece — vale esperar um turno a mais.
+2. **Sentinelas são controle de zona, não dano:** Posicione-as nas *saídas* dos corredores antes do combate começar. O dano é bônus — o valor real é forçar inimigos a mudar de rota e se expor ao restante do grupo.
+3. **Tokens de Armadilha:** Traga 3 moedas ou arruelas pintadas para colocar na mesa ao armar Sentinelas. Define visualmente a "zona de perigo" — inimigo pisou na moeda, sofreu o efeito.
+
+🎭 **Roleplay**
+
+1. **Ordem Viz-Jaq'taar:** A Assassina foi treinada para uma coisa: eliminar magos corrompidos pelo Caos. Quando o grupo encontrar um usuário de magia, ela é a primeira a suspeitar — não de demônios, mas de *pessoas* que fazem pactos com eles.
+2. **O silêncio é poder:** A Assassina não precisa explicar suas ações durante o combate. Quando ela se mover sem avisar, desaparecer nas sombras ou armar uma armadilha sem dizer nada, o efeito dramático vem da ação — não da narração.
+3. **A "Sombra" Tátil:** Para o *Guerreiro das Sombras*, use uma miniatura igual à dela pintada de preto ou roxo transparente. Se a Assassina for atingida, a sombra desaparece.
 
 ### **Objetivos & Recompensas**
 
@@ -304,9 +328,17 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 
 ### **Dicas**
 
-1. **O Ritual do Turbilhão:** Quando o jogador usar o **Turbilhão**, peça para ele literalmente girar a miniatura dele na mesa.  
-2. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se ele quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em Fúria, ele sempre tem **Vantagem**. Isso torna o combate tátil e dinâmico.  
-3. **Marcador de Fúria:** Use um dado vermelho grande ou um anel de status para marcar quando o Bárbaro está em Fúria. Isso serve de aviso visual para os outros jogadores: "Ele está causando muito dano, mas também está vulnerável".
+🗡 **Mecânica**
+
+1. **Fúria como recurso, não reflexo:** Ativar **Fúria** no turno 1 parece óbvio, mas ela dura por cena — entrar em Fúria antes do chefe final rende muito mais do que no primeiro corredor de zumbis. Aguarde o momento certo.
+2. **Turbilhão em grupo:** Use **Turbilhão** (◈◈◈) somente com 3+ inimigos Adjacentes. O dano extra se aplica em todos simultaneamente — é o maior pico de dano da classe, mas gasta as três ações. Reserve para a hora certa.
+3. **Marcador de Fúria:** Use um dado vermelho grande ou anel ao redor da miniatura quando o Bárbaro entrar em Fúria. Aviso visual para todos na mesa: "Ele está causando muito dano — mas está vulnerável."
+
+🎭 **Roleplay**
+
+1. **O Bárbaro age, não planeja:** Quando o grupo passa muito tempo discutindo um plano, o Bárbaro já foi verificar o corredor. Ele não é burro — é direto. A reflexão vem depois da ação, quando ainda há inimigos para derrotar.
+2. **Ancestrais como bússola moral:** Antes de uma escolha difícil, feche os olhos, murmure um nome ancestral e pergunte em voz alta: "O que [nome] faria?" O Mestre pode responder com uma visão breve ou uma sensação.
+3. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em Fúria, ele tem **Vantagem** — o Mestre recompensa criatividade destrutiva.
 
 ### **Objetivos & Recompensas**
 
@@ -366,9 +398,17 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 
 ### **Dicas**
 
-1. **O Medidor:** Use recursos visuais para que o jogador sinta o peso das escolhas. O jogador deve usar dois tipos de marcadores (ex: pedras vermelhas para Ódio/Ataque e azuis para Disciplina/Defesa) ou apenas dados de cores diferentes. Quando ele usa os recursos, ele remove fisicamente a pedra da mesa.  
-2. **Uso de "Tokens" de Dispositivos:** O Caçador de Demônios enche a mesa de "tralha". Tenha marcadores pequenos para as **Sentinelas** e **Armadilhas**. "Se está na mesa, existe no mundo". Se um monstro pisar na armadilha, o jogador deve ter o prazer de "retirar" o marcador e rolar o dano.  
-3. **Narrativa Sombria:** Diferente da Amazona que é atlética e solar, o Caçador de Demônios é sombrio. Quando ele usar a **Cortina de Fumaça**, apague as luzes da mesa (se você usar lâmpadas físicas) ou descreva como as sombras da sala se esticam para escondê-lo.
+🗡 **Mecânica**
+
+1. **Ódio e Disciplina como marcadores físicos:** Use pedras vermelhas para Ódio (ataque) e azuis para Disciplina (defesa/utilidade). A decisão de gastar recursos tem peso quando você tira a pedra da mesa — não é abstrata.
+2. **Armadilhas antes do combate:** O maior multiplicador de dano do Caçador está nas **Sentinelas** e armadilhas posicionadas *antes* da luta. Se você tem informação sobre onde os inimigos vão aparecer, um minuto de preparação muda completamente a cena.
+3. **Tokens de Dispositivos:** Tenha marcadores físicos para cada armadilha ativa. "Se está na mesa, existe no mundo." Quando o inimigo pisar, você retira o marcador e rola o dano — isso cria um prazer tátil genuíno.
+
+🎭 **Roleplay**
+
+1. **Sombrio, não frio:** O Caçador de Demônios *perdeu* alguém para o Inferno Ardente. Toda a frieza e o arsenal são consequências disso. Quando o grupo encontrar vítimas de demônios, ele não tem compaixão performática — ele tem objetivo. "Já vi isso antes. Vamos acabar logo."
+2. **Narrativa Sombria:** Diferente da Amazona, solar e atlética, o Caçador é sombrio. Quando usar **Cortina de Fumaça**, descreva como as sombras parecem se esticar para escondê-lo — como se o escuro fosse velho amigo.
+3. **O arsenal é parte da identidade:** O Caçador nomeia suas armas, suas bestas e seus virotes especiais. Ele os conhece tão bem quanto seus inimigos. Pergunte ao Mestre sobre materiais e fraquezas dos inimigos — a munição certa pode mudar um confronto inteiro.
 
 ### **Objetivos & Recompensas**
 
@@ -426,9 +466,17 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 
 ### **Dicas**
 
-1. **O Alcance da Lança:** Enfatize o posicionamento. O Cavaleiro de Sangue deve ser o mestre de "atacar por trás do Bárbaro". Use o alcance da lança para manter o monstro à distância, impedindo que monstros cheguem perto se o Cavaleiro tiver sucesso num teste de Força.  
-2. **O "Rastreador de Sangue":** Se o Cavaleiro de Sangue causar dano em um monstro e ele fugir, o jogador sabe automaticamente para onde o monstro foi. Esse é um "poder passivo" que não exige dados, apenas inteligência narrativa.  
-3. **Visual da Abominação:** Quando usar a transformação em **Abominação**, descreva como a sua armadura se rompe e o corpo cresce. Se você tiver uma miniatura de monstro grande (como um demônio ou lobisomem), coloque-a na mesa para substituir o Cavaleiro. O impacto visual é importante.
+🗡 **Mecânica**
+
+1. **Sifão de Sangue < 50% HP:** O **Sifão de Sangue** recupera apenas 1 HP por acerto, mas 1d4 HP quando o inimigo está abaixo de 50%. Priorize inimigos já feridos para maximizar a cura — o Cavaleiro se recupera melhor no caos do que numa luta limpa.
+2. **Empaladora como controle:** **Lança Empaladora** prende o inimigo no chão com um teste de Força. Se não precisa do dano, use-a para segurar um inimigo forte enquanto aliados o eliminam — é mais eficaz do que tentar matá-lo sozinho.
+3. **Visual da Abominação:** Quando usar **Abominação**, descreva a armadura se rompendo enquanto o corpo cresce. Se você tiver uma miniatura de monstro grande, coloque-a na mesa para substituir o Cavaleiro — o impacto visual é parte da habilidade.
+
+🎭 **Roleplay**
+
+1. **A maldição é ferramenta, não fardo:** O Cavaleiro de Sangue não é um vampiro resistindo à própria natureza o tempo todo. Ele *domou* a maldição. Não odeia o que é — odeia quem o forçou a se tornar isso. Há uma diferença enorme entre os dois.
+2. **A Ordem:** Ele pertence a uma linhagem de guerreiros que escolheram carregar a maldição para caçar o mal com ela. Quando o grupo encontrar alguém mordido, o Cavaleiro é o único que entende o que essa pessoa está sentindo — e o único que sabe o que acontece se ela ceder.
+3. **O Rastreador de Sangue:** Se o Cavaleiro ferir um inimigo que escapa, ele sabe automaticamente para onde foi. Não precisa de dados — é narrativo. Use isso: "Eu sei onde está. Vamos."
 
 ### **Objetivos & Recompensas**
 
@@ -487,9 +535,17 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 
 ### **Dicas**
 
-1. **O "Clang" do Metal:** Valorize a sensação de peso. Quando o Cruzado usar **Pele de Ferro** ou bloquear um golpe pesado, descreva o som do metal contra metal. Se o Cruzado usar o escudo para derrubar um monstro, o jogador deve fisicamente tombar a miniatura do inimigo na mesa.  
-2. **Uso de Auras (Leis):** Use anéis de cores diferentes na base da miniatura para representar qual "Lei" está ativa. Isso evita que o mestre e os jogadores esqueçam os bônus constantes.  
-3. **Sacrifício de Escudo:** No Diablo RPG podem quebrar para evitar um dano fatal (Aparar). É um momento heroico e dramático na mesa.
+🗡 **Mecânica**
+
+1. **Leis de Esperança vs Justiça:** **Leis da Esperança** curam 1d4 HP por rodada — melhor em lutas longas contra chefes. **Leis da Justiça** dão +1 CA passivo para aliados Próximo — melhor em hordas com muitos atacantes. Troque conforme o tipo de encontro.
+2. **Punição + Pele de Ferro:** Ative **Pele de Ferro** para reduzir o dano à metade e force o inimigo a te atacar. Quando errar, dispare **Punição** com Vantagem. Você absorve e retalia no mesmo turno.
+3. **Auras visuais:** Use anéis de cores diferentes na base da miniatura para a Lei ativa. Sem precisar consultar fichas — quem está dentro do raio sabe o bônus automaticamente.
+
+🎭 **Roleplay**
+
+1. **A fé do Cruzado não é pacífica:** Ele não reza pelos inimigos — ele os purifica através do aço. Quando o grupo debate se deve poupar um corrupto, o Cruzado já tem a resposta. Mas ele a executa com cerimônia, não com raiva.
+2. **"Clang" do Metal:** Quando usar **Pele de Ferro** ou bloquear um golpe com escudo, descreva o som do metal contra metal. Se usar o escudo para derrubar um monstro, o jogador tomba fisicamente a miniatura.
+3. **Liderança pela presença:** O Cruzado não pede para liderar — sua posição no campo de batalha já é uma declaração. Quando você assume a frente e recebe o primeiro ataque para proteger o grupo, isso não precisa de palavras.
 
 ### **Objetivos & Recompensas**
 
@@ -549,10 +605,17 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 
 ### **Dicas**
 
-1. **Troca de Miniaturas:** "Show, don't tell". Se o Druida se transformar, o jogador **precisa** trocar a miniatura na mesa. Se ele não tiver, use um marcador de cor diferente. Isso sinaliza para todos que as regras do personagem mudaram.  
-2. **O Objeto da Rocha Rolante:** Se o jogador usar a **Rocha Rolante**, pegue um dado grande (como um D20 gigante ou uma bola de papel) e role-o fisicamente pelo grid ou mesa. Quem for tocado pelo objeto sofre o efeito. É divertido e visceral.  
-3. **Gestão de Pets (Tokens):** Para não demorar em seu turno, trate os 3 lobos como um único "Enxame". Aja com todos de uma só vez. É mais rápido que gerenciar 3 fichas de monstros completas.  
-4. **Uso de Plantas:** Quando usar a **Fissura** ou a **Vinha Venenosa**, use pedaços de barbante verde ou feltro na mesa para marcar onde o terreno mudou. "O terreno é metade da luta".
+🗡 **Mecânica**
+
+1. **Transmutar: planeje antes do combate:** A DC cai com o nível (DC 15 − Nível). Ainda assim, tentar transformar *dentro* do combate gasta ◈ e pode falhar. Se você sabe que a luta vem, entre transformado — Urso para survivability, Lobo para mobilidade e dano.
+2. **Urso para tancar, Lobo para matar:** Forma de Urso (+2 CA, +5 HP temporários) é defensiva — use contra chefes. Forma de Lobo (+1d6 dano, dobro de movimento) é ofensiva — use em hordas. Você não precisa manter a mesma forma a cena inteira.
+3. **Gestão de Pets:** Trate os lobos como um "Enxame" — aja com todos de uma vez. É mais rápido que gerenciar 3 fichas separadas e mantém o ritmo da mesa.
+
+🎭 **Roleplay**
+
+1. **O Druida não distingue natureza de sobrenatureza:** Um demônio corrompendo uma floresta é tão ofensivo quanto uma criança sofrendo. Para ele, tudo está conectado — a floresta morrendo é sinal de que Santuário está doente. Ele age antes dos outros perceberem o problema.
+2. **Transformação com propósito:** Quando o Druida se transforma, não é magia — é *revelação*. Ele está mostrando o que sempre foi. Troque a miniatura na mesa com cerimônia: "Eu paro de fingir que sou apenas humano."
+3. **Uso de Plantas:** Quando usar **Fissura** ou **Vinha Venenosa**, marque o terreno com barbante verde ou feltro. "O terreno é metade da luta" — e o Druida controla o terreno melhor que qualquer outra classe.
 
 ### **Objetivos & Recompensas**
 
@@ -615,9 +678,17 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 
 ### **Dicas**
 
-1. **Tokens de Guardião:** Clareza visual. Crie 4 token coloridos (Ex: Laranja/Jaguar, Azul/Águia, Amarelo/Gorila, Verde/Centopeia). Quando o combate começar, o jogador coloca o token escolhido ao lado da sua miniatura. Assim, todos na mesa sabem qual bônus ele está usando sem precisar perguntar.  
-2. **Combate Acrobático:** O Natispirito deve se mover muito. Se o jogador descrever uma acrobacia (usar o cajado para saltar sobre um inimigo, por exemplo), ele ganha \+1 no dano. Isso incentiva o "estilo" de Nahantu.  
-3. **Visualizando o Veneno:** Use marcadores verdes (como pecinhas de plástico ou dados verdes) para os inimigos atingidos pela Centopeia. "O dano contínuo só é divertido se você vê ele acontecendo". Retirar o HP do monstro no início do turno dele cria expectativa.
+🗡 **Mecânica**
+
+1. **Escolha o Guardião certo:** Jaguar (+1 ataque) para lutas contra poucos alvos fortes. Águia (dobro de movimento) para campos abertos. Centopeia (recupera HP ao matar) para hordas. Gorila (+1 CA) quando você vai levar muito dano. A escolha no início do combate vale mais do que qualquer habilidade individual.
+2. **Encarnação do Guardião é o divisor de águas:** No nível 18, dois passivos ativos ao mesmo tempo — combine Jaguar + Centopeia para dano e sustain em hordas, ou Águia + Gorila para survivability e mobilidade.
+3. **Tokens de Guardião:** Crie 4 tokens coloridos (Laranja/Jaguar, Azul/Águia, Amarelo/Gorila, Verde/Centopeia). Coloque ao lado da miniatura no início do combate. Todos sabem o bônus sem precisar perguntar.
+
+🎭 **Roleplay**
+
+1. **Nahantu é alien para o grupo:** O Natispirito não entende por que humanos vivem em cidades de pedra, enterram seus mortos em vez de devolvê-los ao ciclo, ou tratam o mundo espiritual como exceção. Deixe isso aparecer em comentários curtos — não como arrogância, mas como genuína incompreensão.
+2. **O Guardião te escolheu:** Ele não escolheu o Jaguar — o Jaguar o escolheu. Quando selecionar o Guardião no início do combate, descreva brevemente o espírito pousando nele: uma sensação de calor na pele, um instinto afiado, uma memória de algo que nunca viveu.
+3. **Combate Acrobático:** O Natispirito deve se mover muito. Se descrever uma acrobacia — usar o cajado para saltar sobre um inimigo, por exemplo — ganha +1 no dano. O estilo de Nahantu é performance tanto quanto combate.
 
 ### **Objetivos & Recompensas**
 
@@ -676,9 +747,17 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 
 ### **Dicas**
 
-1. **Jarros de Vidro:** Use "props". Se o jogador usar a **Bomba de Fogo** ou a **Nuvem de Gafanhotos**, ele pode colocar uma tampa de garrafa ou um pote pequeno na mesa. "O jarro quebrou aqui", isso define o ponto zero da explosão de forma visual e satisfatória.  
-2. **Máscaras Reais:** Peça para o jogador descrever a máscara dele. O Mestre dará um bônus de \+1 se o jogador fizer uma pose ou uma voz sinistra ao usar os seus talentos. Isso aumenta a imersão na estética tribal de Diablo. Se o jogador trouxer uma máscara tribal para as sessões o bônus é permanente.   
-3. **A Parede de Zumbis:** Use dominós ou bloquinhos de madeira para representar a **Parede de Zumbis**. Se o inimigo tentar passar e falhar no teste, o jogador "derruba" a parede sobre o monstro.
+🗡 **Mecânica**
+
+1. **Sacrifício é economia:** Gastar um Cão Zumbi com **Sacrifício** (1d8 Necrótico adjacente, 1 Mana) quando ele está prestes a morrer é mais eficiente do que deixar o inimigo matar o cão de graça. Se o Cão está com 1–2 HP, exploda-o antes.
+2. **Nuvem de Gafanhotos como tick de dano:** Fica ativa por 1d4 rodadas e atinge *todos* os inimigos Próximo automaticamente no início de cada turno. Em hordas, é o feitiço mais eficiente em Mana por dano total da classe — use logo no turno 1.
+3. **Jarros de Vidro:** Quando usar **Bomba de Fogo** ou **Invasão de Sapos**, coloque uma tampinha de garrafa no grid para marcar o ponto zero. Evita discussões sobre área e torna o combate tátil.
+
+🎭 **Roleplay**
+
+1. **O Feiticeiro vê o que outros não veem:** Para ele, o Véu entre os mundos é fino. Mortos recentes ainda estão presentes. Demônios deixam rastros que ele lê como texto. Quando o grupo entrar num local novo, ele provavelmente já sabe se alguém morreu ali — e aproximadamente como.
+2. **Máscaras Reais:** Peça para o jogador descrever a máscara dele. O Mestre dá +1 se fizer uma pose ou voz sinistra ao usar habilidades. Se o jogador trouxer uma máscara para a sessão, o bônus é permanente.
+3. **O Umbaru não tem pressa:** O Feiticeiro não corre para resolver um problema. Ele observa, triangula e então age de forma cirúrgica. Quando o grupo discute algo difícil, ele provavelmente já sabe a resposta — e está esperando o momento certo para revelá-la.
 
 ### **Objetivos & Recompensas**
 
@@ -736,10 +815,17 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 
 ### **Dicas**
 
-1. **O Peso do Aço:** O equipamento importa. O Guerreiro deve ser o único que pode carregar muitos itens. Você tem slots de inventário extras baseados na Força. Se o grupo encontrar um "Loot Pesado", é o Guerreiro quem carrega.  
-2. **O Som do Bloqueio:** Quando o Guerreiro bloquear um ataque com o escudo, o jogador bate com o dado na mesa ou faz um som metálico. A imersão sonora ajuda a sentir que o Guerreiro é uma parede.  
-3. **Mecânica de Reparo Tátil:** Se alguém tirar "1" num dado de ataque, a arma fica "cega" ou danificada (-1 no dano). O Guerreiro então brilha ao usar a habilidade de **Reparar** durante o acampamento, consertando as miniaturas/fichas dos amigos. Isso faz o guerreiro se sentir útil fora do combate.  
-4. **Tática de Empurrão:** Como usamos miniaturas, o Guerreiro deve usar o cenário. Ele pode chutar um monstro num buraco ou empurrá-lo contra uma parede de espinhos. O Mestre sempre recompensa jogadores que usam a física do mundo.
+🗡 **Mecânica**
+
+1. **Arma de Mestria é a identidade:** A **Mestria em Armas** dá Vantagem + 1d4 extra em acerto com Vantagem. Se puder trocar via **Mestre de Todas as Armas**, escolha conforme os inimigos da campanha — machados para criaturas com CA baixa, maças para mortos-vivos, espadas para uso geral.
+2. **Carnificína em cadeia:** Se matar um inimigo com **Carnificína**, ganha um ataque imediato no Próximo. Se esse acerto também matar, ganha outro. Em hordas de inimigos fracos, isso pode limpar uma sala inteira em um turno.
+3. **O Som do Bloqueio:** Quando bloquear um ataque com escudo, bata um dado na mesa ou faça um som metálico. O Guerreiro é uma parede — e todo mundo na mesa deve sentir isso.
+
+🎭 **Roleplay**
+
+1. **Veterano, não herói:** O Guerreiro já viu demais para se impressionar com demônios. Ele não é corajoso — é profissional. Quando o grupo está assustado com algo, ele avalia o ângulo de ataque. Quando vence, não comemora — vai verificar se tem mais.
+2. **O equipamento tem história:** Toda arma e armadura do Guerreiro veio de algum lugar. Ele sabe o quanto cada peça custou — em ouro ou em quem a usava antes. Use isso ao reparar o equipamento de aliados: você não é ferreiro, você é alguém que sabe o valor de boas ferramentas.
+3. **Tática de Empurrão:** O Guerreiro usa o cenário. Chutar um monstro num buraco, empurrá-lo contra uma parede de espinhos — o Mestre recompensa jogadores que usam a física do mundo. "Eu não preciso matá-lo. Preciso colocá-lo onde o ambiente mata por mim."
 
 ### **Objetivos & Recompensas**
 
@@ -799,10 +885,17 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 
 ### **Dicas**
 
-1. **Dados Explosivos:** A regra de **Mestria Elemental** (dados que explodem) faz o Mago se sentir extremamente poderoso, compensando o fato de ele ter apenas d4 de vida.  
-2. **Modelos de Área Físicos:** Como o Mago usa muita magia de área (Bola de Fogo, Nevasca, Meteoro), use anéis de papelão ou modelos de plástico na mesa. "Se a miniatura do monstro está tocando o anel de fogo, ele queima kkk". Isso evita discussões sobre distância e acelera o jogo.  
-3. **O Risco da Sobrecarga:** Quando o Mago usar a **Sobrecarga Sanguínea**, descreva como o nariz dele sangra ou como seus olhos brilham com a cor do elemento. Foque na narrativa do custo da magia.  
-4. **O "Click" do Teleporte:** Quando o jogador usar o **Teleporte**, ele deve fisicamente "saltar" sua miniatura sobre as outras. Isso dá uma sensação de mobilidade que as outras classes não têm.
+🗡 **Mecânica**
+
+1. **Mestria Elemental explode:** Quando rolar o valor máximo num dado de dano, role um dado extra e some — sem limite de explosões. Com **Afinidade Elemental** (Vantagem em conjurações do elemento escolhido), você rola mais dados e aumenta a chance de acionar a cascata.
+2. **Sobrecarga Sanguínea é seguro de emergência:** Falhou num teste crítico? Gaste HP para passar — 1d4 de dano por ponto necessário. Numa situação onde um aliado está prestes a morrer, vale. O Mago com 1 HP que conjurou o feitiço certo ainda venceu a cena.
+3. **Afinidade Elemental define o estilo de jogo:** Fogo = dano em área + queimando. Gelo = controle + congelar. Relâmpago = múltiplos alvos. Escolha no nível 1 o que complementa o grupo — se já tem Druida com área, Relâmpago em múltiplos alvos costuma ser mais útil.
+
+🎭 **Roleplay**
+
+1. **O Mago é frágil e sabe disso:** Ele não fica na linha de frente porque não é idiota. Posicionamento é sobrevivência. Quando alguém sugerir que ele avance, a resposta é "posso alcançar daqui" — e geralmente pode.
+2. **O Risco da Sobrecarga:** Quando usar **Sobrecarga Sanguínea**, descreva o nariz sangrando ou os olhos brilhando com a cor do elemento. O poder tem custo visível — e isso fascina tanto quanto assusta quem está ao lado.
+3. **O "Click" do Teleporte:** Quando usar **Teleporte**, salte fisicamente sua miniatura sobre as outras. Mobilidade que nenhuma outra classe tem — use para desequilibrar posições que o inimigo acha que são seguras.
 
 ### **Objetivos & Recompensas**
 
@@ -862,10 +955,17 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 
 ### **Dicas**
 
-1. **O "Sino" Tátil:** Quando o Monge usar a **Onda de Luz**, o jogador pode literalmente bater um sino pequeno na mesa ou usar uma taça de metal para fazer o som. O impacto sonoro enfatiza o poder da habilidade.  
-2. **Tokens de Mantra:** Use anéis de cores diferentes na base da miniatura (Amarelo para Evasão, Vermelho para Retribuição). Isso ajuda você e o Mestre, a saber instantaneamente quem na mesa está sob o efeito do Monge sem precisar consultar fichas.  
-3. **A Dança das Miniaturas:** O Monge é a classe do reposicionamento. O Mestre encoraja o uso do **Ímpeto** para que o Monge esteja sempre se movendo. Se o jogador descrever uma acrobacia épica para atravessar o campo de batalha, ele receberá um bônus de "Estilo" (+1 no próximo dado).  
-4. **Contador de Espírito:** Use contas de oração ou pedras brancas lisas para representar o Espírito. O jogador deve sentir o "gasto" da sua paz interior ao realizar os golpes.
+🗡 **Mecânica**
+
+1. **Espírito em Fluxo é regeneração passiva:** Cada acerto corpo a corpo gera 1 Mana (até Mod. SAB por turno). Em lutas longas, o Monge se paga — ataque primeiro, depois use habilidades caras. Não espere Mana antes de entrar na briga.
+2. **Serenidade é o melhor CD do jogo:** Gastar 3 Mana para ser invulnerável até o próximo turno supera qualquer outra defesa. Use quando estiver sendo focado por múltiplos inimigos — ou quando precisar atravessar uma zona de dano sem morrer.
+3. **Tokens de Mantra:** Use anéis coloridos na base da miniatura (Amarelo para Evasão, Vermelho para Retribuição). Mantra de Evasão (+1 CA para aliados Próximo) é passivo — ative no começo e não troque sem razão.
+
+🎭 **Roleplay**
+
+1. **1001 Deuses, uma voz:** O Monge não ora para um deus específico — é duto dos 1001. Antes de uma cena difícil, murmure um número (os outros jogadores não precisam saber qual deus é o 347) e o Mestre pode responder com uma sensação ou sinal.
+2. **"Sino" Tátil:** Quando usar **Onda de Luz**, bata um sino ou use uma taça de metal. O impacto sonoro cria um símbolo auditivo que toda a mesa passa a associar com o personagem.
+3. **A disciplina não é frieza:** O Monge não é stoico porque suprimiu as emoções — é porque as canalizou. Quando alguém querido sofrer dano, o jogador pode descrever uma fissura momentânea na compostura. O Mestre pode recompensar isso com um Golpe da Claridade sem custar ação.
 
 ### **Objetivos & Recompensas**
 
@@ -924,10 +1024,17 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 
 ### **Dicas**
 
-1. **O "Click" da Morte:** Quando um monstro der dano na horda, ele não subtrai HP. Se o monstro deu 4 de dano, o Necromante simplesmente **retira 4 miniaturas de esqueletos da mesa**. É visual, rápido e tátil.  
-2. **Tokens de Maldição:** Use marcadores de cores vibrantes (como anéis de garrafa pet roxos) para as Maldições. Se o Necromante usar **Maldizer**, ele coloca o anel na miniatura do inimigo. "Aquele ali morre mais rápido", todos sabem disso instantaneamente.  
-3. **A Grande Foice:** Se o Necromante estiver usando uma miniatura de Necromante com foice, incentive-o a descrever ataques circulares. No Diablo RPG, o Necromante é frágil, mas o Mestre recompensará uma descrição épica de "ceifar almas" com um bônus de \+1 na conjuração.  
-4. **Velocidade Total:** Nunca role iniciativa para os esqueletos. Eles são uma extensão da vontade do Necromante. Se ele move, eles movem. Se ele ataca, eles atacam. Isso mantém o ritmo de rápido que o Mestre tanto defende.
+🗡 **Mecânica**
+
+1. **O "Click" da Morte:** Quando um monstro causar dano na horda, não subtraia HP — retire fisicamente aquele número de esqueletos da mesa. 4 de dano = 4 miniaturas saem. Visual, rápido e comunica o estado da horda instantaneamente.
+2. **Armadura de Ossos requer 3 esqueletos:** O bônus de +3 CA cai se você tiver menos de 3 lacaios ativos. Mantenha sempre 3 como prioridade — use **Levantar Mortos** no início de cada combate. Não use **Explosão de Cadáver** em esqueletos se isso vai te deixar abaixo do limiar.
+3. **Velocidade Total:** Os esqueletos não têm iniciativa própria. Na sua ação ◈, você age e eles agem. Trate-os como extensão da sua ficha, não como NPCs separados — isso nunca atrasa a mesa.
+
+🎭 **Roleplay**
+
+1. **Rathma e o Equilíbrio:** O Necromante não gosta de morte — ele a administra. Há uma diferença entre matar por necessidade e matar por gosto. Quando aliados comemorarem uma chacina, ele fica quieto. Não é remorso — é contabilidade.
+2. **A Grande Foice:** Se tiver miniatura com foice, descreva ataques circulares. O Mestre recompensa "ceifar almas" com +1 na conjuração — porque o roleplay e a mecânica falam a mesma língua aqui.
+3. **Tokens de Maldição:** Use anéis roxos na miniatura do inimigo maldito com **Maldizer**. Todos sabem: "aquele ali morre mais rápido." Visual simples, impacto narrativo imediato.
 
 ### **Objetivos & Recompensas**
 
@@ -988,14 +1095,17 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 
 ### **Dicas**
 
-1. **Anéis de Aura:** Use anéis de plástico coloridos (ou marcadores de plástico de 1 polegada) embaixo da base da miniatura do Paladino.  
-   * Vermelho \= Fanatismo (Ataque)  
-   * Azul \= Resistência (Defesa)  
-   * Branco \= Meditação/Cura  
-     Isso permite que o Mestre e demais jogadores vejam o bônus ativo sem precisar perguntar.  
-2. **O "Clunk" do Escudo:** Se o Paladino usar o **Escudo Sagrado**, peça para ele colocar um marcador de "Brilho" ou uma pedra amarela sobre o escudo da miniatura. O Mestre adora "exibições físicas" de poder.  
-3. **Liderança na Mesa:** O Paladino deve ser o jogador que coordena o grupo. O Mestre costuma dar um bônus de "Inspirado" (+1 no próximo dado) se o Paladino der uma ordem tática que funcione para o grupo.  
-4. **O Martelo Espiral:** Se ele usar o **Martelo Abençoado**, pegue um barbante ou um compasso e desenhe um círculo rápido na mesa. Quem estiver na linha do martelo sofre o dano. "Física e geometria facilitam o combate".
+🗡 **Mecânica**
+
+1. **Golpe Sagrado sempre:** Custa apenas ◇ + 1 Mana e adiciona seu Nível como dano Radiante extra em qualquer acerto. Não tem motivo para não usar — no nível 10, são +10 Radiante garantidos por golpe bem-sucedido.
+2. **Auras: o timing importa:** Use **Fanatismo** quando precisa acertar (+1 ataque) e **Resistência** quando o grupo está apanhando (+1 CA para todos Próximo). Trocar auras gasta ◈ — não troque no meio de uma investida, planeje antes da sua rodada.
+3. **Anéis de Aura:** Use anéis coloridos na base da miniatura — Vermelho para Fanatismo, Azul para Resistência, Branco para Meditação. O Mestre e os jogadores veem o bônus sem precisar perguntar.
+
+🎭 **Roleplay**
+
+1. **Zakarum tem muitas faces:** O Paladino pode ser fanático, pragmático ou em crise de fé — mas ele acredita em algo. Quando encontrar um herético ou um traidor da ordem, a resposta não é automática. Ela revela o tipo de Paladino que ele é.
+2. **Liderança na Mesa:** O Paladino coordena o grupo. O Mestre costuma dar +1 ("Inspirado") se ele der uma ordem tática que funcione. Isso não precisa de mecânica especial — precisa de um jogador que assuma a posição.
+3. **O Martelo Espiral:** Se usar **Arremesso Abençoado**, trace um círculo rápido com barbante ou compasso. Quem estiver na linha sofre o dano. Geometria como combate — e o Paladino é o único que torna isso sagrado.
 
 ### Objetivos & Recompensas
 
@@ -1053,10 +1163,17 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 
 ### **Dicas**
 
-1. **Index Cards de Armadilhas:** Use cartões de índice (fichas de papel) para representar armadilhas ou bombas de fumaça na mesa. Quando a Renegada joga **Abrojos**, coloque o papel no grid. Inimigo pisou no papel? Sofreu o efeito. Isso torna o campo de batalha tático e visível.  
-2. **Marcadores de Imbuimento:** Use elásticos coloridos ou anéis pequenos para colocar na arma da miniatura (Verde para Veneno, Roxo para Sombras, Azul para Gelo). Isso evita que o jogador esqueça que "carregou" a arma.  
-3. **Ataque Furtivo Visual:** Sempre se pergunte: "Onde você está escondido?". O jogador deve colocar a miniatura atrás de móveis, colunas ou até atrás do Bárbaro. Se a miniatura estiver "escondida" visualmente, ela ganha o bônus de cobertura.  
-4. **Velocidade e Estilo:** O Renegado deve ser a classe mais rápida. Mestre daria um bônus se o jogador descrevesse o ataque de forma cinematográfica (ex: "Eu corro pela parede e caio com as adagas no pescoço do Butcher").
+🗡 **Mecânica**
+
+1. **Ataque Furtivo Visual:** Sempre pergunte "onde você está escondido?". Coloque a miniatura atrás de colunas, móveis ou atrás do Bárbaro. Se a miniatura está visualmente coberta, ela tem o bônus de Ataque Furtivo — e o inimigo que se aproximar ativa o flanqueamento automaticamente.
+2. **Imbuimento + Passo de Sombra:** Use **Imbuimento Rápido** antes de **Passo de Sombra** para teleportar e atacar com Vantagem. Você empilha: Vantagem + dano de imbuimento + Ataque Furtivo em um único golpe — é o maior burst da classe.
+3. **Index Cards de Armadilhas:** Use fichas de papel para **Abrojos** e **Bomba de Fumaça** no grid. Inimigo pisou no papel? Sofreu o efeito. Torna o campo de batalha tático e evita discussões sobre posição.
+
+🎭 **Roleplay**
+
+1. **Irmãs do Olho Cego:** A Renegada não é uma ladra — é uma especialista treinada por uma guilda com um código. Trair o código tem consequências que ela ainda sente. Quando o grupo pedir algo desonroso, a resposta não é automática — tem um preço.
+2. **Velocidade e Estilo:** A Renegada deve ser a classe mais cinematográfica. O Mestre dá +1 se o jogador descrever o ataque de forma vívida — "Eu corro pela parede e caio com as adagas no pescoço do Butcher." A classe *requer* narração para funcionar no máximo.
+3. **Marcadores de Imbuimento:** Elásticos coloridos ou anéis pequenos na arma da miniatura (Verde para Veneno, Roxo para Necrótico, Azul para Gelo). Você não esquece que a arma está carregada — e os outros jogadores sabem o que esperar.
 
 ### Objetivos & Recompensas
 
@@ -1116,10 +1233,17 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 
 ### **Dicas**
 
-1. **O Rosário de Fé:** O jogador deve usar um rosário físico ou um colar de contas. Cada conta representa 1 Ponto de Fé. O Mestre adora essa conexão física: o jogador literalmente "conta suas preces" enquanto gasta seus recursos.  
-2. **Iluminação Real:** Se o Sacerdote usar o **Halo de Luz**, coloque uma lanterna pequena ou a lanterna do celular (com um filtro amarelo/papel) sobre a mesa se você jogar em ambiente escuro. Isso marca visualmente a área sagrada.  
-3. **Cantos Rituais:** O Mestre recompensa a imersão. Se o jogador recitar uma pequena frase de oração em latim ou em uma língua fictícia ao curar alguém, ele ganha \+1 no resultado do dado de cura.  
-4. **Martírio:** Se o Sacerdote estiver prestes a morrer, o Mestre permite que ele faça uma "Última Prece": ele morre heroicamente, mas cura todo o grupo e bane todos os demônios menores da sala. É o fim épico que um jogador de Sacerdote respeita.
+🗡 **Mecânica**
+
+1. **Oração Purificadora é flexível:** Mesma habilidade, 1 Mana: cura 1d6 em aliado OU causa 1d6 Radiante em inimigo. Você nunca desperdiça uma ação — se não precisa curar, ataca. Isso torna o Sacerdote muito mais eficiente do que parece à primeira leitura.
+2. **Penitência inverte a equação:** Gaste 1d4 de HP para recuperar 4 Mana instantaneamente. Em situações de emergência onde precisa de mais um **Exorcismo** ou **Prece de Recomposição**, Penitência é a ponte. Sacerdote com pouco HP ainda tem poder.
+3. **O Rosário de Fé:** Use um rosário físico ou colar de contas — cada conta representa 1 Ponto de Mana. Gastar fisicamente as contas ao curar torna o recurso palpável, não abstrato.
+
+🎭 **Roleplay**
+
+1. **Fé não é crença cega:** O Sacerdote escolheu acreditar porque *viu* demais para não acreditar. Quando houver dúvida nas suas orações, é dúvida no próprio julgamento — não em Zakarum. Ele continua agindo mesmo em dúvida.
+2. **Cantos Rituais:** O Mestre recompensa a imersão. Se o jogador recitar uma pequena frase de oração ao curar, ganha +1 no dado de cura. Em sessão zero, combine uma frase com o grupo — algo que todos reconheçam como sinal de que o Sacerdote está em ação.
+3. **Martírio:** Se o Sacerdote estiver prestes a morrer, o Mestre permite uma "Última Prece": ele morre heroicamente, mas cura todo o grupo e bane todos os demônios menores da sala. É o fim épico que um jogador de Sacerdote merece.
 
 ### Objetivos & Recompensas
 
@@ -1183,10 +1307,17 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 
 ### **Dicas**
 
-1. **O Sangue é a Moeda:** Quando o Warlock usar o **Pacto de Sangue**, o jogador tira fisicamente HP da ficha dele. Crie um marcador visual diferente para "HP perdido por Pacto" — pedras vermelhas, por exemplo. Isso reforça que o poder tem um custo real.
-2. **A Horda no Tabuleiro:** Para cada demônio conjurado, coloque uma miniatura de cor diferente na mesa. Quando o Warlock age com todos de uma vez, o jogador move todas ao mesmo tempo. O impacto visual de um exército pessoal é o charme da classe.
-3. **A Arma Flutuante:** Se possível, use um fio transparente ou palito de dente para "suspender" a miniatura da arma sobre a mesa. Se não tiver, coloque um marcador ao lado da miniatura do Warlock para indicar que a arma está levitando — isso diferencia visualmente o ataque de arma do ataque de feitiço.
-4. **A Maldição como Aviso:** Quando o **Mestre das Maldições** estiver ativo, coloque um anel de cor escura (roxo ou preto) ao redor da miniatura do inimigo maldito. Todos na mesa sabem: "esse daqui, a gente ataca com vantagem".
+🗡 **Mecânica**
+
+1. **Pacto de Sangue como sustain de Mana:** 1d6 HP → 1d4 Mana. Se você tem HP sobrando e precisa de mais uma invocação ou feitiço, não espere o descanso — pague com sangue. O Warlock não precisa ter HP cheio para funcionar bem.
+2. **Profanador como multiplicador de grupo:** O **Profanador** vincula o HP de múltiplos inimigos — todo dano que qualquer um receber, todos os vinculados recebem. Se o grupo focar um único alvo vinculado, o Profanador multiplica o DPT de toda a mesa nessa rodada.
+3. **A Horda no Tabuleiro:** Para cada demônio conjurado, coloque uma miniatura de cor diferente na mesa. Quando agir com todos de uma vez, mova todas ao mesmo tempo. O impacto visual de um exército pessoal é o charme da classe.
+
+🎭 **Roleplay**
+
+1. **O Warlock não serve ao mal — ele negocia com ele:** Há uma diferença. Ele usa demônios como ferramentas porque entende a natureza deles melhor do que qualquer paladino que os bane sem questionar. Quando aliados desconfiam dele, ele não se defende — ele pergunta: "quem derrotou mais demônios hoje?"
+2. **A arma flutuante como espelho emocional:** A arma não flutua por levitação — ela obedece porque o Warlock *quer*. Quando está com raiva, ela se move mais rápido. Quando está focado, ela é cirúrgica. Descreva a arma como reflexo do estado emocional dele.
+3. **O Sangue é a Moeda:** Quando usar **Pacto de Sangue**, marque o HP gasto com pedras de cor diferente na ficha. O poder tem custo real — e é mais dramático quando você vê o quanto pagou ao longo da sessão.
 
 ### Objetivos & Recompensas
 
