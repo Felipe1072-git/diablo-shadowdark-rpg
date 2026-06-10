@@ -1,4 +1,4 @@
-# **15\. Paladino**
+﻿# **15\. Paladino**
 
 Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome de Zakarum. Eles combinam proeza marcial com orações que se manifestam como auras radiantes sob seus pés.
 
@@ -44,14 +44,17 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 
 ### **Dicas**
 
-1. **Anéis de Aura:** Use anéis de plástico coloridos (ou marcadores de plástico de 1 polegada) embaixo da base da miniatura do Paladino.  
-   * Vermelho \= Fanatismo (Ataque)  
-   * Azul \= Resistência (Defesa)  
-   * Branco \= Meditação/Cura  
-     Isso permite que o Mestre e demais jogadores vejam o bônus ativo sem precisar perguntar.  
-2. **O "Clunk" do Escudo:** Se o Paladino usar o **Escudo Sagrado**, peça para ele colocar um marcador de "Brilho" ou uma pedra amarela sobre o escudo da miniatura. O Mestre adora "exibições físicas" de poder.  
-3. **Liderança na Mesa:** O Paladino deve ser o jogador que coordena o grupo. O Mestre costuma dar um bônus de "Inspirado" (+1 no próximo dado) se o Paladino der uma ordem tática que funcione para o grupo.  
-4. **O Martelo Espiral:** Se ele usar o **Martelo Abençoado**, pegue um barbante ou um compasso e desenhe um círculo rápido na mesa. Quem estiver na linha do martelo sofre o dano. "Física e geometria facilitam o combate".
+🗡 **Mecânica**
+
+1. **Golpe Sagrado sempre:** Custa apenas ◇ + 1 Mana e adiciona seu Nível como dano Radiante extra em qualquer acerto. Não tem motivo para não usar — no nível 10, são +10 Radiante garantidos por golpe bem-sucedido.
+2. **Auras: o timing importa:** Use **Fanatismo** quando precisa acertar (+1 ataque) e **Resistência** quando o grupo está apanhando (+1 CA para todos Próximo). Trocar auras gasta ◈ — não troque no meio de uma investida, planeje antes da sua rodada.
+3. **Anéis de Aura:** Use anéis coloridos na base da miniatura — Vermelho para Fanatismo, Azul para Resistência, Branco para Meditação. O Mestre e os jogadores veem o bônus sem precisar perguntar.
+
+🎭 **Roleplay**
+
+1. **Zakarum tem muitas faces:** O Paladino pode ser fanático, pragmático ou em crise de fé — mas ele acredita em algo. Quando encontrar um herético ou um traidor da ordem, a resposta não é automática. Ela revela o tipo de Paladino que ele é.
+2. **Liderança na Mesa:** O Paladino coordena o grupo. O Mestre costuma dar +1 ("Inspirado") se ele der uma ordem tática que funcione. Isso não precisa de mecânica especial — precisa de um jogador que assuma a posição.
+3. **O Martelo Espiral:** Se usar **Arremesso Abençoado**, trace um círculo rápido com barbante ou compasso. Quem estiver na linha sofre o dano. Geometria como combate — e o Paladino é o único que torna isso sagrado.
 
 ### Objetivos & Recompensas
 
@@ -63,6 +66,8 @@ Guerreiros sagrados que juraram proteger os inocentes e purificar o mal em nome 
 | **4** | **Julgamento do Tirano:** Derrotar um líder inimigo sem recuar ou usar táticas de emboscada. | **Voto de Justiça:** Você pode adicionar seu bônus de Carisma ao dano de um ataque bem-sucedido (uma vez por rodada). |
 | **5** | **Recuperar o Estandarte:** Encontrar e erguer um símbolo de sua ordem em um campo de batalha. | **Presença Comandante:** Aliados Próximo ganham bônus igual o seu Carisma em testes. |
 | **6** | **Martírio Voluntário:** Sobreviver a uma luta terminando com menos de 5 HP. | **Retribuição:** Quando um inimigo te acerta, seu próximo ataque contra ele tem Vantagem. |
+
+---
 
 ---
 

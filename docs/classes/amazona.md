@@ -1,4 +1,4 @@
-# **1\. Amazona**
+﻿# **1\. Amazona**
 
 As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco quanto na lança. Elas combinam agilidade física com poderes ancestrais.
 
@@ -41,9 +41,17 @@ As Amazonas são guerreiras versáteis das Ilhas Skovos, mestras tanto no arco q
 
 ### **Dicas**
 
-1. **Munição Simplificada:** Não conte flechas. Use a regra do "Dado de Munição". Comece com um **d12**. Toda vez que a Amazona atirar e tirar "1" no dado de ataque, o dado de munição cai um degrau (d12 → d10 → d8 → d6 → d4). Se tirar 1 no d4, ela ficou sem flechas.  
-2. **A Valkíria no Tabuleiro:** Use uma miniatura dourada ou translúcida para representá-la. Ela age junto com a Amazona — quando ambas miram o mesmo alvo, lembre o grupo que as duas têm Vantagem. O impacto visual de duas guerreiras atacando em sincronia é o charme desta habilidade.  
-3. **Movimento Visual:** A Amazona deve ser a classe que mais se move. Descreva como ela salta sobre mesas ou desliza por baixo de monstros para usar o **Jab**.
+🗡 **Mecânica**
+
+1. **Munição Simplificada:** Não conte flechas — use o "Dado de Munição". Comece com um **d12**. Toda vez que atirar e tirar 1 no dado de ataque, o dado de munição cai um degrau (d12 → d10 → d8 → d6 → d4). Tirou 1 no d4? Ficou sem flechas.
+2. **A Valkíria e Vantagem:** Use uma miniatura dourada ou translúcida para representar a Valkíria. Quando ambas mirarem o mesmo alvo, lembre o grupo que as duas têm Vantagem — o impacto visual de duas guerreiras em sincronia é o charme desta habilidade.
+3. **Polivalente é a sua vantagem única:** A Amazona pode usar DES onde precisaria de FOR e vice-versa. Se os inimigos têm CA alta e sua DES está subindo mais que a FOR (ou o contrário), ajuste na hora. Nenhuma outra classe tem essa flexibilidade.
+
+🎭 **Roleplay**
+
+1. **Askari não pede permissão:** Ela é guerreira por direito ancestral, não por título nobiliárquico. Quando alguém no grupo subestimá-la, ela não argumenta — ela demonstra. A cena seguinte é a resposta.
+2. **Athulua te vê:** Antes de invocar a Valkíria, feche os olhos por um segundo e murmure o nome da deusa. A guerreira que surge não é magia — é uma ancestral respondendo ao chamado. Descreva-a como alguém que parece familiar.
+3. **O tabuleiro é seu domínio:** A Amazona deve ser a classe que mais se move. Descreva como ela salta sobre mesas ou desliza por baixo de monstros para usar o **Jab** — o Mestre recompensa mobilidade com posicionamento.
 
 ### **Objetivos & Recompensas**
 

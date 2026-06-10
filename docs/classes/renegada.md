@@ -1,4 +1,4 @@
-# **16\. Renegada (Rogue)**
+﻿# **16\. Renegada (Rogue)**
 
 Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as Irmãs do Olho Cego. Eles são especialistas em encontrar pontos fracos e usar venenos ou sombras para obliterar inimigos antes mesmo de serem vistos.
 
@@ -41,10 +41,17 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 
 ### **Dicas**
 
-1. **Index Cards de Armadilhas:** Use cartões de índice (fichas de papel) para representar armadilhas ou bombas de fumaça na mesa. Quando a Renegada joga **Abrojos**, coloque o papel no grid. Inimigo pisou no papel? Sofreu o efeito. Isso torna o campo de batalha tático e visível.  
-2. **Marcadores de Imbuimento:** Use elásticos coloridos ou anéis pequenos para colocar na arma da miniatura (Verde para Veneno, Roxo para Sombras, Azul para Gelo). Isso evita que o jogador esqueça que "carregou" a arma.  
-3. **Ataque Furtivo Visual:** Sempre se pergunte: "Onde você está escondido?". O jogador deve colocar a miniatura atrás de móveis, colunas ou até atrás do Bárbaro. Se a miniatura estiver "escondida" visualmente, ela ganha o bônus de cobertura.  
-4. **Velocidade e Estilo:** O Renegado deve ser a classe mais rápida. Mestre daria um bônus se o jogador descrevesse o ataque de forma cinematográfica (ex: "Eu corro pela parede e caio com as adagas no pescoço do Butcher").
+🗡 **Mecânica**
+
+1. **Ataque Furtivo Visual:** Sempre pergunte "onde você está escondido?". Coloque a miniatura atrás de colunas, móveis ou atrás do Bárbaro. Se a miniatura está visualmente coberta, ela tem o bônus de Ataque Furtivo — e o inimigo que se aproximar ativa o flanqueamento automaticamente.
+2. **Imbuimento + Passo de Sombra:** Use **Imbuimento Rápido** antes de **Passo de Sombra** para teleportar e atacar com Vantagem. Você empilha: Vantagem + dano de imbuimento + Ataque Furtivo em um único golpe — é o maior burst da classe.
+3. **Index Cards de Armadilhas:** Use fichas de papel para **Abrojos** e **Bomba de Fumaça** no grid. Inimigo pisou no papel? Sofreu o efeito. Torna o campo de batalha tático e evita discussões sobre posição.
+
+🎭 **Roleplay**
+
+1. **Irmãs do Olho Cego:** A Renegada não é uma ladra — é uma especialista treinada por uma guilda com um código. Trair o código tem consequências que ela ainda sente. Quando o grupo pedir algo desonroso, a resposta não é automática — tem um preço.
+2. **Velocidade e Estilo:** A Renegada deve ser a classe mais cinematográfica. O Mestre dá +1 se o jogador descrever o ataque de forma vívida — "Eu corro pela parede e caio com as adagas no pescoço do Butcher." A classe *requer* narração para funcionar no máximo.
+3. **Marcadores de Imbuimento:** Elásticos coloridos ou anéis pequenos na arma da miniatura (Verde para Veneno, Roxo para Necrótico, Azul para Gelo). Você não esquece que a arma está carregada — e os outros jogadores sabem o que esperar.
 
 ### Objetivos & Recompensas
 
@@ -56,6 +63,8 @@ Mestres da furtividade e da precisão, os Renegados pertencem a guildas como as 
 | **4** | **Mestre de Escapada:** Desarmar uma armadilha complexa ou liderar o grupo para fora de uma emboscada sem ninguém ser ferido. | **Reflexos de Gatilho:** Você ganha um bônus de **\+3** em testes de Iniciativa e sua CA aumenta em **\+1** contra ataques à distância. |
 | **5** | **Ponto de Vigilância:** Estabelecer e manter um ponto de observação oculto por 24h para identificar o ponto fraco de um líder inimigo. | **Marca da Morte:** Você pode gastar sua ação para marcar um alvo. Seu próximo ataque único contra ele causa o **dobro do bônus de atributo** no dano. |
 | **6** | **Reduto do Renegado:** Localizar ou criar um esconderijo secreto em território hostil que sirva de base para o grupo. | **Inércia Assassina:** Ao reduzir um inimigo a 0 HP, você ganha um surto de adrenalina. Você pode imediatamente se deslocar até metade do seu deslocamento sem provocar ataques de oportunidade e seu próximo ataque neste combate terá **Vantagem**. (Efeito Cumulativo) |
+
+---
 
 ---
 

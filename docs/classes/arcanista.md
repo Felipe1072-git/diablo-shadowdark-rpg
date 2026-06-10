@@ -1,4 +1,4 @@
-# **2\. Arcanista**
+﻿# **2\. Arcanista**
 
 Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cosmos. Ele manipula a gravidade, o tempo e a força bruta do vácuo.
 
@@ -42,9 +42,17 @@ Diferente do Mago que usa os elementos, o Arcanista estuda a energia pura do cos
 
 ### **Dicas**
 
-1. **Manipulação Tátil:** Quando o Arcanista usar o **Buraco Negro**, o jogador deve fisicamente mover as miniaturas dos inimigos na mesa para o centro. Isso dá uma sensação de controle espacial muito forte.  
-2. **O "Contador de Cargas":** O jogador deve usar dados de cores diferentes (roxos, se possível) na frente dele para representar o **Dínamo Arcano**. Visualizar o poder acumulando aumenta a empolgação.  
-3. **Bolha de Tempo Física:** Se o jogador usar **Distorção Temporal**, coloque um copo transparente virado ou um anel de luz sobre a área. Qualquer miniatura dentro dessa zona age por último na rodada.
+🗡 **Mecânica**
+
+1. **Acumule Cargas antes de gastar:** Cargas Arcanas sobem a cada conjuração bem-sucedida. Use **Mísseis Arcanos** (DC baixo) para acumular 2–3 cargas e então as gaste num **Meteoro** ou **Desintegrar** — seu dano por ação sobe drasticamente.
+2. **Buraco Negro + Espada Espectral:** Puxe todos os inimigos para o centro com **Buraco Negro**, depois use **Espada Espectral** no mesmo ponto. Você distribui 2d6 Arcano a todos que já estão agrupados, sem gasto de movimento extra.
+3. **O "Contador de Cargas":** Use dados de cores diferentes (roxos, se possível) para representar o **Dínamo Arcano**. Visualizar o poder acumulando na mesa aumenta a empolgação e evita esquecer as cargas.
+
+🎭 **Roleplay**
+
+1. **O Arcanista não conjura — ele compreende:** Ele não "lança" feitiços como outros magos. Ele identifica como a gravidade, o tempo e o espaço funcionam ali e os redireciona. Quando usar **Buraco Negro**, não diga "ataco". Diga "eu torço o espaço entre vocês."
+2. **Bolha de Tempo:** Coloque um copo transparente virado ou um anel de luz sobre a área. Miniaturas dentro da zona agem por último — aviso visual que comunica o domínio do Arcanista sobre a iniciativa.
+3. **Conhecimento como poder:** Todo lugar novo é campo de estudo. O Arcanista percebe anomalias que outros ignoram — pedras fora do lugar, padrões de luz errados. Pergunte ao Mestre "tem alguma anomalia mágica aqui?" antes de entrar num dungeon. Você não é curioso — é metódico.
 
 ### **Objetivos & Recompensas**
 

@@ -1,4 +1,4 @@
-# **5\. Caçador de Demônios**
+﻿# **5\. Caçador de Demônios**
 
 Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas e armadilhas, alimentados por um ódio profundo e uma disciplina férrea.
 
@@ -43,9 +43,17 @@ Sobreviventes de ataques demoníacos, esses caçadores usam um arsenal de bestas
 
 ### **Dicas**
 
-1. **O Medidor:** Use recursos visuais para que o jogador sinta o peso das escolhas. O jogador deve usar dois tipos de marcadores (ex: pedras vermelhas para Ódio/Ataque e azuis para Disciplina/Defesa) ou apenas dados de cores diferentes. Quando ele usa os recursos, ele remove fisicamente a pedra da mesa.  
-2. **Uso de "Tokens" de Dispositivos:** O Caçador de Demônios enche a mesa de "tralha". Tenha marcadores pequenos para as **Sentinelas** e **Armadilhas**. "Se está na mesa, existe no mundo". Se um monstro pisar na armadilha, o jogador deve ter o prazer de "retirar" o marcador e rolar o dano.  
-3. **Narrativa Sombria:** Diferente da Amazona que é atlética e solar, o Caçador de Demônios é sombrio. Quando ele usar a **Cortina de Fumaça**, apague as luzes da mesa (se você usar lâmpadas físicas) ou descreva como as sombras da sala se esticam para escondê-lo.
+🗡 **Mecânica**
+
+1. **Ódio e Disciplina como marcadores físicos:** Use pedras vermelhas para Ódio (ataque) e azuis para Disciplina (defesa/utilidade). A decisão de gastar recursos tem peso quando você tira a pedra da mesa — não é abstrata.
+2. **Armadilhas antes do combate:** O maior multiplicador de dano do Caçador está nas **Sentinelas** e armadilhas posicionadas *antes* da luta. Se você tem informação sobre onde os inimigos vão aparecer, um minuto de preparação muda completamente a cena.
+3. **Tokens de Dispositivos:** Tenha marcadores físicos para cada armadilha ativa. "Se está na mesa, existe no mundo." Quando o inimigo pisar, você retira o marcador e rola o dano — isso cria um prazer tátil genuíno.
+
+🎭 **Roleplay**
+
+1. **Sombrio, não frio:** O Caçador de Demônios *perdeu* alguém para o Inferno Ardente. Toda a frieza e o arsenal são consequências disso. Quando o grupo encontrar vítimas de demônios, ele não tem compaixão performática — ele tem objetivo. "Já vi isso antes. Vamos acabar logo."
+2. **Narrativa Sombria:** Diferente da Amazona, solar e atlética, o Caçador é sombrio. Quando usar **Cortina de Fumaça**, descreva como as sombras parecem se esticar para escondê-lo — como se o escuro fosse velho amigo.
+3. **O arsenal é parte da identidade:** O Caçador nomeia suas armas, suas bestas e seus virotes especiais. Ele os conhece tão bem quanto seus inimigos. Pergunte ao Mestre sobre materiais e fraquezas dos inimigos — a munição certa pode mudar um confronto inteiro.
 
 ### **Objetivos & Recompensas**
 

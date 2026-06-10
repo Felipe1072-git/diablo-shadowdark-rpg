@@ -1,4 +1,4 @@
-# **10\. Feiticeiro (Witch Doctor)**
+﻿# **10\. Feiticeiro (Witch Doctor)**
 
 Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terras Formosas. Ele usa máscaras rituais, jarros de insetos e ritos de sangue para punir seus inimigos.
 
@@ -42,9 +42,17 @@ Um conjurador das tribos Umbaru que vê o mundo como um véu fino sobre as Terra
 
 ### **Dicas**
 
-1. **Jarros de Vidro:** Use "props". Se o jogador usar a **Bomba de Fogo** ou a **Nuvem de Gafanhotos**, ele pode colocar uma tampa de garrafa ou um pote pequeno na mesa. "O jarro quebrou aqui", isso define o ponto zero da explosão de forma visual e satisfatória.  
-2. **Máscaras Reais:** Peça para o jogador descrever a máscara dele. O Mestre dará um bônus de \+1 se o jogador fizer uma pose ou uma voz sinistra ao usar os seus talentos. Isso aumenta a imersão na estética tribal de Diablo. Se o jogador trouxer uma máscara tribal para as sessões o bônus é permanente.   
-3. **A Parede de Zumbis:** Use dominós ou bloquinhos de madeira para representar a **Parede de Zumbis**. Se o inimigo tentar passar e falhar no teste, o jogador "derruba" a parede sobre o monstro.
+🗡 **Mecânica**
+
+1. **Sacrifício é economia:** Gastar um Cão Zumbi com **Sacrifício** (1d8 Necrótico adjacente, 1 Mana) quando ele está prestes a morrer é mais eficiente do que deixar o inimigo matar o cão de graça. Se o Cão está com 1–2 HP, exploda-o antes.
+2. **Nuvem de Gafanhotos como tick de dano:** Fica ativa por 1d4 rodadas e atinge *todos* os inimigos Próximo automaticamente no início de cada turno. Em hordas, é o feitiço mais eficiente em Mana por dano total da classe — use logo no turno 1.
+3. **Jarros de Vidro:** Quando usar **Bomba de Fogo** ou **Invasão de Sapos**, coloque uma tampinha de garrafa no grid para marcar o ponto zero. Evita discussões sobre área e torna o combate tátil.
+
+🎭 **Roleplay**
+
+1. **O Feiticeiro vê o que outros não veem:** Para ele, o Véu entre os mundos é fino. Mortos recentes ainda estão presentes. Demônios deixam rastros que ele lê como texto. Quando o grupo entrar num local novo, ele provavelmente já sabe se alguém morreu ali — e aproximadamente como.
+2. **Máscaras Reais:** Peça para o jogador descrever a máscara dele. O Mestre dá +1 se fizer uma pose ou voz sinistra ao usar habilidades. Se o jogador trouxer uma máscara para a sessão, o bônus é permanente.
+3. **O Umbaru não tem pressa:** O Feiticeiro não corre para resolver um problema. Ele observa, triangula e então age de forma cirúrgica. Quando o grupo discute algo difícil, ele provavelmente já sabe a resposta — e está esperando o momento certo para revelá-la.
 
 ### **Objetivos & Recompensas**
 

@@ -1,4 +1,4 @@
-# **6\. Cavaleiro de Sangue**
+﻿# **6\. Cavaleiro de Sangue**
 
 Guerreiros que foram mordidos por vampiros, mas que através de um ritual místico, retêm a sua humanidade enquanto utilizam os poderes da maldição para caçar o mal.
 
@@ -41,9 +41,17 @@ Guerreiros que foram mordidos por vampiros, mas que através de um ritual místi
 
 ### **Dicas**
 
-1. **O Alcance da Lança:** Enfatize o posicionamento. O Cavaleiro de Sangue deve ser o mestre de "atacar por trás do Bárbaro". Use o alcance da lança para manter o monstro à distância, impedindo que monstros cheguem perto se o Cavaleiro tiver sucesso num teste de Força.  
-2. **O "Rastreador de Sangue":** Se o Cavaleiro de Sangue causar dano em um monstro e ele fugir, o jogador sabe automaticamente para onde o monstro foi. Esse é um "poder passivo" que não exige dados, apenas inteligência narrativa.  
-3. **Visual da Abominação:** Quando usar a transformação em **Abominação**, descreva como a sua armadura se rompe e o corpo cresce. Se você tiver uma miniatura de monstro grande (como um demônio ou lobisomem), coloque-a na mesa para substituir o Cavaleiro. O impacto visual é importante.
+🗡 **Mecânica**
+
+1. **Sifão de Sangue < 50% HP:** O **Sifão de Sangue** recupera apenas 1 HP por acerto, mas 1d4 HP quando o inimigo está abaixo de 50%. Priorize inimigos já feridos para maximizar a cura — o Cavaleiro se recupera melhor no caos do que numa luta limpa.
+2. **Empaladora como controle:** **Lança Empaladora** prende o inimigo no chão com um teste de Força. Se não precisa do dano, use-a para segurar um inimigo forte enquanto aliados o eliminam — é mais eficaz do que tentar matá-lo sozinho.
+3. **Visual da Abominação:** Quando usar **Abominação**, descreva a armadura se rompendo enquanto o corpo cresce. Se você tiver uma miniatura de monstro grande, coloque-a na mesa para substituir o Cavaleiro — o impacto visual é parte da habilidade.
+
+🎭 **Roleplay**
+
+1. **A maldição é ferramenta, não fardo:** O Cavaleiro de Sangue não é um vampiro resistindo à própria natureza o tempo todo. Ele *domou* a maldição. Não odeia o que é — odeia quem o forçou a se tornar isso. Há uma diferença enorme entre os dois.
+2. **A Ordem:** Ele pertence a uma linhagem de guerreiros que escolheram carregar a maldição para caçar o mal com ela. Quando o grupo encontrar alguém mordido, o Cavaleiro é o único que entende o que essa pessoa está sentindo — e o único que sabe o que acontece se ela ceder.
+3. **O Rastreador de Sangue:** Se o Cavaleiro ferir um inimigo que escapa, ele sabe automaticamente para onde foi. Não precisa de dados — é narrativo. Use isso: "Eu sei onde está. Vamos."
 
 ### **Objetivos & Recompensas**
 

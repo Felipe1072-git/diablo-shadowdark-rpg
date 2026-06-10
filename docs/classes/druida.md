@@ -1,4 +1,4 @@
-#  **8\. Druida**
+﻿#  **8\. Druida**
 
 Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem com os espíritos da terra e dos animais. Eles são guardiões selvagens que podem convocar tempestades ou rasgar gargantas com garras.
 
@@ -43,10 +43,17 @@ Os Druidas de Scosglen abandonaram o uso da magia arcana para se sintonizarem co
 
 ### **Dicas**
 
-1. **Troca de Miniaturas:** "Show, don't tell". Se o Druida se transformar, o jogador **precisa** trocar a miniatura na mesa. Se ele não tiver, use um marcador de cor diferente. Isso sinaliza para todos que as regras do personagem mudaram.  
-2. **O Objeto da Rocha Rolante:** Se o jogador usar a **Rocha Rolante**, pegue um dado grande (como um D20 gigante ou uma bola de papel) e role-o fisicamente pelo grid ou mesa. Quem for tocado pelo objeto sofre o efeito. É divertido e visceral.  
-3. **Gestão de Pets (Tokens):** Para não demorar em seu turno, trate os 3 lobos como um único "Enxame". Aja com todos de uma só vez. É mais rápido que gerenciar 3 fichas de monstros completas.  
-4. **Uso de Plantas:** Quando usar a **Fissura** ou a **Vinha Venenosa**, use pedaços de barbante verde ou feltro na mesa para marcar onde o terreno mudou. "O terreno é metade da luta".
+🗡 **Mecânica**
+
+1. **Transmutar: planeje antes do combate:** A DC cai com o nível (DC 15 − Nível). Ainda assim, tentar transformar *dentro* do combate gasta ◈ e pode falhar. Se você sabe que a luta vem, entre transformado — Urso para survivability, Lobo para mobilidade e dano.
+2. **Urso para tancar, Lobo para matar:** Forma de Urso (+2 CA, +5 HP temporários) é defensiva — use contra chefes. Forma de Lobo (+1d6 dano, dobro de movimento) é ofensiva — use em hordas. Você não precisa manter a mesma forma a cena inteira.
+3. **Gestão de Pets:** Trate os lobos como um "Enxame" — aja com todos de uma vez. É mais rápido que gerenciar 3 fichas separadas e mantém o ritmo da mesa.
+
+🎭 **Roleplay**
+
+1. **O Druida não distingue natureza de sobrenatureza:** Um demônio corrompendo uma floresta é tão ofensivo quanto uma criança sofrendo. Para ele, tudo está conectado — a floresta morrendo é sinal de que Santuário está doente. Ele age antes dos outros perceberem o problema.
+2. **Transformação com propósito:** Quando o Druida se transforma, não é magia — é *revelação*. Ele está mostrando o que sempre foi. Troque a miniatura na mesa com cerimônia: "Eu paro de fingir que sou apenas humano."
+3. **Uso de Plantas:** Quando usar **Fissura** ou **Vinha Venenosa**, marque o terreno com barbante verde ou feltro. "O terreno é metade da luta" — e o Druida controla o terreno melhor que qualquer outra classe.
 
 ### **Objetivos & Recompensas**
 

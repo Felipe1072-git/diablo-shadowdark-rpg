@@ -1,4 +1,4 @@
-# **12\. Mago**
+﻿# **12\. Mago**
 
 Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as energias fundamentais do cosmos. Eles são frágeis fisicamente, mas podem incinerar exércitos, congelar demônios ou obliterar alvos com raios divinos.
 
@@ -43,10 +43,17 @@ Mestres das antigas linhagens de Zann Esu ou dos Vizjerei, os Magos canalizam as
 
 ### **Dicas**
 
-1. **Dados Explosivos:** A regra de **Mestria Elemental** (dados que explodem) faz o Mago se sentir extremamente poderoso, compensando o fato de ele ter apenas d4 de vida.  
-2. **Modelos de Área Físicos:** Como o Mago usa muita magia de área (Bola de Fogo, Nevasca, Meteoro), use anéis de papelão ou modelos de plástico na mesa. "Se a miniatura do monstro está tocando o anel de fogo, ele queima kkk". Isso evita discussões sobre distância e acelera o jogo.  
-3. **O Risco da Sobrecarga:** Quando o Mago usar a **Sobrecarga Sanguínea**, descreva como o nariz dele sangra ou como seus olhos brilham com a cor do elemento. Foque na narrativa do custo da magia.  
-4. **O "Click" do Teleporte:** Quando o jogador usar o **Teleporte**, ele deve fisicamente "saltar" sua miniatura sobre as outras. Isso dá uma sensação de mobilidade que as outras classes não têm.
+🗡 **Mecânica**
+
+1. **Mestria Elemental explode:** Quando rolar o valor máximo num dado de dano, role um dado extra e some — sem limite de explosões. Com **Afinidade Elemental** (Vantagem em conjurações do elemento escolhido), você rola mais dados e aumenta a chance de acionar a cascata.
+2. **Sobrecarga Sanguínea é seguro de emergência:** Falhou num teste crítico? Gaste HP para passar — 1d4 de dano por ponto necessário. Numa situação onde um aliado está prestes a morrer, vale. O Mago com 1 HP que conjurou o feitiço certo ainda venceu a cena.
+3. **Afinidade Elemental define o estilo de jogo:** Fogo = dano em área + queimando. Gelo = controle + congelar. Relâmpago = múltiplos alvos. Escolha no nível 1 o que complementa o grupo — se já tem Druida com área, Relâmpago em múltiplos alvos costuma ser mais útil.
+
+🎭 **Roleplay**
+
+1. **O Mago é frágil e sabe disso:** Ele não fica na linha de frente porque não é idiota. Posicionamento é sobrevivência. Quando alguém sugerir que ele avance, a resposta é "posso alcançar daqui" — e geralmente pode.
+2. **O Risco da Sobrecarga:** Quando usar **Sobrecarga Sanguínea**, descreva o nariz sangrando ou os olhos brilhando com a cor do elemento. O poder tem custo visível — e isso fascina tanto quanto assusta quem está ao lado.
+3. **O "Click" do Teleporte:** Quando usar **Teleporte**, salte fisicamente sua miniatura sobre as outras. Mobilidade que nenhuma outra classe tem — use para desequilibrar posições que o inimigo acha que são seguras.
 
 ### **Objetivos & Recompensas**
 

@@ -1,4 +1,4 @@
-# **4\. Bárbaro**
+﻿# **4\. Bárbaro**
 
 Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate físico que utiliza a sua fúria interior para realizar feitos sobre-humanos.
 
@@ -41,9 +41,17 @@ Vindo das estepes geladas de Monte Arreat, o Bárbaro é um mestre do combate f�
 
 ### **Dicas**
 
-1. **O Ritual do Turbilhão:** Quando o jogador usar o **Turbilhão**, peça para ele literalmente girar a miniatura dele na mesa.  
-2. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se ele quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em Fúria, ele sempre tem **Vantagem**. Isso torna o combate tátil e dinâmico.  
-3. **Marcador de Fúria:** Use um dado vermelho grande ou um anel de status para marcar quando o Bárbaro está em Fúria. Isso serve de aviso visual para os outros jogadores: "Ele está causando muito dano, mas também está vulnerável".
+🗡 **Mecânica**
+
+1. **Fúria como recurso, não reflexo:** Ativar **Fúria** no turno 1 parece óbvio, mas ela dura por cena — entrar em Fúria antes do chefe final rende muito mais do que no primeiro corredor de zumbis. Aguarde o momento certo.
+2. **Turbilhão em grupo:** Use **Turbilhão** (◈◈◈) somente com 3+ inimigos Adjacentes. O dano extra se aplica em todos simultaneamente — é o maior pico de dano da classe, mas gasta as três ações. Reserve para a hora certa.
+3. **Marcador de Fúria:** Use um dado vermelho grande ou anel ao redor da miniatura quando o Bárbaro entrar em Fúria. Aviso visual para todos na mesa: "Ele está causando muito dano — mas está vulnerável."
+
+🎭 **Roleplay**
+
+1. **O Bárbaro age, não planeja:** Quando o grupo passa muito tempo discutindo um plano, o Bárbaro já foi verificar o corredor. Ele não é burro — é direto. A reflexão vem depois da ação, quando ainda há inimigos para derrotar.
+2. **Ancestrais como bússola moral:** Antes de uma escolha difícil, feche os olhos, murmure um nome ancestral e pergunte em voz alta: "O que [nome] faria?" O Mestre pode responder com uma visão breve ou uma sensação.
+3. **Destruição de Cenário:** O Bárbaro deve ser capaz de quebrar coisas. Se quiser derrubar uma porta, uma mesa ou uma estátua sobre um inimigo enquanto estiver em Fúria, ele tem **Vantagem** — o Mestre recompensa criatividade destrutiva.
 
 ### **Objetivos & Recompensas**
 

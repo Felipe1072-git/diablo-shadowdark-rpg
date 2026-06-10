@@ -1,4 +1,4 @@
-# **9\. Natispirito**
+﻿# **9\. Natispirito**
 
 Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vivos e o Reino Espiritual. Ele utiliza armas de haste e o poder dos grandes Guardiões para devastar seus inimigos.
 
@@ -46,9 +46,17 @@ Um mestre das artes marciais místicas que serve como ponte entre o mundo dos vi
 
 ### **Dicas**
 
-1. **Tokens de Guardião:** Clareza visual. Crie 4 token coloridos (Ex: Laranja/Jaguar, Azul/Águia, Amarelo/Gorila, Verde/Centopeia). Quando o combate começar, o jogador coloca o token escolhido ao lado da sua miniatura. Assim, todos na mesa sabem qual bônus ele está usando sem precisar perguntar.  
-2. **Combate Acrobático:** O Natispirito deve se mover muito. Se o jogador descrever uma acrobacia (usar o cajado para saltar sobre um inimigo, por exemplo), ele ganha \+1 no dano. Isso incentiva o "estilo" de Nahantu.  
-3. **Visualizando o Veneno:** Use marcadores verdes (como pecinhas de plástico ou dados verdes) para os inimigos atingidos pela Centopeia. "O dano contínuo só é divertido se você vê ele acontecendo". Retirar o HP do monstro no início do turno dele cria expectativa.
+🗡 **Mecânica**
+
+1. **Escolha o Guardião certo:** Jaguar (+1 ataque) para lutas contra poucos alvos fortes. Águia (dobro de movimento) para campos abertos. Centopeia (recupera HP ao matar) para hordas. Gorila (+1 CA) quando você vai levar muito dano. A escolha no início do combate vale mais do que qualquer habilidade individual.
+2. **Encarnação do Guardião é o divisor de águas:** No nível 18, dois passivos ativos ao mesmo tempo — combine Jaguar + Centopeia para dano e sustain em hordas, ou Águia + Gorila para survivability e mobilidade.
+3. **Tokens de Guardião:** Crie 4 tokens coloridos (Laranja/Jaguar, Azul/Águia, Amarelo/Gorila, Verde/Centopeia). Coloque ao lado da miniatura no início do combate. Todos sabem o bônus sem precisar perguntar.
+
+🎭 **Roleplay**
+
+1. **Nahantu é alien para o grupo:** O Natispirito não entende por que humanos vivem em cidades de pedra, enterram seus mortos em vez de devolvê-los ao ciclo, ou tratam o mundo espiritual como exceção. Deixe isso aparecer em comentários curtos — não como arrogância, mas como genuína incompreensão.
+2. **O Guardião te escolheu:** Ele não escolheu o Jaguar — o Jaguar o escolheu. Quando selecionar o Guardião no início do combate, descreva brevemente o espírito pousando nele: uma sensação de calor na pele, um instinto afiado, uma memória de algo que nunca viveu.
+3. **Combate Acrobático:** O Natispirito deve se mover muito. Se descrever uma acrobacia — usar o cajado para saltar sobre um inimigo, por exemplo — ganha +1 no dano. O estilo de Nahantu é performance tanto quanto combate.
 
 ### **Objetivos & Recompensas**
 

@@ -1,4 +1,4 @@
-# **17\. Sacerdote (Priest)**
+﻿# **17\. Sacerdote (Priest)**
 
 Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras sagradas e à purificação dos corrompidos. Ele é frágil, mas sua fé é uma barreira intransponível contra o Inferno Ardente.
 
@@ -43,10 +43,17 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 
 ### **Dicas**
 
-1. **O Rosário de Fé:** O jogador deve usar um rosário físico ou um colar de contas. Cada conta representa 1 Ponto de Fé. O Mestre adora essa conexão física: o jogador literalmente "conta suas preces" enquanto gasta seus recursos.  
-2. **Iluminação Real:** Se o Sacerdote usar o **Halo de Luz**, coloque uma lanterna pequena ou a lanterna do celular (com um filtro amarelo/papel) sobre a mesa se você jogar em ambiente escuro. Isso marca visualmente a área sagrada.  
-3. **Cantos Rituais:** O Mestre recompensa a imersão. Se o jogador recitar uma pequena frase de oração em latim ou em uma língua fictícia ao curar alguém, ele ganha \+1 no resultado do dado de cura.  
-4. **Martírio:** Se o Sacerdote estiver prestes a morrer, o Mestre permite que ele faça uma "Última Prece": ele morre heroicamente, mas cura todo o grupo e bane todos os demônios menores da sala. É o fim épico que um jogador de Sacerdote respeita.
+🗡 **Mecânica**
+
+1. **Oração Purificadora é flexível:** Mesma habilidade, 1 Mana: cura 1d6 em aliado OU causa 1d6 Radiante em inimigo. Você nunca desperdiça uma ação — se não precisa curar, ataca. Isso torna o Sacerdote muito mais eficiente do que parece à primeira leitura.
+2. **Penitência inverte a equação:** Gaste 1d4 de HP para recuperar 4 Mana instantaneamente. Em situações de emergência onde precisa de mais um **Exorcismo** ou **Prece de Recomposição**, Penitência é a ponte. Sacerdote com pouco HP ainda tem poder.
+3. **O Rosário de Fé:** Use um rosário físico ou colar de contas — cada conta representa 1 Ponto de Mana. Gastar fisicamente as contas ao curar torna o recurso palpável, não abstrato.
+
+🎭 **Roleplay**
+
+1. **Fé não é crença cega:** O Sacerdote escolheu acreditar porque *viu* demais para não acreditar. Quando houver dúvida nas suas orações, é dúvida no próprio julgamento — não em Zakarum. Ele continua agindo mesmo em dúvida.
+2. **Cantos Rituais:** O Mestre recompensa a imersão. Se o jogador recitar uma pequena frase de oração ao curar, ganha +1 no dado de cura. Em sessão zero, combine uma frase com o grupo — algo que todos reconheçam como sinal de que o Sacerdote está em ação.
+3. **Martírio:** Se o Sacerdote estiver prestes a morrer, o Mestre permite uma "Última Prece": ele morre heroicamente, mas cura todo o grupo e bane todos os demônios menores da sala. É o fim épico que um jogador de Sacerdote merece.
 
 ### Objetivos & Recompensas
 
@@ -58,6 +65,8 @@ Diferente dos cavaleiros, o Sacerdote dedica sua vida ao estudo das escrituras s
 | **4** | **Peregrinação do Flagelo:** Atravessar uma zona de corrupção extrema (como um pântano de peste) sem utilizar magias de proteção. | **Corpo Santificado:** Você ganha **RD 5** contra dano necrótico e de veneno permanentemente. |
 | **5** | **Exorcismo de Solo:** Identificar a fonte de uma assombração em uma vila e expulsar a entidade sem destruir a estrutura que ela habita. | **Palavra de Banimento:** Uma vez por descanso longo, você pode forçar um demônio, morto-vivo ou celestial a fazer um teste de Vontade (DC 10 \+ Sab). Se falhar, ele é banido para seu plano de origem e não pode voltar a Santuário por 24h. |
 | **6** | **Erigir o Refúgio:** Consagrar uma sala ou ruína, tornando-a um local onde demônios não podem entrar por 24 horas. | **Oração de Vigor:** Sempre que você curar um aliado, ele também ganha **\+1d6 de HP temporários** que duram até o fim do próximo descanso curto. |
+
+---
 
 ---
 

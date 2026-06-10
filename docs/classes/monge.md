@@ -1,4 +1,4 @@
-# **13\. Monge**
+﻿# **13\. Monge**
 
 Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade dos seus 1001 Deuses através de punhos rápidos e mantras de proteção. Eles não precisam de armaduras pesadas, pois sua fé e agilidade são seus escudos.
 
@@ -43,10 +43,17 @@ Guerreiros sagrados dos monastérios de Ivgorod, os Monges canalizam a vontade d
 
 ### **Dicas**
 
-1. **O "Sino" Tátil:** Quando o Monge usar a **Onda de Luz**, o jogador pode literalmente bater um sino pequeno na mesa ou usar uma taça de metal para fazer o som. O impacto sonoro enfatiza o poder da habilidade.  
-2. **Tokens de Mantra:** Use anéis de cores diferentes na base da miniatura (Amarelo para Evasão, Vermelho para Retribuição). Isso ajuda você e o Mestre, a saber instantaneamente quem na mesa está sob o efeito do Monge sem precisar consultar fichas.  
-3. **A Dança das Miniaturas:** O Monge é a classe do reposicionamento. O Mestre encoraja o uso do **Ímpeto** para que o Monge esteja sempre se movendo. Se o jogador descrever uma acrobacia épica para atravessar o campo de batalha, ele receberá um bônus de "Estilo" (+1 no próximo dado).  
-4. **Contador de Espírito:** Use contas de oração ou pedras brancas lisas para representar o Espírito. O jogador deve sentir o "gasto" da sua paz interior ao realizar os golpes.
+🗡 **Mecânica**
+
+1. **Espírito em Fluxo é regeneração passiva:** Cada acerto corpo a corpo gera 1 Mana (até Mod. SAB por turno). Em lutas longas, o Monge se paga — ataque primeiro, depois use habilidades caras. Não espere Mana antes de entrar na briga.
+2. **Serenidade é o melhor CD do jogo:** Gastar 3 Mana para ser invulnerável até o próximo turno supera qualquer outra defesa. Use quando estiver sendo focado por múltiplos inimigos — ou quando precisar atravessar uma zona de dano sem morrer.
+3. **Tokens de Mantra:** Use anéis coloridos na base da miniatura (Amarelo para Evasão, Vermelho para Retribuição). Mantra de Evasão (+1 CA para aliados Próximo) é passivo — ative no começo e não troque sem razão.
+
+🎭 **Roleplay**
+
+1. **1001 Deuses, uma voz:** O Monge não ora para um deus específico — é duto dos 1001. Antes de uma cena difícil, murmure um número (os outros jogadores não precisam saber qual deus é o 347) e o Mestre pode responder com uma sensação ou sinal.
+2. **"Sino" Tátil:** Quando usar **Onda de Luz**, bata um sino ou use uma taça de metal. O impacto sonoro cria um símbolo auditivo que toda a mesa passa a associar com o personagem.
+3. **A disciplina não é frieza:** O Monge não é stoico porque suprimiu as emoções — é porque as canalizou. Quando alguém querido sofrer dano, o jogador pode descrever uma fissura momentânea na compostura. O Mestre pode recompensar isso com um Golpe da Claridade sem custar ação.
 
 ### **Objetivos & Recompensas**
 

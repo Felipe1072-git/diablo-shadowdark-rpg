@@ -1,4 +1,4 @@
-# **18\. Warlock (Bruxo)**
+﻿# **18\. Warlock (Bruxo)**
 
 O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas que utiliza o próprio sangue e o sofrimento alheio para alimentar seus feitiços.
 
@@ -47,10 +47,17 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 
 ### **Dicas**
 
-1. **O Sangue é a Moeda:** Quando o Warlock usar o **Pacto de Sangue**, o jogador tira fisicamente HP da ficha dele. Crie um marcador visual diferente para "HP perdido por Pacto" — pedras vermelhas, por exemplo. Isso reforça que o poder tem um custo real.
-2. **A Horda no Tabuleiro:** Para cada demônio conjurado, coloque uma miniatura de cor diferente na mesa. Quando o Warlock age com todos de uma vez, o jogador move todas ao mesmo tempo. O impacto visual de um exército pessoal é o charme da classe.
-3. **A Arma Flutuante:** Se possível, use um fio transparente ou palito de dente para "suspender" a miniatura da arma sobre a mesa. Se não tiver, coloque um marcador ao lado da miniatura do Warlock para indicar que a arma está levitando — isso diferencia visualmente o ataque de arma do ataque de feitiço.
-4. **A Maldição como Aviso:** Quando o **Mestre das Maldições** estiver ativo, coloque um anel de cor escura (roxo ou preto) ao redor da miniatura do inimigo maldito. Todos na mesa sabem: "esse daqui, a gente ataca com vantagem".
+🗡 **Mecânica**
+
+1. **Pacto de Sangue como sustain de Mana:** 1d6 HP → 1d4 Mana. Se você tem HP sobrando e precisa de mais uma invocação ou feitiço, não espere o descanso — pague com sangue. O Warlock não precisa ter HP cheio para funcionar bem.
+2. **Profanador como multiplicador de grupo:** O **Profanador** vincula o HP de múltiplos inimigos — todo dano que qualquer um receber, todos os vinculados recebem. Se o grupo focar um único alvo vinculado, o Profanador multiplica o DPT de toda a mesa nessa rodada.
+3. **A Horda no Tabuleiro:** Para cada demônio conjurado, coloque uma miniatura de cor diferente na mesa. Quando agir com todos de uma vez, mova todas ao mesmo tempo. O impacto visual de um exército pessoal é o charme da classe.
+
+🎭 **Roleplay**
+
+1. **O Warlock não serve ao mal — ele negocia com ele:** Há uma diferença. Ele usa demônios como ferramentas porque entende a natureza deles melhor do que qualquer paladino que os bane sem questionar. Quando aliados desconfiam dele, ele não se defende — ele pergunta: "quem derrotou mais demônios hoje?"
+2. **A arma flutuante como espelho emocional:** A arma não flutua por levitação — ela obedece porque o Warlock *quer*. Quando está com raiva, ela se move mais rápido. Quando está focado, ela é cirúrgica. Descreva a arma como reflexo do estado emocional dele.
+3. **O Sangue é a Moeda:** Quando usar **Pacto de Sangue**, marque o HP gasto com pedras de cor diferente na ficha. O poder tem custo real — e é mais dramático quando você vê o quanto pagou ao longo da sessão.
 
 ### Objetivos & Recompensas
 
@@ -62,4 +69,5 @@ O Bruxo em Santuário não é apenas um conjurador; é um negociante de almas qu
 | **4** | **O Ritual da Noite Eterna:** Bloquear permanentemente a influência da Luz em uma região inteira, criando um santuário para praticantes das artes sombrias. | **Passo do Vazio:** Ao gastar **◈** para se mover, você pode se teletransportar a uma distância **Próximo** (ignorando obstáculos e ataques de oportunidade). Se terminar o movimento Próximo de um inimigo, ele fica **Surpreso**. |
 | **5** | **O Contrato de Sangue:** Caçar um demônio renegado que quebrou um pacto com o seu patrono e colher o coração dele como prova. | **Domínio Infernal:** Você ganha Vantagem em todos os testes para conjurar feitiços. |
 | **6** | **A Chave do Inferno:** Reunir os fragmentos de uma chave capaz de abrir um portal direto para os domínios de um dos Primeiros Males (Diablo, Baal ou Mephisto). | **Eco do Sofrimento:** Seus demônios ganham RD 5 a todos os danos. Quando um demônio seu é destruído, ele causa 1d6 de dano de Fogo a criaturas adjacentes. |
+
 

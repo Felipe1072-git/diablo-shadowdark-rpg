@@ -1,4 +1,4 @@
-# **11\. Guerreiro (Warrior)**
+﻿# **11\. Guerreiro (Warrior)**
 
 O combatente clássico. Um veterano de mil batalhas que confia na sua armadura pesada e na sua habilidade com qualquer lâmina. No Santuário, eles são os cavaleiros errantes e mercenários que enfrentam o inferno com coragem fria.
 
@@ -41,10 +41,17 @@ O combatente clássico. Um veterano de mil batalhas que confia na sua armadura p
 
 ### **Dicas**
 
-1. **O Peso do Aço:** O equipamento importa. O Guerreiro deve ser o único que pode carregar muitos itens. Você tem slots de inventário extras baseados na Força. Se o grupo encontrar um "Loot Pesado", é o Guerreiro quem carrega.  
-2. **O Som do Bloqueio:** Quando o Guerreiro bloquear um ataque com o escudo, o jogador bate com o dado na mesa ou faz um som metálico. A imersão sonora ajuda a sentir que o Guerreiro é uma parede.  
-3. **Mecânica de Reparo Tátil:** Se alguém tirar "1" num dado de ataque, a arma fica "cega" ou danificada (-1 no dano). O Guerreiro então brilha ao usar a habilidade de **Reparar** durante o acampamento, consertando as miniaturas/fichas dos amigos. Isso faz o guerreiro se sentir útil fora do combate.  
-4. **Tática de Empurrão:** Como usamos miniaturas, o Guerreiro deve usar o cenário. Ele pode chutar um monstro num buraco ou empurrá-lo contra uma parede de espinhos. O Mestre sempre recompensa jogadores que usam a física do mundo.
+🗡 **Mecânica**
+
+1. **Arma de Mestria é a identidade:** A **Mestria em Armas** dá Vantagem + 1d4 extra em acerto com Vantagem. Se puder trocar via **Mestre de Todas as Armas**, escolha conforme os inimigos da campanha — machados para criaturas com CA baixa, maças para mortos-vivos, espadas para uso geral.
+2. **Carnificína em cadeia:** Se matar um inimigo com **Carnificína**, ganha um ataque imediato no Próximo. Se esse acerto também matar, ganha outro. Em hordas de inimigos fracos, isso pode limpar uma sala inteira em um turno.
+3. **O Som do Bloqueio:** Quando bloquear um ataque com escudo, bata um dado na mesa ou faça um som metálico. O Guerreiro é uma parede — e todo mundo na mesa deve sentir isso.
+
+🎭 **Roleplay**
+
+1. **Veterano, não herói:** O Guerreiro já viu demais para se impressionar com demônios. Ele não é corajoso — é profissional. Quando o grupo está assustado com algo, ele avalia o ângulo de ataque. Quando vence, não comemora — vai verificar se tem mais.
+2. **O equipamento tem história:** Toda arma e armadura do Guerreiro veio de algum lugar. Ele sabe o quanto cada peça custou — em ouro ou em quem a usava antes. Use isso ao reparar o equipamento de aliados: você não é ferreiro, você é alguém que sabe o valor de boas ferramentas.
+3. **Tática de Empurrão:** O Guerreiro usa o cenário. Chutar um monstro num buraco, empurrá-lo contra uma parede de espinhos — o Mestre recompensa jogadores que usam a física do mundo. "Eu não preciso matá-lo. Preciso colocá-lo onde o ambiente mata por mim."
 
 ### **Objetivos & Recompensas**
 

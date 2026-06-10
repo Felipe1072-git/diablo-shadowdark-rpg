@@ -1,4 +1,4 @@
-# **3\. Assassina**
+﻿# **3\. Assassina**
 
 Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras letais, armadilhas mecânicas e o domínio da própria sombra.
 
@@ -41,9 +41,17 @@ Mestra da Ordem dos Viz-Jarei, a Assassina caça magos corruptos usando garras l
 
 ### **Dicas**
 
-1. **Tokens de Armadilha:** Use objetos reais. O jogador da Assassina deve trazer 3 moedas ou arruelas de metal pintadas. Quando ela armar uma *Sentinela*, ela coloca o objeto na mesa. Isso define visualmente a "zona de perigo" para os monstros.  
-2. **Visualizando os Combos:** Use dados de cores diferentes para as Cargas de Combo. Quando a Assassina atingir 3 cargas, o jogador pode trocar por um dado maior (um d20 gigante, por exemplo) para representar o **Finalizador**. Isso cria um "clímax" visual no turno dela.  
-3. **A "Sombra" Tátil:** Se ela usar o *Guerreiro das Sombras*, use uma miniatura igual à dela, mas pintada de preto ou roxo transparente. Ela não tem vida própria; se a Assassina for atingida, a sombra pode desaparecer.
+🗡 **Mecânica**
+
+1. **Cargas como economia de Mana:** Cada Carga de Combo vale −1 Mana no Finalizador. Acumular 3 cargas antes de usar **Morte Iminente** economiza mais Mana do que parece — vale esperar um turno a mais.
+2. **Sentinelas são controle de zona, não dano:** Posicione-as nas *saídas* dos corredores antes do combate começar. O dano é bônus — o valor real é forçar inimigos a mudar de rota e se expor ao restante do grupo.
+3. **Tokens de Armadilha:** Traga 3 moedas ou arruelas pintadas para colocar na mesa ao armar Sentinelas. Define visualmente a "zona de perigo" — inimigo pisou na moeda, sofreu o efeito.
+
+🎭 **Roleplay**
+
+1. **Ordem Viz-Jaq'taar:** A Assassina foi treinada para uma coisa: eliminar magos corrompidos pelo Caos. Quando o grupo encontrar um usuário de magia, ela é a primeira a suspeitar — não de demônios, mas de *pessoas* que fazem pactos com eles.
+2. **O silêncio é poder:** A Assassina não precisa explicar suas ações durante o combate. Quando ela se mover sem avisar, desaparecer nas sombras ou armar uma armadilha sem dizer nada, o efeito dramático vem da ação — não da narração.
+3. **A "Sombra" Tátil:** Para o *Guerreiro das Sombras*, use uma miniatura igual à dela pintada de preto ou roxo transparente. Se a Assassina for atingida, a sombra desaparece.
 
 ### **Objetivos & Recompensas**
 

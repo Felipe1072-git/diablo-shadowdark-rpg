@@ -1,4 +1,4 @@
-# **7\. Cruzado**
+﻿# **7\. Cruzado**
 
 Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do Santuário através do aço pesado, da disciplina inquebrável e da fúria sagrada.
 
@@ -42,9 +42,17 @@ Uma fortaleza humana da ordem de Zakarum. O Cruzado busca a purificação do San
 
 ### **Dicas**
 
-1. **O "Clang" do Metal:** Valorize a sensação de peso. Quando o Cruzado usar **Pele de Ferro** ou bloquear um golpe pesado, descreva o som do metal contra metal. Se o Cruzado usar o escudo para derrubar um monstro, o jogador deve fisicamente tombar a miniatura do inimigo na mesa.  
-2. **Uso de Auras (Leis):** Use anéis de cores diferentes na base da miniatura para representar qual "Lei" está ativa. Isso evita que o mestre e os jogadores esqueçam os bônus constantes.  
-3. **Sacrifício de Escudo:** No Diablo RPG podem quebrar para evitar um dano fatal (Aparar). É um momento heroico e dramático na mesa.
+🗡 **Mecânica**
+
+1. **Leis de Esperança vs Justiça:** **Leis da Esperança** curam 1d4 HP por rodada — melhor em lutas longas contra chefes. **Leis da Justiça** dão +1 CA passivo para aliados Próximo — melhor em hordas com muitos atacantes. Troque conforme o tipo de encontro.
+2. **Punição + Pele de Ferro:** Ative **Pele de Ferro** para reduzir o dano à metade e force o inimigo a te atacar. Quando errar, dispare **Punição** com Vantagem. Você absorve e retalia no mesmo turno.
+3. **Auras visuais:** Use anéis de cores diferentes na base da miniatura para a Lei ativa. Sem precisar consultar fichas — quem está dentro do raio sabe o bônus automaticamente.
+
+🎭 **Roleplay**
+
+1. **A fé do Cruzado não é pacífica:** Ele não reza pelos inimigos — ele os purifica através do aço. Quando o grupo debate se deve poupar um corrupto, o Cruzado já tem a resposta. Mas ele a executa com cerimônia, não com raiva.
+2. **"Clang" do Metal:** Quando usar **Pele de Ferro** ou bloquear um golpe com escudo, descreva o som do metal contra metal. Se usar o escudo para derrubar um monstro, o jogador tomba fisicamente a miniatura.
+3. **Liderança pela presença:** O Cruzado não pede para liderar — sua posição no campo de batalha já é uma declaração. Quando você assume a frente e recebe o primeiro ataque para proteger o grupo, isso não precisa de palavras.
 
 ### **Objetivos & Recompensas**
 

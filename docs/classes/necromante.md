@@ -1,4 +1,4 @@
-# **14\. Necromante**
+﻿# **14\. Necromante**
 
 Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utilizam os corpos dos caídos e energias proibidas para proteger o Santuário, acreditando que os fins justificam os meios.
 
@@ -42,10 +42,17 @@ Sacerdotes de Rathma que buscam o equilíbrio entre a Vida e a Morte. Eles utili
 
 ### **Dicas**
 
-1. **O "Click" da Morte:** Quando um monstro der dano na horda, ele não subtrai HP. Se o monstro deu 4 de dano, o Necromante simplesmente **retira 4 miniaturas de esqueletos da mesa**. É visual, rápido e tátil.  
-2. **Tokens de Maldição:** Use marcadores de cores vibrantes (como anéis de garrafa pet roxos) para as Maldições. Se o Necromante usar **Maldizer**, ele coloca o anel na miniatura do inimigo. "Aquele ali morre mais rápido", todos sabem disso instantaneamente.  
-3. **A Grande Foice:** Se o Necromante estiver usando uma miniatura de Necromante com foice, incentive-o a descrever ataques circulares. No Diablo RPG, o Necromante é frágil, mas o Mestre recompensará uma descrição épica de "ceifar almas" com um bônus de \+1 na conjuração.  
-4. **Velocidade Total:** Nunca role iniciativa para os esqueletos. Eles são uma extensão da vontade do Necromante. Se ele move, eles movem. Se ele ataca, eles atacam. Isso mantém o ritmo de rápido que o Mestre tanto defende.
+🗡 **Mecânica**
+
+1. **O "Click" da Morte:** Quando um monstro causar dano na horda, não subtraia HP — retire fisicamente aquele número de esqueletos da mesa. 4 de dano = 4 miniaturas saem. Visual, rápido e comunica o estado da horda instantaneamente.
+2. **Armadura de Ossos requer 3 esqueletos:** O bônus de +3 CA cai se você tiver menos de 3 lacaios ativos. Mantenha sempre 3 como prioridade — use **Levantar Mortos** no início de cada combate. Não use **Explosão de Cadáver** em esqueletos se isso vai te deixar abaixo do limiar.
+3. **Velocidade Total:** Os esqueletos não têm iniciativa própria. Na sua ação ◈, você age e eles agem. Trate-os como extensão da sua ficha, não como NPCs separados — isso nunca atrasa a mesa.
+
+🎭 **Roleplay**
+
+1. **Rathma e o Equilíbrio:** O Necromante não gosta de morte — ele a administra. Há uma diferença entre matar por necessidade e matar por gosto. Quando aliados comemorarem uma chacina, ele fica quieto. Não é remorso — é contabilidade.
+2. **A Grande Foice:** Se tiver miniatura com foice, descreva ataques circulares. O Mestre recompensa "ceifar almas" com +1 na conjuração — porque o roleplay e a mecânica falam a mesma língua aqui.
+3. **Tokens de Maldição:** Use anéis roxos na miniatura do inimigo maldito com **Maldizer**. Todos sabem: "aquele ali morre mais rápido." Visual simples, impacto narrativo imediato.
 
 ### **Objetivos & Recompensas**
 
