@@ -1,0 +1,163 @@
+/* Crimson Pro — ajuste de tamanho e espaçamento */
+:root {
+  --md-text-font: "Crimson Pro", serif;
+}
+
+/* Corpo: linha-altura confortável para Crimson Pro serifada */
+.md-content p,
+.md-content li {
+  line-height: 1.65;
+}
+
+/* Blockquotes não devem herdar tamanho inflado */
+.md-content blockquote p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Tabelas: borda sutil */
+.md-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.md-content th,
+.md-content td {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  padding: 0.4em 0.8em;
+}
+
+/* Tabelas em mobile: fonte menor para caber sem rolar */
+@media (max-width: 768px) {
+  .md-content table {
+    font-size: 0.78rem;
+  }
+  .md-content th,
+  .md-content td {
+    padding: 0.3em 0.5em;
+  }
+}
+
+/* Sets — título verde no estilo Diablo */
+.set-title {
+  color: #4ae54a !important;
+  border-left: 3px solid #4ae54a;
+  padding-left: 0.5em;
+}
+
+/* Tabelas de set — cabeçalho discreto */
+.md-typeset .set-table th {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid rgba(74, 229, 74, 0.3) !important;
+}
+
+/* Tabelas de set — nome da peça em verde */
+.md-typeset .set-table td:first-child strong {
+  color: #4ae54a;
+}
+
+/* Tabelas de set — zebra striping sutil */
+.md-typeset .set-table tr:nth-child(even) td {
+  background-color: rgba(74, 229, 74, 0.02);
+}
+
+/* ===== Tabelas de Classe ===== */
+
+/* Zebra striping — talentos */
+.md-typeset .talent-table tr:nth-child(even) td,
+.md-typeset .objective-table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Linha do ultimate (19) — destaque sutil */
+.md-typeset .talent-table tr.ultimate-row td {
+  background-color: rgba(200, 80, 40, 0.08);
+  border-left: 2px solid rgba(200, 80, 40, 0.5);
+}
+
+/* ===== Tabela de únicos ===== */
+
+/* Tabela de únicos — nome do item em dourado */
+.md-typeset .unique-table td:nth-child(2) strong {
+  color: #c8a840;
+}
+
+/* Tabela de únicos — zebra striping sutil */
+.md-typeset .unique-table tr:nth-child(even) td {
+  background-color: rgba(200, 168, 64, 0.04);
+}
+
+/* Tabela de únicos — borda inferior do header em dourado */
+.md-typeset .unique-table th {
+  border-bottom: 1px solid rgba(200, 168, 64, 0.3) !important;
+}
+
+/* Bônus de Set — admonition customizado */
+.md-typeset .admonition.set-bonus {
+  border-color: #4ae54a;
+}
+
+.md-typeset .admonition.set-bonus > .admonition-title {
+  background-color: rgba(74, 229, 74, 0.12);
+  color: #4ae54a;
+  font-weight: 700;
+}
+
+.md-typeset .admonition.set-bonus > .admonition-title::before {
+  background-color: #4ae54a;
+  -webkit-mask-image: var(--md-admonition-icon--tip);
+  mask-image: var(--md-admonition-icon--tip);
+}
+
+/* ===== Modo claro — ajustes de contraste ===== */
+
+[data-md-color-scheme="default"] .set-title {
+  color: #1e7a1e !important;
+  border-left-color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .set-table td:first-child strong {
+  color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .set-table th {
+  border-bottom-color: rgba(30, 122, 30, 0.4) !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.set-bonus {
+  border-color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.set-bonus > .admonition-title {
+  background-color: rgba(30, 122, 30, 0.1);
+  color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .admonition.set-bonus > .admonition-title::before {
+  background-color: #1e7a1e;
+}
+
+[data-md-color-scheme="default"] .md-typeset .unique-table td:nth-child(2) strong {
+  color: #8a6010;
+}
+
+[data-md-color-scheme="default"] .md-typeset .unique-table th {
+  border-bottom-color: rgba(138, 96, 16, 0.4) !important;
+}
+
+/* Nome do site na barra superior */
+.md-header__title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* Modo Desenvolvedor */
+.dev-only { display: none !important; }
+body.dev-mode .dev-only { display: flex !important; }
+
