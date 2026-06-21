@@ -1765,13 +1765,11 @@
     mostrarToast('Lacaio removido.');
   }
 
-  
   function editarLacaio(id) {
     const p = personagemAtual;
     if (!p || !p.lacaios) return;
-    //p.lacaios = p.lacaios.filter(l => l.id !== id);
     const lac = p.lacaios.find(l => l.id === id);
-
+    if (!lac) return;
 
     const nome = prompt('Nome do lacaio / pet:', lac.nome);
     if (!nome) return;
@@ -1784,15 +1782,11 @@
     lac.ca = ca;
     lac.atk = atk;
     lac.dano = dano;
-    /*if (!p.lacaios) p.lacaios = [];
-    p.lacaios.push({ id: Date.now().toString(36), nome, pvMax, pvAtual: pvMax, ca, atk, dano });*/
     const idx = personagens.findIndex(x => x.id === p.id);
     if (idx >= 0) personagens[idx] = p;
     salvarPersonagens();
-    const panel = document.getElementById('ficha-lacaios-panel');
-    if (panel) panel.style.display = '';
     renderizarLacaios();
-    mostrarToast('Lacaio adicionado!');
+    mostrarToast('Lacaio editado!');
   }
 
   window._fichaAddLacaio = adicionarLacaio;
