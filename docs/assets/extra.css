@@ -161,6 +161,25 @@ h1, h2, h3, h4 {
 .dev-only { display: none !important; }
 body.dev-mode .dev-only { display: flex !important; }
 
+/* ===== Statblocks ===== */
+
+/* Nome da criatura (h4 dentro de .statblock) — destaque visual */
+.statblock h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--md-default-fg-color--light);
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+  margin-top: 0;
+}
+
+/* Nome de item (primeiro <strong> dentro de parágrafo em .statblock) */
+.statblock > p > strong:first-child {
+  font-size: 1.05rem;
+  display: block;
+  margin-bottom: 0.15em;
+}
+
 /* ===== Impressão ===== */
 @media print {
   /* Sem cabeçalho/sidebar/nav do MkDocs */
