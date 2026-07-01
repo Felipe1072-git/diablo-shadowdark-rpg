@@ -4,6 +4,10 @@
 
 > Material do Mestre. Não distribuir aos jogadores.
 
+| Grupo | Nível recomendado | Dificuldade | NPCs presentes |
+|---|---|---|---|
+| 4–6 jogadores | 4–6 | Mortal (6 jogadores nível 4) | Harek (proteger), Bram (adega, opcional) |
+
 **Contexto:** Após enfrentarem cultistas nas Cavernas do Caos e resgatar o ferreiro Harek nos Picos Sangrentos, os heróis retornam ao Monastério de Eastgate. O que eles não sabem: a Comandante Rayna foi sacrificada no poço de ácido da Caverna B. Belial assumiu sua forma há sessões. Enquanto os heróis estavam fora, a armadilha foi sendo preparada com calma.
 
 ---
@@ -44,7 +48,7 @@
 
 ---
 
-## Investigação (Opcional) — Se os Jogadores Desconfiarem
+## Investigação (Opcional)
 
 *Use essa seção somente se algum jogador demonstrar desconfiança e decidir investigar o forte antes do jantar terminar. Não force — deixe surgir naturalmente.*
 
@@ -54,6 +58,7 @@ Se um personagem explorar o forte, ele pode encontrar pistas:
 - **Investigação DC 13:** Atrás da barraca, um alçapão leva a um depósito. Dentro, escondido entre barris de grão, está **Silas** — um comerciante que os heróis nunca viram antes, magro, nervoso, mastigando uma raiz que deixa os dentes pretos.
 
 **Silas não vai na frente.** Ele fala rápido e em sussurros. Ele pode contar:
+
 - Chegou ao forte há duas semanas como comerciante ambulante. Dormia no depósito.
 - Há cerca de dez dias, Rayna começou a agir diferente. Reuniões à meia-noite com forasteiros encapuzados. Um guarda que reclamou em voz alta desapareceu.
 - Ele encontrou o corpo desse guarda escondido na cozinha. Desde então ficou no depósito.
@@ -85,21 +90,22 @@ A forma de Rayna se dissolve. Belial está na sala.
 
 ## O Combate
 
-### Princípios Táticos (James Haeck)
+### Terreno e Mecânicas
 
-**Camada 1 — Posicionamento:** O refeitório tem mesas longas como cobertura (+2 CA enquanto atrás), dois choke points (a porta principal trancada e a entrada da cozinha), e uma escada nos fundos que dá ao andar superior (Vantagem em ataques à distância de quem estiver no alto).
+**Posicionamento:** O refeitório tem mesas longas como cobertura (+2 CA enquanto atrás), dois choke points (a porta principal trancada e a entrada da cozinha), e uma escada nos fundos que dá ao andar superior (Vantagem em ataques à distância de quem estiver no alto).
 
-**Camada 2 — Perigos Ambientais:**
+**Perigos Ambientais:**
 
 | Elemento | Ação | Efeito |
 |---|---|---|
 | Mesa do banquete | Derrubar (◈, FOR DC 10) | Terreno difícil + velas caem → zona de Fogo (1d4 ao entrar ou iniciar turno) |
-| Lustre | Cortar a corda (◈, de posição elevada ou alcance Longo) | Cai em área Próximo → DEX DC 13 ou 2d6 Contundente |
+| Lustre | Cortar a corda (◈, de posição elevada ou alcance Longo) | Cai em área Próximo → DES DC 13 ou 2d6 Contundente |
 | Porta principal | Arrombar (◈, FOR DC 14) | Abre saída para o pátio |
 | Entrada da cozinha | Perceber (◈, Percepção DC 12) | Saída alternativa para o lado do forte |
 | Adega (porta lateral) | Arrombar (◈, FOR DC 12) | Bram está preso aqui — se libertado, entra no combate na rodada seguinte |
 
-**Camada 3 — Complexidade Moral:**
+**Complexidade:**
+
 - Harek está na mesa central. CA 10, PV 8. Se morrer, o ferreiro que o grupo acabou de resgatar morre no mesmo momento em que Belial se revela.
 - Os "guardas" são Serpentes Humanas — os mesmos demônios metamorfos das Cavernas do Caos. Quando o disfarce cai, a armadura de guarda racha e a forma ofídica emerge. Jogadores que os enfrentaram antes reconhecem as escamas e o veneno. *(Teste de INT DC 10 para lembrar que eles se dissolvem em ácido ao morrer — cuidado com a poça.)*
 - Se alguém for à cozinha, encontra o corpo de um guarda real com marca de adaga nas costas — o guarda que Silas menciona ter visto desaparecer, para quem encontrou Silas antes.
@@ -118,13 +124,11 @@ A forma de Rayna se dissolve. Belial está na sala.
 - 4 Serpentes Humanas (em forma de guarda) começam nos dois choke points (2 na porta principal, 2 na entrada da cozinha). Com 6 jogadores, use 6.
 - Harek está sentado na mesa central, paralisado de horror.
 
----
-
-## Elenco
+### Elenco
 
 <div class="statblock" markdown="1">
 
-### Serpente Humana (Guarda-Falso)
+#### Serpente Humana *(Guarda-Falso)*
 
 CA 13 | PV 20 | MV Próximo | PA 3
 
@@ -142,30 +146,28 @@ CA 13 | PV 20 | MV Próximo | PA 3
 
 <div class="statblock" markdown="1">
 
-### Belial — Forma Enfraquecida *(statblock combinado)*
+#### Belial — Fase 1 *(Forma de Rayna)*
 
 *Desafiador para grupos nível 4–6. Com 6 jogadores nível 4, nível de dificuldade: Mortal.*
 
 > **Vulnerável a Radiante:** ataques Radiantes causam dano extra igual ao Nível do atacante. Ataques de jogadores que o Revelaram (◈, SAB DC 13) ignoram suas ilusões completamente.
 
-**PV** 100 | **CA** 16 *(Manto de Ilusões)*
-
-**Bônus:** +7 *(ilusão, veneno, enganação, manipulação)*
-**Bônus Fraco:** +3 *(combate físico, fogo)*
-
-**PA:** 3 | **Velocidade:** Próximo *(Teleporte)*
+**PV** 100 | **CA** 16 *(Manto de Ilusões)* | **PA** 3 | **Velocidade:** Próximo *(Teleporte)*
 
 RD 8 Veneno. Imune a charme e medo.
 
 **Ações:**
+
 - **Projétil Venenoso (◈):** +7 para acertar, alcance Longo, 2d6+4 Veneno.
 - **Campo de Ilusões (◈◈):** Cria 1d4 Duplicatas Demoníacas que surgem no próximo turno.
 - **Mentira Convincente (◈◈):** Salvaguarda de SAB DC 15 ou o alvo acredita que Belial é um aliado por 2 rodadas — não pode atacá-lo.
 
 **Reação:**
+
 - **Forma Fantasma (⟁):** Quando atingido, 50% de chance de anular o dano completamente (o ataque acertou uma ilusão).
 
-**Passivos:**
+**Passivo:**
+
 - **Sempre Mentindo:** No início de cada turno de Belial, ele troca de posição com uma Duplicata ativa (se houver). Mova o token em segredo.
 
 </div>
@@ -174,31 +176,31 @@ RD 8 Veneno. Imune a charme e medo.
 
 <div class="statblock" markdown="1">
 
-### Fase 2 — Revelação Devastadora *(Forma Plena)*
+#### Belial — Fase 2 *(Forma Plena)*
 
-*Quando reduzido a 0 PV pela primeira vez:*
+*Ativa quando a Fase 1 chega a 0 PV.*
 
 A face de Rayna racha de dentro para fora. O corpo humano explode, destruindo parte do refeitório ao redor. O que emerge é colossal — serpentino, imenso, com garras esverdeadas e mandíbulas que revelam os rostos agonizantes dos mortos.
 
-**Belial entra na Forma Plena com PV 155 e CA 18.** Perde Mentira Convincente.
-
 > **Vulnerável a Radiante** permanece: ataques Radiantes causam dano extra igual ao Nível do atacante.
 
-**Bônus:** +9 *(veneno, ilusão em massa, manipulação, garras colossais)*
-**Bônus Fraco:** +4 *(fogo, sagrado, gelo)*
+**PV** 155 | **CA** 18 | **PA** 3 | **Velocidade:** Próximo
 
 RD 10 Veneno. RD 5 Físico. Imune a charme, medo e paralisia.
 
-**Ações na Forma Plena:**
+**Ações:**
+
 - **Garras Venenosas (◈):** +9 para acertar, 2d10+5 Físico. Salvaguarda de CON DC 16 ou sofre 2d6 Veneno por turno durante 3 turnos.
 - **Bafo de Veneno (◈◈):** Cone a distância Próximo. Salvaguarda de CON DC 16 ou sofre 4d8 Veneno (metade no sucesso). Deixa nuvem venenosa por 2 rodadas — 2d4 Veneno ao entrar ou iniciar turno na área.
 - **Campo de Ilusões (◈◈):** Cria 1d6 Duplicatas Demoníacas que surgem no próximo turno.
-- **A Grande Mentira (◈◈◈, uma vez por cena):** Todos fazem Salvaguarda de SAB DC 17. Falha: vê todos os aliados como inimigos por 2 rodadas. Falha por 5 ou menos: Desvantagem em ataques por 1 rodada.
+- **A Grande Mentira (◈◈◈, 1×/cena):** Todos fazem Salvaguarda de SAB DC 17. Falha: vê todos os aliados como inimigos por 2 rodadas. Falha por 5 ou menos: Desvantagem em ataques por 1 rodada.
 
 **Reação:**
+
 - **Forma Fantasma (⟁):** 50% de chance de anular completamente 1 ataque.
 
-**Passivos na Forma Plena:**
+**Passivos:**
+
 - **Senhor das Mentiras:** Duplicatas Demoníacas a distância Próximo ganham +2 em ataques e têm PV 20 em vez de 12.
 - **Sempre Mentindo:** No início de cada turno de Belial, ele troca de posição com uma Duplicata ativa (se houver). Mova o token em segredo.
 
@@ -208,7 +210,7 @@ RD 10 Veneno. RD 5 Físico. Imune a charme, medo e paralisia.
 
 <div class="statblock" markdown="1">
 
-### Duplicata Demoníaca *(invocada por Campo de Ilusões)*
+#### Duplicata Demoníaca *(invocada por Campo de Ilusões)*
 
 CA 12 | **PV 12** *(Fase 1)* ou **PV 20** *(Fase 2 — Senhor das Mentiras)* | MV Próximo | PA 3
 
@@ -226,13 +228,11 @@ Belial é derrotado. Sua forma demoníaca se dissolve em cinzas e miasma. Os gua
 
 **Bram** (se libertado) fica em silêncio por um momento, olhando para onde Rayna estava. Depois diz apenas: *"Há quanto tempo."*
 
----
-
-### Itens do Encontro
+### Itens das Serpentes
 
 Cinco objetos permanecem onde as Serpentes Humanas se dissolveram — escamas, fragmentos e vestígios que o ácido não consumiu.
 
----
+<div class="statblock" markdown="1">
 
 **Escama do Impostor** *(acessório de armadura, Único)*
 
@@ -241,7 +241,9 @@ Uma escama das Serpentes, endurecida e fria. Pode ser incorporada a qualquer arm
 - RD 2 Veneno.
 - **Reação (⟁):** quando atingido por um ataque de área, todos os outros na mesma área sofrem 1d4 Veneno extra.
 
----
+</div>
+
+<div class="statblock" markdown="1">
 
 **Olho da Serpente** *(amuleto, Único)*
 
@@ -250,7 +252,9 @@ Um olho esmeralda perfeito que não se dissolve com a criatura. Ainda se move le
 - Imune à condição Paralisado.
 - **Uma vez por cena (◈):** revela automaticamente qualquer disfarce ou ilusão a distância Próximo — sem teste.
 
----
+</div>
+
+<div class="statblock" markdown="1">
 
 **Anel da Víbora Oculta** *(anel, Único)*
 
@@ -259,7 +263,9 @@ Um anel de osso e escama com um dente encurvado no topo.
 - +1 em rolagens de ataque.
 - **Uma vez por descanso longo:** o próximo acerto injeta veneno — o alvo faz Salvaguarda de CON DC 13 ou fica Paralisado por 1 rodada.
 
----
+</div>
+
+<div class="statblock" markdown="1">
 
 **Manto das Meias-Verdades** *(capa, Único)*
 
@@ -268,7 +274,9 @@ Um manto de seda negra com padrões que mudam sutilmente dependendo do ângulo. 
 - +1 CA.
 - **Uma vez por cena:** ao fazer um teste de Enganação ou Persuasão, declare que está *"tecnicamente dizendo a verdade"* — o alvo tem Desvantagem na Salvaguarda e, se falhar, acredita por até 1 hora mesmo percebendo inconsistências menores.
 
----
+</div>
+
+<div class="statblock" markdown="1">
 
 **Veneno Latente de Belial** *(encantamento de arma, Único)*
 
@@ -276,9 +284,9 @@ Um frasco pequeno de líquido esverdeado e espesso. Harek pode aplicar em qualqu
 
 - **Uma vez por cena:** o próximo acerto injeta veneno de ação retardada — o alvo não sente efeito imediato. No início do 2º turno após o acerto, sofre 3d6 Veneno e faz Salvaguarda de CON DC 15 ou fica Lento por toda a cena.
 
----
+</div>
 
-### A Forja de Harek — Cena de Encerramento
+### A Forja de Harek
 
 Harek não celebra. Ele caminha até onde Belial caiu, ajoelha e recolhe o que restou — a Essência, densa e esverdeada, ainda pulsando com calor próprio.
 
@@ -290,7 +298,7 @@ Leva uma hora. Quando termina, coloca o amuleto sobre a mesa.
 
 **O grupo debate entre si quem fica com o amuleto.**
 
----
+<div class="statblock" markdown="1">
 
 **Amuleto das Correntes Fundidas** *(amuleto, Lendário)*
 
@@ -299,6 +307,8 @@ Leva uma hora. Quando termina, coloca o amuleto sobre a mesa.
 - **Veneno do Vencedor (passivo):** Todos os seus ataques — corpo a corpo, à distância e mágicos — causam **+1d6 Veneno** adicional.
 - **Correntes Quebradas (passivo):** +1 CA. Uma vez por descanso longo: quando você seria reduzido a 0 PV, pode gastar ⟁ para cair a **1 PV** em vez disso.
 - **Voz da Serpente (◈, 1×/cena):** Escolha uma criatura a distância Próximo. Ela faz Salvaguarda de SAB DC 15 ou ataca com Desvantagem em todos os ataques até o início do seu próximo turno.
+
+</div>
 
 ---
 
