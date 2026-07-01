@@ -102,6 +102,7 @@ nav:
     - Registro de Campanha: mestre/registro-campanha.md
     - Template de Cenário: mestre/template-cenario.md
     - Referência de Progressão: mestre/referencia-progressao.md
+    - Design de Encontros: mestre/design-encontros.md
   - Cenários:
     - Índice: cenarios/index.md
     - O Senhor da Mentira: cenarios/senhor-da-mentira.md
@@ -112,6 +113,7 @@ nav:
     - O Carcereiro das Cinzas: cenarios/o-carcereiro-das-cinzas.md
     - Sarcófago Escarlate: cenarios/sarcofago-escarlate.md
     - O Resgate: cenarios/o-resgate.md
+    - Monastério de Eastgate: cenarios/monasterio-de-eastgate.md
   - Criaturas:
     - Índice: criaturas/index.md
     - Bioma 1 — Gramados (Tristram): criaturas/bioma1.md
