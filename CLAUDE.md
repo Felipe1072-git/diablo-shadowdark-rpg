@@ -16,11 +16,11 @@ RPG de mesa homebrew inspirado na franquia **Diablo**. Criado por Paulo Souza (G
 Todo o conteúdo vive no repositório git local:
 **`C:\Users\Paulo Souza\Documents\Claude\Diablo RPG\repo\`**
 
-- Paulo e Claude editam os arquivos `.md` diretamente no repo
+- Paulo e Claude editam os arquivos `.md` diretamente em **`docs/`** (fonte canônica)
 - Claude commita e faz push após cada alteração aprovada
 - Nunca rodar git na pasta do Drive (`G:\Meu Drive\...`) — o Google Drive cria `desktop.ini` que corrompe o `.git`
 
-**Para gerar o PDF do livro:** instalar o Pandoc e rodar o script `build-pdf.ps1` (a criar).
+**Site:** gerado automaticamente via GitHub Actions (MkDocs) a cada push em `main`.
 
 ## Sistema de Distâncias ✅
 
@@ -40,36 +40,54 @@ Substituições aplicadas em todos os arquivos (commit f53cfef).
 
 ## Estrutura de Arquivos
 
+Todo o conteúdo publicado vive em `docs/` (fonte canônica para o site MkDocs). Editar sempre em `docs/`.
+
 ```
 repo/
-├── livro-do-jogador.md      ← Livro do Jogador (Cap. 1, 2, 4, 5, 6, 7 + Apêndices)
-├── livro-do-mestre.md       ← Livro do Mestre (Cap. 1 Encontros, Cap. 2 Tesouros, Cap. 3 Registro, Apêndice Template)
-├── cap3-classes.md          ← Cap. 3: Classes (18 classes)
-├── apendice-criaturas.md    ← Apêndice A: Criaturas
-├── apendice-glossario.md    ← Apêndice B: Glossário
-├── referencia-mestre-progressao.md ← Tabelas de PV/progressão por nível (calibração de criaturas)
-├── cenarios/                ← 8 módulos de aventura
-│   ├── senhor-da-mentira.md      ← inclui Handout Caverna B no final
-│   ├── baluarte-dos-lobos-de-ferro.md ← NPCs do Forte (Rayna, Sorit, Jarek, Valla, Harek, Elara, Silas)
-│   ├── a-torre-esquecida.md
-│   ├── o-abatedouro-profano.md
-│   ├── o-monarca-louco.md
-│   ├── o-carcereiro-das-cinzas.md
-│   ├── sarcofago-escarlate.md
-│   └── o-resgate.md
-├── notas/                   ← rascunhos e ideias de campanha (não entra no livro)
+├── docs/                    ← FONTE CANÔNICA (site GitHub Pages)
+│   ├── jogador/             ← Livro do Jogador (Cap. 1–7 + Resistências)
+│   │   ├── introducao.md
+│   │   ├── o-jogo.md
+│   │   ├── criando-personagem.md
+│   │   ├── origens.md
+│   │   ├── talentos.md
+│   │   ├── arsenal.md
+│   │   ├── magia.md
+│   │   └── resistencias.md
+│   ├── classes/             ← 18 classes (um arquivo por classe)
+│   ├── mestre/              ← Livro do Mestre
+│   │   ├── encontros.md
+│   │   ├── tesouros.md
+│   │   ├── afixos.md
+│   │   ├── unicos-e-sets.md
+│   │   ├── loot-de-bosses.md
+│   │   ├── pontos-do-medo.md
+│   │   ├── registro-campanha.md
+│   │   ├── template-cenario.md
+│   │   └── referencia-progressao.md  ← Tabelas PV/progressão/calibração
+│   ├── cenarios/            ← 8 módulos de aventura
+│   │   ├── senhor-da-mentira.md      ← inclui Handout Caverna B no final
+│   │   ├── baluarte-dos-lobos-de-ferro.md ← NPCs do Forte (Rayna, Sorit, Jarek, Valla, Harek, Elara, Silas)
+│   │   ├── a-torre-esquecida.md
+│   │   ├── o-abatedouro-profano.md
+│   │   ├── o-monarca-louco.md
+│   │   ├── o-carcereiro-das-cinzas.md
+│   │   ├── sarcofago-escarlate.md
+│   │   └── o-resgate.md
+│   ├── criaturas/           ← Apêndice A: Criaturas (por bioma + bosses)
+│   ├── assets/              ← CSS, JS, logos, imagens do site
+│   ├── patch-notes/         ← Histórico de versões
+│   ├── ficha.md             ← App web de fichas
+│   ├── glossario.md         ← Apêndice B: Glossário
+│   └── index.md             ← Página inicial do site
+├── fichas/                  ← Ferramentas de ficha (fora do site)
+│   ├── fichas-referencia.md ← documentação da estrutura das fichas
+│   └── torre-pontos-do-medo.scad ← arquivo de impressão 3D
+├── notas/                   ← rascunhos e ideias de campanha (não publicado)
 │   └── notas-campanha.md    ← Sinister 7, ganchos de missão, referências
-└── fichas/
-    ├── fichas-referencia.md ← documentação da estrutura das fichas
-    └── Fichas 2.0.pdf       ← fichas imprimíveis (não entra no git)
+└── referencia/              ← documentos de referência pessoal (não publicado)
+    └── DnD 5.5 - Livro do Jogador (2024) - Erratas Agosto.pdf
 ```
-
-**Ordem de compilação para o PDF:**
-1. `livro-do-jogador.md` (Cap. 1–2, 4–7, Apêndices) — distribuir aos jogadores
-2. `cap3-classes.md` (Cap. 3)
-3. `livro-do-mestre.md` — **não distribuir aos jogadores**
-
-Os cenários e fichas são documentos separados, não fazem parte do livro principal.
 
 ## Status do Livro
 
@@ -283,7 +301,7 @@ Distribuição atual (Cap. 2 Tesouros):
 - Handout Caverna B movido para `cenarios/senhor-da-mentira.md`
 - Rascunhos de campanha (Sinister 7, ganchos) movidos para `notas/notas-campanha.md`
 
-### Goal 5 — Tabelas de Referência do Mestre (`referencia-mestre-progressao.md`) ✅
+### Goal 5 — Tabelas de Referência do Mestre (`docs/mestre/referencia-progressao.md`) ✅
 
 Expandir o documento com todas as estatísticas relevantes para calibração de encontros e distribuição de recompensas. Ordem de execução:
 
@@ -310,7 +328,7 @@ Expandir o documento com todas as estatísticas relevantes para calibração de 
 
 ### Goal 6 — Revisão de Balanceamento das Classes (`cap3-classes.md`) ✅
 
-Revisar as 18 classes usando as tabelas de `referencia-mestre-progressao.md` como referência matemática. Objetivo: valores de dano consistentes com o DPT por tier, habilidades com custo de Mana coerente com a escala, identidade de cada classe preservada.
+Revisar as 18 classes usando as tabelas de `docs/mestre/referencia-progressao.md` como referência matemática. Objetivo: valores de dano consistentes com o DPT por tier, habilidades com custo de Mana coerente com a escala, identidade de cada classe preservada.
 
 - Usar as tabelas de DPT, CA e dano de monstros como âncora numérica
 - Seguir os princípios do sistema: turnos rápidos, decisões claras, sensação de Diablo
