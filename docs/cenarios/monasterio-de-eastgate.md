@@ -20,6 +20,28 @@
 6. Bram não aparece em nenhum momento do jantar. Se perguntado, Rayna diz que está de ronda. *(Valla morreu nas Cavernas do Caos ao lado dos heróis — os jogadores já sabem disso.)*
 7. No pátio interno há uma barraca de comércio fechada com um cadeado novo. Ninguém do forte parece saber de quem é.
 
+### O Brinde
+
+*No momento certo — jantar servido, guardas na sala, grupo relaxado — Rayna se levanta devagar, ergue a taça e olha para cada um antes de falar.*
+
+> *"Quando vocês partiram, eu não sabia se voltariam. Os Picos Sangrentos não têm o hábito de devolver o que tomam."*
+>
+> *[pausa]*
+>
+> *"Mas vocês voltaram. E trouxeram mais do que eu pedi. Trouxeram de volta um homem que havia desistido de ser encontrado."*
+>
+> *Ela vira levemente a taça na direção de Harek.*
+>
+> *"Quando a última algema caiu... ele não disse nada. Não pediu para sair. Ficou parado olhando para as próprias mãos até que alguém o tocou no ombro."*
+>
+> *[olha para os heróis, sorrindo]*
+>
+> *"Só os melhores fazem isso — devolvem a um homem a memória de si mesmo."*
+>
+> *"Saúde."*
+
+**O detalhe impossível:** *"ficou parado até que alguém o tocou no ombro"* é íntimo demais para estar num relatório — e nenhum mensageiro chegou antes do grupo. Teste de INT ou SAB DC 10 para notar a contradição. Quem passar pode perguntar em voz alta ou guardar a suspeita para si.
+
 ---
 
 ## Investigação (Opcional) — Se os Jogadores Desconfiarem
