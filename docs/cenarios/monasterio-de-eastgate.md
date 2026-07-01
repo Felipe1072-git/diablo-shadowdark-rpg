@@ -17,8 +17,27 @@
 3. Durante o jantar, ela elogia os heróis com detalhes precisos demais do interior da forja — coisas que um relatório não contaria.
 4. No brinde, ela menciona *"o cheiro doce do ácido nas cavernas"*. O cheiro real é acre, não doce. Qualquer personagem que esteve lá pode notar com um teste de Inteligência DC 10.
 5. Harek fica quieto durante o jantar. Se um herói ficar a sós com ele, ele puxa para um canto e sussurra: *"Ela cheira a enxofre. Fui ferreiro a vida inteira — conheço esse cheiro. Não é fumaça de vela."*
-6. Jarek e Valla não aparecem em nenhum momento do jantar. Se perguntado, Rayna diz que estão de ronda.
-7. Silas não está em lugar nenhum no forte. Sua barraca de apostas está fechada.
+6. Bram e Valla não aparecem em nenhum momento do jantar. Se perguntado, Rayna diz que estão de ronda.
+7. No pátio interno há uma barraca de comércio fechada com um cadeado novo. Ninguém do forte parece saber de quem é.
+
+---
+
+## Investigação (Opcional) — Se os Jogadores Desconfiarem
+
+*Use essa seção somente se algum jogador demonstrar desconfiança e decidir investigar o forte antes do jantar terminar. Não force — deixe surgir naturalmente.*
+
+Se um personagem explorar o forte, ele pode encontrar pistas:
+
+- **Percepção DC 12:** A barraca do pátio tem rastros de alguém entrando e saindo recentemente pelo fundo.
+- **Investigação DC 13:** Atrás da barraca, um alçapão leva a um depósito. Dentro, escondido entre barris de grão, está **Silas** — um comerciante que os heróis nunca viram antes, magro, nervoso, mastigando uma raiz que deixa os dentes pretos.
+
+**Silas não vai na frente.** Ele fala rápido e em sussurros. Ele pode contar:
+- Chegou ao forte há duas semanas como comerciante ambulante. Dormia no depósito.
+- Há cerca de dez dias, Rayna começou a agir diferente. Reuniões à meia-noite com forasteiros encapuzados. Um guarda que reclamou em voz alta desapareceu.
+- Ele encontrou o corpo desse guarda escondido na cozinha. Desde então ficou no depósito.
+- *"Eu não sei o que ela é, mas não é a mesma mulher de antes."*
+
+**Se os jogadores quiserem que ele ajude no combate:** Silas não luta, mas conhece o forte por dentro. Ele pode revelar onde Bram está preso (adega), mostrar a saída pela cozinha, e desaparecer em seguida — ele não vai morrer por ninguém.
 
 ---
 
@@ -56,12 +75,12 @@ A forma de Rayna se dissolve. Belial está na sala.
 | Lustre | Cortar a corda (◈, de posição elevada ou alcance Longo) | Cai em área Próximo → DEX DC 13 ou 2d6 Contundente |
 | Porta principal | Arrombar (◈, FOR DC 14) | Abre saída para o pátio |
 | Entrada da cozinha | Perceber (◈, Percepção DC 12) | Saída alternativa para o lado do forte |
-| Adega (porta lateral) | Arrombar (◈, FOR DC 12) | Jarek está preso aqui — se libertado, entra no combate na rodada seguinte |
+| Adega (porta lateral) | Arrombar (◈, FOR DC 12) | Bram está preso aqui — se libertado, entra no combate na rodada seguinte |
 
 **Camada 3 — Complexidade Moral:**
 - Harek está na mesa central. CA 10, PV 8. Se morrer, o ferreiro que o grupo acabou de resgatar morre no mesmo momento em que Belial se revela.
 - Os "guardas" falsos hesitam por uma fração de segundo quando revelados — um personagem pode tentar intimidar um deles para se render (CAR DC 15, ◈). Se bem-sucedido, aquele guarda foge em vez de lutar.
-- Se alguém for à cozinha, encontra o corpo de Silas. Do bolso, cai um papel com o plano de Belial escrito em código serpentino — o mesmo do Handout da Caverna B.
+- Se alguém for à cozinha, encontra o corpo de um guarda com marca de adaga nas costas — o guarda que Silas menciona ter visto desaparecer, para quem encontrou Silas antes.
 
 ### Objetivos
 
@@ -69,7 +88,7 @@ A forma de Rayna se dissolve. Belial está na sala.
 
 **Secundário:** Manter Harek vivo (se morrer, é uma derrota parcial — o ferreiro foi resgatado em vão).
 
-**Opcional:** Libertar Jarek da adega antes do fim do combate. Se libertado, ele entra como aliado com CA 15, PV 30, Ataque +5, 1d8+3 Físico.
+**Opcional:** Libertar Bram da adega antes do fim do combate. Se libertado, ele entra como aliado com CA 15, PV 30, Ataque +5, 1d8+3 Físico.
 
 ### Implantação
 
@@ -154,7 +173,7 @@ Belial é derrotado. Sua forma demoníaca se dissolve em cinzas e miasma. Os gua
 
 **Loot:** 4d10 po + 1 Runa rara + 60% de item mágico raro + 45% de Essência de Belial (componente lendário único).
 
-**Jarek** (se libertado) fica em silêncio por um momento, olhando para onde Rayna estava. Depois diz apenas: *"Há quanto tempo."*
+**Bram** (se libertado) fica em silêncio por um momento, olhando para onde Rayna estava. Depois diz apenas: *"Há quanto tempo."*
 
 ---
 

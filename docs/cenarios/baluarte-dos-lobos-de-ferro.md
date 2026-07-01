@@ -22,12 +22,12 @@ Como os Lobos de Ferro são conhecidos por misturar perícia com espadas e magia
 * **Personalidade:** Ansioso e fascinado pelo proibido. Ele acredita que os cultistas nas cavernas estão usando rituais de sacrifício para invocar algo ligado a Belial.  
 * **Gancho de Missão:** Ele oferece recompensas por "Corações de Khazra" ou "Grimórios de Cultistas" encontrados nas Cavernas, na esperança de entender como a corrupção está se espalhando tão rápido.
 
-### **3\. Jarek, o Lâmina Quebrada**
+### **3\. Bram, o Lâmina Quebrada**
 
 * **Papel:** Mestre de Armas e Treinador.  
 * **Descrição:** Um lobo de ferro gigantesco que perdeu uma perna na queda de Caldeum. Agora ele supervisiona a defesa das muralhas.  
 * **Personalidade:** Melancólico, mas protetor. Ele vê os aventureiros como "bucha de canhão" até que provem o contrário.  
-* **Gancho de Missão:** Jarek conhece a entrada secreta das Cavernas (a antiga passagem dos contrabandistas), mas só revelará a localização se os jogadores recuperarem o estandarte de sua unidade, perdido em uma emboscada no sopé das montanhas.
+* **Gancho de Missão:** Bram conhece a entrada secreta das Cavernas (a antiga passagem dos contrabandistas), mas só revelará a localização se os jogadores recuperarem o estandarte de sua unidade, perdido em uma emboscada no sopé das montanhas.
 
 ### **4\. Valla, a batedora de Aranoch**
 
