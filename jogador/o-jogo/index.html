@@ -1,0 +1,4411 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema de RPG de mesa homebrew inspirado na franquia Diablo">
+      
+      
+        <meta name="author" content="Paulo Souza">
+      
+      
+        <link rel="canonical" href="https://felipe1072-git.github.io/diablo-shadowdark-rpg/jogador/o-jogo/">
+      
+      
+        <link rel="prev" href="../introducao/">
+      
+      
+        <link rel="next" href="../criando-personagem/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Jogando o Jogo - Diablo RPG</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Crimson Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+      <link rel="stylesheet" href="../../assets/css/ficha.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#jogando-o-jogo" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Diablo RPG" class="md-header__button md-logo" aria-label="Diablo RPG" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diablo RPG
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Jogando o Jogo
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="red"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="red"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Felipe1072-git/diablo-shadowdark-rpg" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Felipe1072-git/diablo-shadowdark-rpg
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../introducao/" class="md-tabs__link">
+          
+  
+  
+  Livro do Jogador
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../classes/" class="md-tabs__link">
+          
+  
+  
+  Classes
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../mestre/pontos-do-medo/" class="md-tabs__link">
+          
+  
+  
+  Livro do Mestre
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../cenarios/" class="md-tabs__link">
+          
+  
+  
+  Cenários
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../criaturas/" class="md-tabs__link">
+          
+  
+  
+  Criaturas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../mestre/rolador-tesouros/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🎲 Rolador
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ficha/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🧙 Fichas
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glossario/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossário
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../patch-notes/v1-2/" class="md-tabs__link">
+          
+  
+  
+  Patch Notes
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Diablo RPG" class="md-nav__button md-logo" aria-label="Diablo RPG" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Diablo RPG
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Felipe1072-git/diablo-shadowdark-rpg" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Felipe1072-git/diablo-shadowdark-rpg
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Livro do Jogador
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Livro do Jogador
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jogando o Jogo
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jogando o Jogo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#os-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Dados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#os-seis-atributos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Seis Atributos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rolando-os-atributos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rolando os Atributos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testes-de-atributo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testes de Atributo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vantagem-e-desvantagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vantagem e Desvantagem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#salvaguardas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Salvaguardas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pontos-de-vida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pontos de Vida
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-fluxo-do-combate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Fluxo do Combate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="O Fluxo do Combate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#os-icones-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Ícones de Ação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#os-pontos-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Pontos de Ação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-acoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Ações
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dinamicas-de-combate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dinâmicas de Combate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dinâmicas de Combate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-foco-ofensivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Foco Ofensivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-postura-defensiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Postura Defensiva
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-regra-do-sacrificio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Regra do Sacrifício
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-livres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ações Livres
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distancias-e-alcance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distâncias e Alcance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Distâncias e Alcance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zonas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zonas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Velocidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alcance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alcance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mana
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mana">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-calculo-do-reservatorio-de-mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Cálculo do Reservatório de Mana
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-gastando-mana-a-intensidade-do-golpe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Gastando Mana — A Intensidade do Golpe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-recuperacao-e-a-seca-de-mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Recuperação e a "Seca de Mana"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resumo-de-interacao-pa-vs-mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo de Interação (PA vs. Mana)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-pratico-de-turno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemplo Prático de Turno
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tempo-e-viagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tempo e Viagem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tempo e Viagem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fases-do-dia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fases do Dia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estacoes-de-santuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estações de Santuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avancando-o-tempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avançando o Tempo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atividades-entre-estacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atividades entre Estações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hospitalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hospitalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acampamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acampamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suprimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suprimentos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#noite-e-escuridao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Noite e Escuridão
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sono" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sono
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inverno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#barreiras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Barreiras
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#augurios-e-mitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Augúrios e Mitos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../criando-personagem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criando seu Personagem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../origens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Origens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../talentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Talentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arsenal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arsenal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../magia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resistencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resistências
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/amazona/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amazona
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/arcanista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arcanista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/assassina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assassina
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/barbaro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bárbaro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/cacador-de-demonios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Caçador de Demônios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/cavaleiro-de-sangue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cavaleiro de Sangue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/cruzado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cruzado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/druida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/feiticeiro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feiticeiro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/guerreiro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guerreiro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/mago/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mago
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/monge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monge
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/natispirito/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Natispirito
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/necromante/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromante
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/paladino/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladino
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/renegada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Renegada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/sacerdote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sacerdote
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Livro do Mestre
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Livro do Mestre
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/pontos-do-medo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pontos do Medo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/encontros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Encontros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/tesouros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesouros e Itens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/afixos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Afixos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/unicos-e-sets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Itens Únicos e Sets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/loot-de-bosses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot de Bosses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/registro-campanha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registro de Campanha
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/template-cenario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Template de Cenário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/referencia-progressao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referência de Progressão
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/design-encontros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design de Encontros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cenários
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Índice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/senhor-da-mentira/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Senhor da Mentira
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/baluarte-dos-lobos-de-ferro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baluarte dos Lobos de Ferro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/a-torre-esquecida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A Torre Esquecida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/o-abatedouro-profano/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Abatedouro Profano
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/o-monarca-louco/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Monarca Louco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/o-carcereiro-das-cinzas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Carcereiro das Cinzas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/sarcofago-escarlate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sarcófago Escarlate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/o-resgate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Resgate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/monasterio-de-eastgate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monastério de Eastgate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criaturas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Criaturas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Índice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/bioma1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioma 1 — Gramados (Tristram)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/bioma2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioma 2 — Pântanos (Kurast)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/bioma3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioma 3 — Deserto (Lut Gholein)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/bioma4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioma 4 — Selva (Toraja)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/bioma5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioma 5 — Inferno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/andariel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Andariel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/duriel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Duriel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/azmodan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Azmodan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/belial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Belial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/mephisto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mephisto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/baal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criaturas/diablo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diablo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/rolador-tesouros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎲 Rolador
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ficha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧙 Fichas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patch Notes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Patch Notes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../patch-notes/v1-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    v1.2 — Fichas Rework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../patch-notes/v1-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    v1.1 — Site + Classes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#os-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Dados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#os-seis-atributos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Seis Atributos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rolando-os-atributos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rolando os Atributos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testes-de-atributo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testes de Atributo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vantagem-e-desvantagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vantagem e Desvantagem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#salvaguardas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Salvaguardas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pontos-de-vida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pontos de Vida
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-fluxo-do-combate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Fluxo do Combate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="O Fluxo do Combate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#os-icones-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Ícones de Ação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#os-pontos-de-acao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Os Pontos de Ação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-de-acoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Ações
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dinamicas-de-combate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dinâmicas de Combate
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dinâmicas de Combate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#o-foco-ofensivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O Foco Ofensivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-postura-defensiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Postura Defensiva
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-regra-do-sacrificio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Regra do Sacrifício
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-livres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ações Livres
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distancias-e-alcance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distâncias e Alcance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Distâncias e Alcance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zonas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zonas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Velocidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alcance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alcance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mana
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mana">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-calculo-do-reservatorio-de-mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Cálculo do Reservatório de Mana
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-gastando-mana-a-intensidade-do-golpe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Gastando Mana — A Intensidade do Golpe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-recuperacao-e-a-seca-de-mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Recuperação e a "Seca de Mana"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resumo-de-interacao-pa-vs-mana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo de Interação (PA vs. Mana)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-pratico-de-turno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemplo Prático de Turno
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tempo-e-viagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tempo e Viagem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tempo e Viagem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fases-do-dia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fases do Dia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estacoes-de-santuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estações de Santuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avancando-o-tempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avançando o Tempo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atividades-entre-estacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atividades entre Estações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hospitalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hospitalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acampamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acampamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suprimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suprimentos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#noite-e-escuridao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Noite e Escuridão
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sono" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sono
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inverno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#barreiras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Barreiras
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#augurios-e-mitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Augúrios e Mitos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="jogando-o-jogo">Jogando o Jogo<a class="headerlink" href="#jogando-o-jogo" title="Permanent link">&para;</a></h1>
+<h2 id="os-dados">Os Dados<a class="headerlink" href="#os-dados" title="Permanent link">&para;</a></h2>
+<p>O Diablo RPG usa dados de 4, 6, 8, 10, 12 e 20 lados, referenciados como <strong>d4, d6, d8, d10, d12</strong> e <strong>d20</strong>. Quando você vê <strong>2d6</strong>, role dois dados de 6 lados e some.</p>
+<p>O <strong>d20</strong> é o dado central do sistema — ele resolve ataques, testes e salvaguardas. O <strong>d6</strong> e o <strong>d8</strong> aparecem com frequência nos dados de dano.</p>
+<hr />
+<h2 id="os-seis-atributos">Os Seis Atributos<a class="headerlink" href="#os-seis-atributos" title="Permanent link">&para;</a></h2>
+<p>Todo personagem é definido por seis atributos:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Atributo</th>
+<th style="text-align: left;">O que representa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Força (FOR)</strong></td>
+<td style="text-align: left;">Poder físico, musculatura, capacidade de carregar peso</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Destreza (DES)</strong></td>
+<td style="text-align: left;">Agilidade, reflexos, precisão</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Constituição (CON)</strong></td>
+<td style="text-align: left;">Resistência, saúde, capacidade de aguentar punição</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Inteligência (INT)</strong></td>
+<td style="text-align: left;">Raciocínio, memória, domínio arcano</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sabedoria (SAB)</strong></td>
+<td style="text-align: left;">Percepção, instinto, conexão com o mundo natural</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Carisma (CAR)</strong></td>
+<td style="text-align: left;">Presença, liderança, força de vontade</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Modificador de Atributo:</strong> é o número somado nos testes. Fórmula: <strong>(valor − 10) ÷ 2</strong>, arredondando para baixo.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Valor</th>
+<th style="text-align: left;">Modificador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">6–7</td>
+<td style="text-align: left;">−2</td>
+</tr>
+<tr>
+<td style="text-align: left;">8–9</td>
+<td style="text-align: left;">−1</td>
+</tr>
+<tr>
+<td style="text-align: left;">10–11</td>
+<td style="text-align: left;">+0</td>
+</tr>
+<tr>
+<td style="text-align: left;">12–13</td>
+<td style="text-align: left;">+1</td>
+</tr>
+<tr>
+<td style="text-align: left;">14–15</td>
+<td style="text-align: left;">+2</td>
+</tr>
+<tr>
+<td style="text-align: left;">16–17</td>
+<td style="text-align: left;">+3</td>
+</tr>
+<tr>
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">+4</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="rolando-os-atributos">Rolando os Atributos<a class="headerlink" href="#rolando-os-atributos" title="Permanent link">&para;</a></h2>
+<p>Na criação de personagem, role <strong>3d6</strong> para cada um dos seis atributos, na ordem: FOR, DES, CON, INT, SAB, CAR.</p>
+<blockquote>
+<p>Santuário não é um lugar para os fracos. Os dados são cruéis, e às vezes o destino também é.</p>
+</blockquote>
+<hr />
+<h2 id="testes-de-atributo">Testes de Atributo<a class="headerlink" href="#testes-de-atributo" title="Permanent link">&para;</a></h2>
+<p>Quando o resultado de uma ação é incerto, o Mestre pede um <strong>Teste de Atributo</strong>:</p>
+<p><strong>1d20 + Modificador do atributo relevante ≥ DC</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Dificuldade</th>
+<th style="text-align: left;">DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Fácil</td>
+<td style="text-align: left;">8</td>
+</tr>
+<tr>
+<td style="text-align: left;">Moderada</td>
+<td style="text-align: left;">12</td>
+</tr>
+<tr>
+<td style="text-align: left;">Difícil</td>
+<td style="text-align: left;">16</td>
+</tr>
+<tr>
+<td style="text-align: left;">Muito Difícil</td>
+<td style="text-align: left;">20</td>
+</tr>
+<tr>
+<td style="text-align: left;">Quase Impossível</td>
+<td style="text-align: left;">24</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="vantagem-e-desvantagem">Vantagem e Desvantagem<a class="headerlink" href="#vantagem-e-desvantagem" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Vantagem:</strong> role 2d20, fique com o <strong>maior</strong>.</li>
+<li><strong>Desvantagem:</strong> role 2d20, fique com o <strong>menor</strong>.</li>
+</ul>
+<p>Vantagem e Desvantagem simultâneas se cancelam. Múltiplas fontes não acumulam.</p>
+<hr />
+<h2 id="salvaguardas">Salvaguardas<a class="headerlink" href="#salvaguardas" title="Permanent link">&para;</a></h2>
+<p>Quando uma ameaça tenta derrubar, envenenar ou incapacitar um personagem, o Mestre exige uma <strong>Salvaguarda</strong>:</p>
+<p><strong>1d20 + Modificador do atributo relevante ≥ DC da ameaça</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Situação</th>
+<th style="text-align: left;">Atributo usado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Veneno, doença, exaustão</td>
+<td style="text-align: left;">CON</td>
+</tr>
+<tr>
+<td style="text-align: left;">Explosão, armadilha, queda</td>
+<td style="text-align: left;">DES</td>
+</tr>
+<tr>
+<td style="text-align: left;">Controle mental, medo</td>
+<td style="text-align: left;">SAB ou CAR</td>
+</tr>
+<tr>
+<td style="text-align: left;">Empurrão, forcejamento</td>
+<td style="text-align: left;">FOR</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ilusão, maldição</td>
+<td style="text-align: left;">INT</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="pontos-de-vida">Pontos de Vida<a class="headerlink" href="#pontos-de-vida" title="Permanent link">&para;</a></h2>
+<p>Os <strong>Pontos de Vida (PV)</strong> representam quanto punição um personagem aguenta antes de cair. Cada classe tem um <strong>Dado de Vida (DV)</strong>.</p>
+<p><strong>A cada nível (incluindo o nível 1):</strong> role o DV + modificador de CON (mínimo 1).</p>
+<blockquote>
+<p><em>Exemplo: um Bárbaro (d12) com CON 16 (+3) rola 1d12+3 no nível 1.</em></p>
+</blockquote>
+<hr />
+<h2 id="o-fluxo-do-combate">O Fluxo do Combate<a class="headerlink" href="#o-fluxo-do-combate" title="Permanent link">&para;</a></h2>
+<p>No mundo de <strong>Santuário</strong>, a hesitação é uma sentença de morte. Diferente de outros sistemas, aqui não há distinção rígida entre "Ação Bônus", "Ação de Movimento" ou "Ação Principal" — tudo o que você faz em combate consome seus <strong>Pontos de Ação (◈)</strong>.</p>
+<p>Cada rodada você recebe <strong>3 Pontos de Ação (◈◈◈)</strong> e pode gastá-los como desejar: três ataques, três movimentos, ou qualquer combinação de habilidades.</p>
+<h3 id="os-icones-de-acao">Os Ícones de Ação<a class="headerlink" href="#os-icones-de-acao" title="Permanent link">&para;</a></h3>
+<p>Use estes símbolos como referência rápida em suas fichas e tabelas:</p>
+<ul>
+<li><strong>◈ Uma Ação:</strong> O esforço básico. Atacar, mover-se ou usar um item simples.</li>
+<li><strong>◈◈ Duas Ações:</strong> Um esforço concentrado. Magias complexas ou manobras pesadas.</li>
+<li><strong>◈◈◈ Três Ações:</strong> Um esforço total. Habilidades Ultimate que consomem todo o turno.</li>
+<li><strong>◇ Ação Livre:</strong> Ações instantâneas que não consomem fôlego (limite de 1 por turno).</li>
+<li><strong>⟁ Reação:</strong> Uma ação realizada fora do seu turno em resposta a um gatilho.</li>
+</ul>
+<hr />
+<h3 id="os-pontos-de-acao">Os Pontos de Ação<a class="headerlink" href="#os-pontos-de-acao" title="Permanent link">&para;</a></h3>
+<p>Cada personagem começa seu turno com <strong>3 Pontos de Ação</strong>. Qualquer ponto não utilizado é perdido ao fim do turno — a não ser que seja reservado para Reações (ver abaixo). No início do turno seguinte, os 3 pontos são totalmente recuperados.</p>
+<p><strong>Regra de Ouro:</strong> Não existem "Ataques Extras" automáticos por nível. Para atacar mais de uma vez por turno, basta gastar os Pontos de Ação necessários.</p>
+<hr />
+<h3 id="tabela-de-acoes">Tabela de Ações<a class="headerlink" href="#tabela-de-acoes" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Ação / Manobra</th>
+<th style="text-align: left;">Custo</th>
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Descrição e Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Ataque Básico</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Ataca com arma ou magia básica.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Movimento</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Move-se até uma zona Próxima (~15cm na mesa).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Investida</strong></td>
+<td style="text-align: left;"><strong>◈◈◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Move-se o dobro em linha reta e realiza 1 ataque com +2 no acerto. Acerto: o alvo cai Deitado ou é empurrado 1 zona (sua escolha).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Desengajar</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Recua sem provocar Ataque de Oportunidade.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Interagir</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Abre uma porta, pega um item, aciona uma alavanca ou recarrega uma besta pesada.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Usar Item</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Bebe uma poção, usa um pergaminho ou aplica óleo em uma arma.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Derrubar / Empurrar</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Teste de FOR contra o alvo. Se vencer: o alvo cai (Deitado) ou é empurrado 1 zona.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Levantar</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Sai da condição Deitado.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ajudar</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Concede Vantagem no próximo teste de um aliado Adjacente.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Defesa Total</strong></td>
+<td style="text-align: left;"><strong>◈◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">+3 CA até o início do seu próximo turno. Você não pode atacar neste turno.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Provocar</strong></td>
+<td style="text-align: left;"><strong>◈</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">1 criatura Próxima visível testa SAB DC 10 + seu mod. primário. Falha: deve atacar somente você, com Vantagem, até o início do seu próximo turno.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Preparar</strong></td>
+<td style="text-align: left;"><strong>custo da ação</strong></td>
+<td style="text-align: left;">Ação</td>
+<td style="text-align: left;">Declara uma ação e um gatilho. Se o gatilho ocorrer antes do seu próximo turno, a ação dispara automaticamente. Se não ocorrer, o custo é perdido.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Troca Rápida</strong></td>
+<td style="text-align: left;">◇</td>
+<td style="text-align: left;">Livre</td>
+<td style="text-align: left;">Troca uma arma leve ou solta algo no chão (1× por turno).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Esquiva</strong></td>
+<td style="text-align: left;"><strong>⟁</strong></td>
+<td style="text-align: left;">Reação</td>
+<td style="text-align: left;">+3 na CA contra um ataque, ou Vantagem em um teste de DES.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sacrifício</strong></td>
+<td style="text-align: left;"><strong>⟁</strong></td>
+<td style="text-align: left;">Reação</td>
+<td style="text-align: left;">Anula todo o dano de um ataque. Um item equipado à sua escolha é destruído (Normal) ou desativado (Mágico+).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ataque de Oportunidade</strong></td>
+<td style="text-align: left;"><strong>⟁</strong></td>
+<td style="text-align: left;">Reação</td>
+<td style="text-align: left;">Quando um inimigo Adjacente tenta se mover, você o ataca antes que ele saia.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Cobertura</strong></td>
+<td style="text-align: left;"><strong>⟁</strong> ou <strong>⟁⟁</strong></td>
+<td style="text-align: left;">Reação</td>
+<td style="text-align: left;">Protege um aliado Próximo. Gaste ⟁ se já estiver Adjacente, ou ⟁⟁ se precisar se mover até ele. <strong>Ataque:</strong> redirecionado a você — o atacante rola contra sua CA. <strong>Área:</strong> o aliado não sofre dano; você toma o total (sua parte + a dele).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dinamicas-de-combate">Dinâmicas de Combate<a class="headerlink" href="#dinamicas-de-combate" title="Permanent link">&para;</a></h2>
+<p>Os Pontos de Ação criam uma tensão constante entre atacar, se mover e se defender. Cada decisão tem um custo — e guardar pontos para reagir pode ser tão importante quanto atacar.</p>
+<h3 id="o-foco-ofensivo">O Foco Ofensivo<a class="headerlink" href="#o-foco-ofensivo" title="Permanent link">&para;</a></h3>
+<p>Um guerreiro pode gastar seus <strong>3 Pontos de Ação</strong> em três golpes consecutivos. Ele termina o turno imóvel e sem pontos de reação — poderoso, mas vulnerável.</p>
+<h3 id="a-postura-defensiva">A Postura Defensiva<a class="headerlink" href="#a-postura-defensiva" title="Permanent link">&para;</a></h3>
+<p>Um herói cauteloso pode gastar <strong>1 Ação</strong> para se aproximar, <strong>1 Ação</strong> para atacar e guardar o último ponto para usar uma <strong>Esquiva (⟁)</strong> durante o turno dos inimigos.</p>
+<h3 id="reacoes">Reações<a class="headerlink" href="#reacoes" title="Permanent link">&para;</a></h3>
+<p>Para usar uma <strong>Reação (⟁)</strong>, você precisa terminar seu turno com pelo menos <strong>1 Ponto de Ação reservado</strong>.</p>
+<p><strong>Exemplo:</strong> Se você usar ◈◈ para atacar duas vezes e guardar o terceiro ponto, pode gastar esse ponto como <strong>Esquiva</strong> durante o turno dos monstros. Se gastar os três ◈◈◈, você fica completamente indefeso.</p>
+<hr />
+<h3 id="a-regra-do-sacrificio">A Regra do Sacrifício<a class="headerlink" href="#a-regra-do-sacrificio" title="Permanent link">&para;</a></h3>
+<p>Quando um golpe reduziria você a 0 PV, você pode usar sua Reação (<strong>⟁</strong>) para um <strong>Sacrifício de Equipamento</strong>:</p>
+<ol>
+<li>Você não sofre o dano.</li>
+<li>Sua arma, escudo ou armadura é <strong>destruída</strong> (se for Normal) ou <strong>desativada</strong> (se for Mágica ou melhor).</li>
+<li>O item torna-se inutilizável até que um ferreiro o repare.</li>
+</ol>
+<hr />
+<h3 id="acoes-livres">Ações Livres<a class="headerlink" href="#acoes-livres" title="Permanent link">&para;</a></h3>
+<p>Ações Livres (<strong>◇</strong>) não custam pontos, mas só podem ser usadas <strong>uma vez por turno</strong>. Geralmente envolvem soltar um item, trocar uma arma leve ou ativar habilidades passivas que não requerem esforço físico.</p>
+<hr />
+<h2 id="distancias-e-alcance">Distâncias e Alcance<a class="headerlink" href="#distancias-e-alcance" title="Permanent link">&para;</a></h2>
+<p>O sistema usa três conceitos distintos para descrever o espaço no campo de batalha. Cada um tem seu próprio vocabulário para evitar ambiguidade.</p>
+<hr />
+<h3 id="zonas">Zonas<a class="headerlink" href="#zonas" title="Permanent link">&para;</a></h3>
+<p>Descrevem <strong>onde algo está</strong> em relação a outro ponto. São a unidade de posição do jogo.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Zona</th>
+<th style="text-align: left;">Quadrados</th>
+<th style="text-align: left;">cm na mesa</th>
+<th style="text-align: left;">Pés</th>
+<th style="text-align: left;">Metros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Adjacente</strong></td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2,5cm</td>
+<td style="text-align: left;">5ft</td>
+<td style="text-align: left;">~1,5m</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Próximo</strong></td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">15cm</td>
+<td style="text-align: left;">30ft</td>
+<td style="text-align: left;">~9m</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Distante</strong></td>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">30cm</td>
+<td style="text-align: left;">60ft</td>
+<td style="text-align: left;">~18m</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><em>Na mesa, use réguas flexíveis de 15cm (Próximo) e 30cm (Distante). Um quadrado padrão mede 2,5cm.</em></p>
+</blockquote>
+<hr />
+<h3 id="velocidade">Velocidade<a class="headerlink" href="#velocidade" title="Permanent link">&para;</a></h3>
+<p>Descreve <strong>quanto uma criatura se move</strong> por ◈ gasto em movimento. Aparece nos statblocks como <strong>Vel.</strong></p>
+<ul>
+<li><strong>Vel. Normal</strong> — move-se até Próximo por ◈ (15cm · 6 quadrados)</li>
+<li><strong>Vel. Rápida</strong> — move-se até Distante por ◈ (30cm · 12 quadrados)</li>
+<li><strong>Voo Normal / Voo Rápido</strong> — igual às acima, mas a criatura voa e ignora terreno difícil e obstáculos no chão</li>
+</ul>
+<hr />
+<h3 id="alcance">Alcance<a class="headerlink" href="#alcance" title="Permanent link">&para;</a></h3>
+<p>Descreve <strong>até onde uma habilidade, ataque ou magia chega</strong>. Aparece nas descrições de habilidades e magias como <strong>alcance</strong>.</p>
+<ul>
+<li><strong>Alcance Toque</strong> — apenas Adjacente (2,5cm)</li>
+<li><strong>Alcance Curto</strong> — até Próximo (15cm · 6 quadrados)</li>
+<li><strong>Alcance Longo</strong> — até Distante (30cm · 12 quadrados)</li>
+</ul>
+<blockquote>
+<p><em>Exemplo: um Mago lança uma Bola de Fogo com </em><em>alcance Longo</em><em> e área de </em><em>alcance Curto</em><em> — o projétil viaja até 30cm da miniatura, e a explosão cobre 15cm a partir do ponto de impacto.</em></p>
+</blockquote>
+<hr />
+<h2 id="mana">Mana<a class="headerlink" href="#mana" title="Permanent link">&para;</a></h2>
+<p>O Mana representa o fôlego místico, a concentração mental e a estamina heroica. Enquanto qualquer um pode balançar uma espada (<strong>◈</strong>), apenas aqueles tocados pelo destino podem canalizar seu Mana para realizar feitos que desafiam a morte.</p>
+<h3 id="1-calculo-do-reservatorio-de-mana">1. Cálculo do Reservatório de Mana<a class="headerlink" href="#1-calculo-do-reservatorio-de-mana" title="Permanent link">&para;</a></h3>
+<p>Diferente dos Pontos de Vida, o Mana é influenciado pela força mental do herói. Seu valor máximo é determinado por:</p>
+<p><strong>Mana Máximo</strong> \= 10 + Modificador de Atributo Primário + Nível</p>
+<ul>
+<li><em>Atributo Primário:</em> <strong>INT</strong> para Arcanistas, <strong>SAB</strong> para Druidas, <strong>DES</strong> ou <strong>FOR</strong> para Amazonas, <strong>FOR</strong> para Bárbaros, etc. Cada classe lista o seu atributo primário na própria ficha.</li>
+</ul>
+<hr />
+<h3 id="2-gastando-mana-a-intensidade-do-golpe">2. Gastando Mana — A Intensidade do Golpe<a class="headerlink" href="#2-gastando-mana-a-intensidade-do-golpe" title="Permanent link">&para;</a></h3>
+<p>O Mana é gasto em conjunto com os Pontos de Ação (<strong>PA</strong>). Existem duas formas principais de utilizar este recurso:</p>
+<h4 id="a-habilidades-de-classe-e-magias">A. Habilidades de Classe e Magias<a class="headerlink" href="#a-habilidades-de-classe-e-magias" title="Permanent link">&para;</a></h4>
+<p>Toda habilidade especial listada em sua classe possui um custo de Mana.</p>
+<ul>
+<li><strong>Exemplo:</strong> <em>Flecha de Gelo (Amazona)</em> – Custo: <strong>◈</strong> + 2 Mana.  </li>
+<li><strong>Exemplo:</strong> <em>Teleporte (Arcanista)</em> – Custo: <strong>◈◈</strong> + 4 Mana.</li>
+</ul>
+<h4 id="b-salvaguardas-de-emergencia">B. Salvaguardas de Emergência<a class="headerlink" href="#b-salvaguardas-de-emergencia" title="Permanent link">&para;</a></h4>
+<p>O Mana pode ser queimado para evitar desastres.</p>
+<ul>
+<li><strong>Foco Mental (2 Mana):</strong> Você pode rolar novamente um Teste de Atributo ou Salvaguarda que tenha falhado.  </li>
+<li><strong>Escudo de Alma (⟁ + X Mana):</strong> Como reação, você gasta Mana para reduzir o dano recebido. Cada 1 ponto de Mana gasto reduz 1 ponto de dano.</li>
+</ul>
+<hr />
+<h3 id="3-recuperacao-e-a-seca-de-mana">3. Recuperação e a "Seca de Mana"<a class="headerlink" href="#3-recuperacao-e-a-seca-de-mana" title="Permanent link">&para;</a></h3>
+<p>Diferente do PA, o Mana <strong>não se recupera</strong> entre os turnos.</p>
+<ol>
+<li><strong>Descanso Curto (1 hora):</strong> Recupera uma quantidade de Mana igual ao seu Nível + Modificador de Atributo.  </li>
+<li><strong>Descanso Longo (8 horas):</strong> Recupera o Mana totalmente.  </li>
+<li><strong>Poções de Mana:</strong> Recuperam Mana instantaneamente (Custo: <strong>◈</strong>).  </li>
+<li><strong>Talento Roubo de Mana:</strong> Personagens com este talento recuperam 1 Mana sempre que desferirem um <strong>Golpe Fatal</strong> ou um <strong>Crítico</strong>.</li>
+</ol>
+<h4 id="o-estado-de-burnout-exaustao">O Estado de Burnout (Exaustão)<a class="headerlink" href="#o-estado-de-burnout-exaustao" title="Permanent link">&para;</a></h4>
+<p>Se o seu Mana chegar a <strong>0</strong>, você entra em um estado de fadiga profunda:</p>
+<ul>
+<li>Você não pode usar <strong>Reações (⟁)</strong>.  </li>
+<li>Suas ações de Movimento custam <strong>◈◈</strong> em vez de <strong>◈</strong>.  </li>
+<li>Você tem Desvantagem em testes de conjuração ou habilidades físicas complexas.</li>
+</ul>
+<hr />
+<h3 id="resumo-de-interacao-pa-vs-mana">Resumo de Interação (PA vs. Mana)<a class="headerlink" href="#resumo-de-interacao-pa-vs-mana" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Recurso</th>
+<th style="text-align: left;">O que define?</th>
+<th style="text-align: left;">Recuperação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Pontos de Ação (PA)</strong></td>
+<td style="text-align: left;">Quantidade de coisas que você faz por turno.</td>
+<td style="text-align: left;">Início de cada turno (sempre 3).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Mana</strong></td>
+<td style="text-align: left;">Qualidade/Poder das coisas que você faz.</td>
+<td style="text-align: left;">Poções, Descansos e Habilidades.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="exemplo-pratico-de-turno">Exemplo Prático de Turno<a class="headerlink" href="#exemplo-pratico-de-turno" title="Permanent link">&para;</a></h3>
+<p>O <strong>Bárbaro</strong> está cercado por 3 Caídos.</p>
+<ol>
+<li>Ele gasta <strong>◈</strong> para usar <em>Turbilhão</em> (Custo: 3 Mana). Ele acerta todos ao redor.  </li>
+<li>Ele vê que o Chefe Caído vai fugir, então gasta <strong>◈</strong> <strong>(Movimento)</strong> para alcançá-lo.  </li>
+<li>Ele gasta seu último <strong>◈</strong> para <em>Berserk</em> (Custo: 2 Mana). Como quer garantir a morte do Chefe, gasta 2 Mana adicionais para rolar +2d10 Físico extra.</li>
+</ol>
+<p><strong>Total do Turno:</strong> 3 PA gastos, 7 Mana consumidos.</p>
+<h2 id="tempo-e-viagem">Tempo e Viagem<a class="headerlink" href="#tempo-e-viagem" title="Permanent link">&para;</a></h2>
+<p>Enquanto o combate define os momentos de tensão máxima, a exploração de Santuário acontece em escalas maiores — horas, estações, anos. Esta seção cobre as regras usadas fora do combate.</p>
+<hr />
+<h3 id="fases-do-dia">Fases do Dia<a class="headerlink" href="#fases-do-dia" title="Permanent link">&para;</a></h3>
+<p>Cada <strong>dia</strong> possui 3 fases:</p>
+<ul>
+<li><strong>Manhã</strong> (Alvorecer ao Meio-dia)</li>
+<li><strong>Tarde</strong> (Meio-dia ao Pôr do Sol)</li>
+<li><strong>Noite</strong> (Pôr do Sol ao Alvorecer)</li>
+</ul>
+<p>Cada fase comporta uma ação significativa de viagem, exploração ou descanso.</p>
+<hr />
+<h3 id="estacoes-de-santuario">Estações de Santuário<a class="headerlink" href="#estacoes-de-santuario" title="Permanent link">&para;</a></h3>
+<p>Em vez de meses, o ano de Santuário é marcado por três estações e seus rituais:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Primavera (Verde)</th>
+<th style="text-align: left;">Colheita (Dourada)</th>
+<th style="text-align: left;">Inverno (Cinza)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Início</strong></td>
+<td style="text-align: left;">Banquete do Sol (Excesso e folia)</td>
+<td style="text-align: left;">Banquete das Estrelas (Honras e concursos)</td>
+<td style="text-align: left;">Banquete da Lua (Reflexão e mortalidade)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Meio</strong></td>
+<td style="text-align: left;">Missa do Cetro (Votos de lealdade)</td>
+<td style="text-align: left;">Missa dos Anciões (Assembleia de videntes)</td>
+<td style="text-align: left;">Missa da Chama (Calor e boa vontade)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fim</strong></td>
+<td style="text-align: left;">O Imposto (Moedas para o Reino)</td>
+<td style="text-align: left;">O Dízimo (Comida para o Reino)</td>
+<td style="text-align: left;">O Recrutamento (Materiais para o Reino)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="avancando-o-tempo">Avançando o Tempo<a class="headerlink" href="#avancando-o-tempo" title="Permanent link">&para;</a></h3>
+<p>Ao final de cada sessão, ou durante uma pausa natural na jornada, o grupo decide quanto tempo passa:</p>
+<ul>
+<li><strong>Nenhum:</strong> Retome exatamente de onde parou.</li>
+<li><strong>Semanas:</strong> Avance até o próximo evento sazonal.</li>
+<li><strong>Meses:</strong> Avance para a próxima Estação.</li>
+<li><strong>Anos:</strong> Inicie uma nova Era (veja Eras da Vida, Cap. 2).</li>
+</ul>
+<p><em>Em dúvida, role 1d6:</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">d6</th>
+<th style="text-align: left;">Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>1</strong></td>
+<td style="text-align: left;"><strong>Mudança Imediata:</strong> A Estação ou Era muda agora.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2–3</strong></td>
+<td style="text-align: left;"><strong>Mudança Próxima:</strong> Muda após a próxima sessão.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4–6</strong></td>
+<td style="text-align: left;"><strong>Estabilidade:</strong> A Estação ou Era atual continua.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="atividades-entre-estacoes">Atividades entre Estações<a class="headerlink" href="#atividades-entre-estacoes" title="Permanent link">&para;</a></h3>
+<p>Entre as estações, cada herói escolhe uma ocupação:</p>
+<ul>
+<li><strong>Peregrinação:</strong> Aprenda sobre uma parte desconhecida do Mundo.</li>
+<li><strong>Cortesia:</strong> Estabeleça um novo contato ou ganhe um favor.</li>
+<li><strong>Serviço:</strong> Realize uma pequena melhoria para uma Região.</li>
+</ul>
+<p>Se o grupo avança um ano inteiro (nova Era), as opções são mais impactantes:</p>
+<ul>
+<li><strong>Dever:</strong> Realize uma melhoria significativa na Região.</li>
+<li><strong>Sucessão:</strong> Estabeleça um sucessor e torne-o um Herói.</li>
+<li><strong>Legado:</strong> Seu sucessor ganha metade do seu nível atual.</li>
+</ul>
+<hr />
+<h3 id="viagem">Viagem<a class="headerlink" href="#viagem" title="Permanent link">&para;</a></h3>
+<p>Viajar consome uma <strong>Fase</strong> inteira do dia. Existem três métodos:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Método</th>
+<th style="text-align: left;">Distância por Fase</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Caminhada</strong></td>
+<td style="text-align: left;">1/3 de Hexágono a pé</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Galope</strong></td>
+<td style="text-align: left;">2/3 de Hexágono (montaria ganha Exaustão)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Cruzeiro</strong></td>
+<td style="text-align: left;">1 Hexágono (barco ou estrada adequada)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hospitalidade">Hospitalidade<a class="headerlink" href="#hospitalidade" title="Permanent link">&para;</a></h3>
+<p>Ao dormir em locais seguros (cidades, postos avançados), não é necessária Rolagem de Encontros. Estadias longas exigem um <strong>Favor</strong> — uma missão ou pagamento em ouro.</p>
+<h3 id="acampamento">Acampamento<a class="headerlink" href="#acampamento" title="Permanent link">&para;</a></h3>
+<p>Dormir ao relento exige uma Rolagem de Encontros normalmente.</p>
+<ul>
+<li><strong>Augúrios Hostis:</strong> Impedem o descanso — personagens não recuperam HP ou usos de habilidades.</li>
+<li><strong>Sem fonte de luz:</strong> Acampar sem fogueira atrai automaticamente um encontro sombrio.</li>
+</ul>
+<h3 id="suprimentos">Suprimentos<a class="headerlink" href="#suprimentos" title="Permanent link">&para;</a></h3>
+<p>Presume-se que o grupo coleta o básico durante a jornada. Em regiões desoladas (Deserto de Aranoch, Pântanos de Kurast), ficar sem suprimentos tem consequências:</p>
+<ul>
+<li><strong>Privação:</strong> Cada manhã sem comida ou água, perca <strong>1d6 de HP permanente</strong> até comer e descansar em local seguro.</li>
+</ul>
+<h3 id="noite-e-escuridao">Noite e Escuridão<a class="headerlink" href="#noite-e-escuridao" title="Permanent link">&para;</a></h3>
+<p>Viajar ou explorar à noite sem fonte de luz é um convite à morte:</p>
+<ul>
+<li><strong>Exaustão:</strong> Imposta ao fim da fase — Desvantagem em todos os testes até realizar um descanso de 8 horas.</li>
+<li><strong>Viagem às Cegas:</strong> Sem luz (tochas ou magia) ou um Guia, testes de orientação têm <strong>Desvantagem</strong> adicional.</li>
+</ul>
+<h3 id="sono">Sono<a class="headerlink" href="#sono" title="Permanent link">&para;</a></h3>
+<p>Qualquer manhã após uma noite sem sono adequado (ataques, vigília forçada):</p>
+<ul>
+<li><strong>Exaustão:</strong> Todos os testes têm Desvantagem até realizar um descanso de 8 horas.</li>
+</ul>
+<h3 id="inverno">Inverno<a class="headerlink" href="#inverno" title="Permanent link">&para;</a></h3>
+<p>Nas regiões gélidas (Cimeiras Despedaçadas):</p>
+<ul>
+<li><strong>Frio Penetrante:</strong> Acampar sem abrigo ou viajar à noite impõe <strong>Exaustão</strong> por fase. Acumular duas Exaustões causa <strong>1d6 de HP permanente</strong> por hipotermia.</li>
+<li><strong>Clima Extremo:</strong> O Mestre pode impor Desvantagem em testes de orientação durante nevascas.</li>
+</ul>
+<h3 id="barreiras">Barreiras<a class="headerlink" href="#barreiras" title="Permanent link">&para;</a></h3>
+<p>Atravessar uma Barreira normalmente não é possível — apenas habitantes locais conhecem um caminho seguro. Tentar forçar a passagem desperdiça a Fase do dia e gera uma Rolagem de Encontros.</p>
+<h3 id="augurios-e-mitos">Augúrios e Mitos<a class="headerlink" href="#augurios-e-mitos" title="Permanent link">&para;</a></h3>
+<p>Santuário é pontuado por <strong>Mitos</strong> — horrores e segredos latentes espalhados pela terra. Cada Mito possui <strong>Augúrios</strong> (sinais crescentes de intensidade) que os personagens encontram antes do confronto final. O Mestre controla quando e como os Augúrios aparecem — os jogadores apenas experienciam seus efeitos na narrativa.</p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "content.tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../assets/sets.js"></script>
+      
+        <script src="../../assets/js/ficha-data.js"></script>
+      
+        <script src="../../assets/js/ficha-app.js"></script>
+      
+    
+  </body>
+</html>
