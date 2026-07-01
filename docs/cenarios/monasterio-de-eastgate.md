@@ -17,7 +17,7 @@
 3. Durante o jantar, ela elogia os heróis com detalhes precisos demais do interior da forja — coisas que um relatório não contaria.
 4. No brinde, ela menciona *"o cheiro doce do ácido nas cavernas"*. O cheiro real é acre, não doce. Qualquer personagem que esteve lá pode notar com um teste de Inteligência DC 10.
 5. Harek fica quieto durante o jantar. Se um herói ficar a sós com ele, ele puxa para um canto e sussurra: *"Ela cheira a enxofre. Fui ferreiro a vida inteira — conheço esse cheiro. Não é fumaça de vela."*
-6. Bram e Valla não aparecem em nenhum momento do jantar. Se perguntado, Rayna diz que estão de ronda.
+6. Bram não aparece em nenhum momento do jantar. Se perguntado, Rayna diz que está de ronda. *(Valla morreu nas Cavernas do Caos ao lado dos heróis — os jogadores já sabem disso.)*
 7. No pátio interno há uma barraca de comércio fechada com um cadeado novo. Ninguém do forte parece saber de quem é.
 
 ---
@@ -79,8 +79,8 @@ A forma de Rayna se dissolve. Belial está na sala.
 
 **Camada 3 — Complexidade Moral:**
 - Harek está na mesa central. CA 10, PV 8. Se morrer, o ferreiro que o grupo acabou de resgatar morre no mesmo momento em que Belial se revela.
-- Os "guardas" falsos hesitam por uma fração de segundo quando revelados — um personagem pode tentar intimidar um deles para se render (CAR DC 15, ◈). Se bem-sucedido, aquele guarda foge em vez de lutar.
-- Se alguém for à cozinha, encontra o corpo de um guarda com marca de adaga nas costas — o guarda que Silas menciona ter visto desaparecer, para quem encontrou Silas antes.
+- Os "guardas" são Serpentes Humanas — os mesmos demônios metamorfos das Cavernas do Caos. Quando o disfarce cai, a armadura de guarda racha e a forma ofídica emerge. Jogadores que os enfrentaram antes reconhecem as escamas e o veneno. *(Teste de INT DC 10 para lembrar que eles se dissolvem em ácido ao morrer — cuidado com a poça.)*
+- Se alguém for à cozinha, encontra o corpo de um guarda real com marca de adaga nas costas — o guarda que Silas menciona ter visto desaparecer, para quem encontrou Silas antes.
 
 ### Objetivos
 
@@ -93,20 +93,24 @@ A forma de Rayna se dissolve. Belial está na sala.
 ### Implantação
 
 - Belial começa ao fundo do refeitório, no lugar onde Rayna estava sentada.
-- 4 Espiões Revelados começam nos dois choke points (2 na porta principal, 2 na entrada da cozinha). Com 6 jogadores, use 6 Espiões.
+- 4 Serpentes Humanas (em forma de guarda) começam nos dois choke points (2 na porta principal, 2 na entrada da cozinha). Com 6 jogadores, use 6.
 - Harek está sentado na mesa central, paralisado de horror.
 
 ---
 
 ## Elenco
 
-### Espião Revelado (Guarda-Falso)
+### Serpente Humana (Guarda-Falso)
 
-CA 13 | PV 16 | MV Próximo | PA 3
+CA 13 | PV 20 | MV Próximo | PA 3
 
-**Adaga Envenenada (◈):** +4 para acertar, 1d6+2 Físico. Salvaguarda de CON DC 13 ou Desvantagem em todos os testes por 1 rodada.
+**Mordida Venenosa (◈):** +5 para acertar, 1d8+3 Físico. Salvaguarda de CON DC 14 ou Paralisado por 1 rodada.
 
-**Emboscada:** O primeiro ataque de cada Espião no combate tem Vantagem e +2d6 de dano — eles ainda "pareciam" guardas no momento do ataque.
+**Escamas:** RD 2 contra dano Físico.
+
+**Emboscada:** O primeiro ataque de cada Serpente no combate tem Vantagem e +2d6 de dano — o disfarce de guarda ainda não caiu no momento do ataque.
+
+**Dissolução:** Quando reduzida a 0 PV, o corpo se dissolve em poça de ácido esverdeado. Quem estiver Adjacente faz Salvaguarda de DES DC 12 ou sofre 1d4 Veneno.
 
 ---
 
@@ -138,28 +142,39 @@ RD 8 Veneno. Imune a charme e medo.
 
 ---
 
-### Fase 2 — Revelação Devastadora
+### Fase 2 — Revelação Devastadora *(Forma Plena)*
 
 *Quando reduzido a 0 PV pela primeira vez:*
 
-A face de Rayna racha de dentro para fora. O corpo humano explode e dá lugar à verdadeira forma demoníaca de Belial — garras esverdeadas, mandíbulas famintas, imenso. A explosão destrói parte do cenário ao redor.
+A face de Rayna racha de dentro para fora. O corpo humano explode, destruindo parte do refeitório ao redor. O que emerge é colossal — serpentino, imenso, com garras esverdeadas e mandíbulas que revelam os rostos agonizantes dos mortos.
 
-**Belial recupera 45 PV imediatamente.** CA cai para 14 (alvo colossal). Perde Mentira Convincente e Campo de Ilusões.
+**Belial entra na Forma Plena com PV 155 e CA 18.** Perde Mentira Convincente.
 
-**Novas ações na Fase 2:**
-- **Garras Venenosas (◈):** +7 para acertar, 2d8+4 Físico. Salvaguarda de CON DC 15 ou sofre 2d6 Veneno por turno durante 3 turnos.
-- **Esmagamento Meteórico (◈◈):** Esmaga o chão. Todos a distância Próximo fazem Salvaguarda de DEX DC 15 ou sofrem 3d8 Contundente (metade no sucesso).
+> **Vulnerável a Radiante** permanece: ataques Radiantes causam dano extra igual ao Nível do atacante.
 
-**Novo passivo na Fase 2:**
-- **Sussurros de Paranoia:** No início de cada turno de Belial, um alvo aleatório a distância Próximo faz Salvaguarda de SAB DC 15. Falha: acredita que o aliado mais próximo é um lacaio disfarçado — deve gastar seu próximo ◈ atacando-o com força total.
+**Bônus:** +9 *(veneno, ilusão em massa, manipulação, garras colossais)*
+**Bônus Fraco:** +4 *(fogo, sagrado, gelo)*
 
-**Forma Fantasma permanece ativa na Fase 2.**
+RD 10 Veneno. RD 5 Físico. Imune a charme, medo e paralisia.
+
+**Ações na Forma Plena:**
+- **Garras Venenosas (◈):** +9 para acertar, 2d10+5 Físico. Salvaguarda de CON DC 16 ou sofre 2d6 Veneno por turno durante 3 turnos.
+- **Bafo de Veneno (◈◈):** Cone a distância Próximo. Salvaguarda de CON DC 16 ou sofre 4d8 Veneno (metade no sucesso). Deixa nuvem venenosa por 2 rodadas — 2d4 Veneno ao entrar ou iniciar turno na área.
+- **Campo de Ilusões (◈◈):** Cria 1d6 Duplicatas Demoníacas que surgem no próximo turno.
+- **A Grande Mentira (◈◈◈, uma vez por cena):** Todos fazem Salvaguarda de SAB DC 17. Falha: vê todos os aliados como inimigos por 2 rodadas. Falha por 5 ou menos: Desvantagem em ataques por 1 rodada.
+
+**Reação:**
+- **Forma Fantasma (⟁):** 50% de chance de anular completamente 1 ataque.
+
+**Passivos na Forma Plena:**
+- **Senhor das Mentiras:** Duplicatas Demoníacas a distância Próximo ganham +2 em ataques e têm PV 20 em vez de 12.
+- **Sempre Mentindo:** No início de cada turno de Belial, ele troca de posição com uma Duplicata ativa (se houver). Mova o token em segredo.
 
 ---
 
 ### Duplicata Demoníaca *(invocada por Campo de Ilusões)*
 
-CA 12 | PV 12 | MV Próximo | PA 3
+CA 12 | **PV 12** *(Fase 1)* ou **PV 20** *(Fase 2 — Senhor das Mentiras)* | MV Próximo | PA 3
 
 **Cópia:** Copia a aparência de um personagem aleatório. Revelar (◈, SAB DC 14) expõe a cópia — após revelada, tem Desvantagem em ataques. Quando reduzida a 0 PV ou revelada: 1d6 Psíquico em todos que a estavam atacando.
 
@@ -171,7 +186,7 @@ CA 12 | PV 12 | MV Próximo | PA 3
 
 Belial é derrotado. Sua forma demoníaca se dissolve em cinzas e miasma. Os guardas-falsos fogem ou se rendem.
 
-**Loot:** 4d10 po + 1 Runa rara + 60% de item mágico raro + 45% de Essência de Belial (componente lendário único).
+**Loot:** 5d10 po + 2 Runas raras + 70% de item mágico raro + 45% de Essência de Belial (componente lendário único).
 
 **Bram** (se libertado) fica em silêncio por um momento, olhando para onde Rayna estava. Depois diz apenas: *"Há quanto tempo."*
 
