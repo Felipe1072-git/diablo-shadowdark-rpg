@@ -161,3 +161,49 @@ h1, h2, h3, h4 {
 .dev-only { display: none !important; }
 body.dev-mode .dev-only { display: flex !important; }
 
+/* ===== Impressão ===== */
+@media print {
+  /* Sem cabeçalho/sidebar/nav do MkDocs */
+  .md-header, .md-sidebar, .md-footer, .md-tabs,
+  .md-search, [data-md-component="toc"] {
+    display: none !important;
+  }
+
+  /* Conteúdo ocupa largura total */
+  .md-content, .md-content__inner {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Não quebrar blockquotes — falas de NPC, brinde, reveal */
+  blockquote {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Não quebrar tabelas */
+  table {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Headings não ficam sozinhos no final da página */
+  h1, h2, h3, h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Statblocks: hr marca separador — não quebrar logo após ele */
+  hr {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Parágrafo não fica pendurado sozinho no topo de página */
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
