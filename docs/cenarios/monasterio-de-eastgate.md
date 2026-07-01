@@ -184,11 +184,83 @@ CA 12 | **PV 12** *(Fase 1)* ou **PV 20** *(Fase 2 — Senhor das Mentiras)* | M
 
 ### Vitória
 
-Belial é derrotado. Sua forma demoníaca se dissolve em cinzas e miasma. Os guardas-falsos fogem ou se rendem.
-
-**Loot:** 5d10 po + 2 Runas raras + 70% de item mágico raro + 45% de Essência de Belial (componente lendário único).
+Belial é derrotado. Sua forma demoníaca se dissolve em cinzas e miasma. Os guardas-falsos restantes fogem ou se rendem.
 
 **Bram** (se libertado) fica em silêncio por um momento, olhando para onde Rayna estava. Depois diz apenas: *"Há quanto tempo."*
+
+---
+
+### Itens do Encontro
+
+Cinco objetos permanecem onde as Serpentes Humanas se dissolveram — escamas, fragmentos e vestígios que o ácido não consumiu.
+
+---
+
+**Escama do Impostor** *(acessório de armadura, Único)*
+
+Uma escama das Serpentes, endurecida e fria. Pode ser incorporada a qualquer armadura por um ferreiro.
+
+- RD 2 Veneno.
+- **Reação (⟁):** quando atingido por um ataque de área, todos os outros na mesma área sofrem 1d4 Veneno extra.
+
+---
+
+**Olho da Serpente** *(amuleto, Único)*
+
+Um olho esmeralda perfeito que não se dissolve com a criatura. Ainda se move levemente quando segurado.
+
+- Imune à condição Paralisado.
+- **Uma vez por cena (◈):** revela automaticamente qualquer disfarce ou ilusão a distância Próximo — sem teste.
+
+---
+
+**Anel da Víbora Oculta** *(anel, Único)*
+
+Um anel de osso e escama com um dente encurvado no topo.
+
+- +1 em rolagens de ataque.
+- **Uma vez por descanso longo:** o próximo acerto injeta veneno — o alvo faz Salvaguarda de CON DC 13 ou fica Paralisado por 1 rodada.
+
+---
+
+**Manto das Meias-Verdades** *(capa, Único)*
+
+Um manto de seda negra com padrões que mudam sutilmente dependendo do ângulo. Era o manto de Rayna. Era o manto de Belial.
+
+- +1 CA.
+- **Uma vez por cena:** ao fazer um teste de Enganação ou Persuasão, declare que está *"tecnicamente dizendo a verdade"* — o alvo tem Desvantagem na Salvaguarda e, se falhar, acredita por até 1 hora mesmo percebendo inconsistências menores.
+
+---
+
+**Veneno Latente de Belial** *(encantamento de arma, Único)*
+
+Um frasco pequeno de líquido esverdeado e espesso. Harek pode aplicar em qualquer arma do portador (processo gratuito, feito na hora).
+
+- **Uma vez por cena:** o próximo acerto injeta veneno de ação retardada — o alvo não sente efeito imediato. No início do 2º turno após o acerto, sofre 3d6 Veneno e faz Salvaguarda de CON DC 15 ou fica Lento por toda a cena.
+
+---
+
+### A Forja de Harek — Cena de Encerramento
+
+Harek não celebra. Ele caminha até onde Belial caiu, ajoelha e recolhe o que restou — a Essência, densa e esverdeada, ainda pulsando com calor próprio.
+
+Sem dizer uma palavra, vai até a cozinha, improvisa uma forja com as brasas do fogão e os fragmentos das correntes rúnicas que trouxe penduradas no cinto desde o resgate.
+
+Leva uma hora. Quando termina, coloca o amuleto sobre a mesa.
+
+> *"Não sei se isso é uma homenagem ou uma maldição. Talvez os dois."*
+
+**O grupo debate entre si quem fica com o amuleto.**
+
+---
+
+**Amuleto das Correntes Fundidas** *(amuleto, Lendário)*
+
+*As correntes de Harek fundidas com a Essência de Belial. Metal escuro com veios esverdeados que pulsam levemente no escuro.*
+
+- **Veneno do Vencedor (passivo):** Todos os seus ataques — corpo a corpo, à distância e mágicos — causam **+1d6 Veneno** adicional.
+- **Correntes Quebradas (passivo):** +1 CA. Uma vez por descanso longo: quando você seria reduzido a 0 PV, pode gastar ⟁ para cair a **1 PV** em vez disso.
+- **Voz da Serpente (◈, 1×/cena):** Escolha uma criatura a distância Próximo. Ela faz Salvaguarda de SAB DC 15 ou ataca com Desvantagem em todos os ataques até o início do seu próximo turno.
 
 ---
 
