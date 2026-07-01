@@ -205,5 +205,11 @@ body.dev-mode .dev-only { display: flex !important; }
     orphans: 3;
     widows: 3;
   }
+
+  /* Statblocks ficam inteiros na mesma página */
+  .statblock {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
 

@@ -122,6 +122,8 @@ A forma de Rayna se dissolve. Belial está na sala.
 
 ## Elenco
 
+<div class="statblock" markdown="1">
+
 ### Serpente Humana (Guarda-Falso)
 
 CA 13 | PV 20 | MV Próximo | PA 3
@@ -134,7 +136,11 @@ CA 13 | PV 20 | MV Próximo | PA 3
 
 **Dissolução:** Quando reduzida a 0 PV, o corpo se dissolve em poça de ácido esverdeado. Quem estiver Adjacente faz Salvaguarda de DES DC 12 ou sofre 1d4 Veneno.
 
+</div>
+
 ---
+
+<div class="statblock" markdown="1">
 
 ### Belial — Forma Enfraquecida *(statblock combinado)*
 
@@ -162,7 +168,11 @@ RD 8 Veneno. Imune a charme e medo.
 **Passivos:**
 - **Sempre Mentindo:** No início de cada turno de Belial, ele troca de posição com uma Duplicata ativa (se houver). Mova o token em segredo.
 
+</div>
+
 ---
+
+<div class="statblock" markdown="1">
 
 ### Fase 2 — Revelação Devastadora *(Forma Plena)*
 
@@ -192,13 +202,19 @@ RD 10 Veneno. RD 5 Físico. Imune a charme, medo e paralisia.
 - **Senhor das Mentiras:** Duplicatas Demoníacas a distância Próximo ganham +2 em ataques e têm PV 20 em vez de 12.
 - **Sempre Mentindo:** No início de cada turno de Belial, ele troca de posição com uma Duplicata ativa (se houver). Mova o token em segredo.
 
+</div>
+
 ---
+
+<div class="statblock" markdown="1">
 
 ### Duplicata Demoníaca *(invocada por Campo de Ilusões)*
 
 CA 12 | **PV 12** *(Fase 1)* ou **PV 20** *(Fase 2 — Senhor das Mentiras)* | MV Próximo | PA 3
 
 **Cópia:** Copia a aparência de um personagem aleatório. Revelar (◈, SAB DC 14) expõe a cópia — após revelada, tem Desvantagem em ataques. Quando reduzida a 0 PV ou revelada: 1d6 Psíquico em todos que a estavam atacando.
+
+</div>
 
 ---
 
